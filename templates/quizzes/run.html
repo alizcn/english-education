@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block title %}Quiz — {{ current_num }}/{{ session.total_questions }}{% endblock %}
+
+{% block content %}
+<div class="quiz-wrap">
+    <div class="quiz-topbar">
+        <div>
+            {% if session.topic %}<strong>{{ session.topic.name }}</strong> · {% endif %}
+            Soru {{ current_num }}/{{ session.total_questions }}
+        </div>
+        <div class="quiz-score">
+            <span class="good">✓ {{ session.correct_count }}</span>
+            <span class="bad">✗ {{ session.wrong_count }}</span>
+        </div>
+    </div>
+    <div class="progress"><div class="progress-fill" style="width: {{ session.progress_percent }}%"></div></div>
+
+    <div class="quiz-card">
+        <div class="quiz-type-chip">{{ question.get_question_type_display }}</div>
+        <div class="quiz-prompt">{{ question.prompt }}</div>
+
+        <form method="post" action="{% url 'quizzes:answer' session.pk %}">
+            {% csrf_token %}
+            <input type="hidden" name="question_id" value="{{ question.pk }}">
+
+            {% if question.question_type == 'multiple_choice' and question.choices %}
+                {% for choice in question.choices %}
+                <label class="choice">
+                    <input type="radio" name="answer" value="{{ choice }}" required>
+                    {{ choice }}
+                </label>
+                {% endfor %}
+            {% else %}
+                <input type="text" name="answer" autofocus autocomplete="off" required placeholder="Cevabın...">
+            {% endif %}
+
+            <div class="btn-row mt-2">
+                <button type="submit" class="btn btn-lg" style="flex:1;">Cevapla →</button>
+                <a href="{% url 'quizzes:result' session.pk %}" class="btn btn-ghost">Bitir</a>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

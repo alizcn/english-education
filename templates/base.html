@@ -1,0 +1,79 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#4f46e5">
+    <title>{% block title %}English{% endblock %} · Learning</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/app.css' %}">
+</head>
+<body>
+
+<header class="topbar">
+    <div class="topbar-inner">
+        <a href="{% url 'dashboard:home' %}" class="brand">
+            <span class="brand-logo">📘</span>
+            <span class="brand-text">English<span class="brand-dot">.</span></span>
+        </a>
+        <nav class="topnav">
+            <a href="{% url 'dashboard:home' %}" class="topnav-link {% if request.resolver_match.url_name == 'home' %}active{% endif %}">Ana Sayfa</a>
+            <a href="{% url 'wordbank:levels' %}" class="topnav-link {% if 'wordbank' in request.resolver_match.namespaces %}active{% endif %}">Kelime Hazinesi</a>
+            <a href="{% url 'vocabulary:list' %}" class="topnav-link {% if 'vocabulary' in request.resolver_match.namespaces or 'quizzes' in request.resolver_match.namespaces %}active{% endif %}">Kelimelerim</a>
+            <a href="{% url 'topics:list' %}" class="topnav-link {% if 'topics' in request.resolver_match.namespaces %}active{% endif %}">Konular</a>
+            <a href="{% url 'chat:page' %}" class="topnav-link {% if 'chat' in request.resolver_match.namespaces %}active{% endif %}">AI Chat</a>
+        </nav>
+        {% if user.is_authenticated %}
+        <div style="display:flex; align-items:center; gap:0.35rem;">
+            <span class="user-chip">
+                <span class="user-avatar">{{ user.username|first }}</span>
+                <span style="display:none;" class="user-name">{{ user.username }}</span>
+            </span>
+            <form method="post" action="{% url 'accounts:logout' %}" class="logout-form">
+                {% csrf_token %}
+                <button type="submit" class="logout-btn" title="Çıkış">⎋</button>
+            </form>
+        </div>
+        {% endif %}
+    </div>
+</header>
+
+<main class="main">
+    {% if messages %}
+    <div class="flash-wrap">
+        {% for message in messages %}
+        <div class="flash flash-{{ message.tags }}">{{ message }}</div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% block content %}{% endblock %}
+</main>
+
+<nav class="bottomnav">
+    <a href="{% url 'dashboard:home' %}" class="bn-item {% if request.resolver_match.url_name == 'home' %}active{% endif %}">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l9-9 9 9"/><path d="M5 10v10h14V10"/></svg>
+        <span>Ana</span>
+    </a>
+    <a href="{% url 'wordbank:levels' %}" class="bn-item {% if 'wordbank' in request.resolver_match.namespaces %}active{% endif %}">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        <span>Hazine</span>
+    </a>
+    <a href="{% url 'vocabulary:list' %}" class="bn-item {% if 'vocabulary' in request.resolver_match.namespaces or 'quizzes' in request.resolver_match.namespaces %}active{% endif %}">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>
+        <span>Kelimem</span>
+    </a>
+    <a href="{% url 'topics:list' %}" class="bn-item {% if 'topics' in request.resolver_match.namespaces %}active{% endif %}">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0H5a2 2 0 0 1-2-2v-4m6 6h10a2 2 0 0 0 2-2v-4"/></svg>
+        <span>Konu</span>
+    </a>
+    <a href="{% url 'chat:page' %}" class="bn-item {% if 'chat' in request.resolver_match.namespaces %}active{% endif %}">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        <span>Chat</span>
+    </a>
+</nav>
+
+</body>
+</html>

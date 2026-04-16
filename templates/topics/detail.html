@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% block title %}{{ topic.name }}{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <div>
+        <a href="{% url 'topics:list' %}" class="muted" style="font-size:0.85rem;">← Konular</a>
+        <h2 style="margin-top:0.25rem;">
+            {{ topic.name }}
+            {% if is_completed %}<span class="badge badge-success">✓ Bitti</span>{% endif %}
+        </h2>
+    </div>
+</div>
+
+<div class="card mb-2">
+    <p style="margin:0; color:var(--text);">{{ topic.explanation }}</p>
+</div>
+
+<div class="btn-row mb-2">
+    <a href="{% url 'quizzes:topic_picker' topic.slug %}" class="btn" style="flex:1;">
+        ⚡ Quizlere git
+    </a>
+    <form method="post" action="{% url 'topics:toggle_done' topic.slug %}" style="margin:0;">
+        {% csrf_token %}
+        <button type="submit" class="btn {% if is_completed %}btn-secondary{% else %}btn-success{% endif %}">
+            {% if is_completed %}↺ Tekrar aktif{% else %}✓ Bitti{% endif %}
+        </button>
+    </form>
+</div>
+
+<section class="example-group">
+    <div class="example-heading pos"><span class="dot"></span> Olumlu</div>
+    {% for e in positives %}
+    <div class="example-item pos">
+        <div class="en">{{ e.sentence_en }}</div>
+        <div class="tr">{{ e.sentence_tr }}</div>
+    </div>
+    {% endfor %}
+</section>
+
+<section class="example-group">
+    <div class="example-heading neg"><span class="dot"></span> Olumsuz</div>
+    {% for e in negatives %}
+    <div class="example-item neg">
+        <div class="en">{{ e.sentence_en }}</div>
+        <div class="tr">{{ e.sentence_tr }}</div>
+    </div>
+    {% endfor %}
+</section>
+
+<section class="example-group">
+    <div class="example-heading q"><span class="dot"></span> Soru</div>
+    {% for e in questions %}
+    <div class="example-item q">
+        <div class="en">{{ e.sentence_en }}</div>
+        <div class="tr">{{ e.sentence_tr }}</div>
+    </div>
+    {% endfor %}
+</section>
+{% endblock %}

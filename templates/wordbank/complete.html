@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block title %}{{ level }} Tamamlandı!{% endblock %}
+
+{% block content %}
+<div class="quiz-wrap">
+    <div class="hero" style="text-align:center;">
+        <div style="font-size:3rem; line-height:1;">🏆</div>
+        <h1 style="margin-top:0.5rem;">{{ level }} Tamamlandı!</h1>
+        <p class="hero-subtitle">Tüm {{ stats.total }} kelimeyi öğrendin</p>
+    </div>
+
+    <div class="card">
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+            <div>
+                <div style="font-size:0.8rem; color:var(--text-muted); font-weight:600; text-transform:uppercase; letter-spacing:0.05em;">Öğrenim</div>
+                <div style="font-size:2rem; font-weight:800; color:var(--success);">{{ stats.mastered }} / {{ stats.total }}</div>
+            </div>
+            <div>
+                <span class="badge badge-success">✓ {{ stats.mastered }}</span>
+            </div>
+        </div>
+        <div class="progress success mt-1"><div class="progress-fill" style="width: 100%"></div></div>
+    </div>
+
+    <div class="btn-row mt-3">
+        {% if level == 'A1' %}
+        <a href="{% url 'wordbank:quiz' 'A2' %}" class="btn btn-lg" style="flex:1;">A2'ye geç →</a>
+        {% elif level == 'A2' %}
+        <a href="{% url 'wordbank:quiz' 'B1' %}" class="btn btn-lg" style="flex:1;">B1'e geç →</a>
+        {% else %}
+        <a href="{% url 'wordbank:levels' %}" class="btn btn-lg" style="flex:1;">Seviyeler</a>
+        {% endif %}
+        <form method="post" action="{% url 'wordbank:reset' level %}" style="margin:0;"
+              onsubmit="return confirm('{{ level }} ilerlemen sıfırlansın mı?');">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-secondary">{{ level }}'i sıfırla</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

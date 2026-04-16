@@ -1,0 +1,22 @@
+{% extends 'accounts/_auth_base.html' %}
+{% block auth_title %}Giriş yap{% endblock %}
+{% block auth_content %}
+<form method="post">
+    {% csrf_token %}
+    {% if form.non_field_errors %}
+        <div class="flash flash-error">{{ form.non_field_errors|join:" " }}</div>
+    {% endif %}
+    <label>
+        Kullanıcı adı
+        <input type="text" name="username" autofocus required>
+    </label>
+    <label>
+        Şifre
+        <input type="password" name="password" required>
+    </label>
+    <button type="submit" class="btn btn-lg btn-block">Giriş yap</button>
+</form>
+<p class="text-center mt-2 muted">
+    Hesabın yok mu? <a href="{% url 'accounts:signup' %}">Kayıt ol</a>
+</p>
+{% endblock %}

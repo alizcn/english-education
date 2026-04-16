@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% block title %}Kelime düzenle{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h2>Kelime düzenle</h2>
+    <a href="{% url 'vocabulary:list' %}" class="btn btn-ghost btn-sm">← Geri</a>
+</div>
+
+<div class="card">
+    <form method="post">
+        {% csrf_token %}
+        <label>English
+            <input type="text" name="english" value="{{ word.english }}" required>
+        </label>
+        <label>Türkçe
+            <input type="text" name="turkish" value="{{ word.turkish }}" required>
+        </label>
+        <label>Örnek (EN)
+            <input type="text" name="example_en" value="{{ word.example_en }}">
+        </label>
+        <label>Örnek (TR)
+            <input type="text" name="example_tr" value="{{ word.example_tr }}">
+        </label>
+        <label>Sözcük türü
+            <input type="text" name="part_of_speech" value="{{ word.part_of_speech }}">
+        </label>
+        <label>Kaynak
+            <input type="text" name="source" value="{{ word.source }}">
+        </label>
+        <div class="btn-row mt-2">
+            <button type="submit" class="btn">Kaydet</button>
+            <a href="{% url 'vocabulary:list' %}" class="btn btn-secondary">Vazgeç</a>
+        </div>
+    </form>
+</div>
+{% endblock %}

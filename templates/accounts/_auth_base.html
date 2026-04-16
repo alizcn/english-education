@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#4f46e5">
+    <title>{% block auth_title %}{% endblock %} · English</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/app.css' %}">
+</head>
+<body class="auth-body">
+
+<div class="auth-shell">
+    <a href="{% url 'accounts:login' %}" class="brand" style="justify-content:center; margin-bottom:1.5rem; font-size:1.4rem;">
+        <span class="brand-logo" style="font-size:1.6rem;">📘</span>
+        <span class="brand-text">English<span class="brand-dot">.</span></span>
+    </a>
+
+    <div class="auth-card">
+        <h2 style="margin-bottom:1.25rem; text-align:center;">{% block auth_heading %}{{ self.auth_title|default:'' }}{% endblock %}</h2>
+        {% if messages %}
+        <div class="flash-wrap">
+            {% for message in messages %}
+            <div class="flash flash-{{ message.tags }}">{{ message }}</div>
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% block auth_content %}{% endblock %}
+    </div>
+</div>
+
+</body>
+</html>

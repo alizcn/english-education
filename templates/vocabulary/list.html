@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% block title %}Kelimeler{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <div>
+        <h2>Kelimeler</h2>
+        <small class="muted">{{ words|length }} kayıt</small>
+    </div>
+    <div class="btn-row">
+        <a href="{% url 'quizzes:word_picker' %}" class="btn btn-secondary btn-sm">Quiz</a>
+        <a href="{% url 'vocabulary:bulk_add' %}" class="btn btn-sm">＋ Ekle</a>
+    </div>
+</div>
+
+<form method="get" class="searchbar">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="search" name="q" value="{{ q }}" placeholder="İngilizce veya Türkçe ara...">
+</form>
+
+{% if words %}
+<div>
+    {% for w in words %}
+    <div class="word-card">
+        <div class="word-head">
+            <div>
+                <div class="word-en">{{ w.english }}</div>
+                {% if w.part_of_speech %}<span class="badge">{{ w.part_of_speech }}</span>{% endif %}
+            </div>
+            <div class="word-tr">{{ w.turkish }}</div>
+        </div>
+        {% if w.example_en %}
+        <div class="word-example">
+            <div class="en">{{ w.example_en }}</div>
+            <div class="tr">{{ w.example_tr }}</div>
+        </div>
+        {% else %}
+        <div></div>
+        {% endif %}
+        <div class="word-actions">
+            <a href="{% url 'vocabulary:edit' w.pk %}" class="btn btn-ghost btn-sm">✎</a>
+            <form method="post" action="{% url 'vocabulary:delete' w.pk %}" style="margin:0;"
+                  onsubmit="return confirm('Silinsin mi?');">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-ghost btn-sm">✕</button>
+            </form>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+<div class="empty">
+    <div class="empty-icon">📝</div>
+    <p>Henüz kelime yok.</p>
+    <a href="{% url 'vocabulary:bulk_add' %}" class="btn mt-1">İlk kelimeni ekle</a>
+</div>
+{% endif %}
+{% endblock %}

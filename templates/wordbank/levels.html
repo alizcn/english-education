@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block title %}Kelime Hazinesi{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <div>
+        <h2>Kelime Hazinesi</h2>
+        <p class="muted" style="margin:0; font-size:0.92rem;">Her seviyede sırayla ilerle · Yanlışların otomatik geri döner</p>
+    </div>
+</div>
+
+<div class="list mt-2">
+    {% for l in levels %}
+    <div class="level-card level-{{ l.level|lower }}">
+        <div class="level-head">
+            <div>
+                <div class="level-code">{{ l.level }}</div>
+                <div class="level-label">{{ l.label }}</div>
+            </div>
+            <div class="level-percent">{{ l.percent }}%</div>
+        </div>
+        <div class="progress success"><div class="progress-fill" style="width: {{ l.percent }}%"></div></div>
+        <div class="level-stats">
+            <span class="stat-chip stat-chip-success">✓ {{ l.mastered }} öğrendin</span>
+            <span class="stat-chip stat-chip-warning">⟳ {{ l.retry }} tekrar</span>
+            <span class="stat-chip">⏳ {{ l.unseen }} kalan</span>
+        </div>
+        <div class="level-actions">
+            <a href="{% url 'wordbank:quiz' l.level %}" class="btn" style="flex:1;">
+                {% if l.answered > 0 %}Devam et →{% else %}Başla →{% endif %}
+            </a>
+            {% if l.answered > 0 %}
+            <form method="post" action="{% url 'wordbank:reset' l.level %}" style="margin:0;"
+                  onsubmit="return confirm('{{ l.level }} ilerlemen sıfırlansın mı?');">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-secondary btn-sm">Sıfırla</button>
+            </form>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

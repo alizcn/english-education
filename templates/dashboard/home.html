@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+{% block title %}Ana Sayfa{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <h1>Hoş geldin 👋</h1>
+    <p class="hero-subtitle">Bugün ne çalışmak istersin?</p>
+</section>
+
+{% if bank_total %}
+<a href="{% url 'wordbank:levels' %}" class="bank-banner" style="text-decoration:none;">
+    <div class="bank-banner-icon">📚</div>
+    <div class="bank-banner-body">
+        <div class="bank-banner-title">Kelime Hazinesi</div>
+        <div class="bank-banner-sub">
+            {% for l in bank_levels %}{{ l.code }}: {{ l.mastered }}/{{ l.total }}{% if not forloop.last %} · {% endif %}{% endfor %}
+        </div>
+        <div class="bank-banner-progress"><div style="width: {{ bank_percent }}%"></div></div>
+    </div>
+    <span class="btn btn-sm" style="white-space:nowrap;">Çalışmaya devam →</span>
+</a>
+{% endif %}
+
+<div class="stats-grid">
+    <div class="stat">
+        <div class="stat-label">Kelime</div>
+        <div class="stat-value">{{ total_words }}</div>
+        <div class="stat-sub">Toplam kayıt</div>
+    </div>
+    <div class="stat">
+        <div class="stat-label">Konular</div>
+        <div class="stat-value">{{ done_topics }}<span style="color:var(--text-soft); font-size:0.7em;">/{{ total_topics }}</span></div>
+        <div class="progress success"><div class="progress-fill" style="width: {{ topic_percent }}%"></div></div>
+    </div>
+    <div class="stat">
+        <div class="stat-label">İlerleme</div>
+        <div class="stat-value">{{ topic_percent }}<span style="color:var(--text-soft); font-size:0.6em;">%</span></div>
+        <div class="stat-sub">Tamamlanan konu</div>
+    </div>
+    <div class="stat">
+        <div class="stat-label">Quiz</div>
+        <div class="stat-value">{{ recent_quizzes|length }}</div>
+        <div class="stat-sub">Son bitirilen</div>
+    </div>
+</div>
+
+<div class="section-title">Hızlı Başla</div>
+<div class="actions-grid">
+    <a href="{% url 'vocabulary:bulk_add' %}" class="action-card">
+        <div class="action-card-icon">＋</div>
+        <div class="action-card-title">Kelime ekle</div>
+        <div class="action-card-desc">AI ile toplu çeviri</div>
+    </a>
+    <a href="{% url 'quizzes:word_picker' %}" class="action-card">
+        <div class="action-card-icon success">⚡</div>
+        <div class="action-card-title">Kelime Quiz</div>
+        <div class="action-card-desc">50 soruluk oturum</div>
+    </a>
+    <a href="{% url 'topics:list' %}" class="action-card">
+        <div class="action-card-icon accent">📚</div>
+        <div class="action-card-title">Konu çalış</div>
+        <div class="action-card-desc">Zamanlar ve daha fazlası</div>
+    </a>
+    <a href="{% url 'chat:page' %}" class="action-card">
+        <div class="action-card-icon warning">💬</div>
+        <div class="action-card-title">AI ile pratik</div>
+        <div class="action-card-desc">Canlı sohbet</div>
+    </a>
+</div>
+
+{% if pending_topics %}
+<div class="section-title">Devam eden konular</div>
+<div class="list">
+    {% for t in pending_topics %}
+    <a href="{% url 'topics:detail' t.slug %}" class="topic-card">
+        <div class="topic-name">{{ t.name }}</div>
+        <span class="badge badge-primary">çalış →</span>
+    </a>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% if recent_quizzes %}
+<div class="section-title">Son quiz skorları</div>
+<div class="list">
+    {% for q in recent_quizzes %}
+    <div class="list-item">
+        <div>
+            <div style="font-weight:600;">
+                {% if q.topic %}{{ q.topic.name }}{% else %}Kelime quizi{% endif %}
+            </div>
+            <small>{{ q.finished_at|date:"d M · H:i" }}</small>
+        </div>
+        <span class="badge {% if q.score_percent >= 70 %}badge-success{% elif q.score_percent >= 40 %}badge-primary{% else %}badge-danger{% endif %}">
+            {{ q.correct_count }}/{{ q.answered_count }} · {{ q.score_percent }}%
+        </span>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% if not recent_quizzes and not pending_topics %}
+<div class="empty">
+    <div class="empty-icon">🎉</div>
+    <p>Başlamaya hazırsın!</p>
+</div>
+{% endif %}
+{% endblock %}

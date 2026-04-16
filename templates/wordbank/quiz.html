@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block title %}{{ level }} · Kelime Hazinesi{% endblock %}
+
+{% block content %}
+<div class="quiz-wrap">
+    <div class="quiz-topbar">
+        <a href="{% url 'wordbank:levels' %}" class="muted">← Seviyeler</a>
+        <div><strong>{{ level }}</strong> · {{ label }}</div>
+    </div>
+
+    <div class="quiz-topbar" style="margin-top:0.75rem;">
+        <div>Öğrendiğin: <strong>{{ stats.mastered }} / {{ stats.total }}</strong></div>
+        <div class="quiz-score">
+            <span class="good">✓ {{ stats.mastered }}</span>
+            <span style="color:var(--warning);">⟳ {{ stats.retry }}</span>
+        </div>
+    </div>
+    <div class="progress success"><div class="progress-fill" style="width: {{ stats.percent }}%"></div></div>
+
+    <div class="quiz-card">
+        <div style="display:flex; gap:0.4rem; margin-bottom:0.75rem;">
+            <span class="quiz-type-chip">Çoktan Seçmeli</span>
+            {% if is_retry %}<span class="retry-chip">TEKRAR</span>{% endif %}
+        </div>
+
+        <div class="bank-word">{{ word.english }}</div>
+        {% if word.part_of_speech %}
+        <div class="bank-pos">{{ word.part_of_speech }}</div>
+        {% endif %}
+
+        {% if word.example_en %}
+        <div class="bank-example">"{{ word.example_en }}"</div>
+        {% endif %}
+
+        <form method="post" action="{% url 'wordbank:answer' level %}" class="mt-2">
+            {% csrf_token %}
+            <input type="hidden" name="word_id" value="{{ word.pk }}">
+            {% for opt in options %}
+            <label class="choice">
+                <input type="radio" name="answer" value="{{ opt }}" required>
+                {{ opt }}
+            </label>
+            {% endfor %}
+            <button type="submit" class="btn btn-lg btn-block mt-2">Cevapla →</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

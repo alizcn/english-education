@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block title %}Sonuç{% endblock %}
+
+{% block content %}
+<div class="quiz-wrap">
+    <div class="quiz-topbar">
+        <div>Soru {{ question.order|add:1 }}/{{ session.total_questions }}</div>
+        <div class="quiz-score">
+            <span class="good">✓ {{ session.correct_count }}</span>
+            <span class="bad">✗ {{ session.wrong_count }}</span>
+        </div>
+    </div>
+    <div class="progress"><div class="progress-fill" style="width: {{ session.progress_percent }}%"></div></div>
+
+    <div class="quiz-card">
+        <div class="quiz-prompt" style="font-size:1rem; color:var(--text-muted); font-weight:500;">{{ question.prompt }}</div>
+
+        <div class="feedback-box {% if correct %}correct{% else %}wrong{% endif %}">
+            {% if correct %}
+                <div class="feedback-label">✓ Doğru!</div>
+                <div style="margin-top:0.25rem;">Cevabın: <strong>{{ question.user_answer }}</strong></div>
+            {% else %}
+                <div class="feedback-label">✗ Yanlış</div>
+                <div style="margin-top:0.25rem;">Senin: <em>{{ question.user_answer|default:"(boş)" }}</em></div>
+                <div>Doğrusu: <strong>{{ question.correct_answer }}</strong></div>
+            {% endif %}
+        </div>
+
+        <div class="btn-row mt-2">
+            <a href="{% url 'quizzes:run' session.pk %}" class="btn btn-lg" style="flex:1;">Sıradaki →</a>
+            <a href="{% url 'quizzes:result' session.pk %}" class="btn btn-ghost">Bitir</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
