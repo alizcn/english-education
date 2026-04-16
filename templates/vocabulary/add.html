@@ -1,28 +1,29 @@
 {% extends 'base.html' %}
-{% block title %}Kelime ekle{% endblock %}
+{% load i18n %}
+{% block title %}{% trans "Kelime ekle" %}{% endblock %}
 
 {% block content %}
 <div class="page-header">
-    <h2>Kelime ekle</h2>
-    <a href="{% url 'vocabulary:list' %}" class="btn btn-ghost btn-sm">← Geri</a>
+    <h2>{% trans "Kelime ekle" %}</h2>
+    <a href="{% url 'vocabulary:list' %}" class="btn btn-ghost btn-sm">← {% trans "Geri" %}</a>
 </div>
 
 <div class="card">
-    <p class="muted" style="margin-top:0;">İngilizce kelimeleri virgül veya satır başı ile ayırarak yaz. AI anlamlarını ve örnek cümleleri doldurup kaydedecek.</p>
+    <p class="muted" style="margin-top:0;">{% trans "İngilizce kelimeleri virgül veya satır başı ile ayırarak yaz. AI anlamlarını ve örnek cümleleri doldurup kaydedecek." %}</p>
 
     <form method="post">
         {% csrf_token %}
         <label>
-            Kelimeler
+            {% trans "Kelimeler" %}
             <textarea name="words" placeholder="go&#10;eat&#10;beautiful, mountain, make up your mind" required>{{ raw }}</textarea>
         </label>
         <label>
-            Kaynak <span class="muted" style="font-weight:400;">(opsiyonel)</span>
-            <input type="text" name="source" value="{{ source }}" placeholder="ör: hoca, kitap, podcast...">
+            {% trans "Kaynak" %} <span class="muted" style="font-weight:400;">({% trans "opsiyonel" %})</span>
+            <input type="text" name="source" value="{{ source }}" placeholder="{% trans "ör: hoca, kitap, podcast..." %}">
         </label>
         <div class="btn-row mt-2">
-            <button type="submit" class="btn btn-lg">AI ile çevir ve kaydet</button>
-            <a href="{% url 'vocabulary:list' %}" class="btn btn-secondary">Vazgeç</a>
+            <button type="submit" class="btn btn-lg">{% trans "AI ile çevir ve kaydet" %}</button>
+            <a href="{% url 'vocabulary:list' %}" class="btn btn-secondary">{% trans "Vazgeç" %}</a>
         </div>
     </form>
 </div>

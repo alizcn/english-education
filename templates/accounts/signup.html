@@ -1,5 +1,6 @@
 {% extends 'accounts/_auth_base.html' %}
-{% block auth_title %}Kayıt ol{% endblock %}
+{% load i18n %}
+{% block auth_title %}{% trans "Kayıt ol" %}{% endblock %}
 {% block auth_content %}
 <form method="post">
     {% csrf_token %}
@@ -7,23 +8,23 @@
         <div class="flash flash-error">{{ form.non_field_errors|join:" " }}</div>
     {% endif %}
     <label>
-        Kullanıcı adı
+        {% trans "Kullanıcı adı" %}
         <input type="text" name="username" value="{{ form.username.value|default:'' }}" autofocus required>
         {% if form.username.errors %}<small style="color:var(--danger);">{{ form.username.errors|join:" " }}</small>{% endif %}
     </label>
     <label>
-        Şifre
+        {% trans "Şifre" %}
         <input type="password" name="password1" required>
         {% if form.password1.errors %}<small style="color:var(--danger);">{{ form.password1.errors|join:" " }}</small>{% endif %}
     </label>
     <label>
-        Şifre tekrar
+        {% trans "Şifre tekrar" %}
         <input type="password" name="password2" required>
         {% if form.password2.errors %}<small style="color:var(--danger);">{{ form.password2.errors|join:" " }}</small>{% endif %}
     </label>
-    <button type="submit" class="btn btn-lg btn-block">Hesap oluştur</button>
+    <button type="submit" class="btn btn-lg btn-block">{% trans "Hesap oluştur" %}</button>
 </form>
 <p class="text-center mt-2 muted">
-    Zaten hesabın var mı? <a href="{% url 'accounts:login' %}">Giriş yap</a>
+    {% trans "Zaten hesabın var mı?" %} <a href="{% url 'accounts:login' %}">{% trans "Giriş yap" %}</a>
 </p>
 {% endblock %}

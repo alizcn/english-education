@@ -1,0 +1,748 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-16 11:50+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps/chat/models.py:26
+msgid "User"
+msgstr "User"
+
+#: apps/chat/models.py:26
+msgid "Assistant"
+msgstr "Assistant"
+
+#: apps/chat/views.py:52 apps/quizzes/views.py:70 apps/quizzes/views.py:90
+#, python-format
+msgid "AI hata: %(error)s"
+msgstr "AI error: %(error)s"
+
+#: apps/chat/views.py:63
+msgid "Yeni sohbet başlatıldı."
+msgstr "New conversation started."
+
+#: apps/quizzes/models.py:9 apps/quizzes/models.py:37
+#: templates/dashboard/home.html:31
+msgid "Kelime"
+msgstr "Word"
+
+#: apps/quizzes/models.py:9 apps/quizzes/models.py:37 templates/base.html:76
+#: templates/quizzes/result.html:56
+msgid "Konu"
+msgstr "Topic"
+
+#: apps/quizzes/models.py:97
+msgid "Çeviri EN→TR"
+msgstr "Translation EN→TR"
+
+#: apps/quizzes/models.py:98
+msgid "Çeviri TR→EN"
+msgstr "Translation TR→EN"
+
+#: apps/quizzes/models.py:99
+msgid "Boşluk doldurma"
+msgstr "Fill in the blank"
+
+#: apps/quizzes/models.py:100
+msgid "Çoktan seçmeli"
+msgstr "Multiple choice"
+
+#: apps/quizzes/views.py:62
+#, python-format
+msgid "Kelime quizi için en az %(min)d kelime gerekli. Şu an: %(total)d."
+msgstr "At least %(min)d words needed for word quiz. Currently: %(total)d."
+
+#: apps/quizzes/views.py:77
+msgid "Kelime Quizleri"
+msgstr "Word Quizzes"
+
+#: apps/quizzes/views.py:78
+msgid "Havuzdaki quizlerden birini seç. Hepsini çözdüğünde AI yenisini ekler."
+msgstr "Pick a quiz from the pool. AI adds a new one when you finish them all."
+
+#: apps/quizzes/views.py:99
+#, python-format
+msgid "%(name)s Quizleri"
+msgstr "%(name)s Quizzes"
+
+#: apps/quizzes/views.py:100
+msgid "Bu konuya özel hazır quizlerden birini seç."
+msgstr "Pick a quiz prepared for this topic."
+
+#: apps/quizzes/views.py:112
+msgid "Bu quiz şablonu boş."
+msgstr "This quiz template is empty."
+
+#: apps/topics/models.py:38 templates/topics/detail.html:33
+msgid "Olumlu"
+msgstr "Positive"
+
+#: apps/topics/models.py:39 templates/topics/detail.html:43
+msgid "Olumsuz"
+msgstr "Negative"
+
+#: apps/topics/models.py:40 templates/topics/detail.html:53
+msgid "Soru"
+msgstr "Question"
+
+#: apps/topics/views.py:52
+#, python-format
+msgid "\"%(name)s\" tekrar aktif."
+msgstr "\"%(name)s\" is active again."
+
+#: apps/topics/views.py:55
+#, python-format
+msgid "\"%(name)s\" bitti olarak işaretlendi."
+msgstr "\"%(name)s\" marked as completed."
+
+#: apps/vocabulary/views.py:48
+msgid "Hiç kelime girmedin."
+msgstr "You didn't enter any words."
+
+#: apps/vocabulary/views.py:54
+#, python-format
+msgid "AI çeviri hatası: %(error)s"
+msgstr "AI translation error: %(error)s"
+
+#: apps/vocabulary/views.py:79
+#, python-format
+msgid "%(count)d kelime eklendi."
+msgstr "%(count)d words added."
+
+#: apps/vocabulary/views.py:81
+#, python-format
+msgid "(%(count)d tanesi zaten vardı.)"
+msgstr "(%(count)d already existed.)"
+
+#: apps/vocabulary/views.py:99
+msgid "Kaydedildi."
+msgstr "Saved."
+
+#: apps/vocabulary/views.py:109
+msgid "Silindi."
+msgstr "Deleted."
+
+#: apps/vocabulary/views.py:119
+#, python-format
+msgid "Quiz için en az %(min)d kelime gerekli. Şu an: %(total)d."
+msgstr "At least %(min)d words needed for quiz. Currently: %(total)d."
+
+#: apps/vocabulary/views.py:161
+msgid "Quiz ilerlemen sıfırlandı."
+msgstr "Your quiz progress has been reset."
+
+#: apps/wordbank/views.py:13
+msgid "Başlangıç"
+msgstr "Beginner"
+
+#: apps/wordbank/views.py:14
+msgid "Temel Üstü"
+msgstr "Elementary"
+
+#: apps/wordbank/views.py:15
+msgid "Orta"
+msgstr "Intermediate"
+
+#: apps/wordbank/views.py:16
+msgid "Orta Üstü"
+msgstr "Upper Intermediate"
+
+#: apps/wordbank/views.py:17
+msgid "İleri"
+msgstr "Advanced"
+
+#: apps/wordbank/views.py:18
+msgid "Uzman"
+msgstr "Proficiency"
+
+#: apps/wordbank/views.py:43
+#, python-format
+msgid "%(level)s seviyesi yüklü değil."
+msgstr "%(level)s level is not loaded."
+
+#: apps/wordbank/views.py:98
+#, python-format
+msgid "%(level)s ilerlemen sıfırlandı."
+msgstr "Your %(level)s progress has been reset."
+
+#: config/settings.py:83 templates/vocabulary/edit.html:17
+msgid "Türkçe"
+msgstr "Turkish"
+
+#: config/settings.py:84 templates/vocabulary/edit.html:14
+msgid "English"
+msgstr "English"
+
+#: templates/accounts/_auth_base.html:24 templates/dashboard/home.html:10
+msgid "Practice English for Your Career."
+msgstr "Practice English for Your Career."
+
+#: templates/accounts/_auth_base.html:25 templates/dashboard/home.html:11
+msgid "Turn Your CV into Confidence."
+msgstr "Turn Your CV into Confidence."
+
+#: templates/accounts/login.html:3 templates/accounts/login.html:18
+#: templates/accounts/signup.html:28
+msgid "Giriş yap"
+msgstr "Log in"
+
+#: templates/accounts/login.html:11 templates/accounts/signup.html:11
+msgid "Kullanıcı adı"
+msgstr "Username"
+
+#: templates/accounts/login.html:15 templates/accounts/signup.html:16
+msgid "Şifre"
+msgstr "Password"
+
+#: templates/accounts/login.html:21
+msgid "Hesabın yok mu?"
+msgstr "Don't have an account?"
+
+#: templates/accounts/login.html:21 templates/accounts/signup.html:3
+msgid "Kayıt ol"
+msgstr "Sign up"
+
+#: templates/accounts/signup.html:21
+msgid "Şifre tekrar"
+msgstr "Confirm password"
+
+#: templates/accounts/signup.html:25
+msgid "Hesap oluştur"
+msgstr "Create account"
+
+#: templates/accounts/signup.html:28
+msgid "Zaten hesabın var mı?"
+msgstr "Already have an account?"
+
+#: templates/base.html:15
+msgid "Practice for Your Career"
+msgstr "Practice for Your Career"
+
+#: templates/base.html:29 templates/dashboard/home.html:3
+msgid "Ana Sayfa"
+msgstr "Home"
+
+#: templates/base.html:30 templates/dashboard/home.html:19
+#: templates/dashboard/home.html:70 templates/dashboard/home.html:132
+#: templates/wordbank/levels.html:3 templates/wordbank/levels.html:8
+#: templates/wordbank/quiz.html:3
+msgid "Kelime Hazinesi"
+msgstr "Word Treasury"
+
+#: templates/base.html:31 templates/vocabulary/list.html:3
+#: templates/vocabulary/list.html:8 templates/vocabulary/quiz.html:3
+#: templates/vocabulary/quiz.html:8 templates/vocabulary/quiz_feedback.html:3
+#: templates/vocabulary/quiz_feedback.html:8
+msgid "Kelimelerim"
+msgstr "My Words"
+
+#: templates/base.html:32 templates/dashboard/home.html:36
+#: templates/topics/detail.html:8 templates/topics/list.html:3
+msgid "Konular"
+msgstr "Topics"
+
+#: templates/base.html:33 templates/chat/page.html:3
+msgid "AI Chat"
+msgstr "AI Chat"
+
+#: templates/base.html:43
+msgid "Çıkış"
+msgstr "Logout"
+
+#: templates/base.html:64
+msgid "Ana"
+msgstr "Home"
+
+#: templates/base.html:68
+msgid "Hazine"
+msgstr "Treasury"
+
+#: templates/base.html:72
+msgid "Kelimem"
+msgstr "Words"
+
+#: templates/base.html:80
+msgid "Chat"
+msgstr "Chat"
+
+#: templates/chat/page.html:8
+msgid "AI Pratik"
+msgstr "AI Practice"
+
+#: templates/chat/page.html:9
+msgid "Yeni sohbet"
+msgstr "New chat"
+
+#: templates/chat/page.html:18
+msgid "Hey! İngilizce pratik için buradayım. İstediğin dilde yaz — mesela \\"
+msgstr "Hey! I'm here to help you practice English. Write in any language — for example, try \\"
+
+#: templates/chat/page.html:24
+msgid "Mesajını yaz..."
+msgstr "Type your message..."
+
+#: templates/chat/page.html:25
+msgid "Gönder"
+msgstr "Send"
+
+#: templates/dashboard/home.html:25
+msgid "Çalışmaya devam"
+msgstr "Continue studying"
+
+#: templates/dashboard/home.html:33
+msgid "Toplam kayıt"
+msgstr "Total records"
+
+#: templates/dashboard/home.html:41
+msgid "İlerleme"
+msgstr "Progress"
+
+#: templates/dashboard/home.html:43
+msgid "Tamamlanan konu"
+msgstr "Topics completed"
+
+#: templates/dashboard/home.html:46 templates/quizzes/run.html:3
+#: templates/topics/list.html:29 templates/vocabulary/quiz.html:3
+msgid "Quiz"
+msgstr "Quiz"
+
+#: templates/dashboard/home.html:48
+msgid "Son bitirilen"
+msgstr "Recently finished"
+
+#: templates/dashboard/home.html:53
+msgid "Haftalık İlerleme"
+msgstr "Weekly Progress"
+
+#: templates/dashboard/home.html:57
+msgid "Henüz veri yok — kelime çalışmaya başladığında grafik burada görünecek."
+msgstr "No data yet — the chart will appear once you start studying."
+
+#: templates/dashboard/home.html:61
+msgid "Hızlı Başla"
+msgstr "Quick Start"
+
+#: templates/dashboard/home.html:65 templates/vocabulary/add.html:3
+#: templates/vocabulary/add.html:7
+msgid "Kelime ekle"
+msgstr "Add words"
+
+#: templates/dashboard/home.html:66
+msgid "AI ile toplu çeviri"
+msgstr "Batch AI translation"
+
+#: templates/dashboard/home.html:71
+msgid "Seviye seç, çalış"
+msgstr "Pick a level, study"
+
+#: templates/dashboard/home.html:75
+msgid "Konu çalış"
+msgstr "Study topics"
+
+#: templates/dashboard/home.html:76
+msgid "Zamanlar ve daha fazlası"
+msgstr "Tenses and more"
+
+#: templates/dashboard/home.html:80
+msgid "AI ile pratik"
+msgstr "Practice with AI"
+
+#: templates/dashboard/home.html:81
+msgid "Canlı sohbet"
+msgstr "Live chat"
+
+#: templates/dashboard/home.html:86
+msgid "Devam eden konular"
+msgstr "Topics in progress"
+
+#: templates/dashboard/home.html:91
+msgid "çalış"
+msgstr "study"
+
+#: templates/dashboard/home.html:98
+msgid "Son quiz skorları"
+msgstr "Recent quiz scores"
+
+#: templates/dashboard/home.html:104
+msgid "Kelime quizi"
+msgstr "Word quiz"
+
+#: templates/dashboard/home.html:119
+msgid "Başlamaya hazırsın!"
+msgstr "You're ready to start!"
+
+#: templates/dashboard/home.html:139
+msgid "Kişisel Kelimeler"
+msgstr "Personal Words"
+
+#: templates/quizzes/feedback.html:3 templates/vocabulary/quiz_feedback.html:3
+#: templates/wordbank/feedback.html:3
+msgid "Sonuç"
+msgstr "Result"
+
+#: templates/quizzes/feedback.html:8 templates/quizzes/run.html:10
+#, python-format
+msgid "Soru %(current)s/%(total)s"
+msgstr "Question %(current)s/%(total)s"
+
+#: templates/quizzes/feedback.html:21
+#: templates/vocabulary/quiz_feedback.html:23
+#: templates/wordbank/feedback.html:23
+msgid "✓ Doğru!"
+msgstr "✓ Correct!"
+
+#: templates/quizzes/feedback.html:22
+msgid "Cevabın:"
+msgstr "Your answer:"
+
+#: templates/quizzes/feedback.html:24
+msgid "✗ Yanlış"
+msgstr "✗ Wrong"
+
+#: templates/quizzes/feedback.html:25 templates/quizzes/result.html:46
+#: templates/vocabulary/quiz_feedback.html:32
+#: templates/wordbank/feedback.html:31
+msgid "Senin:"
+msgstr "Yours:"
+
+#: templates/quizzes/feedback.html:26 templates/quizzes/result.html:47
+#: templates/vocabulary/quiz_feedback.html:33
+#: templates/wordbank/feedback.html:32
+msgid "Doğrusu:"
+msgstr "Correct:"
+
+#: templates/quizzes/feedback.html:31
+#: templates/vocabulary/quiz_feedback.html:51
+#: templates/wordbank/feedback.html:49
+msgid "Sıradaki"
+msgstr "Next"
+
+#: templates/quizzes/feedback.html:32 templates/quizzes/run.html:40
+msgid "Bitir"
+msgstr "Finish"
+
+#: templates/quizzes/picker.html:13
+#, python-format
+msgid "%(ready)s / %(target)s hazır"
+msgstr "%(ready)s / %(target)s ready"
+
+#: templates/quizzes/picker.html:25
+msgid "✓ Bitirdin"
+msgstr "✓ Completed"
+
+#: templates/quizzes/picker.html:28
+#, python-format
+msgid "%(count)s soru"
+msgstr "%(count)s questions"
+
+#: templates/quizzes/picker.html:29
+#, python-format
+msgid "son skor %(score)s%%"
+msgstr "last score %(score)s%%"
+
+#: templates/quizzes/picker.html:35
+msgid "Tekrar çöz"
+msgstr "Retake"
+
+#: templates/quizzes/picker.html:35 templates/wordbank/levels.html:31
+msgid "Başla"
+msgstr "Start"
+
+#: templates/quizzes/picker.html:44
+#, python-format
+msgid "💡 Havuz %(target)s'e ulaşana kadar, her quiz bitiminde AI yeni bir quiz ekleyecek."
+msgstr "💡 AI will add a new quiz after each completion until the pool reaches %(target)s."
+
+#: templates/quizzes/picker.html:51
+msgid "Quiz üretilemedi. API key'i kontrol et ve sayfayı yenile."
+msgstr "Quiz could not be generated. Check your API key and refresh the page."
+
+#: templates/quizzes/result.html:3
+msgid "Quiz Sonucu"
+msgstr "Quiz Result"
+
+#: templates/quizzes/result.html:14
+msgid "Harika!"
+msgstr "Excellent!"
+
+#: templates/quizzes/result.html:15
+msgid "İyi iş!"
+msgstr "Good job!"
+
+#: templates/quizzes/result.html:16
+msgid "Devam et!"
+msgstr "Keep going!"
+
+#: templates/quizzes/result.html:20
+#, python-format
+msgid "%(correct)s/%(answered)s doğru (%(percent)s%%)"
+msgstr "%(correct)s/%(answered)s correct (%(percent)s%%)"
+
+#: templates/quizzes/result.html:27
+msgid "Skor"
+msgstr "Score"
+
+#: templates/quizzes/result.html:41
+#, python-format
+msgid "Yanlışların (%(count)s)"
+msgstr "Your mistakes (%(count)s)"
+
+#: templates/quizzes/result.html:55 templates/quizzes/result.html:58
+msgid "Quizlere dön"
+msgstr "Back to quizzes"
+
+#: templates/quizzes/result.html:59 templates/vocabulary/add.html:17
+msgid "Kelimeler"
+msgstr "Words"
+
+#: templates/quizzes/run.html:35
+msgid "Cevabın..."
+msgstr "Your answer..."
+
+#: templates/quizzes/run.html:39 templates/vocabulary/quiz.html:45
+#: templates/wordbank/quiz.html:45
+msgid "Cevapla"
+msgstr "Answer"
+
+#: templates/topics/detail.html:11
+msgid "✓ Bitti"
+msgstr "✓ Done"
+
+#: templates/topics/detail.html:22
+msgid "Quizlere git"
+msgstr "Go to quizzes"
+
+#: templates/topics/detail.html:27
+msgid "Tekrar aktif"
+msgstr "Reactivate"
+
+#: templates/topics/detail.html:27
+msgid "Bitti"
+msgstr "Done"
+
+#: templates/topics/list.html:7
+msgid "Gramer Konuları"
+msgstr "Grammar Topics"
+
+#: templates/topics/list.html:14
+msgid "konu tamamlandı"
+msgstr "topics completed"
+
+#: templates/vocabulary/add.html:8 templates/vocabulary/edit.html:8
+msgid "Geri"
+msgstr "Back"
+
+#: templates/vocabulary/add.html:12
+msgid "İngilizce kelimeleri virgül veya satır başı ile ayırarak yaz. AI anlamlarını ve örnek cümleleri doldurup kaydedecek."
+msgstr "Enter English words separated by commas or new lines. AI will fill in meanings and example sentences."
+
+#: templates/vocabulary/add.html:21 templates/vocabulary/edit.html:29
+msgid "Kaynak"
+msgstr "Source"
+
+#: templates/vocabulary/add.html:21
+msgid "opsiyonel"
+msgstr "optional"
+
+#: templates/vocabulary/add.html:22
+msgid "ör: hoca, kitap, podcast..."
+msgstr "e.g. teacher, book, podcast..."
+
+#: templates/vocabulary/add.html:25
+msgid "AI ile çevir ve kaydet"
+msgstr "Translate with AI and save"
+
+#: templates/vocabulary/add.html:26 templates/vocabulary/edit.html:34
+msgid "Vazgeç"
+msgstr "Cancel"
+
+#: templates/vocabulary/edit.html:3 templates/vocabulary/edit.html:7
+msgid "Kelime düzenle"
+msgstr "Edit word"
+
+#: templates/vocabulary/edit.html:20
+msgid "Örnek (EN)"
+msgstr "Example (EN)"
+
+#: templates/vocabulary/edit.html:23
+msgid "Örnek (TR)"
+msgstr "Example (TR)"
+
+#: templates/vocabulary/edit.html:26
+msgid "Sözcük türü"
+msgstr "Part of speech"
+
+#: templates/vocabulary/edit.html:33
+msgid "Kaydet"
+msgstr "Save"
+
+#: templates/vocabulary/list.html:9
+#, python-format
+msgid "<small class=\"muted\">%(count)s kayıt</small>"
+msgstr "<small class=\"muted\">%(count)s records</small>"
+
+#: templates/vocabulary/list.html:13
+msgid "Quiz çalış"
+msgstr "Study quiz"
+
+#: templates/vocabulary/list.html:15
+msgid "Ekle"
+msgstr "Add"
+
+#: templates/vocabulary/list.html:23
+msgid "Quiz İlerlemen"
+msgstr "Quiz Progress"
+
+#: templates/vocabulary/list.html:24
+#, python-format
+msgid "✓ %(mastered)s öğrendin · ⟳ %(retry)s tekrar · ⏳ %(unseen)s kalan"
+msgstr "✓ %(mastered)s learned · ⟳ %(retry)s retry · ⏳ %(unseen)s remaining"
+
+#: templates/vocabulary/list.html:34
+msgid "İngilizce veya Türkçe ara..."
+msgstr "Search English or Turkish..."
+
+#: templates/vocabulary/list.html:59
+msgid "Silinsin mi?"
+msgstr "Delete this?"
+
+#: templates/vocabulary/list.html:70
+msgid "Henüz kelime yok."
+msgstr "No words yet."
+
+#: templates/vocabulary/list.html:71
+msgid "İlk kelimeni ekle"
+msgstr "Add your first word"
+
+#: templates/vocabulary/quiz.html:9 templates/vocabulary/quiz_feedback.html:9
+msgid "Kişisel Kelime Quiz"
+msgstr "Personal Word Quiz"
+
+#: templates/vocabulary/quiz.html:13 templates/vocabulary/quiz_feedback.html:13
+#: templates/wordbank/feedback.html:13 templates/wordbank/quiz.html:13
+msgid "Öğrendiğin:"
+msgstr "Learned:"
+
+#: templates/vocabulary/quiz.html:23 templates/wordbank/quiz.html:23
+msgid "Çoktan Seçmeli"
+msgstr "Multiple Choice"
+
+#: templates/vocabulary/quiz.html:24 templates/wordbank/quiz.html:24
+msgid "TEKRAR"
+msgstr "RETRY"
+
+#: templates/vocabulary/quiz_complete.html:3
+msgid "Tüm Kelimeler Öğrenildi!"
+msgstr "All Words Learned!"
+
+#: templates/vocabulary/quiz_complete.html:9
+msgid "Hepsi tamam!"
+msgstr "All done!"
+
+#: templates/vocabulary/quiz_complete.html:10
+#, python-format
+msgid "%(total)s kelimeyi öğrendin"
+msgstr "You learned %(total)s words"
+
+#: templates/vocabulary/quiz_complete.html:16
+#: templates/wordbank/complete.html:16
+msgid "Öğrenim"
+msgstr "Learning"
+
+#: templates/vocabulary/quiz_complete.html:25
+msgid "Kelimelerime dön"
+msgstr "Back to My Words"
+
+#: templates/vocabulary/quiz_complete.html:27
+msgid "İlerlemen sıfırlansın mı?"
+msgstr "Reset your progress?"
+
+#: templates/vocabulary/quiz_complete.html:29 templates/wordbank/levels.html:37
+msgid "Sıfırla"
+msgstr "Reset"
+
+#: templates/vocabulary/quiz_feedback.html:30
+#: templates/wordbank/feedback.html:29
+msgid "✗ Yanlış — tekrar havuzuna eklendi"
+msgstr "✗ Wrong — added to retry pool"
+
+#: templates/wordbank/complete.html:3 templates/wordbank/complete.html:9
+#, python-format
+msgid "%(level)s Tamamlandı!"
+msgstr "%(level)s Completed!"
+
+#: templates/wordbank/complete.html:10
+#, python-format
+msgid "Tüm %(total)s kelimeyi öğrendin"
+msgstr "You learned all %(total)s words"
+
+#: templates/wordbank/complete.html:29
+msgid "A2'ye geç"
+msgstr "Go to A2"
+
+#: templates/wordbank/complete.html:31
+msgid "B1'e geç"
+msgstr "Go to B1"
+
+#: templates/wordbank/complete.html:33
+msgid "B2'ye geç"
+msgstr "Go to B2"
+
+#: templates/wordbank/complete.html:35
+msgid "C1'e geç"
+msgstr "Go to C1"
+
+#: templates/wordbank/complete.html:37
+msgid "C2'ye geç"
+msgstr "Go to C2"
+
+#: templates/wordbank/complete.html:39 templates/wordbank/feedback.html:8
+#: templates/wordbank/quiz.html:8
+msgid "Seviyeler"
+msgstr "Levels"
+
+#: templates/wordbank/complete.html:43 templates/wordbank/levels.html:35
+#, python-format
+msgid "%(level)s ilerlemen sıfırlansın mı?"
+msgstr "Reset your %(level)s progress?"
+
+#: templates/wordbank/complete.html:45
+#, python-format
+msgid "%(level)s'i sıfırla"
+msgstr "Reset %(level)s"
+
+#: templates/wordbank/levels.html:9
+msgid "Her seviyede sırayla ilerle · Yanlışların otomatik geri döner"
+msgstr "Progress through each level · Wrong answers come back automatically"
+
+#: templates/wordbank/levels.html:25
+#, python-format
+msgid "✓ %(mastered)s öğrendin"
+msgstr "✓ %(mastered)s learned"
+
+#: templates/wordbank/levels.html:26
+#, python-format
+msgid "⟳ %(retry)s tekrar"
+msgstr "⟳ %(retry)s retry"
+
+#: templates/wordbank/levels.html:27
+#, python-format
+msgid "⏳ %(unseen)s kalan"
+msgstr "⏳ %(unseen)s remaining"
+
+#: templates/wordbank/levels.html:31
+msgid "Devam et"
+msgstr "Continue"

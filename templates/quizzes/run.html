@@ -1,12 +1,13 @@
 {% extends 'base.html' %}
-{% block title %}Quiz — {{ current_num }}/{{ session.total_questions }}{% endblock %}
+{% load i18n %}
+{% block title %}{% trans "Quiz" %} — {{ current_num }}/{{ session.total_questions }}{% endblock %}
 
 {% block content %}
 <div class="quiz-wrap">
     <div class="quiz-topbar">
         <div>
             {% if session.topic %}<strong>{{ session.topic.name }}</strong> · {% endif %}
-            Soru {{ current_num }}/{{ session.total_questions }}
+            {% blocktrans with current=current_num total=session.total_questions %}Soru {{ current }}/{{ total }}{% endblocktrans %}
         </div>
         <div class="quiz-score">
             <span class="good">✓ {{ session.correct_count }}</span>
@@ -31,12 +32,12 @@
                 </label>
                 {% endfor %}
             {% else %}
-                <input type="text" name="answer" autofocus autocomplete="off" required placeholder="Cevabın...">
+                <input type="text" name="answer" autofocus autocomplete="off" required placeholder="{% trans "Cevabın..." %}">
             {% endif %}
 
             <div class="btn-row mt-2">
-                <button type="submit" class="btn btn-lg" style="flex:1;">Cevapla →</button>
-                <a href="{% url 'quizzes:result' session.pk %}" class="btn btn-ghost">Bitir</a>
+                <button type="submit" class="btn btn-lg" style="flex:1;">{% trans "Cevapla" %} →</button>
+                <a href="{% url 'quizzes:result' session.pk %}" class="btn btn-ghost">{% trans "Bitir" %}</a>
             </div>
         </form>
     </div>

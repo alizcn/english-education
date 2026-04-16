@@ -1,5 +1,6 @@
 {% extends 'accounts/_auth_base.html' %}
-{% block auth_title %}Giriş yap{% endblock %}
+{% load i18n %}
+{% block auth_title %}{% trans "Giriş yap" %}{% endblock %}
 {% block auth_content %}
 <form method="post">
     {% csrf_token %}
@@ -7,16 +8,16 @@
         <div class="flash flash-error">{{ form.non_field_errors|join:" " }}</div>
     {% endif %}
     <label>
-        Kullanıcı adı
+        {% trans "Kullanıcı adı" %}
         <input type="text" name="username" autofocus required>
     </label>
     <label>
-        Şifre
+        {% trans "Şifre" %}
         <input type="password" name="password" required>
     </label>
-    <button type="submit" class="btn btn-lg btn-block">Giriş yap</button>
+    <button type="submit" class="btn btn-lg btn-block">{% trans "Giriş yap" %}</button>
 </form>
 <p class="text-center mt-2 muted">
-    Hesabın yok mu? <a href="{% url 'accounts:signup' %}">Kayıt ol</a>
+    {% trans "Hesabın yok mu?" %} <a href="{% url 'accounts:signup' %}">{% trans "Kayıt ol" %}</a>
 </p>
 {% endblock %}

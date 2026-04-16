@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
-{% block title %}Quiz Sonucu{% endblock %}
+{% load i18n %}
+{% block title %}{% trans "Quiz Sonucu" %}{% endblock %}
 
 {% block content %}
 <div class="quiz-wrap">
@@ -10,20 +11,20 @@
             {% else %}💪{% endif %}
         </div>
         <h1 style="margin-top:0.5rem;">
-            {% if session.score_percent >= 80 %}Harika!
-            {% elif session.score_percent >= 50 %}İyi iş!
-            {% else %}Devam et!{% endif %}
+            {% if session.score_percent >= 80 %}{% trans "Harika!" %}
+            {% elif session.score_percent >= 50 %}{% trans "İyi iş!" %}
+            {% else %}{% trans "Devam et!" %}{% endif %}
         </h1>
         <p class="hero-subtitle">
             {% if session.topic %}{{ session.topic.name }} · {% endif %}
-            {{ session.correct_count }}/{{ session.answered_count }} doğru ({{ session.score_percent }}%)
+            {% blocktrans with correct=session.correct_count answered=session.answered_count percent=session.score_percent %}{{ correct }}/{{ answered }} doğru ({{ percent }}%){% endblocktrans %}
         </p>
     </div>
 
     <div class="card">
         <div style="display:flex; justify-content:space-between; align-items:center;">
             <div>
-                <div style="font-size:0.8rem; color:var(--text-muted); font-weight:600; text-transform:uppercase; letter-spacing:0.05em;">Skor</div>
+                <div style="font-size:0.8rem; color:var(--text-muted); font-weight:600; text-transform:uppercase; letter-spacing:0.05em;">{% trans "Skor" %}</div>
                 <div style="font-size:2rem; font-weight:800; color:var(--primary);">{{ session.score_percent }}%</div>
             </div>
             <div style="text-align:right;">
@@ -37,13 +38,13 @@
     </div>
 
     {% if wrong_questions %}
-    <div class="section-title">Yanlışların ({{ wrong_questions|length }})</div>
+    <div class="section-title">{% blocktrans with count=wrong_questions|length %}Yanlışların ({{ count }}){% endblocktrans %}</div>
     {% for q in wrong_questions %}
     <div class="example-item neg">
         <div class="en">{{ q.prompt }}</div>
         <div style="margin-top:0.35rem; font-size:0.85rem;">
-            <span style="color:var(--danger);">Senin: {{ q.user_answer|default:"(boş)" }}</span> ·
-            <span style="color:var(--success);"><strong>Doğrusu: {{ q.correct_answer }}</strong></span>
+            <span style="color:var(--danger);">{% trans "Senin:" %} {{ q.user_answer|default:"(boş)" }}</span> ·
+            <span style="color:var(--success);"><strong>{% trans "Doğrusu:" %} {{ q.correct_answer }}</strong></span>
         </div>
     </div>
     {% endfor %}
@@ -51,11 +52,11 @@
 
     <div class="btn-row mt-3">
         {% if session.kind == 'topic' and session.topic %}
-            <a href="{% url 'quizzes:topic_picker' session.topic.slug %}" class="btn btn-lg" style="flex:1;">Quizlere dön</a>
-            <a href="{% url 'topics:detail' session.topic.slug %}" class="btn btn-secondary">Konu</a>
+            <a href="{% url 'quizzes:topic_picker' session.topic.slug %}" class="btn btn-lg" style="flex:1;">{% trans "Quizlere dön" %}</a>
+            <a href="{% url 'topics:detail' session.topic.slug %}" class="btn btn-secondary">{% trans "Konu" %}</a>
         {% else %}
-            <a href="{% url 'quizzes:word_picker' %}" class="btn btn-lg" style="flex:1;">Quizlere dön</a>
-            <a href="{% url 'vocabulary:list' %}" class="btn btn-secondary">Kelimeler</a>
+            <a href="{% url 'quizzes:word_picker' %}" class="btn btn-lg" style="flex:1;">{% trans "Quizlere dön" %}</a>
+            <a href="{% url 'vocabulary:list' %}" class="btn btn-secondary">{% trans "Kelimeler" %}</a>
         {% endif %}
     </div>
 </div>

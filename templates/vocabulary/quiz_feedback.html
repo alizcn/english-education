@@ -1,15 +1,16 @@
 {% extends 'base.html' %}
-{% block title %}Sonuç · Kelimelerim{% endblock %}
+{% load i18n %}
+{% block title %}{% trans "Sonuç" %} · {% trans "Kelimelerim" %}{% endblock %}
 
 {% block content %}
 <div class="quiz-wrap">
     <div class="quiz-topbar">
-        <a href="{% url 'vocabulary:list' %}" class="muted">← Kelimelerim</a>
-        <div>Kişisel Kelime Quiz</div>
+        <a href="{% url 'vocabulary:list' %}" class="muted">← {% trans "Kelimelerim" %}</a>
+        <div>{% trans "Kişisel Kelime Quiz" %}</div>
     </div>
 
     <div class="quiz-topbar" style="margin-top:0.75rem;">
-        <div>Öğrendiğin: <strong>{{ stats.mastered }} / {{ stats.total }}</strong></div>
+        <div>{% trans "Öğrendiğin:" %} <strong>{{ stats.mastered }} / {{ stats.total }}</strong></div>
         <div class="quiz-score">
             <span class="good">✓ {{ stats.mastered }}</span>
             <span style="color:var(--warning);">⟳ {{ stats.retry }}</span>
@@ -19,17 +20,17 @@
 
     <div class="feedback-box {% if is_correct %}correct{% else %}wrong{% endif %}" style="margin-top:1rem;">
         {% if is_correct %}
-            <div class="feedback-label">✓ Doğru!</div>
+            <div class="feedback-label">{% trans "✓ Doğru!" %}</div>
             <div style="margin-top:0.35rem;">
                 <strong>{{ word.english }}</strong>
                 {% if word.part_of_speech %}<span class="muted">({{ word.part_of_speech }})</span>{% endif %}
                 = <strong>{{ word.turkish }}</strong>
             </div>
         {% else %}
-            <div class="feedback-label">✗ Yanlış — tekrar havuzuna eklendi</div>
+            <div class="feedback-label">{% trans "✗ Yanlış — tekrar havuzuna eklendi" %}</div>
             <div style="margin-top:0.35rem;">
-                Senin: <em>{{ selected|default:"(boş)" }}</em><br>
-                Doğrusu: <strong>{{ word.turkish }}</strong>
+                {% trans "Senin:" %} <em>{{ selected|default:"(boş)" }}</em><br>
+                {% trans "Doğrusu:" %} <strong>{{ word.turkish }}</strong>
             </div>
             <div style="margin-top:0.5rem;">
                 <strong>{{ word.english }}</strong>
@@ -47,7 +48,7 @@
         {% endif %}
     </div>
 
-    <a href="{% url 'vocabulary:quiz' %}" class="btn btn-lg btn-block mt-2" id="next-btn">Sıradaki →</a>
+    <a href="{% url 'vocabulary:quiz' %}" class="btn btn-lg btn-block mt-2" id="next-btn">{% trans "Sıradaki" %} →</a>
 </div>
 
 <script>document.getElementById('next-btn')?.focus();</script>

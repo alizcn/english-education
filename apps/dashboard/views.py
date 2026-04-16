@@ -1,10 +1,61 @@
+import json
+from datetime import timedelta
+
 from django.contrib.auth.decorators import login_required
+from django.db.models import Count
+from django.db.models.functions import TruncDate
 from django.shortcuts import render
+from django.utils import timezone
 
 from apps.vocabulary.models import Word
 from apps.topics.models import Topic, TopicCompletion
 from apps.quizzes.models import QuizSession
 from apps.wordbank.models import BankWord, BankProgress
+
+
+def _weekly_chart_data(user):
+    today = timezone.now().date()
+    start = today - timedelta(days=6)
+    day_labels = []
+    day_names = ['Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt', 'Paz']
+    for i in range(7):
+        d = start + timedelta(days=i)
+        day_labels.append(day_names[d.weekday()])
+
+    bank_qs = (
+        BankProgress.objects.filter(
+            user=user, mastered=True,
+            last_answered_at__date__gte=start,
+        )
+        .annotate(day=TruncDate('last_answered_at'))
+        .values('day')
+        .annotate(count=Count('id'))
+    )
+    bank_by_day = {r['day']: r['count'] for r in bank_qs}
+
+    personal_qs = (
+        Word.objects.filter(
+            user=user, mastered=True,
+        )
+        .annotate(day=TruncDate('created_at'))
+        .values('day')
+        .annotate(count=Count('id'))
+    )
+    personal_by_day = {r['day']: r['count'] for r in personal_qs}
+
+    bank_data = []
+    personal_data = []
+    for i in range(7):
+        d = start + timedelta(days=i)
+        bank_data.append(bank_by_day.get(d, 0))
+        personal_data.append(personal_by_day.get(d, 0))
+
+    return {
+        'labels': json.dumps(day_labels),
+        'bank_data': json.dumps(bank_data),
+        'personal_data': json.dumps(personal_data),
+        'has_data': any(v > 0 for v in bank_data + personal_data),
+    }
 
 
 @login_required
@@ -41,6 +92,8 @@ def home(request):
         })
     bank_percent = round(100 * bank_mastered_total / bank_total) if bank_total else 0
 
+    chart = _weekly_chart_data(user)
+
     return render(request, 'dashboard/home.html', {
         'total_words': total_words,
         'total_topics': total_topics,
@@ -52,4 +105,5 @@ def home(request):
         'bank_mastered': bank_mastered_total,
         'bank_percent': bank_percent,
         'bank_levels': bank_levels,
+        'chart': chart,
     })

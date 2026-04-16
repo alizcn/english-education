@@ -1,5 +1,6 @@
 from django.conf import settings
 from django.db import models
+from django.utils.translation import gettext_lazy as _
 
 
 class ChatConversation(models.Model):
@@ -22,7 +23,7 @@ class ChatConversation(models.Model):
 class ChatMessage(models.Model):
     USER = 'user'
     ASSISTANT = 'assistant'
-    ROLE_CHOICES = [(USER, 'User'), (ASSISTANT, 'Assistant')]
+    ROLE_CHOICES = [(USER, _('User')), (ASSISTANT, _('Assistant'))]
 
     conversation = models.ForeignKey(
         ChatConversation, on_delete=models.CASCADE, related_name='messages'

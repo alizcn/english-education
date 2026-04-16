@@ -1,10 +1,15 @@
 {% load static %}
+{% load i18n %}
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="{{ LANGUAGE_CODE }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#4f46e5">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="{% static 'manifest.json' %}">
+    <link rel="icon" href="{% static 'icons/logo.svg' %}" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="{% static 'icons/logo.svg' %}">
     <title>{% block auth_title %}{% endblock %} · English</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,10 +19,23 @@
 <body class="auth-body">
 
 <div class="auth-shell">
-    <a href="{% url 'accounts:login' %}" class="brand" style="justify-content:center; margin-bottom:1.5rem; font-size:1.4rem;">
-        <span class="brand-logo" style="font-size:1.6rem;">📘</span>
-        <span class="brand-text">English<span class="brand-dot">.</span></span>
-    </a>
+    <div style="text-align:right; margin-bottom:0.5rem;">
+        <form method="post" action="{% url 'set_language' %}" class="lang-switcher">
+            {% csrf_token %}
+            <input type="hidden" name="next" value="{{ request.path }}">
+            {% get_current_language as LANG %}
+            {% if LANG == 'tr' %}
+            <button type="submit" name="language" value="en" class="lang-btn" title="English">EN</button>
+            {% else %}
+            <button type="submit" name="language" value="tr" class="lang-btn" title="Türkçe">TR</button>
+            {% endif %}
+        </form>
+    </div>
+    <div style="text-align:center; margin-bottom:1.5rem;">
+        <img src="{% static 'icons/logo.svg' %}" alt="Logo" style="height:88px; margin-bottom:0.75rem;">
+        <div style="font-weight:700; font-size:1.1rem; color:var(--text); line-height:1.3;">{% trans "Practice English for Your Career." %}</div>
+        <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;">{% trans "Turn Your CV into Confidence." %}</div>
+    </div>
 
     <div class="auth-card">
         <h2 style="margin-bottom:1.25rem; text-align:center;">{% block auth_heading %}{{ self.auth_title|default:'' }}{% endblock %}</h2>

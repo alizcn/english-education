@@ -1,6 +1,7 @@
 import re
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.utils.translation import gettext as _
 from django.db import transaction
 from django.db.models import F
 from django.shortcuts import render, redirect, get_object_or_404
@@ -58,22 +59,23 @@ def word_picker(request):
     if total_words < MIN_WORDS_FOR_QUIZ:
         messages.error(
             request,
-            f'Kelime quizi için en az {MIN_WORDS_FOR_QUIZ} kelime gerekli. Şu an: {total_words}.'
+            _('Kelime quizi için en az %(min)d kelime gerekli. Şu an: %(total)d.')
+            % {'min': MIN_WORDS_FOR_QUIZ, 'total': total_words}
         )
         return redirect('vocabulary:list')
 
     try:
         quiz_services.ensure_at_least_one(request.user, QuizTemplate.WORD)
     except Exception as e:
-        messages.error(request, f'AI hata: {e}')
+        messages.error(request, _('AI hata: %(error)s') % {'error': e})
 
     templates = list(QuizTemplate.objects.filter(user=request.user, kind=QuizTemplate.WORD))
     _annotate_completion(request.user, templates)
 
     return render(request, 'quizzes/picker.html', {
         'templates': templates,
-        'title': 'Kelime Quizleri',
-        'subtitle': 'Havuzdaki quizlerden birini seç. Hepsini çözdüğünde AI yenisini ekler.',
+        'title': _('Kelime Quizleri'),
+        'subtitle': _('Havuzdaki quizlerden birini seç. Hepsini çözdüğünde AI yenisini ekler.'),
         'pool_target': quiz_services.POOL_TARGET,
         'topic': None,
     })
@@ -85,7 +87,7 @@ def topic_picker(request, slug):
     try:
         quiz_services.ensure_at_least_one(request.user, QuizTemplate.TOPIC, topic=topic)
     except Exception as e:
-        messages.error(request, f'AI hata: {e}')
+        messages.error(request, _('AI hata: %(error)s') % {'error': e})
 
     templates = list(
         QuizTemplate.objects.filter(user=request.user, kind=QuizTemplate.TOPIC, topic=topic)
@@ -94,8 +96,8 @@ def topic_picker(request, slug):
 
     return render(request, 'quizzes/picker.html', {
         'templates': templates,
-        'title': f'{topic.name} Quizleri',
-        'subtitle': 'Bu konuya özel hazır quizlerden birini seç.',
+        'title': _('%(name)s Quizleri') % {'name': topic.name},
+        'subtitle': _('Bu konuya özel hazır quizlerden birini seç.'),
         'pool_target': quiz_services.POOL_TARGET,
         'topic': topic,
     })
@@ -107,7 +109,7 @@ def start_template(request, template_id):
     template = get_object_or_404(QuizTemplate, pk=template_id, user=request.user)
     items = template.questions_data or []
     if not items:
-        messages.error(request, 'Bu quiz şablonu boş.')
+        messages.error(request, _('Bu quiz şablonu boş.'))
         return redirect('quizzes:word_picker')
 
     with transaction.atomic():

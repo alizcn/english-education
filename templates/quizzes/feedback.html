@@ -1,10 +1,11 @@
 {% extends 'base.html' %}
-{% block title %}Sonuç{% endblock %}
+{% load i18n %}
+{% block title %}{% trans "Sonuç" %}{% endblock %}
 
 {% block content %}
 <div class="quiz-wrap">
     <div class="quiz-topbar">
-        <div>Soru {{ question.order|add:1 }}/{{ session.total_questions }}</div>
+        <div>{% blocktrans with current=question.order|add:1 total=session.total_questions %}Soru {{ current }}/{{ total }}{% endblocktrans %}</div>
         <div class="quiz-score">
             <span class="good">✓ {{ session.correct_count }}</span>
             <span class="bad">✗ {{ session.wrong_count }}</span>
@@ -17,18 +18,18 @@
 
         <div class="feedback-box {% if correct %}correct{% else %}wrong{% endif %}">
             {% if correct %}
-                <div class="feedback-label">✓ Doğru!</div>
-                <div style="margin-top:0.25rem;">Cevabın: <strong>{{ question.user_answer }}</strong></div>
+                <div class="feedback-label">{% trans "✓ Doğru!" %}</div>
+                <div style="margin-top:0.25rem;">{% trans "Cevabın:" %} <strong>{{ question.user_answer }}</strong></div>
             {% else %}
-                <div class="feedback-label">✗ Yanlış</div>
-                <div style="margin-top:0.25rem;">Senin: <em>{{ question.user_answer|default:"(boş)" }}</em></div>
-                <div>Doğrusu: <strong>{{ question.correct_answer }}</strong></div>
+                <div class="feedback-label">{% trans "✗ Yanlış" %}</div>
+                <div style="margin-top:0.25rem;">{% trans "Senin:" %} <em>{{ question.user_answer|default:"(boş)" }}</em></div>
+                <div>{% trans "Doğrusu:" %} <strong>{{ question.correct_answer }}</strong></div>
             {% endif %}
         </div>
 
         <div class="btn-row mt-2">
-            <a href="{% url 'quizzes:run' session.pk %}" class="btn btn-lg" style="flex:1;">Sıradaki →</a>
-            <a href="{% url 'quizzes:result' session.pk %}" class="btn btn-ghost">Bitir</a>
+            <a href="{% url 'quizzes:run' session.pk %}" class="btn btn-lg" style="flex:1;">{% trans "Sıradaki" %} →</a>
+            <a href="{% url 'quizzes:result' session.pk %}" class="btn btn-ghost">{% trans "Bitir" %}</a>
         </div>
     </div>
 </div>

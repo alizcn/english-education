@@ -1,16 +1,17 @@
 {% extends 'base.html' %}
-{% block title %}Konular{% endblock %}
+{% load i18n %}
+{% block title %}{% trans "Konular" %}{% endblock %}
 
 {% block content %}
 <div class="page-header">
-    <h2>Gramer Konuları</h2>
+    <h2>{% trans "Gramer Konuları" %}</h2>
 </div>
 
 <div class="card mb-2">
     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
         <div>
             <div style="font-weight:700; font-size:1.1rem;">{{ done }} / {{ total }}</div>
-            <small class="muted">konu tamamlandı</small>
+            <small class="muted">{% trans "konu tamamlandı" %}</small>
         </div>
         <div style="font-size:1.5rem; font-weight:800; color:var(--primary);">{{ percent }}%</div>
     </div>
@@ -25,7 +26,7 @@
             {% if t.is_completed_for_user %} <span class="badge badge-success" style="margin-left:0.4rem;">✓</span>{% endif %}
         </a>
         <div class="btn-row">
-            <a href="{% url 'quizzes:topic_picker' t.slug %}" class="btn btn-secondary btn-sm">Quiz</a>
+            <a href="{% url 'quizzes:topic_picker' t.slug %}" class="btn btn-secondary btn-sm">{% trans "Quiz" %}</a>
         </div>
     </div>
     {% endfor %}

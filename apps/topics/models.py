@@ -1,5 +1,6 @@
 from django.conf import settings
 from django.db import models
+from django.utils.translation import gettext_lazy as _
 
 
 class Topic(models.Model):
@@ -34,9 +35,9 @@ class TopicExample(models.Model):
     NEGATIVE = 'negative'
     QUESTION = 'question'
     KIND_CHOICES = [
-        (POSITIVE, 'Olumlu'),
-        (NEGATIVE, 'Olumsuz'),
-        (QUESTION, 'Soru'),
+        (POSITIVE, _('Olumlu')),
+        (NEGATIVE, _('Olumsuz')),
+        (QUESTION, _('Soru')),
     ]
 
     topic = models.ForeignKey(Topic, on_delete=models.CASCADE, related_name='examples')

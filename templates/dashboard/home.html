@@ -1,93 +1,109 @@
 {% extends 'base.html' %}
-{% block title %}Ana Sayfa{% endblock %}
+{% load i18n %}
+{% block title %}{% trans "Ana Sayfa" %}{% endblock %}
 
 {% block content %}
-<section class="hero">
-    <h1>Hoş geldin 👋</h1>
-    <p class="hero-subtitle">Bugün ne çalışmak istersin?</p>
+{% load static %}
+<section class="hero" style="display:flex; align-items:center; gap:1.25rem; flex-wrap:wrap;">
+    <img src="{% static 'icons/logo.svg' %}" alt="Logo" style="height:72px; filter:brightness(10); opacity:0.9;">
+    <div>
+        <h1 style="margin:0; font-size:1.4rem;">{% trans "Practice English for Your Career." %}</h1>
+        <p class="hero-subtitle" style="margin:0.15rem 0 0;">{% trans "Turn Your CV into Confidence." %}</p>
+    </div>
 </section>
 
 {% if bank_total %}
 <a href="{% url 'wordbank:levels' %}" class="bank-banner" style="text-decoration:none;">
     <div class="bank-banner-icon">📚</div>
     <div class="bank-banner-body">
-        <div class="bank-banner-title">Kelime Hazinesi</div>
+        <div class="bank-banner-title">{% trans "Kelime Hazinesi" %}</div>
         <div class="bank-banner-sub">
             {% for l in bank_levels %}{{ l.code }}: {{ l.mastered }}/{{ l.total }}{% if not forloop.last %} · {% endif %}{% endfor %}
         </div>
         <div class="bank-banner-progress"><div style="width: {{ bank_percent }}%"></div></div>
     </div>
-    <span class="btn btn-sm" style="white-space:nowrap;">Çalışmaya devam →</span>
+    <span class="btn btn-sm" style="white-space:nowrap;">{% trans "Çalışmaya devam" %} →</span>
 </a>
 {% endif %}
 
 <div class="stats-grid">
     <div class="stat">
-        <div class="stat-label">Kelime</div>
+        <div class="stat-label">{% trans "Kelime" %}</div>
         <div class="stat-value">{{ total_words }}</div>
-        <div class="stat-sub">Toplam kayıt</div>
+        <div class="stat-sub">{% trans "Toplam kayıt" %}</div>
     </div>
     <div class="stat">
-        <div class="stat-label">Konular</div>
+        <div class="stat-label">{% trans "Konular" %}</div>
         <div class="stat-value">{{ done_topics }}<span style="color:var(--text-soft); font-size:0.7em;">/{{ total_topics }}</span></div>
         <div class="progress success"><div class="progress-fill" style="width: {{ topic_percent }}%"></div></div>
     </div>
     <div class="stat">
-        <div class="stat-label">İlerleme</div>
+        <div class="stat-label">{% trans "İlerleme" %}</div>
         <div class="stat-value">{{ topic_percent }}<span style="color:var(--text-soft); font-size:0.6em;">%</span></div>
-        <div class="stat-sub">Tamamlanan konu</div>
+        <div class="stat-sub">{% trans "Tamamlanan konu" %}</div>
     </div>
     <div class="stat">
-        <div class="stat-label">Quiz</div>
+        <div class="stat-label">{% trans "Quiz" %}</div>
         <div class="stat-value">{{ recent_quizzes|length }}</div>
-        <div class="stat-sub">Son bitirilen</div>
+        <div class="stat-sub">{% trans "Son bitirilen" %}</div>
     </div>
 </div>
 
-<div class="section-title">Hızlı Başla</div>
+<div class="card mb-2" style="padding:1rem 1.25rem;">
+    <div class="section-title" style="margin-top:0;">{% trans "Haftalık İlerleme" %}</div>
+    {% if chart.has_data %}
+    <div style="position:relative; height:140px; width:100%;">
+        <canvas id="weeklyChart"></canvas>
+    </div>
+    {% else %}
+    <p class="muted text-center" style="margin:1rem 0 0.5rem; font-size:0.88rem;">{% trans "Henüz veri yok — kelime çalışmaya başladığında grafik burada görünecek." %}</p>
+    {% endif %}
+</div>
+
+<div class="section-title">{% trans "Hızlı Başla" %}</div>
 <div class="actions-grid">
     <a href="{% url 'vocabulary:bulk_add' %}" class="action-card">
         <div class="action-card-icon">＋</div>
-        <div class="action-card-title">Kelime ekle</div>
-        <div class="action-card-desc">AI ile toplu çeviri</div>
+        <div class="action-card-title">{% trans "Kelime ekle" %}</div>
+        <div class="action-card-desc">{% trans "AI ile toplu çeviri" %}</div>
     </a>
-    <a href="{% url 'quizzes:word_picker' %}" class="action-card">
+    <a href="{% url 'wordbank:levels' %}" class="action-card">
         <div class="action-card-icon success">⚡</div>
-        <div class="action-card-title">Kelime Quiz</div>
-        <div class="action-card-desc">50 soruluk oturum</div>
+        <div class="action-card-title">{% trans "Kelime Hazinesi" %}</div>
+        <div class="action-card-desc">{% trans "Seviye seç, çalış" %}</div>
     </a>
     <a href="{% url 'topics:list' %}" class="action-card">
         <div class="action-card-icon accent">📚</div>
-        <div class="action-card-title">Konu çalış</div>
-        <div class="action-card-desc">Zamanlar ve daha fazlası</div>
+        <div class="action-card-title">{% trans "Konu çalış" %}</div>
+        <div class="action-card-desc">{% trans "Zamanlar ve daha fazlası" %}</div>
     </a>
     <a href="{% url 'chat:page' %}" class="action-card">
         <div class="action-card-icon warning">💬</div>
-        <div class="action-card-title">AI ile pratik</div>
-        <div class="action-card-desc">Canlı sohbet</div>
+        <div class="action-card-title">{% trans "AI ile pratik" %}</div>
+        <div class="action-card-desc">{% trans "Canlı sohbet" %}</div>
     </a>
 </div>
 
 {% if pending_topics %}
-<div class="section-title">Devam eden konular</div>
+<div class="section-title">{% trans "Devam eden konular" %}</div>
 <div class="list">
     {% for t in pending_topics %}
     <a href="{% url 'topics:detail' t.slug %}" class="topic-card">
         <div class="topic-name">{{ t.name }}</div>
-        <span class="badge badge-primary">çalış →</span>
+        <span class="badge badge-primary">{% trans "çalış" %} →</span>
     </a>
     {% endfor %}
 </div>
 {% endif %}
 
 {% if recent_quizzes %}
-<div class="section-title">Son quiz skorları</div>
+<div class="section-title">{% trans "Son quiz skorları" %}</div>
 <div class="list">
     {% for q in recent_quizzes %}
     <div class="list-item">
         <div>
             <div style="font-weight:600;">
-                {% if q.topic %}{{ q.topic.name }}{% else %}Kelime quizi{% endif %}
+                {% if q.topic %}{{ q.topic.name }}{% else %}{% trans "Kelime quizi" %}{% endif %}
             </div>
             <small>{{ q.finished_at|date:"d M · H:i" }}</small>
         </div>
@@ -102,7 +118,63 @@
 {% if not recent_quizzes and not pending_topics %}
 <div class="empty">
     <div class="empty-icon">🎉</div>
-    <p>Başlamaya hazırsın!</p>
+    <p>{% trans "Başlamaya hazırsın!" %}</p>
 </div>
+{% endif %}
+
+{% if chart.has_data %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+<script>
+new Chart(document.getElementById('weeklyChart'), {
+    type: 'bar',
+    data: {
+        labels: {{ chart.labels|safe }},
+        datasets: [
+            {
+                label: '{% trans "Kelime Hazinesi" %}',
+                data: {{ chart.bank_data|safe }},
+                backgroundColor: 'rgba(79, 70, 229, 0.7)',
+                borderRadius: 6,
+                borderSkipped: false,
+            },
+            {
+                label: '{% trans "Kişisel Kelimeler" %}',
+                data: {{ chart.personal_data|safe }},
+                backgroundColor: 'rgba(16, 185, 129, 0.7)',
+                borderRadius: 6,
+                borderSkipped: false,
+            }
+        ]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: {
+                position: 'bottom',
+                labels: {
+                    boxWidth: 12,
+                    padding: 16,
+                    font: { family: "'Inter', sans-serif", size: 12 }
+                }
+            }
+        },
+        scales: {
+            x: {
+                grid: { display: false },
+                ticks: { font: { family: "'Inter', sans-serif", size: 12 } }
+            },
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    stepSize: 1,
+                    font: { family: "'Inter', sans-serif", size: 11 }
+                },
+                grid: { color: 'rgba(0,0,0,0.04)' }
+            }
+        }
+    }
+});
+</script>
 {% endif %}
 {% endblock %}

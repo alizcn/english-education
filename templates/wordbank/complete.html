@@ -1,18 +1,19 @@
 {% extends 'base.html' %}
-{% block title %}{{ level }} Tamamlandı!{% endblock %}
+{% load i18n %}
+{% block title %}{% blocktrans with level=level %}{{ level }} Tamamlandı!{% endblocktrans %}{% endblock %}
 
 {% block content %}
 <div class="quiz-wrap">
     <div class="hero" style="text-align:center;">
         <div style="font-size:3rem; line-height:1;">🏆</div>
-        <h1 style="margin-top:0.5rem;">{{ level }} Tamamlandı!</h1>
-        <p class="hero-subtitle">Tüm {{ stats.total }} kelimeyi öğrendin</p>
+        <h1 style="margin-top:0.5rem;">{% blocktrans with level=level %}{{ level }} Tamamlandı!{% endblocktrans %}</h1>
+        <p class="hero-subtitle">{% blocktrans with total=stats.total %}Tüm {{ total }} kelimeyi öğrendin{% endblocktrans %}</p>
     </div>
 
     <div class="card">
         <div style="display:flex; justify-content:space-between; align-items:center;">
             <div>
-                <div style="font-size:0.8rem; color:var(--text-muted); font-weight:600; text-transform:uppercase; letter-spacing:0.05em;">Öğrenim</div>
+                <div style="font-size:0.8rem; color:var(--text-muted); font-weight:600; text-transform:uppercase; letter-spacing:0.05em;">{% trans "Öğrenim" %}</div>
                 <div style="font-size:2rem; font-weight:800; color:var(--success);">{{ stats.mastered }} / {{ stats.total }}</div>
             </div>
             <div>
@@ -25,23 +26,23 @@
     {% with next_levels="A1:A2,A2:B1,B1:B2,B2:C1,C1:C2" %}
     <div class="btn-row mt-3">
         {% if level == 'A1' %}
-        <a href="{% url 'wordbank:quiz' 'A2' %}" class="btn btn-lg" style="flex:1;">A2'ye geç →</a>
+        <a href="{% url 'wordbank:quiz' 'A2' %}" class="btn btn-lg" style="flex:1;">{% trans "A2'ye geç" %} →</a>
         {% elif level == 'A2' %}
-        <a href="{% url 'wordbank:quiz' 'B1' %}" class="btn btn-lg" style="flex:1;">B1'e geç →</a>
+        <a href="{% url 'wordbank:quiz' 'B1' %}" class="btn btn-lg" style="flex:1;">{% trans "B1'e geç" %} →</a>
         {% elif level == 'B1' %}
-        <a href="{% url 'wordbank:quiz' 'B2' %}" class="btn btn-lg" style="flex:1;">B2'ye geç →</a>
+        <a href="{% url 'wordbank:quiz' 'B2' %}" class="btn btn-lg" style="flex:1;">{% trans "B2'ye geç" %} →</a>
         {% elif level == 'B2' %}
-        <a href="{% url 'wordbank:quiz' 'C1' %}" class="btn btn-lg" style="flex:1;">C1'e geç →</a>
+        <a href="{% url 'wordbank:quiz' 'C1' %}" class="btn btn-lg" style="flex:1;">{% trans "C1'e geç" %} →</a>
         {% elif level == 'C1' %}
-        <a href="{% url 'wordbank:quiz' 'C2' %}" class="btn btn-lg" style="flex:1;">C2'ye geç →</a>
+        <a href="{% url 'wordbank:quiz' 'C2' %}" class="btn btn-lg" style="flex:1;">{% trans "C2'ye geç" %} →</a>
         {% else %}
-        <a href="{% url 'wordbank:levels' %}" class="btn btn-lg" style="flex:1;">Seviyeler</a>
+        <a href="{% url 'wordbank:levels' %}" class="btn btn-lg" style="flex:1;">{% trans "Seviyeler" %}</a>
         {% endif %}
     {% endwith %}
         <form method="post" action="{% url 'wordbank:reset' level %}" style="margin:0;"
-              onsubmit="return confirm('{{ level }} ilerlemen sıfırlansın mı?');">
+              onsubmit="return confirm('{% blocktrans with level=level %}{{ level }} ilerlemen sıfırlansın mı?{% endblocktrans %}');">
             {% csrf_token %}
-            <button type="submit" class="btn btn-secondary">{{ level }}'i sıfırla</button>
+            <button type="submit" class="btn btn-secondary">{% blocktrans with level=level %}{{ level }}'i sıfırla{% endblocktrans %}</button>
         </form>
     </div>
 </div>

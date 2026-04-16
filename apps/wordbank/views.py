@@ -1,6 +1,8 @@
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect, get_object_or_404
+from django.utils.translation import gettext as gettext
+from django.utils.translation import gettext_lazy as _
 from django.views.decorators.http import require_POST
 
 from . import services
@@ -8,12 +10,12 @@ from .models import BankWord, BankProgress
 
 
 LEVEL_LABELS = {
-    'A1': 'Başlangıç',
-    'A2': 'Temel Üstü',
-    'B1': 'Orta',
-    'B2': 'Orta Üstü',
-    'C1': 'İleri',
-    'C2': 'Uzman',
+    'A1': _('Başlangıç'),
+    'A2': _('Temel Üstü'),
+    'B1': _('Orta'),
+    'B2': _('Orta Üstü'),
+    'C1': _('İleri'),
+    'C2': _('Uzman'),
 }
 
 
@@ -24,7 +26,7 @@ def _valid_level(level):
 @login_required
 def levels(request):
     rows = []
-    for code, _ in BankWord.LEVELS:
+    for code, _label in BankWord.LEVELS:
         stats = services.level_stats(request.user, code)
         stats['label'] = LEVEL_LABELS.get(code, code)
         rows.append(stats)
@@ -38,7 +40,7 @@ def quiz(request, level):
 
     stats = services.level_stats(request.user, level)
     if stats['total'] == 0:
-        messages.error(request, f'{level} seviyesi yüklü değil.')
+        messages.error(request, gettext('%(level)s seviyesi yüklü değil.') % {'level': level})
         return redirect('wordbank:levels')
 
     word, is_retry = services.pick_next(request.user, level)
@@ -93,5 +95,5 @@ def reset(request, level):
     if not _valid_level(level):
         return redirect('wordbank:levels')
     BankProgress.objects.filter(user=request.user, word__level=level).delete()
-    messages.success(request, f'{level} ilerlemen sıfırlandı.')
+    messages.success(request, gettext('%(level)s ilerlemen sıfırlandı.') % {'level': level})
     return redirect('wordbank:levels')

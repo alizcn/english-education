@@ -1,15 +1,16 @@
 {% extends 'base.html' %}
-{% block title %}Kelimelerim · Quiz{% endblock %}
+{% load i18n %}
+{% block title %}{% trans "Kelimelerim" %} · {% trans "Quiz" %}{% endblock %}
 
 {% block content %}
 <div class="quiz-wrap">
     <div class="quiz-topbar">
-        <a href="{% url 'vocabulary:list' %}" class="muted">← Kelimelerim</a>
-        <div>Kişisel Kelime Quiz</div>
+        <a href="{% url 'vocabulary:list' %}" class="muted">← {% trans "Kelimelerim" %}</a>
+        <div>{% trans "Kişisel Kelime Quiz" %}</div>
     </div>
 
     <div class="quiz-topbar" style="margin-top:0.75rem;">
-        <div>Öğrendiğin: <strong>{{ stats.mastered }} / {{ stats.total }}</strong></div>
+        <div>{% trans "Öğrendiğin:" %} <strong>{{ stats.mastered }} / {{ stats.total }}</strong></div>
         <div class="quiz-score">
             <span class="good">✓ {{ stats.mastered }}</span>
             <span style="color:var(--warning);">⟳ {{ stats.retry }}</span>
@@ -19,8 +20,8 @@
 
     <div class="quiz-card">
         <div style="display:flex; gap:0.4rem; margin-bottom:0.75rem;">
-            <span class="quiz-type-chip">Çoktan Seçmeli</span>
-            {% if is_retry %}<span class="retry-chip">TEKRAR</span>{% endif %}
+            <span class="quiz-type-chip">{% trans "Çoktan Seçmeli" %}</span>
+            {% if is_retry %}<span class="retry-chip">{% trans "TEKRAR" %}</span>{% endif %}
         </div>
 
         <div class="bank-word">{{ word.english }}</div>
@@ -41,7 +42,7 @@
                 {{ opt }}
             </label>
             {% endfor %}
-            <button type="submit" class="btn btn-lg btn-block mt-2">Cevapla →</button>
+            <button type="submit" class="btn btn-lg btn-block mt-2">{% trans "Cevapla" %} →</button>
         </form>
     </div>
 </div>

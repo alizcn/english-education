@@ -1,6 +1,7 @@
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect, get_object_or_404
+from django.utils.translation import gettext as _
 from django.views.decorators.http import require_POST
 
 from .models import Topic, TopicCompletion
@@ -48,8 +49,8 @@ def toggle_done(request, slug):
     tc = TopicCompletion.objects.filter(user=request.user, topic=topic).first()
     if tc:
         tc.delete()
-        messages.success(request, f'"{topic.name}" tekrar aktif.')
+        messages.success(request, _('"%(name)s" tekrar aktif.') % {'name': topic.name})
     else:
         TopicCompletion.objects.create(user=request.user, topic=topic)
-        messages.success(request, f'"{topic.name}" bitti olarak işaretlendi.')
+        messages.success(request, _('"%(name)s" bitti olarak işaretlendi.') % {'name': topic.name})
     return redirect('topics:detail', slug=topic.slug)

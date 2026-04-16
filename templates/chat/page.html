@@ -1,11 +1,12 @@
 {% extends 'base.html' %}
-{% block title %}AI Chat{% endblock %}
+{% load i18n %}
+{% block title %}{% trans "AI Chat" %}{% endblock %}
 
 {% block content %}
 <div class="chat-wrap">
     <div class="page-header">
-        <h2>AI Pratik</h2>
-        <a href="{% url 'chat:new' %}" class="btn btn-secondary btn-sm">+ Yeni sohbet</a>
+        <h2>{% trans "AI Pratik" %}</h2>
+        <a href="{% url 'chat:new' %}" class="btn btn-secondary btn-sm">+ {% trans "Yeni sohbet" %}</a>
     </div>
 
     <div class="chat-messages" id="chat-messages">
@@ -14,14 +15,14 @@
             <div class="chat-msg {{ m.role }}">{{ m.content }}</div>
             {% endfor %}
         {% else %}
-            <div class="chat-msg assistant">Hey! İngilizce pratik için buradayım. İstediğin dilde yaz — mesela "Teach me the difference between 'since' and 'for'" diyerek başlayabilirsin.</div>
+            <div class="chat-msg assistant">{% trans "Hey! İngilizce pratik için buradayım. İstediğin dilde yaz — mesela \"Teach me the difference between 'since' and 'for'\" diyerek başlayabilirsin." %}</div>
         {% endif %}
     </div>
 
     <form method="post" action="{% url 'chat:send' %}" class="chat-form">
         {% csrf_token %}
-        <input type="text" name="message" placeholder="Mesajını yaz..." autofocus autocomplete="off" required>
-        <button type="submit" class="btn">Gönder</button>
+        <input type="text" name="message" placeholder="{% trans "Mesajını yaz..." %}" autofocus autocomplete="off" required>
+        <button type="submit" class="btn">{% trans "Gönder" %}</button>
     </form>
 </div>
 

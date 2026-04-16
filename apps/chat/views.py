@@ -1,6 +1,7 @@
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
+from django.utils.translation import gettext as _
 
 from services import ai
 from .models import ChatConversation, ChatMessage
@@ -48,7 +49,7 @@ def send(request):
     try:
         reply = ai.chat(api_messages)
     except Exception as e:
-        messages.error(request, f'AI hata: {e}')
+        messages.error(request, _('AI hata: %(error)s') % {'error': e})
         return redirect('chat:page')
 
     ChatMessage.objects.create(conversation=conv, role=ChatMessage.ASSISTANT, content=reply)
@@ -59,5 +60,5 @@ def send(request):
 @login_required
 def new_conversation(request):
     request.session.pop('chat_conv_id', None)
-    messages.info(request, 'Yeni sohbet başlatıldı.')
+    messages.info(request, _('Yeni sohbet başlatıldı.'))
     return redirect('chat:page')

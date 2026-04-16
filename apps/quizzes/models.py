@@ -1,11 +1,12 @@
 from django.conf import settings
 from django.db import models
+from django.utils.translation import gettext_lazy as _
 
 
 class QuizTemplate(models.Model):
     WORD = 'word'
     TOPIC = 'topic'
-    KIND_CHOICES = [(WORD, 'Kelime'), (TOPIC, 'Konu')]
+    KIND_CHOICES = [(WORD, _('Kelime')), (TOPIC, _('Konu'))]
 
     user = models.ForeignKey(
         settings.AUTH_USER_MODEL,
@@ -33,7 +34,7 @@ class QuizTemplate(models.Model):
 class QuizSession(models.Model):
     WORD = 'word'
     TOPIC = 'topic'
-    KIND_CHOICES = [(WORD, 'Kelime'), (TOPIC, 'Konu')]
+    KIND_CHOICES = [(WORD, _('Kelime')), (TOPIC, _('Konu'))]
 
     user = models.ForeignKey(
         settings.AUTH_USER_MODEL,
@@ -93,10 +94,10 @@ class QuizQuestion(models.Model):
     FILL_BLANK = 'fill_blank'
     MULTIPLE_CHOICE = 'multiple_choice'
     TYPE_CHOICES = [
-        (TRANSLATE_EN_TR, 'Çeviri EN→TR'),
-        (TRANSLATE_TR_EN, 'Çeviri TR→EN'),
-        (FILL_BLANK, 'Boşluk doldurma'),
-        (MULTIPLE_CHOICE, 'Çoktan seçmeli'),
+        (TRANSLATE_EN_TR, _('Çeviri EN→TR')),
+        (TRANSLATE_TR_EN, _('Çeviri TR→EN')),
+        (FILL_BLANK, _('Boşluk doldurma')),
+        (MULTIPLE_CHOICE, _('Çoktan seçmeli')),
     ]
 
     session = models.ForeignKey(QuizSession, on_delete=models.CASCADE, related_name='questions')

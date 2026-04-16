@@ -1,9 +1,11 @@
+from django.conf import settings
 from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('apps.accounts.urls')),
+    path('i18n/', include('django.conf.urls.i18n')),
     path('', include('apps.dashboard.urls')),
     path('words/', include('apps.vocabulary.urls')),
     path('topics/', include('apps.topics.urls')),

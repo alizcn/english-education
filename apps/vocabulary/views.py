@@ -1,6 +1,7 @@
 import re
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.utils.translation import gettext as _
 from django.db.models import Q
 from django.shortcuts import render, redirect, get_object_or_404
 from django.views.decorators.http import require_POST
@@ -44,13 +45,13 @@ def bulk_add(request):
         words = _parse_input(raw)
 
         if not words:
-            messages.error(request, 'Hiç kelime girmedin.')
+            messages.error(request, _('Hiç kelime girmedin.'))
             return redirect('vocabulary:bulk_add')
 
         try:
             items = ai.translate_words(words)
         except Exception as e:
-            messages.error(request, f'AI çeviri hatası: {e}')
+            messages.error(request, _('AI çeviri hatası: %(error)s') % {'error': e})
             return render(request, 'vocabulary/add.html', {'raw': raw, 'source': source})
 
         created = 0
@@ -75,10 +76,10 @@ def bulk_add(request):
             else:
                 skipped += 1
 
-        messages.success(
-            request,
-            f'{created} kelime eklendi.' + (f' ({skipped} tanesi zaten vardı.)' if skipped else '')
-        )
+        msg = _('%(count)d kelime eklendi.') % {'count': created}
+        if skipped:
+            msg += ' ' + _('(%(count)d tanesi zaten vardı.)') % {'count': skipped}
+        messages.success(request, msg)
         return redirect('vocabulary:list')
 
     return render(request, 'vocabulary/add.html', {'raw': '', 'source': ''})
@@ -95,7 +96,7 @@ def word_edit(request, pk):
         word.part_of_speech = request.POST.get('part_of_speech', '').strip()[:30]
         word.source = request.POST.get('source', '').strip()[:80]
         word.save()
-        messages.success(request, 'Kaydedildi.')
+        messages.success(request, _('Kaydedildi.'))
         return redirect('vocabulary:list')
     return render(request, 'vocabulary/edit.html', {'word': word})
 
@@ -105,7 +106,7 @@ def word_edit(request, pk):
 def word_delete(request, pk):
     word = get_object_or_404(Word, pk=pk, user=request.user)
     word.delete()
-    messages.success(request, 'Silindi.')
+    messages.success(request, _('Silindi.'))
     return redirect('vocabulary:list')
 
 
@@ -115,7 +116,8 @@ def word_quiz(request):
     if stats['total'] < vocab_services.MIN_WORDS_FOR_QUIZ:
         messages.error(
             request,
-            f'Quiz için en az {vocab_services.MIN_WORDS_FOR_QUIZ} kelime gerekli. Şu an: {stats["total"]}.'
+            _('Quiz için en az %(min)d kelime gerekli. Şu an: %(total)d.')
+            % {'min': vocab_services.MIN_WORDS_FOR_QUIZ, 'total': stats['total']}
         )
         return redirect('vocabulary:list')
 
@@ -156,5 +158,5 @@ def word_quiz_answer(request):
 @require_POST
 def word_quiz_reset(request):
     Word.objects.filter(user=request.user).update(mastered=False, times_asked=0, times_correct=0)
-    messages.success(request, 'Quiz ilerlemen sıfırlandı.')
+    messages.success(request, _('Quiz ilerlemen sıfırlandı.'))
     return redirect('vocabulary:list')

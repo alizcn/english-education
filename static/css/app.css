@@ -21,7 +21,7 @@
     --radius: 14px;
     --radius-sm: 10px;
     --radius-lg: 20px;
-    --nav-h: 64px;
+    --nav-h: 116px;
     --bnav-h: 72px;
 }
 
@@ -88,6 +88,11 @@ small { color: var(--text-muted); font-size: 0.85rem; }
 }
 
 .brand-dot { color: var(--primary); }
+
+.brand-img {
+    height: 100px;
+    object-fit: contain;
+}
 
 .topnav { display: none; gap: 0.25rem; }
 
@@ -928,6 +933,22 @@ label input, label textarea, label select { margin-top: 0.3rem; }
     font-family: inherit;
 }
 .logout-btn:hover { background: var(--danger-soft); color: var(--danger); }
+
+.lang-switcher { display: inline; margin: 0; }
+.lang-btn {
+    background: var(--border-soft);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    font-family: inherit;
+    letter-spacing: 0.03em;
+    transition: all 0.15s;
+}
+.lang-btn:hover { background: var(--primary-soft); color: var(--primary); border-color: var(--primary-soft); }
 
 /* === DESKTOP BREAKPOINT === */
 

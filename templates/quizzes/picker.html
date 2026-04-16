@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load i18n %}
 {% block title %}{{ title }}{% endblock %}
 
 {% block content %}
@@ -9,7 +10,7 @@
         {% endif %}
         <h2 style="margin-top:0.25rem;">{{ title }}</h2>
     </div>
-    <span class="badge badge-primary">{{ templates|length }} / {{ pool_target }} hazır</span>
+    <span class="badge badge-primary">{% blocktrans with ready=templates|length target=pool_target %}{{ ready }} / {{ target }} hazır{% endblocktrans %}</span>
 </div>
 
 <p class="muted">{{ subtitle }}</p>
@@ -21,17 +22,17 @@
         <div style="flex:1;">
             <div class="topic-name">
                 {{ t.name }}
-                {% if t.is_completed %}<span class="badge badge-success" style="margin-left:0.4rem;">✓ Bitirdin</span>{% endif %}
+                {% if t.is_completed %}<span class="badge badge-success" style="margin-left:0.4rem;">{% trans "✓ Bitirdin" %}</span>{% endif %}
             </div>
             <small class="muted">
-                {{ t.questions_data|length }} soru
-                {% if t.last_session %} · son skor {{ t.last_session.score_percent }}%{% endif %}
+                {% blocktrans with count=t.questions_data|length %}{{ count }} soru{% endblocktrans %}
+                {% if t.last_session %} · {% blocktrans with score=t.last_session.score_percent %}son skor {{ score }}%{% endblocktrans %}{% endif %}
             </small>
         </div>
         <form method="post" action="{% url 'quizzes:start_template' t.id %}" style="margin:0;">
             {% csrf_token %}
             <button type="submit" class="btn btn-sm">
-                {% if t.is_completed %}Tekrar çöz{% else %}Başla →{% endif %}
+                {% if t.is_completed %}{% trans "Tekrar çöz" %}{% else %}{% trans "Başla" %} →{% endif %}
             </button>
         </form>
     </div>
@@ -40,14 +41,14 @@
 
 {% if templates|length < pool_target %}
 <p class="muted mt-2" style="font-size:0.85rem; text-align:center;">
-    💡 Havuz {{ pool_target }}'e ulaşana kadar, her quiz bitiminde AI yeni bir quiz ekleyecek.
+    {% blocktrans with target=pool_target %}💡 Havuz {{ target }}'e ulaşana kadar, her quiz bitiminde AI yeni bir quiz ekleyecek.{% endblocktrans %}
 </p>
 {% endif %}
 
 {% else %}
 <div class="empty">
     <div class="empty-icon">⏳</div>
-    <p>Quiz üretilemedi. API key'i kontrol et ve sayfayı yenile.</p>
+    <p>{% trans "Quiz üretilemedi. API key'i kontrol et ve sayfayı yenile." %}</p>
 </div>
 {% endif %}
 {% endblock %}
