@@ -258,18 +258,18 @@
   {
     "rank": 33,
     "english": "advance",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "ilerlemek",
+    "example_en": "They decided to advance their plans for the project.",
+    "example_tr": "Projeye yönelik planlarını ilerletmeye karar verdiler."
   },
   {
     "rank": 34,
     "english": "advance",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "avans",
+    "example_en": "She received an advance for her upcoming book.",
+    "example_tr": "Yaklaşan kitabı için bir avans aldı."
   },
   {
     "rank": 35,
@@ -346,10 +346,10 @@
   {
     "rank": 44,
     "english": "aid",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "yardım",
+    "example_en": "The organization provides aid to those in need.",
+    "example_tr": "Bu kuruluş, ihtiyaç sahiplerine yardım sağlıyor."
   },
   {
     "rank": 45,
@@ -546,10 +546,10 @@
   {
     "rank": 69,
     "english": "appeal",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "çekicilik",
+    "example_en": "The novel has a strong emotional appeal.",
+    "example_tr": "Romanın güçlü bir duygusal çekiciliği var."
   },
   {
     "rank": 70,
@@ -570,10 +570,10 @@
   {
     "rank": 72,
     "english": "approach",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "yaklaşım",
+    "example_en": "She has a unique approach to problem-solving.",
+    "example_tr": "Problemleri çözme konusunda benzersiz bir yaklaşımı var."
   },
   {
     "rank": 73,
@@ -802,10 +802,10 @@
   {
     "rank": 101,
     "english": "attempt",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "girişim",
+    "example_en": "His attempt to climb the mountain was successful.",
+    "example_tr": "Dağa tırmanma girişimi başarılı oldu."
   },
   {
     "rank": 102,
@@ -1042,10 +1042,10 @@
   {
     "rank": 131,
     "english": "besides",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adv",
+    "turkish": "bunun yanı sıra",
+    "example_en": "Besides studying, she also works part-time.",
+    "example_tr": "Bunun yanı sıra, yarı zamanlı çalışıyor."
   },
   {
     "rank": 132,
@@ -1058,10 +1058,10 @@
   {
     "rank": 133,
     "english": "bet",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "bahis",
+    "example_en": "He placed a bet on the football game.",
+    "example_tr": "Futbol maçına bahis koydu."
   },
   {
     "rank": 134,
@@ -1074,10 +1074,10 @@
   {
     "rank": 135,
     "english": "beyond",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "prep",
+    "turkish": "ötesinde",
+    "example_en": "The truth lies beyond what we can see.",
+    "example_tr": "Gerçek, görebileceğimizin ötesinde yatmaktadır."
   },
   {
     "rank": 136,
@@ -1098,10 +1098,10 @@
   {
     "rank": 138,
     "english": "bid",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "teklif",
+    "example_en": "She made a bid for the painting at the auction.",
+    "example_tr": "Müzayedede tablo için bir teklif verdi."
   },
   {
     "rank": 139,
@@ -1138,10 +1138,10 @@
   {
     "rank": 143,
     "english": "blame",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "suçlamak",
+    "example_en": "Don't blame others for your mistakes.",
+    "example_tr": "Hatalarınız için başkalarını suçlamayın."
   },
   {
     "rank": 144,
@@ -1210,10 +1210,10 @@
   {
     "rank": 152,
     "english": "boost",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "artırmak",
+    "example_en": "The new advertising campaign helped to boost sales.",
+    "example_tr": "Yeni reklam kampanyası satışları artırmaya yardımcı oldu."
   },
   {
     "rank": 153,
@@ -1282,10 +1282,10 @@
   {
     "rank": 161,
     "english": "broadcast",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "yayınlamak",
+    "example_en": "They will broadcast the match live on television.",
+    "example_tr": "Maçı televizyonda canlı yayınlayacaklar."
   },
   {
     "rank": 162,
@@ -1442,10 +1442,10 @@
   {
     "rank": 181,
     "english": "capture",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "yakalamak",
+    "example_en": "The photographer aimed to capture the moment perfectly.",
+    "example_tr": "Fotoğrafçı, anı mükemmel bir şekilde yakalamayı hedefledi."
   },
   {
     "rank": 182,
@@ -1466,10 +1466,10 @@
   {
     "rank": 184,
     "english": "cast",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "seçmek",
+    "example_en": "The director will cast the actors for the play next week.",
+    "example_tr": "Yönetmen, oyunun oyuncularını gelecek hafta seçecek."
   },
   {
     "rank": 185,
@@ -1578,10 +1578,10 @@
   {
     "rank": 198,
     "english": "characteristic",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "özellik",
+    "example_en": "Honesty is a characteristic that I admire.",
+    "example_tr": "Dürüstlük, hayranlık duyduğum bir özelliktir."
   },
   {
     "rank": 199,
@@ -1610,10 +1610,10 @@
   {
     "rank": 202,
     "english": "chase",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "kovalamak",
+    "example_en": "The dog loves to chase after balls.",
+    "example_tr": "Köpek topların peşinden koşmayı sever."
   },
   {
     "rank": 203,
@@ -1634,10 +1634,10 @@
   {
     "rank": 205,
     "english": "cheer",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "tezahürat yapmak",
+    "example_en": "The fans will cheer for their team at the game.",
+    "example_tr": "Hayranlar, maçta takımlarını tezahürat yapacaklar."
   },
   {
     "rank": 206,
@@ -1650,10 +1650,10 @@
   {
     "rank": 207,
     "english": "chief",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "şef",
+    "example_en": "He is the chief of the department.",
+    "example_tr": "Departmanın şefidir."
   },
   {
     "rank": 208,
@@ -1738,10 +1738,10 @@
   {
     "rank": 218,
     "english": "classic",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "klasik",
+    "example_en": "That novel is considered a classic of literature.",
+    "example_tr": "O roman, edebiyatın klasiklerinden biri olarak kabul edilir."
   },
   {
     "rank": 219,
@@ -1818,10 +1818,10 @@
   {
     "rank": 228,
     "english": "collapse",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "çökmek",
+    "example_en": "The bridge will collapse if not repaired soon.",
+    "example_tr": "Köprü, kısa sürede onarılmazsa çökebilir."
   },
   {
     "rank": 229,
@@ -1866,10 +1866,10 @@
   {
     "rank": 234,
     "english": "comfort",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "rahatlamak",
+    "example_en": "She found comfort in her friend's words.",
+    "example_tr": "Arkadaşının sözlerinde rahatlık buldu."
   },
   {
     "rank": 235,
@@ -1882,10 +1882,10 @@
   {
     "rank": 236,
     "english": "comic",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "mizah",
+    "example_en": "He has a great comic style of writing.",
+    "example_tr": "Mükemmel bir mizah yazma tarzı var."
   },
   {
     "rank": 237,
@@ -1898,10 +1898,10 @@
   {
     "rank": 238,
     "english": "command",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "komut",
+    "example_en": "He gave the command to start the mission.",
+    "example_tr": "Görevi başlatmak için komutu verdi."
   },
   {
     "rank": 239,
@@ -1922,10 +1922,10 @@
   {
     "rank": 241,
     "english": "commission",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "komisyon",
+    "example_en": "The artist received a commission for his latest work.",
+    "example_tr": "Sanatçı, en son eseri için bir komisyon aldı."
   },
   {
     "rank": 242,
@@ -2066,10 +2066,10 @@
   {
     "rank": 259,
     "english": "concern",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "endişe",
+    "example_en": "Her main concern is the environmental impact.",
+    "example_tr": "Onun en büyük endişesi çevresel etkidir."
   },
   {
     "rank": 260,
@@ -2090,10 +2090,10 @@
   {
     "rank": 262,
     "english": "concrete",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "beton",
+    "example_en": "The building is made of concrete.",
+    "example_tr": "Bina betondan yapılmıştır."
   },
   {
     "rank": 263,
@@ -2106,10 +2106,10 @@
   {
     "rank": 264,
     "english": "conduct",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "davranış",
+    "example_en": "His conduct at the meeting was unprofessional.",
+    "example_tr": "Toplantıdaki davranışı profesyonelce değildi."
   },
   {
     "rank": 265,
@@ -2138,10 +2138,10 @@
   {
     "rank": 268,
     "english": "conflict",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "çatışma",
+    "example_en": "There is a conflict between the two countries.",
+    "example_tr": "İki ülke arasında bir çatışma var."
   },
   {
     "rank": 269,
@@ -2194,10 +2194,10 @@
   {
     "rank": 275,
     "english": "conservative",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "muhafazakâr",
+    "example_en": "He has conservative views on social issues.",
+    "example_tr": "Sosyal konularda muhafazakâr görüşleri var."
   },
   {
     "rank": 276,
@@ -2322,10 +2322,10 @@
   {
     "rank": 291,
     "english": "contest",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "yarışma",
+    "example_en": "She won the singing contest.",
+    "example_tr": "Şarkı yarışmasını kazandı."
   },
   {
     "rank": 292,
@@ -2338,10 +2338,10 @@
   {
     "rank": 293,
     "english": "contract",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "sözleşme",
+    "example_en": "They signed a contract to begin the project.",
+    "example_tr": "Projeye başlamak için bir sözleşme imzaladılar."
   },
   {
     "rank": 294,
@@ -2450,10 +2450,10 @@
   {
     "rank": 307,
     "english": "core",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "çekirdek",
+    "example_en": "The core of the apple is not edible.",
+    "example_tr": "Elmanın çekirdeği yenmez."
   },
   {
     "rank": 308,
@@ -2530,10 +2530,10 @@
   {
     "rank": 317,
     "english": "crack",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "çatlak",
+    "example_en": "There is a crack in the wall.",
+    "example_tr": "Duvarın içinde bir çatlak var."
   },
   {
     "rank": 318,
@@ -2554,10 +2554,10 @@
   {
     "rank": 320,
     "english": "crash",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "çarpışma",
+    "example_en": "The car was involved in a crash.",
+    "example_tr": "Araba bir çarpışmaya karıştı."
   },
   {
     "rank": 321,
@@ -2682,10 +2682,10 @@
   {
     "rank": 336,
     "english": "cruise",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "seyahat",
+    "example_en": "We are going on a cruise this summer.",
+    "example_tr": "Bu yaz bir seyahate çıkıyoruz."
   },
   {
     "rank": 337,
@@ -2714,10 +2714,10 @@
   {
     "rank": 340,
     "english": "cure",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "tedavi",
+    "example_en": "Scientists are looking for a cure for cancer.",
+    "example_tr": "Bilim insanları kanser için bir tedavi arıyor."
   },
   {
     "rank": 341,
@@ -2754,10 +2754,10 @@
   {
     "rank": 345,
     "english": "curve",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "kıvrım",
+    "example_en": "The curve of the road is dangerous.",
+    "example_tr": "Yoldaki kıvrım tehlikeli."
   },
   {
     "rank": 346,
@@ -2786,10 +2786,10 @@
   {
     "rank": 349,
     "english": "dairy",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "süt ürünleri",
+    "example_en": "She avoids all dairy products.",
+    "example_tr": "Bütün süt ürünlerinden kaçınıyor."
   },
   {
     "rank": 350,
@@ -2858,10 +2858,10 @@
   {
     "rank": 358,
     "english": "debate",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "tartışma",
+    "example_en": "They had a debate about climate change.",
+    "example_tr": "İklim değişikliği hakkında bir tartışma yaptılar."
   },
   {
     "rank": 359,
@@ -2906,10 +2906,10 @@
   {
     "rank": 364,
     "english": "decline",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "azalma",
+    "example_en": "There has been a decline in sales.",
+    "example_tr": "Satışlarda bir azalma oldu."
   },
   {
     "rank": 365,
@@ -2930,10 +2930,10 @@
   {
     "rank": 367,
     "english": "decrease",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "azaltma",
+    "example_en": "They plan to decrease their spending.",
+    "example_tr": "Harcamalarını azaltmayı planlıyorlar."
   },
   {
     "rank": 368,
@@ -2954,10 +2954,10 @@
   {
     "rank": 370,
     "english": "defeat",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "mağlubiyet",
+    "example_en": "The team suffered a defeat last night.",
+    "example_tr": "Takım dün gece bir mağlubiyet yaşadı."
   },
   {
     "rank": 371,
@@ -2994,10 +2994,10 @@
   {
     "rank": 375,
     "english": "delay",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "gecikme",
+    "example_en": "There was a delay in the flight schedule.",
+    "example_tr": "Uçuş tarifesinde bir gecikme oldu."
   },
   {
     "rank": 376,
@@ -3034,10 +3034,10 @@
   {
     "rank": 380,
     "english": "delight",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "zevk",
+    "example_en": "She took delight in painting.",
+    "example_tr": "Resim yapmada zevk aldı."
   },
   {
     "rank": 381,
@@ -3066,10 +3066,10 @@
   {
     "rank": 384,
     "english": "demand",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "talep",
+    "example_en": "There is a high demand for electricity.",
+    "example_tr": "Elektriğe yüksek bir talep var."
   },
   {
     "rank": 385,
@@ -3202,10 +3202,10 @@
   {
     "rank": 401,
     "english": "desire",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "arzu",
+    "example_en": "He has a strong desire to succeed.",
+    "example_tr": "Başarılı olma konusunda güçlü bir arzusu var."
   },
   {
     "rank": 402,
@@ -3378,10 +3378,10 @@
   {
     "rank": 423,
     "english": "disk",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "disk",
+    "example_en": "She saved the files on a disk.",
+    "example_tr": "Dosyaları bir diske kaydetti."
   },
   {
     "rank": 424,
@@ -3402,10 +3402,10 @@
   {
     "rank": 426,
     "english": "display",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "sergilemek",
+    "example_en": "The museum will display ancient artifacts.",
+    "example_tr": "Müze antik eserleri sergileyecek."
   },
   {
     "rank": 427,
@@ -3482,10 +3482,10 @@
   {
     "rank": 436,
     "english": "dive",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "daldırmak",
+    "example_en": "He decided to dive into the swimming pool.",
+    "example_tr": "Yüzme havuzuna daldırmaya karar verdi."
   },
   {
     "rank": 437,
@@ -3530,10 +3530,10 @@
   {
     "rank": 442,
     "english": "divorce",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "boşanma",
+    "example_en": "Their divorce was finalized last year.",
+    "example_tr": "Onların boşanması geçen yıl tamamlandı."
   },
   {
     "rank": 443,
@@ -3594,18 +3594,18 @@
   {
     "rank": 450,
     "english": "downtown",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "şehir merkezi",
+    "example_en": "We went shopping downtown yesterday.",
+    "example_tr": "Biz dün şehir merkezinde alışveriş yaptık."
   },
   {
     "rank": 451,
     "english": "downtown",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "şehrin merkezi",
+    "example_en": "Let's go to downtown to enjoy the new cafe.",
+    "example_tr": "Yeni kafeyi denemek için şehir merkezine gidelim."
   },
   {
     "rank": 452,
@@ -3626,10 +3626,10 @@
   {
     "rank": 454,
     "english": "dozen",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "bir düzine",
+    "example_en": "I bought a dozen eggs from the store.",
+    "example_tr": "Dükkandan bir düzine yumurta aldım."
   },
   {
     "rank": 455,
@@ -3642,10 +3642,10 @@
   {
     "rank": 456,
     "english": "draft",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "taslak",
+    "example_en": "I need to create a draft of my report by tomorrow.",
+    "example_tr": "Yarın için raporumun bir taslağını oluşturmam gerekiyor."
   },
   {
     "rank": 457,
@@ -3914,10 +3914,10 @@
   {
     "rank": 490,
     "english": "encounter",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "karşılaşma",
+    "example_en": "She had an unexpected encounter with an old friend.",
+    "example_tr": "Eski bir arkadaşıyla beklenmedik bir karşılaşma yaşadı."
   },
   {
     "rank": 491,
@@ -4042,10 +4042,10 @@
   {
     "rank": 506,
     "english": "equivalent",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "eşdeğer",
+    "example_en": "This amount is equivalent to five dollars.",
+    "example_tr": "Bu miktar beş dolara eşdeğerdir."
   },
   {
     "rank": 507,
@@ -4098,10 +4098,10 @@
   {
     "rank": 513,
     "english": "estimate",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "tahmin",
+    "example_en": "Can you provide an estimate for the project costs?",
+    "example_tr": "Proje maliyetleri için bir tahmin verebilir misin?"
   },
   {
     "rank": 514,
@@ -4170,10 +4170,10 @@
   {
     "rank": 522,
     "english": "evil",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "kötülük",
+    "example_en": "The story revolves around the battle between good and evil.",
+    "example_tr": "Hikaye, iyilik ve kötülük arasındaki savaşı çevresinde dönüyor."
   },
   {
     "rank": 523,
@@ -4242,10 +4242,10 @@
   {
     "rank": 531,
     "english": "excuse",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "mazeret",
+    "example_en": "He made an excuse for being late.",
+    "example_tr": "Geç kalması için bir mazeret üretti."
   },
   {
     "rank": 532,
@@ -4258,10 +4258,10 @@
   {
     "rank": 533,
     "english": "executive",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "yönetici",
+    "example_en": "She is an executive at a major corporation.",
+    "example_tr": "O, büyük bir şirkette yöneticidir."
   },
   {
     "rank": 534,
@@ -4274,10 +4274,10 @@
   {
     "rank": 535,
     "english": "exhibit",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "sergi",
+    "example_en": "The museum will host an exhibit on ancient artifacts.",
+    "example_tr": "Müze, antik eserler üzerine bir sergi düzenleyecek."
   },
   {
     "rank": 536,
@@ -4626,10 +4626,10 @@
   {
     "rank": 579,
     "english": "finance",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "finans",
+    "example_en": "She studied finance in university.",
+    "example_tr": "O, üniversitede finans okudu."
   },
   {
     "rank": 580,
@@ -4706,10 +4706,10 @@
   {
     "rank": 589,
     "english": "flash",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "ani ışık",
+    "example_en": "There was a flash of light during the storm.",
+    "example_tr": "Fırtına sırasında ani bir ışık vardı."
   },
   {
     "rank": 590,
@@ -4794,10 +4794,10 @@
   {
     "rank": 600,
     "english": "forecast",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "tahmin",
+    "example_en": "The weather forecast predicts rain tomorrow.",
+    "example_tr": "Hava tahmini yarın yağmur tahmin ediyor."
   },
   {
     "rank": 601,
@@ -5002,10 +5002,10 @@
   {
     "rank": 626,
     "english": "full-time",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "tam zamanlı",
+    "example_en": "He is looking for a full-time job.",
+    "example_tr": "O, tam zamanlı bir iş arıyor."
   },
   {
     "rank": 627,
@@ -5034,10 +5034,10 @@
   {
     "rank": 630,
     "english": "fund",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "fon",
+    "example_en": "They established a fund for education.",
+    "example_tr": "Eğitim için bir fon kurdular."
   },
   {
     "rank": 631,
@@ -5090,10 +5090,10 @@
   {
     "rank": 637,
     "english": "gain",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "kazanım",
+    "example_en": "She hopes to gain experience from this internship.",
+    "example_tr": "Bu stajdan deneyim kazanmayı umuyor."
   },
   {
     "rank": 638,
@@ -5298,10 +5298,10 @@
   {
     "rank": 663,
     "english": "grant",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "hibe",
+    "example_en": "He received a grant for his research.",
+    "example_tr": "Araştırması için bir hibe aldı."
   },
   {
     "rank": 664,
@@ -5354,10 +5354,10 @@
   {
     "rank": 670,
     "english": "guarantee",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "garanti",
+    "example_en": "The product comes with a two-year guarantee.",
+    "example_tr": "Ürün iki yıl garantili olarak gelir."
   },
   {
     "rank": 671,
@@ -5386,10 +5386,10 @@
   {
     "rank": 674,
     "english": "handle",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "ele almak",
+    "example_en": "She knows how to handle difficult situations.",
+    "example_tr": "Zor durumları nasıl ele alacağını biliyor."
   },
   {
     "rank": 675,
@@ -5410,10 +5410,10 @@
   {
     "rank": 677,
     "english": "harm",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "zarar",
+    "example_en": "The chemicals can cause harm to the environment.",
+    "example_tr": "Kimyasallar, çevreye zarar verebilir."
   },
   {
     "rank": 678,
@@ -5618,10 +5618,10 @@
   {
     "rank": 703,
     "english": "honour",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "onur",
+    "example_en": "It is an honour to meet you.",
+    "example_tr": "Sizinle tanışmak bir onurdur."
   },
   {
     "rank": 704,
@@ -6106,10 +6106,10 @@
   {
     "rank": 764,
     "english": "inquiry",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "soruşturma",
+    "example_en": "The inquiry into the incident is ongoing.",
+    "example_tr": "Olayla ilgili soruşturma devam ediyor."
   },
   {
     "rank": 765,
@@ -6370,10 +6370,10 @@
   {
     "rank": 797,
     "english": "jail",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "hapishane",
+    "example_en": "He was sent to jail for theft.",
+    "example_tr": "Hırsızlıktan hapishaneye gönderildi."
   },
   {
     "rank": 798,
@@ -6394,10 +6394,10 @@
   {
     "rank": 800,
     "english": "joint",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "eklem, ortak",
+    "example_en": "They decided to open a joint account.",
+    "example_tr": "Ortak bir hesap açmaya karar verdiler."
   },
   {
     "rank": 801,
@@ -6538,10 +6538,10 @@
   {
     "rank": 818,
     "english": "launch",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "fırlatma, başlatma",
+    "example_en": "The company will launch a new product next month.",
+    "example_tr": "Şirket, gelecek ay yeni bir ürün piyasaya sürecek."
   },
   {
     "rank": 819,
@@ -6714,10 +6714,10 @@
   {
     "rank": 840,
     "english": "load",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "yüklemek, yük",
+    "example_en": "Please load the boxes into the truck carefully.",
+    "example_tr": "Lütfen kutuları kamyona dikkatlice yükleyin."
   },
   {
     "rank": 841,
@@ -6754,10 +6754,10 @@
   {
     "rank": 845,
     "english": "long-term",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "uzun vadeli",
+    "example_en": "This is a long-term investment strategy.",
+    "example_tr": "Bu, uzun vadeli bir yatırım stratejisidir."
   },
   {
     "rank": 846,
@@ -6938,10 +6938,10 @@
   {
     "rank": 868,
     "english": "mass",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "kütle, toplu",
+    "example_en": "The mass of the object was measured in kilograms.",
+    "example_tr": "Nesnenin kütlesi kilogram cinsinden ölçüldü."
   },
   {
     "rank": 869,
@@ -6962,10 +6962,10 @@
   {
     "rank": 871,
     "english": "master",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "ustalık, şef",
+    "example_en": "He is a master of martial arts.",
+    "example_tr": "O, dövüş sanatlarının ustasıdır."
   },
   {
     "rank": 872,
@@ -6986,10 +6986,10 @@
   {
     "rank": 874,
     "english": "mate",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "arkadaş, eş",
+    "example_en": "He invited his mate to the party.",
+    "example_tr": "Partiye arkadaşını davet etti."
   },
   {
     "rank": 875,
@@ -7010,10 +7010,10 @@
   {
     "rank": 877,
     "english": "maximum",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "maksimum",
+    "example_en": "The maximum speed allowed is 60 km/h.",
+    "example_tr": "İzin verilen maksimum hız 60 km/saat."
   },
   {
     "rank": 878,
@@ -7130,10 +7130,10 @@
   {
     "rank": 892,
     "english": "military",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "askeri",
+    "example_en": "He has a military background.",
+    "example_tr": "Onun askeri bir geçmişi var."
   },
   {
     "rank": 893,
@@ -7162,10 +7162,10 @@
   {
     "rank": 896,
     "english": "minimum",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "minimum",
+    "example_en": "The minimum age for voting is 18.",
+    "example_tr": "Seçimlerde oy kullanmanın minimum yaşı 18'dir."
   },
   {
     "rank": 897,
@@ -7266,10 +7266,10 @@
   {
     "rank": 909,
     "english": "monitor",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "izlemek, gözlemlemek",
+    "example_en": "Teachers need to monitor student progress regularly.",
+    "example_tr": "Öğretmenler, öğrenci ilerlemesini düzenli olarak izlemelidir."
   },
   {
     "rank": 910,
@@ -7306,10 +7306,10 @@
   {
     "rank": 914,
     "english": "moral",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "ahlaki, etik",
+    "example_en": "She made a moral decision based on her values.",
+    "example_tr": "Değerlerine dayalı ahlaki bir karar verdi."
   },
   {
     "rank": 915,
@@ -7370,10 +7370,10 @@
   {
     "rank": 922,
     "english": "motor",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "motor, hareket",
+    "example_en": "The motor is responsible for the engine's power.",
+    "example_tr": "Motor, motorun gücünden sorumludur."
   },
   {
     "rank": 923,
@@ -7474,10 +7474,10 @@
   {
     "rank": 935,
     "english": "nearby",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "yakın, çevredeki",
+    "example_en": "There is a park nearby where we can relax.",
+    "example_tr": "Dinlenebileceğimiz yakın bir park var."
   },
   {
     "rank": 936,
@@ -7658,10 +7658,10 @@
   {
     "rank": 958,
     "english": "objective",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "hedef, nesnel",
+    "example_en": "Her main objective is to improve community health.",
+    "example_tr": "Onun ana hedefi topluluk sağlığını iyileştirmektir."
   },
   {
     "rank": 959,
@@ -7938,10 +7938,10 @@
   {
     "rank": 993,
     "english": "outline",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "taslak, özet",
+    "example_en": "The professor asked us to provide an outline of our projects.",
+    "example_tr": "Profesör, projelerimizin bir taslağını sağlamamızı istedi."
   },
   {
     "rank": 994,
@@ -7970,10 +7970,10 @@
   {
     "rank": 997,
     "english": "overall",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "genel olarak",
+    "example_en": "Overall, the project was a great success.",
+    "example_tr": "Genel olarak, proje büyük bir başarıydı."
   },
   {
     "rank": 998,
@@ -8002,10 +8002,10 @@
   {
     "rank": 1001,
     "english": "overseas",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "denizaşırı, yurtdışı",
+    "example_en": "He studied abroad, spending time overseas for two years.",
+    "example_tr": "Yurtdışında iki yıl geçirdi."
   },
   {
     "rank": 1002,
@@ -8042,10 +8042,10 @@
   {
     "rank": 1006,
     "english": "pace",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "adım, hız",
+    "example_en": "You need to set a steady pace to finish the race.",
+    "example_tr": "Yarışı tamamlamak için sabit bir hız belirlemeniz gerekiyor."
   },
   {
     "rank": 1007,
@@ -8106,10 +8106,10 @@
   {
     "rank": 1014,
     "english": "parallel",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "paralel, eş zamanlı",
+    "example_en": "The two lines run parallel to each other.",
+    "example_tr": "İki çizgi birbirine paralel ilerler."
   },
   {
     "rank": 1015,
@@ -8170,10 +8170,10 @@
   {
     "rank": 1022,
     "english": "part-time",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "yarı zamanlı",
+    "example_en": "She works part-time at a cafe.",
+    "example_tr": "O, bir kafede yarı zamanlı çalışıyor."
   },
   {
     "rank": 1023,
@@ -8218,10 +8218,10 @@
   {
     "rank": 1028,
     "english": "pause",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "duraklamak, ara",
+    "example_en": "Please pause the video for a moment.",
+    "example_tr": "Videoyu bir süreliğine duraklat lütfen."
   },
   {
     "rank": 1029,
@@ -8290,10 +8290,10 @@
   {
     "rank": 1037,
     "english": "permit",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "izin vermek, ruhsat",
+    "example_en": "You need a permit to park here.",
+    "example_tr": "Burada park etmek için bir izin almanız gerekiyor."
   },
   {
     "rank": 1038,
@@ -8354,10 +8354,10 @@
   {
     "rank": 1045,
     "english": "pile",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "yığın, küme",
+    "example_en": "He made a pile of leaves in the yard.",
+    "example_tr": "Bahçede bir yığın yaprak yaptı."
   },
   {
     "rank": 1046,
@@ -8418,18 +8418,18 @@
   {
     "rank": 1053,
     "english": "plus",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "conj",
+    "turkish": "artı, ek olarak",
+    "example_en": "Two plus two equals four.",
+    "example_tr": "İki artı iki dört eder."
   },
   {
     "rank": 1054,
     "english": "plus",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "conjunction",
+    "turkish": "artı",
+    "example_en": "The score increased by five plus two.",
+    "example_tr": "Skor beş artı iki arttı."
   },
   {
     "rank": 1055,
@@ -8498,10 +8498,10 @@
   {
     "rank": 1063,
     "english": "potential",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "potansiyel",
+    "example_en": "He has a lot of potential in sports.",
+    "example_tr": "Spor alanında çok fazla potansiyele sahip."
   },
   {
     "rank": 1064,
@@ -8530,10 +8530,10 @@
   {
     "rank": 1067,
     "english": "praise",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "övgü",
+    "example_en": "She received praise for her hard work.",
+    "example_tr": "Sıkı çalışması için övgü aldı."
   },
   {
     "rank": 1068,
@@ -8954,10 +8954,10 @@
   {
     "rank": 1120,
     "english": "purchase",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "satın alma",
+    "example_en": "I made a large purchase at the store.",
+    "example_tr": "Dükkanda büyük bir satın alma yaptım."
   },
   {
     "rank": 1121,
@@ -9034,10 +9034,10 @@
   {
     "rank": 1130,
     "english": "racist",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "ırkçı",
+    "example_en": "His comments were considered racist.",
+    "example_tr": "Yorumları ırkçı olarak değerlendirildi."
   },
   {
     "rank": 1131,
@@ -9082,10 +9082,10 @@
   {
     "rank": 1136,
     "english": "rank",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "rütbe",
+    "example_en": "He achieved a high rank in the military.",
+    "example_tr": "Askeriyede yüksek bir rütbe elde etti."
   },
   {
     "rank": 1137,
@@ -9242,10 +9242,10 @@
   {
     "rank": 1156,
     "english": "recruit",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "recruite etmek",
+    "example_en": "They want to recruit new members.",
+    "example_tr": "Yeni üyeleri recruite etmek istiyorlar."
   },
   {
     "rank": 1157,
@@ -9290,10 +9290,10 @@
   {
     "rank": 1162,
     "english": "regard",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "saymak",
+    "example_en": "I regard her as a close friend.",
+    "example_tr": "Onu yakın bir arkadaş olarak sayıyorum."
   },
   {
     "rank": 1163,
@@ -9314,10 +9314,10 @@
   {
     "rank": 1165,
     "english": "register",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "kayıt",
+    "example_en": "You need to register for the conference.",
+    "example_tr": "Konferansa kayıt olmanız gerekiyor."
   },
   {
     "rank": 1166,
@@ -9338,10 +9338,10 @@
   {
     "rank": 1168,
     "english": "regret",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "pişmanlık",
+    "example_en": "He felt regret after his decision.",
+    "example_tr": "Kararından sonra pişmanlık hissetti."
   },
   {
     "rank": 1169,
@@ -9426,10 +9426,10 @@
   {
     "rank": 1179,
     "english": "remark",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "yorum",
+    "example_en": "Her remark surprised everyone.",
+    "example_tr": "Onun yorumu herkesi şaşırttı."
   },
   {
     "rank": 1180,
@@ -9466,10 +9466,10 @@
   {
     "rank": 1184,
     "english": "representative",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "temsilci",
+    "example_en": "The sales representative will contact you.",
+    "example_tr": "Satış temsilcisi sizinle iletişime geçecek."
   },
   {
     "rank": 1185,
@@ -9498,10 +9498,10 @@
   {
     "rank": 1188,
     "english": "rescue",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "kurtarma",
+    "example_en": "The firefighters were able to rescue the cat.",
+    "example_tr": "İtfaiyeciler kediyi kurtarmayı başardı."
   },
   {
     "rank": 1189,
@@ -9514,10 +9514,10 @@
   {
     "rank": 1190,
     "english": "reserve",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "rezervasyon",
+    "example_en": "I would like to reserve a table for two.",
+    "example_tr": "İki kişilik bir masa rezervasyonu yapmak istiyorum."
   },
   {
     "rank": 1191,
@@ -9530,10 +9530,10 @@
   {
     "rank": 1192,
     "english": "resident",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "sakin",
+    "example_en": "She is a long-time resident of the city.",
+    "example_tr": "O, şehrin uzun zamandır sakini."
   },
   {
     "rank": 1193,
@@ -9666,10 +9666,10 @@
   {
     "rank": 1209,
     "english": "reward",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "ödül",
+    "example_en": "He received a reward for his hard work.",
+    "example_tr": "Sıkı çalışması için ödül aldı."
   },
   {
     "rank": 1210,
@@ -9714,10 +9714,10 @@
   {
     "rank": 1215,
     "english": "rival",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "rakip",
+    "example_en": "He has always seen her as a rival.",
+    "example_tr": "Her zaman onu bir rakip olarak gördü."
   },
   {
     "rank": 1216,
@@ -9810,10 +9810,10 @@
   {
     "rank": 1227,
     "english": "rubber",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "kauçuk",
+    "example_en": "This tire is made of rubber.",
+    "example_tr": "Bu lastik kauçuktan yapılmıştır."
   },
   {
     "rank": 1228,
@@ -9826,10 +9826,10 @@
   {
     "rank": 1229,
     "english": "ruin",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "harap",
+    "example_en": "The storm caused the ruin of the house.",
+    "example_tr": "Fırtına, evin harap olmasına neden oldu."
   },
   {
     "rank": 1230,
@@ -9850,10 +9850,10 @@
   {
     "rank": 1232,
     "english": "rush",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "acele",
+    "example_en": "Don't rush; take your time.",
+    "example_tr": "Acele etme; zamanını al."
   },
   {
     "rank": 1233,
@@ -9930,10 +9930,10 @@
   {
     "rank": 1242,
     "english": "scare",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "korkutmak",
+    "example_en": "The loud noise might scare the children.",
+    "example_tr": "Yüksek ses çocukları korkutabilir."
   },
   {
     "rank": 1243,
@@ -9986,10 +9986,10 @@
   {
     "rank": 1249,
     "english": "scratch",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "çizmek",
+    "example_en": "He accidentally scratched the car.",
+    "example_tr": "Arabayı yanlışlıkla çizdi."
   },
   {
     "rank": 1250,
@@ -10002,10 +10002,10 @@
   {
     "rank": 1251,
     "english": "scream",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "çığlık atmak",
+    "example_en": "She began to scream in fright.",
+    "example_tr": "Korkudan çığlık atmaya başladı."
   },
   {
     "rank": 1252,
@@ -10050,10 +10050,10 @@
   {
     "rank": 1257,
     "english": "secure",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "güvence altına almak",
+    "example_en": "You need to secure the doors at night.",
+    "example_tr": "Gece kapıları güvence altına almanız gerekiyor."
   },
   {
     "rank": 1258,
@@ -10250,10 +10250,10 @@
   {
     "rank": 1282,
     "english": "shelter",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "barınak",
+    "example_en": "The animal shelter is full.",
+    "example_tr": "Hayvan barınağı dolu."
   },
   {
     "rank": 1283,
@@ -10282,10 +10282,10 @@
   {
     "rank": 1286,
     "english": "shock",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "şok",
+    "example_en": "The news of the accident was a shock to everyone.",
+    "example_tr": "Kaza haberi herkes için bir şoktu."
   },
   {
     "rank": 1287,
@@ -10450,10 +10450,10 @@
   {
     "rank": 1307,
     "english": "slide",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "kaydırma",
+    "example_en": "Children love to play on the slide at the park.",
+    "example_tr": "Çocuklar parkta kaydırakta oynamayı sever."
   },
   {
     "rank": 1308,
@@ -10490,10 +10490,10 @@
   {
     "rank": 1312,
     "english": "slope",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "eğim",
+    "example_en": "Be careful when walking down the slope after the rain.",
+    "example_tr": "Yağmurdan sonra eğimden aşağı yürürken dikkatli ol."
   },
   {
     "rank": 1313,
@@ -10570,10 +10570,10 @@
   {
     "rank": 1322,
     "english": "specialist",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "uzman",
+    "example_en": "She is a medical specialist in cardiology.",
+    "example_tr": "O, kardiyoloji alanında bir uzman."
   },
   {
     "rank": 1323,
@@ -10682,10 +10682,10 @@
   {
     "rank": 1336,
     "english": "split",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "bölmek",
+    "example_en": "They had to split the pie into equal pieces.",
+    "example_tr": "Payı eşit parçalara bölmek zorunda kaldılar."
   },
   {
     "rank": 1337,
@@ -10730,10 +10730,10 @@
   {
     "rank": 1342,
     "english": "sponsor",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "sponsor",
+    "example_en": "The company decided to sponsor the local sports team.",
+    "example_tr": "Şirket, yerel spor takımına sponsor olmaya karar verdi."
   },
   {
     "rank": 1343,
@@ -10778,10 +10778,10 @@
   {
     "rank": 1348,
     "english": "spring",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "bahar",
+    "example_en": "Spring is my favorite season of the year.",
+    "example_tr": "Bahar, yılın en sevdiğim mevsimidir."
   },
   {
     "rank": 1349,
@@ -10946,10 +10946,10 @@
   {
     "rank": 1369,
     "english": "stretch",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "uzatmak",
+    "example_en": "It's important to stretch before exercising to avoid injury.",
+    "example_tr": "Sakatlanmamak için egzersiz öncesi uzatmak önemlidir."
   },
   {
     "rank": 1370,
@@ -10978,10 +10978,10 @@
   {
     "rank": 1373,
     "english": "strike",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "grev",
+    "example_en": "The workers decided to go on strike for better wages.",
+    "example_tr": "İşçiler daha iyi maaşlar için greve gitmeye karar verdiler."
   },
   {
     "rank": 1374,
@@ -11010,10 +11010,10 @@
   {
     "rank": 1377,
     "english": "struggle",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "mücadele etmek",
+    "example_en": "He had to struggle to get his point across.",
+    "example_tr": "Fikrini anlatmak için mücadele etmek zorunda kaldı."
   },
   {
     "rank": 1378,
@@ -11106,10 +11106,10 @@
   {
     "rank": 1389,
     "english": "sum",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "toplam",
+    "example_en": "The sum of the numbers is greater than ten.",
+    "example_tr": "Sayıların toplamı ondan büyüktür."
   },
   {
     "rank": 1390,
@@ -11186,10 +11186,10 @@
   {
     "rank": 1399,
     "english": "suspect",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "şüphelenmek",
+    "example_en": "I suspect that something is wrong with the machine.",
+    "example_tr": "Makinede bir şeylerin yanlış olduğundan şüpheleniyorum."
   },
   {
     "rank": 1400,
@@ -11274,10 +11274,10 @@
   {
     "rank": 1410,
     "english": "tag",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "etiket",
+    "example_en": "Please attach a tag to the gift with your name on it.",
+    "example_tr": "Lütfen, hediyenin üzerine isminizin yazılı olduğu bir etiket ekleyin."
   },
   {
     "rank": 1411,
@@ -11306,10 +11306,10 @@
   {
     "rank": 1414,
     "english": "tap",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "dokunmak",
+    "example_en": "He gave the screen a gentle tap to wake it up.",
+    "example_tr": "Ekranı uyandırmak için hafifçe dokundu."
   },
   {
     "rank": 1415,
@@ -11690,10 +11690,10 @@
   {
     "rank": 1462,
     "english": "transfer",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "transfer etmek",
+    "example_en": "You can transfer your funds to another account easily.",
+    "example_tr": "Fonlarınızı başka bir hesaba kolayca transfer edebilirsiniz."
   },
   {
     "rank": 1463,
@@ -11738,10 +11738,10 @@
   {
     "rank": 1468,
     "english": "trap",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "tuzağa düşürmek",
+    "example_en": "The hunter set a trap to catch the rabbit.",
+    "example_tr": "Avcı, tavşanı yakalamak için bir tuzak kurdu."
   },
   {
     "rank": 1469,
@@ -11834,10 +11834,10 @@
   {
     "rank": 1480,
     "english": "trust",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "güvenmek",
+    "example_en": "I trust my friend to keep my secrets safe.",
+    "example_tr": "Sırrımı güvende tutacağına arkadaşımın güveniyorum."
   },
   {
     "rank": 1481,
@@ -11970,10 +11970,10 @@
   {
     "rank": 1497,
     "english": "unite",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "birleşmek",
+    "example_en": "We need to unite our efforts to achieve the goal.",
+    "example_tr": "Amacı başarmak için çabalarımızı birleştirmeliyiz."
   },
   {
     "rank": 1498,
@@ -12346,10 +12346,10 @@
   {
     "rank": 1544,
     "english": "whisper",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "fısıldamak",
+    "example_en": "She leaned over to whisper a secret to her friend.",
+    "example_tr": "Sırrını arkadaşına fısıldamak için eğildi."
   },
   {
     "rank": 1545,
@@ -12450,10 +12450,10 @@
   {
     "rank": 1557,
     "english": "witness",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "tanık olmak",
+    "example_en": "He was a witness to the event that took place.",
+    "example_tr": "O, gerçekleşen olayın tanığıydı."
   },
   {
     "rank": 1558,
@@ -12522,10 +12522,10 @@
   {
     "rank": 1566,
     "english": "wound",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "yaralamak",
+    "example_en": "He thought he could treat the wound himself.",
+    "example_tr": "Yarasını kendisinin tedavi edebileceğini düşündü."
   },
   {
     "rank": 1567,

@@ -24,6 +24,7 @@ class Command(BaseCommand):
 
         total_new = 0
         total_existing = 0
+        total_skipped = 0
         for code in ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']:
             path = data_dir / f'{code.lower()}.json'
             if not path.exists():
@@ -33,17 +34,23 @@ class Command(BaseCommand):
                 items = json.load(f)
             new_count = 0
             existing_count = 0
+            skipped_count = 0
             with transaction.atomic():
                 for it in items:
+                    english = (it.get('english') or '').strip()
+                    turkish = (it.get('turkish') or '').strip()
+                    if not english or not turkish:
+                        skipped_count += 1
+                        continue
                     _, created = BankWord.objects.get_or_create(
                         level=code,
-                        english=it['english'],
-                        part_of_speech=it.get('part_of_speech', ''),
+                        english=english,
+                        part_of_speech=(it.get('part_of_speech') or '').strip(),
                         defaults={
                             'rank': it['rank'],
-                            'turkish': it['turkish'],
-                            'example_en': it.get('example_en', ''),
-                            'example_tr': it.get('example_tr', ''),
+                            'turkish': turkish,
+                            'example_en': (it.get('example_en') or '').strip(),
+                            'example_tr': (it.get('example_tr') or '').strip(),
                         },
                     )
                     if created:
@@ -52,8 +59,11 @@ class Command(BaseCommand):
                         existing_count += 1
             total_new += new_count
             total_existing += existing_count
-            self.stdout.write(f'{code}: {new_count} yeni, {existing_count} mevcut.')
+            total_skipped += skipped_count
+            self.stdout.write(
+                f'{code}: {new_count} yeni, {existing_count} mevcut, {skipped_count} boş (atlandı).'
+            )
 
         self.stdout.write(self.style.SUCCESS(
-            f'Bitti. Toplam yeni: {total_new}, mevcut: {total_existing}.'
+            f'Bitti. Toplam yeni: {total_new}, mevcut: {total_existing}, atlanan: {total_skipped}.'
         ))

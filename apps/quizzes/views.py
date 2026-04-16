@@ -12,6 +12,7 @@ from apps.topics.models import Topic
 from apps.vocabulary.models import Word
 from . import services as quiz_services
 from .models import QuizSession, QuizQuestion, QuizTemplate
+from .normalization import normalize_item
 
 
 MIN_WORDS_FOR_QUIZ = 10
@@ -107,7 +108,13 @@ def topic_picker(request, slug):
 @require_POST
 def start_template(request, template_id):
     template = get_object_or_404(QuizTemplate, pk=template_id, user=request.user)
-    items = template.questions_data or []
+    raw_items = template.questions_data or []
+    items = [normalize_item(it) for it in raw_items if isinstance(it, dict)]
+    items = [
+        it for it in items
+        if (it.get('prompt') or '').strip() and (it.get('correct_answer') or '').strip()
+        and (it.get('question_type') != 'multiple_choice' or (it.get('choices') and len(it['choices']) >= 2))
+    ]
     if not items:
         messages.error(request, _('Bu quiz şablonu boş.'))
         return redirect('quizzes:word_picker')

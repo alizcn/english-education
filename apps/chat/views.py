@@ -52,6 +52,11 @@ def send(request):
         messages.error(request, _('AI hata: %(error)s') % {'error': e})
         return redirect('chat:page')
 
+    reply = (reply or '').strip()
+    if not reply:
+        messages.error(request, _('AI boş yanıt döndü. Tekrar dene.'))
+        return redirect('chat:page')
+
     ChatMessage.objects.create(conversation=conv, role=ChatMessage.ASSISTANT, content=reply)
     conv.save()
     return redirect('chat:page')

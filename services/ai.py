@@ -39,7 +39,8 @@ def translate_words(words: Iterable[str]) -> list[dict]:
         'You are an English-Turkish dictionary assistant. For each English word or phrase, '
         'return its Turkish meaning, a short natural example sentence in English, and the '
         'Turkish translation of that sentence, plus a short part-of-speech tag '
-        '(noun, verb, adj, adv, phrase...). Respond ONLY in the requested JSON format.'
+        '(noun, verb, adj, adv, phrase...). Every entry must have a non-empty Turkish '
+        'translation — never return an empty turkish field. Respond ONLY in the requested JSON format.'
     )
     user = (
         'Return JSON: {"items": [{"english": "...", "turkish": "...", '
@@ -47,7 +48,23 @@ def translate_words(words: Iterable[str]) -> list[dict]:
         'Words:\n- ' + '\n- '.join(cleaned)
     )
     data = _chat_json(system, user)
-    return data.get('items', [])
+    items = data.get('items', [])
+    out = []
+    for it in items:
+        if not isinstance(it, dict):
+            continue
+        eng = str(it.get('english') or '').strip()
+        tr = str(it.get('turkish') or '').strip()
+        if not eng or not tr:
+            continue
+        out.append({
+            'english': eng,
+            'turkish': tr,
+            'example_en': str(it.get('example_en') or '').strip(),
+            'example_tr': str(it.get('example_tr') or '').strip(),
+            'part_of_speech': str(it.get('part_of_speech') or '').strip(),
+        })
+    return out
 
 
 def generate_topic_quiz(topic_name: str, explanation: str, example_sentences: list[str], n: int = 50) -> list[dict]:
@@ -64,9 +81,13 @@ def generate_topic_quiz(topic_name: str, explanation: str, example_sentences: li
         f'Reference examples:\n{examples_text}\n\n'
         f'Generate exactly {n} varied questions. Return JSON:\n'
         '{"items": [{"question_type": "translate_tr_en|translate_en_tr|fill_blank|multiple_choice", '
-        '"prompt": "...", "correct_answer": "...", "choices": ["A","B","C","D"] or null}]}\n\n'
-        'For multiple_choice, "choices" is an array of 4 strings and "correct_answer" must be one of them. '
-        'For other types, "choices" should be null.'
+        '"prompt": "...", "correct_answer": "...", "choices": ["...","...","...","..."] or null}]}\n\n'
+        'STRICT rules for multiple_choice:\n'
+        '- "prompt" contains ONLY the question. Do NOT embed the options (no "A) ..." inside the prompt).\n'
+        '- "choices" is an array of exactly 4 non-empty strings, each the full option text.\n'
+        '- Do NOT prefix choices with letters like "A." / "B)".\n'
+        '- "correct_answer" MUST be the verbatim full text of one of the choices (not "A"/"B"/etc.).\n'
+        'For other question types, "choices" must be null and "correct_answer" is the expected answer text.'
     )
     data = _chat_json(system, user)
     return data.get('items', [])
@@ -91,10 +112,31 @@ def generate_word_quiz_extras(words: list[dict], n: int = 50) -> list[dict]:
         f'Create exactly {n} quiz items using ONLY words from the pool. Return JSON:\n'
         '{"items": [{"question_type": "translate_en_tr|translate_tr_en|multiple_choice", '
         '"prompt": "...", "correct_answer": "...", "english_word": "the pool word used", '
-        '"choices": ["...", "...", "...", "..."] or null}]}'
+        '"choices": ["...", "...", "...", "..."] or null}]}\n\n'
+        'STRICT rules for multiple_choice:\n'
+        '- "choices" must be an array of exactly 4 non-empty strings — no empty items, no "A."/"B)" prefixes.\n'
+        '- "correct_answer" MUST be the verbatim full text of one of the choices (never just a letter).\n'
+        '- "prompt" must NOT embed the options inline.\n'
+        'For other question types, "choices" must be null.'
     )
     data = _chat_json(system, user)
     return data.get('items', [])
+
+
+_INTERVIEW_FIELDS = ('question_tr', 'question_en', 'answer_tr', 'answer_en')
+
+
+def _clean_interview_items(items):
+    if not isinstance(items, list):
+        return []
+    out = []
+    for it in items:
+        if not isinstance(it, dict):
+            continue
+        cleaned = {k: str(it.get(k) or '').strip() for k in _INTERVIEW_FIELDS}
+        if all(cleaned.values()):
+            out.append(cleaned)
+    return out
 
 
 def generate_interview_questions(job_title: str, n: int = 10) -> list[dict]:
@@ -104,16 +146,18 @@ def generate_interview_questions(job_title: str, n: int = 10) -> list[dict]:
         'Each question must have: question in Turkish, question in English, '
         'a detailed answer in Turkish, and a detailed answer in English. '
         'Mix behavioral, technical, and situational questions. '
+        'Every field must be non-empty. '
         'Respond ONLY in the requested JSON format.'
     )
     user = (
         f'Position: "{job_title}"\n\n'
         f'Generate exactly {n} interview questions. Return JSON:\n'
-        '{{"items": [{{"question_tr": "...", "question_en": "...", '
-        '"answer_tr": "...", "answer_en": "..."}}]}}'
+        '{"items": [{"question_tr": "...", "question_en": "...", '
+        '"answer_tr": "...", "answer_en": "..."}]}\n'
+        'All four fields are required for every item.'
     )
     data = _chat_json(system, user)
-    return data.get('items', [])
+    return _clean_interview_items(data.get('items', []))
 
 
 def generate_interview_from_cv(cv_text: str, n: int = 10) -> list[dict]:
@@ -126,16 +170,18 @@ def generate_interview_from_cv(cv_text: str, n: int = 10) -> list[dict]:
         'a detailed answer in Turkish, and a detailed answer in English. '
         'Focus on their actual skills and experience from the CV. '
         'Mix behavioral, technical, and situational questions. '
+        'Every field must be non-empty. '
         'Respond ONLY in the requested JSON format.'
     )
     user = (
         f'CV Content:\n{cv_text[:4000]}\n\n'
         f'Generate exactly {n} personalized interview questions based on this CV. Return JSON:\n'
-        '{{"items": [{{"question_tr": "...", "question_en": "...", '
-        '"answer_tr": "...", "answer_en": "..."}}]}}'
+        '{"items": [{"question_tr": "...", "question_en": "...", '
+        '"answer_tr": "...", "answer_en": "..."}]}\n'
+        'All four fields are required for every item.'
     )
     data = _chat_json(system, user)
-    return data.get('items', [])
+    return _clean_interview_items(data.get('items', []))
 
 
 def chat(messages: list[dict]) -> str:

@@ -20,6 +20,7 @@
 </div>
 
 {% for q in session.questions_data %}
+{% if q.question_tr and q.question_en and q.answer_tr and q.answer_en %}
 <div class="interview-card">
     <div class="interview-num">{{ forloop.counter }}</div>
     <div class="interview-body">
@@ -46,6 +47,7 @@
         </details>
     </div>
 </div>
+{% endif %}
 {% endfor %}
 
 <div class="btn-row mt-3">

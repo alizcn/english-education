@@ -26,10 +26,12 @@
 
             {% if question.question_type == 'multiple_choice' and question.choices %}
                 {% for choice in question.choices %}
-                <label class="choice">
-                    <input type="radio" name="answer" value="{{ choice }}" required>
-                    {{ choice }}
-                </label>
+                    {% if choice %}
+                    <label class="choice">
+                        <input type="radio" name="answer" value="{{ choice }}" required>
+                        {{ choice }}
+                    </label>
+                    {% endif %}
                 {% endfor %}
             {% else %}
                 <input type="text" name="answer" autofocus autocomplete="off" required placeholder="{% trans "Cevabın..." %}">

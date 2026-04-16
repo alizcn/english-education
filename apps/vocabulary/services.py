@@ -41,9 +41,12 @@ def build_question(word, user):
         Word.objects.filter(user=user)
         .exclude(id=word.id)
         .exclude(turkish=word.turkish)
+        .exclude(turkish='')
         .order_by('?')[:3]
     )
-    options = [word.turkish] + [d.turkish for d in distractors]
+    correct = (word.turkish or '').strip()
+    options = [correct] + [(d.turkish or '').strip() for d in distractors]
+    options = [o for o in options if o]
     random.shuffle(options)
     return options
 

@@ -56,15 +56,18 @@ def bulk_add(request):
 
         created = 0
         skipped = 0
+        dropped = 0
         for it in items:
             eng = (it.get('english') or '').strip().lower()
-            if not eng:
+            tr = (it.get('turkish') or '').strip()
+            if not eng or not tr:
+                dropped += 1
                 continue
             obj, was_created = Word.objects.get_or_create(
                 user=request.user,
                 english=eng,
                 defaults={
-                    'turkish': (it.get('turkish') or '').strip(),
+                    'turkish': tr,
                     'example_en': (it.get('example_en') or '').strip(),
                     'example_tr': (it.get('example_tr') or '').strip(),
                     'part_of_speech': (it.get('part_of_speech') or '').strip()[:30],
@@ -79,6 +82,8 @@ def bulk_add(request):
         msg = _('%(count)d kelime eklendi.') % {'count': created}
         if skipped:
             msg += ' ' + _('(%(count)d tanesi zaten vardı.)') % {'count': skipped}
+        if dropped:
+            msg += ' ' + _('(%(count)d tanesi eksik çeviriyle geldi, atlandı.)') % {'count': dropped}
         messages.success(request, msg)
         return redirect('vocabulary:list')
 
@@ -89,8 +94,18 @@ def bulk_add(request):
 def word_edit(request, pk):
     word = get_object_or_404(Word, pk=pk, user=request.user)
     if request.method == 'POST':
-        word.english = request.POST.get('english', word.english).strip().lower()
-        word.turkish = request.POST.get('turkish', '').strip()
+        new_english = request.POST.get('english', word.english).strip().lower()
+        new_turkish = request.POST.get('turkish', '').strip()
+        if not new_english or not new_turkish:
+            messages.error(request, _('İngilizce ve Türkçe alanları boş olamaz.'))
+            return render(request, 'vocabulary/edit.html', {'word': word})
+        if new_english != word.english and Word.objects.filter(
+            user=request.user, english=new_english,
+        ).exclude(pk=word.pk).exists():
+            messages.error(request, _('Bu kelime zaten kayıtlı.'))
+            return render(request, 'vocabulary/edit.html', {'word': word})
+        word.english = new_english
+        word.turkish = new_turkish
         word.example_en = request.POST.get('example_en', '').strip()
         word.example_tr = request.POST.get('example_tr', '').strip()
         word.part_of_speech = request.POST.get('part_of_speech', '').strip()[:30]
@@ -142,7 +157,7 @@ def word_quiz_answer(request):
     selected = request.POST.get('answer', '').strip()
     word = get_object_or_404(Word, pk=word_id, user=request.user)
 
-    is_correct = (selected == word.turkish)
+    is_correct = (selected == (word.turkish or '').strip())
     vocab_services.record_answer(word, is_correct)
     stats = vocab_services.personal_stats(request.user)
 

@@ -650,10 +650,10 @@
   {
     "rank": 82,
     "english": "behind",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "preposition",
+    "turkish": "arka",
+    "example_en": "The cat is hiding behind the couch.",
+    "example_tr": "Kedi kanepenin arkasında saklanıyor."
   },
   {
     "rank": 83,
@@ -674,10 +674,10 @@
   {
     "rank": 85,
     "english": "below",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "preposition",
+    "turkish": "aşağıda",
+    "example_en": "The temperature is below freezing today.",
+    "example_tr": "Bugün hava durumu sıfırın altında."
   },
   {
     "rank": 86,
@@ -762,10 +762,10 @@
   {
     "rank": 96,
     "english": "black",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "siyah",
+    "example_en": "She wore a beautiful black dress.",
+    "example_tr": "Güzel bir siyah elbise giydi."
   },
   {
     "rank": 97,
@@ -794,10 +794,10 @@
   {
     "rank": 100,
     "english": "blue",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "mavi",
+    "example_en": "The sky is clear and blue.",
+    "example_tr": "Gökyüzü açık ve mavi."
   },
   {
     "rank": 101,
@@ -866,10 +866,10 @@
   {
     "rank": 109,
     "english": "both",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "her ikisi",
+    "example_en": "Both options are available to choose from.",
+    "example_tr": "Her iki seçenek de seçilebilir."
   },
   {
     "rank": 110,
@@ -922,10 +922,10 @@
   {
     "rank": 116,
     "english": "break",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "kırmak",
+    "example_en": "Be careful not to break the glass.",
+    "example_tr": "Camı kırmamaya dikkat et."
   },
   {
     "rank": 117,
@@ -962,10 +962,10 @@
   {
     "rank": 121,
     "english": "brown",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "kahverengi",
+    "example_en": "She has a brown dog.",
+    "example_tr": "Onun bir kahverengi köpeği var."
   },
   {
     "rank": 122,
@@ -1074,10 +1074,10 @@
   {
     "rank": 135,
     "english": "call",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "aramak",
+    "example_en": "Please call me when you arrive.",
+    "example_tr": "Varınca lütfen beni ara."
   },
   {
     "rank": 136,
@@ -1114,10 +1114,10 @@
   {
     "rank": 140,
     "english": "capital",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "başkent",
+    "example_en": "Ankara is the capital of Turkey.",
+    "example_tr": "Ankara, Türkiye'nin başkentidir."
   },
   {
     "rank": 141,
@@ -1218,10 +1218,10 @@
   {
     "rank": 153,
     "english": "change",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "değiştirmek",
+    "example_en": "It's time to change your habits.",
+    "example_tr": "Alışkanlıklarını değiştirme zamanı geldi."
   },
   {
     "rank": 154,
@@ -1330,10 +1330,10 @@
   {
     "rank": 167,
     "english": "clean",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "temiz",
+    "example_en": "Make sure to keep your room clean.",
+    "example_tr": "Odanı temiz tutmaya dikkat et."
   },
   {
     "rank": 168,
@@ -1402,10 +1402,10 @@
   {
     "rank": 176,
     "english": "cold",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "soğuk",
+    "example_en": "The water is very cold.",
+    "example_tr": "Su çok soğuk."
   },
   {
     "rank": 177,
@@ -1466,10 +1466,10 @@
   {
     "rank": 184,
     "english": "complete",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "tamamlamak",
+    "example_en": "Please complete the form before submitting.",
+    "example_tr": "Göndermeden önce lütfen formu tamamlayın."
   },
   {
     "rank": 185,
@@ -1530,10 +1530,10 @@
   {
     "rank": 192,
     "english": "correct",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "doğru",
+    "example_en": "Please provide the correct answer.",
+    "example_tr": "Lütfen doğru cevabı verin."
   },
   {
     "rank": 193,
@@ -1546,10 +1546,10 @@
   {
     "rank": 194,
     "english": "cost",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "maliyet",
+    "example_en": "The cost of living is increasing.",
+    "example_tr": "Yaşam maliyeti artıyor."
   },
   {
     "rank": 195,
@@ -1658,10 +1658,10 @@
   {
     "rank": 208,
     "english": "dance",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "dans etmek",
+    "example_en": "They love to dance at parties.",
+    "example_tr": "Partilerde dans etmeyi severler."
   },
   {
     "rank": 209,
@@ -1778,10 +1778,10 @@
   {
     "rank": 223,
     "english": "design",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "tasarım",
+    "example_en": "The design of the building is modern.",
+    "example_tr": "Bina tasarımı modern."
   },
   {
     "rank": 224,
@@ -1898,10 +1898,10 @@
   {
     "rank": 238,
     "english": "do",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "yapmak",
+    "example_en": "What do you want to do today?",
+    "example_tr": "Bugün ne yapmak istersin?"
   },
   {
     "rank": 239,
@@ -1946,10 +1946,10 @@
   {
     "rank": 244,
     "english": "down",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adverb",
+    "turkish": "aşağı",
+    "example_en": "She looked down from the top of the hill.",
+    "example_tr": "Tepeye çıktığında aşağıya baktı."
   },
   {
     "rank": 245,
@@ -1978,10 +1978,10 @@
   {
     "rank": 248,
     "english": "dress",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "elbise",
+    "example_en": "She bought a new dress for the party.",
+    "example_tr": "Parti için yeni bir elbise aldı."
   },
   {
     "rank": 249,
@@ -1994,10 +1994,10 @@
   {
     "rank": 250,
     "english": "drink",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "içmek",
+    "example_en": "Can I have something to drink?",
+    "example_tr": "İçebileceğim bir şey alabilir miyim?"
   },
   {
     "rank": 251,
@@ -2042,18 +2042,18 @@
   {
     "rank": 256,
     "english": "each",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "her biri",
+    "example_en": "Each student needs to bring their book.",
+    "example_tr": "Her öğrencinin kitabını getirmesi gerekiyor."
   },
   {
     "rank": 257,
     "english": "each",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "her biri",
+    "example_en": "Each of the items is on sale.",
+    "example_tr": "Öğelerin her biri indirimde."
   },
   {
     "rank": 258,
@@ -2074,10 +2074,10 @@
   {
     "rank": 260,
     "english": "early",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "erken",
+    "example_en": "I like to wake up early in the morning.",
+    "example_tr": "Sabahları erken uyanmayı severim."
   },
   {
     "rank": 261,
@@ -2090,18 +2090,18 @@
   {
     "rank": 262,
     "english": "east",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "doğu",
+    "example_en": "The sun rises in the east.",
+    "example_tr": "Güneş doğudan doğar."
   },
   {
     "rank": 263,
     "english": "east",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "doğu",
+    "example_en": "The sun rises in the east.",
+    "example_tr": "Güneş doğudan doğar."
   },
   {
     "rank": 264,
@@ -2186,10 +2186,10 @@
   {
     "rank": 274,
     "english": "email",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "e-posta",
+    "example_en": "I sent you an email yesterday.",
+    "example_tr": "Dün sana bir e-posta gönderdim."
   },
   {
     "rank": 275,
@@ -2202,10 +2202,10 @@
   {
     "rank": 276,
     "english": "end",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "son",
+    "example_en": "We are approaching the end of the movie.",
+    "example_tr": "Filmin sonuna yaklaşıyoruz."
   },
   {
     "rank": 277,
@@ -2226,18 +2226,18 @@
   {
     "rank": 279,
     "english": "enough",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "yeterince",
+    "example_en": "Do you have enough money?",
+    "example_tr": "Yeterince paran var mı?"
   },
   {
     "rank": 280,
     "english": "enough",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "yeterince",
+    "example_en": "I have enough money to buy the ticket.",
+    "example_tr": "Bilet almak için yeterince param var."
   },
   {
     "rank": 281,
@@ -2354,10 +2354,10 @@
   {
     "rank": 295,
     "english": "exercise",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "egzersiz",
+    "example_en": "It's important to get regular exercise.",
+    "example_tr": "Düzenli egzersiz yapmak önemlidir."
   },
   {
     "rank": 296,
@@ -2434,10 +2434,10 @@
   {
     "rank": 305,
     "english": "family",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "aile",
+    "example_en": "My family is very supportive.",
+    "example_tr": "Ailem çok destekleyicidir."
   },
   {
     "rank": 306,
@@ -2490,10 +2490,10 @@
   {
     "rank": 312,
     "english": "fast",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "hızlı",
+    "example_en": "He is a fast runner.",
+    "example_tr": "O hızlı bir koşucudur."
   },
   {
     "rank": 313,
@@ -2522,10 +2522,10 @@
   {
     "rank": 316,
     "english": "favourite",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "favori",
+    "example_en": "This is my favourite book.",
+    "example_tr": "Bu benim favori kitabım."
   },
   {
     "rank": 317,
@@ -2570,18 +2570,18 @@
   {
     "rank": 322,
     "english": "few",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "birkaç",
+    "example_en": "I have a few friends.",
+    "example_tr": "Birkaç arkadaşım var."
   },
   {
     "rank": 323,
     "english": "few",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "az",
+    "example_en": "There are a few apples on the table.",
+    "example_tr": "Masada birkaç elma var."
   },
   {
     "rank": 324,
@@ -2674,18 +2674,18 @@
   {
     "rank": 335,
     "english": "first",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "ilk",
+    "example_en": "She won first place in the competition.",
+    "example_tr": "Yarışmada birinci oldu."
   },
   {
     "rank": 336,
     "english": "first",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "ilk",
+    "example_en": "She finished the race in first place.",
+    "example_tr": "Yarışı birinci olarak tamamladı."
   },
   {
     "rank": 337,
@@ -2802,10 +2802,10 @@
   {
     "rank": 351,
     "english": "form",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "form",
+    "example_en": "Please fill out this form.",
+    "example_tr": "Lütfen bu formu doldurun."
   },
   {
     "rank": 352,
@@ -2890,10 +2890,10 @@
   {
     "rank": 362,
     "english": "front",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "ön",
+    "example_en": "She stood at the front of the line.",
+    "example_tr": "O, sıranın önünde durdu."
   },
   {
     "rank": 363,
@@ -3026,10 +3026,10 @@
   {
     "rank": 379,
     "english": "goodbye",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "phrase",
+    "turkish": "hoşça kal",
+    "example_en": "I said goodbye to my friends.",
+    "example_tr": "Arkadaşlarıma hoşça kal dedim."
   },
   {
     "rank": 380,
@@ -3074,10 +3074,10 @@
   {
     "rank": 385,
     "english": "green",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "yeşil",
+    "example_en": "The leaves are green in spring.",
+    "example_tr": "Yapraklar baharda yeşildir."
   },
   {
     "rank": 386,
@@ -3090,10 +3090,10 @@
   {
     "rank": 387,
     "english": "grey",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "gri",
+    "example_en": "The sky is grey today.",
+    "example_tr": "Bugün gökyüzü gri."
   },
   {
     "rank": 388,
@@ -3122,10 +3122,10 @@
   {
     "rank": 391,
     "english": "guess",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "tahmin etmek",
+    "example_en": "Can you guess the answer?",
+    "example_tr": "Cevabı tahmin edebilir misin?"
   },
   {
     "rank": 392,
@@ -3162,18 +3162,18 @@
   {
     "rank": 396,
     "english": "half",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "yarım",
+    "example_en": "I ate half of the cake.",
+    "example_tr": "Pastanın yarısını yedim."
   },
   {
     "rank": 397,
     "english": "half",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "yarım",
+    "example_en": "I ate half of the cake.",
+    "example_tr": "Pastanın yarısını yedim."
   },
   {
     "rank": 398,
@@ -3210,10 +3210,10 @@
   {
     "rank": 402,
     "english": "hard",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "zor",
+    "example_en": "This math problem is hard.",
+    "example_tr": "Bu matematik problemi zor."
   },
   {
     "rank": 403,
@@ -3298,10 +3298,10 @@
   {
     "rank": 413,
     "english": "hello",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "phrase",
+    "turkish": "merhaba",
+    "example_en": "I said hello to everyone.",
+    "example_tr": "Herkese merhaba dedim."
   },
   {
     "rank": 414,
@@ -3314,10 +3314,10 @@
   {
     "rank": 415,
     "english": "help",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "yardım",
+    "example_en": "I need help with my homework.",
+    "example_tr": "Ödevimle yardıma ihtiyacım var."
   },
   {
     "rank": 416,
@@ -3330,10 +3330,10 @@
   {
     "rank": 417,
     "english": "her",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "pronoun",
+    "turkish": "onu",
+    "example_en": "I saw her at the store.",
+    "example_tr": "Onu dükkanda gördüm."
   },
   {
     "rank": 418,
@@ -3418,10 +3418,10 @@
   {
     "rank": 428,
     "english": "home",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "ev",
+    "example_en": "After a long day, I love coming home.",
+    "example_tr": "Uzun bir günün ardından eve gelmeyi seviyorum."
   },
   {
     "rank": 429,
@@ -3602,10 +3602,10 @@
   {
     "rank": 451,
     "english": "in",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "preposition",
+    "turkish": "içinde",
+    "example_en": "The cat is in the box.",
+    "example_tr": "Kedi kutunun içinde."
   },
   {
     "rank": 452,
@@ -3634,10 +3634,10 @@
   {
     "rank": 455,
     "english": "interest",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "ilgi",
+    "example_en": "She has a keen interest in music.",
+    "example_tr": "Müzik konusunda büyük bir ilgisi var."
   },
   {
     "rank": 456,
@@ -3674,10 +3674,10 @@
   {
     "rank": 460,
     "english": "interview",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "mülakat",
+    "example_en": "I have a job interview tomorrow.",
+    "example_tr": "Yarın bir iş mülakatım var."
   },
   {
     "rank": 461,
@@ -3818,10 +3818,10 @@
   {
     "rank": 478,
     "english": "key",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "anahtar",
+    "example_en": "Please hand me the key to the car.",
+    "example_tr": "Lütfen bana arabanın anahtarını ver."
   },
   {
     "rank": 479,
@@ -3898,10 +3898,10 @@
   {
     "rank": 488,
     "english": "late",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "geç",
+    "example_en": "I arrived late to the meeting.",
+    "example_tr": "Toplantıya geç geldim."
   },
   {
     "rank": 489,
@@ -3922,10 +3922,10 @@
   {
     "rank": 491,
     "english": "laugh",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "gülmek",
+    "example_en": "It's good to laugh with friends.",
+    "example_tr": "Arkadaşlarla gülmek iyidir."
   },
   {
     "rank": 492,
@@ -3954,18 +3954,18 @@
   {
     "rank": 495,
     "english": "left",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "sol",
+    "example_en": "Turn left at the traffic lights.",
+    "example_tr": "Trafik ışıklarında sola dön."
   },
   {
     "rank": 496,
     "english": "left",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "bırakmak",
+    "example_en": "He left his bag at home.",
+    "example_tr": "Çantasını evde bıraktı."
   },
   {
     "rank": 497,
@@ -4034,10 +4034,10 @@
   {
     "rank": 505,
     "english": "light",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "ışık",
+    "example_en": "The light in the room is very bright.",
+    "example_tr": "Odadaki ışık çok parlak."
   },
   {
     "rank": 506,
@@ -4082,10 +4082,10 @@
   {
     "rank": 511,
     "english": "list",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "liste",
+    "example_en": "I made a list of things to do.",
+    "example_tr": "Yapılacaklar listesini yaptım."
   },
   {
     "rank": 512,
@@ -4106,18 +4106,18 @@
   {
     "rank": 514,
     "english": "little",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "küçük",
+    "example_en": "I have a little dog.",
+    "example_tr": "Küçük bir köpeğim var."
   },
   {
     "rank": 515,
     "english": "little",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "az",
+    "example_en": "There is little time left.",
+    "example_tr": "Az zaman kaldı."
   },
   {
     "rank": 516,
@@ -4146,10 +4146,10 @@
   {
     "rank": 519,
     "english": "long",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "uzun",
+    "example_en": "It was a long journey.",
+    "example_tr": "Uzun bir yolculuktu."
   },
   {
     "rank": 520,
@@ -4178,18 +4178,18 @@
   {
     "rank": 523,
     "english": "lot",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "çok",
+    "example_en": "I have a lot of work to do.",
+    "example_tr": "Yapacak çok işim var."
   },
   {
     "rank": 524,
     "english": "lot",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "arazi",
+    "example_en": "They bought a lot for their new house.",
+    "example_tr": "Yeni evleri için bir arazi aldılar."
   },
   {
     "rank": 525,
@@ -4202,10 +4202,10 @@
   {
     "rank": 526,
     "english": "love",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "aşk",
+    "example_en": "Love is a powerful emotion.",
+    "example_tr": "Aşk güçlü bir duygudur."
   },
   {
     "rank": 527,
@@ -4266,10 +4266,10 @@
   {
     "rank": 534,
     "english": "many",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "birçok",
+    "example_en": "There are many stars in the sky.",
+    "example_tr": "Gökyüzünde birçok yıldız var."
   },
   {
     "rank": 535,
@@ -4314,10 +4314,10 @@
   {
     "rank": 540,
     "english": "match",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "eşleşme",
+    "example_en": "They found a perfect match for the project.",
+    "example_tr": "Projeye mükemmel bir eşleşme buldular."
   },
   {
     "rank": 541,
@@ -4538,18 +4538,18 @@
   {
     "rank": 568,
     "english": "more",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "daha fazla",
+    "example_en": "I need more time to finish.",
+    "example_tr": "Bitirmek için daha fazla zamana ihtiyacım var."
   },
   {
     "rank": 569,
     "english": "more",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adv",
+    "turkish": "daha",
+    "example_en": "I want to learn more about this topic.",
+    "example_tr": "Bu konuyla ilgili daha fazla şey öğrenmek istiyorum."
   },
   {
     "rank": 570,
@@ -4570,18 +4570,18 @@
   {
     "rank": 572,
     "english": "most",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "en çok",
+    "example_en": "She has the most interesting stories.",
+    "example_tr": "Onun en ilginç hikayeleri var."
   },
   {
     "rank": 573,
     "english": "most",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "çoğu",
+    "example_en": "Most people like ice cream.",
+    "example_tr": "Çoğu insan dondurma sever."
   },
   {
     "rank": 574,
@@ -4642,18 +4642,18 @@
   {
     "rank": 581,
     "english": "much",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "çok",
+    "example_en": "I don't have much money.",
+    "example_tr": "Çok param yok."
   },
   {
     "rank": 582,
     "english": "much",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adv",
+    "turkish": "çok",
+    "example_en": "Thank you very much for your help.",
+    "example_tr": "Yardımınız için çok teşekkür ederim."
   },
   {
     "rank": 583,
@@ -4706,10 +4706,10 @@
   {
     "rank": 589,
     "english": "name",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "isim",
+    "example_en": "What is your name?",
+    "example_tr": "Adınız ne?"
   },
   {
     "rank": 590,
@@ -4730,18 +4730,18 @@
   {
     "rank": 592,
     "english": "near",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adv",
+    "turkish": "yakın",
+    "example_en": "The school is near the park.",
+    "example_tr": "Okul parkın yakınında."
   },
   {
     "rank": 593,
     "english": "near",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adv",
+    "turkish": "yakın",
+    "example_en": "She lives near the river.",
+    "example_tr": "O, nehrin yakınında yaşıyor."
   },
   {
     "rank": 594,
@@ -4818,10 +4818,10 @@
   {
     "rank": 603,
     "english": "next",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "yanında",
+    "example_en": "The library is next to the gym.",
+    "example_tr": "Kütüphane spor salonunun yanında."
   },
   {
     "rank": 604,
@@ -4874,10 +4874,10 @@
   {
     "rank": 610,
     "english": "no",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "hayır",
+    "example_en": "No, I can't help you.",
+    "example_tr": "Hayır, sana yardım edemem."
   },
   {
     "rank": 611,
@@ -4906,18 +4906,18 @@
   {
     "rank": 614,
     "english": "north",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "kuzey",
+    "example_en": "They traveled to the north for the summer.",
+    "example_tr": "Yaz için kuzeye seyahat ettiler."
   },
   {
     "rank": 615,
     "english": "north",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "kuzey",
+    "example_en": "The wind is blowing from the north.",
+    "example_tr": "Rüzgar kuzeyden esiyor."
   },
   {
     "rank": 616,
@@ -5026,10 +5026,10 @@
   {
     "rank": 629,
     "english": "off",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adv",
+    "turkish": "kapalı",
+    "example_en": "Please turn the lights off.",
+    "example_tr": "Lütfen ışıkları kapat."
   },
   {
     "rank": 630,
@@ -5066,18 +5066,18 @@
   {
     "rank": 634,
     "english": "OK",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "tamam",
+    "example_en": "Is it OK to leave early?",
+    "example_tr": "Erken çıkmak tamam mı?"
   },
   {
     "rank": 635,
     "english": "OK",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "tamam",
+    "example_en": "I feel OK today.",
+    "example_tr": "Bugün iyi hissediyorum."
   },
   {
     "rank": 636,
@@ -5098,10 +5098,10 @@
   {
     "rank": 638,
     "english": "on",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "prep",
+    "turkish": "üzerinde",
+    "example_en": "The book is on the table.",
+    "example_tr": "Kitap masanın üzerinde."
   },
   {
     "rank": 639,
@@ -5122,18 +5122,18 @@
   {
     "rank": 641,
     "english": "one",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "num",
+    "turkish": "bir",
+    "example_en": "I have one apple.",
+    "example_tr": "Bir elmam var."
   },
   {
     "rank": 642,
     "english": "one",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "num",
+    "turkish": "bir",
+    "example_en": "One of my friends is visiting today.",
+    "example_tr": "Bugün bir arkadaşım geliyor."
   },
   {
     "rank": 643,
@@ -5154,10 +5154,10 @@
   {
     "rank": 645,
     "english": "online",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "çevrimiçi",
+    "example_en": "I found the information online.",
+    "example_tr": "Bilgiyi çevrimiçi buldum."
   },
   {
     "rank": 646,
@@ -5170,10 +5170,10 @@
   {
     "rank": 647,
     "english": "only",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adv",
+    "turkish": "sadece",
+    "example_en": "I only like chocolate.",
+    "example_tr": "Sadece çikolatayı severim."
   },
   {
     "rank": 648,
@@ -5186,10 +5186,10 @@
   {
     "rank": 649,
     "english": "open",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "açık",
+    "example_en": "The door is open.",
+    "example_tr": "Kapı açık."
   },
   {
     "rank": 650,
@@ -5210,26 +5210,26 @@
   {
     "rank": 652,
     "english": "opposite",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "karşısında",
+    "example_en": "The bank is opposite the cafe.",
+    "example_tr": "Banka kafenin karşısında."
   },
   {
     "rank": 653,
     "english": "opposite",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "karşısında",
+    "example_en": "He sat opposite me at the table.",
+    "example_tr": "O masada benim karşımdaki yere oturdu."
   },
   {
     "rank": 654,
     "english": "opposite",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "karşısında",
+    "example_en": "They live opposite the school.",
+    "example_tr": "Okulun karşısında yaşıyorlar."
   },
   {
     "rank": 655,
@@ -5250,10 +5250,10 @@
   {
     "rank": 657,
     "english": "orange",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "portakal",
+    "example_en": "I bought an orange at the market.",
+    "example_tr": "Pazar yerinden bir portakal aldım."
   },
   {
     "rank": 658,
@@ -5266,10 +5266,10 @@
   {
     "rank": 659,
     "english": "order",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "sipariş",
+    "example_en": "I would like to place an order.",
+    "example_tr": "Bir sipariş vermek istiyorum."
   },
   {
     "rank": 660,
@@ -5282,10 +5282,10 @@
   {
     "rank": 661,
     "english": "other",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "diğer",
+    "example_en": "I need the other book.",
+    "example_tr": "Diğer kitaba ihtiyacım var."
   },
   {
     "rank": 662,
@@ -5306,10 +5306,10 @@
   {
     "rank": 664,
     "english": "out",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adv",
+    "turkish": "dışarı",
+    "example_en": "Let's go out for dinner.",
+    "example_tr": "Akşam yemeğine çıkalım."
   },
   {
     "rank": 665,
@@ -5330,10 +5330,10 @@
   {
     "rank": 667,
     "english": "over",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "prep",
+    "turkish": "üstünde",
+    "example_en": "The bird is flying over the trees.",
+    "example_tr": "Kuş ağaçların üzerinde uçuyor."
   },
   {
     "rank": 668,
@@ -5346,10 +5346,10 @@
   {
     "rank": 669,
     "english": "own",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "sahip olmak",
+    "example_en": "I want to own a car someday.",
+    "example_tr": "Bir gün bir arabaya sahip olmak istiyorum."
   },
   {
     "rank": 670,
@@ -5370,10 +5370,10 @@
   {
     "rank": 672,
     "english": "paint",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "boya",
+    "example_en": "She wants to paint her room pink.",
+    "example_tr": "O, odasını pembe boyamak istiyor."
   },
   {
     "rank": 673,
@@ -5426,10 +5426,10 @@
   {
     "rank": 679,
     "english": "park",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "park",
+    "example_en": "They love to relax in the park.",
+    "example_tr": "Onlar parkta dinlenmeyi seviyorlar."
   },
   {
     "rank": 680,
@@ -5474,18 +5474,18 @@
   {
     "rank": 685,
     "english": "past",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "geçmiş",
+    "example_en": "He often reflects on his past.",
+    "example_tr": "O, sık sık geçmişini düşünür."
   },
   {
     "rank": 686,
     "english": "past",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "geçmiş",
+    "example_en": "We should learn from the past.",
+    "example_tr": "Geçmişten ders almalıyız."
   },
   {
     "rank": 687,
@@ -5570,10 +5570,10 @@
   {
     "rank": 697,
     "english": "phone",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "telefon",
+    "example_en": "I need to charge my phone.",
+    "example_tr": "Telefonumu şarj etmem lazım."
   },
   {
     "rank": 698,
@@ -5642,10 +5642,10 @@
   {
     "rank": 706,
     "english": "pink",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "pembe",
+    "example_en": "Her favorite color is pink.",
+    "example_tr": "Onun en sevdiği renk pembedir."
   },
   {
     "rank": 707,
@@ -5666,10 +5666,10 @@
   {
     "rank": 709,
     "english": "plan",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "plan",
+    "example_en": "They need to create a plan for the project.",
+    "example_tr": "Projeye bir plan oluşturmaları gerekiyor."
   },
   {
     "rank": 710,
@@ -5698,10 +5698,10 @@
   {
     "rank": 713,
     "english": "play",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "oyun",
+    "example_en": "The children want to play outside.",
+    "example_tr": "Çocuklar dışarıda oynamak istiyor."
   },
   {
     "rank": 714,
@@ -5794,10 +5794,10 @@
   {
     "rank": 725,
     "english": "post",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "posta",
+    "example_en": "I received a letter in the mail.",
+    "example_tr": "Postada bir mektup aldım."
   },
   {
     "rank": 726,
@@ -5858,10 +5858,10 @@
   {
     "rank": 733,
     "english": "present",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "hediye",
+    "example_en": "She received a beautiful present for her birthday.",
+    "example_tr": "Doğum günü için güzel bir hediye aldı."
   },
   {
     "rank": 734,
@@ -5874,10 +5874,10 @@
   {
     "rank": 735,
     "english": "pretty",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "güzel",
+    "example_en": "The flowers are pretty this time of year.",
+    "example_tr": "Bu mevsimde çiçekler güzel."
   },
   {
     "rank": 736,
@@ -5938,10 +5938,10 @@
   {
     "rank": 743,
     "english": "purple",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "mor",
+    "example_en": "She wore a purple dress to the party.",
+    "example_tr": "Partiye mor bir elbise giydi."
   },
   {
     "rank": 744,
@@ -6018,10 +6018,10 @@
   {
     "rank": 753,
     "english": "rain",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "yağmur",
+    "example_en": "It looks like it will rain today.",
+    "example_tr": "Bugün yağmur yağacak gibi görünüyor."
   },
   {
     "rank": 754,
@@ -6090,10 +6090,10 @@
   {
     "rank": 762,
     "english": "red",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "kırmızı",
+    "example_en": "He painted the fence red.",
+    "example_tr": "O, çiti kırmızıya boyadı."
   },
   {
     "rank": 763,
@@ -6154,10 +6154,10 @@
   {
     "rank": 770,
     "english": "return",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "dönmek",
+    "example_en": "I plan to return home tomorrow.",
+    "example_tr": "Yarın eve dönmeyi planlıyorum."
   },
   {
     "rank": 771,
@@ -6194,18 +6194,18 @@
   {
     "rank": 775,
     "english": "right",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "doğru",
+    "example_en": "You must take the right turn at the junction.",
+    "example_tr": "Kavşakta sağa dönmelisin."
   },
   {
     "rank": 776,
     "english": "right",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "doğru",
+    "example_en": "You need to make a right turn at the intersection.",
+    "example_tr": "Kavşakta sağa dönmelisin."
   },
   {
     "rank": 777,
@@ -6290,18 +6290,18 @@
   {
     "rank": 787,
     "english": "same",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "aynı",
+    "example_en": "They both have the same idea.",
+    "example_tr": "İkisi de aynı fikre sahip."
   },
   {
     "rank": 788,
     "english": "same",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "aynı",
+    "example_en": "We have the same interests.",
+    "example_tr": "Aynı ilgi alanlarımız var."
   },
   {
     "rank": 789,
@@ -6370,10 +6370,10 @@
   {
     "rank": 797,
     "english": "second",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "ikinci",
+    "example_en": "This is my second time visiting this city.",
+    "example_tr": "Bu şehri ziyaret edişim ikinci."
   },
   {
     "rank": 798,
@@ -6506,10 +6506,10 @@
   {
     "rank": 814,
     "english": "shop",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "dükkan",
+    "example_en": "I bought groceries from the shop.",
+    "example_tr": "Dükkanınından market alışverişi yaptım."
   },
   {
     "rank": 815,
@@ -6546,10 +6546,10 @@
   {
     "rank": 819,
     "english": "show",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "göstermek",
+    "example_en": "Can you show me your new car?",
+    "example_tr": "Bana yeni arabanı gösterebilir misin?"
   },
   {
     "rank": 820,
@@ -6698,10 +6698,10 @@
   {
     "rank": 838,
     "english": "snow",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "kar",
+    "example_en": "The snow fell softly on the ground.",
+    "example_tr": "Kar yere hafifçe düştü."
   },
   {
     "rank": 839,
@@ -6714,10 +6714,10 @@
   {
     "rank": 840,
     "english": "so",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "conjunction",
+    "turkish": "bu yüzden",
+    "example_en": "It was raining, so I stayed indoors.",
+    "example_tr": "Yağmur yağıyordu, bu yüzden içeride kaldım."
   },
   {
     "rank": 841,
@@ -6730,10 +6730,10 @@
   {
     "rank": 842,
     "english": "some",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "bazı",
+    "example_en": "I need some help with my homework.",
+    "example_tr": "Ödevimle bazı yardıma ihtiyacım var."
   },
   {
     "rank": 843,
@@ -6802,10 +6802,10 @@
   {
     "rank": 851,
     "english": "sorry",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "üzgün",
+    "example_en": "I am sorry for being late.",
+    "example_tr": "Geç kaldığım için üzgünüm."
   },
   {
     "rank": 852,
@@ -6818,10 +6818,10 @@
   {
     "rank": 853,
     "english": "sound",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "ses",
+    "example_en": "The sound of the music was beautiful.",
+    "example_tr": "Müziğin sesi güzeldi."
   },
   {
     "rank": 854,
@@ -6842,18 +6842,18 @@
   {
     "rank": 856,
     "english": "south",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "güney",
+    "example_en": "The town is located to the south of the river.",
+    "example_tr": "Şehir, nehrin güneyinde yer almaktadır."
   },
   {
     "rank": 857,
     "english": "south",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "güney",
+    "example_en": "They travel south for the winter.",
+    "example_tr": "Kış için güney yolculuğu yapıyorlar."
   },
   {
     "rank": 858,
@@ -6986,10 +6986,10 @@
   {
     "rank": 874,
     "english": "stop",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "durmak",
+    "example_en": "Please stop talking during the movie.",
+    "example_tr": "Lütfen film sırasında konuşmayı durdurun."
   },
   {
     "rank": 875,
@@ -7034,10 +7034,10 @@
   {
     "rank": 880,
     "english": "study",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "çalışmak",
+    "example_en": "I need to study for my exam.",
+    "example_tr": "Sınavım için çalışmam gerekiyor."
   },
   {
     "rank": 881,
@@ -7226,10 +7226,10 @@
   {
     "rank": 904,
     "english": "telephone",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "telefon",
+    "example_en": "I called you on the telephone yesterday.",
+    "example_tr": "Dün seni telefonda aradım."
   },
   {
     "rank": 905,
@@ -7282,10 +7282,10 @@
   {
     "rank": 911,
     "english": "test",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "test",
+    "example_en": "I have a math test next week.",
+    "example_tr": "Gelecek hafta matematik testi var."
   },
   {
     "rank": 912,
@@ -7306,10 +7306,10 @@
   {
     "rank": 914,
     "english": "than",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "conjunction",
+    "turkish": "~den/ ~dan daha",
+    "example_en": "She is taller than her brother.",
+    "example_tr": "O, kardeşinden daha uzun."
   },
   {
     "rank": 915,
@@ -7330,10 +7330,10 @@
   {
     "rank": 917,
     "english": "thanks",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "interjection",
+    "turkish": "teşekkürler",
+    "example_en": "Thanks for your help.",
+    "example_tr": "Yardımın için teşekkürler."
   },
   {
     "rank": 918,
@@ -7346,18 +7346,18 @@
   {
     "rank": 919,
     "english": "that",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "pronoun",
+    "turkish": "o",
+    "example_en": "I like that movie.",
+    "example_tr": "O filmi seviyorum."
   },
   {
     "rank": 920,
     "english": "that",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "pronoun",
+    "turkish": "o",
+    "example_en": "That is my favorite book.",
+    "example_tr": "O benim en sevdiğim kitap."
   },
   {
     "rank": 921,
@@ -7474,10 +7474,10 @@
   {
     "rank": 935,
     "english": "this",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "pronoun",
+    "turkish": "bu",
+    "example_en": "This is my favorite book.",
+    "example_tr": "Bu benim en sevdiğim kitap."
   },
   {
     "rank": 936,
@@ -7506,10 +7506,10 @@
   {
     "rank": 939,
     "english": "through",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "preposition",
+    "turkish": "içinden",
+    "example_en": "We walked through the park.",
+    "example_tr": "Parkın içinden yürüdük."
   },
   {
     "rank": 940,
@@ -7562,10 +7562,10 @@
   {
     "rank": 946,
     "english": "to",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "preposition",
+    "turkish": "e/a",
+    "example_en": "I am going to the store.",
+    "example_tr": "Dükkâna gidiyorum."
   },
   {
     "rank": 947,
@@ -7578,10 +7578,10 @@
   {
     "rank": 948,
     "english": "today",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "bugün",
+    "example_en": "Today is a beautiful day.",
+    "example_tr": "Bugün güzel bir gün."
   },
   {
     "rank": 949,
@@ -7618,10 +7618,10 @@
   {
     "rank": 953,
     "english": "tomorrow",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "yarın",
+    "example_en": "Tomorrow will be sunny.",
+    "example_tr": "Yarın güneşli olacak."
   },
   {
     "rank": 954,
@@ -7634,10 +7634,10 @@
   {
     "rank": 955,
     "english": "tonight",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "bu gece",
+    "example_en": "We will go out tonight.",
+    "example_tr": "Bu gece dışarı çıkacağız."
   },
   {
     "rank": 956,
@@ -7706,10 +7706,10 @@
   {
     "rank": 964,
     "english": "travel",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "seyahat etmek",
+    "example_en": "I love to travel to new places.",
+    "example_tr": "Yeni yerlere seyahat etmeyi seviyorum."
   },
   {
     "rank": 965,
@@ -7778,10 +7778,10 @@
   {
     "rank": 973,
     "english": "turn",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "dönmek",
+    "example_en": "Please turn left at the next intersection.",
+    "example_tr": "Lütfen bir sonraki kavşakta sola dönün."
   },
   {
     "rank": 974,
@@ -7858,10 +7858,10 @@
   {
     "rank": 983,
     "english": "under",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "preposition",
+    "turkish": "altında",
+    "example_en": "The cat is under the table.",
+    "example_tr": "Kedi masanın altında."
   },
   {
     "rank": 984,
@@ -7890,10 +7890,10 @@
   {
     "rank": 987,
     "english": "until",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "conjunction",
+    "turkish": "kadar",
+    "example_en": "I will wait here until you arrive.",
+    "example_tr": "Sen gelene kadar burada bekleyeceğim."
   },
   {
     "rank": 988,
@@ -7906,10 +7906,10 @@
   {
     "rank": 989,
     "english": "up",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adv",
+    "turkish": "yukarı",
+    "example_en": "Please stand up.",
+    "example_tr": "Lütfen ayağa kalk."
   },
   {
     "rank": 990,
@@ -8002,10 +8002,10 @@
   {
     "rank": 1001,
     "english": "visit",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "ziyaret etmek",
+    "example_en": "I want to visit my grandmother this weekend.",
+    "example_tr": "Bu hafta sonu büyükannemi ziyaret etmek istiyorum."
   },
   {
     "rank": 1002,
@@ -8050,10 +8050,10 @@
   {
     "rank": 1007,
     "english": "walk",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "yürümek",
+    "example_en": "I like to walk in the park.",
+    "example_tr": "Parkta yürümeyi seviyorum."
   },
   {
     "rank": 1008,
@@ -8098,10 +8098,10 @@
   {
     "rank": 1013,
     "english": "watch",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "izlemek",
+    "example_en": "I like to watch movies on weekends.",
+    "example_tr": "Hafta sonları film izlemeyi severim."
   },
   {
     "rank": 1014,
@@ -8186,18 +8186,18 @@
   {
     "rank": 1024,
     "english": "welcome",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "phrase",
+    "turkish": "hoş geldin",
+    "example_en": "You are always welcome here.",
+    "example_tr": "Burada her zaman hoş geldiniz."
   },
   {
     "rank": 1025,
     "english": "welcome",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "karşılama",
+    "example_en": "The welcome was warm and friendly.",
+    "example_tr": "Karşılama sıcak ve dostaneydi."
   },
   {
     "rank": 1026,
@@ -8210,18 +8210,18 @@
   {
     "rank": 1027,
     "english": "well",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adv",
+    "turkish": "iyi",
+    "example_en": "She sings very well.",
+    "example_tr": "O çok iyi şarkı söyler."
   },
   {
     "rank": 1028,
     "english": "well",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "su kuyusu",
+    "example_en": "The village has a deep well.",
+    "example_tr": "Köyde derin bir su kuyusu var."
   },
   {
     "rank": 1029,
@@ -8234,18 +8234,18 @@
   {
     "rank": 1030,
     "english": "west",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "noun",
+    "turkish": "batı",
+    "example_en": "The sun sets in the west.",
+    "example_tr": "Güneş batıda batar."
   },
   {
     "rank": 1031,
     "english": "west",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adv",
+    "turkish": "batıya",
+    "example_en": "They traveled west to find new opportunities.",
+    "example_tr": "Yeni fırsatlar bulmak için batıya seyahat ettiler."
   },
   {
     "rank": 1032,
@@ -8258,10 +8258,10 @@
   {
     "rank": 1033,
     "english": "what",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "pronoun",
+    "turkish": "ne",
+    "example_en": "What is your name?",
+    "example_tr": "Adın ne?"
   },
   {
     "rank": 1034,
@@ -8274,18 +8274,18 @@
   {
     "rank": 1035,
     "english": "when",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adverb",
+    "turkish": "ne zaman",
+    "example_en": "When will you arrive?",
+    "example_tr": "Ne zaman varacaksın?"
   },
   {
     "rank": 1036,
     "english": "when",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "conjunction",
+    "turkish": "o zaman",
+    "example_en": "I'll call you when I'm free.",
+    "example_tr": "Boş olduğumda seni arayacağım."
   },
   {
     "rank": 1037,
@@ -8298,10 +8298,10 @@
   {
     "rank": 1038,
     "english": "where",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adverb",
+    "turkish": "nerede",
+    "example_en": "Where is the nearest store?",
+    "example_tr": "En yakın mağaza nerede?"
   },
   {
     "rank": 1039,
@@ -8314,10 +8314,10 @@
   {
     "rank": 1040,
     "english": "which",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "pronoun",
+    "turkish": "hangisi",
+    "example_en": "Which book do you prefer?",
+    "example_tr": "Hangi kitabı tercih edersin?"
   },
   {
     "rank": 1041,
@@ -8330,10 +8330,10 @@
   {
     "rank": 1042,
     "english": "white",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "beyaz",
+    "example_en": "She wore a beautiful white dress.",
+    "example_tr": "Güzel bir beyaz elbise giydi."
   },
   {
     "rank": 1043,
@@ -8450,10 +8450,10 @@
   {
     "rank": 1057,
     "english": "work",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "verb",
+    "turkish": "çalışmak",
+    "example_en": "I need to work on my project.",
+    "example_tr": "Projeme çalışmam gerekiyor."
   },
   {
     "rank": 1058,
@@ -8538,10 +8538,10 @@
   {
     "rank": 1068,
     "english": "yellow",
-    "part_of_speech": "",
-    "turkish": "",
-    "example_en": "",
-    "example_tr": ""
+    "part_of_speech": "adj",
+    "turkish": "sarı",
+    "example_en": "The sunflower is yellow.",
+    "example_tr": "Ayçiçeği sarıdır."
   },
   {
     "rank": 1069,

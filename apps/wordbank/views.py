@@ -74,7 +74,7 @@ def answer(request, level):
     selected = request.POST.get('answer', '').strip()
     word = get_object_or_404(BankWord, pk=word_id, level=level)
 
-    is_correct = (selected == word.turkish)
+    is_correct = (selected == (word.turkish or '').strip())
     services.record_answer(request.user, word, is_correct)
 
     stats = services.level_stats(request.user, level)

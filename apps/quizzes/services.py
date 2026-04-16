@@ -1,6 +1,7 @@
 from services import ai
 from apps.vocabulary.models import Word
 from .models import QuizTemplate, QuizSession
+from .normalization import normalize_items
 
 
 POOL_TARGET = 5
@@ -14,6 +15,7 @@ def _template_count(user, kind, topic=None):
 def _generate_topic_template(user, topic):
     examples = list(topic.examples.values_list('sentence_en', flat=True))
     items = ai.generate_topic_quiz(topic.name, topic.explanation, examples, n=50)
+    items = normalize_items(items)
     if not items:
         return None
     count = _template_count(user, QuizTemplate.TOPIC, topic=topic)
@@ -31,6 +33,7 @@ def _generate_word_template(user):
     if len(pool) < MIN_WORDS:
         return None
     items = ai.generate_word_quiz_extras(pool, n=50)
+    items = normalize_items(items)
     if not items:
         return None
     count = _template_count(user, QuizTemplate.WORD)

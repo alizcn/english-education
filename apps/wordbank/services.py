@@ -5,7 +5,7 @@ from .models import BankWord, BankProgress
 
 
 def level_stats(user, level):
-    total = BankWord.objects.filter(level=level).count()
+    total = BankWord.objects.filter(level=level).exclude(turkish='').count()
     if total == 0:
         return {
             'level': level, 'total': 0, 'answered': 0,
@@ -31,10 +31,15 @@ def pick_next(user, level):
         BankProgress.objects.filter(user=user, word__level=level)
         .values_list('word_id', flat=True)
     )
-    unseen_qs = BankWord.objects.filter(level=level).exclude(id__in=seen_ids).order_by('rank')
+    unseen_qs = (
+        BankWord.objects.filter(level=level)
+        .exclude(id__in=seen_ids)
+        .exclude(turkish='')
+        .order_by('rank')
+    )
     retry_qs = BankProgress.objects.filter(
         user=user, word__level=level, mastered=False,
-    ).select_related('word')
+    ).exclude(word__turkish='').select_related('word')
 
     has_unseen = unseen_qs.exists()
     retry_list = list(retry_qs)
@@ -48,14 +53,17 @@ def pick_next(user, level):
 
 
 def build_question(word):
-    """Return list of 4 shuffled Turkish options (1 correct + 3 distractors)."""
+    """Return list of up to 4 shuffled Turkish options (1 correct + 3 distractors)."""
     distractors = list(
         BankWord.objects.filter(level=word.level)
         .exclude(id=word.id)
         .exclude(turkish=word.turkish)
+        .exclude(turkish='')
         .order_by('?')[:3]
     )
-    options = [word.turkish] + [d.turkish for d in distractors]
+    correct = (word.turkish or '').strip()
+    options = [correct] + [(d.turkish or '').strip() for d in distractors]
+    options = [o for o in options if o]
     random.shuffle(options)
     return options
 
