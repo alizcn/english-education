@@ -12,4 +12,5 @@ urlpatterns = [
     path('quiz/', include('apps.quizzes.urls')),
     path('chat/', include('apps.chat.urls')),
     path('wordbank/', include('apps.wordbank.urls')),
+    path('interviews/', include('apps.interviews.urls')),
 ]

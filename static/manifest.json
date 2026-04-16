@@ -1,7 +1,7 @@
 {
-  "name": "Practice English for Your Career",
-  "short_name": "English",
-  "description": "Turn Your CV into Confidence",
+  "name": "HireUp — Level Up Your Interview Game",
+  "short_name": "HireUp",
+  "description": "Practice. Prepare. Get Hired.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",

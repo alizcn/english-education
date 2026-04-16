@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'apps.quizzes',
     'apps.chat',
     'apps.wordbank',
+    'apps.interviews',
 ]
 
 LOGIN_URL = 'accounts:login'

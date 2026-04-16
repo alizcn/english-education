@@ -97,6 +97,47 @@ def generate_word_quiz_extras(words: list[dict], n: int = 50) -> list[dict]:
     return data.get('items', [])
 
 
+def generate_interview_questions(job_title: str, n: int = 10) -> list[dict]:
+    system = (
+        'You are an expert technical recruiter and interview coach. '
+        'Generate realistic job interview questions for the given position. '
+        'Each question must have: question in Turkish, question in English, '
+        'a detailed answer in Turkish, and a detailed answer in English. '
+        'Mix behavioral, technical, and situational questions. '
+        'Respond ONLY in the requested JSON format.'
+    )
+    user = (
+        f'Position: "{job_title}"\n\n'
+        f'Generate exactly {n} interview questions. Return JSON:\n'
+        '{{"items": [{{"question_tr": "...", "question_en": "...", '
+        '"answer_tr": "...", "answer_en": "..."}}]}}'
+    )
+    data = _chat_json(system, user)
+    return data.get('items', [])
+
+
+def generate_interview_from_cv(cv_text: str, n: int = 10) -> list[dict]:
+    system = (
+        'You are an expert technical recruiter and interview coach. '
+        'You will receive the text content of a candidate\'s CV/resume. '
+        'Analyze their skills, experience, job titles, and tech stack. '
+        'Generate realistic interview questions that a recruiter would ask THIS specific candidate. '
+        'Each question must have: question in Turkish, question in English, '
+        'a detailed answer in Turkish, and a detailed answer in English. '
+        'Focus on their actual skills and experience from the CV. '
+        'Mix behavioral, technical, and situational questions. '
+        'Respond ONLY in the requested JSON format.'
+    )
+    user = (
+        f'CV Content:\n{cv_text[:4000]}\n\n'
+        f'Generate exactly {n} personalized interview questions based on this CV. Return JSON:\n'
+        '{{"items": [{{"question_tr": "...", "question_en": "...", '
+        '"answer_tr": "...", "answer_en": "..."}}]}}'
+    )
+    data = _chat_json(system, user)
+    return data.get('items', [])
+
+
 def chat(messages: list[dict]) -> str:
     system = {
         'role': 'system',

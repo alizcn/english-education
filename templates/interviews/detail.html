@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %}{{ session.display_title }} · {% trans "Mülakat" %}{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <div>
+        <a href="{% url 'interviews:list' %}" class="muted" style="font-size:0.85rem;">← {% trans "Mülakatlarım" %}</a>
+        <h2 style="margin-top:0.25rem;">
+            {% if session.source == 'cv' %}<span class="badge badge-primary" style="font-size:0.7rem; vertical-align:middle;">CV</span> {% endif %}
+            {{ session.display_title }}
+        </h2>
+        <small class="muted">{% blocktrans with count=session.question_count %}{{ count }} soru{% endblocktrans %} · {{ session.created_at|date:"d M Y · H:i" }}</small>
+    </div>
+    <form method="post" action="{% url 'interviews:delete' session.pk %}" style="margin:0;"
+          onsubmit="return confirm('{% trans "Bu mülakat silinsin mi?" %}');">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-ghost btn-sm">{% trans "Sil" %}</button>
+    </form>
+</div>
+
+{% for q in session.questions_data %}
+<div class="interview-card">
+    <div class="interview-num">{{ forloop.counter }}</div>
+    <div class="interview-body">
+        <div class="interview-q">
+            <div class="interview-lang-badge">TR</div>
+            <div class="interview-text">{{ q.question_tr }}</div>
+        </div>
+        <div class="interview-q">
+            <div class="interview-lang-badge en">EN</div>
+            <div class="interview-text">{{ q.question_en }}</div>
+        </div>
+        <details class="interview-answer">
+            <summary>{% trans "Cevabı Göster" %}</summary>
+            <div class="interview-answer-body">
+                <div class="interview-a">
+                    <div class="interview-lang-badge sm">TR</div>
+                    <div>{{ q.answer_tr }}</div>
+                </div>
+                <div class="interview-a">
+                    <div class="interview-lang-badge en sm">EN</div>
+                    <div>{{ q.answer_en }}</div>
+                </div>
+            </div>
+        </details>
+    </div>
+</div>
+{% endfor %}
+
+<div class="btn-row mt-3">
+    <a href="{% url 'interviews:list' %}" class="btn btn-secondary">← {% trans "Mülakatlarım" %}</a>
+</div>
+{% endblock %}

@@ -1,0 +1,117 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %}{% trans "Mülakat Hazırlık" %}{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <div>
+        <h2>{% trans "Mülakat Hazırlık" %}</h2>
+        <p class="muted" style="margin:0; font-size:0.92rem;">{% trans "Pozisyona özel veya CV'ne göre İngilizce-Türkçe mülakat soruları" %}</p>
+    </div>
+</div>
+
+<!-- Tab switcher -->
+<div class="interview-tabs">
+    <button class="interview-tab active" data-tab="position" type="button">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9 9a3 3 0 0 1 6 0c0 1.5-3 2-3 4"/><circle cx="12" cy="17" r=".5"/></svg>
+        {% trans "Pozisyon Seç" %}
+    </button>
+    <button class="interview-tab" data-tab="cv" type="button">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8M16 17H8M10 9H8"/></svg>
+        {% trans "CV Yükle" %}
+    </button>
+</div>
+
+<!-- Tab 1: Position -->
+<div class="card mb-2 interview-panel" id="panel-position">
+    <form method="post" action="{% url 'interviews:create' %}" id="interview-form">
+        {% csrf_token %}
+        <label>{% trans "İş Pozisyonu" %}
+            <select name="job_category" id="job-category" style="margin-top:0.3rem;">
+                <optgroup label="{% trans 'Developer Pozisyonları' %}">
+                    {% for key, label in positions %}
+                    <option value="{{ key }}">{{ label }}</option>
+                    {% endfor %}
+                </optgroup>
+                <optgroup label="{% trans 'Alan / Uzmanlık' %}">
+                    {% for key, label in fields %}
+                    <option value="{{ key }}">{{ label }}</option>
+                    {% endfor %}
+                </optgroup>
+                <optgroup label="{% trans 'Diğer' %}">
+                    <option value="custom">{% trans "Kendi başlığımı yazacağım" %}</option>
+                </optgroup>
+            </select>
+        </label>
+        <div id="custom-wrap" style="display:none;">
+            <label>{% trans "İş Başlığı" %}
+                <input type="text" name="custom_title" placeholder="{% trans "ör: Frontend Developer, Data Engineer..." %}">
+            </label>
+        </div>
+        <button type="submit" class="btn btn-lg btn-block mt-2">{% trans "AI ile Mülakat Soruları Oluştur" %}</button>
+    </form>
+</div>
+
+<!-- Tab 2: CV Upload -->
+<div class="card mb-2 interview-panel" id="panel-cv" style="display:none;">
+    <div class="cv-upload-info">
+        <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="var(--primary)" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M12 18v-6M9 15l3-3 3 3"/></svg>
+        <div>
+            <div style="font-weight:600;">{% trans "CV'ni yükle, AI sana özel sorular hazırlasın" %}</div>
+            <small class="muted">{% trans "PDF, DOCX veya TXT formatında. AI, CV'deki beceriler ve deneyime göre kişiselleştirilmiş mülakat soruları üretir." %}</small>
+        </div>
+    </div>
+    <form method="post" action="{% url 'interviews:create_cv' %}" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label>{% trans "CV Dosyası" %}
+            <input type="file" name="cv_file" accept=".pdf,.docx,.txt" required style="margin-top:0.3rem;">
+        </label>
+        <button type="submit" class="btn btn-lg btn-block mt-2">{% trans "CV'yi Analiz Et ve Sorular Oluştur" %}</button>
+    </form>
+</div>
+
+<!-- Existing sessions -->
+{% if sessions %}
+<div class="section-title">{% trans "Geçmiş Mülakatlarım" %}</div>
+<div class="list">
+    {% for s in sessions %}
+    <div class="list-item" style="flex-wrap:wrap; gap:0.5rem;">
+        <a href="{% url 'interviews:detail' s.pk %}" style="flex:1; min-width:200px;">
+            <div style="font-weight:600; display:flex; align-items:center; gap:0.4rem;">
+                {% if s.source == 'cv' %}<span class="badge badge-primary">CV</span>{% endif %}
+                {{ s.display_title }}
+            </div>
+            <small class="muted">{% blocktrans with count=s.question_count %}{{ count }} soru{% endblocktrans %} · {{ s.created_at|date:"d M Y · H:i" }}</small>
+        </a>
+        <div class="btn-row">
+            <a href="{% url 'interviews:detail' s.pk %}" class="btn btn-sm btn-secondary">{% trans "Görüntüle" %}</a>
+            <form method="post" action="{% url 'interviews:delete' s.pk %}" style="margin:0;"
+                  onsubmit="return confirm('{% trans "Bu mülakat silinsin mi?" %}');">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-sm btn-ghost">{% trans "Sil" %}</button>
+            </form>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+<div class="empty mt-3">
+    <div class="empty-icon">🎤</div>
+    <p>{% trans "Henüz mülakat oluşturmadın. Pozisyon seç veya CV yükle!" %}</p>
+</div>
+{% endif %}
+
+<script>
+document.getElementById('job-category').addEventListener('change', function() {
+    document.getElementById('custom-wrap').style.display = this.value === 'custom' ? 'block' : 'none';
+});
+document.querySelectorAll('.interview-tab').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+        document.querySelectorAll('.interview-tab').forEach(function(b) { b.classList.remove('active'); });
+        this.classList.add('active');
+        document.querySelectorAll('.interview-panel').forEach(function(p) { p.style.display = 'none'; });
+        document.getElementById('panel-' + this.dataset.tab).style.display = 'block';
+    });
+});
+</script>
+{% endblock %}
