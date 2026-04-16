@@ -58,8 +58,13 @@ def _weekly_chart_data(user):
     }
 
 
-@login_required
 def home(request):
+    if not request.user.is_authenticated:
+        return render(request, 'dashboard/landing.html')
+    return _dashboard(request)
+
+
+def _dashboard(request):
     user = request.user
     total_words = Word.objects.filter(user=user).count()
 

@@ -1,0 +1,252 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#4f46e5">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="{% static 'manifest.json' %}">
+    <link rel="icon" href="{% static 'icons/logo.png' %}" type="image/png">
+    <link rel="apple-touch-icon" href="{% static 'icons/logo.png' %}">
+    <title>{% trans "Practice English for Your Career." %}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/app.css' %}">
+</head>
+<body class="landing-body">
+
+<!-- Navbar -->
+<nav class="landing-nav">
+    <div class="landing-nav-inner">
+        <img src="{% static 'icons/logo.png' %}" alt="Logo" class="landing-nav-logo">
+        <div class="landing-nav-right">
+            <form method="post" action="{% url 'set_language' %}" class="lang-switcher">
+                {% csrf_token %}
+                <input type="hidden" name="next" value="{{ request.path }}">
+                {% get_current_language as LANG %}
+                {% if LANG == 'tr' %}
+                <button type="submit" name="language" value="en" class="lang-btn">EN</button>
+                {% else %}
+                <button type="submit" name="language" value="tr" class="lang-btn">TR</button>
+                {% endif %}
+            </form>
+            <a href="{% url 'accounts:login' %}" class="btn btn-sm landing-nav-login">{% trans "Giriş yap" %}</a>
+            <a href="{% url 'accounts:signup' %}" class="btn btn-sm">{% trans "Kayıt ol" %}</a>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="l-section l-hero-section">
+    <div class="l-container">
+        <div class="l-hero-grid">
+            <div class="fade-up">
+                <span class="l-eyebrow">📘 {% trans "Kariyer odaklı dil eğitimi" %}</span>
+                <h1 class="l-hero-title">
+                    {% trans "Kariyeriniz için İngilizce pratiğini" %}
+                    <span class="l-highlight">{% trans "ölçülebilir adımlarla" %}</span>
+                    {% trans "yönetin." %}
+                </h1>
+                <p class="l-hero-desc">{% trans "Kelime hazinesi, gramer konuları, kişisel kelime listeleri ve AI pratik — tek platformda birleştirin." %}</p>
+                <div class="l-hero-ctas">
+                    <a href="{% url 'accounts:signup' %}" class="btn btn-lg landing-btn-primary">{% trans "Hemen Başla" %} →</a>
+                    <a href="{% url 'accounts:login' %}" class="btn btn-lg landing-btn-ghost">{% trans "Giriş yap" %}</a>
+                </div>
+            </div>
+            <div class="fade-up delay-2">
+                <div class="l-preview-card">
+                    <h5 class="l-preview-title">{% trans "Örnek Günlük Akış" %}</h5>
+                    <div class="l-preview-item">
+                        <span class="l-preview-icon icon-purple"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
+                        <div>
+                            <div class="l-preview-label">{% trans "Kelime Çalış" %}</div>
+                            <small class="muted">{% trans "Seviyene göre sıralı quiz" %}</small>
+                        </div>
+                    </div>
+                    <div class="l-preview-item">
+                        <span class="l-preview-icon icon-green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0H5a2 2 0 0 1-2-2v-4m6 6h10a2 2 0 0 0 2-2v-4"/></svg></span>
+                        <div>
+                            <div class="l-preview-label">{% trans "Gramer Öğren" %}</div>
+                            <small class="muted">{% trans "Konu örnekleri ve quizler" %}</small>
+                        </div>
+                    </div>
+                    <div class="l-preview-item">
+                        <span class="l-preview-icon icon-orange"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
+                        <div>
+                            <div class="l-preview-label">{% trans "AI ile Pratik" %}</div>
+                            <small class="muted">{% trans "Canlı sohbet ile konuşma pratiği" %}</small>
+                        </div>
+                    </div>
+                    <div class="l-preview-trust">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        {% trans "Kişisel ilerleme takibi ve kaldığın yerden devam" %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Metrics -->
+        <div class="l-metrics fade-up delay-3">
+            <div class="l-metric">
+                <div class="l-metric-value">5574</div>
+                <div class="l-metric-label">{% trans "Kelime" %}</div>
+            </div>
+            <div class="l-metric">
+                <div class="l-metric-value">A1–C2</div>
+                <div class="l-metric-label">{% trans "Seviye" %}</div>
+            </div>
+            <div class="l-metric">
+                <div class="l-metric-value">18</div>
+                <div class="l-metric-label">{% trans "Gramer Konusu" %}</div>
+            </div>
+            <div class="l-metric">
+                <div class="l-metric-value">AI</div>
+                <div class="l-metric-label">{% trans "Canlı sohbet" %}</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- NASIL ÇALIŞIR -->
+<section class="l-section l-section-alt">
+    <div class="l-container">
+        <div class="l-section-head reveal">
+            <span class="l-eyebrow">⚡ {% trans "Nasıl Çalışır?" %}</span>
+            <h2>{% trans "3 adımda İngilizce pratiğine başla" %}</h2>
+            <p>{% trans "Kayıt ol, seviyeni seç, hemen çalışmaya başla." %}</p>
+        </div>
+        <div class="l-steps">
+            <div class="l-step reveal">
+                <div class="l-step-num">01</div>
+                <div class="l-step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><path d="M20 8v6M23 11h-6"/></svg></div>
+                <h3>{% trans "Kayıt Ol" %}</h3>
+                <p>{% trans "Sadece kullanıcı adı ve şifre. 10 saniyede hazırsın." %}</p>
+            </div>
+            <div class="l-step reveal">
+                <div class="l-step-num">02</div>
+                <div class="l-step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+                <h3>{% trans "Seviye Seç" %}</h3>
+                <p>{% trans "A1'den C2'ye seviyeni belirle. Kendi kelimelerini de ekle." %}</p>
+            </div>
+            <div class="l-step reveal">
+                <div class="l-step-num">03</div>
+                <div class="l-step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+                <h3>{% trans "Her Gün Pratik Yap" %}</h3>
+                <p>{% trans "Quiz çöz, kelime öğren, AI ile konuş. İlerlemen otomatik kaydedilir." %}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ÖZELLİKLER -->
+<section class="l-section">
+    <div class="l-container">
+        <div class="l-section-head reveal">
+            <span class="l-eyebrow">🎯 {% trans "Özellikler" %}</span>
+            <h2>{% trans "Süreç odaklı İngilizce deneyimi" %}</h2>
+            <p>{% trans "Kelime, gramer, quiz ve AI pratik — günlük çalışmanı hızlandıran modüller." %}</p>
+        </div>
+        <div class="l-features-grid">
+            <div class="l-feature-card fade-up">
+                <span class="l-feature-pill icon-purple"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
+                <h4>{% trans "Kelime Hazinesi" %}</h4>
+                <p>{% trans "A1'den C2'ye 5574 kelime. Seviye seç, sırayla ilerle. Yanlışların otomatik tekrar eder." %}</p>
+            </div>
+            <div class="l-feature-card fade-up delay-1">
+                <span class="l-feature-pill icon-blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></span>
+                <h4>{% trans "Kişisel Kelimeler" %}</h4>
+                <p>{% trans "Hocandan veya derslerden kelime gir, AI anlamını ve örnek cümlesini otomatik üretsin." %}</p>
+            </div>
+            <div class="l-feature-card fade-up delay-2">
+                <span class="l-feature-pill icon-green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0H5a2 2 0 0 1-2-2v-4m6 6h10a2 2 0 0 0 2-2v-4"/></svg></span>
+                <h4>{% trans "Gramer Konuları" %}</h4>
+                <p>{% trans "Zamanlar, modaller, conditionals — her konuda olumlu, olumsuz, soru örnekleri." %}</p>
+            </div>
+            <div class="l-feature-card fade-up delay-3">
+                <span class="l-feature-pill icon-orange"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
+                <h4>{% trans "AI ile Pratik" %}</h4>
+                <p>{% trans "AI asistanla İngilizce konuş, hatalarını görsün, doğrusunu öğren." %}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SSS -->
+<section class="l-section l-section-alt">
+    <div class="l-container l-container-narrow">
+        <div class="l-section-head reveal">
+            <span class="l-eyebrow">❓ {% trans "SSS" %}</span>
+            <h2>{% trans "Sıkça Sorulan Sorular" %}</h2>
+        </div>
+        <div class="l-faq reveal">
+            <details class="l-faq-item">
+                <summary>{% trans "Platform ücretli mi?" %}<span class="l-faq-icon">+</span></summary>
+                <div class="l-faq-body">{% trans "Hayır, platform tamamen ücretsizdir. Kayıt olun ve hemen kullanmaya başlayın." %}</div>
+            </details>
+            <details class="l-faq-item">
+                <summary>{% trans "Kelime Hazinesi'nde hangi seviyeler var?" %}<span class="l-faq-icon">+</span></summary>
+                <div class="l-faq-body">{% trans "A1'den C2'ye kadar 6 seviye ve toplam 5574 kelime mevcuttur. Her seviyede sırayla ilerlersiniz." %}</div>
+            </details>
+            <details class="l-faq-item">
+                <summary>{% trans "Yanlış yaptığım kelimeler ne oluyor?" %}<span class="l-faq-icon">+</span></summary>
+                <div class="l-faq-body">{% trans "Yanlış cevapladığınız kelimeler otomatik olarak tekrar havuzuna eklenir ve ileriki sorularda karşınıza çıkar. Doğru cevaplayana kadar peşinizi bırakmaz." %}</div>
+            </details>
+            <details class="l-faq-item">
+                <summary>{% trans "Kendi kelimelerimi ekleyebilir miyim?" %}<span class="l-faq-icon">+</span></summary>
+                <div class="l-faq-body">{% trans "Evet. Kelimelerim bölümünden istediğiniz kelimeleri girebilirsiniz. AI otomatik olarak Türkçe anlamını ve örnek cümlesini üretir." %}</div>
+            </details>
+            <details class="l-faq-item">
+                <summary>{% trans "AI Chat ne işe yarar?" %}<span class="l-faq-icon">+</span></summary>
+                <div class="l-faq-body">{% trans "AI Chat ile İngilizce pratik yapabilirsiniz. Türkçe veya İngilizce yazın, AI asistan hatalarınızı düzeltir ve doğal konuşma pratiği sunar." %}</div>
+            </details>
+        </div>
+    </div>
+</section>
+
+<!-- BOTTOM CTA -->
+<section class="l-section l-cta-section">
+    <div class="l-container">
+        <div class="l-cta-card reveal">
+            <div class="l-cta-body">
+                <span class="l-eyebrow" style="color: var(--primary);">🚀 {% trans "Başlangıç" %}</span>
+                <h2>{% trans "Kariyerine İngilizce ile yön ver" %}</h2>
+                <p>{% trans "Kayıt olduktan sonra tüm özellikler aktif olur. Kelime hazinesi, gramer, AI pratik — hepsi seni bekliyor." %}</p>
+            </div>
+            <div class="l-cta-action">
+                <a href="{% url 'accounts:signup' %}" class="btn btn-lg landing-btn-primary">{% trans "Ücretsiz Kayıt Ol" %} →</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="landing-footer">
+    <img src="{% static 'icons/logo.png' %}" alt="" style="height:28px; opacity:0.4; margin-bottom:0.5rem;">
+    <small>{% trans "Practice English for Your Career." %}</small>
+    <div class="footer-bottom">
+        <small>© 2026 English Learning. {% trans "Tüm hakları saklıdır." %}</small>
+        <div class="codezzium-badge">
+            {% trans "Bir" %}
+            <img src="{% static 'icons/codezzium-logo.png' %}" alt="Codezzium" height="18" style="vertical-align: middle;">
+            {% trans "ürünüdür" %}
+        </div>
+    </div>
+</footer>
+
+<script>
+(function() {
+    if ('IntersectionObserver' in window) {
+        var io = new IntersectionObserver(function(entries) {
+            entries.forEach(function(e) {
+                if (e.isIntersecting) { e.target.classList.add('is-visible'); io.unobserve(e.target); }
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal, .fade-up').forEach(function(el) { io.observe(el); });
+    } else {
+        document.querySelectorAll('.reveal, .fade-up').forEach(function(el) { el.classList.add('is-visible'); });
+    }
+})();
+</script>
+</body>
+</html>
