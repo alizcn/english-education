@@ -24,7 +24,7 @@ class Command(BaseCommand):
 
         total_new = 0
         total_existing = 0
-        for code in ['A1', 'A2', 'B1']:
+        for code in ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']:
             path = data_dir / f'{code.lower()}.json'
             if not path.exists():
                 self.stdout.write(self.style.WARNING(f'{path} bulunamadı — atlandı.'))

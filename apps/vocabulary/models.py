@@ -15,6 +15,7 @@ class Word(models.Model):
     part_of_speech = models.CharField(max_length=30, blank=True)
     source = models.CharField(max_length=80, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
+    mastered = models.BooleanField(default=False)
     times_asked = models.PositiveIntegerField(default=0)
     times_correct = models.PositiveIntegerField(default=0)
 

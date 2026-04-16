@@ -9,8 +9,11 @@ from .models import BankWord, BankProgress
 
 LEVEL_LABELS = {
     'A1': 'Başlangıç',
-    'A2': 'Orta',
-    'B1': 'İleri',
+    'A2': 'Temel Üstü',
+    'B1': 'Orta',
+    'B2': 'Orta Üstü',
+    'C1': 'İleri',
+    'C2': 'Uzman',
 }
 
 

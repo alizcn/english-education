@@ -22,14 +22,22 @@
         <div class="progress success mt-1"><div class="progress-fill" style="width: 100%"></div></div>
     </div>
 
+    {% with next_levels="A1:A2,A2:B1,B1:B2,B2:C1,C1:C2" %}
     <div class="btn-row mt-3">
         {% if level == 'A1' %}
         <a href="{% url 'wordbank:quiz' 'A2' %}" class="btn btn-lg" style="flex:1;">A2'ye geç →</a>
         {% elif level == 'A2' %}
         <a href="{% url 'wordbank:quiz' 'B1' %}" class="btn btn-lg" style="flex:1;">B1'e geç →</a>
+        {% elif level == 'B1' %}
+        <a href="{% url 'wordbank:quiz' 'B2' %}" class="btn btn-lg" style="flex:1;">B2'ye geç →</a>
+        {% elif level == 'B2' %}
+        <a href="{% url 'wordbank:quiz' 'C1' %}" class="btn btn-lg" style="flex:1;">C1'e geç →</a>
+        {% elif level == 'C1' %}
+        <a href="{% url 'wordbank:quiz' 'C2' %}" class="btn btn-lg" style="flex:1;">C2'ye geç →</a>
         {% else %}
         <a href="{% url 'wordbank:levels' %}" class="btn btn-lg" style="flex:1;">Seviyeler</a>
         {% endif %}
+    {% endwith %}
         <form method="post" action="{% url 'wordbank:reset' level %}" style="margin:0;"
               onsubmit="return confirm('{{ level }} ilerlemen sıfırlansın mı?');">
             {% csrf_token %}

@@ -3,7 +3,7 @@ from django.db import models
 
 
 class BankWord(models.Model):
-    LEVELS = [('A1', 'A1'), ('A2', 'A2'), ('B1', 'B1')]
+    LEVELS = [('A1', 'A1'), ('A2', 'A2'), ('B1', 'B1'), ('B2', 'B2'), ('C1', 'C1'), ('C2', 'C2')]
 
     level = models.CharField(max_length=2, choices=LEVELS, db_index=True)
     rank = models.PositiveIntegerField()

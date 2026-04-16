@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% block title %}Sonuç · Kelimelerim{% endblock %}
+
+{% block content %}
+<div class="quiz-wrap">
+    <div class="quiz-topbar">
+        <a href="{% url 'vocabulary:list' %}" class="muted">← Kelimelerim</a>
+        <div>Kişisel Kelime Quiz</div>
+    </div>
+
+    <div class="quiz-topbar" style="margin-top:0.75rem;">
+        <div>Öğrendiğin: <strong>{{ stats.mastered }} / {{ stats.total }}</strong></div>
+        <div class="quiz-score">
+            <span class="good">✓ {{ stats.mastered }}</span>
+            <span style="color:var(--warning);">⟳ {{ stats.retry }}</span>
+        </div>
+    </div>
+    <div class="progress success"><div class="progress-fill" style="width: {{ stats.percent }}%"></div></div>
+
+    <div class="feedback-box {% if is_correct %}correct{% else %}wrong{% endif %}" style="margin-top:1rem;">
+        {% if is_correct %}
+            <div class="feedback-label">✓ Doğru!</div>
+            <div style="margin-top:0.35rem;">
+                <strong>{{ word.english }}</strong>
+                {% if word.part_of_speech %}<span class="muted">({{ word.part_of_speech }})</span>{% endif %}
+                = <strong>{{ word.turkish }}</strong>
+            </div>
+        {% else %}
+            <div class="feedback-label">✗ Yanlış — tekrar havuzuna eklendi</div>
+            <div style="margin-top:0.35rem;">
+                Senin: <em>{{ selected|default:"(boş)" }}</em><br>
+                Doğrusu: <strong>{{ word.turkish }}</strong>
+            </div>
+            <div style="margin-top:0.5rem;">
+                <strong>{{ word.english }}</strong>
+                {% if word.part_of_speech %}<span class="muted">({{ word.part_of_speech }})</span>{% endif %}
+            </div>
+        {% endif %}
+
+        {% if word.example_en %}
+        <div class="bank-example" style="margin-top:0.75rem; background:rgba(255,255,255,0.5);">
+            <div>"{{ word.example_en }}"</div>
+            {% if word.example_tr %}
+            <div class="muted" style="font-size:0.85rem; margin-top:0.2rem;">{{ word.example_tr }}</div>
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+
+    <a href="{% url 'vocabulary:quiz' %}" class="btn btn-lg btn-block mt-2" id="next-btn">Sıradaki →</a>
+</div>
+
+<script>document.getElementById('next-btn')?.focus();</script>
+{% endblock %}

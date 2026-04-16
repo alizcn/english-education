@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block title %}Tüm Kelimeler Öğrenildi!{% endblock %}
+
+{% block content %}
+<div class="quiz-wrap">
+    <div class="hero" style="text-align:center;">
+        <div style="font-size:3rem; line-height:1;">🏆</div>
+        <h1 style="margin-top:0.5rem;">Hepsi tamam!</h1>
+        <p class="hero-subtitle">{{ stats.total }} kelimeyi öğrendin</p>
+    </div>
+
+    <div class="card">
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+            <div>
+                <div style="font-size:0.8rem; color:var(--text-muted); font-weight:600; text-transform:uppercase;">Öğrenim</div>
+                <div style="font-size:2rem; font-weight:800; color:var(--success);">{{ stats.mastered }} / {{ stats.total }}</div>
+            </div>
+            <span class="badge badge-success">✓ {{ stats.mastered }}</span>
+        </div>
+        <div class="progress success mt-1"><div class="progress-fill" style="width: 100%"></div></div>
+    </div>
+
+    <div class="btn-row mt-3">
+        <a href="{% url 'vocabulary:list' %}" class="btn btn-lg" style="flex:1;">Kelimelerime dön</a>
+        <form method="post" action="{% url 'vocabulary:quiz_reset' %}" style="margin:0;"
+              onsubmit="return confirm('İlerlemen sıfırlansın mı?');">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-secondary">Sıfırla</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

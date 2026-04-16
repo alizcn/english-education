@@ -705,8 +705,11 @@ label input, label textarea, label select { margin-top: 0.3rem; }
 .level-card:hover { box-shadow: var(--shadow); }
 
 .level-card.level-a1 { border-left-color: var(--success); }
-.level-card.level-a2 { border-left-color: var(--primary); }
-.level-card.level-b1 { border-left-color: var(--accent); }
+.level-card.level-a2 { border-left-color: #3b82f6; }
+.level-card.level-b1 { border-left-color: var(--primary); }
+.level-card.level-b2 { border-left-color: var(--accent); }
+.level-card.level-c1 { border-left-color: #f97316; }
+.level-card.level-c2 { border-left-color: var(--danger); }
 
 .level-head {
     display: flex;
@@ -723,8 +726,11 @@ label input, label textarea, label select { margin-top: 0.3rem; }
     line-height: 1;
 }
 .level-card.level-a1 .level-code { color: var(--success); }
-.level-card.level-a2 .level-code { color: var(--primary); }
-.level-card.level-b1 .level-code { color: var(--accent); }
+.level-card.level-a2 .level-code { color: #3b82f6; }
+.level-card.level-b1 .level-code { color: var(--primary); }
+.level-card.level-b2 .level-code { color: var(--accent); }
+.level-card.level-c1 .level-code { color: #f97316; }
+.level-card.level-c2 .level-code { color: var(--danger); }
 
 .level-label {
     font-size: 0.9rem;

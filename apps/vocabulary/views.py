@@ -6,6 +6,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.views.decorators.http import require_POST
 
 from services import ai
+from . import services as vocab_services
 from .models import Word
 
 
@@ -19,7 +20,8 @@ def word_list(request):
     words = _user_words(request.user)
     if q:
         words = words.filter(Q(english__icontains=q) | Q(turkish__icontains=q))
-    return render(request, 'vocabulary/list.html', {'words': words, 'q': q})
+    stats = vocab_services.personal_stats(request.user)
+    return render(request, 'vocabulary/list.html', {'words': words, 'q': q, 'stats': stats})
 
 
 def _parse_input(raw: str) -> list[str]:
@@ -104,4 +106,55 @@ def word_delete(request, pk):
     word = get_object_or_404(Word, pk=pk, user=request.user)
     word.delete()
     messages.success(request, 'Silindi.')
+    return redirect('vocabulary:list')
+
+
+@login_required
+def word_quiz(request):
+    stats = vocab_services.personal_stats(request.user)
+    if stats['total'] < vocab_services.MIN_WORDS_FOR_QUIZ:
+        messages.error(
+            request,
+            f'Quiz için en az {vocab_services.MIN_WORDS_FOR_QUIZ} kelime gerekli. Şu an: {stats["total"]}.'
+        )
+        return redirect('vocabulary:list')
+
+    word, is_retry = vocab_services.pick_next(request.user)
+
+    if word is None:
+        return render(request, 'vocabulary/quiz_complete.html', {'stats': stats})
+
+    options = vocab_services.build_question(word, request.user)
+    return render(request, 'vocabulary/quiz.html', {
+        'word': word,
+        'options': options,
+        'is_retry': is_retry,
+        'stats': stats,
+    })
+
+
+@login_required
+@require_POST
+def word_quiz_answer(request):
+    word_id = request.POST.get('word_id')
+    selected = request.POST.get('answer', '').strip()
+    word = get_object_or_404(Word, pk=word_id, user=request.user)
+
+    is_correct = (selected == word.turkish)
+    vocab_services.record_answer(word, is_correct)
+    stats = vocab_services.personal_stats(request.user)
+
+    return render(request, 'vocabulary/quiz_feedback.html', {
+        'word': word,
+        'selected': selected,
+        'is_correct': is_correct,
+        'stats': stats,
+    })
+
+
+@login_required
+@require_POST
+def word_quiz_reset(request):
+    Word.objects.filter(user=request.user).update(mastered=False, times_asked=0, times_correct=0)
+    messages.success(request, 'Quiz ilerlemen sıfırlandı.')
     return redirect('vocabulary:list')

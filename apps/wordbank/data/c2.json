@@ -1,0 +1,2002 @@
+[
+  {
+    "rank": 1,
+    "english": "Abiding",
+    "part_of_speech": "",
+    "turkish": "Devam ediyor; uzun süre devam ediyor.",
+    "example_en": "Abiding love for old movies.",
+    "example_tr": "Eski filmlere olan sonsuz sevgi."
+  },
+  {
+    "rank": 2,
+    "english": "Able-bodied",
+    "part_of_speech": "",
+    "turkish": "Güçlü ve sağlıklı; fiziksel olarak uygun.",
+    "example_en": "Our construction company requires only able-bodied workers.",
+    "example_tr": "İnşaat şirketimiz yalnızca sağlam vücutlu işçilere ihtiyaç duymaktadır."
+  },
+  {
+    "rank": 3,
+    "english": "Abolish",
+    "part_of_speech": "",
+    "turkish": "İptal etmek için; son vermek; sonlandırmak; bir şeyi bitirmek.",
+    "example_en": "Prohibition was abolished in 1933.",
+    "example_tr": "Yasak 1933'te kaldırıldı."
+  },
+  {
+    "rank": 4,
+    "english": "Absentminded",
+    "part_of_speech": "",
+    "turkish": "Sürekli bir şeyleri unutan veya bazı şeyleri fark edemeyen kişi.",
+    "example_en": "Sarah’s absentminded husband forgot his car keys at the bar.",
+    "example_tr": "Sarah'nın dalgın kocası arabasının anahtarlarını barda unuttu."
+  },
+  {
+    "rank": 5,
+    "english": "Abundant",
+    "part_of_speech": "",
+    "turkish": "Büyük miktarlarda mevcuttur; fazlasıyla yeterli.",
+    "example_en": "The lake near our house is abundant in fish.",
+    "example_tr": "Evimizin yakınındaki gölde balık bol."
+  },
+  {
+    "rank": 6,
+    "english": "Accentuate",
+    "part_of_speech": "",
+    "turkish": "Daha dikkat çekici hale getirmek için.",
+    "example_en": "Dan’s new shirt accentuates his biceps.",
+    "example_tr": "Dan'in yeni gömleği pazılarını vurguluyor."
+  },
+  {
+    "rank": 7,
+    "english": "Accrue",
+    "part_of_speech": "",
+    "turkish": "Biriktirmek için; zamanla yavaş yavaş artar.",
+    "example_en": "I placed my money in a saving account to accrue interest.",
+    "example_tr": "Paramı faiz tahakkuku için bir tasarruf hesabına yatırdım."
+  },
+  {
+    "rank": 8,
+    "english": "Acerbic",
+    "part_of_speech": "",
+    "turkish": "Sert, alaycı ve eleştirel.",
+    "example_en": "Someone left a very acerbic comment under my new video.",
+    "example_tr": "Birisi yeni videomun altına çok sert bir yorum bıraktı."
+  },
+  {
+    "rank": 9,
+    "english": "Adamant",
+    "part_of_speech": "",
+    "turkish": "Kişinin fikrini, kararını veya inancını değiştirme konusundaki isteksizliği.",
+    "example_en": "Mike was adamant in his decision to quit his job.",
+    "example_tr": "Mike işini bırakma kararında kararlıydı."
+  },
+  {
+    "rank": 10,
+    "english": "Afflatus",
+    "part_of_speech": "",
+    "turkish": "Ani bir ilham patlaması; güçlü yaratıcı dürtü.",
+    "example_en": "In 1995, on a wave of afflatus, I wrote my first book.",
+    "example_tr": "1995 yılında bir duygu dalgası üzerine ilk kitabımı yazdım."
+  },
+  {
+    "rank": 11,
+    "english": "Aggravate",
+    "part_of_speech": "",
+    "turkish": "Kötü bir şeyi daha da kötü hale getirin.",
+    "example_en": "The new treatment plan only aggravated her condition",
+    "example_tr": "Yeni tedavi planı durumunu daha da kötüleştirdi"
+  },
+  {
+    "rank": 12,
+    "english": "Aimless",
+    "part_of_speech": "",
+    "turkish": "Açık bir amaç veya niyet olmadan.",
+    "example_en": "Jack’s life became aimless after the death of his wife.",
+    "example_tr": "Jack'in hayatı karısının ölümünden sonra amaçsızlaştı."
+  },
+  {
+    "rank": 13,
+    "english": "Akin",
+    "part_of_speech": "",
+    "turkish": "Bir bakıma benzer.",
+    "example_en": "He spoke in a language akin to Spanish; this game is akin to football.",
+    "example_tr": "İspanyolcaya benzer bir dilde konuşuyordu; bu oyun futbola benzer."
+  },
+  {
+    "rank": 14,
+    "english": "Aloof",
+    "part_of_speech": "",
+    "turkish": "Düşmanca; başkalarından uzak durur; mesafe.",
+    "example_en": "Jessica kept aloof from her father’s new wife.",
+    "example_tr": "Jessica babasının yeni karısından uzak durdu."
+  },
+  {
+    "rank": 15,
+    "english": "Ambrosial",
+    "part_of_speech": "",
+    "turkish": "Lezzetli; çok lezzetli veya kokulu bir şey.",
+    "example_en": "Her mother’s birthday cake was ambrosial.",
+    "example_tr": "Annesinin doğum günü pastası çok güzeldi."
+  },
+  {
+    "rank": 16,
+    "english": "Antagonize",
+    "part_of_speech": "",
+    "turkish": "Birinin sizden hoşlanmamasını veya size kızmasını sağlayın.",
+    "example_en": "After the divorce, Rebecca tried to antagonize our kids against me.",
+    "example_tr": "Boşandıktan sonra Rebecca çocuklarımızı bana düşman etmeye çalıştı."
+  },
+  {
+    "rank": 17,
+    "english": "Ante up",
+    "part_of_speech": "",
+    "turkish": "Para vermek için; gereğini öde.",
+    "example_en": "My landlord told me to ante up or vacate the apartment by the beginning of the month.",
+    "example_tr": "Ev sahibim ay başına kadar ön ödeme yapmamı veya daireyi boşaltmamı söyledi."
+  },
+  {
+    "rank": 18,
+    "english": "Antiquated",
+    "part_of_speech": "",
+    "turkish": "Çok yaşlı; eski moda; artık kullanışlı değil.",
+    "example_en": "Antiquated system; antiquated beliefs; antiquated methods; antiquated laws.",
+    "example_tr": "Eski sistem; eski inançlar; eski yöntemler; eski yasalar."
+  },
+  {
+    "rank": 19,
+    "english": "As right as rain",
+    "part_of_speech": "",
+    "turkish": "Tekrar harika veya sağlıklı hissetmek için.",
+    "example_en": "After the final stage of therapy, he is as right as rain now.",
+    "example_tr": "Terapinin son aşamasından sonra artık yağmur kadar iyi durumda."
+  },
+  {
+    "rank": 20,
+    "english": "Assertive",
+    "part_of_speech": "",
+    "turkish": "Agresif olmadan çok kendinden emin.",
+    "example_en": "If you want to get this job, you need to be more assertive.",
+    "example_tr": "Bu işi almak istiyorsanız daha iddialı olmanız gerekir."
+  },
+  {
+    "rank": 21,
+    "english": "A stone’s throw",
+    "part_of_speech": "",
+    "turkish": "Çok yakın.",
+    "example_en": "Her apartment is just a stone’s throw from the city center.",
+    "example_tr": "Dairesi şehir merkezine sadece bir taş atımı uzaklıkta."
+  },
+  {
+    "rank": 22,
+    "english": "Awe",
+    "part_of_speech": "",
+    "turkish": "Korkuyla birleşen derin bir saygı ve onay duygusu.",
+    "example_en": "Sam was in awe of his strong father; Dina gazed at the soldiers with awe.",
+    "example_tr": "Sam, güçlü babasına hayranlık duyuyordu; Dina askerlere hayranlıkla baktı."
+  },
+  {
+    "rank": 23,
+    "english": "Backlash",
+    "part_of_speech": "",
+    "turkish": "Çok sayıda insanın politik veya sosyal değişimlere karşı gösterdiği güçlü ve olumsuz tepki.",
+    "example_en": "Government faces backlash from voters; the backlash against default.",
+    "example_tr": "Hükümet seçmenlerin tepkisiyle karşı karşıya; varsayılana karşı tepki."
+  },
+  {
+    "rank": 24,
+    "english": "Bad blood",
+    "part_of_speech": "",
+    "turkish": "Geçmişte meydana gelen olaylardan dolayı insanlar arasında duyulan düşmanlık ve nefret duyguları.",
+    "example_en": "There has been bad blood between John and Sarah for years.",
+    "example_tr": "Yıllardır John ve Sarah arasında husumet vardı."
+  },
+  {
+    "rank": 25,
+    "english": "Baleful",
+    "part_of_speech": "",
+    "turkish": "Kötü bir şey yapma veya birine zarar verme becerisine sahip; fenalık; nefret dolu.",
+    "example_en": "The bully gave me a baleful look.",
+    "example_tr": "Zorba bana kötü niyetli bir bakış attı."
+  },
+  {
+    "rank": 26,
+    "english": "Barmy",
+    "part_of_speech": "",
+    "turkish": "Son derece aptalca; biraz çılgın.",
+    "example_en": "Barmy idea, barmy decision.",
+    "example_tr": "Berbat bir fikir, berbat bir karar."
+  },
+  {
+    "rank": 27,
+    "english": "Barren",
+    "part_of_speech": "",
+    "turkish": "Steril; hiçbir şey üretememek.",
+    "example_en": "This land is barren, we cannot grow anything here.",
+    "example_tr": "Bu topraklar çorak, burada hiçbir şey yetiştiremiyoruz."
+  },
+  {
+    "rank": 28,
+    "english": "Batty",
+    "part_of_speech": "",
+    "turkish": "Deli; kızgın; zihinsel olarak dengesiz.",
+    "example_en": "Dean gets a bit batty when we talk about politics.",
+    "example_tr": "Politika hakkında konuştuğumuzda Dean biraz huysuzlaşıyor."
+  },
+  {
+    "rank": 29,
+    "english": "Bawl",
+    "part_of_speech": "",
+    "turkish": "Çok yüksek sesle çığlık atın veya ağlayın.",
+    "example_en": "“Stop hitting my husband!” she bawled.",
+    "example_tr": "“Kocama vurmayı bırak!” diye haykırdı."
+  },
+  {
+    "rank": 30,
+    "english": "Bear up",
+    "part_of_speech": "",
+    "turkish": "Zor bir durumla cesaret ve cesaretle yüzleşin.",
+    "example_en": "Donna is bearing up well under the strain of losing her apartment.",
+    "example_tr": "Donna dairesini kaybetmenin getirdiği baskıya oldukça iyi dayanıyor."
+  },
+  {
+    "rank": 31,
+    "english": "Beckon",
+    "part_of_speech": "",
+    "turkish": "Birini yaklaşmaya teşvik etmek için el veya baş hareketi yapın.",
+    "example_en": "She beckoned to the waiter.",
+    "example_tr": "Garsona işaret etti."
+  },
+  {
+    "rank": 32,
+    "english": "Beggarly",
+    "part_of_speech": "",
+    "turkish": "Çok fakir; miktar olarak küçüktür.",
+    "example_en": "Dan received a beggarly sum for his excellent work.",
+    "example_tr": "Dan, mükemmel çalışması için çok az bir meblağ aldı."
+  },
+  {
+    "rank": 33,
+    "english": "Besotted",
+    "part_of_speech": "",
+    "turkish": "Birine derinden aşık olmak; sürekli birisini düşünmek.",
+    "example_en": "Ronda is completely besotted with her new boyfriend.",
+    "example_tr": "Ronda yeni erkek arkadaşına tamamen aşıktır."
+  },
+  {
+    "rank": 34,
+    "english": "Bewitching",
+    "part_of_speech": "",
+    "turkish": "Baştan çıkarıcı derecede çekici; keyifli; büyüleyici; alımlı.",
+    "example_en": "Craig was bewitched by Fiona’s beauty.",
+    "example_tr": "Craig, Fiona'nın güzelliğinden büyülenmişti."
+  },
+  {
+    "rank": 35,
+    "english": "Billow",
+    "part_of_speech": "",
+    "turkish": "Hava ile doldurulacak; bir şeyin büyük, hareketli kütlesi.",
+    "example_en": "The sails billowed in the wind; billow of smoke.",
+    "example_tr": "Yelkenler rüzgârda dalgalanıyordu; duman dalgası."
+  },
+  {
+    "rank": 36,
+    "english": "Bite the bullet",
+    "part_of_speech": "",
+    "turkish": "Kendinizi son derece zor veya hoş olmayan bir şey yapmaya zorlayın.",
+    "example_en": "I hate doing this part of my job, but I have to bite the bullet and get it done.",
+    "example_tr": "İşimin bu kısmını yapmaktan nefret ediyorum ama kurşunu ısırıp bu işi halletmem gerekiyor."
+  },
+  {
+    "rank": 37,
+    "english": "Boisterous",
+    "part_of_speech": "",
+    "turkish": "Gürültülü; yüksek sesle; enerji dolu ve biraz kontrolden çıkmış.",
+    "example_en": "A boisterous horse; boisterous children; boisterous crowd.",
+    "example_tr": "Gürültülü bir at; gürültücü çocuklar; gürültülü kalabalık."
+  },
+  {
+    "rank": 38,
+    "english": "Bonkers",
+    "part_of_speech": "",
+    "turkish": "Şapşal; deli; aptal.",
+    "example_en": "Ron must be bonkers to take such a risk.",
+    "example_tr": "Ron böyle bir riski aldığına göre çılgın olmalı."
+  },
+  {
+    "rank": 39,
+    "english": "Bountiful",
+    "part_of_speech": "",
+    "turkish": "Miktar olarak büyük; cömert.",
+    "example_en": "Bountiful supply of food; bountiful land.",
+    "example_tr": "Bol miktarda yiyecek tedariki; bereketli arazi."
+  },
+  {
+    "rank": 40,
+    "english": "Braggart",
+    "part_of_speech": "",
+    "turkish": "Başarılarından aşırı gururla bahseden biri.",
+    "example_en": "He was so annoying and braggart, always talking about what a successful football player he was 20 years ago.",
+    "example_tr": "O kadar sinir bozucu ve övüngen biriydi ki, sürekli 20 yıl önce ne kadar başarılı bir futbolcu olduğundan bahsediyordu."
+  },
+  {
+    "rank": 41,
+    "english": "Brush up",
+    "part_of_speech": "",
+    "turkish": "Bir şey hakkındaki bilginizi geliştirin.",
+    "example_en": "You need to brush up on your French before you go to Paris.",
+    "example_tr": "Paris'e gitmeden önce Fransızcanızı tazelemeniz gerekiyor."
+  },
+  {
+    "rank": 42,
+    "english": "Buffoonery",
+    "part_of_speech": "",
+    "turkish": "Seni güldüren aptalca ve saçma davranışlar.",
+    "example_en": "John’s buffoonery was funny, but completely out of place.",
+    "example_tr": "John'un soytarılığı komikti ama tamamen yersizdi."
+  },
+  {
+    "rank": 43,
+    "english": "Burdensome",
+    "part_of_speech": "",
+    "turkish": "Gerçekleştirilmesi zor; başa çıkmak zor.",
+    "example_en": "All my problems were too burdensome for her, so she broke up with me.",
+    "example_tr": "Bütün sorunlarım onun için çok ağırdı, bu yüzden benden ayrıldı."
+  },
+  {
+    "rank": 44,
+    "english": "Burly",
+    "part_of_speech": "",
+    "turkish": "Büyük; güçlü kaslara sahiptir.",
+    "example_en": "Burly powerlifter; burly worker.",
+    "example_tr": "İri yapılı powerlifter; iri yapılı işçi."
+  },
+  {
+    "rank": 45,
+    "english": "Call it a day",
+    "part_of_speech": "",
+    "turkish": "Yaptığın şeyi durdurmak için.",
+    "example_en": "I’m tired! Let’s call it a day and go home.",
+    "example_tr": "Yorgunum! Bir gün ara verip eve gidelim."
+  },
+  {
+    "rank": 46,
+    "english": "Callous",
+    "part_of_speech": "",
+    "turkish": "Acımasız; diğer insanları veya onların duygularını umursamaz.",
+    "example_en": "It might sound a bit callous, but I don’t care if she’s alive.",
+    "example_tr": "Biraz duygusuz gelebilir ama onun hayatta olup olmaması umurumda değil."
+  },
+  {
+    "rank": 47,
+    "english": "Cap off",
+    "part_of_speech": "",
+    "turkish": "Bir şeyi başarıyla tamamlayın veya bitirin.",
+    "example_en": "He capped off business meeting with a signed contract.",
+    "example_tr": "İş toplantısını imzalanan bir sözleşmeyle sonlandırdı."
+  },
+  {
+    "rank": 48,
+    "english": "Chagrin",
+    "part_of_speech": "",
+    "turkish": "Hayal kırıklığı; yas; sıkıntı; derin üzüntü.",
+    "example_en": "Much to his father’s chagrin, John did not become a doctor.",
+    "example_tr": "John'un doktor olamaması babasını çok üzdü."
+  },
+  {
+    "rank": 49,
+    "english": "Clique",
+    "part_of_speech": "",
+    "turkish": "Birlikte vakit geçiren ve başkalarının kendilerine katılmasına izin vermeyen (genellikle ortak bir ilgi veya amaç etrafında birleşen) bir grup insan.",
+    "example_en": "A small clique of chess players; clique at work; clique at school.",
+    "example_tr": "Küçük bir satranç oyuncusu grubu; klik iş başında; okuldaki klik."
+  },
+  {
+    "rank": 50,
+    "english": "Clogged",
+    "part_of_speech": "",
+    "turkish": "Engellenir, engellenir veya doldurulur.",
+    "example_en": "The waterways are clogged with leaves in autumn.",
+    "example_tr": "Sonbaharda su yolları yapraklarla tıkanır."
+  },
+  {
+    "rank": 51,
+    "english": "Cloistered",
+    "part_of_speech": "",
+    "turkish": "Gözlerden uzak; dış dünyadan ayrılmış; olağan yoğun hayattan uzak duran biri.",
+    "example_en": "Most IT specialists lead a cloistered life; she cloistered herself away with her smartphone.",
+    "example_tr": "Çoğu BT uzmanı kapalı bir yaşam sürüyor; akıllı telefonuyla kendini uzaklaştırdı."
+  },
+  {
+    "rank": 52,
+    "english": "Clueless",
+    "part_of_speech": "",
+    "turkish": "Belirli bir konu hakkında veya genel olarak hiçbir şey bilmiyorum.",
+    "example_en": "I’m completely clueless about programming.",
+    "example_tr": "Programlama konusunda tamamen bilgisizim."
+  },
+  {
+    "rank": 53,
+    "english": "Coarsen",
+    "part_of_speech": "",
+    "turkish": "Kaba olmak veya daha az kibar olmak.",
+    "example_en": "His hands were coarsened by years of work; last year in prison had coarsened him.",
+    "example_tr": "Elleri yıllarca çalışmaktan dolayı kabalaşmıştı; Geçen yıl hapishanede kalmak onu kabalaştırmıştı."
+  },
+  {
+    "rank": 54,
+    "english": "Coax",
+    "part_of_speech": "",
+    "turkish": "Birini yavaşça bir şey yapmaya ikna edin.",
+    "example_en": "It took a lot of coaxing before my dad agreed to buy me a new computer.",
+    "example_tr": "Babam bana yeni bir bilgisayar almayı kabul edene kadar çok ikna etmem gerekti."
+  },
+  {
+    "rank": 55,
+    "english": "Colossal",
+    "part_of_speech": "",
+    "turkish": "Son derece büyük; devasa.",
+    "example_en": "Colossal effort; colossal amount of money; colossal sacrifice.",
+    "example_tr": "Muazzam çaba; muazzam miktarda para; muazzam fedakarlık."
+  },
+  {
+    "rank": 56,
+    "english": "Companionate",
+    "part_of_speech": "",
+    "turkish": "Süper dost canlısı; uyumlu bir şekilde uygundur.",
+    "example_en": "Companionate marriage; companionate love.",
+    "example_tr": "Anlaşma evliliği; yoldaşça aşk."
+  },
+  {
+    "rank": 57,
+    "english": "Conceal",
+    "part_of_speech": "",
+    "turkish": "Bir şeyi örtün veya saklayın; ifşa edilmesini önlemek.",
+    "example_en": "Conceal the truth; conceal identity.",
+    "example_tr": "Gerçeği gizleyin; kimliğini gizle."
+  },
+  {
+    "rank": 58,
+    "english": "Conceited",
+    "part_of_speech": "",
+    "turkish": "Kendinle fazla gurur duymak; narsist.",
+    "example_en": "I don’t want to sound conceited, but I’m the smartest person in this room.",
+    "example_tr": "Kibirli görünmek istemem ama bu odadaki en zeki kişi benim."
+  },
+  {
+    "rank": 59,
+    "english": "Consecutive",
+    "part_of_speech": "",
+    "turkish": "Belli bir sırayla birbiri ardına takip etmek.",
+    "example_en": "The numbers 10, 11, and 12 are consecutive.",
+    "example_tr": "10, 11 ve 12 sayıları ardışıktır."
+  },
+  {
+    "rank": 60,
+    "english": "Copious",
+    "part_of_speech": "",
+    "turkish": "Fazlasıyla yeterli; bol.",
+    "example_en": "She drinks copious amounts of coffee.",
+    "example_tr": "Bol miktarda kahve içiyor."
+  },
+  {
+    "rank": 61,
+    "english": "Coquettish",
+    "part_of_speech": "",
+    "turkish": "Flörtlü; eğlenceli; çok çekici görünen bir şekilde davranır.",
+    "example_en": "A coquettish outfit; coquettish smile; coquettish girl.",
+    "example_tr": "Cilveli bir kıyafet; cilveli gülümseme; cilveli kız."
+  },
+  {
+    "rank": 62,
+    "english": "Cordial",
+    "part_of_speech": "",
+    "turkish": "Samimi ve sıcak.",
+    "example_en": "Cordial relations between the two countries.",
+    "example_tr": "İki ülke arasında samimi ilişkiler."
+  },
+  {
+    "rank": 63,
+    "english": "Crammed",
+    "part_of_speech": "",
+    "turkish": "İnsanlarla ya da nesnelerle dolu.",
+    "example_en": "Her closet is crammed with clothes.",
+    "example_tr": "Dolabı kıyafetlerle tıka basa dolu."
+  },
+  {
+    "rank": 64,
+    "english": "Craven",
+    "part_of_speech": "",
+    "turkish": "Cesaret eksikliğini gösteriyor.",
+    "example_en": "A craven traitor; craven deserter.",
+    "example_tr": "Korkak bir hain; korkak asker kaçağı."
+  },
+  {
+    "rank": 65,
+    "english": "Crumbly",
+    "part_of_speech": "",
+    "turkish": "Kolayca birçok küçük parçaya veya parçaya bölünebilen bir şey.",
+    "example_en": "This cake has a very crumbly texture.",
+    "example_tr": "Bu pastanın çok ufalanan bir dokusu var."
+  },
+  {
+    "rank": 66,
+    "english": "Dawdle",
+    "part_of_speech": "",
+    "turkish": "Çok yavaş olun ve zamanınızı boşa harcayın.",
+    "example_en": "Stop dawdling! We will miss our plane.",
+    "example_tr": "Oyalanmayı bırak! Uçağımızı kaçıracağız."
+  },
+  {
+    "rank": 67,
+    "english": "Dazzle",
+    "part_of_speech": "",
+    "turkish": "Parlak ışığa bakarken net görüşü (geçici olarak) kaybetmek.",
+    "example_en": "John was dazzled by the sunlight.",
+    "example_tr": "John'un güneş ışığı karşısında gözleri kamaşmıştı."
+  },
+  {
+    "rank": 68,
+    "english": "Debilitate",
+    "part_of_speech": "",
+    "turkish": "Birini veya bir şeyi zayıflatmak.",
+    "example_en": "They were debilitated by hunger and disease.",
+    "example_tr": "Açlık ve hastalıktan zayıf düşmüşlerdi."
+  },
+  {
+    "rank": 69,
+    "english": "Deceitful",
+    "part_of_speech": "",
+    "turkish": "Uzanmak; sahtekâr; doğruyu söylememek.",
+    "example_en": "Deceitful behavior; deceitful politician; deceitful child.",
+    "example_tr": "Aldatıcı davranış; aldatıcı politikacı; aldatıcı çocuk."
+  },
+  {
+    "rank": 70,
+    "english": "Deflate",
+    "part_of_speech": "",
+    "turkish": "Havayı veya gazı tahliye etmek için; birini daha az kendine güvenen veya daha az güçlü kılmak.",
+    "example_en": "Deflate the balloon; she was deflated by losing a job.",
+    "example_tr": "Balonu söndürün; işini kaybettiği için morali bozuldu."
+  },
+  {
+    "rank": 71,
+    "english": "Dehort",
+    "part_of_speech": "",
+    "turkish": "Birini ısrarla bir şeyi yapmamaya ikna etmeye veya ikna etmeye çalışmak.",
+    "example_en": "He tried to dehort her not to buy that red car.",
+    "example_tr": "O kırmızı arabayı almaması için onu cesaretlendirmeye çalıştı."
+  },
+  {
+    "rank": 72,
+    "english": "Deplorable",
+    "part_of_speech": "",
+    "turkish": "Son derece üzücü, kötü veya kabul edilemez.",
+    "example_en": "She lived in deplorable conditions.",
+    "example_tr": "İçler acısı koşullarda yaşadı."
+  },
+  {
+    "rank": 73,
+    "english": "Detestable",
+    "part_of_speech": "",
+    "turkish": "Nefret edilmeyi hak ediyor; son derece tatsız.",
+    "example_en": "Detestable coward; detestable fraud.",
+    "example_tr": "İğrenç korkak; iğrenç sahtekarlık."
+  },
+  {
+    "rank": 74,
+    "english": "Devious",
+    "part_of_speech": "",
+    "turkish": "Sahtekar ama becerikli; hedefe ulaşmak için her şeyi yapacaktır.",
+    "example_en": "Devious businessman; devious politician.",
+    "example_tr": "Sinsi iş adamı; sapkın politikacı."
+  },
+  {
+    "rank": 75,
+    "english": "Dimly",
+    "part_of_speech": "",
+    "turkish": "Fazla ışık olmadan.",
+    "example_en": "Dimly room; dimly streets.",
+    "example_tr": "Loş oda; loş sokaklar."
+  },
+  {
+    "rank": 76,
+    "english": "Dismay",
+    "part_of_speech": "",
+    "turkish": "Güçlü bir korku, endişe veya hayal kırıklığı hissi.",
+    "example_en": "“He stole my car and left me on the road!” she said in dismay.",
+    "example_tr": "“Arabamı çaldı ve beni yolda bıraktı!” dedi dehşet içinde."
+  },
+  {
+    "rank": 77,
+    "english": "Dizzy",
+    "part_of_speech": "",
+    "turkish": "Sanki dengenizi kaybediyormuşsunuz ve düşecekmişsiniz gibi hissetmek.",
+    "example_en": "When I got to the top of the mountain, I felt a little dizzy.",
+    "example_tr": "Dağın tepesine ulaştığımda biraz başım döndü."
+  },
+  {
+    "rank": 78,
+    "english": "Dreadful",
+    "part_of_speech": "",
+    "turkish": "Büyük acıya veya korkuya neden olan; son derece nahoş veya kötü.",
+    "example_en": "Dreadful experience; dreadful behavior; dreadful news.",
+    "example_tr": "Korkunç deneyim; korkunç davranış; korkunç bir haber."
+  },
+  {
+    "rank": 79,
+    "english": "Drenched",
+    "part_of_speech": "",
+    "turkish": "Tamamen ıslak.",
+    "example_en": "Drenched by rain; drenched with sweat.",
+    "example_tr": "Yağmurdan ıslanmış; terden sırılsıklam."
+  },
+  {
+    "rank": 80,
+    "english": "Dwindle",
+    "part_of_speech": "",
+    "turkish": "Sayıca küçülmek veya az olmak.",
+    "example_en": "Her savings dwindled to 100 bucks; dwindling resources; dwindling population.",
+    "example_tr": "Birikimleri 100 dolara düştü; azalan kaynaklar; azalan nüfus."
+  },
+  {
+    "rank": 81,
+    "english": "Ecstatic",
+    "part_of_speech": "",
+    "turkish": "Son derece mutlu, coşkulu ve heyecan dolu.",
+    "example_en": "John was ecstatic about his new car.",
+    "example_tr": "John yeni arabasından çok memnundu."
+  },
+  {
+    "rank": 82,
+    "english": "Eerie",
+    "part_of_speech": "",
+    "turkish": "Gizemli, korkutucu, çok tuhaf.",
+    "example_en": "It’s a bit eerie to walk down a dark path at night.",
+    "example_tr": "Geceleri karanlık bir yolda yürümek biraz ürkütücü."
+  },
+  {
+    "rank": 83,
+    "english": "Elated",
+    "part_of_speech": "",
+    "turkish": "Son derece mutlu, gururlu veya heyecanlı.",
+    "example_en": "Serena was elated with her new dress.",
+    "example_tr": "Serena yeni elbisesiyle çok sevindi."
+  },
+  {
+    "rank": 84,
+    "english": "Embroil",
+    "part_of_speech": "",
+    "turkish": "Birini bir tartışmaya, sıkıntıya ya da zor bir duruma dahil etmek.",
+    "example_en": "My wife embroiled me in an argument with her parents.",
+    "example_tr": "Eşim beni ailesiyle tartışmaya soktu."
+  },
+  {
+    "rank": 85,
+    "english": "Enticing",
+    "part_of_speech": "",
+    "turkish": "Çekici; güçlü bir arzuya veya ilgiye neden olmak; bunu istemeni sağlar.",
+    "example_en": "His offer was so enticing, but I had to refuse.",
+    "example_tr": "Teklifi çok cazipti ama reddetmek zorunda kaldım."
+  },
+  {
+    "rank": 86,
+    "english": "Erstwhile",
+    "part_of_speech": "",
+    "turkish": "Önceki; öncesi.",
+    "example_en": "Erstwhile lover; erstwhile friends; erstwhile employer.",
+    "example_tr": "Eski sevgilisi; eski arkadaşlar; eski işveren."
+  },
+  {
+    "rank": 87,
+    "english": "Excruciating",
+    "part_of_speech": "",
+    "turkish": "Büyük fiziksel veya duygusal acıya neden olmak.",
+    "example_en": "Excruciating memories; excruciating back pain.",
+    "example_tr": "Dayanılmaz anılar; dayanılmaz sırt ağrısı."
+  },
+  {
+    "rank": 88,
+    "english": "Exhale",
+    "part_of_speech": "",
+    "turkish": "Nefes vermek.",
+    "example_en": "Take a deep breath, wait 7 seconds and exhale slowly.",
+    "example_tr": "Derin bir nefes alın, 7 saniye bekleyin ve yavaşça nefes verin."
+  },
+  {
+    "rank": 89,
+    "english": "Exuberant",
+    "part_of_speech": "",
+    "turkish": "Enerji veya heyecan dolu; canlı.",
+    "example_en": "Exuberant performance; exuberant crowd.",
+    "example_tr": "Coşkulu performans; coşkulu kalabalık."
+  },
+  {
+    "rank": 90,
+    "english": "Famished",
+    "part_of_speech": "",
+    "turkish": "Son derece aç.",
+    "example_en": "When is breakfast? I am famished.",
+    "example_tr": "Kahvaltı ne zaman? Açlıktan ölüyorum."
+  },
+  {
+    "rank": 91,
+    "english": "Farcical",
+    "part_of_speech": "",
+    "turkish": "O kadar aptalca, gülünç ya da aptalca bir şey ki ciddiye alamazsınız.",
+    "example_en": "It was a farcical trial; farcical behavior; farcical situation.",
+    "example_tr": "Bu saçma bir duruşmaydı; saçma davranış; saçma bir durum."
+  },
+  {
+    "rank": 92,
+    "english": "Fatigued",
+    "part_of_speech": "",
+    "turkish": "Daha zayıf ol; yorgun; yorgun.",
+    "example_en": "She’s fatigued from the long ride.",
+    "example_tr": "Uzun yolculuktan dolayı yorulmuştu."
+  },
+  {
+    "rank": 93,
+    "english": "Fawn over",
+    "part_of_speech": "",
+    "turkish": "Birine samimi olmayan bir şekilde çok fazla ilgi göstermek; birine son derece iyi davranmak.",
+    "example_en": "Most people hate waiters who fawn over them.",
+    "example_tr": "Çoğu insan kendilerine yaltaklanan garsonlardan nefret eder."
+  },
+  {
+    "rank": 94,
+    "english": "Feel under the weather",
+    "part_of_speech": "",
+    "turkish": "Biraz kötü hissediyorum; biraz hasta.",
+    "example_en": "I’m feeling a bit under the weather and won’t be going to work today.",
+    "example_tr": "Kendimi biraz kötü hissediyorum ve bugün işe gitmeyeceğim."
+  },
+  {
+    "rank": 95,
+    "english": "Feisty",
+    "part_of_speech": "",
+    "turkish": "Cesur; güçlü; insanlarla tartışmaktan korkmuyorum.",
+    "example_en": "Feisty young activists; feisty fighter.",
+    "example_tr": "Alıngan genç aktivistler; alıngan savaşçı."
+  },
+  {
+    "rank": 96,
+    "english": "Ferret out",
+    "part_of_speech": "",
+    "turkish": "Bir şeyi (bilgi gibi) çok dikkatli ve kapsamlı bir şekilde aramak.",
+    "example_en": "I want to ferret out the truth about her past.",
+    "example_tr": "Onun geçmişi hakkındaki gerçeği ortaya çıkarmak istiyorum."
+  },
+  {
+    "rank": 97,
+    "english": "Ferocious",
+    "part_of_speech": "",
+    "turkish": "Son derece şiddetli, saldırgan ve korkutucu.",
+    "example_en": "Her dog was very ferocious.",
+    "example_tr": "Köpeği çok vahşiydi."
+  },
+  {
+    "rank": 98,
+    "english": "Fervid",
+    "part_of_speech": "",
+    "turkish": "Birisi ya da bir şey hakkında son derece tutkulu; son derece coşkulu.",
+    "example_en": "Fervid followers; fervid orator.",
+    "example_tr": "Fervid takipçileri; ateşli hatip."
+  },
+  {
+    "rank": 99,
+    "english": "Flimsy",
+    "part_of_speech": "",
+    "turkish": "Süper zayıf; kolayca kırılır; son derece ince.",
+    "example_en": "Flimsy door; flimsy construction; flimsy dress.",
+    "example_tr": "Çürük kapı; dayanıksız yapı; ince elbise."
+  },
+  {
+    "rank": 100,
+    "english": "Fondly",
+    "part_of_speech": "",
+    "turkish": "Büyük sevgi, ilgi veya güçlü bir beğeni göstermek.",
+    "example_en": "He smiled fondly at his son.",
+    "example_tr": "Oğluna sevgiyle gülümsedi."
+  },
+  {
+    "rank": 101,
+    "english": "Forlorn",
+    "part_of_speech": "",
+    "turkish": "Yalnız, üzgün ve mutsuz; terk edilmiş.",
+    "example_en": "This house is forlorn and empty; she looked so forlorn standing there alone.",
+    "example_tr": "Bu ev terkedilmiş ve boş; orada tek başına dururken o kadar perişan görünüyordu ki."
+  },
+  {
+    "rank": 102,
+    "english": "Frenetic",
+    "part_of_speech": "",
+    "turkish": "Hızlı ve enerjik; kontrolsüz ve düzensiz.",
+    "example_en": "A frenetic attempt to win the competition at the last minute; frenetic activity; frenetic pace.",
+    "example_tr": "Son dakikada rekabeti kazanmak için çılgınca bir girişim; çılgın aktivite; çılgın tempo."
+  },
+  {
+    "rank": 103,
+    "english": "Fretful",
+    "part_of_speech": "",
+    "turkish": "Mutsuz olduğunuzu veya bir şeyden memnun olmadığınızı gösteren davranış.",
+    "example_en": "He’s always so fretful when he is tired or hungry.",
+    "example_tr": "Yorgun ya da aç olduğunda her zaman çok huysuzdur."
+  },
+  {
+    "rank": 104,
+    "english": "Garish",
+    "part_of_speech": "",
+    "turkish": "Hoş olmayan derecede parlak; çekici olmayan bir şekilde renkli.",
+    "example_en": "This dress is too garish for my taste; this store has too garish and luminous signs.",
+    "example_tr": "Bu elbise benim zevkime göre fazla cafcaflı; Bu mağazanın çok cafcaflı ve parlak tabelaları var."
+  },
+  {
+    "rank": 105,
+    "english": "Garrulous",
+    "part_of_speech": "",
+    "turkish": "Çok konuşmak (çoğunlukla önemsiz şeyler hakkında).",
+    "example_en": "I live with a very garrulous roommate.",
+    "example_tr": "Çok geveze bir oda arkadaşımla yaşıyorum."
+  },
+  {
+    "rank": 106,
+    "english": "Gauche",
+    "part_of_speech": "",
+    "turkish": "Utangaç; diğer insanların yanında kendini rahatsız hisseder.",
+    "example_en": "Gauche teenager; gauche manner.",
+    "example_tr": "Gauche genç; kaba bir tavırla."
+  },
+  {
+    "rank": 107,
+    "english": "Gingerly",
+    "part_of_speech": "",
+    "turkish": "Son derece dikkatli bir şekilde.",
+    "example_en": "Anna gingerly plucked the rose; he opened the box gingerly.",
+    "example_tr": "Anna gülü ihtiyatla kopardı; kutuyu dikkatle açtı."
+  },
+  {
+    "rank": 108,
+    "english": "Glittering",
+    "part_of_speech": "",
+    "turkish": "Etkileyici veya başarılı; parlak ve ışıltılı.",
+    "example_en": "John has a glittering career in IT; glittering diamond ring.",
+    "example_tr": "John'un BT alanında parlak bir kariyeri var; ışıltılı elmas yüzük."
+  },
+  {
+    "rank": 109,
+    "english": "Gleeful",
+    "part_of_speech": "",
+    "turkish": "Muzaffer mutluluk veya neşe dolu.",
+    "example_en": "She was so gleeful when her opponent was disqualified; he was very gleeful with his success.",
+    "example_tr": "Rakibi diskalifiye edildiğinde o kadar neşeliydi ki; başarısından dolayı çok sevinçliydi."
+  },
+  {
+    "rank": 110,
+    "english": "Godsend",
+    "part_of_speech": "",
+    "turkish": "Beklenmedik bir şekilde gerçekleşen ve size çok yardımcı olan iyi bir şey.",
+    "example_en": "The rain was a godsend for dryland farmers.",
+    "example_tr": "Yağmur kurak alan çiftçileri için bir nimettir."
+  },
+  {
+    "rank": 111,
+    "english": "Go easy on someone",
+    "part_of_speech": "",
+    "turkish": "Birine daha nazik, daha az sert davranmak.",
+    "example_en": "Go easy on your little brother, he’s just a kid.",
+    "example_tr": "Küçük kardeşine dikkat et, o sadece bir çocuk."
+  },
+  {
+    "rank": 112,
+    "english": "Go easy on something",
+    "part_of_speech": "",
+    "turkish": "Bir şeyin daha azını kullanmak.",
+    "example_en": "Go easy on the alcohol and fatty foods.",
+    "example_tr": "Alkol ve yağlı yiyeceklere karşı dikkatli olun."
+  },
+  {
+    "rank": 113,
+    "english": "Gormless",
+    "part_of_speech": "",
+    "turkish": "Zeka eksikliği; aptal.",
+    "example_en": "He looks really gormless.",
+    "example_tr": "Gerçekten duygusuz görünüyor."
+  },
+  {
+    "rank": 114,
+    "english": "Grasping",
+    "part_of_speech": "",
+    "turkish": "Çok açgözlü; her zaman daha fazla para kazanmaya çalışıyorum.",
+    "example_en": "Grasping landlord; grasping banker.",
+    "example_tr": "Ev sahibini kavramak; açgözlü bankacı."
+  },
+  {
+    "rank": 115,
+    "english": "Grating",
+    "part_of_speech": "",
+    "turkish": "Kulağa son derece sinir bozucu geliyor.",
+    "example_en": "Grating voice; grating noise; grating cry.",
+    "example_tr": "Izgara sesi; ızgara gürültüsü; ızgara ağlama."
+  },
+  {
+    "rank": 116,
+    "english": "Grind to a halt",
+    "part_of_speech": "",
+    "turkish": "Durdurmak için; sona gelmek.",
+    "example_en": "Without new investments, our startup will soon grind to a halt.",
+    "example_tr": "Yeni yatırımlar olmazsa girişimimiz yakında durma noktasına gelecektir."
+  },
+  {
+    "rank": 117,
+    "english": "Grueling",
+    "part_of_speech": "",
+    "turkish": "Son derece yorucu, yorucu veya zahmetli.",
+    "example_en": "A grueling work schedule; grueling hike; grueling race.",
+    "example_tr": "Yorucu bir çalışma programı; yorucu yürüyüş; yorucu bir yarış."
+  },
+  {
+    "rank": 118,
+    "english": "Harebrained",
+    "part_of_speech": "",
+    "turkish": "Düşüncesiz ve pervasız; şapşal; başarılı olma ihtimali düşük; aptalca.",
+    "example_en": "Harebrained plan; harebrained idea; harebrained scheme.",
+    "example_tr": "Tavşan beyinli plan; kuş beyinli fikir; kuş beyinli plan."
+  },
+  {
+    "rank": 119,
+    "english": "Hastily",
+    "part_of_speech": "",
+    "turkish": "Aceleyle yapıldı; çok hızlı.",
+    "example_en": "She hastily made her choice and now regrets it.",
+    "example_tr": "Aceleyle seçimini yaptı ve şimdi pişman oluyor."
+  },
+  {
+    "rank": 120,
+    "english": "Haywire",
+    "part_of_speech": "",
+    "turkish": "Kontrolden çıktı; bozuk; düzgün çalışmıyor.",
+    "example_en": "The laptop’s gone haywire; our economy has gone haywire.",
+    "example_tr": "Dizüstü bilgisayar kontrolden çıktı; ekonomimiz allak bullak oldu."
+  },
+  {
+    "rank": 121,
+    "english": "Hazardous",
+    "part_of_speech": "",
+    "turkish": "Tehlikeli; güvensiz; risk içermektedir.",
+    "example_en": "Smoking is hazardous to your health.",
+    "example_tr": "Sigara içmek sağlığınız için tehlikelidir."
+  },
+  {
+    "rank": 122,
+    "english": "Heinous",
+    "part_of_speech": "",
+    "turkish": "Şaşırtıcı derecede kötü ya da kötü.",
+    "example_en": "Heinous torture; heinous crime.",
+    "example_tr": "İğrenç işkence; iğrenç bir suç."
+  },
+  {
+    "rank": 123,
+    "english": "Hiss",
+    "part_of_speech": "",
+    "turkish": "Uzun 's' gibi bir ses çıkarmak için.",
+    "example_en": "She hisses at me like a snake; Rachel hissed at me to shut up.",
+    "example_tr": "Bana bir yılan gibi tıslıyor; Rachel susmam için bana tısladı."
+  },
+  {
+    "rank": 124,
+    "english": "Hit the books",
+    "part_of_speech": "",
+    "turkish": "Çok çalışın.",
+    "example_en": "I will have to hit the books to prepare for this difficult exam.",
+    "example_tr": "Bu zor sınava hazırlanmak için kitaplara başvurmam gerekecek."
+  },
+  {
+    "rank": 125,
+    "english": "Hoggish",
+    "part_of_speech": "",
+    "turkish": "egoist; sadece kendini düşünüyorsun; kirli.",
+    "example_en": "Don’t be so hoggish and give me half of our winnings.",
+    "example_tr": "Bu kadar açgözlülük yapma ve kazancımızın yarısını bana ver."
+  },
+  {
+    "rank": 126,
+    "english": "Huffy",
+    "part_of_speech": "",
+    "turkish": "Kolayca kırgın; hiçbir şeye kızgın.",
+    "example_en": "Erica gets huffy if you mention her ex-boyfriend’s name.",
+    "example_tr": "Eski erkek arkadaşının adını söylediğinde Erica sinirleniyor."
+  },
+  {
+    "rank": 127,
+    "english": "Immaculate",
+    "part_of_speech": "",
+    "turkish": "Son derece temiz ve düzenli.",
+    "example_en": "His suit was immaculate; the car was in immaculate condition.",
+    "example_tr": "Elbisesi tertemizdi; araba tertemiz durumdaydı."
+  },
+  {
+    "rank": 128,
+    "english": "Impede",
+    "part_of_speech": "",
+    "turkish": "Bir şeyi veya birini geciktirmek veya engellemek; hareketi veya ilerlemeyi yavaşlatmak için.",
+    "example_en": "Nothing can impede technological progress.",
+    "example_tr": "Hiçbir şey teknolojik ilerlemeyi engelleyemez."
+  },
+  {
+    "rank": 129,
+    "english": "Imperil",
+    "part_of_speech": "",
+    "turkish": "Zarar görme veya yaralanma riskiyle karşı karşıya kalın.",
+    "example_en": "Our company was imperiled by a series of bad decisions.",
+    "example_tr": "Şirketimiz bir dizi kötü karar nedeniyle tehlikeye girdi."
+  },
+  {
+    "rank": 130,
+    "english": "Incite",
+    "part_of_speech": "",
+    "turkish": "Birini yasadışı veya şiddet içeren bir şey yapmaya teşvik etmek.",
+    "example_en": "He incited his friend to rob a bank.",
+    "example_tr": "Arkadaşını banka soymaya teşvik etti"
+  },
+  {
+    "rank": 131,
+    "english": "Indemnify",
+    "part_of_speech": "",
+    "turkish": "Hasar veya kaybı tazmin edin.",
+    "example_en": "Anna was obliged to indemnify her boss for the damage she caused to the firm.",
+    "example_tr": "Anna, firmaya verdiği zararı patronuna tazmin etmek zorunda kaldı."
+  },
+  {
+    "rank": 132,
+    "english": "Inquiringly",
+    "part_of_speech": "",
+    "turkish": "Bu bir bakıma bir şey hakkında daha fazla bilgiye ihtiyacınız olduğunu gösterir.",
+    "example_en": "Jack looked at his wife inquiringly, after seeing her with another man.",
+    "example_tr": "Jack, karısını başka bir adamla gördükten sonra sorgulayıcı gözlerle ona baktı."
+  },
+  {
+    "rank": 133,
+    "english": "Insoluble",
+    "part_of_speech": "",
+    "turkish": "Çözülmesi imkansız.",
+    "example_en": "This task is insoluble.",
+    "example_tr": "Bu görev çözülemez."
+  },
+  {
+    "rank": 134,
+    "english": "Intently",
+    "part_of_speech": "",
+    "turkish": "Büyük bir dikkatle.",
+    "example_en": "I listened intently throughout the lesson.",
+    "example_tr": "Ders boyunca dikkatle dinledim."
+  },
+  {
+    "rank": 135,
+    "english": "Inter alia",
+    "part_of_speech": "",
+    "turkish": "Diğer şeylerin yanı sıra.",
+    "example_en": "Being a good person means, inter alia, helping those in need.",
+    "example_tr": "İyi bir insan olmak, diğer şeylerin yanı sıra, ihtiyacı olanlara yardım etmek anlamına gelir."
+  },
+  {
+    "rank": 136,
+    "english": "Internecine",
+    "part_of_speech": "",
+    "turkish": "Bir grup veya ülke içinde, çatışmanın tüm taraflarına zarar veren veya yıkıcı olan bir çatışma.",
+    "example_en": "Internecine war for grandfather’s inheritance; internecine conflicts in the company.",
+    "example_tr": "Büyükbabanın mirası için iç savaş; şirketteki iç çatışmalar."
+  },
+  {
+    "rank": 137,
+    "english": "Intrusive",
+    "part_of_speech": "",
+    "turkish": "Rahatsızlığa neden olan; fark edilmesi çok kolay.",
+    "example_en": "Intrusive lights; intrusive adware; intrusive questions.",
+    "example_tr": "Müdahaleci ışıklar; müdahaleci reklam yazılımı; müdahaleci sorular."
+  },
+  {
+    "rank": 138,
+    "english": "Irascible",
+    "part_of_speech": "",
+    "turkish": "Kolayca öfkelenir.",
+    "example_en": "An irascible temper; irascible man.",
+    "example_tr": "Öfkeli bir öfke; sinirli adam."
+  },
+  {
+    "rank": 139,
+    "english": "Irk",
+    "part_of_speech": "",
+    "turkish": "Birini rahatsız etmek veya rahatsız etmek.",
+    "example_en": "I was irked by her childlike behavior.",
+    "example_tr": "Çocukça davranışları beni rahatsız etti."
+  },
+  {
+    "rank": 140,
+    "english": "Irreproachable",
+    "part_of_speech": "",
+    "turkish": "Çok iyi; eleştirinin ötesinde; hiçbir suçu olmayan.",
+    "example_en": "Her son’s behavior was irreproachable.",
+    "example_tr": "Oğlunun davranışı kusursuzdu."
+  },
+  {
+    "rank": 141,
+    "english": "Itinerant",
+    "part_of_speech": "",
+    "turkish": "Seyahat etmek veya bir yerden bir yere taşınmak.",
+    "example_en": "An itinerant musician; itinerant journalist; itinerant circus.",
+    "example_tr": "Gezici bir müzisyen; gezici gazeteci; gezici sirk."
+  },
+  {
+    "rank": 142,
+    "english": "Jazz up",
+    "part_of_speech": "",
+    "turkish": "Daha ilgi çekici hale getirmek için; içine yeni bir hayat verin.",
+    "example_en": "We need to jazz up the interior of your bedroom.",
+    "example_tr": "Yatak odanızın içini canlandırmalıyız."
+  },
+  {
+    "rank": 143,
+    "english": "Jeopardize",
+    "part_of_speech": "",
+    "turkish": "Tehlikeye veya riske atmak.",
+    "example_en": "This decision will jeopardize his career; our mistake could jeopardize the negotiations.",
+    "example_tr": "Bu karar onun kariyerini tehlikeye atacaktır; Bizim hatamız müzakereleri tehlikeye atabilir."
+  },
+  {
+    "rank": 144,
+    "english": "Jittery",
+    "part_of_speech": "",
+    "turkish": "Gergin; rahatlayamıyorum.",
+    "example_en": "She felt very jittery before the final exam.",
+    "example_tr": "Final sınavından önce kendini çok gergin hissediyordu."
+  },
+  {
+    "rank": 145,
+    "english": "Keepsake",
+    "part_of_speech": "",
+    "turkish": "Unutmayasınız diye birinin size verdiği küçük bir hediye.",
+    "example_en": "She gave me her necklace as a keepsake before going away.",
+    "example_tr": "Gitmeden önce hatıra olarak kolyesini bana verdi."
+  },
+  {
+    "rank": 146,
+    "english": "Lackluster",
+    "part_of_speech": "",
+    "turkish": "Heyecan, enerji veya ilgi eksikliği.",
+    "example_en": "Lackluster performance; lackluster response; lackluster interview.",
+    "example_tr": "Eksik performans; yetersiz yanıt; yetersiz röportaj."
+  },
+  {
+    "rank": 147,
+    "english": "Lament",
+    "part_of_speech": "",
+    "turkish": "Üzüntünüzü veya pişmanlığınızı ifade etmek için.",
+    "example_en": "Dan lamented over the loss of his wife.",
+    "example_tr": "Dan karısının kaybından dolayı yakınıyordu."
+  },
+  {
+    "rank": 148,
+    "english": "Leave no stone unturned",
+    "part_of_speech": "",
+    "turkish": "Bir şeyler bulmak için elinden geleni yapmak.",
+    "example_en": "Rita left no stone unturned in her search for her missing brother.",
+    "example_tr": "Rita kayıp kardeşini ararken çevrilmemiş taş bırakmadı."
+  },
+  {
+    "rank": 149,
+    "english": "Leery of",
+    "part_of_speech": "",
+    "turkish": "Şüpheli; dikkatli; bir şeyden veya birinden kaçınmak.",
+    "example_en": "She was leery of strangers; I’m leery of their proposal.",
+    "example_tr": "Yabancılara karşı temkinliydi; Teklifleri konusunda temkinliyim."
+  },
+  {
+    "rank": 150,
+    "english": "Level-headed",
+    "part_of_speech": "",
+    "turkish": "Zor durumlarda bile sakin ve makul.",
+    "example_en": "Level-headed leader; level-headed approach; level- headed investor; level-headed remark.",
+    "example_tr": "Dengeli lider; aklı başında bir yaklaşım; aklı başında yatırımcı; seviyeli bir açıklama."
+  },
+  {
+    "rank": 151,
+    "english": "Lukewarm",
+    "part_of_speech": "",
+    "turkish": "Biraz sıcak; pek coşku göstermiyor.",
+    "example_en": "Lukewarm water; lukewarm coffee; lukewarm review; lukewarm support; lukewarm response.",
+    "example_tr": "Ilık su; ılık kahve; ılık inceleme; ılık destek; ılık tepki."
+  },
+  {
+    "rank": 152,
+    "english": "Madcap",
+    "part_of_speech": "",
+    "turkish": "Deli; pervasız; eksantrik; aptalca; tehlikeyi umursamamak.",
+    "example_en": "Madcap lifestyle; madcap party; madcap ideas.",
+    "example_tr": "Çılgın yaşam tarzı; çılgın parti; çılgın fikirler."
+  },
+  {
+    "rank": 153,
+    "english": "Malodorous",
+    "part_of_speech": "",
+    "turkish": "Son derece hoş olmayan bir koku.",
+    "example_en": "Malodorous garbage bags.",
+    "example_tr": "Kötü kokulu çöp torbaları."
+  },
+  {
+    "rank": 154,
+    "english": "Malevolent",
+    "part_of_speech": "",
+    "turkish": "Başkalarına zarar vermek için büyük bir arzuya sahip olmak veya bunu göstermek.",
+    "example_en": "Malevolent smile; malevolent thoughts; malevolent stare; malevolent intentions.",
+    "example_tr": "Kötü niyetli gülümseme; kötü niyetli düşünceler; kötü niyetli bakış; kötü niyetli niyetler."
+  },
+  {
+    "rank": 155,
+    "english": "Malformed",
+    "part_of_speech": "",
+    "turkish": "Anormal veya kötü biçimlendirilmiş.",
+    "example_en": "Malformed body; malformed heart; malformed data.",
+    "example_tr": "Yanlış biçimlendirilmiş gövde; hatalı biçimlendirilmiş kalp; hatalı biçimlendirilmiş veriler."
+  },
+  {
+    "rank": 156,
+    "english": "Malleable",
+    "part_of_speech": "",
+    "turkish": "Kolayca şekil değiştirir; kolayca etkilenir veya kontrol edilir.",
+    "example_en": "Malleable iron; malleable kids; malleable followers.",
+    "example_tr": "Dövülebilir demir; dövülebilir çocuklar; dövülebilir takipçiler."
+  },
+  {
+    "rank": 157,
+    "english": "Maudlin",
+    "part_of_speech": "",
+    "turkish": "Ağlayacak kadar duygusal, çoğunlukla çok fazla alkol aldığı için.",
+    "example_en": "John gets very maudlin after a few beers.",
+    "example_tr": "John birkaç biradan sonra çok duygulanıyor."
+  },
+  {
+    "rank": 158,
+    "english": "Menacing",
+    "part_of_speech": "",
+    "turkish": "Size zarar verebilir; tehlikeli görünen; tehdit ediyor.",
+    "example_en": "Menacing message; menacing look; menacing behavior.",
+    "example_tr": "Tehditkar mesaj; tehditkar görünüm; tehditkar davranış."
+  },
+  {
+    "rank": 159,
+    "english": "Mischievous",
+    "part_of_speech": "",
+    "turkish": "Sorun yaratarak eğlenmeyi sever.",
+    "example_en": "Mischievous kids; mischievous dogs or cats.",
+    "example_tr": "Yaramaz çocuklar; yaramaz köpekler veya kediler."
+  },
+  {
+    "rank": 160,
+    "english": "Mortifying",
+    "part_of_speech": "",
+    "turkish": "Son derece utanç verici; utanç verici.",
+    "example_en": "A mortifying performance at high school prom.",
+    "example_tr": "Lise balosunda utanç verici bir performans."
+  },
+  {
+    "rank": 161,
+    "english": "Muffle",
+    "part_of_speech": "",
+    "turkish": "Bir sesin daha az yüksek veya net olmasını sağlamak için; bir şeyi bastırmak.",
+    "example_en": "Muffle the noise; muffle your anger.",
+    "example_tr": "Gürültüyü bastırın; öfkeni bastır."
+  },
+  {
+    "rank": 162,
+    "english": "Nebulous",
+    "part_of_speech": "",
+    "turkish": "Açık bir formu olmayan; görmek veya anlamak zor; belirsiz; başıboş dolaşmak.",
+    "example_en": "He gave me a very nebulous explanation; a nebulous shape; nebulous idea; nebulous concept.",
+    "example_tr": "Bana çok belirsiz bir açıklama yaptı; belirsiz bir şekil; belirsiz bir fikir; belirsiz bir kavram."
+  },
+  {
+    "rank": 163,
+    "english": "Nefarious",
+    "part_of_speech": "",
+    "turkish": "Sahtekâr; suçlu; ahlaksız; fenalık.",
+    "example_en": "Nefarious activities; nefarious machinations; nefarious villain.",
+    "example_tr": "Kötü niyetli faaliyetler; hain entrikalar; hain hain."
+  },
+  {
+    "rank": 164,
+    "english": "Neglect",
+    "part_of_speech": "",
+    "turkish": "Yeterince ilgi ve özen göstermemek; (bir şeye veya birine) bakmamak.",
+    "example_en": "If you neglect this part, the whole project will be ruined; our house has been neglected for years; don’t neglect your health.",
+    "example_tr": "Bu kısmı ihmal ederseniz tüm proje mahvolur; evimiz yıllardır bakımsız; sağlığınızı ihmal etmeyin."
+  },
+  {
+    "rank": 165,
+    "english": "Noxious",
+    "part_of_speech": "",
+    "turkish": "Son derece zararlı veya zehirli.",
+    "example_en": "Noxious gases; noxious fumes.",
+    "example_tr": "Zararlı gazlar; zararlı dumanlar."
+  },
+  {
+    "rank": 166,
+    "english": "Offish",
+    "part_of_speech": "",
+    "turkish": "Düşmanca; mesafeli bir şekilde; iletişimsiz.",
+    "example_en": "He was the most offish and unsociable person in our team.",
+    "example_tr": "Ekibimizdeki en kayıtsız ve asosyal kişiydi."
+  },
+  {
+    "rank": 167,
+    "english": "Omission",
+    "part_of_speech": "",
+    "turkish": "Dahil edilmeyen bir şey; yapılmadan bırakıldı.",
+    "example_en": "The song was shortened by the omission of fourth verse.",
+    "example_tr": "Şarkı dördüncü dizenin çıkarılmasıyla kısaltıldı."
+  },
+  {
+    "rank": 168,
+    "english": "Onerous",
+    "part_of_speech": "",
+    "turkish": "Yapılması çok zor veya hoş olmayan bir şey.",
+    "example_en": "Sara finds motherhood too onerous and therefore doesn’t want to have children.",
+    "example_tr": "Sara anneliği çok külfetli buluyor ve bu nedenle çocuk sahibi olmak istemiyor."
+  },
+  {
+    "rank": 169,
+    "english": "Opening gambit",
+    "part_of_speech": "",
+    "turkish": "İlk hamle.",
+    "example_en": "An opening gambit in the conversation; this badass word is going to be my opening gambit.",
+    "example_tr": "Konuşmada bir açılış kumarı; Bu belalı kelime benim açılış kumarım olacak."
+  },
+  {
+    "rank": 170,
+    "english": "Outlandish",
+    "part_of_speech": "",
+    "turkish": "Son derece tuhaf ya da alışılmadık görünmek ya da ses çıkarmak.",
+    "example_en": "Outlandish clothes; outlandish hairstyle; outlandish tales.",
+    "example_tr": "Tuhaf kıyafetler; tuhaf saç modeli; tuhaf hikayeler."
+  },
+  {
+    "rank": 171,
+    "english": "Overweening",
+    "part_of_speech": "",
+    "turkish": "Son derece özgüvenli veya gururlu.",
+    "example_en": "Overweening celebrities; overweening ambitions; overweening behavior.",
+    "example_tr": "Aşırı ünlüler; aşırı hırslar; aşırıya kaçan davranış."
+  },
+  {
+    "rank": 172,
+    "english": "Painstaking",
+    "part_of_speech": "",
+    "turkish": "Çok fazla çaba veya özen gerektiren; iyice.",
+    "example_en": "Assembling a mechanical watch is a very painstaking work; painstaking research; painstaking attention to detail.",
+    "example_tr": "Mekanik bir saatin montajı oldukça zahmetli bir iştir; özenli araştırma; ayrıntılara gösterilen özen."
+  },
+  {
+    "rank": 173,
+    "english": "Palatable",
+    "part_of_speech": "",
+    "turkish": "Tadı hoş.",
+    "example_en": "Palatable food; palatable wine.",
+    "example_tr": "Lezzetli yiyecekler; lezzetli şarap."
+  },
+  {
+    "rank": 174,
+    "english": "Palatial",
+    "part_of_speech": "",
+    "turkish": "Lüks; lüks; görkemli; çok etkileyici.",
+    "example_en": "A palatial mansion; palatial apartment.",
+    "example_tr": "Saray gibi bir konak; saray dairesi."
+  },
+  {
+    "rank": 175,
+    "english": "Pamper",
+    "part_of_speech": "",
+    "turkish": "Aşırı nezaket veya özenle davranmak; birine istediği her şeyi verin.",
+    "example_en": "Grandparents often pamper the kids.",
+    "example_tr": "Büyükanne ve büyükbabalar genellikle çocukları şımartırlar."
+  },
+  {
+    "rank": 176,
+    "english": "Panic-stricken",
+    "part_of_speech": "",
+    "turkish": "Paniğe kapıldık.",
+    "example_en": "After the fire alarm went off, a panic-stricken crowd rushed to the exit.",
+    "example_tr": "Yangın alarmının çalmasının ardından paniğe kapılan kalabalık çıkışa koştu."
+  },
+  {
+    "rank": 177,
+    "english": "Pave the way",
+    "part_of_speech": "",
+    "turkish": "Bunu kolaylaştırmak için.",
+    "example_en": "This information will pave the way for a cure for this disease.",
+    "example_tr": "Bu bilgi bu hastalığın tedavisinin yolunu açacaktır."
+  },
+  {
+    "rank": 178,
+    "english": "Peculiar",
+    "part_of_speech": "",
+    "turkish": "Çok sıradışı veya tuhaf.",
+    "example_en": "Our dog was peculiarly quiet; he has a very peculiar sense of humor.",
+    "example_tr": "Köpeğimiz özellikle sessizdi; çok tuhaf bir mizah anlayışı var."
+  },
+  {
+    "rank": 179,
+    "english": "Peevish",
+    "part_of_speech": "",
+    "turkish": "Kolayca sinirlenir veya sinirlenir.",
+    "example_en": "Lack of sleep makes me very peevish; a peevish old man.",
+    "example_tr": "Uykusuzluk beni çok huysuz yapıyor; huysuz yaşlı bir adam."
+  },
+  {
+    "rank": 180,
+    "english": "Perilous",
+    "part_of_speech": "",
+    "turkish": "Son derece tehlikeli veya riskli.",
+    "example_en": "Perilous ride, perilous journey, perilous expedition.",
+    "example_tr": "Tehlikeli yolculuk, tehlikeli yolculuk, tehlikeli sefer."
+  },
+  {
+    "rank": 181,
+    "english": "Perturbed",
+    "part_of_speech": "",
+    "turkish": "Endişeli veya endişeli.",
+    "example_en": "Dan is very perturbed about his wife’s health.",
+    "example_tr": "Dan, karısının sağlığı konusunda oldukça endişelidir."
+  },
+  {
+    "rank": 182,
+    "english": "Petulant",
+    "part_of_speech": "",
+    "turkish": "Kaprisli; çocuk gibi şikayet eden; kötü huylu.",
+    "example_en": "Dan acted like a petulant child and slammed the door in my face.",
+    "example_tr": "Dan huysuz bir çocuk gibi davranıp kapıyı suratıma çarptı."
+  },
+  {
+    "rank": 183,
+    "english": "Placid",
+    "part_of_speech": "",
+    "turkish": "Çok sakin ve huzurlu; nadiren heyecan veya öfke gösterir.",
+    "example_en": "Placid river; placid child; placid face.",
+    "example_tr": "Sakin nehir; sakin çocuk; sakin yüz."
+  },
+  {
+    "rank": 184,
+    "english": "Pony up",
+    "part_of_speech": "",
+    "turkish": "Bir şeyin bedelini ödemek için.",
+    "example_en": "I can’t afford to pony up for this laptop.",
+    "example_tr": "Bu dizüstü bilgisayar için para ödemeye gücüm yetmiyor."
+  },
+  {
+    "rank": 185,
+    "english": "Priggish",
+    "part_of_speech": "",
+    "turkish": "Züppe gibi davranmak; kendini beğenmiş.",
+    "example_en": "Priggish monarchs; priggish loyalists.",
+    "example_tr": "Kibirli hükümdarlar; kibirli sadıklar."
+  },
+  {
+    "rank": 186,
+    "english": "Puckish",
+    "part_of_speech": "",
+    "turkish": "Şakacı; insanlarla eğlenmeyi ve şakalaşmayı sever.",
+    "example_en": "Puckish sense of humor; puckish smile; puckish person.",
+    "example_tr": "Puckish mizah anlayışı; şımarık gülümseme; şımarık insan."
+  },
+  {
+    "rank": 187,
+    "english": "Putrid",
+    "part_of_speech": "",
+    "turkish": "Çürük; çok kötü kokuyor; son derece tatsız.",
+    "example_en": "Putrid meat; putrid smell; the jacket is a putrid brown color.",
+    "example_tr": "Kokuşmuş et; kokuşmuş koku; ceket çürük kahverengi renktedir."
+  },
+  {
+    "rank": 188,
+    "english": "Puzzled",
+    "part_of_speech": "",
+    "turkish": "Kafanız çok karışık çünkü bir şeyi anlayamıyorsunuz.",
+    "example_en": "The math task just puzzled me; he looked very puzzled.",
+    "example_tr": "Matematik görevi beni şaşırttı; çok şaşkın görünüyordu."
+  },
+  {
+    "rank": 189,
+    "english": "Quaint",
+    "part_of_speech": "",
+    "turkish": "Çekici derecede sıradışı; olağanüstü; garip; eski moda.",
+    "example_en": "Quaint small village; quaint phrase; quaint idea.",
+    "example_tr": "Şirin küçük köy; ilginç ifade; ilginç bir fikir."
+  },
+  {
+    "rank": 190,
+    "english": "Quarrelsome",
+    "part_of_speech": "",
+    "turkish": "Çoğu zaman başkalarıyla tartışır.",
+    "example_en": "A quarrelsome old man; quarrelsome schoolboy.",
+    "example_tr": "Kavgacı yaşlı bir adam; kavgacı okul çocuğu."
+  },
+  {
+    "rank": 191,
+    "english": "Rambunctious",
+    "part_of_speech": "",
+    "turkish": "Enerji dolu ve gürültülü.",
+    "example_en": "Rambunctious puppies; rambunctious kids.",
+    "example_tr": "Rambunctious puppies; inatçı çocuklar."
+  },
+  {
+    "rank": 192,
+    "english": "Rebuke",
+    "part_of_speech": "",
+    "turkish": "Yanlış bir şey yaptığı için birisiyle kaba bir şekilde konuşmak.",
+    "example_en": "Ron received a stern rebuke from his boss.",
+    "example_tr": "Ron patronundan sert bir azar aldı."
+  },
+  {
+    "rank": 193,
+    "english": "Recalcitrant",
+    "part_of_speech": "",
+    "turkish": "Emirlere uyma konusunda isteksizlik; kontrolsüz.",
+    "example_en": "Cats are very recalcitrant animals.",
+    "example_tr": "Kediler çok inatçı hayvanlardır."
+  },
+  {
+    "rank": 194,
+    "english": "Reminiscent",
+    "part_of_speech": "",
+    "turkish": "Bir şeyi hatırlamanı sağlıyorum.",
+    "example_en": "That movie is reminiscent of my childhood; the decor was reminiscent of the Gothic style.",
+    "example_tr": "Bu film çocukluğumu hatırlatıyor; dekor Gotik tarzı anımsatıyordu."
+  },
+  {
+    "rank": 195,
+    "english": "Reproachful",
+    "part_of_speech": "",
+    "turkish": "Onaylamamayı veya eleştiriyi ifade etmek.",
+    "example_en": "Noah gave me a reproachful look.",
+    "example_tr": "Noah bana sitem dolu bir bakış attı."
+  },
+  {
+    "rank": 196,
+    "english": "Rule out",
+    "part_of_speech": "",
+    "turkish": "Bir şeyi düşünmeyi bırakmak; hariç tutmak.",
+    "example_en": "My boss has ruled out the possibility of my career advancement.",
+    "example_tr": "Patronum kariyerimde ilerleme ihtimalimi dışladı."
+  },
+  {
+    "rank": 197,
+    "english": "Rummage",
+    "part_of_speech": "",
+    "turkish": "Bir şey bulmak için nesneleri dikkatsizce hareket ettirin.",
+    "example_en": "He rummaged through the closet for a white shirt; she rummaged in her pocket for the money.",
+    "example_tr": "Beyaz bir gömlek bulmak için dolabı karıştırdı; parayı bulmak için cebini karıştırdı."
+  },
+  {
+    "rank": 198,
+    "english": "Scoot over",
+    "part_of_speech": "",
+    "turkish": "Farklı bir konuma geçin.",
+    "example_en": "Could you scoot over a little bit? I would like to sit here.",
+    "example_tr": "Biraz yanaşabilir misin? Burada oturmak isterim."
+  },
+  {
+    "rank": 199,
+    "english": "Scowl",
+    "part_of_speech": "",
+    "turkish": "Birine/bir şeye kızgınlıkla veya öfkeyle bakmak.",
+    "example_en": "Nate looked at me with a scowl on his face.",
+    "example_tr": "Nate kaşlarını çatarak bana baktı."
+  },
+  {
+    "rank": 200,
+    "english": "Shivering",
+    "part_of_speech": "",
+    "turkish": "Soğuktan veya korkudan titriyor.",
+    "example_en": "Rita stood shivering in the cold air.",
+    "example_tr": "Rita soğuk havada titreyerek duruyordu."
+  },
+  {
+    "rank": 201,
+    "english": "Shoddy",
+    "part_of_speech": "",
+    "turkish": "Kötü yapılmış veya yapılmış.",
+    "example_en": "Shoddy service; shoddy goods; shoddy work; shoddy performance.",
+    "example_tr": "Kalitesiz hizmet; kalitesiz mallar; kalitesiz iş; kalitesiz performans."
+  },
+  {
+    "rank": 202,
+    "english": "Slacker",
+    "part_of_speech": "",
+    "turkish": "Tembel; çalışmaktan kaçınmaya çalışır.",
+    "example_en": "He’s such a slacker, can’t even clean the house.",
+    "example_tr": "O kadar tembel ki, evi bile temizleyemiyor."
+  },
+  {
+    "rank": 203,
+    "english": "Snooty",
+    "part_of_speech": "",
+    "turkish": "Başkalarından daha iyi veya daha önemliymişsiniz gibi davranmak.",
+    "example_en": "He’s too snooty to hang out with his old friends; after winning the math Olympiad, she became so snooty.",
+    "example_tr": "Eski arkadaşlarıyla takılamayacak kadar kibirli; Matematik Olimpiyatını kazandıktan sonra çok kibirli oldu."
+  },
+  {
+    "rank": 204,
+    "english": "Soggy",
+    "part_of_speech": "",
+    "turkish": "Islak ve yumuşak.",
+    "example_en": "The ground was very soggy from the rain.",
+    "example_tr": "Yağmurdan dolayı zemin oldukça ıslaktı."
+  },
+  {
+    "rank": 205,
+    "english": "Sojourn",
+    "part_of_speech": "",
+    "turkish": "Geçici bir konaklama.",
+    "example_en": "My sojourn in Paris.",
+    "example_tr": "Paris'teki misafirliğim."
+  },
+  {
+    "rank": 206,
+    "english": "Solicitous",
+    "part_of_speech": "",
+    "turkish": "Büyük özen veya endişe göstermek.",
+    "example_en": "Mary was so solicitous of her cats.",
+    "example_tr": "Mary kedilerine çok düşkündü."
+  },
+  {
+    "rank": 207,
+    "english": "Somber",
+    "part_of_speech": "",
+    "turkish": "Kasvetli, ciddi veya üzgün.",
+    "example_en": "Somber faces; somber mood; somber occasion.",
+    "example_tr": "Kasvetli yüzler; kasvetli ruh hali; kasvetli bir olay."
+  },
+  {
+    "rank": 208,
+    "english": "Sporadically",
+    "part_of_speech": "",
+    "turkish": "Ara sıra; düzenli değil.",
+    "example_en": "Visit parents sporadically; he only works sporadically; I went to college only sporadically.",
+    "example_tr": "Ebeveynleri ara sıra ziyaret edin; yalnızca ara sıra çalışıyor; Üniversiteye ara sıra gittim."
+  },
+  {
+    "rank": 209,
+    "english": "Stipulate",
+    "part_of_speech": "",
+    "turkish": "İhtiyaçlarınızı netleştirin; neye izin verilip verilmediğini söylemek; Bir şeyin nasıl yapılması gerektiğini açıkça belirtin.",
+    "example_en": "Our rules stipulate that worker must be sober.",
+    "example_tr": "Kurallarımız işçinin ayık olmasını şart koşuyor."
+  },
+  {
+    "rank": 210,
+    "english": "Stuffy",
+    "part_of_speech": "",
+    "turkish": "Temiz hava eksikliği; çok sıkıcı veya resmi.",
+    "example_en": "In summer it gets too stuffy here; stuffy room; stuffy rules; stuffy formalities; stuffy atmosphere.",
+    "example_tr": "Yazın burası çok havasız oluyor; havasız oda; havasız kurallar; havasız formaliteler; havasız bir atmosfer."
+  },
+  {
+    "rank": 211,
+    "english": "Sullen",
+    "part_of_speech": "",
+    "turkish": "Kasvetli; üzgün; gülümsemeye isteksiz.",
+    "example_en": "Sullen crowd; sullen teenagers; sullen silence.",
+    "example_tr": "Somurtkan kalabalık; somurtkan gençler; kasvetli sessizlik."
+  },
+  {
+    "rank": 212,
+    "english": "Swagger",
+    "part_of_speech": "",
+    "turkish": "Çok gururlu veya kendinden emin bir şekilde yürümek veya davranmak.",
+    "example_en": "Don’t swagger just because you won a bet.",
+    "example_tr": "Bir bahis kazandınız diye hava atmayın."
+  },
+  {
+    "rank": 213,
+    "english": "Tally up",
+    "part_of_speech": "",
+    "turkish": "Bir şeyin toplamını hesaplamak.",
+    "example_en": "Tally up the score; tally up the votes.",
+    "example_tr": "Skoru sayın; oyları toplayın."
+  },
+  {
+    "rank": 214,
+    "english": "Tangible",
+    "part_of_speech": "",
+    "turkish": "Dokunmayla algılanabilir; kolayca görülebilir veya tanınabilir.",
+    "example_en": "Tangible assets; tangible benefits; tangible evidence; tangible results.",
+    "example_tr": "Maddi varlıklar; somut faydalar; somut kanıtlar; somut sonuçlar."
+  },
+  {
+    "rank": 215,
+    "english": "Tawdry",
+    "part_of_speech": "",
+    "turkish": "Ucuz; tat eksikliği gösteriyor; kötü kalitede; son derece tatsız.",
+    "example_en": "Tawdry jewelry; tawdry home decor; tawdry affair.",
+    "example_tr": "Tawdry takılar; bayağı ev dekorasyonu; bayağı bir olay."
+  },
+  {
+    "rank": 216,
+    "english": "Tempestuous",
+    "part_of_speech": "",
+    "turkish": "Güçlü veya yoğun duygularla dolu; çalkantılı; çok fırtınalı.",
+    "example_en": "Tempestuous relationship; tempestuous love; tempestuous sea; tempestuous wind.",
+    "example_tr": "Fırtınalı ilişki; fırtınalı aşk; fırtınalı deniz; fırtınalı rüzgar."
+  },
+  {
+    "rank": 217,
+    "english": "Thumping",
+    "part_of_speech": "",
+    "turkish": "Etkileyici derecede büyük; çok önemli.",
+    "example_en": "A thumping majority; thumping victory; thumping loss.",
+    "example_tr": "Büyük çoğunluk; büyük zafer; büyük kayıp."
+  },
+  {
+    "rank": 218,
+    "english": "Torrid",
+    "part_of_speech": "",
+    "turkish": "Son derece sıcak; çok tutkulu.",
+    "example_en": "Torrid summer; torrid love affair.",
+    "example_tr": "Kavurucu yaz; ateşli aşk ilişkisi."
+  },
+  {
+    "rank": 219,
+    "english": "Treacherous",
+    "part_of_speech": "",
+    "turkish": "Güvene ihanet etmesi muhtemeldir; hain; son derece tehlikeli.",
+    "example_en": "Because of her treacherous actions, we are no longer best friends; a treacherous path.",
+    "example_tr": "Onun hain eylemleri nedeniyle artık en iyi arkadaş değiliz; hain bir yol."
+  },
+  {
+    "rank": 220,
+    "english": "Tremendous",
+    "part_of_speech": "",
+    "turkish": "Boyut veya miktar olarak harika.",
+    "example_en": "Tremendous number of people; tremendous difference; tremendous changes.",
+    "example_tr": "Muazzam sayıda insan; muazzam fark; muazzam değişiklikler."
+  },
+  {
+    "rank": 221,
+    "english": "Turbid",
+    "part_of_speech": "",
+    "turkish": "Açık değil; çamurlu; bulutlu; opak.",
+    "example_en": "Turbid water; turbid material.",
+    "example_tr": "Bulanık su; bulanık malzeme."
+  },
+  {
+    "rank": 222,
+    "english": "Unbosom",
+    "part_of_speech": "",
+    "turkish": "Sırlarını açığa çıkarmak; birinin duygularını açığa çıkarmak.",
+    "example_en": "Dan unbosomed his fear of dogs to me.",
+    "example_tr": "Dan bana köpek korkusunu anlattı."
+  },
+  {
+    "rank": 223,
+    "english": "Under a cloud",
+    "part_of_speech": "",
+    "turkish": "Şüphe altında olun.",
+    "example_en": "The victim’s neighbor is under a cloud; our mayor left the position under a cloud after the harassment scandal.",
+    "example_tr": "Kurbanın komşusu bir bulutun altındadır; Belediye başkanımız taciz skandalının ardından görevini gölgede bıraktı."
+  },
+  {
+    "rank": 224,
+    "english": "Unfathomable",
+    "part_of_speech": "",
+    "turkish": "Tam olarak anlaşılamıyor ve açıklanamıyor.",
+    "example_en": "For some unfathomable reason, she decided not to go to college.",
+    "example_tr": "Anlaşılmaz bir nedenden dolayı üniversiteye gitmemeye karar verdi."
+  },
+  {
+    "rank": 225,
+    "english": "Unpalatable",
+    "part_of_speech": "",
+    "turkish": "Son derece tatsız; kabul edilmesi zor.",
+    "example_en": "Unpalatable truth; unpalatable fact; unpalatable proposal.",
+    "example_tr": "Tatsız gerçek; nahoş gerçek; nahoş teklif."
+  },
+  {
+    "rank": 226,
+    "english": "Unpretentious",
+    "part_of_speech": "",
+    "turkish": "İçten; görünüşte basit; mütevazı; başkalarını etkilemeye çalışmamak.",
+    "example_en": "Unpretentious food; unpretentious house; unpretentious dress; unpretentious style.",
+    "example_tr": "Gösterişsiz yiyecek; iddiasız ev; iddiasız elbise; iddiasız bir tarz."
+  },
+  {
+    "rank": 227,
+    "english": "Unriddle",
+    "part_of_speech": "",
+    "turkish": "Cevap bulmak için; çözmek için.",
+    "example_en": "I unriddled the main mystery of the movie.",
+    "example_tr": "Filmin asıl gizemini çözdüm."
+  },
+  {
+    "rank": 228,
+    "english": "Unruly",
+    "part_of_speech": "",
+    "turkish": "Kontrol edilmesi veya yönetilmesi son derece zordur.",
+    "example_en": "Unruly kids; unruly behavior; unruly hair; unruly emotions.",
+    "example_tr": "Asi çocuklar; asi davranış; asi saç; asi duygular."
+  },
+  {
+    "rank": 229,
+    "english": "Unsullied",
+    "part_of_speech": "",
+    "turkish": "Zarar görmemiş veya hasar görmemiş; temizlemek.",
+    "example_en": "Unsullied reputation; unsullied person; unsullied and shining floor.",
+    "example_tr": "Lekesiz itibar; lekesiz kişi; lekesiz ve parlak zemin."
+  },
+  {
+    "rank": 230,
+    "english": "Untrodden",
+    "part_of_speech": "",
+    "turkish": "Üzerinde yürünmemiş olmak.",
+    "example_en": "Untrodden road; untrodden path; untrodden snow.",
+    "example_tr": "Ayak basılmamış yol; ayak basılmamış yol; ayak basılmamış kar."
+  },
+  {
+    "rank": 231,
+    "english": "Uproarious",
+    "part_of_speech": "",
+    "turkish": "Çok gürültülü ya da komik.",
+    "example_en": "Uproarious party; uproarious laughter.",
+    "example_tr": "Gürültülü parti; gürültülü kahkahalar."
+  },
+  {
+    "rank": 232,
+    "english": "Vanquished",
+    "part_of_speech": "",
+    "turkish": "Mağlup; dövüldü.",
+    "example_en": "I was vanquished in a chess battle.",
+    "example_tr": "Bir satranç savaşında yenildim."
+  },
+  {
+    "rank": 233,
+    "english": "Variegated",
+    "part_of_speech": "",
+    "turkish": "Farklı renkler gösteren; çok çeşitli bir şey dahil.",
+    "example_en": "Variegated leaves; variegated dialects.",
+    "example_tr": "Alacalı yapraklar; çeşitli lehçeler."
+  },
+  {
+    "rank": 234,
+    "english": "Vastly",
+    "part_of_speech": "",
+    "turkish": "Çok fazla; son derece.",
+    "example_en": "Vastly different; vastly more experienced; vastly more significant.",
+    "example_tr": "Çok farklı; çok daha deneyimli; çok daha anlamlı."
+  },
+  {
+    "rank": 235,
+    "english": "Verve",
+    "part_of_speech": "",
+    "turkish": "Büyük coşku veya enerji.",
+    "example_en": "Verve for life; she composed it with great verve.",
+    "example_tr": "Yaşam boyu şevk; büyük bir şevkle besteledi."
+  },
+  {
+    "rank": 236,
+    "english": "Vexing",
+    "part_of_speech": "",
+    "turkish": "Çok sinir bozucu veya rahatsız edici.",
+    "example_en": "Vexing questions about why I still don’t have a boyfriend.",
+    "example_tr": "Neden hala bir erkek arkadaşım olmadığına dair can sıkıcı sorular."
+  },
+  {
+    "rank": 237,
+    "english": "Vile",
+    "part_of_speech": "",
+    "turkish": "Son derece tatsız; ahlaksız.",
+    "example_en": "Vile comments; vile smell; vile slums.",
+    "example_tr": "Kötü yorumlar; iğrenç koku; iğrenç gecekondu mahalleleri."
+  },
+  {
+    "rank": 238,
+    "english": "Vivacious",
+    "part_of_speech": "",
+    "turkish": "Canlı, mutlu ve çekici.",
+    "example_en": "She’s so charming and vivacious; vivacious laugh; vivacious manners.",
+    "example_tr": "O kadar çekici ve hayat dolu ki; canlı kahkaha; canlı tavırlar."
+  },
+  {
+    "rank": 239,
+    "english": "Waspish",
+    "part_of_speech": "",
+    "turkish": "Öfkeyi, sertliği veya tahrişi kolayca ifade eder.",
+    "example_en": "A waspish tongue; waspish sense of humor; waspish comments.",
+    "example_tr": "Yaban arısı dili; yaban arısı mizah anlayışı; eşek arısı yorumları."
+  },
+  {
+    "rank": 240,
+    "english": "Wayward",
+    "part_of_speech": "",
+    "turkish": "Bencil davranın; kontrol edilmesi zor; tahmin edilemez; organize değil.",
+    "example_en": "A wayward teenager; wayward thoughts; wayward emotions.",
+    "example_tr": "Asi bir genç; asi düşünceler; asi duygular."
+  },
+  {
+    "rank": 241,
+    "english": "Wheedling",
+    "part_of_speech": "",
+    "turkish": "Birini bir şey yapmaya ikna etmek için dalkavukluk yapmak.",
+    "example_en": "Stop wheedling me, I won’t sign this contact; our son tried to wheedle us into buying him new phone.",
+    "example_tr": "Beni kandırmayı bırak, bu sözleşmeyi imzalamayacağım; oğlumuz ona yeni telefon almamız için bizi kandırmaya çalıştı."
+  },
+  {
+    "rank": 242,
+    "english": "Whimsical",
+    "part_of_speech": "",
+    "turkish": "Sıradışı ama komik; iyi anlamda garip; eğlenceli; komik bir şekilde ciddi değil.",
+    "example_en": "This movie about aliens is pretty whimsical; whimsical sense of humor; whimsical fashion; whimsical mind.",
+    "example_tr": "Uzaylılarla ilgili bu film oldukça tuhaf; tuhaf mizah anlayışı; tuhaf moda; tuhaf bir zihin."
+  },
+  {
+    "rank": 243,
+    "english": "Willfully",
+    "part_of_speech": "",
+    "turkish": "Kasıtlı olarak; kasten.",
+    "example_en": "She willfully ignores the rules; the principles of our company were willfully ignored.",
+    "example_tr": "Kuralları bilerek görmezden geliyor; Şirketimizin ilkeleri bilinçli olarak göz ardı edildi."
+  },
+  {
+    "rank": 244,
+    "english": "Wispy",
+    "part_of_speech": "",
+    "turkish": "Çok ince ve hafif; kalın değil.",
+    "example_en": "Wispy hair; wispy paper; wispy moustache; wispy clouds.",
+    "example_tr": "İncecik saçlar; ince kağıt; incecik bıyık; ince bulutlar."
+  },
+  {
+    "rank": 245,
+    "english": "Wizened",
+    "part_of_speech": "",
+    "turkish": "Çok yaşlı, cildinde birçok kırışıklık var.",
+    "example_en": "A wizened old man.",
+    "example_tr": "Buruşmuş yaşlı bir adam."
+  },
+  {
+    "rank": 246,
+    "english": "Worldly-wise",
+    "part_of_speech": "",
+    "turkish": "Çok fazla yaşam deneyimine sahip olmak ve bu nedenle çeşitli zorluklarla ve durumlarla başa çıkabilmek.",
+    "example_en": "She is too worldly-wise for such a young age; being more worldly-wise than me, my father told me how to solve my problem.",
+    "example_tr": "Bu kadar genç bir yaş için fazlasıyla dünyevi bilgili; Dünyevi benden daha akıllı olan babam bana sorunumu nasıl çözeceğimi anlattı."
+  },
+  {
+    "rank": 247,
+    "english": "Woozy",
+    "part_of_speech": "",
+    "turkish": "Biraz zayıf; net düşünemiyorum; pek istikrarlı değil.",
+    "example_en": "I was still woozy from the wine.",
+    "example_tr": "Hala şaraptan sersemlemiştim."
+  },
+  {
+    "rank": 248,
+    "english": "Wretched",
+    "part_of_speech": "",
+    "turkish": "Sefil ya da mutsuz; düşük kalitede; çok kötü durumda.",
+    "example_en": "I felt so wretched after she broke up with me; wretched performance; wretchedly poor; wretched old clothes.",
+    "example_tr": "Benden ayrıldıktan sonra kendimi çok perişan hissettim; berbat performans; feci derecede fakir; berbat eski giysiler."
+  },
+  {
+    "rank": 249,
+    "english": "Yammer",
+    "part_of_speech": "",
+    "turkish": "Sürekli olarak aptalca veya sinir bozucu bir şekilde konuşmak.",
+    "example_en": "John never stops yammering about his boss’s love affairs.",
+    "example_tr": "John patronunun aşk ilişkileri hakkında sızlanmayı asla bırakmıyor."
+  },
+  {
+    "rank": 250,
+    "english": "Zany",
+    "part_of_speech": "",
+    "turkish": "Komik bir şekilde tuhaf veya eksantrik.",
+    "example_en": "Zany movies; zany tricks; zany games; zany stories; zany humor.",
+    "example_tr": "Zany filmleri; çılgın numaralar; çılgın oyunlar; çılgın hikayeler; çılgın mizah."
+  }
+]
