@@ -10,7 +10,6 @@
         {% endif %}
         <h2 style="margin-top:0.25rem;">{{ title }}</h2>
     </div>
-    <span class="badge badge-primary">{% blocktrans with ready=templates|length target=pool_target %}{{ ready }} / {{ target }} hazır{% endblocktrans %}</span>
 </div>
 
 <p class="muted">{{ subtitle }}</p>
@@ -22,6 +21,7 @@
         <div style="flex:1;">
             <div class="topic-name">
                 {{ t.name }}
+                {% if t.is_seed %}<span class="badge" style="margin-left:0.4rem;">{% trans "Varsayılan" %}</span>{% endif %}
                 {% if t.is_completed %}<span class="badge badge-success" style="margin-left:0.4rem;">{% trans "✓ Bitirdin" %}</span>{% endif %}
             </div>
             <small class="muted">
@@ -38,17 +38,26 @@
     </div>
     {% endfor %}
 </div>
-
-{% if templates|length < pool_target %}
-<p class="muted mt-2" style="font-size:0.85rem; text-align:center;">
-    {% blocktrans with target=pool_target %}💡 Havuz {{ target }}'e ulaşana kadar, her quiz bitiminde AI yeni bir quiz ekleyecek.{% endblocktrans %}
-</p>
-{% endif %}
-
 {% else %}
 <div class="empty">
-    <div class="empty-icon">⏳</div>
-    <p>{% trans "Quiz üretilemedi. API key'i kontrol et ve sayfayı yenile." %}</p>
+    <div class="empty-icon">📝</div>
+    <p>{% trans "Henüz quiz yok." %}</p>
+</div>
+{% endif %}
+
+{% if can_generate %}
+<div class="card mt-3" style="text-align:center; background:linear-gradient(135deg, rgba(99,102,241,.06), rgba(139,92,246,.06));">
+    <div style="font-size:2rem;">✨</div>
+    <div style="font-weight:700; margin-top:0.3rem;">{% trans "Yeni AI Quiz Oluştur" %}</div>
+    <small class="muted" style="display:block; margin-bottom:0.75rem;">
+        {% trans "Şu ana kadarki konuları/kelimeleri temel alarak AI senin için yeni bir quiz üretir." %}
+    </small>
+    <form method="post" action="{% if topic %}{% url generate_url slug=topic.slug %}{% else %}{% url generate_url %}{% endif %}" style="margin:0;">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-lg" onclick="this.innerText='⏳ {% trans "AI üretiyor..." %}'; this.disabled=true; this.form.submit();">
+            ⚡ {% trans "Yeni Quiz Oluştur" %}
+        </button>
+    </form>
 </div>
 {% endif %}
 {% endblock %}

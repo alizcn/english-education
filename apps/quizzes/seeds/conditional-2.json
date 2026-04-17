@@ -1,0 +1,182 @@
+[
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer zengin olsam, seyahat ederdim.",
+    "correct_answer": "If I were rich, I would travel.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If she had time, she would help us.",
+    "correct_answer": "Eğer zamanı olsaydı, bize yardım ederdi.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If I ___ rich, I would buy a house.",
+    "correct_answer": "were",
+    "choices": null
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer onu tanısaydım, ona selam verirdim.",
+    "correct_answer": "If I knew him, I would say hello.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Would you help me if I asked you?",
+    "correct_answer": "Eğer benden yardım istesem, yardımcı olur musun?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If it ___ rain, we would stay inside.",
+    "correct_answer": "didn't",
+    "choices": null
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer hava güzel olsaydı, pikniğe giderdik.",
+    "correct_answer": "If the weather were nice, we would go for a picnic.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If they had a car, they would drive to work.",
+    "correct_answer": "Eğer bir araçları olsaydı, işe arabayla giderlerdi.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If she ___ the answer, she would tell you.",
+    "correct_answer": "knew",
+    "choices": null
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer bir evim olsaydı, bahçem olurdu.",
+    "correct_answer": "If I had a house, I would have a garden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If he were taller, he would play basketball.",
+    "correct_answer": "Eğer daha uzun olsaydı, basketbol oynardı.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If they invited me, I ___ go.",
+    "correct_answer": "would",
+    "choices": null
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer koşabilseydim, maratonu tamamlayabilirdim.",
+    "correct_answer": "If I could run, I could finish the marathon.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If she studied harder, she would pass the exam.",
+    "correct_answer": "Eğer daha çok çalışsaydı, sınavı geçerdi.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If I were you, I ___ apologize.",
+    "correct_answer": "would",
+    "choices": null
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer onu tanısaydım, davet ederdim.",
+    "correct_answer": "If I knew her, I would invite her.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Would she help if I ask her nicely?",
+    "correct_answer": "Eğer ona nazikçe sorarsam, yardımcı olur mu?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If it ___ snow tomorrow, we would build a snowman.",
+    "correct_answer": "didn't",
+    "choices": null
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer ona daha önce söyleseydim, belki yardımcı olabilirdi.",
+    "correct_answer": "If I had told him earlier, he might have helped.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If they were my friends, I would call them.",
+    "correct_answer": "Eğer arkadaşım olsalardı, onlara telefon açardım.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If he ___ the job, he would be happy.",
+    "correct_answer": "got",
+    "choices": null
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer geleceği görebilseydim, her şeyi değiştirirdim.",
+    "correct_answer": "If I could see the future, I would change everything.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If I had known, I would have come earlier.",
+    "correct_answer": "Eğer bilseydim, daha erken gelirdim.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If they ___ the interest, they would invest.",
+    "correct_answer": "knew",
+    "choices": null
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer okulu bırakmasaydım, şimdi mezun olmuştum.",
+    "correct_answer": "If I hadn't dropped out, I would have graduated by now.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If she were here, she would know what to do.",
+    "correct_answer": "Eğer burada olsaydı, ne yapacağını bilirdi.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If I ___ the rules, I would follow them.",
+    "correct_answer": "knew",
+    "choices": null
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer deniz kenarında olsaydık, yüzerdik.",
+    "correct_answer": "If we were by the sea, we would swim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If I bought a new car, it would be red.",
+    "correct_answer": "Eğer yeni bir araba alsaydım, kırmızı olurdu.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If she studied more, she ___ pass the test.",
+    "correct_answer": "would",
+    "choices": null
+  }
+]

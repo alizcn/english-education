@@ -1,0 +1,269 @@
+[
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer ona yardım etmemiş olsaydım, başarısız olurdum.",
+    "correct_answer": "If I had not helped him, I would have failed.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If they had known, they would have come.",
+    "correct_answer": "Eğer onlar bilseydi, gelirlerdi.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If I _____ earlier, I would have seen you.",
+    "correct_answer": "had left",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What would you have done if you had lost your job?",
+    "correct_answer": "I would have looked for another one.",
+    "choices": [
+      "I would have tried to find a new one.",
+      "I would have looked for another one.",
+      "I would have stayed at home.",
+      "I would have gone on vacation."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer zamanında gitmiş olsalardı, trene yetişirlerdi.",
+    "correct_answer": "If they had left on time, they would have caught the train.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Would you have taken the job if they had offered it?",
+    "correct_answer": "Eğer onu teklif etselerdi, işi alır mıydın?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If she _____ me, I would have helped her.",
+    "correct_answer": "had called",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Would you have traveled if you had saved enough money?",
+    "correct_answer": "Yes, I would have traveled.",
+    "choices": [
+      "Yes, I would have traveled.",
+      "No, I wouldn’t have traveled.",
+      "Maybe, I would have thought about it.",
+      "No, I would have stayed home."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer ders çalışmış olsaydım, geçerdim.",
+    "correct_answer": "If I had studied, I would have passed.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If he had finished on time, we would have left earlier.",
+    "correct_answer": "Eğer o zamanında bitirseydi, daha erken çıkardık.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If I _____ the answer, I would have told you.",
+    "correct_answer": "had known",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What would you have done if it had rained?",
+    "correct_answer": "I would have stayed indoors.",
+    "choices": [
+      "I would have gone outside.",
+      "I would have stayed indoors.",
+      "I would have played in the rain.",
+      "I would have taken an umbrella."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer o gelmiş olsaydı, şenlik daha iyi olurdu.",
+    "correct_answer": "If he had come, the party would have been better.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If they had studied harder, they would have passed the exam.",
+    "correct_answer": "Eğer daha çok çalışsalardı, sınavı geçerlerdi.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If I _____ you, I would have said yes.",
+    "correct_answer": "had been",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Would you have gone to the concert if it had not been cancelled?",
+    "correct_answer": "Yes, I would have gone to the concert.",
+    "choices": [
+      "No, I would have stayed at home.",
+      "Yes, I would have gone to the concert.",
+      "Maybe, I would have thought twice.",
+      "No, I didn't like the band."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer ona daha önce haber vermiş olsaydı, gelir miydi?",
+    "correct_answer": "If I had told him earlier, would he have come?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If she had seen the movie, she would have liked it.",
+    "correct_answer": "Eğer o filmi görseydi, beğenirdi.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If he _____ me, I would have helped him.",
+    "correct_answer": "had asked",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What would you have thought if you had heard the news?",
+    "correct_answer": "I would have been surprised.",
+    "choices": [
+      "I would have been angry.",
+      "I would have been surprised.",
+      "I would have ignored it.",
+      "I would have laughed."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer daha çok para kazanmış olsaydım, yeni bir araba alırdım.",
+    "correct_answer": "If I had earned more money, I would have bought a new car.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If he had not driven too fast, he would have avoided the accident.",
+    "correct_answer": "Eğer o çok hızlı sürmemiş olsaydı, kazadan kaçınırdı.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If they _____ invited me, I would have gone.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Would you have missed the train if you had arrived late?",
+    "correct_answer": "Yes, I would have missed it.",
+    "choices": [
+      "No, I would have caught it.",
+      "Yes, I would have missed it.",
+      "Maybe, I would have made it.",
+      "No, I am always on time."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer daha iyi bir seçim yapmış olsaydım, mutlu olurdum.",
+    "correct_answer": "If I had made a better choice, I would have been happy.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "What would you have changed if you could go back in time?",
+    "correct_answer": "Zamanı geri alabilseydin, neyi değiştirirdin?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you _____ done the project, we would have submitted it.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What would you have said if you had met her?",
+    "correct_answer": "I would have said hello.",
+    "choices": [
+      "I would have walked away.",
+      "I would have ignored her.",
+      "I would have said goodbye.",
+      "I would have said hello."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer annem evde olsaydı, ona sorardım.",
+    "correct_answer": "If my mother had been at home, I would have asked her.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If we had not lost our way, we would have arrived earlier.",
+    "correct_answer": "Eğer yolumuzu kaybetmemiş olsaydık, daha erken varırdık.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you _____ been more careful, you would have avoided the mistake.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Would you have attended the meeting if you had been invited?",
+    "correct_answer": "Yes, I would have attended.",
+    "choices": [
+      "Yes, I would have attended.",
+      "No, I would not have attended.",
+      "Maybe, I would have thought about it.",
+      "No, I don't like meetings."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer hava güzel olsaydı, dışarıda oynardık.",
+    "correct_answer": "If the weather had been nice, we would have played outside.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If you had told me, I would have helped you.",
+    "correct_answer": "Eğer bana söyleseydin, sana yardım ederdim.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If I _____ the opportunity, I would have taken it.",
+    "correct_answer": "had had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What would you have chosen if you had to pick one?",
+    "correct_answer": "I would have chosen the red one.",
+    "choices": [
+      "I would have chosen the blue one.",
+      "I would have chosen the red one.",
+      "I would have managed to choose.",
+      "I would have asked someone else."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer çok çalışmış olsaydım, terfi alırdım.",
+    "correct_answer": "If I had worked hard, I would have been promoted.",
+    "choices": null
+  }
+]

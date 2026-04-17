@@ -29,7 +29,7 @@
         {% else %}
             <div class="feedback-label">{% trans "✗ Yanlış — tekrar havuzuna eklendi" %}</div>
             <div style="margin-top:0.35rem;">
-                {% trans "Senin:" %} <em>{{ selected|default:"(boş)" }}</em><br>
+                {% trans "Senin:" %} <em>{% if selected %}{{ selected }}{% else %}{% trans "(boş)" %}{% endif %}</em><br>
                 {% trans "Doğrusu:" %} <strong>{{ word.turkish }}</strong>
             </div>
             <div style="margin-top:0.5rem;">

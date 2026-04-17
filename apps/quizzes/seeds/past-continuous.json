@@ -1,0 +1,345 @@
+[
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ben kitap okuyordum.",
+    "correct_answer": "I was reading a book.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O dün sinema da değildi.",
+    "correct_answer": "He was not at the cinema yesterday.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They were playing outside.",
+    "correct_answer": "Dışarıda oynuyorlardı.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ when she called.",
+    "correct_answer": "was reading",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Were you studying last night?",
+    "choices": [
+      "Yes, I was studying last night.",
+      "No, I wasn't studying last night.",
+      "I was working.",
+      "I was sleeping."
+    ],
+    "correct_answer": "Yes, I was studying last night."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Biz sabah kahvaltı yapıyorduk.",
+    "correct_answer": "We were having breakfast in the morning.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Was he working at that time?",
+    "correct_answer": "O o sırada çalışıyor muydu?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ at the party last week.",
+    "correct_answer": "was dancing",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Was he playing football yesterday?",
+    "choices": [
+      "Yes, he was playing football yesterday.",
+      "No, he wasn't playing football yesterday.",
+      "He was running.",
+      "He was eating."
+    ],
+    "correct_answer": "Yes, he was playing football yesterday."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlar çok gülmüyorlardı.",
+    "correct_answer": "They were not laughing much.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I was studying when you called.",
+    "correct_answer": "Sen aradığında ben çalışıyordum.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ at home when it rained.",
+    "correct_answer": "were staying",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Were they watching a movie?",
+    "choices": [
+      "Yes, they were watching a movie.",
+      "No, they weren't watching a movie.",
+      "They were eating.",
+      "They were playing."
+    ],
+    "correct_answer": "Yes, they were watching a movie."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O geçen hafta bilgisayar kullanmıyordu.",
+    "correct_answer": "She was not using the computer last week.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They were studying at the library.",
+    "correct_answer": "Onlar kütüphanede çalışıyorlardı.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He ___ when I arrived.",
+    "correct_answer": "was sleeping",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Was she waiting for you?",
+    "choices": [
+      "Yes, she was waiting for you.",
+      "No, she wasn't waiting for you.",
+      "She was talking.",
+      "She was running."
+    ],
+    "correct_answer": "Yes, she was waiting for you."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ben ödev yapmıyordum.",
+    "correct_answer": "I was not doing homework.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "What were you doing?",
+    "correct_answer": "Sen ne yapıyordun?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ a game yesterday.",
+    "correct_answer": "were playing",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Was he cooking dinner?",
+    "choices": [
+      "Yes, he was cooking dinner.",
+      "No, he wasn't cooking dinner.",
+      "He was eating.",
+      "He was sleeping."
+    ],
+    "correct_answer": "Yes, he was cooking dinner."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlar müzik dinliyordu.",
+    "correct_answer": "They were listening to music.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I was working at that moment.",
+    "correct_answer": "O anda çalışıyordum.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "You ___ when I called.",
+    "correct_answer": "were sleeping",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Were they shopping in the mall?",
+    "choices": [
+      "Yes, they were shopping in the mall.",
+      "No, they weren't shopping in the mall.",
+      "They were eating.",
+      "They were playing."
+    ],
+    "correct_answer": "Yes, they were shopping in the mall."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Biz bahçede çalışmıyorduk.",
+    "correct_answer": "We were not working in the garden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "What was he doing at 5PM?",
+    "correct_answer": "O saat 5'te ne yapıyordu?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ for you at the cafe.",
+    "correct_answer": "was waiting",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Was I sleeping during the meeting?",
+    "choices": [
+      "Yes, you were sleeping during the meeting.",
+      "No, you weren't sleeping during the meeting.",
+      "You were eating.",
+      "You were watching."
+    ],
+    "correct_answer": "Yes, you were sleeping during the meeting."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O çok eğleniyordu.",
+    "correct_answer": "He was having a lot of fun.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Were you playing video games?",
+    "correct_answer": "Video oyunları mı oynuyordun?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ home when it started to rain.",
+    "correct_answer": "were walking",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Were we discussing the project?",
+    "choices": [
+      "Yes, we were discussing the project.",
+      "No, we weren't discussing the project.",
+      "We were listening.",
+      "We were eating."
+    ],
+    "correct_answer": "Yes, we were discussing the project."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Dün ben tenis oynamıyordum.",
+    "correct_answer": "I was not playing tennis yesterday.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "He was running in the park.",
+    "correct_answer": "O parkta koşuyordu.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ at the concert last night.",
+    "correct_answer": "was singing",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Was she reading a book?",
+    "choices": [
+      "Yes, she was reading a book.",
+      "No, she wasn't reading a book.",
+      "She was sleeping.",
+      "She was drawing."
+    ],
+    "correct_answer": "Yes, she was reading a book."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Sen yatıyordun.",
+    "correct_answer": "You were sleeping.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They were having lunch when I called.",
+    "correct_answer": "Ben aradığımda öğle yemeği yiyorlar.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He ___ while they were talking.",
+    "correct_answer": "was listening",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Were you drawing yesterday?",
+    "choices": [
+      "Yes, I was drawing yesterday.",
+      "No, I wasn't drawing yesterday.",
+      "I was eating.",
+      "I was sleeping."
+    ],
+    "correct_answer": "Yes, I was drawing yesterday."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlar film izlemiyorlardı.",
+    "correct_answer": "They were not watching a movie.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "What were they doing?",
+    "correct_answer": "Onlar ne yapıyorlardı?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ outside when it started to rain.",
+    "correct_answer": "were playing",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Was he taking photos?",
+    "choices": [
+      "Yes, he was taking photos.",
+      "No, he wasn't taking photos.",
+      "He was drawing.",
+      "He was watching."
+    ],
+    "correct_answer": "Yes, he was taking photos."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O evde kalıyordu.",
+    "correct_answer": "She was staying at home.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I was walking my dog.",
+    "correct_answer": "Ben köpeğimi yürüyüşe çıkarıyordum.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "You ___ at the bus stop.",
+    "correct_answer": "were waiting",
+    "choices": null
+  }
+]

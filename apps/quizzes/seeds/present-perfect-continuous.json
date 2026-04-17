@@ -1,0 +1,379 @@
+[
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O, tüm gün çalışıyor.",
+    "correct_answer": "He has been working all day.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Have you been studying?",
+    "correct_answer": "Çalışıyor musun?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ been playing outside.",
+    "correct_answer": "have",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Why has she been crying?",
+    "correct_answer": "Because of the movie.",
+    "choices": [
+      "Because of the movie.",
+      "Because she is happy.",
+      "Because it's raining.",
+      "Because she is tired."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Sen sabah beri bekliyorsun.",
+    "correct_answer": "You have been waiting since morning.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "He has not been feeling well.",
+    "correct_answer": "Kendini iyi hissetmiyor.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ not been sleeping well.",
+    "correct_answer": "have",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Have they been coming to class?",
+    "correct_answer": "Yes, they have.",
+    "choices": [
+      "Yes, they have.",
+      "No, they have not.",
+      "I don't know.",
+      "Maybe they are."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O, üç gündür hastadır.",
+    "correct_answer": "She has been sick for three days.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I have been working here for a year.",
+    "correct_answer": "Burada bir yıldır çalışıyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ been studying for two hours.",
+    "correct_answer": "have",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Why has it been raining?",
+    "correct_answer": "Because it's spring.",
+    "choices": [
+      "Because it's spring.",
+      "Because it's sunny.",
+      "Because it's autumn.",
+      "Because it's winter."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Bütün hafta sonunu evde geçirdim.",
+    "correct_answer": "I have been spending the whole weekend at home.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They have been eating dinner.",
+    "correct_answer": "Akşam yemeği yiyorlar.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He ___ not been working hard lately.",
+    "correct_answer": "has",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What has she been doing?",
+    "correct_answer": "She has been painting.",
+    "choices": [
+      "She has been painting.",
+      "She has been sleeping.",
+      "She has been cooking.",
+      "She has been dancing."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "İki saat boyunca bekledi mi?",
+    "correct_answer": "Did he wait for two hours?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I have been travelling a lot.",
+    "correct_answer": "Çok seyahat ediyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "You ___ not been listening to me.",
+    "correct_answer": "have",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Have they been happy lately?",
+    "correct_answer": "Yes, they have been.",
+    "choices": [
+      "Yes, they have been.",
+      "No, they haven't been.",
+      "Maybe yes.",
+      "I don't think so."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Bu sabah çay yapıyorum.",
+    "correct_answer": "I have been making tea this morning.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "He has been running every day.",
+    "correct_answer": "Her gün koşuyor.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ been watching that series.",
+    "correct_answer": "have",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Why has she been working late?",
+    "correct_answer": "To finish the project.",
+    "choices": [
+      "To finish the project.",
+      "Because she likes it.",
+      "Because it is fun.",
+      "To help her colleagues."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Geçen haftadan beri burada duruyorlar.",
+    "correct_answer": "They have been standing here since last week.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I have been trying to call you.",
+    "correct_answer": "Seni aramaya çalışıyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ not been traveling this year.",
+    "correct_answer": "have",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What has he been doing?",
+    "correct_answer": "He has been helping his friends.",
+    "choices": [
+      "He has been helping his friends.",
+      "He has been playing games.",
+      "He has been cleaning.",
+      "He has been reading."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlar marketten dönüyorlar.",
+    "correct_answer": "They have been coming back from the market.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "She has been waiting for you.",
+    "correct_answer": "Seni bekliyordu.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ been learning English for a year.",
+    "correct_answer": "have",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Have you been feeling okay?",
+    "correct_answer": "Yes, I have been.",
+    "choices": [
+      "Yes, I have been.",
+      "No, I have not been.",
+      "Sometimes I do.",
+      "I don't know."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "On, be saat boyunca çalışıyor.",
+    "correct_answer": "She has been working for five hours.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They have not been coming to the meetings.",
+    "correct_answer": "Toplantılara gelmiyorlar.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ been cooking since afternoon.",
+    "correct_answer": "has",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What has she been studying?",
+    "correct_answer": "She has been studying biology.",
+    "choices": [
+      "She has been studying biology.",
+      "She has been studying chemistry.",
+      "She has been studying history.",
+      "She has been studying physics."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Geçen aydan beri hastayım.",
+    "correct_answer": "I have been sick since last month.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Have you been reading this book?",
+    "correct_answer": "Bu kitabı okuyor musun?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ not been watching TV.",
+    "correct_answer": "have",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Have they been practicing?",
+    "correct_answer": "Yes, they have been practicing.",
+    "choices": [
+      "Yes, they have been practicing.",
+      "No, they have not been practicing.",
+      "Sometimes they practice.",
+      "I hope they do."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O, iki saat boyunca bekliyor.",
+    "correct_answer": "He has been waiting for two hours.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I have been enjoying my vacation.",
+    "correct_answer": "Tatilimin tadını çıkarıyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They have ___ been learning Spanish.",
+    "correct_answer": "been",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What have they been doing?",
+    "correct_answer": "They have been working on a project.",
+    "choices": [
+      "They have been working on a project.",
+      "They have been playing sports.",
+      "They have been cooking.",
+      "They have been cleaning the house."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Bu ay çok çalışıyorum.",
+    "correct_answer": "I have been working a lot this month.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "She has been going to the gym.",
+    "correct_answer": "Spor salonuna gidiyor.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ not been feeling well lately.",
+    "correct_answer": "have",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Why have you been so busy?",
+    "correct_answer": "Because of work.",
+    "choices": [
+      "Because of work.",
+      "Because of school.",
+      "Because of friends.",
+      "Because of family."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Arkadaşım üç yıldır burada yaşıyor.",
+    "correct_answer": "My friend has been living here for three years.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They have been going out every weekend.",
+    "correct_answer": "Her hafta sonu dışarı çıkıyorlar.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She has ___ not been studying for the exam.",
+    "correct_answer": "not",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Have they been happy?",
+    "correct_answer": "Yes, they have been happy.",
+    "choices": [
+      "Yes, they have been happy.",
+      "No, they have not been happy.",
+      "I think they are sad.",
+      "They look tired."
+    ]
+  }
+]

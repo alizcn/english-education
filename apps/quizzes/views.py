@@ -3,7 +3,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.utils.translation import gettext as _
 from django.db import transaction
-from django.db.models import F
+from django.db.models import F, Q
 from django.shortcuts import render, redirect, get_object_or_404
 from django.utils import timezone
 from django.views.decorators.http import require_POST
@@ -51,6 +51,7 @@ def _annotate_completion(user, templates):
     for t in templates:
         t.is_completed = t.id in finished_ids
         t.last_session = last_sessions.get(t.id)
+        t.is_seed = t.user_id is None
     return templates
 
 
@@ -65,49 +66,85 @@ def word_picker(request):
         )
         return redirect('vocabulary:list')
 
-    try:
-        quiz_services.ensure_at_least_one(request.user, QuizTemplate.WORD)
-    except Exception as e:
-        messages.error(request, _('AI hata: %(error)s') % {'error': e})
-
     templates = list(QuizTemplate.objects.filter(user=request.user, kind=QuizTemplate.WORD))
     _annotate_completion(request.user, templates)
 
     return render(request, 'quizzes/picker.html', {
         'templates': templates,
         'title': _('Kelime Quizleri'),
-        'subtitle': _('Havuzdaki quizlerden birini seç. Hepsini çözdüğünde AI yenisini ekler.'),
-        'pool_target': quiz_services.POOL_TARGET,
+        'subtitle': _('Henüz AI quizin yoksa "Yeni Quiz Oluştur"a bas.'),
         'topic': None,
+        'can_generate': True,
+        'generate_url': 'quizzes:generate_word',
     })
 
 
 @login_required
 def topic_picker(request, slug):
     topic = get_object_or_404(Topic, slug=slug)
-    try:
-        quiz_services.ensure_at_least_one(request.user, QuizTemplate.TOPIC, topic=topic)
-    except Exception as e:
-        messages.error(request, _('AI hata: %(error)s') % {'error': e})
-
     templates = list(
-        QuizTemplate.objects.filter(user=request.user, kind=QuizTemplate.TOPIC, topic=topic)
+        QuizTemplate.objects.filter(
+            Q(user=request.user) | Q(user__isnull=True),
+            kind=QuizTemplate.TOPIC,
+            topic=topic,
+        ).order_by('user_id', 'created_at')
     )
     _annotate_completion(request.user, templates)
 
     return render(request, 'quizzes/picker.html', {
         'templates': templates,
         'title': _('%(name)s Quizleri') % {'name': topic.name},
-        'subtitle': _('Bu konuya özel hazır quizlerden birini seç.'),
-        'pool_target': quiz_services.POOL_TARGET,
+        'subtitle': _('Varsayılan quiz her zaman burada. Bitirdikten sonra AI ile yenisini üretebilirsin.'),
         'topic': topic,
+        'can_generate': True,
+        'generate_url': 'quizzes:generate_topic',
     })
 
 
 @login_required
 @require_POST
+def generate_topic_quiz_view(request, slug):
+    topic = get_object_or_404(Topic, slug=slug)
+    try:
+        tmpl = quiz_services.generate_one(request.user, QuizTemplate.TOPIC, topic=topic)
+    except Exception as e:
+        messages.error(request, _('AI hata: %(error)s') % {'error': e})
+        return redirect('quizzes:topic_picker', slug=slug)
+    if not tmpl:
+        messages.error(request, _('Yeni quiz üretilemedi. Tekrar dene.'))
+        return redirect('quizzes:topic_picker', slug=slug)
+    return redirect('quizzes:start_template', template_id=tmpl.pk)
+
+
+@login_required
+@require_POST
+def generate_word_quiz(request):
+    total_words = Word.objects.filter(user=request.user).count()
+    if total_words < MIN_WORDS_FOR_QUIZ:
+        messages.error(
+            request,
+            _('Kelime quizi için en az %(min)d kelime gerekli. Şu an: %(total)d.')
+            % {'min': MIN_WORDS_FOR_QUIZ, 'total': total_words}
+        )
+        return redirect('vocabulary:list')
+    try:
+        tmpl = quiz_services.generate_one(request.user, QuizTemplate.WORD)
+    except Exception as e:
+        messages.error(request, _('AI hata: %(error)s') % {'error': e})
+        return redirect('quizzes:word_picker')
+    if not tmpl:
+        messages.error(request, _('Yeni quiz üretilemedi. Tekrar dene.'))
+        return redirect('quizzes:word_picker')
+    return redirect('quizzes:start_template', template_id=tmpl.pk)
+
+
+@login_required
+@require_POST
 def start_template(request, template_id):
-    template = get_object_or_404(QuizTemplate, pk=template_id, user=request.user)
+    template = get_object_or_404(
+        QuizTemplate.objects.filter(Q(user=request.user) | Q(user__isnull=True)),
+        pk=template_id,
+    )
     raw_items = template.questions_data or []
     items = [normalize_item(it) for it in raw_items if isinstance(it, dict)]
     items = [
@@ -208,22 +245,20 @@ def submit_answer(request, pk):
 @login_required
 def result(request, pk):
     session = get_object_or_404(QuizSession, pk=pk, user=request.user)
-    just_finished = False
     if not session.is_finished:
         session.finished_at = timezone.now()
         session.save(update_fields=['finished_at'])
-        just_finished = True
-
-    if just_finished:
-        try:
-            quiz_services.replenish_if_needed(
-                request.user, session.kind, topic=session.topic,
-            )
-        except Exception:
-            pass
 
     wrong_questions = session.questions.filter(is_correct=False).order_by('order')
+
+    if session.kind == QuizTemplate.TOPIC and session.topic:
+        generate_url = ('quizzes:generate_topic', {'slug': session.topic.slug})
+    else:
+        generate_url = ('quizzes:generate_word', {})
+
     return render(request, 'quizzes/result.html', {
         'session': session,
         'wrong_questions': wrong_questions,
+        'generate_url_name': generate_url[0],
+        'generate_url_kwargs': generate_url[1],
     })

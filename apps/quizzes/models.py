@@ -11,6 +11,7 @@ class QuizTemplate(models.Model):
     user = models.ForeignKey(
         settings.AUTH_USER_MODEL,
         on_delete=models.CASCADE,
+        null=True, blank=True,
         related_name='quiz_templates',
     )
     kind = models.CharField(max_length=10, choices=KIND_CHOICES)

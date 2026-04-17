@@ -6,10 +6,19 @@
 {% load static %}
 <section class="hero" style="display:flex; align-items:center; gap:1.25rem; flex-wrap:wrap;">
     <img src="{% static 'icons/logo.png' %}" alt="Logo" style="height:72px; filter:brightness(10); opacity:0.9;">
-    <div>
+    <div style="flex:1; min-width:180px;">
         <h1 style="margin:0; font-size:1.4rem;">HireUp</h1>
         <p class="hero-subtitle" style="margin:0.15rem 0 0;">{% trans "Level Up Your Interview Game." %}</p>
     </div>
+    <a href="{% url 'interviews:list' %}" class="hero-cta-pulse">
+        <span class="hero-cta-icon">
+            <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M12 18v-5"/><polyline points="9 15 12 18 15 15"/></svg>
+        </span>
+        <span class="hero-cta-text">
+            <span class="hero-cta-title">{% trans "CV yükle, mülakata hazırlan" %}</span>
+            <span class="hero-cta-sub">{% trans "AI seni simüle eder →" %}</span>
+        </span>
+    </a>
 </section>
 
 {% if bank_total %}

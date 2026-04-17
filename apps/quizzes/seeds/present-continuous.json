@@ -1,0 +1,321 @@
+[
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O şu anda kitap okuyor.",
+    "correct_answer": "She is reading a book.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Are they playing football?",
+    "correct_answer": "Onlar futbol oynuyorlar.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ (not/play) outside now.",
+    "correct_answer": "are not playing",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is she doing?",
+    "choices": [
+      "She is singing.",
+      "She is dance.",
+      "She is sleep.",
+      "She is cooking."
+    ],
+    "correct_answer": "She is singing."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ben İngilizce öğreniyorum.",
+    "correct_answer": "I am learning English.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Is he watching a movie?",
+    "correct_answer": "O bir film izliyor mu?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ (not/eat) dinner right now.",
+    "correct_answer": "am not eating",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What are we doing?",
+    "choices": [
+      "We are dancing.",
+      "We is running.",
+      "We are jump.",
+      "We are play."
+    ],
+    "correct_answer": "We are dancing."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlar şu anda çalışmıyorlar.",
+    "correct_answer": "They are not working now.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "He is studying.",
+    "correct_answer": "O ders çalışıyor.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ (not/play) the guitar now.",
+    "correct_answer": "is not playing",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Are you coming to the party?",
+    "choices": [
+      "You are come.",
+      "You is coming.",
+      "You are coming.",
+      "You coming."
+    ],
+    "correct_answer": "You are coming."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O şimdi uyumuyor.",
+    "correct_answer": "He is not sleeping now.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They are eating breakfast.",
+    "correct_answer": "Onlar kahvaltı yapıyorlar.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ (not/listen) to music now.",
+    "correct_answer": "am not listening",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What am I doing?",
+    "choices": [
+      "I am writing.",
+      "I writing.",
+      "I is write.",
+      "I are writing."
+    ],
+    "correct_answer": "I am writing."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ben şu anda dışarı çıkıyorum.",
+    "correct_answer": "I am going outside now.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Is he working today?",
+    "correct_answer": "O bugün çalışıyor mu?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ (not/play) games now.",
+    "correct_answer": "are not playing",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Is she reading a book?",
+    "choices": [
+      "She is read.",
+      "She is reading.",
+      "She reading.",
+      "She read."
+    ],
+    "correct_answer": "She is reading."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlar müzik dinlemiyorlar.",
+    "correct_answer": "They are not listening to music.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I am cooking dinner.",
+    "correct_answer": "Ben akşam yemeği yapıyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He ___ (not/sleep) right now.",
+    "correct_answer": "is not sleeping",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What are we doing now?",
+    "choices": [
+      "We are studying.",
+      "We are study.",
+      "We studying.",
+      "We is studying."
+    ],
+    "correct_answer": "We are studying."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Sen ne yapıyorsun?",
+    "correct_answer": "What are you doing?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They are playing volleyball.",
+    "correct_answer": "Onlar voleybol oynuyorlar.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ (not/understand) the lesson now.",
+    "correct_answer": "am not understanding",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Is he eating lunch?",
+    "choices": [
+      "He is eat.",
+      "He is eating.",
+      "He eating.",
+      "He eats."
+    ],
+    "correct_answer": "He is eating."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Bugün hava güzel.",
+    "correct_answer": "The weather is nice today.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Are you playing video games?",
+    "correct_answer": "Sen video oyunları oynuyor musun?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ (not/work) on weekends.",
+    "correct_answer": "are not working",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is he doing?",
+    "choices": [
+      "He is swimming.",
+      "He is swim.",
+      "He swim.",
+      "He swimming."
+    ],
+    "correct_answer": "He is swimming."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlar sinemaya gidiyorlar.",
+    "correct_answer": "They are going to the cinema.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I am very happy.",
+    "correct_answer": "Ben çok mutluyum.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ (not/speak) French.",
+    "correct_answer": "is not speaking",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Are we leaving now?",
+    "choices": [
+      "We are leave.",
+      "We are leaving.",
+      "We leaving.",
+      "We is leaving."
+    ],
+    "correct_answer": "We are leaving."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Burası çok sıcak.",
+    "correct_answer": "It is very hot here.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "He is not playing football.",
+    "correct_answer": "O futbol oynamıyor.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ (not/see) you today.",
+    "correct_answer": "am not seeing",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What are they doing?",
+    "choices": [
+      "They are running.",
+      "They are run.",
+      "They running.",
+      "They runs."
+    ],
+    "correct_answer": "They are running."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ben okumuyorum.",
+    "correct_answer": "I am not reading.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Is she cooking dinner?",
+    "correct_answer": "O akşam yemeği pişiriyor mu?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ (not/go) to the store now.",
+    "correct_answer": "are not going",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Are you studying?",
+    "choices": [
+      "You are study?",
+      "You studying?",
+      "Are you study?",
+      "Are you studying?"
+    ],
+    "correct_answer": "Are you studying?"
+  }
+]

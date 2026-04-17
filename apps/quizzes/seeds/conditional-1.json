@@ -1,0 +1,263 @@
+[
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer sen çalışırsan, başarılı olacaksın.",
+    "correct_answer": "If you study, you will pass.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If it snows, we will go skiing.",
+    "correct_answer": "Eğer kar yağarsa, kaymaya gideceğiz.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If she calls, I will ___ the phone.",
+    "correct_answer": "answer",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What will you do if you are late?",
+    "correct_answer": "I will call you.",
+    "choices": [
+      "I will ignore it.",
+      "I will call you.",
+      "I will stay home.",
+      "I will go shopping."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer beni çağırırsan, gelirim.",
+    "correct_answer": "If you call me, I will come.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If they don't come, we will leave.",
+    "correct_answer": "Eğer onlar gelmezse, gideceğiz.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you don’t hurry, you will ___ the train.",
+    "correct_answer": "miss",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Will he go if it rains?",
+    "correct_answer": "No, he will stay home.",
+    "choices": [
+      "Yes, he will go.",
+      "No, he will stay home.",
+      "Maybe he will go.",
+      "I don't know."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer yağmur yağarsa, dışarı çıkmam.",
+    "correct_answer": "If it rains, I will not go outside.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If she studies hard, she will pass the exam.",
+    "correct_answer": "Eğer çok çalışırsa, sınavı geçecektir.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If we eat too much, we will feel ___.",
+    "correct_answer": "sick",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What will you do if you get a promotion?",
+    "correct_answer": "I will celebrate.",
+    "choices": [
+      "I will quit my job.",
+      "I will celebrate.",
+      "I will move away.",
+      "I will complain."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer hava güzel olursa, pikniğe gideriz.",
+    "correct_answer": "If the weather is nice, we will go for a picnic.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If he doesn't apologize, I won't forgive him.",
+    "correct_answer": "Eğer özür dilemezse, onu affetmeyeceğim.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you ___ hard, you will succeed.",
+    "correct_answer": "work",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Will you come if I invite you?",
+    "correct_answer": "Yes, I will come.",
+    "choices": [
+      "No, I am busy.",
+      "Yes, I will come.",
+      "Maybe not.",
+      "I don't know."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer geç kalırsan, toplantıyı kaçırırsın.",
+    "correct_answer": "If you are late, you will miss the meeting.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If they finish early, they will go home.",
+    "correct_answer": "Eğer erken bitirirlerse, eve gidecekler.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If I see him, I will ___ him.",
+    "correct_answer": "tell",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What will happen if it rains tomorrow?",
+    "correct_answer": "We will stay indoors.",
+    "choices": [
+      "We will stay indoors.",
+      "We will go swimming.",
+      "We will have a picnic.",
+      "We will play outside."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer otobüsü kaçırırsan, taksiye binersin.",
+    "correct_answer": "If you miss the bus, you will take a taxi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If she visits us, we will have fun.",
+    "correct_answer": "Eğer bizi ziyaret ederse, eğleneceğiz.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If he goes to bed late, he will ___ tired.",
+    "correct_answer": "feel",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Will they join us if we ask?",
+    "correct_answer": "Yes, they will join us.",
+    "choices": [
+      "No, they are busy.",
+      "Yes, they will join us.",
+      "Maybe, I don't know.",
+      "I hope so."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer bu filmi izlersen, beğeneceksin.",
+    "correct_answer": "If you watch this movie, you will like it.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If my friend visits, I will show him around.",
+    "correct_answer": "Eğer arkadaşım ziyarete gelirse, ona etrafı gezdireceğim.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If they ask nicely, we will ___ them.",
+    "correct_answer": "help",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What will happen if you eat too much candy?",
+    "correct_answer": "You will get a stomach ache.",
+    "choices": [
+      "You will get a stomach ache.",
+      "You will feel great.",
+      "You will sleep well.",
+      "You will get a headache."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer ev ödevim yoksa, dışarı çıkacağım.",
+    "correct_answer": "If I do not have homework, I will go outside.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If she works late, she will miss the bus.",
+    "correct_answer": "Eğer geç çalışırsa, otobüsü kaçıracak.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If it is cold, we will ___ hot chocolate.",
+    "correct_answer": "drink",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Will you finish your project on time?",
+    "correct_answer": "Yes, I will finish it.",
+    "choices": [
+      "No, I will be late.",
+      "Yes, I will finish it.",
+      "Maybe I will start later.",
+      "I don’t know."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer hafta sonu gelirsen, seni beklerim.",
+    "correct_answer": "If you come on the weekend, I will wait for you.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If it is sunny, we will go to the beach.",
+    "correct_answer": "Eğer hava güneşliyse, plaja gideceğiz.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If he forgets, I will ___ him a reminder.",
+    "correct_answer": "send",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What will you do if you find a wallet?",
+    "correct_answer": "I will turn it in to the police.",
+    "choices": [
+      "I will take it home.",
+      "I will turn it in to the police.",
+      "I will ignore it.",
+      "I will open it."
+    ]
+  }
+]

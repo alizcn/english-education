@@ -1,0 +1,298 @@
+[
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ben yarın sinemaya gideceğim.",
+    "correct_answer": "I am going to go to the cinema tomorrow.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They are going to play football.",
+    "correct_answer": "Onlar futbol oynayacaklar.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ going to study for her exams.",
+    "correct_answer": "is",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Are you going to call her?",
+    "correct_answer": "Yes, I am going to call her.",
+    "choices": [
+      "No, I am not going to call her.",
+      "Yes, I am going to call her.",
+      "I am going to be late.",
+      "We are going to watch a movie."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O bu yaz tatile gidecek.",
+    "correct_answer": "She is going to go on vacation this summer.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Is it going to rain today?",
+    "correct_answer": "Bugün yağmur yağacak mı?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ going to have dinner at home tonight.",
+    "correct_answer": "are",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Why are you going to study economics?",
+    "correct_answer": "Because I want to understand the market.",
+    "choices": [
+      "Because it is interesting.",
+      "Because I want to understand the market.",
+      "Because I like history.",
+      "Because I am tired."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlar bu akşam parti yapacak.",
+    "correct_answer": "They are going to have a party tonight.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "He is going to fix the car.",
+    "correct_answer": "O arabayı tamir edecek.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ not going to go out tonight.",
+    "correct_answer": "am",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What are they going to eat?",
+    "correct_answer": "They are going to eat pizza.",
+    "choices": [
+      "They are going to eat pizza.",
+      "They are going to drink water.",
+      "They are going to watch a show.",
+      "They are going to play games."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ben bu hafta sonu gezmeye gidiyorum.",
+    "correct_answer": "I am going to go out this weekend.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Are we going to meet her tomorrow?",
+    "correct_answer": "Yarın onunla buluşacak mıyız?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He ___ not going to attend the meeting.",
+    "correct_answer": "is",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "When is she going to start her new job?",
+    "correct_answer": "Next Monday.",
+    "choices": [
+      "Next week.",
+      "Next month.",
+      "Next Monday.",
+      "Next year."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Biz bu yaz yurtdışına gideceğiz.",
+    "correct_answer": "We are going to go abroad this summer.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They are going to clean the house.",
+    "correct_answer": "Onlar evi temizleyecekler.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "It ___ going to be a great day.",
+    "correct_answer": "is",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Is he going to join us for dinner?",
+    "correct_answer": "No, he is not going to join us.",
+    "choices": [
+      "No, he is not going to join us.",
+      "Yes, he is going to join us.",
+      "I don’t know.",
+      "Maybe tomorrow."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Sen bu sabah kahvaltı yapacak mısın?",
+    "correct_answer": "Are you going to have breakfast this morning?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "We are going to travel by train.",
+    "correct_answer": "Biz trenle seyahat edeceğiz.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ going to learn a new language.",
+    "correct_answer": "am",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is she going to wear?",
+    "correct_answer": "She is going to wear a dress.",
+    "choices": [
+      "She is going to wear a dress.",
+      "She is going to wear jeans.",
+      "She is going to wear a suit.",
+      "She is going to wear a t-shirt."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O bu akşam sinemaya gidecek.",
+    "correct_answer": "He is going to the cinema tonight.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Is it going to be sunny tomorrow?",
+    "correct_answer": "Yarın güneşli mi olacak?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ not going to visit us this week.",
+    "correct_answer": "are",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Are you going to take the bus?",
+    "correct_answer": "No, I am going to walk.",
+    "choices": [
+      "No, I am going to walk.",
+      "Yes, I am going to take the bus.",
+      "Maybe later.",
+      "I am going to run."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Biz her zaman sabah kahvaltısı yaparız.",
+    "correct_answer": "We are going to have breakfast every morning.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "He is going to start a new project.",
+    "correct_answer": "O yeni bir projeye başlayacak.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ going to travel to France.",
+    "correct_answer": "is",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Where are you going to go on vacation?",
+    "correct_answer": "To the beach.",
+    "choices": [
+      "To the mountains.",
+      "To the city.",
+      "To the beach.",
+      "To the forest."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlar bu akşam televizyon izleyecekler.",
+    "correct_answer": "They are going to watch television tonight.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Are we going to play a game?",
+    "correct_answer": "Bir oyun oynayacak mıyız?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ not going to buy that.",
+    "correct_answer": "am",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What time is she going to bed?",
+    "correct_answer": "At 10 PM.",
+    "choices": [
+      "At 10 PM.",
+      "At 11 PM.",
+      "At 9 PM.",
+      "At midnight."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Bu yaz plaja gideceğiz.",
+    "correct_answer": "We are going to the beach this summer.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They are going to meet their friends.",
+    "correct_answer": "Onlar arkadaşlarıyla buluşacaklar.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "It ___ going to rain tomorrow.",
+    "correct_answer": "is",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Is he going to watch a movie?",
+    "correct_answer": "No, he is going to read a book.",
+    "choices": [
+      "Yes, he is going to watch a movie.",
+      "No, he is going to read a book.",
+      "I don't know.",
+      "Maybe later."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlar yarın okula gidecekler.",
+    "correct_answer": "They are going to go to school tomorrow.",
+    "choices": null
+  }
+]

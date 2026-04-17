@@ -1,0 +1,292 @@
+[
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ben her gün kitap okurum.",
+    "correct_answer": "I read a book every day.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "He plays the guitar.",
+    "correct_answer": "O gitar çalar.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ in the park every weekend.",
+    "correct_answer": "walk",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Does she cook dinner?",
+    "choices": [
+      "Yes, she does.",
+      "No, she don't.",
+      "Yes, she cooking.",
+      "No, she isn't."
+    ],
+    "correct_answer": "Yes, she does."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlar sabah koşuyorlar.",
+    "correct_answer": "They run in the morning.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "We do not like winter.",
+    "correct_answer": "Kışları sevmiyoruz.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I usually ___ coffee in the morning.",
+    "correct_answer": "drink",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Do you like chocolate?",
+    "choices": [
+      "Yes, I like it.",
+      "No, I don't like it.",
+      "I likes it.",
+      "Yes, I do not."
+    ],
+    "correct_answer": "Yes, I like it."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O hasta değil.",
+    "correct_answer": "She is not sick.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They always arrive on time.",
+    "correct_answer": "Onlar her zaman zamanında gelirler.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ the piano beautifully.",
+    "correct_answer": "plays",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Does he like cats?",
+    "choices": [
+      "Yes, he do.",
+      "No, he doesn't.",
+      "He likes.",
+      "Yes, he likes cats."
+    ],
+    "correct_answer": "Yes, he likes cats."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Biz sabahları erken kalkarız.",
+    "correct_answer": "We wake up early in the morning.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I do my homework every day.",
+    "correct_answer": "Her gün ödevimi yaparım.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ on weekends.",
+    "correct_answer": "relax",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Do you read magazines?",
+    "choices": [
+      "Yes, we do.",
+      "No, we doesn't.",
+      "Yes, I read.",
+      "No, I not read."
+    ],
+    "correct_answer": "Yes, we do."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlar futbol oynamaz.",
+    "correct_answer": "They do not play football.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "She works at a bank.",
+    "correct_answer": "O bir bankada çalışıyor.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ to the gym twice a week.",
+    "correct_answer": "go",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Does she play tennis?",
+    "choices": [
+      "No, she not.",
+      "Yes, she does.",
+      "No, she don't play.",
+      "Yes, she is playing."
+    ],
+    "correct_answer": "Yes, she does."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ben peynir sevmiyorum.",
+    "correct_answer": "I do not like cheese.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They enjoy their vacation.",
+    "correct_answer": "Onlar tatillerinin tadını çıkarıyorlar.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He ___ coffee rarely.",
+    "correct_answer": "drinks",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Do you want to come?",
+    "choices": [
+      "Yes, I want.",
+      "No, I doesn't.",
+      "No, I don't want.",
+      "Yes, I does."
+    ],
+    "correct_answer": "Yes, I want."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O çocuklar için kitap okuyor.",
+    "correct_answer": "She reads books for kids.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "We live in a small house.",
+    "correct_answer": "Küçük bir evde yaşıyoruz.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ to the market every Saturday.",
+    "correct_answer": "go",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Does he know the answer?",
+    "choices": [
+      "No, he no.",
+      "Yes, he does.",
+      "Yes, he knowing.",
+      "No, he doesn't knows."
+    ],
+    "correct_answer": "Yes, he does."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ben bu filmi izlemiyorum.",
+    "correct_answer": "I do not watch this movie.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "She visits her grandparents.",
+    "correct_answer": "O, büyüklerini ziyaret eder.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ my bed every morning.",
+    "correct_answer": "make",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Do you go shopping?",
+    "choices": [
+      "Yes, I do.",
+      "No, I not.",
+      "Yes, I goes.",
+      "No, I doesn't."
+    ],
+    "correct_answer": "Yes, I do."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onun köpeği çok tatlı.",
+    "correct_answer": "Her dog is very cute.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "He plays football.",
+    "correct_answer": "O futbol oynar.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ early in the morning.",
+    "correct_answer": "wakes up",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Does it rain often?",
+    "choices": [
+      "No, it not.",
+      "Yes, it does.",
+      "Yes, it rain.",
+      "No, it isn't."
+    ],
+    "correct_answer": "Yes, it does."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlar yeni bir araba almadı.",
+    "correct_answer": "They did not buy a new car.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "We go to the cinema on Fridays.",
+    "correct_answer": "Cuma günleri sinemaya gideriz.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He ___ video games after school.",
+    "correct_answer": "plays",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Do they speak English?",
+    "choices": [
+      "No, they doesn't.",
+      "Yes, they do.",
+      "Yes, they speaks.",
+      "No, they don't speak."
+    ],
+    "correct_answer": "Yes, they do."
+  }
+]

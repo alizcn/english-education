@@ -3,27 +3,65 @@
 {% block title %}{% trans "AI Chat" %}{% endblock %}
 
 {% block content %}
-<div class="chat-wrap">
-    <div class="page-header">
-        <h2>{% trans "AI Pratik" %}</h2>
-        <a href="{% url 'chat:new' %}" class="btn btn-secondary btn-sm">+ {% trans "Yeni sohbet" %}</a>
-    </div>
-
-    <div class="chat-messages" id="chat-messages">
-        {% if messages_list %}
-            {% for m in messages_list %}
-            <div class="chat-msg {{ m.role }}">{{ m.content }}</div>
+<div class="chat-layout">
+    <aside class="chat-sidebar" id="chat-sidebar">
+        <div class="chat-sidebar-head">
+            <strong>{% trans "Sohbetler" %}</strong>
+            <a href="{% url 'chat:new' %}" class="btn btn-sm" title="{% trans "Yeni sohbet" %}">+ {% trans "Yeni" %}</a>
+        </div>
+        <div class="chat-history">
+            {% for c in conversations %}
+            <div class="chat-history-item {% if c.id == conversation.id %}active{% endif %}" data-id="{{ c.id }}">
+                <a href="{% url 'chat:open' c.id %}" class="chat-history-link" title="{{ c.title }}">
+                    <span class="chat-history-title">{{ c.title }}</span>
+                    <small class="muted">{{ c.updated_at|date:"d M · H:i" }}</small>
+                </a>
+                <div class="chat-history-actions">
+                    <button type="button" class="btn btn-ghost btn-sm" title="{% trans "Yeniden adlandır" %}"
+                            onclick="document.getElementById('rename-form-{{ c.id }}').classList.toggle('show')">✎</button>
+                    <form method="post" action="{% url 'chat:delete' c.id %}" style="margin:0;"
+                          onsubmit="return confirm('{% trans "Bu sohbet silinsin mi?" %}');">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-ghost btn-sm" title="{% trans "Sil" %}">✕</button>
+                    </form>
+                </div>
+                <form method="post" action="{% url 'chat:rename' c.id %}" id="rename-form-{{ c.id }}" class="chat-rename-form">
+                    {% csrf_token %}
+                    <input type="text" name="title" value="{{ c.title }}" maxlength="120" required>
+                    <button type="submit" class="btn btn-sm">{% trans "Kaydet" %}</button>
+                </form>
+            </div>
+            {% empty %}
+            <div class="muted" style="padding:0.75rem;">{% trans "Henüz sohbet yok." %}</div>
             {% endfor %}
-        {% else %}
-            <div class="chat-msg assistant">{% trans "Hey! İngilizce pratik için buradayım. İstediğin dilde yaz — mesela \"Teach me the difference between 'since' and 'for'\" diyerek başlayabilirsin." %}</div>
-        {% endif %}
-    </div>
+        </div>
+    </aside>
 
-    <form method="post" action="{% url 'chat:send' %}" class="chat-form">
-        {% csrf_token %}
-        <input type="text" name="message" placeholder="{% trans "Mesajını yaz..." %}" autofocus autocomplete="off" required>
-        <button type="submit" class="btn">{% trans "Gönder" %}</button>
-    </form>
+    <div class="chat-wrap">
+        <div class="page-header">
+            <h2 style="display:flex; align-items:center; gap:0.5rem;">
+                <button type="button" class="btn btn-ghost btn-sm chat-sidebar-toggle" onclick="document.getElementById('chat-sidebar').classList.toggle('open')" title="{% trans "Geçmiş" %}">☰</button>
+                <span>{{ conversation.title }}</span>
+            </h2>
+            <a href="{% url 'chat:new' %}" class="btn btn-secondary btn-sm">+ {% trans "Yeni sohbet" %}</a>
+        </div>
+
+        <div class="chat-messages" id="chat-messages">
+            {% if messages_list %}
+                {% for m in messages_list %}
+                <div class="chat-msg {{ m.role }}">{{ m.content }}</div>
+                {% endfor %}
+            {% else %}
+                <div class="chat-msg assistant">{% trans "Hey! İngilizce pratik için buradayım. İstediğin dilde yaz — örnek bir mesaj da verebilirsin." %}</div>
+            {% endif %}
+        </div>
+
+        <form method="post" action="{% url 'chat:send' %}" class="chat-form">
+            {% csrf_token %}
+            <input type="text" name="message" placeholder="{% trans "Mesajını yaz..." %}" autofocus autocomplete="off" required>
+            <button type="submit" class="btn">{% trans "Gönder" %}</button>
+        </form>
+    </div>
 </div>
 
 <script>

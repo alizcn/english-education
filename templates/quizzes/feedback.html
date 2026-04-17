@@ -22,7 +22,7 @@
                 <div style="margin-top:0.25rem;">{% trans "Cevabın:" %} <strong>{{ question.user_answer }}</strong></div>
             {% else %}
                 <div class="feedback-label">{% trans "✗ Yanlış" %}</div>
-                <div style="margin-top:0.25rem;">{% trans "Senin:" %} <em>{{ question.user_answer|default:"(boş)" }}</em></div>
+                <div style="margin-top:0.25rem;">{% trans "Senin:" %} <em>{% if question.user_answer %}{{ question.user_answer }}{% else %}{% trans "(boş)" %}{% endif %}</em></div>
                 <div>{% trans "Doğrusu:" %} <strong>{{ question.correct_answer }}</strong></div>
             {% endif %}
         </div>

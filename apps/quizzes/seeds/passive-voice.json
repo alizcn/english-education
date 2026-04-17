@@ -1,0 +1,292 @@
+[
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Bu kitap okunmadı.",
+    "correct_answer": "This book was not read.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "The report was finished on time.",
+    "correct_answer": "Rapor zamanında tamamlandı.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The movie ___ by many people.",
+    "correct_answer": "was seen",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Was the project completed?",
+    "correct_answer": "Yes, the project was completed.",
+    "choices": [
+      "No, the project was not completed.",
+      "Yes, the project was completed.",
+      "The project is completed.",
+      "The project was never completed."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Bu masa her gün temizlenir.",
+    "correct_answer": "This table is cleaned every day.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "The song is sung by the choir.",
+    "correct_answer": "Şarkı koru tarafından söylenir.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The homework ___ by the students.",
+    "correct_answer": "was done",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Is the letter written in English?",
+    "correct_answer": "Yes, the letter is written in English.",
+    "choices": [
+      "No, the letter is not written in English.",
+      "Yes, the letter is written in English.",
+      "The letter was written in English.",
+      "The letter will be written in English."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Çiçekler sulanmadı.",
+    "correct_answer": "The flowers were not watered.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "A new road is being built.",
+    "correct_answer": "Yeni bir yol yapılıyor.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The game ___ played yesterday.",
+    "correct_answer": "was",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Is the car repaired?",
+    "correct_answer": "No, the car is not repaired.",
+    "choices": [
+      "Yes, the car is repaired.",
+      "No, the car is not repaired.",
+      "The car was repaired.",
+      "The car will be repaired."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Birçok resim sergilendi.",
+    "correct_answer": "Many paintings were exhibited.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "The room has been cleaned.",
+    "correct_answer": "Oda temizlendi.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The sandwich ___ eaten by John.",
+    "correct_answer": "was",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Was the cake baked yesterday?",
+    "correct_answer": "Yes, the cake was baked yesterday.",
+    "choices": [
+      "No, the cake was not baked yesterday.",
+      "Yes, the cake was baked yesterday.",
+      "The cake baked yesterday.",
+      "The cake is baked yesterday."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Proje tamamlanmadı.",
+    "correct_answer": "The project was not completed.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "English is taught here.",
+    "correct_answer": "Burada İngilizce öğretiliyor.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The pictures ___ taken by the photographer.",
+    "correct_answer": "were",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Is this letter sent by mail?",
+    "correct_answer": "No, this letter is not sent by mail.",
+    "choices": [
+      "Yes, this letter is sent by mail.",
+      "No, this letter is not sent by mail.",
+      "The letter was sent by mail.",
+      "The letter will be sent by mail."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Dersler her gün verilir.",
+    "correct_answer": "Lessons are given every day.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "The food was prepared by the chef.",
+    "correct_answer": "Yemek aşçı tarafından hazırlandı.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The letter ___ sent tomorrow.",
+    "correct_answer": "will be",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Was the homework completed on time?",
+    "correct_answer": "Yes, the homework was completed on time.",
+    "choices": [
+      "No, the homework was not completed on time.",
+      "Yes, the homework was completed on time.",
+      "The homework completed on time.",
+      "The homework will be completed on time."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Burası sıkça ziyaret edilen bir yerdir.",
+    "correct_answer": "This place is visited often.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "The door is locked.",
+    "correct_answer": "Kapı kilitli.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The documents ___ printed yesterday.",
+    "correct_answer": "were",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Is the book read by many people?",
+    "correct_answer": "Yes, the book is read by many people.",
+    "choices": [
+      "No, the book is not read by many people.",
+      "Yes, the book is read by many people.",
+      "The book was read by many people.",
+      "The book will be read by many people."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ev 1990 yılında yapıldı.",
+    "correct_answer": "The house was built in 1990.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "The car is washed every week.",
+    "correct_answer": "Araba her hafta yıkanır.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The pizza ___ delivered at 6 PM.",
+    "correct_answer": "was",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Was the movie enjoyed by the audience?",
+    "correct_answer": "Yes, the movie was enjoyed by the audience.",
+    "choices": [
+      "No, the movie was not enjoyed by the audience.",
+      "Yes, the movie was enjoyed by the audience.",
+      "The movie enjoyed by the audience.",
+      "The movie will be enjoyed by the audience."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "E-posta gönderilmedi.",
+    "correct_answer": "The email was not sent.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "The painting is displayed in the gallery.",
+    "correct_answer": "Resim galeride sergileniyor.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The wall ___ painted last week.",
+    "correct_answer": "was",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Is the presentation given in English?",
+    "correct_answer": "Yes, the presentation is given in English.",
+    "choices": [
+      "No, the presentation is not given in English.",
+      "Yes, the presentation is given in English.",
+      "The presentation given in English.",
+      "The presentation was given in English."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Mesajın iletilmesi gerekir.",
+    "correct_answer": "The message needs to be sent.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "The homework is done by the students.",
+    "correct_answer": "Ödev öğrenciler tarafından yapılır.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The concert ___ postponed.",
+    "correct_answer": "was",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Was the dinner ready by 7 PM?",
+    "correct_answer": "Yes, the dinner was ready by 7 PM.",
+    "choices": [
+      "No, the dinner was not ready by 7 PM.",
+      "Yes, the dinner was ready by 7 PM.",
+      "The dinner is ready by 7 PM.",
+      "The dinner was never ready by 7 PM."
+    ]
+  }
+]

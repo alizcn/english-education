@@ -1,0 +1,321 @@
+[
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O bana sinemaya gitmediğini söyledi.",
+    "correct_answer": "He told me he did not go to the cinema.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "She said she was happy.",
+    "correct_answer": "O mutlu olduğunu söyledi.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He said he _____ finished his homework.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "He asked if I was coming.",
+    "choices": [
+      "He asked if I will come.",
+      "He asked if I was coming.",
+      "He said if I come.",
+      "He inquired if I have come."
+    ],
+    "correct_answer": "He asked if I was coming."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlar yarın geleceklerini söylediler.",
+    "correct_answer": "They said they would come tomorrow.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I told him I couldn't find my keys.",
+    "correct_answer": "Ona anahtarlarımı bulamadığımı söyledim.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She said she _____ not seen him.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "They said they weren't hungry.",
+    "choices": [
+      "They said they aren't hungry.",
+      "They said they were hungry.",
+      "They mentioned they were hungry.",
+      "They said they were not hungry."
+    ],
+    "correct_answer": "They said they were not hungry."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ben ona geleceğimi söyledim.",
+    "correct_answer": "I told him I would come.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "He asked where she lived.",
+    "correct_answer": "O nerede yaşadığını sordu.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She told me they _____ not at home.",
+    "correct_answer": "were",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "He said he didn't understand.",
+    "choices": [
+      "He said he didn't understand.",
+      "He told he could not understand.",
+      "He mentioned he doesn't get it.",
+      "He said he hadn't understand."
+    ],
+    "correct_answer": "He said he didn't understand."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O, bugün işten çıkacağını söyledi.",
+    "correct_answer": "She said she would leave work today.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They told us they were tired.",
+    "correct_answer": "Bize yorgun olduklarını söylediler.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He asked if I _____ ready.",
+    "correct_answer": "was",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "She told me she was well.",
+    "choices": [
+      "She told me she is good.",
+      "She said she was fine.",
+      "She mentioned that she was well.",
+      "She told me she was well."
+    ],
+    "correct_answer": "She told me she was well."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O sadece şaka yaptığını söyledi.",
+    "correct_answer": "He said he was just joking.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "We asked them if they were coming.",
+    "correct_answer": "Onlara gelip gelmeyeceklerini sorduk.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They said they _____ finished the project.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "He asked where I was from.",
+    "choices": [
+      "He asked where I come from.",
+      "He asked where I was from.",
+      "He asked where I came.",
+      "He asked where am I from."
+    ],
+    "correct_answer": "He asked where I was from."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O bana yemeğin güzel olduğunu söyledi.",
+    "correct_answer": "She told me the food was nice.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They said they would not go.",
+    "correct_answer": "Gitmeyeceklerini söylediler.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She told him she _____ finished her work.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "He said he would help us.",
+    "choices": [
+      "He told he would help us.",
+      "He said he would assist us.",
+      "He mentioned he will help us.",
+      "He said he would help us."
+    ],
+    "correct_answer": "He said he would help us."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlar benimle gelmeyeceklerini söylediler.",
+    "correct_answer": "They said they would not come with me.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I told her I wasn't feeling well.",
+    "correct_answer": "Ona kendimi iyi hissetmediğimi söyledim.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He said they _____ not ready.",
+    "correct_answer": "were",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "She asked if I wanted tea.",
+    "choices": [
+      "She asked if I want tea.",
+      "She asked whether I wanted tea.",
+      "She inquired if I wanted tea.",
+      "She asked if I would like tea."
+    ],
+    "correct_answer": "She asked whether I wanted tea."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O bana yardım etmek istemediğini söyledi.",
+    "correct_answer": "He said he did not want to help me.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They told us they would visit soon.",
+    "correct_answer": "Bize yakında ziyaret edeceklerini söylediler.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He told me he _____ not see the movie.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "She said she didn't like it.",
+    "choices": [
+      "She mentioned she did not like it.",
+      "She said she does not like it.",
+      "She told she didn't like it.",
+      "She said she didn't like it."
+    ],
+    "correct_answer": "She said she didn't like it."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O, bu kitabı okuduğunu söyledi.",
+    "correct_answer": "She said she had read this book.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "He asked if we were ready.",
+    "correct_answer": "Hazır olup olmadığımızı sordu.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They said she _____ there.",
+    "correct_answer": "was",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "He asked what I was doing.",
+    "choices": [
+      "He asked what I am doing.",
+      "He inquired what I was doing.",
+      "He wanted to know what I do.",
+      "He requested what I was doing."
+    ],
+    "correct_answer": "He inquired what I was doing."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O, onların mutlu olduklarını söyledi.",
+    "correct_answer": "She said they were happy.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "We told her we had to leave.",
+    "correct_answer": "Ona ayrılmamız gerektiğini söyledik.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He said he _____ not come yesterday.",
+    "correct_answer": "could",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "They said they would be late.",
+    "choices": [
+      "They said they would be late.",
+      "They told they would be late.",
+      "They said they were going to be late.",
+      "They mentioned they will be late."
+    ],
+    "correct_answer": "They said they would be late."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Bana işlerin yolunda gitmediğini söylediler.",
+    "correct_answer": "They told me things were not going well.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "She said she didn't see him yesterday.",
+    "correct_answer": "Dün onu görmediğini söyledi.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He asked why I _____ late.",
+    "correct_answer": "was",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "She told me she needed help.",
+    "choices": [
+      "She said she needed help.",
+      "She told me she needs help.",
+      "She mentioned she needed help.",
+      "She said she needs help."
+    ],
+    "correct_answer": "She said she needed help."
+  }
+]

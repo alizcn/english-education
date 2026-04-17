@@ -1,0 +1,292 @@
+[
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ben yüzme bilmiyorum.",
+    "correct_answer": "I cannot swim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Can she paint?",
+    "correct_answer": "O resim yapabilir mi?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ speak English.",
+    "correct_answer": "can",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Can you play chess?",
+    "correct_answer": "Yes, I can play chess.",
+    "choices": [
+      "Yes, I can play chess.",
+      "No, I cannot play chess.",
+      "Sometimes, I can play chess.",
+      "I could play chess."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlar dışarı çıkamazlar.",
+    "correct_answer": "They cannot go out.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "He could run fast as a child.",
+    "correct_answer": "Çocukken hızlı koşabilirdi.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ help you with that.",
+    "correct_answer": "can",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Could you lend me your pen?",
+    "correct_answer": "Of course, here it is.",
+    "choices": [
+      "Sorry, I can't lend it.",
+      "Of course, here it is.",
+      "I could lend you my book.",
+      "No, I cannot lend my pen."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ben bu soruyu çözemiyorum.",
+    "correct_answer": "I cannot solve this question.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I could swim when I was a child.",
+    "correct_answer": "Ben çocukken yüzebilirdim.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ not watch TV last night.",
+    "correct_answer": "could",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Can she speak French?",
+    "correct_answer": "Yes, she can speak French.",
+    "choices": [
+      "Yes, she can speak French.",
+      "No, she can speak French.",
+      "Yes, she could speak French.",
+      "No, she cannot speak French."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Kedim havlamaz.",
+    "correct_answer": "My cat cannot bark.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Can we meet tomorrow?",
+    "correct_answer": "Yarın buluşabilir miyiz?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ help you tomorrow.",
+    "correct_answer": "can",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Could he swim when he was five?",
+    "correct_answer": "Yes, he could swim then.",
+    "choices": [
+      "Yes, he could swim then.",
+      "No, he can swim now.",
+      "He can swim at five.",
+      "No, he could not swim."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlar sinemaya gidemiyorlar.",
+    "correct_answer": "They cannot go to the cinema.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Can you come to the party?",
+    "correct_answer": "Partiye gelebilir misin?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ not understand the lesson.",
+    "correct_answer": "could",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Can you help me with this task?",
+    "correct_answer": "Yes, I can help you.",
+    "choices": [
+      "Yes, I can help you.",
+      "No, I cannot help you.",
+      "Maybe I can help you.",
+      "Yes, I could help you."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Benim telefonum yok.",
+    "correct_answer": "I do not have a phone.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "He could speak three languages.",
+    "correct_answer": "Üç dil konuşabiliyordu.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ visit them tomorrow.",
+    "correct_answer": "can",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Could they finish the project on time?",
+    "correct_answer": "No, they could not finish it on time.",
+    "choices": [
+      "Yes, they could finish on time.",
+      "No, they could not finish it on time.",
+      "Maybe they can finish it.",
+      "They can finish the project."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Sen futbol oynayamazsın.",
+    "correct_answer": "You cannot play football.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Can he fix the car?",
+    "correct_answer": "Arabayı tamir edebilir mi?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ go to the meeting today.",
+    "correct_answer": "can",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Can she drive a car?",
+    "correct_answer": "Yes, she can drive a car.",
+    "choices": [
+      "Yes, she can drive a car.",
+      "No, she could not drive.",
+      "Yes, she cannot drive.",
+      "Maybe she could drive."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Bu yazıyı okuyamıyorum.",
+    "correct_answer": "I cannot read this text.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "You could try again later.",
+    "correct_answer": "Sonra tekrar deneyebilirsin.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ not come to the meeting yesterday.",
+    "correct_answer": "could",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Can I borrow your book?",
+    "correct_answer": "Sure, you can borrow it.",
+    "choices": [
+      "Sure, you can borrow it.",
+      "No, you could not borrow it.",
+      "Maybe you can borrow it.",
+      "I could lend you my pen."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O şarkı söyleyemez.",
+    "correct_answer": "She cannot sing.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Can we start now?",
+    "correct_answer": "Şimdi başlayabilir miyiz?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ help you if you ask.",
+    "correct_answer": "can",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Could he hear the music?",
+    "correct_answer": "Yes, he could hear it.",
+    "choices": [
+      "No, he could not hear it.",
+      "Yes, he could hear it.",
+      "Maybe he could hear it.",
+      "He can hear the music."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O bu kitabı okuyamadı.",
+    "correct_answer": "He could not read this book.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Can you write in English?",
+    "correct_answer": "İngilizce yazabilir misin?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ leave early tomorrow.",
+    "correct_answer": "can",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Can she do her homework?",
+    "correct_answer": "Yes, she can do her homework.",
+    "choices": [
+      "No, she cannot do her homework.",
+      "Yes, she can do her homework.",
+      "She could do it last week.",
+      "Maybe she can do her homework."
+    ]
+  }
+]

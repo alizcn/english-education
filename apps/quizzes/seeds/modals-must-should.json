@@ -1,0 +1,304 @@
+[
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Burada sigara içmemelisin.",
+    "correct_answer": "You must not smoke here.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "You should drink more water.",
+    "correct_answer": "Daha fazla su içmelisin.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ see a dentist.",
+    "correct_answer": "should",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Must I finish my homework?",
+    "correct_answer": "Yes, you must.",
+    "choices": [
+      "Yes, you must.",
+      "No, you shouldn't.",
+      "Maybe later.",
+      "Not now."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O, yorgun olmalı.",
+    "correct_answer": "He must be tired.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "You must wear a helmet.",
+    "correct_answer": "Kask takmalısın.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ be at the party.",
+    "correct_answer": "must",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Should I call my mom?",
+    "correct_answer": "Yes, you should.",
+    "choices": [
+      "Yes, you should.",
+      "No, don't bother.",
+      "Maybe wait.",
+      "Call her later."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Okula zamanında gitmelisin.",
+    "correct_answer": "You must go to school on time.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "You should take an umbrella.",
+    "correct_answer": "Bir şemsiye almalısın.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He ___ not be angry.",
+    "correct_answer": "must",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Should we leave now?",
+    "correct_answer": "Yes, we should.",
+    "choices": [
+      "Yes, we should.",
+      "No, stay longer.",
+      "Perhaps tomorrow.",
+      "Not yet."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onu şimdi aramalısın.",
+    "correct_answer": "You should call him now.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They must not be late.",
+    "correct_answer": "Geç kalmamalılar.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "You ___ help your friends.",
+    "correct_answer": "should",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Must I wear shoes?",
+    "correct_answer": "Yes, you must.",
+    "choices": [
+      "Yes, you must.",
+      "No, you shouldn't.",
+      "Only if you want.",
+      "You can go barefoot."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Bu filmi izlemelisin.",
+    "correct_answer": "You should watch this movie.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "He must study harder.",
+    "correct_answer": "Daha çok çalışmalı.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "You ___ not forget your keys.",
+    "correct_answer": "must",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Should I take the bus?",
+    "correct_answer": "Yes, it's better.",
+    "choices": [
+      "Yes, it's better.",
+      "No, walk.",
+      "Only if it's raining.",
+      "Catch a taxi instead."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Sana bu kitabı okumalıyım.",
+    "correct_answer": "I should read you this book.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "You must wear a mask.",
+    "correct_answer": "Maske takmalısın.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ not eat junk food.",
+    "correct_answer": "should",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Must we leave now?",
+    "correct_answer": "Yes, we must!",
+    "choices": [
+      "Yes, we must!",
+      "No, it's too early.",
+      "Let's stay a bit.",
+      "Only if you want."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Çalışman gerek.",
+    "correct_answer": "You must work.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "You should visit your grandparents.",
+    "correct_answer": "Büyükanne ve büyükbabanı ziyaret etmelisin.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ be here by now.",
+    "correct_answer": "must",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Should I try again?",
+    "correct_answer": "Yes, you should.",
+    "choices": [
+      "Yes, you should.",
+      "No, give up.",
+      "Maybe later.",
+      "Try something else."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Gecikmemelisin.",
+    "correct_answer": "You must not be late.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "He must finish his project.",
+    "correct_answer": "Projesini bitirmesi gerek.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "You ___ be careful.",
+    "correct_answer": "must",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Must I turn this in?",
+    "correct_answer": "Yes, you must.",
+    "choices": [
+      "Yes, you must.",
+      "No, keep it.",
+      "Submit later.",
+      "Don't worry about it."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlara yardım etmelisin.",
+    "correct_answer": "You should help them.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "You must get some rest.",
+    "correct_answer": "Biraz dinlenmelisin.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He ___ not forget to call.",
+    "correct_answer": "should",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Should I read this?",
+    "correct_answer": "Yes, it's interesting.",
+    "choices": [
+      "Yes, it's interesting.",
+      "No, it's boring.",
+      "Only if you have time.",
+      "Not now."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O, çalışmak zorunda.",
+    "correct_answer": "He must work.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They should exercise more.",
+    "correct_answer": "Daha fazla egzersiz yapmalılar.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "You ___ always tell the truth.",
+    "correct_answer": "should",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Must I answer now?",
+    "correct_answer": "Yes, it's important.",
+    "choices": [
+      "Yes, it's important.",
+      "No, think first.",
+      "You can skip.",
+      "Only if you want."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Hava raporunu kontrol etmelisin.",
+    "correct_answer": "You should check the weather report.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "You must not open that door.",
+    "correct_answer": "O kapıyı açmamalısın.",
+    "choices": null
+  }
+]

@@ -1,0 +1,292 @@
+[
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Bu kitap o kitaptan daha iyi değil.",
+    "correct_answer": "This book is not better than that one.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "She is the quickest swimmer.",
+    "correct_answer": "O, en hızlı yüzücüdür.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "This car is ___ than that one.",
+    "correct_answer": "faster",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the tallest building?",
+    "choices": [
+      "Burj Khalifa",
+      "Empire State Building",
+      "Eiffel Tower",
+      "One World Trade Center"
+    ],
+    "correct_answer": "Burj Khalifa"
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O, sınıfın en akıllısı.",
+    "correct_answer": "He is the smartest in the class.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "This puzzle is more difficult than the last one.",
+    "correct_answer": "Bu bulmaca sonuncusundan daha zor.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "My sister is ___ than I am.",
+    "correct_answer": "younger",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Is it colder today than yesterday?",
+    "choices": [
+      "Yes, it is colder.",
+      "No, it is warmer.",
+      "Yes, it is the coldest.",
+      "No, it is the mildest."
+    ],
+    "correct_answer": "Yes, it is colder."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Bugün dünden daha sıcak.",
+    "correct_answer": "Today is hotter than yesterday.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "That exam was not the easiest.",
+    "correct_answer": "O sınav en kolay değildi.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She is ___ than her friend.",
+    "correct_answer": "taller",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the most expensive item?",
+    "choices": [
+      "The chair",
+      "The table",
+      "The sofa",
+      "The rug"
+    ],
+    "correct_answer": "The sofa"
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Bu çiçek o çiçekten daha güzel.",
+    "correct_answer": "This flower is more beautiful than that flower.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "He runs faster than anyone else.",
+    "correct_answer": "O, başkalarından daha hızlı koşuyor.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "This route is ___ than the last one.",
+    "correct_answer": "shorter",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Is this the biggest dog?",
+    "choices": [
+      "Yes, it is the biggest.",
+      "No, it is the smallest.",
+      "Yes, it is similar.",
+      "No, it is younger."
+    ],
+    "correct_answer": "Yes, it is the biggest."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O, en zeki öğrenci değil.",
+    "correct_answer": "He is not the smartest student.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "This cake is sweeter than that one.",
+    "correct_answer": "Bu kek o kekten daha tatlı.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He is ___ than you think.",
+    "correct_answer": "smarter",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the most dangerous animal?",
+    "choices": [
+      "Lion",
+      "Dog",
+      "Cat",
+      "Goldfish"
+    ],
+    "correct_answer": "Lion"
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Bugün dünden daha soğuk değil.",
+    "correct_answer": "It is not colder today than yesterday.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "This test is easier than the previous one.",
+    "correct_answer": "Bu test öncekinin daha kolay.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She is ___ in the team.",
+    "correct_answer": "the fastest",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Is he less reliable than before?",
+    "choices": [
+      "Yes, he is less reliable.",
+      "No, he is more trustworthy.",
+      "Yes, he is not reliable.",
+      "No, he is better."
+    ],
+    "correct_answer": "Yes, he is less reliable."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Bu film hiç de ilginç değil.",
+    "correct_answer": "This movie is not interesting at all.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Today is the hottest day of the year.",
+    "correct_answer": "Bugün yılın en sıcak günü.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "This exam is ___ than the last one.",
+    "correct_answer": "harder",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the most beautiful place?",
+    "choices": [
+      "The beach",
+      "The mountain",
+      "The city",
+      "The field"
+    ],
+    "correct_answer": "The beach"
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O, en ağır değil.",
+    "correct_answer": "He is not the heaviest.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "She is more creative than I am.",
+    "correct_answer": "O, benden daha yaratıcı.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "My house is ___ than yours.",
+    "correct_answer": "bigger",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Is summer hotter than spring?",
+    "choices": [
+      "Yes, it is hotter.",
+      "No, it is cooler.",
+      "Yes, it is the coldest.",
+      "No, it is the mildest."
+    ],
+    "correct_answer": "Yes, it is hotter."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Bu araba o arabadan daha ucuz.",
+    "correct_answer": "This car is cheaper than that one.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "He is not as tall as his brother.",
+    "correct_answer": "O, kardeşinden bu kadar uzun değil.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Her dress is ___ than mine.",
+    "correct_answer": "prettier",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the least interesting book?",
+    "choices": [
+      "The history book",
+      "The science book",
+      "The novel",
+      "The biography"
+    ],
+    "correct_answer": "The history book"
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O, en zayıf değil.",
+    "correct_answer": "He is not the weakest.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "This is the best decision.",
+    "correct_answer": "Bu en iyi karardır.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "That runner is ___ than the others.",
+    "correct_answer": "faster",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Is she more confident than before?",
+    "choices": [
+      "Yes, she is more confident.",
+      "No, she is less confident.",
+      "Yes, she is insecure.",
+      "No, she is older."
+    ],
+    "correct_answer": "Yes, she is more confident."
+  }
+]

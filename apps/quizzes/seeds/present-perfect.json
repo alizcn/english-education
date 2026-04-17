@@ -1,0 +1,292 @@
+[
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ben hiç Londra'ya gitmedim.",
+    "correct_answer": "I have never been to London.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "She has eaten lunch.",
+    "correct_answer": "O öğle yemeği yedi.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ gone to the museum.",
+    "correct_answer": "have",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Has he visited the new restaurant?",
+    "correct_answer": "Yes, he has.",
+    "choices": [
+      "Yes, he has.",
+      "No, he had not.",
+      "Maybe he will.",
+      "He wants to go."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O, çok para kazanmadı.",
+    "correct_answer": "She has not earned much money.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They have finished their work.",
+    "correct_answer": "Onlar işlerini bitirdi.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ seen that movie before.",
+    "correct_answer": "have",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What have you done today?",
+    "correct_answer": "I have studied.",
+    "choices": [
+      "I have studied.",
+      "I was studying.",
+      "I study.",
+      "I will study."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Biz bu kitabı okumadık.",
+    "correct_answer": "We have not read this book.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "He has called you.",
+    "correct_answer": "O seni aradı.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ lived here for five years.",
+    "correct_answer": "has",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Have they already arrived?",
+    "correct_answer": "Yes, they have.",
+    "choices": [
+      "Yes, they have.",
+      "No, they had not.",
+      "They will come.",
+      "They are late."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ben bu sabah kahvaltı yapmadım.",
+    "correct_answer": "I have not had breakfast this morning.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "She has lost her keys.",
+    "correct_answer": "O anahtarlarını kaybetti.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ completed the project.",
+    "correct_answer": "have",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Has he ever traveled to Europe?",
+    "correct_answer": "Yes, he has.",
+    "choices": [
+      "No, he has not.",
+      "Yes, he has.",
+      "He wants to.",
+      "He travels often."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O hala gelmedi.",
+    "correct_answer": "He has not come yet.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "We have seen that artist.",
+    "correct_answer": "Biz o sanatçıyı gördük.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ learned about this topic.",
+    "correct_answer": "have",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What have you eaten?",
+    "correct_answer": "I have eaten pasta.",
+    "choices": [
+      "I have eaten pasta.",
+      "I eat pasta.",
+      "I will eat pasta.",
+      "I was eating pasta."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Biz hiç sinemaya gitmedik.",
+    "correct_answer": "We have never gone to the cinema.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They have forgotten the meeting.",
+    "correct_answer": "Onlar toplantıyı unuttu.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He ___ finished his homework.",
+    "correct_answer": "has",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Have you finished your report?",
+    "correct_answer": "Yes, I have.",
+    "choices": [
+      "No, I didn't.",
+      "Yes, I have.",
+      "I'm finishing now.",
+      "I will finish later."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O bu konuda bir şeyler yazmadı.",
+    "correct_answer": "She has not written anything about this.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "He has played the guitar.",
+    "correct_answer": "O gitar çaldı.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ been here for a long time.",
+    "correct_answer": "have",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Has she read the book?",
+    "correct_answer": "Yes, she has.",
+    "choices": [
+      "Yes, she has.",
+      "No, she has not.",
+      "She reads it.",
+      "She will read it."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlar yirmi yıldır burada yaşıyor.",
+    "correct_answer": "They have lived here for twenty years.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I have met her before.",
+    "correct_answer": "Onunla daha önce tanıştım.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ never seen that car.",
+    "correct_answer": "have",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "How long have you lived here?",
+    "correct_answer": "I have lived here for three years.",
+    "choices": [
+      "I have lived here for three years.",
+      "I am living here for three years.",
+      "I live here.",
+      "I was living here for three years."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Kedim henüz gelmedi.",
+    "correct_answer": "My cat has not come yet.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They have visited several countries.",
+    "correct_answer": "Onlar birkaç ülke ziyaret etti.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "You ___ sent me a message.",
+    "correct_answer": "have",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Have you ever been to a concert?",
+    "correct_answer": "Yes, I have.",
+    "choices": [
+      "No, I have not.",
+      "Yes, I have.",
+      "I want to go.",
+      "I will go."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ben hiç uyumadım.",
+    "correct_answer": "I have never slept.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "He has cleaned his room.",
+    "correct_answer": "O odasını temizledi.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ done her homework.",
+    "correct_answer": "has",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Has it rained today?",
+    "correct_answer": "Yes, it has.",
+    "choices": [
+      "No, it hasn't.",
+      "Yes, it has.",
+      "It rains.",
+      "It will rain."
+    ]
+  }
+]

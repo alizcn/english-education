@@ -1,0 +1,304 @@
+[
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer suyu ısıtırsan, kaynar.",
+    "correct_answer": "If you heat water, it boils.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If it is cold, we wear jackets.",
+    "correct_answer": "Eğer hava soğuksa, ceket giyeriz.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you ___ sugar, the tea becomes sweet.",
+    "correct_answer": "add",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What happens if you drop a glass?",
+    "choices": [
+      "It breaks.",
+      "It floats.",
+      "It bounces back.",
+      "It evaporates."
+    ],
+    "correct_answer": "It breaks."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer bitkileri sulamazsan, ölürler.",
+    "correct_answer": "If you do not water plants, they die.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If they do not exercise, they gain weight.",
+    "correct_answer": "Eğer egzersiz yapmazlarsa, kilo alırlar.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you mix red and blue, you ___ purple.",
+    "correct_answer": "get",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What happens if you touch fire?",
+    "choices": [
+      "It burns.",
+      "It cools down.",
+      "It solidifies.",
+      "It disappears."
+    ],
+    "correct_answer": "It burns."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer ekseri kelimeleri öğrenirsen, konuşman daha iyi olur.",
+    "correct_answer": "If you learn most words, your speaking gets better.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If the sun sets, it gets dark.",
+    "correct_answer": "Eğer güneş batarsa, karanlık olur.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you do not hurry, you ___ late.",
+    "correct_answer": "are",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What happens if it snows?",
+    "choices": [
+      "The ground gets white.",
+      "The flowers bloom.",
+      "The sun shines brighter.",
+      "The temperature rises."
+    ],
+    "correct_answer": "The ground gets white."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer bilgisayar çalışmazsa, onarım gerekir.",
+    "correct_answer": "If the computer does not work, it needs repair.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If I wake up late, I miss the bus.",
+    "correct_answer": "Eğer geç uyanırsam, otobüsü kaçırırım.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you freeze water, it ___ ice.",
+    "correct_answer": "becomes",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What happens if you skip breakfast?",
+    "choices": [
+      "You feel hungry.",
+      "You feel full.",
+      "You gain energy.",
+      "You sleep better."
+    ],
+    "correct_answer": "You feel hungry."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer çok çalışırsan, başarılı olursun.",
+    "correct_answer": "If you work hard, you succeed.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If it is sunny, we go to the beach.",
+    "correct_answer": "Eğer hava güneşliyse, plaja gideriz.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If she ___ tea, it gets cold.",
+    "correct_answer": "leaves",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What happens if you laugh?",
+    "choices": [
+      "You feel happy.",
+      "You feel sad.",
+      "You feel tired.",
+      "You feel angry."
+    ],
+    "correct_answer": "You feel happy."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer çok su içersen, sağlıklı kalırsın.",
+    "correct_answer": "If you drink a lot of water, you stay healthy.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If he does not like the movie, he leaves.",
+    "correct_answer": "Eğer filmi beğenmezse, çıkar.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you do not feed the dog, it ___ hungry.",
+    "correct_answer": "gets",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What happens if you press the button?",
+    "choices": [
+      "The light turns on.",
+      "The door opens.",
+      "The phone rings.",
+      "The alarm stops."
+    ],
+    "correct_answer": "The light turns on."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer gün batımını izlersen, güzel manzara görürsün.",
+    "correct_answer": "If you watch the sunset, you see a beautiful view.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If she calls me, I answer.",
+    "correct_answer": "Eğer beni ararsa, cevap veririm.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you add salt, it ___ taste better.",
+    "correct_answer": "tastes",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What happens if you climb high?",
+    "choices": [
+      "You see far.",
+      "You feel scared.",
+      "You get tired.",
+      "You fall."
+    ],
+    "correct_answer": "You see far."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer hava yağmurluysa, dışarı çıkmam.",
+    "correct_answer": "If it is rainy, I do not go outside.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If they play music, I dance.",
+    "correct_answer": "Eğer müzik çalarlarsa, dans ederim.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you do not study, you ___ the exam.",
+    "correct_answer": "fail",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What happens if you sprinkle water on a fire?",
+    "choices": [
+      "It goes out.",
+      "It burns more.",
+      "It explodes.",
+      "It smokes."
+    ],
+    "correct_answer": "It goes out."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer yanlış yaparsan, üzülmemelisin.",
+    "correct_answer": "If you make a mistake, you should not be sad.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If I touch the screen, it activates.",
+    "correct_answer": "Eğer ekrana dokunursam, etkinleşir.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you break a rule, you __ punished.",
+    "correct_answer": "are",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What happens if you touch ice?",
+    "choices": [
+      "It melts.",
+      "It feels cold.",
+      "It gets hot.",
+      "It breaks."
+    ],
+    "correct_answer": "It feels cold."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer şarkı söylersem, herkes dinler.",
+    "correct_answer": "If I sing, everyone listens.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If she is happy, she smiles.",
+    "correct_answer": "Eğer mutluysa, gülümser.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If he ___ her a gift, she is happy.",
+    "correct_answer": "gives",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What happens if you forget your keys?",
+    "choices": [
+      "You cannot enter.",
+      "You get angry.",
+      "You call a friend.",
+      "You find a solution."
+    ],
+    "correct_answer": "You cannot enter."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Eğer telefonum çalıyorsa, açmam.",
+    "correct_answer": "If my phone rings, I do not answer it.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "If it tastes bad, I do not eat it.",
+    "correct_answer": "Eğer tadı kötü olursa, yemem.",
+    "choices": null
+  }
+]

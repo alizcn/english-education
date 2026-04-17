@@ -1,0 +1,292 @@
+[
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onu daha önce tanımamıştım.",
+    "correct_answer": "I had not met him before.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "She had left before I arrived.",
+    "correct_answer": "O gelmeden önce gitmişti.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He ___ finished his work before the deadline.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Had you eaten lunch before the meeting?",
+    "choices": [
+      "Yes, I had eaten lunch.",
+      "No, I didn't eat lunch.",
+      "Yes, I eat lunch.",
+      "No, I wasn't eating lunch."
+    ],
+    "correct_answer": "Yes, I had eaten lunch."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Öğle yemeğinden önce kahvaltı yapmıştım.",
+    "correct_answer": "I had eaten breakfast before lunch.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They had finished dinner by 8.",
+    "correct_answer": "Onlar akşam yemeğini 8'ye kadar bitirmişti.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ heard the news before yesterday.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Had she lived there long?",
+    "choices": [
+      "Yes, she had lived there for years.",
+      "No, she hasn't lived there long.",
+      "Yes, she was lived there long.",
+      "No, she didn't live there long."
+    ],
+    "correct_answer": "Yes, she had lived there for years."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Sabah işe gitmeden önce kahvaltı yapmıştım.",
+    "correct_answer": "I had eaten breakfast before going to work in the morning.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I had seen that film before.",
+    "correct_answer": "O filmi daha önce görmüştüm.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ finished their test before time was up.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Had he ever visited Paris before?",
+    "choices": [
+      "Yes, he had visited Paris.",
+      "No, he didn't visit Paris.",
+      "Yes, he wasn't visiting Paris.",
+      "No, he hasn't visited Paris."
+    ],
+    "correct_answer": "Yes, he had visited Paris."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Hava kararmadan önce evdeydim.",
+    "correct_answer": "I had been home before it got dark.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "We had gone to the beach before it rained.",
+    "correct_answer": "Yağmur yağmadan önce plaja gitmiştik.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ already left when I arrived.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Had they finished the project?",
+    "choices": [
+      "Yes, they had finished the project.",
+      "No, they didn't finish the project.",
+      "Yes, they were finishing the project.",
+      "No, they haven't finished the project."
+    ],
+    "correct_answer": "Yes, they had finished the project."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onun hakkında daha önce bir şey duymamıştım.",
+    "correct_answer": "I had never heard anything about him.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I had already completed my homework.",
+    "correct_answer": "Ödevimi zaten tamamlamıştım.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ called them before the meeting started.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Had she studied French before?",
+    "choices": [
+      "Yes, she had studied French before.",
+      "No, she didn't study French.",
+      "Yes, she wasn't studying French.",
+      "No, she hasn't studied French."
+    ],
+    "correct_answer": "Yes, she had studied French before."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Yolculuğumdan önce çanta hazırlamıştım.",
+    "correct_answer": "I had packed my bag before my trip.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They had never been to a concert.",
+    "correct_answer": "Onlar hiçbir konsere gitmemişti.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ learned how to cook before my wedding.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Had it snowed before the event?",
+    "choices": [
+      "Yes, it had snowed.",
+      "No, it didn't snow.",
+      "Yes, it was snowing.",
+      "No, it hasn't snowed."
+    ],
+    "correct_answer": "Yes, it had snowed."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O bana ulaşmadan önce yola çıkmıştım.",
+    "correct_answer": "I had left before he reached me.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "She had already seen the movie.",
+    "correct_answer": "O filmi zaten görmüştü.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ finished their work before the deadline.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Had he finished the book before the meeting?",
+    "choices": [
+      "Yes, he had finished the book.",
+      "No, he didn't finish the book.",
+      "Yes, he wasn't finishing the book.",
+      "No, he hasn't finished the book."
+    ],
+    "correct_answer": "Yes, he had finished the book."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Bana gelmeden önce bir şeyler yapmıştım.",
+    "correct_answer": "I had done something before coming to me.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "We had traveled to many countries before.",
+    "correct_answer": "Birçok ülkeye seyahat etmiştik daha önce.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ visited that museum before.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Had you met her before?",
+    "choices": [
+      "Yes, I had met her before.",
+      "No, I didn't meet her before.",
+      "Yes, I wasn't meeting her before.",
+      "No, I haven't met her before."
+    ],
+    "correct_answer": "Yes, I had met her before."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ona yazmadan önce düşünmüştüm.",
+    "correct_answer": "I had thought before writing to him.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They had already completed the task.",
+    "correct_answer": "Onlar görevi zaten tamamlamıştı.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ heard the answer before the conclusion.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Had she ever traveled abroad?",
+    "choices": [
+      "Yes, she had traveled abroad.",
+      "No, she didn't travel abroad.",
+      "Yes, she was traveling abroad.",
+      "No, she hasn't traveled abroad."
+    ],
+    "correct_answer": "Yes, she had traveled abroad."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Müsait olmadan önce aramamıştım.",
+    "correct_answer": "I had not called before he was available.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I had never seen such a thing.",
+    "correct_answer": "Böyle bir şey hiç görmemiştim.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ never felt that way before.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Had they moved into the new house?",
+    "choices": [
+      "Yes, they had moved into the new house.",
+      "No, they didn't move into the new house.",
+      "Yes, they were moving into the new house.",
+      "No, they haven't moved into the new house."
+    ],
+    "correct_answer": "Yes, they had moved into the new house."
+  }
+]

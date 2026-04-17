@@ -1,0 +1,292 @@
+[
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ben dün sinemaya gittim.",
+    "correct_answer": "I went to the cinema yesterday.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They played football last night.",
+    "correct_answer": "Onlar dün gece futbol oynadı.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ a new car.",
+    "correct_answer": "bought",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Did you see him?",
+    "choices": [
+      "Evet, onu gördüm.",
+      "Hayır, onu görmedim.",
+      "Ben onu hiç görmedim.",
+      "Onu gördün mü?"
+    ],
+    "correct_answer": "Evet, onu gördüm."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O hediye hoşuna gitmedi.",
+    "correct_answer": "She did not like the gift.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "We did not know the answer.",
+    "correct_answer": "Cevabı bilmiyorduk.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ not eat breakfast.",
+    "correct_answer": "did",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Did she like the gift?",
+    "choices": [
+      "Evet, hediyeyi sevdi.",
+      "Hayır, hediyeyi sevmiyor.",
+      "O hediyeyi beğenmedi.",
+      "Onun hediyesi var mı?"
+    ],
+    "correct_answer": "Evet, hediyeyi sevdi."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Biz bu filmi izledik.",
+    "correct_answer": "We watched this movie.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "He did not come to the party.",
+    "correct_answer": "Partiye gelmedi.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ football last night.",
+    "correct_answer": "played",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "I went to the shop yesterday.",
+    "choices": [
+      "Dün dükkana gittim.",
+      "Gittin mi dükkana?",
+      "Onlar dükkanı aradı.",
+      "Herkes dükkanı sevdi."
+    ],
+    "correct_answer": "Dün dükkana gittim."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ben onu görmedim.",
+    "correct_answer": "I did not see him.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "She bought a new car.",
+    "correct_answer": "Yeni bir araba aldı.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He ___ not go to school.",
+    "correct_answer": "did",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Did you go to the party?",
+    "choices": [
+      "Hayır, gitmedim.",
+      "Evet, gittim.",
+      "Ben oradaydım.",
+      "Hediyenizi seçtik."
+    ],
+    "correct_answer": "Evet, gittim."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlar dün gece film izlediler.",
+    "correct_answer": "They watched a movie last night.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I did not eat lunch.",
+    "correct_answer": "Öğle yemeği yemedim.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ her homework.",
+    "correct_answer": "finished",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "You went to the store.",
+    "choices": [
+      "Sen dükkana gittin.",
+      "Sen hiç gitmedin.",
+      "Dükkan kapalıydı.",
+      "Birisi dükkan açtı."
+    ],
+    "correct_answer": "Sen dükkana gittin."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ben çok kitap okudum.",
+    "correct_answer": "I read a lot of books.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They did not finish the project.",
+    "correct_answer": "Projeyi bitirmediler.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He ___ not like pizza.",
+    "correct_answer": "did",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Did she finish her work?",
+    "choices": [
+      "Hayır, işi bitirmedi.",
+      "Evet, işim tamamdır.",
+      "Onun işini yaptık.",
+      "Çalışmadın mı?"
+    ],
+    "correct_answer": "Hayır, işi bitirmedi."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Hava güzeldi.",
+    "correct_answer": "The weather was nice.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I worked hard last year.",
+    "correct_answer": "Geçen yıl çok çalıştım.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ to London last summer.",
+    "correct_answer": "went",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Did you see the movie?",
+    "choices": [
+      "Evet, filmi izledim.",
+      "Hayır, görmedim.",
+      "Ben filmleri severim.",
+      "O filmi izledi."
+    ],
+    "correct_answer": "Evet, filmi izledim."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ali bu kitabı okudu.",
+    "correct_answer": "Ali read this book.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "We did not travel last year.",
+    "correct_answer": "Geçen yıl seyahat etmedik.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ her keys.",
+    "correct_answer": "lost",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "He went to the party.",
+    "choices": [
+      "Hediyemi verdim.",
+      "O partiye gitti.",
+      "Onlar gelmedi.",
+      "Sen orada mıydın?"
+    ],
+    "correct_answer": "O partiye gitti."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O, okuldan sonra geldi.",
+    "correct_answer": "He came after school.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I did not buy anything.",
+    "correct_answer": "Hiçbir şey almadım.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ a great time.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Did he call you?",
+    "choices": [
+      "Evet, aradı.",
+      "Hayır, aramadı.",
+      "Ben çağırmadım.",
+      "Onun numarası yok."
+    ],
+    "correct_answer": "Evet, aradı."
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Biz hiç kahve içmedik.",
+    "correct_answer": "We did not drink any coffee.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "She forgot her bag.",
+    "correct_answer": "Çantasını unuttu.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ to the concert last week.",
+    "correct_answer": "went",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Did they buy a new house?",
+    "choices": [
+      "Evet, yeni bir ev aldılar.",
+      "Hayır, ev almadılar.",
+      "Onlar evi sevmedi.",
+      "Yeni ev gördüm."
+    ],
+    "correct_answer": "Evet, yeni bir ev aldılar."
+  }
+]

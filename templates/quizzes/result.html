@@ -43,20 +43,34 @@
     <div class="example-item neg">
         <div class="en">{{ q.prompt }}</div>
         <div style="margin-top:0.35rem; font-size:0.85rem;">
-            <span style="color:var(--danger);">{% trans "Senin:" %} {{ q.user_answer|default:"(boş)" }}</span> ·
+            <span style="color:var(--danger);">{% trans "Senin:" %} {% if q.user_answer %}{{ q.user_answer }}{% else %}{% trans "(boş)" %}{% endif %}</span> ·
             <span style="color:var(--success);"><strong>{% trans "Doğrusu:" %} {{ q.correct_answer }}</strong></span>
         </div>
     </div>
     {% endfor %}
     {% endif %}
 
+    <div class="card mt-3" style="text-align:center; background:linear-gradient(135deg, rgba(99,102,241,.08), rgba(139,92,246,.08));">
+        <div style="font-size:2.2rem;">✨</div>
+        <div style="font-weight:700; margin-top:0.25rem; font-size:1.1rem;">{% trans "Yeni AI Quiz Oluştur" %}</div>
+        <small class="muted" style="display:block; margin-bottom:0.75rem;">
+            {% trans "Bu konuyu bitirdin. AI senin için yepyeni bir quiz hazırlasın mı?" %}
+        </small>
+        <form method="post" action="{% if session.topic %}{% url generate_url_name slug=session.topic.slug %}{% else %}{% url generate_url_name %}{% endif %}" style="margin:0;">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-lg" onclick="this.innerText='⏳ {% trans "AI üretiyor..." %}'; this.disabled=true; this.form.submit();">
+                ⚡ {% trans "Yeni Quiz Başlat" %}
+            </button>
+        </form>
+    </div>
+
     <div class="btn-row mt-3">
         {% if session.kind == 'topic' and session.topic %}
-            <a href="{% url 'quizzes:topic_picker' session.topic.slug %}" class="btn btn-lg" style="flex:1;">{% trans "Quizlere dön" %}</a>
-            <a href="{% url 'topics:detail' session.topic.slug %}" class="btn btn-secondary">{% trans "Konu" %}</a>
+            <a href="{% url 'quizzes:topic_picker' session.topic.slug %}" class="btn btn-secondary" style="flex:1;">{% trans "Quizlere dön" %}</a>
+            <a href="{% url 'topics:detail' session.topic.slug %}" class="btn btn-ghost">{% trans "Konu" %}</a>
         {% else %}
-            <a href="{% url 'quizzes:word_picker' %}" class="btn btn-lg" style="flex:1;">{% trans "Quizlere dön" %}</a>
-            <a href="{% url 'vocabulary:list' %}" class="btn btn-secondary">{% trans "Kelimeler" %}</a>
+            <a href="{% url 'quizzes:word_picker' %}" class="btn btn-secondary" style="flex:1;">{% trans "Quizlere dön" %}</a>
+            <a href="{% url 'vocabulary:list' %}" class="btn btn-ghost">{% trans "Kelimeler" %}</a>
         {% endif %}
     </div>
 </div>

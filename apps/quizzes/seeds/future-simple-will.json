@@ -1,0 +1,269 @@
+[
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Bu akşam sinemaya gideceğim.",
+    "correct_answer": "I will go to the cinema tonight.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "She will help us.",
+    "correct_answer": "Bize yardım edecek.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ play football tomorrow.",
+    "correct_answer": "will",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Will you finish the project?",
+    "correct_answer": "Yes, I will finish it.",
+    "choices": [
+      "No, I will not do it.",
+      "Yes, I will finish it.",
+      "Maybe I will help.",
+      "I will finish tomorrow."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Yarın yağmur yağmayacak.",
+    "correct_answer": "It will not rain tomorrow.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "Will they come to the party?",
+    "correct_answer": "Partiye gelecekler mi?",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ call you later.",
+    "correct_answer": "will",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Will he visit us?",
+    "correct_answer": "Yes, he will visit us.",
+    "choices": [
+      "No, he will not visit us.",
+      "Yes, he will visit us.",
+      "I hope he visits.",
+      "He will visit next week."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Seni unutmayacağım.",
+    "correct_answer": "I will not forget you.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "We will be there on time.",
+    "correct_answer": "Zamanında orada olacağız.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ not come to the class.",
+    "correct_answer": "will",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Will you marry me?",
+    "correct_answer": "Yes, I will marry you.",
+    "choices": [
+      "No, I will not marry you.",
+      "Yes, I will marry you.",
+      "I am not sure.",
+      "Maybe in the future."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlar bu yaz tatile gidecek.",
+    "correct_answer": "They will go on vacation this summer.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "It will snow next week.",
+    "correct_answer": "Gelecek hafta kar yağacak.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ arrive late.",
+    "correct_answer": "will not",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Will it rain tomorrow?",
+    "correct_answer": "No, it will be sunny.",
+    "choices": [
+      "Yes, it will rain.",
+      "No, it will be sunny.",
+      "I don’t know yet.",
+      "Maybe in the evening."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "O, yarın bizi arayacak.",
+    "correct_answer": "He will call us tomorrow.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "We will eat at the new restaurant.",
+    "correct_answer": "Yeni restoranda yemek yiyeceğiz.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ not be late.",
+    "correct_answer": "will",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Will she be at the meeting?",
+    "correct_answer": "Yes, she will be there.",
+    "choices": [
+      "No, she will not be there.",
+      "Yes, she will be there.",
+      "Maybe she will come.",
+      "She will arrive later."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Ödevimi yapacağım.",
+    "correct_answer": "I will do my homework.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "They will join us for dinner.",
+    "correct_answer": "Akşam yemeğine bize katılacaklar.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ help him tomorrow.",
+    "correct_answer": "will",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Will you go to the beach?",
+    "correct_answer": "Yes, I will go.",
+    "choices": [
+      "No, I will stay home.",
+      "Yes, I will go.",
+      "Maybe I will go later.",
+      "I will think about it."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Yarın toplantım yok.",
+    "correct_answer": "I will not have a meeting tomorrow.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "We will travel next month.",
+    "correct_answer": "Gelecek ay seyahat edeceğiz.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He ___ call you later.",
+    "correct_answer": "will",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Will they start the project?",
+    "correct_answer": "Yes, they will start it.",
+    "choices": [
+      "No, they will postpone it.",
+      "Yes, they will start it.",
+      "Maybe they will wait.",
+      "They will finish it."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Onlar bu kış kayak yapacak.",
+    "correct_answer": "They will ski this winter.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I will read the book.",
+    "correct_answer": "Kitabı okuyacağım.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ not forget this.",
+    "correct_answer": "will",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Will she finish the report?",
+    "correct_answer": "Yes, she will finish it.",
+    "choices": [
+      "No, she will not finish it.",
+      "Yes, she will finish it.",
+      "I hope she will.",
+      "She might need help."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Hava güzel olacak.",
+    "correct_answer": "The weather will be nice.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_en_tr",
+    "prompt": "I will see you soon.",
+    "correct_answer": "Seni yakında göreceğim.",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ go to the concert.",
+    "correct_answer": "will",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Will it be cold tomorrow?",
+    "correct_answer": "Yes, it will be cold.",
+    "choices": [
+      "No, it will be hot.",
+      "Yes, it will be cold.",
+      "Maybe it will be warm.",
+      "It might rain."
+    ]
+  },
+  {
+    "question_type": "translate_tr_en",
+    "prompt": "Biz bu akşam dışarı çıkacağız.",
+    "correct_answer": "We will go out tonight.",
+    "choices": null
+  }
+]
