@@ -21,6 +21,29 @@
     </a>
 </section>
 
+<div class="stats-grid">
+    <div class="stat-tile theme-indigo">
+        <div class="stat-tile-label">{% trans "Kelime" %}</div>
+        <div class="stat-tile-value">{{ total_words }}</div>
+        <div class="stat-tile-sub">{% trans "Toplam kayıt" %}</div>
+    </div>
+    <div class="stat-tile theme-teal">
+        <div class="stat-tile-label">{% trans "Konular" %}</div>
+        <div class="stat-tile-value">{{ done_topics }}<span style="opacity:0.6; font-size:0.55em;">/{{ total_topics }}</span></div>
+        <div class="stat-tile-sub">{{ topic_percent }}% {% trans "tamamlandı" %}</div>
+    </div>
+    <div class="stat-tile theme-green">
+        <div class="stat-tile-label">{% trans "Hazine" %}</div>
+        <div class="stat-tile-value">{{ bank_mastered }}</div>
+        <div class="stat-tile-sub">{% trans "öğrenilen kelime" %}</div>
+    </div>
+    <div class="stat-tile theme-pink">
+        <div class="stat-tile-label">{% trans "Quiz" %}</div>
+        <div class="stat-tile-value">{{ recent_quizzes|length }}</div>
+        <div class="stat-tile-sub">{% trans "son bitirilen" %}</div>
+    </div>
+</div>
+
 {% if bank_total %}
 <a href="{% url 'wordbank:levels' %}" class="bank-banner" style="text-decoration:none;">
     <div class="bank-banner-icon">📚</div>
@@ -35,29 +58,6 @@
 </a>
 {% endif %}
 
-<div class="stats-grid">
-    <div class="stat">
-        <div class="stat-label">{% trans "Kelime" %}</div>
-        <div class="stat-value">{{ total_words }}</div>
-        <div class="stat-sub">{% trans "Toplam kayıt" %}</div>
-    </div>
-    <div class="stat">
-        <div class="stat-label">{% trans "Konular" %}</div>
-        <div class="stat-value">{{ done_topics }}<span style="color:var(--text-soft); font-size:0.7em;">/{{ total_topics }}</span></div>
-        <div class="progress success"><div class="progress-fill" style="width: {{ topic_percent }}%"></div></div>
-    </div>
-    <div class="stat">
-        <div class="stat-label">{% trans "İlerleme" %}</div>
-        <div class="stat-value">{{ topic_percent }}<span style="color:var(--text-soft); font-size:0.6em;">%</span></div>
-        <div class="stat-sub">{% trans "Tamamlanan konu" %}</div>
-    </div>
-    <div class="stat">
-        <div class="stat-label">{% trans "Quiz" %}</div>
-        <div class="stat-value">{{ recent_quizzes|length }}</div>
-        <div class="stat-sub">{% trans "Son bitirilen" %}</div>
-    </div>
-</div>
-
 <div class="card mb-2" style="padding:1rem 1.25rem;">
     <div class="section-title" style="margin-top:0;">{% trans "Haftalık İlerleme" %}</div>
     {% if chart.has_data %}
@@ -70,26 +70,38 @@
 </div>
 
 <div class="section-title">{% trans "Hızlı Başla" %}</div>
-<div class="actions-grid">
-    <a href="{% url 'vocabulary:bulk_add' %}" class="action-card">
-        <div class="action-card-icon">＋</div>
-        <div class="action-card-title">{% trans "Kelime ekle" %}</div>
-        <div class="action-card-desc">{% trans "AI ile toplu çeviri" %}</div>
+<div class="feature-grid">
+    <a href="{% url 'vocabulary:bulk_add' %}" class="feature-card theme-vocabulary">
+        <div class="feature-card-icon"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></div>
+        <div class="feature-card-body">
+            <div class="feature-card-title">{% trans "Kelime ekle" %}</div>
+            <div class="feature-card-sub">{% trans "AI ile toplu çeviri" %}</div>
+        </div>
+        <div class="feature-card-arrow">→</div>
     </a>
-    <a href="{% url 'wordbank:levels' %}" class="action-card">
-        <div class="action-card-icon success">⚡</div>
-        <div class="action-card-title">{% trans "Kelime Hazinesi" %}</div>
-        <div class="action-card-desc">{% trans "Seviye seç, çalış" %}</div>
+    <a href="{% url 'wordbank:levels' %}" class="feature-card theme-wordbank">
+        <div class="feature-card-icon"><svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+        <div class="feature-card-body">
+            <div class="feature-card-title">{% trans "Kelime Hazinesi" %}</div>
+            <div class="feature-card-sub">{% trans "A1'den C2'ye seviyeli quiz" %}</div>
+        </div>
+        <div class="feature-card-arrow">→</div>
     </a>
-    <a href="{% url 'topics:list' %}" class="action-card">
-        <div class="action-card-icon accent">📚</div>
-        <div class="action-card-title">{% trans "Konu çalış" %}</div>
-        <div class="action-card-desc">{% trans "Zamanlar ve daha fazlası" %}</div>
+    <a href="{% url 'topics:list' %}" class="feature-card theme-topics">
+        <div class="feature-card-icon"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg></div>
+        <div class="feature-card-body">
+            <div class="feature-card-title">{% trans "Gramer Konuları" %}</div>
+            <div class="feature-card-sub">{% trans "Tense, modal, conditional" %}</div>
+        </div>
+        <div class="feature-card-arrow">→</div>
     </a>
-    <a href="{% url 'chat:page' %}" class="action-card">
-        <div class="action-card-icon warning">💬</div>
-        <div class="action-card-title">{% trans "AI ile pratik" %}</div>
-        <div class="action-card-desc">{% trans "Canlı sohbet" %}</div>
+    <a href="{% url 'chat:page' %}" class="feature-card theme-chat">
+        <div class="feature-card-icon"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <div class="feature-card-body">
+            <div class="feature-card-title">{% trans "AI ile pratik" %}</div>
+            <div class="feature-card-sub">{% trans "Canlı sohbet, TR/EN" %}</div>
+        </div>
+        <div class="feature-card-arrow">→</div>
     </a>
 </div>
 
@@ -99,7 +111,7 @@
     {% for t in pending_topics %}
     <a href="{% url 'topics:detail' t.slug %}" class="topic-card">
         <div class="topic-name">{{ t.name }}</div>
-        <span class="badge badge-primary">{% trans "çalış" %} →</span>
+        <span class="chip">{% trans "çalış" %} →</span>
     </a>
     {% endfor %}
 </div>
@@ -116,7 +128,7 @@
             </div>
             <small>{{ q.finished_at|date:"d M · H:i" }}</small>
         </div>
-        <span class="badge {% if q.score_percent >= 70 %}badge-success{% elif q.score_percent >= 40 %}badge-primary{% else %}badge-danger{% endif %}">
+        <span class="chip {% if q.score_percent >= 70 %}theme-green{% elif q.score_percent >= 40 %}{% else %}theme-pink{% endif %}">
             {{ q.correct_count }}/{{ q.answered_count }} · {{ q.score_percent }}%
         </span>
     </div>

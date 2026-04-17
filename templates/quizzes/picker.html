@@ -3,16 +3,18 @@
 {% block title %}{{ title }}{% endblock %}
 
 {% block content %}
-<div class="page-header">
-    <div>
-        {% if topic %}
-        <a href="{% url 'topics:detail' topic.slug %}" class="muted" style="font-size:0.85rem;">← {{ topic.name }}</a>
-        {% endif %}
-        <h2 style="margin-top:0.25rem;">{{ title }}</h2>
+<section class="feature-hero theme-quiz">
+    <div class="feature-hero-row">
+        <div class="feature-hero-icon">⚡</div>
+        <div style="flex:1; min-width:200px;">
+            {% if topic %}
+            <a href="{% url 'topics:detail' topic.slug %}" style="color:rgba(255,255,255,0.85); font-size:0.85rem; text-decoration:none;">← {{ topic.name }}</a>
+            {% endif %}
+            <h2 class="feature-hero-title" style="margin-top:0.2rem;">{{ title }}</h2>
+            <p class="feature-hero-sub">{{ subtitle }}</p>
+        </div>
     </div>
-</div>
-
-<p class="muted">{{ subtitle }}</p>
+</section>
 
 {% if templates %}
 <div class="list">

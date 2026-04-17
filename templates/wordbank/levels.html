@@ -3,12 +3,16 @@
 {% block title %}{% trans "Kelime Hazinesi" %}{% endblock %}
 
 {% block content %}
-<div class="page-header">
-    <div>
-        <h2>{% trans "Kelime Hazinesi" %}</h2>
-        <p class="muted" style="margin:0; font-size:0.92rem;">{% trans "Her seviyede sırayla ilerle · Yanlışların otomatik geri döner" %}</p>
+<section class="feature-hero theme-wordbank">
+    <div class="feature-hero-row">
+        <div class="feature-hero-icon">📚</div>
+        <div style="flex:1; min-width:200px;">
+            <h2 class="feature-hero-title">{% trans "Kelime Hazinesi" %}</h2>
+            <p class="feature-hero-sub">{% trans "Oxford A1–C2 kelimeleri · Her seviyede sırayla ilerle" %}</p>
+        </div>
+        <div class="feature-hero-meta">🔁 {% trans "Yanlışlar otomatik döner" %}</div>
     </div>
-</div>
+</section>
 
 <div class="list mt-2">
     {% for l in levels %}

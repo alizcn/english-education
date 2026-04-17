@@ -3,20 +3,17 @@
 {% block title %}{% trans "Konular" %}{% endblock %}
 
 {% block content %}
-<div class="page-header">
-    <h2>{% trans "Gramer Konuları" %}</h2>
-</div>
-
-<div class="card mb-2">
-    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
-        <div>
-            <div style="font-weight:700; font-size:1.1rem;">{{ done }} / {{ total }}</div>
-            <small class="muted">{% trans "konu tamamlandı" %}</small>
+<section class="feature-hero theme-topics">
+    <div class="feature-hero-row">
+        <div class="feature-hero-icon">📚</div>
+        <div style="flex:1; min-width:200px;">
+            <h2 class="feature-hero-title">{% trans "Gramer Konuları" %}</h2>
+            <p class="feature-hero-sub">{% blocktrans with done=done total=total %}{{ done }} / {{ total }} konu tamamlandı{% endblocktrans %}</p>
         </div>
-        <div style="font-size:1.5rem; font-weight:800; color:var(--primary);">{{ percent }}%</div>
+        <div class="feature-hero-meta">🎯 {{ percent }}%</div>
     </div>
-    <div class="progress success"><div class="progress-fill" style="width: {{ percent }}%"></div></div>
-</div>
+    <div class="progress success" style="margin-top:1rem; background:rgba(255,255,255,0.22);"><div class="progress-fill" style="width: {{ percent }}%; background:rgba(255,255,255,0.9);"></div></div>
+</section>
 
 <div class="list">
     {% for t in topics %}

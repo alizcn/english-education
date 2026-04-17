@@ -3,11 +3,19 @@
 {% block title %}{% trans "Kelimelerim" %}{% endblock %}
 
 {% block content %}
-<div class="page-header">
-    <div>
-        <h2>{% trans "Kelimelerim" %}</h2>
-        {% blocktrans with count=words|length %}<small class="muted">{{ count }} kayıt</small>{% endblocktrans %}
+<section class="feature-hero theme-vocabulary">
+    <div class="feature-hero-row">
+        <div class="feature-hero-icon">📖</div>
+        <div style="flex:1; min-width:200px;">
+            <h2 class="feature-hero-title">{% trans "Kelimelerim" %}</h2>
+            <p class="feature-hero-sub">{% blocktrans with count=words|length %}{{ count }} kayıt · AI ile anlam, örnek cümle ve telaffuz{% endblocktrans %}</p>
+        </div>
+        <div class="feature-hero-meta">🎯 {{ stats.percent }}%</div>
     </div>
+</section>
+
+<div class="page-header theme-vocabulary" style="margin-bottom:1rem;">
+    <div></div>
     <div class="btn-row">
         {% if stats.total >= 4 %}
         <a href="{% url 'vocabulary:quiz' %}" class="btn btn-secondary btn-sm">{% trans "Quiz çalış" %}</a>
