@@ -133,8 +133,10 @@ small { color: var(--text-muted); font-size: 0.85rem; }
 .brand-dot { color: var(--primary); }
 
 .brand-img {
-    height: 36px;
+    height: 34px;
+    width: auto;
     object-fit: contain;
+    display: block;
 }
 
 .topnav { display: none; gap: 0.25rem; }
@@ -2027,3 +2029,18 @@ label input, label textarea, label select { margin-top: 0.3rem; }
 
 .empty p { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1rem; }
 
+
+/* ========= HIREUP LOGO ========= */
+
+.hireup-svg { max-width: 100%; }
+
+/* When logo sits on a dark/gradient hero — turn everything white */
+.hireup-on-dark .hireup-svg text,
+.hireup-on-dark .hireup-svg path,
+.hireup-on-dark .hireup-svg line,
+.hireup-on-dark .hireup-svg rect {
+    fill: #ffffff !important;
+    stroke: #ffffff !important;
+}
+.hireup-on-dark .hireup-svg circle { fill: rgba(255,255,255,0.8) !important; }
+.hireup-on-dark .hireup-svg text tspan { fill: #ffffff !important; }

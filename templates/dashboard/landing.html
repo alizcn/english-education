@@ -8,12 +8,13 @@
     <meta name="theme-color" content="#4f46e5">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link rel="manifest" href="{% static 'manifest.json' %}">
-    <link rel="icon" href="{% static 'icons/logo.png' %}" type="image/png">
+    <link rel="icon" href="{% static 'icons/hireup-mark.svg' %}" type="image/svg+xml">
+    <link rel="alternate icon" href="{% static 'icons/logo.png' %}" type="image/png">
     <link rel="apple-touch-icon" href="{% static 'icons/logo.png' %}">
     <title>HireUp — {% trans "Level Up Your Interview Game" %}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/app.css' %}">
 </head>
 <body class="landing-body">
@@ -21,7 +22,9 @@
 <!-- Navbar -->
 <nav class="landing-nav">
     <div class="landing-nav-inner">
-        <img src="{% static 'icons/logo.png' %}" alt="Logo" class="landing-nav-logo">
+        <a href="{% url 'dashboard:home' %}" class="landing-nav-logo" aria-label="HireUp" style="text-decoration:none;">
+            {% include '_hireup_logo.html' with logo_height="40px" %}
+        </a>
         <div class="landing-nav-right">
             <form method="post" action="{% url 'set_language' %}" class="lang-switcher">
                 {% csrf_token %}
@@ -226,7 +229,9 @@
 </section>
 
 <footer class="landing-footer">
-    <img src="{% static 'icons/logo.png' %}" alt="" style="height:28px; opacity:0.4; margin-bottom:0.5rem;">
+    <div style="opacity:0.75; margin-bottom:0.5rem; display:flex; justify-content:center;">
+        {% include '_hireup_logo.html' with logo_height="32px" %}
+    </div>
     <small>{% trans "Practice English for Your Career." %}</small>
     <div class="footer-bottom">
         <small>© 2026 HireUp. {% trans "Tüm hakları saklıdır." %}</small>

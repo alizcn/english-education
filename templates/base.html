@@ -10,20 +10,21 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="HireUp">
     <link rel="manifest" href="{% static 'manifest.json' %}">
-    <link rel="icon" href="{% static 'icons/logo.png' %}" type="image/png">
+    <link rel="icon" href="{% static 'icons/hireup-mark.svg' %}" type="image/svg+xml">
+    <link rel="alternate icon" href="{% static 'icons/logo.png' %}" type="image/png">
     <link rel="apple-touch-icon" href="{% static 'icons/logo.png' %}">
     <title>{% block title %}HireUp{% endblock %} · {% trans "Level Up Your Interview Game" %}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/app.css' %}">
 </head>
 <body>
 
 <header class="topbar">
     <div class="topbar-inner">
-        <a href="{% url 'dashboard:home' %}" class="brand">
-            <img src="{% static 'icons/logo.png' %}" alt="Logo" class="brand-img">
+        <a href="{% url 'dashboard:home' %}" class="brand" aria-label="HireUp">
+            {% include '_hireup_logo.html' with logo_height="38px" %}
         </a>
         <nav class="topnav">
             <a href="{% url 'dashboard:home' %}" class="topnav-link {% if request.resolver_match.url_name == 'home' %}active{% endif %}">{% trans "Ana Sayfa" %}</a>
