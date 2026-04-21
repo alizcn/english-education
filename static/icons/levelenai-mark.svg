@@ -1,18 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="HireUp">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Levelenai">
   <defs>
-    <linearGradient id="hum-grad" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="lem-grad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#4f46e5"/>
       <stop offset="55%" stop-color="#8b5cf6"/>
       <stop offset="100%" stop-color="#ec4899"/>
     </linearGradient>
-    <linearGradient id="hum-shine" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="lem-shine" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.42"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect x="0" y="0" width="64" height="64" rx="18" fill="url(#hum-grad)"/>
-  <rect x="0" y="0" width="64" height="24" rx="18" fill="url(#hum-shine)"/>
+  <rect x="0" y="0" width="64" height="64" rx="18" fill="url(#lem-grad)"/>
+  <rect x="0" y="0" width="64" height="24" rx="18" fill="url(#lem-shine)"/>
   <path d="M 18 42 L 32 24 L 46 42" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   <path d="M 32 24 L 32 52" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" fill="none"/>
-  <circle cx="54" cy="20" r="3.5" fill="#ffffff" opacity="0.92"/>
+  <path d="M 50 14 L 51.4 18.6 L 56 20 L 51.4 21.4 L 50 26 L 48.6 21.4 L 44 20 L 48.6 18.6 Z" fill="#ffffff" opacity="0.95"/>
 </svg>

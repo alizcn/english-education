@@ -1,7 +1,7 @@
 {
-  "name": "HireUp — Level Up Your Interview Game",
-  "short_name": "HireUp",
-  "description": "Practice. Prepare. Get Hired.",
+  "name": "Levelenai — Level up your English. Land the interview.",
+  "short_name": "Levelenai",
+  "description": "AI-coached interview prep for Turkish developers.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",

@@ -8,10 +8,10 @@
     <meta name="theme-color" content="#4f46e5">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link rel="manifest" href="{% static 'manifest.json' %}">
-    <link rel="icon" href="{% static 'icons/hireup-mark.svg' %}" type="image/svg+xml">
+    <link rel="icon" href="{% static 'icons/levelenai-mark.svg' %}" type="image/svg+xml">
     <link rel="alternate icon" href="{% static 'icons/logo.png' %}" type="image/png">
     <link rel="apple-touch-icon" href="{% static 'icons/logo.png' %}">
-    <title>HireUp — {% trans "Level Up Your Interview Game" %}</title>
+    <title>Levelenai — {% trans "Level up your English. Land the interview." %}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Pacifico&display=swap" rel="stylesheet">
@@ -22,8 +22,8 @@
 <!-- Navbar -->
 <nav class="landing-nav">
     <div class="landing-nav-inner">
-        <a href="{% url 'dashboard:home' %}" class="landing-nav-logo" aria-label="HireUp" style="text-decoration:none;">
-            {% include '_hireup_logo.html' with logo_height="40px" %}
+        <a href="{% url 'dashboard:home' %}" class="landing-nav-logo" aria-label="Levelenai" style="text-decoration:none;">
+            {% include '_levelenai_logo.html' with logo_height="40px" %}
         </a>
         <div class="landing-nav-right">
             <form method="post" action="{% url 'set_language' %}" class="lang-switcher">
@@ -52,6 +52,7 @@
                     {% trans "Hayalindeki işe" %}
                     <span class="l-highlight">{% trans "İngilizce hazırlan." %}</span>
                 </h1>
+                <p class="l-hero-slogan" style="font-weight:700; color:var(--primary); margin-bottom:0.5rem;">{% trans "İngilizceni seviye atlat. Mülakatı kap." %}</p>
                 <p class="l-hero-desc">{% trans "Pozisyonuna özel mülakat soruları, 5500+ kelime, gramer ve AI pratik — hepsi tek platformda." %}</p>
                 <div class="l-hero-ctas">
                     <a href="{% url 'accounts:signup' %}" class="btn btn-lg landing-btn-primary">{% trans "Hemen Başla" %} →</a>
@@ -60,7 +61,7 @@
             </div>
             <div class="fade-up delay-2">
                 <div class="l-preview-card">
-                    <h5 class="l-preview-title">{% trans "HireUp ile Hazırlan" %}</h5>
+                    <h5 class="l-preview-title">{% trans "Levelenai ile Hazırlan" %}</h5>
                     <div class="l-preview-item">
                         <span class="l-preview-icon icon-purple"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><path d="M20 8v6M23 11h-6"/></svg></span>
                         <div>
@@ -230,11 +231,11 @@
 
 <footer class="landing-footer">
     <div style="opacity:0.75; margin-bottom:0.5rem; display:flex; justify-content:center;">
-        {% include '_hireup_logo.html' with logo_height="32px" %}
+        {% include '_levelenai_logo.html' with logo_height="32px" %}
     </div>
-    <small>{% trans "Practice English for Your Career." %}</small>
+    <small>{% trans "AI-coached interview prep for Turkish developers." %}</small>
     <div class="footer-bottom">
-        <small>© 2026 HireUp. {% trans "Tüm hakları saklıdır." %}</small>
+        <small>© 2026 Levelenai. {% trans "Tüm hakları saklıdır." %}</small>
         <div class="codezzium-badge">
             {% trans "Bir" %}
             <img src="{% static 'icons/codezzium-logo.png' %}" alt="Codezzium" height="18" style="vertical-align: middle;">

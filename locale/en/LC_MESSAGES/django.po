@@ -313,11 +313,14 @@ msgstr "Turkish"
 msgid "English"
 msgstr "English"
 
-msgid "Level Up Your Interview Game."
-msgstr "Level Up Your Interview Game."
+msgid "Level up your English. Land the interview."
+msgstr "Level up your English. Land the interview."
 
-msgid "Practice. Prepare. Get Hired."
-msgstr "Practice. Prepare. Get Hired."
+msgid "İngilizceni seviye atlat. Mülakatı kap."
+msgstr "Level up your English. Land the interview."
+
+msgid "AI-coached interview prep for Turkish developers."
+msgstr "AI-coached interview prep for Turkish developers."
 
 msgid "Giriş yap"
 msgstr "Log in"
@@ -343,8 +346,8 @@ msgstr "Create account"
 msgid "Zaten hesabın var mı?"
 msgstr "Already have an account?"
 
-msgid "Level Up Your Interview Game"
-msgstr "Level Up Your Interview Game"
+msgid "Levelenai"
+msgstr "Levelenai"
 
 msgid "Ana Sayfa"
 msgstr "Home"
@@ -527,8 +530,8 @@ msgstr ""
 msgid "Hemen Başla"
 msgstr "Start"
 
-msgid "HireUp ile Hazırlan"
-msgstr "Prepare with HireUp"
+msgid "Levelenai ile Hazırlan"
+msgstr "Prepare with Levelenai"
 
 msgid "Mülakat Soruları"
 msgstr "Interview Questions"
