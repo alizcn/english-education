@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %}{% trans "Profil" %}{% endblock %}
+
+{% block content %}
+<section class="feature-hero theme-dashboard">
+    <div class="feature-hero-row">
+        <div class="feature-hero-icon">👤</div>
+        <div style="flex:1; min-width:200px;">
+            <h2 class="feature-hero-title">{% trans "Profilim" %}</h2>
+            <p class="feature-hero-sub">{% trans "Bilgilerini görüntüle ve güncelle." %}</p>
+        </div>
+        <div class="feature-hero-meta">{{ request.user.username }}</div>
+    </div>
+</section>
+
+<div class="card" style="padding:1.5rem; max-width:560px; margin-inline:auto;">
+    <div style="display:flex; align-items:center; gap:1rem; margin-bottom:1.5rem;">
+        <div class="user-avatar" style="width:52px; height:52px; font-size:1.4rem;">{{ request.user.username|first|upper }}</div>
+        <div>
+            <div style="font-weight:700;">{{ request.user.username }}</div>
+            <small class="muted">{{ request.user.date_joined|date:"d M Y" }} {% trans "tarihinden beri" %}</small>
+        </div>
+    </div>
+
+    <form method="post" novalidate>
+        {% csrf_token %}
+        {% for field in form %}
+        <label style="display:block; margin-bottom:1rem;">
+            <span style="display:block; font-weight:600; margin-bottom:0.3rem;">{{ field.label }}</span>
+            {{ field }}
+            {% if field.errors %}<small class="flash-error" style="display:block; margin-top:0.25rem;">{{ field.errors|join:" " }}</small>{% endif %}
+        </label>
+        {% endfor %}
+        <div style="display:flex; gap:0.5rem; margin-top:1rem;">
+            <button type="submit" class="btn btn-lg" style="flex:1;">{% trans "Kaydet" %}</button>
+            <a href="{% url 'accounts:password_change' %}" class="btn btn-lg btn-ghost">{% trans "Şifre Değiştir" %}</a>
+        </div>
+    </form>
+</div>
+
+<div style="text-align:center; margin-top:1rem;">
+    <a href="{% url 'subscriptions:my' %}" class="btn">📦 {% trans "Paketlerim" %}</a>
+</div>
+{% endblock %}

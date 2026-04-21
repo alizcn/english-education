@@ -4,6 +4,7 @@ from django.shortcuts import get_object_or_404, redirect, render
 from django.utils.translation import gettext as _
 from django.views.decorators.http import require_POST
 
+from apps.subscriptions import access as sub_access
 from services import ai
 from .models import ChatConversation, ChatMessage
 
@@ -42,6 +43,11 @@ def send(request):
     if request.method != 'POST':
         return redirect('chat:page')
 
+    state = sub_access.get_state(request.user)
+    if not sub_access.can_use_chat(state):
+        messages.error(request, _('AI Chat deneme hakkın doldu. Devam etmek için bir paket seç.'))
+        return redirect('subscriptions:plans')
+
     text = request.POST.get('message', '').strip()
     if not text:
         return redirect('chat:page')
@@ -73,6 +79,7 @@ def send(request):
 
     ChatMessage.objects.create(conversation=conv, role=ChatMessage.ASSISTANT, content=reply)
     conv.save()
+    sub_access.record_chat_use(state)
     return redirect('chat:page')
 
 

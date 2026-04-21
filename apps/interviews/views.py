@@ -4,6 +4,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.utils.translation import gettext as _
 from django.views.decorators.http import require_POST
 
+from apps.subscriptions import access as sub_access
 from services import ai
 from .models import InterviewSession, JOB_CATEGORIES
 from .utils import extract_cv_text
@@ -33,6 +34,11 @@ def interview_list(request):
 @login_required
 @require_POST
 def interview_create(request):
+    state = sub_access.get_state(request.user)
+    if not sub_access.can_use_interview(state):
+        messages.error(request, _('Deneme hakkın doldu. Devam etmek için bir paket seç.'))
+        return redirect('subscriptions:plans')
+
     job_category = request.POST.get('job_category', '').strip()
     custom_title = request.POST.get('custom_title', '').strip()
 
@@ -63,6 +69,7 @@ def interview_create(request):
         custom_title=custom_title if job_category == 'custom' else '',
         questions_data=items,
     )
+    sub_access.record_interview_use(state)
     messages.success(
         request,
         _('%(count)d mülakat sorusu oluşturuldu.') % {'count': len(items)}
@@ -73,6 +80,11 @@ def interview_create(request):
 @login_required
 @require_POST
 def interview_create_cv(request):
+    state = sub_access.get_state(request.user)
+    if not sub_access.can_use_interview(state):
+        messages.error(request, _('Deneme hakkın doldu. Devam etmek için bir paket seç.'))
+        return redirect('subscriptions:plans')
+
     cv_file = request.FILES.get('cv_file')
     if not cv_file:
         messages.error(request, _('Lütfen bir CV dosyası yükleyin.'))
@@ -110,6 +122,7 @@ def interview_create_cv(request):
         cv_filename=cv_file.name,
         questions_data=items,
     )
+    sub_access.record_interview_use(state)
     messages.success(
         request,
         _('CV analiz edildi. %(count)d mülakat sorusu oluşturuldu.') % {'count': len(items)}

@@ -46,14 +46,48 @@
                 {% endif %}
             </form>
             {% if user.is_authenticated %}
-            <span class="user-chip">
-                <span class="user-avatar">{{ user.username|first }}</span>
-                <span style="display:none;" class="user-name">{{ user.username }}</span>
-            </span>
-            <form method="post" action="{% url 'accounts:logout' %}" class="logout-form">
-                {% csrf_token %}
-                <button type="submit" class="logout-btn" title="{% trans "Çıkış" %}">⎋</button>
-            </form>
+            <div class="user-menu" data-user-menu>
+                <button type="button" class="user-chip user-menu-trigger" data-user-menu-trigger aria-haspopup="true" aria-expanded="false">
+                    <span class="user-avatar">{{ user.username|first|upper }}</span>
+                    <span class="user-chip-name">{{ user.username }}</span>
+                    <svg class="user-chip-caret" viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                </button>
+                <div class="user-menu-dropdown" data-user-menu-panel role="menu">
+                    <div class="user-menu-header">
+                        <div class="user-avatar" style="width:40px; height:40px; font-size:1.1rem;">{{ user.username|first|upper }}</div>
+                        <div style="min-width:0;">
+                            <div class="user-menu-name">{{ user.username }}</div>
+                            {% if user_access.is_subscribed %}
+                            <div class="user-menu-sub">✓ {% trans "Aktif abonelik" %}</div>
+                            {% elif user_access.is_trial %}
+                            <div class="user-menu-sub">⏳ {% blocktrans with days=user_access.trial_days_left %}{{ days }} gün deneme{% endblocktrans %}</div>
+                            {% else %}
+                            <div class="user-menu-sub">{% trans "Paket yok" %}</div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <a href="{% url 'accounts:profile' %}" class="user-menu-item" role="menuitem">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                        {% trans "Profilim" %}
+                    </a>
+                    <a href="{% url 'subscriptions:my' %}" class="user-menu-item" role="menuitem">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+                        {% trans "Paketlerim" %}
+                    </a>
+                    <a href="{% url 'subscriptions:plans' %}" class="user-menu-item" role="menuitem">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v8M8 12h8"/></svg>
+                        {% trans "Paket Al" %}
+                    </a>
+                    <div class="user-menu-divider"></div>
+                    <form method="post" action="{% url 'accounts:logout' %}" class="user-menu-logout">
+                        {% csrf_token %}
+                        <button type="submit" class="user-menu-item user-menu-item-danger" role="menuitem">
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+                            {% trans "Çıkış Yap" %}
+                        </button>
+                    </form>
+                </div>
+            </div>
             {% endif %}
         </div>
     </div>
@@ -112,6 +146,34 @@
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/static/sw.js').catch(() => {});
 }
+
+(function() {
+    const menus = document.querySelectorAll('[data-user-menu]');
+    menus.forEach(menu => {
+        const trigger = menu.querySelector('[data-user-menu-trigger]');
+        const panel = menu.querySelector('[data-user-menu-panel]');
+        if (!trigger || !panel) return;
+        trigger.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const open = menu.classList.toggle('is-open');
+            trigger.setAttribute('aria-expanded', open ? 'true' : 'false');
+        });
+    });
+    document.addEventListener('click', (e) => {
+        menus.forEach(menu => {
+            if (!menu.contains(e.target)) {
+                menu.classList.remove('is-open');
+                const t = menu.querySelector('[data-user-menu-trigger]');
+                if (t) t.setAttribute('aria-expanded', 'false');
+            }
+        });
+    });
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            menus.forEach(menu => menu.classList.remove('is-open'));
+        }
+    });
+})();
 </script>
 </body>
 </html>

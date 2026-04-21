@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %}{% trans "Paketlerim" %}{% endblock %}
+
+{% block content %}
+<section class="feature-hero theme-quiz">
+    <div class="feature-hero-row">
+        <div class="feature-hero-icon">📦</div>
+        <div style="flex:1; min-width:200px;">
+            <h2 class="feature-hero-title">{% trans "Paketlerim" %}</h2>
+            <p class="feature-hero-sub">{% trans "Aktif aboneliğin ve geçmiş işlemlerin." %}</p>
+        </div>
+        {% if user_access.is_subscribed %}
+        <div class="feature-hero-meta">✓ {% trans "Aktif" %}</div>
+        {% endif %}
+    </div>
+</section>
+
+{% if user_access.is_subscribed and user_access.subscription %}
+<div class="card" style="padding:1.5rem; margin-bottom:1rem; border:2px solid var(--primary); border-radius:14px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:1rem;">
+        <div>
+            <span class="chip theme-green" style="margin-bottom:0.5rem; display:inline-block;">
+                {% if user_access.subscription.status == 'cancelled' %}
+                    {% trans "İptal edildi · süre sonunda biter" %}
+                {% else %}
+                    ✓ {% trans "Aktif" %}
+                {% endif %}
+            </span>
+            <h3 style="margin:0.3rem 0;">{{ user_access.subscription.plan.name }} — {{ user_access.subscription.plan.price_try|floatformat:0 }}₺</h3>
+            <p class="muted" style="margin:0;">
+                {% blocktrans with start=user_access.subscription.starts_at|date:"d M Y" end=user_access.subscription.expires_at|date:"d M Y" %}{{ start }} — {{ end }}{% endblocktrans %}
+            </p>
+        </div>
+        {% if user_access.subscription.status == 'active' %}
+        <form method="post" action="{% url 'subscriptions:cancel' user_access.subscription.pk %}"
+              onsubmit="return confirm('{% trans "Aboneliği iptal etmek istediğine emin misin? Erişimin süre sonuna kadar devam edecek." %}');">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-ghost">{% trans "İptal Et" %}</button>
+        </form>
+        {% elif user_access.subscription.status == 'cancelled' %}
+        <form method="post" action="{% url 'subscriptions:resume' user_access.subscription.pk %}">
+            {% csrf_token %}
+            <button type="submit" class="btn" style="background:linear-gradient(90deg,#4f46e5,#ec4899); color:white; border:none;">
+                ↻ {% trans "Devam Ettir" %}
+            </button>
+        </form>
+        {% endif %}
+    </div>
+</div>
+{% else %}
+<div class="card" style="padding:1.5rem; margin-bottom:1rem; text-align:center;">
+    <p class="muted" style="margin-bottom:1rem;">{% trans "Aktif aboneliğin yok." %}</p>
+    <a href="{% url 'subscriptions:plans' %}" class="btn btn-lg" style="background:linear-gradient(90deg,#4f46e5,#ec4899); color:white; border:none;">
+        {% trans "Paketleri Gör" %} →
+    </a>
+</div>
+{% endif %}
+
+{% if subscriptions %}
+<div class="section-title">{% trans "Tüm Aboneliklerim" %}</div>
+<div class="list">
+    {% for s in subscriptions %}
+    <div class="list-item" style="display:flex; justify-content:space-between; align-items:center;">
+        <div>
+            <div style="font-weight:600;">{{ s.plan.name }}</div>
+            <small class="muted">
+                {{ s.created_at|date:"d M Y" }} ·
+                {% if s.starts_at %}{{ s.starts_at|date:"d M" }} → {{ s.expires_at|date:"d M Y" }}{% else %}—{% endif %}
+            </small>
+        </div>
+        <span class="chip {% if s.status == 'active' %}theme-green{% elif s.status == 'expired' %}theme-pink{% else %}{% endif %}">
+            {{ s.get_status_display }}
+        </span>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% if payments %}
+<div class="section-title">{% trans "Son Ödemeler" %}</div>
+<div class="list">
+    {% for p in payments %}
+    <div class="list-item" style="display:flex; justify-content:space-between; align-items:center;">
+        <div>
+            <div style="font-weight:600;">{{ p.plan.name }} · {{ p.amount|floatformat:0 }}₺</div>
+            <small class="muted">{{ p.created_at|date:"d M Y H:i" }} · {{ p.conversation_id|slice:":12" }}</small>
+        </div>
+        <span class="chip {% if p.status == 'success' %}theme-green{% elif p.status == 'failed' %}theme-pink{% endif %}">
+            {{ p.get_status_display }}
+        </span>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+{% endblock %}

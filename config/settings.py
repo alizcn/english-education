@@ -14,6 +14,16 @@ ALLOWED_HOSTS = ['*']
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY', '')
 OPENAI_MODEL = os.getenv('OPENAI_MODEL', 'gpt-4o-mini')
 
+IYZICO_API_KEY = os.getenv('IYZICO_API_KEY', '')
+IYZICO_SECRET_KEY = os.getenv('IYZICO_SECRET_KEY', '')
+IYZICO_BASE_URL = os.getenv('IYZICO_BASE_URL', 'https://sandbox-api.iyzipay.com')
+SITE_URL = os.getenv('SITE_URL', 'http://localhost:8070')
+
+TRIAL_DAYS = 3
+TRIAL_INTERVIEW_LIMIT = 1
+TRIAL_CHAT_LIMIT = 1
+TRIAL_BULK_TRANSLATE_LIMIT = 1
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -29,6 +39,7 @@ INSTALLED_APPS = [
     'apps.chat',
     'apps.wordbank',
     'apps.interviews',
+    'apps.subscriptions',
 ]
 
 LOGIN_URL = 'accounts:login'
@@ -44,6 +55,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'apps.subscriptions.middleware.SubscriptionGateMiddleware',
 ]
 
 ROOT_URLCONF = 'config.urls'
@@ -59,6 +71,7 @@ TEMPLATES = [
                 'django.template.context_processors.i18n',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'apps.subscriptions.context_processors.subscription_status',
             ],
         },
     },

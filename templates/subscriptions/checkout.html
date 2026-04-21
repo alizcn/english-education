@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %}{% trans "Ödeme" %}{% endblock %}
+
+{% block content %}
+<section class="hero" style="text-align:center; padding:1rem 0;">
+    <h1 style="margin:0 0 0.3rem;">{{ plan.name }} — {{ plan.price_try|floatformat:0 }}₺</h1>
+    <p class="muted" style="margin:0;">{% trans "Güvenli ödeme için iyzico yönlendirmesi" %}</p>
+</section>
+
+<div class="card" style="padding:1rem; margin-top:1rem;">
+    {% if iyzico_form_content %}
+    <div id="iyzipay-checkout-form" class="responsive">
+        {{ iyzico_form_content|safe }}
+    </div>
+    {% elif payment_page_url %}
+    <p>{% trans "Ödeme sayfasına yönlendiriliyorsun..." %}</p>
+    <script>window.location.href = {{ payment_page_url|escapejs }};</script>
+    <p><a href="{{ payment_page_url }}" class="btn">{% trans "Manuel yönlendirme" %} →</a></p>
+    {% else %}
+    <p class="flash flash-error">{% trans "Ödeme formu alınamadı. Tekrar deneyin." %}</p>
+    <a href="{% url 'subscriptions:plans' %}" class="btn">{% trans "Paketlere dön" %}</a>
+    {% endif %}
+</div>
+{% endblock %}

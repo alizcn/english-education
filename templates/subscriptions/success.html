@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %}{% trans "Ödeme Başarılı" %}{% endblock %}
+
+{% block content %}
+<section style="text-align:center; padding:2rem 1rem;">
+    <div style="font-size:4rem;">🎉</div>
+    <h1 style="margin:0.5rem 0 0.5rem;">{% trans "Ödemen alındı!" %}</h1>
+    <p class="muted" style="margin:0 0 1rem;">
+        {{ payment.plan.name }} — {{ payment.amount|floatformat:0 }}₺
+    </p>
+    {% if payment.subscription %}
+    <p>{% blocktrans with exp=payment.subscription.expires_at|date:"d M Y" %}Aboneliğin <strong>{{ exp }}</strong> tarihine kadar aktif.{% endblocktrans %}</p>
+    {% endif %}
+    <div style="margin-top:1.5rem; display:flex; justify-content:center; gap:0.5rem; flex-wrap:wrap;">
+        <a href="{% url 'dashboard:home' %}" class="btn btn-lg" style="background:linear-gradient(90deg,#4f46e5,#ec4899); color:white; border:none;">
+            {% trans "Panele Dön" %} →
+        </a>
+        <a href="{% url 'interviews:list' %}" class="btn btn-lg">
+            {% trans "Mülakata Başla" %}
+        </a>
+    </div>
+</section>
+{% endblock %}

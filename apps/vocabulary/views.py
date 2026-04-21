@@ -6,6 +6,7 @@ from django.db.models import Q
 from django.shortcuts import render, redirect, get_object_or_404
 from django.views.decorators.http import require_POST
 
+from apps.subscriptions import access as sub_access
 from services import ai
 from . import services as vocab_services
 from .models import Word
@@ -40,6 +41,11 @@ def _parse_input(raw: str) -> list[str]:
 @login_required
 def bulk_add(request):
     if request.method == 'POST':
+        state = sub_access.get_state(request.user)
+        if not sub_access.can_use_bulk_translate(state):
+            messages.error(request, _('Toplu AI çeviri deneme hakkın doldu. Devam etmek için bir paket seç.'))
+            return redirect('subscriptions:plans')
+
         raw = request.POST.get('words', '')
         source = request.POST.get('source', '').strip()
         words = _parse_input(raw)
@@ -85,6 +91,7 @@ def bulk_add(request):
         if dropped:
             msg += ' ' + _('(%(count)d tanesi eksik çeviriyle geldi, atlandı.)') % {'count': dropped}
         messages.success(request, msg)
+        sub_access.record_bulk_translate_use(state)
         return redirect('vocabulary:list')
 
     return render(request, 'vocabulary/add.html', {'raw': '', 'source': ''})
