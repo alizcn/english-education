@@ -1,11 +1,11 @@
 {% comment %}
-Inline Levelenai logo — script font + decorative accents + AI sparkle accent.
+Inline LevelEnAI logo — clean sans-serif wordmark + subtle accents.
 Params (context vars):
   logo_height: CSS height (default 42px)
   logo_variant: "full" (default) or "mark"
 {% endcomment %}
 {% with h=logo_height|default:"42px" %}
-<svg class="levelenai-svg" viewBox="0 0 420 110" role="img" aria-label="Levelenai" style="height:{{ h }}; width:auto; display:block;" xmlns="http://www.w3.org/2000/svg">
+<svg class="levelenai-svg" viewBox="0 0 420 110" role="img" aria-label="LevelEnAI" style="height:{{ h }}; width:auto; display:block;" xmlns="http://www.w3.org/2000/svg">
     <defs>
         <linearGradient id="le-text" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0%" stop-color="#4338ca"/>
@@ -16,10 +16,6 @@ Params (context vars):
             <stop offset="0%" stop-color="#8b5cf6"/>
             <stop offset="100%" stop-color="#ec4899"/>
         </linearGradient>
-        <filter id="le-glow" x="-20%" y="-20%" width="140%" height="140%">
-            <feGaussianBlur stdDeviation="1.2" result="b"/>
-            <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-        </filter>
     </defs>
 
     <circle cx="42" cy="16" r="3" fill="#8b5cf6" opacity="0.6"/>
@@ -32,11 +28,11 @@ Params (context vars):
         <circle cx="22" cy="2" r="1.8" fill="#ec4899" opacity="0.7"/>
     </g>
 
-    <text x="20" y="82"
-          font-family="'Pacifico', 'Kaushan Script', cursive"
-          font-size="72"
+    <text x="20" y="80"
+          font-family="'Inter', 'Segoe UI', sans-serif"
+          font-size="58"
+          font-weight="700"
           fill="url(#le-text)"
-          style="letter-spacing:-0.5px;"
-          filter="url(#le-glow)">Level<tspan font-style="normal" fill="url(#le-accent)">enai</tspan></text>
+            style="letter-spacing:-1.2px;">Level<tspan font-weight="700" fill="url(#le-accent)">En</tspan><tspan font-weight="800" fill="url(#le-accent)">AI</tspan></text>
 </svg>
 {% endwith %}

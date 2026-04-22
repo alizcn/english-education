@@ -11,10 +11,10 @@
     <link rel="icon" href="{% static 'icons/levelenai-mark.svg' %}" type="image/svg+xml">
     <link rel="alternate icon" href="{% static 'icons/logo.png' %}" type="image/png">
     <link rel="apple-touch-icon" href="{% static 'icons/logo.png' %}">
-    <title>Levelenai — {% trans "Level up your English. Land the interview." %}</title>
+    <title>LevelEnAI — {% trans "Level up your English. Land the interview." %}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/app.css' %}">
 </head>
 <body class="landing-body">
@@ -22,7 +22,7 @@
 <!-- Navbar -->
 <nav class="landing-nav">
     <div class="landing-nav-inner">
-        <a href="{% url 'dashboard:home' %}" class="landing-nav-logo" aria-label="Levelenai" style="text-decoration:none;">
+        <a href="{% url 'dashboard:home' %}" class="landing-nav-logo" aria-label="LevelEnAI" style="text-decoration:none;">
             {% include '_levelenai_logo.html' with logo_height="40px" %}
         </a>
         <div class="landing-nav-right">
@@ -61,7 +61,7 @@
             </div>
             <div class="fade-up delay-2">
                 <div class="l-preview-card">
-                    <h5 class="l-preview-title">{% trans "Levelenai ile Hazırlan" %}</h5>
+                    <h5 class="l-preview-title">{% trans "LevelEnAI ile Hazırlan" %}</h5>
                     <div class="l-preview-item">
                         <span class="l-preview-icon icon-purple"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><path d="M20 8v6M23 11h-6"/></svg></span>
                         <div>
@@ -235,7 +235,7 @@
     </div>
     <small>{% trans "AI-coached interview prep for Turkish developers." %}</small>
     <div class="footer-bottom">
-        <small>© 2026 Levelenai. {% trans "Tüm hakları saklıdır." %}</small>
+        <small>© 2026 LevelEnAI. {% trans "Tüm hakları saklıdır." %}</small>
         <div class="codezzium-badge">
             {% trans "Bir" %}
             <img src="{% static 'icons/codezzium-logo.png' %}" alt="Codezzium" height="18" style="vertical-align: middle;">

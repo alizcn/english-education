@@ -8,22 +8,22 @@
     <meta name="theme-color" content="#4f46e5">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Levelenai">
+    <meta name="apple-mobile-web-app-title" content="LevelEnAI">
     <link rel="manifest" href="{% static 'manifest.json' %}">
     <link rel="icon" href="{% static 'icons/levelenai-mark.svg' %}" type="image/svg+xml">
     <link rel="alternate icon" href="{% static 'icons/logo.png' %}" type="image/png">
     <link rel="apple-touch-icon" href="{% static 'icons/logo.png' %}">
-    <title>{% block title %}Levelenai{% endblock %} · {% trans "Level up your English. Land the interview." %}</title>
+    <title>{% block title %}LevelEnAI{% endblock %} · {% trans "Level up your English. Land the interview." %}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/app.css' %}">
 </head>
 <body>
 
 <header class="topbar">
     <div class="topbar-inner">
-        <a href="{% url 'dashboard:home' %}" class="brand" aria-label="Levelenai">
+        <a href="{% url 'dashboard:home' %}" class="brand" aria-label="LevelEnAI">
             {% include '_levelenai_logo.html' with logo_height="38px" %}
         </a>
         <nav class="topnav">
@@ -133,7 +133,7 @@
 
 <footer class="app-footer">
     <div class="footer-bottom">
-        <small>© 2026 Levelenai. {% trans "Tüm hakları saklıdır." %}</small>
+        <small>© 2026 LevelEnAI. {% trans "Tüm hakları saklıdır." %}</small>
         <div class="codezzium-badge">
             {% trans "Bir" %}
             <img src="{% static 'icons/codezzium-logo.png' %}" alt="Codezzium" height="18" style="vertical-align: middle;">

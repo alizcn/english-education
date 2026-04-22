@@ -3,6 +3,7 @@ from datetime import timedelta
 from django.conf import settings
 from django.db import models
 from django.utils import timezone
+from django.utils.translation import gettext_lazy as _
 
 
 class Plan(models.Model):
@@ -32,10 +33,10 @@ class Subscription(models.Model):
     STATUS_EXPIRED = 'expired'
     STATUS_CANCELLED = 'cancelled'
     STATUS_CHOICES = [
-        (STATUS_PENDING, 'Beklemede'),
-        (STATUS_ACTIVE, 'Aktif'),
-        (STATUS_EXPIRED, 'Süresi doldu'),
-        (STATUS_CANCELLED, 'İptal edildi'),
+        (STATUS_PENDING, _('Beklemede')),
+        (STATUS_ACTIVE, _('Aktif')),
+        (STATUS_EXPIRED, _('Süresi doldu')),
+        (STATUS_CANCELLED, _('İptal edildi')),
     ]
 
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='subscriptions')
@@ -70,9 +71,9 @@ class Payment(models.Model):
     STATUS_SUCCESS = 'success'
     STATUS_FAILED = 'failed'
     STATUS_CHOICES = [
-        (STATUS_INITIALIZED, 'Başlatıldı'),
-        (STATUS_SUCCESS, 'Başarılı'),
-        (STATUS_FAILED, 'Başarısız'),
+        (STATUS_INITIALIZED, _('Başlatıldı')),
+        (STATUS_SUCCESS, _('Başarılı')),
+        (STATUS_FAILED, _('Başarısız')),
     ]
 
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='payments')

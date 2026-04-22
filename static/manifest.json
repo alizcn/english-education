@@ -1,6 +1,6 @@
 {
-  "name": "Levelenai — Level up your English. Land the interview.",
-  "short_name": "Levelenai",
+  "name": "LevelEnAI — Level up your English. Land the interview.",
+  "short_name": "LevelEnAI",
   "description": "AI-coached interview prep for Turkish developers.",
   "start_url": "/",
   "display": "standalone",

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 76" role="img" aria-label="Levelenai">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 76" role="img" aria-label="LevelEnAI">
   <defs>
     <linearGradient id="le-grad-primary" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#4f46e5"/>
@@ -32,7 +32,7 @@
 
   <g font-family="Inter, system-ui, -apple-system, sans-serif" font-weight="800" letter-spacing="-0.035em">
     <text x="76" y="51" font-size="40" fill="url(#le-grad-primary)">Level</text>
-    <text x="188" y="51" font-size="40" fill="url(#le-grad-accent)" font-style="italic">enai</text>
+    <text x="188" y="51" font-size="40" fill="url(#le-grad-accent)" font-weight="800">EnAI</text>
     <path d="M 310 30 l 6 -6 l 6 6" stroke="url(#le-grad-accent)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
     <path d="M 316 24 L 316 50" stroke="url(#le-grad-accent)" stroke-width="3.5" stroke-linecap="round" fill="none"/>
   </g>

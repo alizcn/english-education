@@ -1,7 +1,7 @@
 from django.contrib import messages
-from django.contrib.auth import login, update_session_auth_hash
+from django.contrib.auth import login
 from django.contrib.auth.decorators import login_required
-from django.contrib.auth.forms import PasswordChangeForm, UserCreationForm
+from django.contrib.auth.forms import UserCreationForm
 from django.shortcuts import redirect, render
 from django.utils.translation import gettext as _
 
@@ -34,17 +34,3 @@ def profile(request):
     else:
         form = ProfileForm(instance=request.user)
     return render(request, 'accounts/profile.html', {'form': form})
-
-
-@login_required
-def password_change(request):
-    if request.method == 'POST':
-        form = PasswordChangeForm(request.user, request.POST)
-        if form.is_valid():
-            user = form.save()
-            update_session_auth_hash(request, user)
-            messages.success(request, _('Şifren güncellendi.'))
-            return redirect('accounts:profile')
-    else:
-        form = PasswordChangeForm(request.user)
-    return render(request, 'accounts/password_change.html', {'form': form})
