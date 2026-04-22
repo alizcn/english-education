@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+{% block title %}{% trans "Uygulamayı Yükle" %}{% endblock %}
+
+{% block content %}
+<section class="feature-hero theme-dashboard">
+    <div class="feature-hero-row">
+        <div class="feature-hero-icon">📱</div>
+        <div style="flex:1; min-width:200px;">
+            <h2 class="feature-hero-title">{% trans "Uygulamayı Ana Ekrana Ekle" %}</h2>
+            <p class="feature-hero-sub">{% trans "Telefonundan tek tıkla aç — tıpkı App Store uygulaması gibi." %}</p>
+        </div>
+    </div>
+</section>
+
+<div class="card" style="padding:1.5rem; max-width:720px; margin-inline:auto;">
+    <div style="display:flex; gap:0.5rem; margin-bottom:1.5rem; border-bottom:1px solid var(--border); padding-bottom:0.5rem;">
+        <button type="button" class="install-tab is-active" data-tab="android">🤖 {% trans "Android (Chrome)" %}</button>
+        <button type="button" class="install-tab" data-tab="ios">🍎 {% trans "iPhone (Safari)" %}</button>
+    </div>
+
+    <div data-pane="android" class="install-pane">
+        <ol class="install-steps">
+            <li>
+                <strong>{% trans "Chrome'u aç" %}</strong><br>
+                <span class="muted">{% trans "Bu siteyi (levelenai.com) Chrome tarayıcısında açtığından emin ol." %}</span>
+            </li>
+            <li>
+                <strong>{% trans "Sağ üstteki üç noktaya ⋮ dokun" %}</strong><br>
+                <span class="muted">{% trans "Adres çubuğunun sağında yer alır." %}</span>
+            </li>
+            <li>
+                <strong>{% trans "“Ana ekrana ekle” seçeneğine dokun" %}</strong><br>
+                <span class="muted">{% trans "Menünün altlarında bulunur." %}</span>
+            </li>
+            <li>
+                <strong>{% trans "“Ekle” butonuna dokun" %}</strong><br>
+                <span class="muted">{% trans "Uygulama ana ekranına eklenir ve App Store uygulaması gibi açılır." %}</span>
+            </li>
+        </ol>
+        <img src="{% static 'icons/install-android.png' %}" alt="{% trans 'Android Chrome ana ekrana ekle adımları' %}" class="install-screenshot">
+    </div>
+
+    <div data-pane="ios" class="install-pane" hidden>
+        <ol class="install-steps">
+            <li>
+                <strong>{% trans "Safari'yi aç" %}</strong><br>
+                <span class="muted">{% trans "iPhone'da bu adım Chrome'da çalışmaz — Safari gerekli." %}</span>
+            </li>
+            <li>
+                <strong>{% trans "Alt ortadaki Paylaş butonuna dokun" %}</strong><br>
+                <span class="muted">{% trans "Yukarı ok işaretli dikdörtgen ikon." %}</span>
+            </li>
+            <li>
+                <strong>{% trans "“Ana Ekrana Ekle” satırına dokun" %}</strong><br>
+                <span class="muted">{% trans "Paylaş menüsünün ortalarında bulunur." %}</span>
+            </li>
+            <li>
+                <strong>{% trans "Sağ üstten “Ekle” butonuna dokun" %}</strong><br>
+                <span class="muted">{% trans "Uygulama simgesi ana ekranına eklenir." %}</span>
+            </li>
+        </ol>
+        <img src="{% static 'icons/install-ios.png' %}" alt="{% trans 'iPhone Safari ana ekrana ekle adımları' %}" class="install-screenshot">
+    </div>
+</div>
+
+<div style="text-align:center; margin-top:1rem;">
+    <a href="{% url 'dashboard:home' %}" class="btn btn-ghost">← {% trans "Panele Dön" %}</a>
+</div>
+
+<script>
+(function() {
+    const tabs = document.querySelectorAll('.install-tab');
+    const panes = document.querySelectorAll('.install-pane');
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            tabs.forEach(t => t.classList.remove('is-active'));
+            tab.classList.add('is-active');
+            const target = tab.dataset.tab;
+            panes.forEach(p => {
+                p.hidden = p.dataset.pane !== target;
+            });
+        });
+    });
+    // Auto-select tab based on user agent
+    const ua = navigator.userAgent.toLowerCase();
+    if (/iphone|ipad|ipod/.test(ua) && !window.MSStream) {
+        document.querySelector('[data-tab="ios"]').click();
+    }
+})();
+</script>
+{% endblock %}

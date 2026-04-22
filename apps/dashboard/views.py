@@ -64,6 +64,10 @@ def home(request):
     return _dashboard(request)
 
 
+def install_guide(request):
+    return render(request, 'dashboard/install_guide.html')
+
+
 def _dashboard(request):
     user = request.user
     total_words = Word.objects.filter(user=user).count()

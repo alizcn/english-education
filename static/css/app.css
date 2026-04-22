@@ -1752,6 +1752,14 @@ label input, label textarea, label select { margin-top: 0.3rem; }
 
 .footer-bottom small { color: var(--text-soft); font-size: 0.78rem; }
 
+.footer-link {
+    color: var(--primary);
+    font-size: 0.82rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.footer-link:hover { text-decoration: underline; }
+
 .codezzium-badge {
     display: inline-flex;
     align-items: center;
@@ -2134,3 +2142,130 @@ label input, label textarea, label select { margin-top: 0.3rem; }
 }
 .levelenai-on-dark .levelenai-svg circle { fill: rgba(255,255,255,0.8) !important; }
 .levelenai-on-dark .levelenai-svg text tspan { fill: #ffffff !important; }
+
+/* === INSTALL GUIDE === */
+.install-tab {
+    flex: 1;
+    padding: 0.6rem 0.8rem;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.install-tab:hover { background: var(--primary-soft); color: var(--primary); }
+.install-tab.is-active {
+    background: var(--primary-soft);
+    color: var(--primary);
+}
+.install-steps {
+    list-style: none;
+    counter-reset: step;
+    padding: 0;
+    margin: 0 0 1.25rem 0;
+}
+.install-steps li {
+    counter-increment: step;
+    position: relative;
+    padding: 0.75rem 0 0.75rem 3rem;
+    border-bottom: 1px solid var(--border-soft);
+    line-height: 1.5;
+}
+.install-steps li:last-child { border-bottom: none; }
+.install-steps li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0; top: 0.75rem;
+    width: 2rem; height: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--theme-dashboard);
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.install-screenshot {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 16px;
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--border);
+}
+
+/* === INSTALL BANNER === */
+.install-banner {
+    position: fixed;
+    left: 0.75rem;
+    right: 0.75rem;
+    bottom: calc(var(--bnav-h) + 0.75rem);
+    z-index: 900;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    box-shadow: var(--shadow-lg);
+    padding: 0.85rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    animation: installSlideUp 0.35s ease-out;
+}
+@keyframes installSlideUp {
+    from { transform: translateY(120%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+.install-banner-icon {
+    width: 38px; height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-soft);
+    border-radius: 12px;
+    font-size: 1.3rem;
+    flex-shrink: 0;
+}
+.install-banner-text {
+    flex: 1;
+    min-width: 0;
+    font-size: 0.9rem;
+    line-height: 1.35;
+}
+.install-banner-text strong { display: block; font-weight: 700; }
+.install-banner-text small { color: var(--text-muted); font-size: 0.78rem; }
+.install-banner-cta {
+    padding: 0.5rem 0.9rem;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.install-banner-close {
+    width: 32px; height: 32px;
+    background: transparent;
+    border: none;
+    color: var(--text-soft);
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.install-banner-close:hover { background: var(--border-soft); color: var(--text); }
+@media (min-width: 768px) {
+    .install-banner { display: none; }
+}

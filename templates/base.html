@@ -134,6 +134,7 @@
 <footer class="app-footer">
     <div class="footer-bottom">
         <small>© 2026 LevelEnAI. {% trans "Tüm hakları saklıdır." %}</small>
+        <a href="{% url 'dashboard:install_guide' %}" class="footer-link">📱 {% trans "Uygulamayı Yükle" %}</a>
         <div class="codezzium-badge">
             {% trans "Bir" %}
             <img src="{% static 'icons/codezzium-logo.png' %}" alt="Codezzium" height="18" style="vertical-align: middle;">
@@ -142,10 +143,74 @@
     </div>
 </footer>
 
+<!-- Smart install banner (mobile + not-installed + not-dismissed) -->
+<div id="install-banner" class="install-banner" hidden>
+    <div class="install-banner-icon">📱</div>
+    <div class="install-banner-text">
+        <strong>{% trans "Ana ekrana ekle" %}</strong>
+        <small>{% trans "Tek dokunuşla aç, app gibi kullan." %}</small>
+    </div>
+    <a id="install-banner-cta" href="{% url 'dashboard:install_guide' %}" class="install-banner-cta">{% trans "Göster" %}</a>
+    <button id="install-banner-close" class="install-banner-close" aria-label="{% trans 'Kapat' %}">×</button>
+</div>
+
 <script>
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/static/sw.js').catch(() => {});
 }
+
+// Smart install banner
+(function() {
+    const banner = document.getElementById('install-banner');
+    if (!banner) return;
+    const cta = document.getElementById('install-banner-cta');
+    const closeBtn = document.getElementById('install-banner-close');
+
+    const DISMISS_KEY = 'levelenai_install_dismissed_until';
+    const DISMISS_DAYS = 7;
+
+    // Already installed (running in standalone PWA mode)?
+    const isStandalone = window.matchMedia('(display-mode: standalone)').matches
+        || window.navigator.standalone === true;
+    if (isStandalone) return;
+
+    // User dismissed recently?
+    const dismissedUntil = parseInt(localStorage.getItem(DISMISS_KEY) || '0', 10);
+    if (dismissedUntil && Date.now() < dismissedUntil) return;
+
+    // Only show on mobile-sized screens
+    if (window.innerWidth >= 768) return;
+
+    const ua = navigator.userAgent.toLowerCase();
+    const isIOS = /iphone|ipad|ipod/.test(ua) && !window.MSStream;
+    const isAndroid = /android/.test(ua);
+    if (!isIOS && !isAndroid) return;
+
+    let deferredPrompt = null;
+    window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        // Android/Chrome: hijack the CTA to trigger the native prompt
+        cta.addEventListener('click', async (ev) => {
+            if (!deferredPrompt) return;
+            ev.preventDefault();
+            deferredPrompt.prompt();
+            const { outcome } = await deferredPrompt.userChoice;
+            if (outcome === 'accepted') {
+                banner.hidden = true;
+            }
+            deferredPrompt = null;
+        });
+    });
+
+    closeBtn.addEventListener('click', () => {
+        localStorage.setItem(DISMISS_KEY, String(Date.now() + DISMISS_DAYS * 86400000));
+        banner.hidden = true;
+    });
+
+    // Show the banner after a short delay to avoid flashing during load
+    setTimeout(() => { banner.hidden = false; }, 1200);
+})();
 
 (function() {
     const menus = document.querySelectorAll('[data-user-menu]');
