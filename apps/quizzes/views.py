@@ -1,3 +1,4 @@
+import logging
 import re
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
@@ -10,9 +11,12 @@ from django.views.decorators.http import require_POST
 
 from apps.topics.models import Topic
 from apps.vocabulary.models import Word
+from services import ai
 from . import services as quiz_services
 from .models import QuizSession, QuizQuestion, QuizTemplate
 from .normalization import normalize_item
+
+logger = logging.getLogger(__name__)
 
 
 MIN_WORDS_FOR_QUIZ = 10
@@ -107,8 +111,12 @@ def generate_topic_quiz_view(request, slug):
     topic = get_object_or_404(Topic, slug=slug)
     try:
         tmpl = quiz_services.generate_one(request.user, QuizTemplate.TOPIC, topic=topic)
-    except Exception as e:
-        messages.error(request, _('AI hata: %(error)s') % {'error': e})
+    except ai.AIServiceError as e:
+        messages.error(request, str(e))
+        return redirect('quizzes:topic_picker', slug=slug)
+    except Exception:
+        logger.exception('generate_topic_quiz_view: unexpected failure')
+        messages.error(request, _('Quiz üretilirken beklenmedik bir hata oluştu.'))
         return redirect('quizzes:topic_picker', slug=slug)
     if not tmpl:
         messages.error(request, _('Yeni quiz üretilemedi. Tekrar dene.'))
@@ -129,8 +137,12 @@ def generate_word_quiz(request):
         return redirect('vocabulary:list')
     try:
         tmpl = quiz_services.generate_one(request.user, QuizTemplate.WORD)
-    except Exception as e:
-        messages.error(request, _('AI hata: %(error)s') % {'error': e})
+    except ai.AIServiceError as e:
+        messages.error(request, str(e))
+        return redirect('quizzes:word_picker')
+    except Exception:
+        logger.exception('generate_word_quiz: unexpected failure')
+        messages.error(request, _('Quiz üretilirken beklenmedik bir hata oluştu.'))
         return redirect('quizzes:word_picker')
     if not tmpl:
         messages.error(request, _('Yeni quiz üretilemedi. Tekrar dene.'))

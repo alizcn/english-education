@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -11,16 +12,15 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: en\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 #: apps/accounts/forms.py:12 apps/accounts/forms.py:48
 #: templates/accounts/signup.html:16
 msgid "E-posta"
-msgstr "Email"
+msgstr ""
 
 #: apps/accounts/forms.py:17
 msgid "KVKK Aydınlatma Metnini okudum ve onaylıyorum."
@@ -40,11 +40,11 @@ msgstr ""
 
 #: apps/accounts/forms.py:46
 msgid "Ad"
-msgstr "First name"
+msgstr ""
 
 #: apps/accounts/forms.py:47
 msgid "Soyad"
-msgstr "Last name"
+msgstr ""
 
 #: apps/accounts/views.py:31
 msgid "Çok fazla kayıt denemesi. Biraz sonra tekrar dene."
@@ -52,25 +52,23 @@ msgstr ""
 
 #: apps/accounts/views.py:58
 msgid "Profilin güncellendi."
-msgstr "Your profile has been updated."
+msgstr ""
 
 #: apps/accounts/views.py:71
 msgid "Onay için kullanıcı adını doğru yaz."
 msgstr ""
 
 #: apps/accounts/views.py:79
-#, fuzzy
-#| msgid "Sohbet silindi."
 msgid "Hesabın silindi."
-msgstr "Chat deleted."
+msgstr ""
 
 #: apps/chat/models.py:26
 msgid "User"
-msgstr "User"
+msgstr ""
 
 #: apps/chat/models.py:26
 msgid "Assistant"
-msgstr "Assistant"
+msgstr ""
 
 #: apps/chat/views.py:54
 msgid "Çok hızlı yazıyorsun. Biraz sonra tekrar dene."
@@ -78,7 +76,7 @@ msgstr ""
 
 #: apps/chat/views.py:64
 msgid "AI Chat deneme hakkın doldu. Devam etmek için bir paket seç."
-msgstr "You've used up your AI Chat trial. Pick a plan to continue."
+msgstr ""
 
 #: apps/chat/views.py:89
 msgid "AI yanıt verirken beklenmedik bir hata oluştu."
@@ -86,163 +84,163 @@ msgstr ""
 
 #: apps/chat/views.py:94
 msgid "AI boş yanıt döndü. Tekrar dene."
-msgstr "AI returned empty response. Try again."
+msgstr ""
 
 #: apps/chat/views.py:105
 msgid "Yeni sohbet başlatıldı."
-msgstr "New conversation started."
+msgstr ""
 
 #: apps/chat/views.py:122
 msgid "Başlık boş olamaz."
-msgstr "Title cannot be empty."
+msgstr ""
 
 #: apps/chat/views.py:126
 msgid "Başlık güncellendi."
-msgstr "Title updated."
+msgstr ""
 
 #: apps/chat/views.py:138
 msgid "Sohbet silindi."
-msgstr "Chat deleted."
+msgstr ""
 
 #: apps/interviews/models.py:8
 msgid "Backend Developer"
-msgstr "Backend Developer"
+msgstr ""
 
 #: apps/interviews/models.py:9
 msgid "Frontend Developer"
-msgstr "Frontend Developer"
+msgstr ""
 
 #: apps/interviews/models.py:10
 msgid "Python Full Stack Developer"
-msgstr "Python Full Stack Developer"
+msgstr ""
 
 #: apps/interviews/models.py:11
 msgid ".NET Full Stack Developer"
-msgstr ".NET Full Stack Developer"
+msgstr ""
 
 #: apps/interviews/models.py:12
 msgid "Java Full Stack Developer"
-msgstr "Java Full Stack Developer"
+msgstr ""
 
 #: apps/interviews/models.py:13
 msgid "Node.js Full Stack Developer"
-msgstr "Node.js Full Stack Developer"
+msgstr ""
 
 #: apps/interviews/models.py:14
 msgid "React Developer"
-msgstr "React Developer"
+msgstr ""
 
 #: apps/interviews/models.py:15
 msgid "Angular Developer"
-msgstr "Angular Developer"
+msgstr ""
 
 #: apps/interviews/models.py:16
 msgid "Vue.js Developer"
-msgstr "Vue.js Developer"
+msgstr ""
 
 #: apps/interviews/models.py:17
 msgid "Go (Golang) Developer"
-msgstr "Go (Golang) Developer"
+msgstr ""
 
 #: apps/interviews/models.py:18
 msgid "Rust Developer"
-msgstr "Rust Developer"
+msgstr ""
 
 #: apps/interviews/models.py:19
 msgid "PHP / Laravel Developer"
-msgstr "PHP / Laravel Developer"
+msgstr ""
 
 #: apps/interviews/models.py:20
 msgid "iOS Developer (Swift)"
-msgstr "iOS Developer (Swift)"
+msgstr ""
 
 #: apps/interviews/models.py:21
 msgid "Android Developer (Kotlin)"
-msgstr "Android Developer (Kotlin)"
+msgstr ""
 
 #: apps/interviews/models.py:22
 msgid "Flutter / Dart Developer"
-msgstr "Flutter / Dart Developer"
+msgstr ""
 
 #: apps/interviews/models.py:24
 msgid "Yazılım Geliştirme (Genel)"
-msgstr "Software Development (General)"
+msgstr ""
 
 #: apps/interviews/models.py:25
 msgid "DevOps / SRE"
-msgstr "DevOps / SRE"
+msgstr ""
 
 #: apps/interviews/models.py:26
 msgid "Bulut Bilişim (AWS/Azure/GCP)"
-msgstr "Cloud Computing (AWS/Azure/GCP)"
+msgstr ""
 
 #: apps/interviews/models.py:27
 msgid "Siber Güvenlik"
-msgstr "Cyber Security"
+msgstr ""
 
 #: apps/interviews/models.py:28
 msgid "Yapay Zeka / Makine Öğrenmesi"
-msgstr "AI / Machine Learning"
+msgstr ""
 
 #: apps/interviews/models.py:29
 msgid "Veri Bilimi / Veri Mühendisliği"
-msgstr "Data Science / Data Engineering"
+msgstr ""
 
 #: apps/interviews/models.py:30
 msgid "Veri Tabanı Yönetimi (DBA)"
-msgstr "Database Administration (DBA)"
+msgstr ""
 
 #: apps/interviews/models.py:31
 msgid "Ağ Sistemleri"
-msgstr "Network Systems"
+msgstr ""
 
 #: apps/interviews/models.py:32
 msgid "Bilişim Sistemleri"
-msgstr "Information Systems"
+msgstr ""
 
 #: apps/interviews/models.py:33
 msgid "Bilgisayar Yönetimi"
-msgstr "Computer Management"
+msgstr ""
 
 #: apps/interviews/models.py:34
 msgid "Proje Yönetimi / Scrum Master"
-msgstr "Project Management / Scrum Master"
+msgstr ""
 
 #: apps/interviews/models.py:35
 msgid "QA / Test Mühendisliği"
-msgstr "QA / Test Engineering"
+msgstr ""
 
 #: apps/interviews/models.py:36
 msgid "Mobil Uygulama Geliştirme (Genel)"
-msgstr "Mobile App Development (General)"
+msgstr ""
 
 #: apps/interviews/models.py:37
 msgid "Web Geliştirme (Genel)"
-msgstr "Web Development (General)"
+msgstr ""
 
 #: apps/interviews/models.py:38
 msgid "Gömülü Sistemler"
-msgstr "Embedded Systems"
+msgstr ""
 
 #: apps/interviews/models.py:39
 msgid "Oyun Geliştirme"
-msgstr "Game Development"
+msgstr ""
 
 #: apps/interviews/models.py:40
 msgid "Özel (kendi yazdığın)"
-msgstr "Custom (your own title)"
+msgstr ""
 
 #: apps/interviews/models.py:54
 msgid "Kategori"
-msgstr "Category"
+msgstr ""
 
 #: apps/interviews/models.py:55
 msgid "Özel başlık"
-msgstr "Custom title"
+msgstr ""
 
 #: apps/interviews/models.py:56
 msgid "CV yükleme"
-msgstr "CV upload"
+msgstr ""
 
 #: apps/interviews/views.py:45
 msgid "CV dosyası 5 MB'dan büyük olamaz."
@@ -250,7 +248,7 @@ msgstr ""
 
 #: apps/interviews/views.py:48
 msgid "Desteklenen formatlar: PDF, DOCX, TXT."
-msgstr "Supported formats: PDF, DOCX, TXT."
+msgstr ""
 
 #: apps/interviews/views.py:58
 msgid "Dosya içeriği desteklenen bir formatla eşleşmiyor."
@@ -262,7 +260,7 @@ msgstr ""
 
 #: apps/interviews/views.py:85
 msgid "Lütfen bir iş başlığı girin."
-msgstr "Please enter a job title."
+msgstr ""
 
 #: apps/interviews/views.py:104 apps/interviews/views.py:172
 msgid "Sorular üretilirken beklenmedik bir hata oluştu."
@@ -270,89 +268,87 @@ msgstr ""
 
 #: apps/interviews/views.py:108 apps/interviews/views.py:176
 msgid "Sorular üretilemedi. Tekrar deneyin."
-msgstr "Questions could not be generated. Try again."
+msgstr ""
 
 #: apps/interviews/views.py:114 apps/interviews/views.py:182
 msgid "Deneme hakkın doldu. Devam etmek için bir paket seç."
-msgstr "You've used up your trial. Pick a plan to continue."
+msgstr ""
 
 #: apps/interviews/views.py:129
 #, python-format
 msgid "%(count)d mülakat sorusu oluşturuldu."
-msgstr "%(count)d interview questions created."
+msgstr ""
 
 #: apps/interviews/views.py:144
 msgid "Lütfen bir CV dosyası yükleyin."
-msgstr "Please upload a CV file."
+msgstr ""
 
 #: apps/interviews/views.py:157
 msgid "CV dosyası okunamadı."
-msgstr "CV file could not be read."
+msgstr ""
 
 #: apps/interviews/views.py:162
 msgid "CV içeriği çok kısa veya okunamadı."
-msgstr "CV content is too short or unreadable."
+msgstr ""
 
 #: apps/interviews/views.py:196
 #, python-format
 msgid "CV analiz edildi. %(count)d mülakat sorusu oluşturuldu."
-msgstr "CV analyzed. %(count)d interview questions created."
+msgstr ""
 
 #: apps/interviews/views.py:212
 msgid "Mülakat silindi."
-msgstr "Interview deleted."
+msgstr ""
 
 #: apps/quizzes/models.py:9 apps/quizzes/models.py:38
 #: templates/dashboard/home.html:57 templates/dashboard/landing.html:97
 msgid "Kelime"
-msgstr "Word"
+msgstr ""
 
 #: apps/quizzes/models.py:9 apps/quizzes/models.py:38
 #: templates/quizzes/result.html:70
 msgid "Konu"
-msgstr "Topic"
+msgstr ""
 
 #: apps/quizzes/models.py:98
 msgid "Çeviri EN→TR"
-msgstr "Translation EN→TR"
+msgstr ""
 
 #: apps/quizzes/models.py:99
 msgid "Çeviri TR→EN"
-msgstr "Translation TR→EN"
+msgstr ""
 
 #: apps/quizzes/models.py:100
 msgid "Boşluk doldurma"
-msgstr "Fill in the blank"
+msgstr ""
 
 #: apps/quizzes/models.py:101
 msgid "Çoktan seçmeli"
-msgstr "Multiple choice"
+msgstr ""
 
 #: apps/quizzes/views.py:68 apps/quizzes/views.py:134
 #, python-format
 msgid "Kelime quizi için en az %(min)d kelime gerekli. Şu an: %(total)d."
-msgstr "At least %(min)d words needed for word quiz. Currently: %(total)d."
+msgstr ""
 
 #: apps/quizzes/views.py:78
 msgid "Kelime Quizleri"
-msgstr "Word Quizzes"
+msgstr ""
 
 #: apps/quizzes/views.py:79
 msgid "Henüz AI quizin yoksa \"Yeni Quiz Oluştur\"a bas."
-msgstr "If you don't have an AI quiz yet, click \"Generate New Quiz\"."
+msgstr ""
 
 #: apps/quizzes/views.py:100
 #, python-format
 msgid "%(name)s Quizleri"
-msgstr "%(name)s Quizzes"
+msgstr ""
 
 #: apps/quizzes/views.py:101
 msgid ""
 "Varsayılan quiz her zaman burada. Bitirdikten sonra AI ile yenisini "
 "üretebilirsin."
 msgstr ""
-"The default quiz is always here. After finishing it, you can generate a new "
-"one with AI."
 
 #: apps/quizzes/views.py:119 apps/quizzes/views.py:145
 msgid "Quiz üretilirken beklenmedik bir hata oluştu."
@@ -360,11 +356,11 @@ msgstr ""
 
 #: apps/quizzes/views.py:122 apps/quizzes/views.py:148
 msgid "Yeni quiz üretilemedi. Tekrar dene."
-msgstr "New quiz could not be generated. Try again."
+msgstr ""
 
 #: apps/quizzes/views.py:168
 msgid "Bu quiz şablonu boş."
-msgstr "This quiz template is empty."
+msgstr ""
 
 #: apps/subscriptions/models.py:40
 msgid "Aktif abonelik olan planın slug değerini değiştiremezsin."
@@ -372,88 +368,86 @@ msgstr ""
 
 #: apps/subscriptions/models.py:51
 msgid "Beklemede"
-msgstr "Pending"
+msgstr ""
 
 #: apps/subscriptions/models.py:52
 #: templates/subscriptions/my_subscriptions.html:14
 #: templates/subscriptions/my_subscriptions.html:27
 msgid "Aktif"
-msgstr "Active"
+msgstr ""
 
 #: apps/subscriptions/models.py:53
 msgid "Süresi doldu"
-msgstr "Expired"
+msgstr ""
 
 #: apps/subscriptions/models.py:54
 msgid "İptal edildi"
-msgstr "Cancelled"
+msgstr ""
 
 #: apps/subscriptions/models.py:89
 msgid "Başlatıldı"
-msgstr "Initialized"
+msgstr ""
 
 #: apps/subscriptions/models.py:90
 msgid "Başarılı"
-msgstr "Successful"
+msgstr ""
 
 #: apps/subscriptions/models.py:91
 msgid "Başarısız"
-msgstr "Failed"
+msgstr ""
 
 #: apps/subscriptions/views.py:55
 #, python-format
 msgid "Ödeme başlatılamadı: %(error)s"
-msgstr "Payment could not be initialized: %(error)s"
+msgstr ""
 
 #: apps/subscriptions/views.py:63
 #, python-format
 msgid "iyzico: %(error)s"
-msgstr "iyzico: %(error)s"
+msgstr ""
 
 #: apps/subscriptions/views.py:164
 msgid "Bu abonelik zaten iptal ya da süresi dolmuş."
-msgstr "This subscription is already cancelled or expired."
+msgstr ""
 
 #: apps/subscriptions/views.py:171
 #, python-format
 msgid "Aboneliğin iptal edildi. Erişimin %(date)s tarihine kadar açık kalacak."
 msgstr ""
-"Your subscription has been cancelled. Your access will remain active until "
-"%(date)s."
 
 #: apps/subscriptions/views.py:182
 msgid "Sadece iptal edilmiş abonelikler devam ettirilebilir."
-msgstr "Only cancelled subscriptions can be resumed."
+msgstr ""
 
 #: apps/subscriptions/views.py:187
 msgid "Bu aboneliğin süresi dolmuş. Yeni bir paket seçmen gerekiyor."
-msgstr "This subscription has expired. You need to pick a new plan."
+msgstr ""
 
 #: apps/subscriptions/views.py:193
 msgid "Aboneliğin tekrar aktif."
-msgstr "Your subscription is active again."
+msgstr ""
 
 #: apps/topics/models.py:38 templates/topics/detail.html:33
 msgid "Olumlu"
-msgstr "Positive"
+msgstr ""
 
 #: apps/topics/models.py:39 templates/topics/detail.html:43
 msgid "Olumsuz"
-msgstr "Negative"
+msgstr ""
 
 #: apps/topics/models.py:40 templates/topics/detail.html:53
 msgid "Soru"
-msgstr "Question"
+msgstr ""
 
 #: apps/topics/views.py:52
 #, python-format
 msgid "\"%(name)s\" tekrar aktif."
-msgstr "\"%(name)s\" is active again."
+msgstr ""
 
 #: apps/topics/views.py:55
 #, python-format
 msgid "\"%(name)s\" bitti olarak işaretlendi."
-msgstr "\"%(name)s\" marked as completed."
+msgstr ""
 
 #: apps/vocabulary/views.py:51
 msgid "Saatlik çeviri hakkını doldurdun. Biraz sonra tekrar dene."
@@ -461,7 +455,7 @@ msgstr ""
 
 #: apps/vocabulary/views.py:59
 msgid "Hiç kelime girmedin."
-msgstr "You didn't enter any words."
+msgstr ""
 
 #: apps/vocabulary/views.py:69
 msgid "AI çeviri sırasında beklenmedik bir hata oluştu."
@@ -470,99 +464,98 @@ msgstr ""
 #: apps/vocabulary/views.py:75
 msgid "Toplu AI çeviri deneme hakkın doldu. Devam etmek için bir paket seç."
 msgstr ""
-"You've used up your bulk AI translation trial. Pick a plan to continue."
 
 #: apps/vocabulary/views.py:104
 #, python-format
 msgid "%(count)d kelime eklendi."
-msgstr "%(count)d words added."
+msgstr ""
 
 #: apps/vocabulary/views.py:106
 #, python-format
 msgid "(%(count)d tanesi zaten vardı.)"
-msgstr "(%(count)d already existed.)"
+msgstr ""
 
 #: apps/vocabulary/views.py:108
 #, python-format
 msgid "(%(count)d tanesi eksik çeviriyle geldi, atlandı.)"
-msgstr "(%(count)d came with missing translation, skipped.)"
+msgstr ""
 
 #: apps/vocabulary/views.py:122
 msgid "İngilizce ve Türkçe alanları boş olamaz."
-msgstr "English and Turkish fields cannot be empty."
+msgstr ""
 
 #: apps/vocabulary/views.py:127
 msgid "Bu kelime zaten kayıtlı."
-msgstr "This word is already saved."
+msgstr ""
 
 #: apps/vocabulary/views.py:136
 msgid "Kaydedildi."
-msgstr "Saved."
+msgstr ""
 
 #: apps/vocabulary/views.py:146
 msgid "Silindi."
-msgstr "Deleted."
+msgstr ""
 
 #: apps/vocabulary/views.py:156
 #, python-format
 msgid "Quiz için en az %(min)d kelime gerekli. Şu an: %(total)d."
-msgstr "At least %(min)d words needed for quiz. Currently: %(total)d."
+msgstr ""
 
 #: apps/vocabulary/views.py:198
 msgid "Quiz ilerlemen sıfırlandı."
-msgstr "Your quiz progress has been reset."
+msgstr ""
 
 #: apps/wordbank/views.py:13 templates/dashboard/landing.html:221
 msgid "Başlangıç"
-msgstr "Beginner"
+msgstr ""
 
 #: apps/wordbank/views.py:14
 msgid "Temel Üstü"
-msgstr "Elementary"
+msgstr ""
 
 #: apps/wordbank/views.py:15
 msgid "Orta"
-msgstr "Intermediate"
+msgstr ""
 
 #: apps/wordbank/views.py:16
 msgid "Orta Üstü"
-msgstr "Upper Intermediate"
+msgstr ""
 
 #: apps/wordbank/views.py:17
 msgid "İleri"
-msgstr "Advanced"
+msgstr ""
 
 #: apps/wordbank/views.py:18
 msgid "Uzman"
-msgstr "Proficiency"
+msgstr ""
 
 #: apps/wordbank/views.py:43
 #, python-format
 msgid "%(level)s seviyesi yüklü değil."
-msgstr "%(level)s level is not loaded."
+msgstr ""
 
 #: apps/wordbank/views.py:98
 #, python-format
 msgid "%(level)s ilerlemen sıfırlandı."
-msgstr "Your %(level)s progress has been reset."
+msgstr ""
 
 #: config/settings.py:116 templates/vocabulary/edit.html:17
 msgid "Türkçe"
-msgstr "Turkish"
+msgstr ""
 
 #: config/settings.py:117 templates/vocabulary/edit.html:14
 msgid "English"
-msgstr "English"
+msgstr ""
 
 #: templates/accounts/_auth_base.html:39 templates/base.html:16
 #: templates/dashboard/home.html:12 templates/dashboard/landing.html:14
 msgid "Level up your English. Land the interview."
-msgstr "Level up your English. Land the interview."
+msgstr ""
 
 #: templates/accounts/_auth_base.html:40 templates/dashboard/landing.html:55
 #: templates/subscriptions/plans.html:11
 msgid "İngilizceni seviye atlat. Mülakatı kap."
-msgstr "Level up your English. Land the interview."
+msgstr ""
 
 #: templates/accounts/delete_account.html:3
 #: templates/accounts/delete_account.html:6
@@ -583,15 +576,13 @@ msgid ""
 msgstr ""
 
 #: templates/accounts/delete_account.html:21
-#, fuzzy
-#| msgid "Kullanıcı adı"
 msgid "Kullanıcı adımı yaz"
-msgstr "Username"
+msgstr ""
 
 #: templates/accounts/delete_account.html:25 templates/vocabulary/add.html:26
 #: templates/vocabulary/edit.html:34
 msgid "Vazgeç"
-msgstr "Cancel"
+msgstr ""
 
 #: templates/accounts/delete_account.html:26
 msgid "Hesabı sil"
@@ -601,51 +592,51 @@ msgstr ""
 #: templates/accounts/signup.html:42 templates/dashboard/landing.html:39
 #: templates/dashboard/landing.html:59
 msgid "Giriş yap"
-msgstr "Log in"
+msgstr ""
 
 #: templates/accounts/login.html:11 templates/accounts/signup.html:11
 msgid "Kullanıcı adı"
-msgstr "Username"
+msgstr ""
 
 #: templates/accounts/login.html:15 templates/accounts/signup.html:21
 msgid "Şifre"
-msgstr "Password"
+msgstr ""
 
 #: templates/accounts/login.html:21
 msgid "Hesabın yok mu?"
-msgstr "Don't have an account?"
+msgstr ""
 
 #: templates/accounts/login.html:21 templates/accounts/signup.html:3
 #: templates/dashboard/landing.html:40
 msgid "Kayıt ol"
-msgstr "Sign up"
+msgstr ""
 
 #: templates/accounts/profile.html:3
 msgid "Profil"
-msgstr "Profile"
+msgstr ""
 
 #: templates/accounts/profile.html:10 templates/base.html:71
 msgid "Profilim"
-msgstr "My Profile"
+msgstr ""
 
 #: templates/accounts/profile.html:11
 msgid "Bilgilerini görüntüle ve güncelle."
-msgstr "View and update your information."
+msgstr ""
 
 #: templates/accounts/profile.html:22
 msgid "tarihinden beri"
-msgstr "since"
+msgstr ""
 
 #: templates/accounts/profile.html:36 templates/chat/page.html:31
 #: templates/vocabulary/edit.html:33
 msgid "Kaydet"
-msgstr "Save"
+msgstr ""
 
 #: templates/accounts/profile.html:42 templates/base.html:75
 #: templates/subscriptions/my_subscriptions.html:3
 #: templates/subscriptions/my_subscriptions.html:10
 msgid "Paketlerim"
-msgstr "My Plans"
+msgstr ""
 
 #: templates/accounts/profile.html:47
 msgid "Hesabımı kalıcı olarak sil"
@@ -653,7 +644,7 @@ msgstr ""
 
 #: templates/accounts/signup.html:26
 msgid "Şifre tekrar"
-msgstr "Confirm password"
+msgstr ""
 
 #: templates/accounts/signup.html:33 templates/accounts/signup.html:49
 msgid "KVKK Aydınlatma Metni"
@@ -665,11 +656,11 @@ msgstr ""
 
 #: templates/accounts/signup.html:39
 msgid "Hesap oluştur"
-msgstr "Create account"
+msgstr ""
 
 #: templates/accounts/signup.html:42
 msgid "Zaten hesabın var mı?"
-msgstr "Already have an account?"
+msgstr ""
 
 #: templates/accounts/signup.html:57
 msgid "Okudum, kapat"
@@ -677,77 +668,77 @@ msgstr ""
 
 #: templates/base.html:30 templates/dashboard/home.html:3
 msgid "Ana Sayfa"
-msgstr "Home"
+msgstr ""
 
 #: templates/base.html:31 templates/base.html:126
 #: templates/interviews/detail.html:3
 msgid "Mülakat"
-msgstr "Interview"
+msgstr ""
 
 #: templates/base.html:32 templates/dashboard/home.html:82
 #: templates/dashboard/home.html:116 templates/dashboard/home.html:186
 #: templates/dashboard/landing.html:162 templates/wordbank/levels.html:3
 #: templates/wordbank/levels.html:10 templates/wordbank/quiz.html:3
 msgid "Kelime Hazinesi"
-msgstr "Word Treasury"
+msgstr ""
 
 #: templates/base.html:33 templates/vocabulary/list.html:3
 #: templates/vocabulary/list.html:10 templates/vocabulary/quiz.html:3
 #: templates/vocabulary/quiz.html:8 templates/vocabulary/quiz_feedback.html:3
 #: templates/vocabulary/quiz_feedback.html:8
 msgid "Kelimelerim"
-msgstr "My Words"
+msgstr ""
 
 #: templates/base.html:34 templates/base.html:122
 #: templates/dashboard/home.html:62 templates/topics/detail.html:8
 #: templates/topics/list.html:3
 msgid "Konular"
-msgstr "Topics"
+msgstr ""
 
 #: templates/base.html:35 templates/chat/page.html:3
 msgid "AI Chat"
-msgstr "AI Chat"
+msgstr ""
 
 #: templates/base.html:61
 msgid "Aktif abonelik"
-msgstr "Active subscription"
+msgstr ""
 
 #: templates/base.html:63 templates/subscriptions/plans.html:14
 #, python-format
 msgid "%(days)s gün deneme"
-msgstr "%(days)s day trial"
+msgstr ""
 
 #: templates/base.html:65
 msgid "Paket yok"
-msgstr "No plan"
+msgstr ""
 
 #: templates/base.html:79
 msgid "Paket Al"
-msgstr "Get Plan"
+msgstr ""
 
 #: templates/base.html:86
 msgid "Çıkış Yap"
-msgstr "Logout"
+msgstr ""
 
 #: templates/base.html:110
 msgid "Ana"
-msgstr "Home"
+msgstr ""
 
 #: templates/base.html:114 templates/dashboard/home.html:67
 msgid "Hazine"
-msgstr "Treasury"
+msgstr ""
 
 #: templates/base.html:118
 msgid "Kelimem"
-msgstr "Words"
+msgstr ""
 
 #: templates/base.html:130
 msgid "Chat"
-msgstr "Chat"
+msgstr ""
 
 #: templates/base.html:136 templates/dashboard/landing.html:238
 msgid "Tüm hakları saklıdır."
-msgstr "All rights reserved."
+msgstr ""
 
 #: templates/base.html:137 templates/dashboard/install_guide.html:4
 #: templates/dashboard/landing.html:239
@@ -756,11 +747,11 @@ msgstr ""
 
 #: templates/base.html:139 templates/dashboard/landing.html:241
 msgid "Bir"
-msgstr "A"
+msgstr ""
 
 #: templates/base.html:141 templates/dashboard/landing.html:243
 msgid "ürünüdür"
-msgstr "product"
+msgstr ""
 
 #: templates/base.html:150
 msgid "Ana ekrana ekle"
@@ -771,10 +762,8 @@ msgid "Tek dokunuşla aç, app gibi kullan."
 msgstr ""
 
 #: templates/base.html:153
-#, fuzzy
-#| msgid "Cevabı Göster"
 msgid "Göster"
-msgstr "Show Answer"
+msgstr ""
 
 #: templates/base.html:154
 msgid "Kapat"
@@ -782,72 +771,66 @@ msgstr ""
 
 #: templates/chat/page.html:9
 msgid "Sohbetler"
-msgstr "Conversations"
+msgstr ""
 
 #: templates/chat/page.html:10 templates/chat/page.html:46
 msgid "Yeni sohbet"
-msgstr "New chat"
+msgstr ""
 
 #: templates/chat/page.html:10
 msgid "Yeni"
-msgstr "New"
+msgstr ""
 
 #: templates/chat/page.html:20
 msgid "Yeniden adlandır"
-msgstr "Rename"
+msgstr ""
 
 #: templates/chat/page.html:23
 msgid "Bu sohbet silinsin mi?"
-msgstr "Delete this chat?"
+msgstr ""
 
 #: templates/chat/page.html:25 templates/interviews/detail.html:18
 #: templates/interviews/list.html:95
 msgid "Sil"
-msgstr "Delete"
+msgstr ""
 
 #: templates/chat/page.html:35
 msgid "Henüz sohbet yok."
-msgstr "No chats yet."
+msgstr ""
 
 #: templates/chat/page.html:43
 msgid "Geçmiş"
-msgstr "History"
+msgstr ""
 
 #: templates/chat/page.html:55
 msgid ""
 "Hey! İngilizce pratik için buradayım. İstediğin dilde yaz — örnek bir mesaj "
 "da verebilirsin."
 msgstr ""
-"Hey! I'm here to help you practice English. Write in any language — you can "
-"give an example message too."
 
 #: templates/chat/page.html:61
 msgid "Mesajını yaz..."
-msgstr "Type your message..."
+msgstr ""
 
 #: templates/chat/page.html:62
 msgid "Gönder"
-msgstr "Send"
+msgstr ""
 
 #: templates/dashboard/home.html:19
 msgid "CV yükle, mülakata hazırlan"
-msgstr "Upload your CV, prep for the interview"
+msgstr ""
 
 #: templates/dashboard/home.html:20
 msgid "AI seni simüle eder →"
-msgstr "AI simulates your interview →"
+msgstr ""
 
 #: templates/dashboard/home.html:30
-#, fuzzy
-#| msgid "İngilizce hazırlan."
 msgid "İngilizce Seviyen"
-msgstr "dream job in English."
+msgstr ""
 
 #: templates/dashboard/home.html:34
-#, fuzzy
-#| msgid "Toplam kayıt"
 msgid "Toplam puan"
-msgstr "Total records"
+msgstr ""
 
 #: templates/dashboard/home.html:38
 #, python-format
@@ -856,94 +839,94 @@ msgstr ""
 
 #: templates/dashboard/home.html:59
 msgid "Toplam kayıt"
-msgstr "Total records"
+msgstr ""
 
 #: templates/dashboard/home.html:64
 msgid "tamamlandı"
-msgstr "completed"
+msgstr ""
 
 #: templates/dashboard/home.html:69
 msgid "öğrenilen kelime"
-msgstr "words learned"
+msgstr ""
 
 #: templates/dashboard/home.html:72 templates/quizzes/run.html:3
 #: templates/topics/list.html:26 templates/vocabulary/quiz.html:3
 msgid "Quiz"
-msgstr "Quiz"
+msgstr ""
 
 #: templates/dashboard/home.html:74
 msgid "son bitirilen"
-msgstr "recently finished"
+msgstr ""
 
 #: templates/dashboard/home.html:88
 msgid "Çalışmaya devam"
-msgstr "Continue studying"
+msgstr ""
 
 #: templates/dashboard/home.html:93
 msgid "Haftalık İlerleme"
-msgstr "Weekly Progress"
+msgstr ""
 
 #: templates/dashboard/home.html:99
 msgid "Henüz veri yok — kelime çalışmaya başladığında grafik burada görünecek."
-msgstr "No data yet — the chart will appear once you start studying."
+msgstr ""
 
 #: templates/dashboard/home.html:103
 msgid "Hızlı Başla"
-msgstr "Quick Start"
+msgstr ""
 
 #: templates/dashboard/home.html:108 templates/vocabulary/add.html:3
 #: templates/vocabulary/add.html:7
 msgid "Kelime ekle"
-msgstr "Add words"
+msgstr ""
 
 #: templates/dashboard/home.html:109
 msgid "AI ile toplu çeviri"
-msgstr "Batch AI translation"
+msgstr ""
 
 #: templates/dashboard/home.html:117
 msgid "A1'den C2'ye seviyeli quiz"
-msgstr "Leveled quizzes from A1 to C2"
+msgstr ""
 
 #: templates/dashboard/home.html:124 templates/dashboard/landing.html:172
 #: templates/topics/list.html:10
 msgid "Gramer Konuları"
-msgstr "Grammar Topics"
+msgstr ""
 
 #: templates/dashboard/home.html:125
 msgid "Tense, modal, conditional"
-msgstr "Tense, modal, conditional"
+msgstr ""
 
 #: templates/dashboard/home.html:132
 msgid "AI ile pratik"
-msgstr "Practice with AI"
+msgstr ""
 
 #: templates/dashboard/home.html:133
 msgid "Canlı sohbet, TR/EN"
-msgstr "Live chat, TR/EN"
+msgstr ""
 
 #: templates/dashboard/home.html:140
 msgid "Devam eden konular"
-msgstr "Topics in progress"
+msgstr ""
 
 #: templates/dashboard/home.html:145
 msgid "çalış"
-msgstr "study"
+msgstr ""
 
 #: templates/dashboard/home.html:152
 msgid "Son quiz skorları"
-msgstr "Recent quiz scores"
+msgstr ""
 
 #: templates/dashboard/home.html:158
 msgid "Kelime quizi"
-msgstr "Word quiz"
+msgstr ""
 
 #: templates/dashboard/home.html:173
 msgid "Başlamaya hazırsın!"
-msgstr "You're ready to start!"
+msgstr ""
 
 #: templates/dashboard/home.html:193 templates/dashboard/landing.html:167
 msgid "Kişisel Kelimeler"
-msgstr "Personal Words"
+msgstr ""
 
 #: templates/dashboard/install_guide.html:11
 msgid "Uygulamayı Ana Ekrana Ekle"
@@ -1036,356 +1019,326 @@ msgstr ""
 #: templates/dashboard/install_guide.html:69
 #: templates/subscriptions/success.html:17
 msgid "Panele Dön"
-msgstr "Back to Dashboard"
+msgstr ""
 
 #: templates/dashboard/landing.html:50
 msgid "Teknik mülakat hazırlık platformu"
-msgstr "Technical interview preparation platform"
+msgstr ""
 
 #: templates/dashboard/landing.html:52
 msgid "Hayalindeki işe"
-msgstr "Prepare for your"
+msgstr ""
 
 #: templates/dashboard/landing.html:53
 msgid "İngilizce hazırlan."
-msgstr "dream job in English."
+msgstr ""
 
 #: templates/dashboard/landing.html:56
 msgid ""
 "Pozisyonuna özel mülakat soruları, 5500+ kelime, gramer ve AI pratik — hepsi "
 "tek platformda."
 msgstr ""
-"Interview questions tailored to your position, 5500+ words, grammar and AI "
-"practice — all on one platform."
 
 #: templates/dashboard/landing.html:58
 msgid "Hemen Başla"
-msgstr "Start Now"
+msgstr ""
 
 #: templates/dashboard/landing.html:64
 msgid "LevelEnAI ile Hazırlan"
-msgstr "Prepare with LevelEnAI"
+msgstr ""
 
 #: templates/dashboard/landing.html:68
 msgid "Mülakat Soruları"
-msgstr "Interview Questions"
+msgstr ""
 
 #: templates/dashboard/landing.html:69
 msgid "Pozisyona özel TR/EN soru-cevap"
-msgstr "Position-specific TR/EN Q&A"
+msgstr ""
 
 #: templates/dashboard/landing.html:75
 msgid "5574 Kelime Hazinesi"
-msgstr "5574 Word Treasury"
+msgstr ""
 
 #: templates/dashboard/landing.html:76
 msgid "A1'den C2'ye sıralı quiz"
-msgstr "Leveled quizzes from A1 to C2"
+msgstr ""
 
 #: templates/dashboard/landing.html:82
 msgid "Gramer + AI Chat"
-msgstr "Grammar + AI Chat"
+msgstr ""
 
 #: templates/dashboard/landing.html:83
 msgid "Konu çalış, AI ile konuş"
-msgstr "Study topics, chat with AI"
+msgstr ""
 
 #: templates/dashboard/landing.html:88
 msgid "Practice. Prepare. Get Hired."
-msgstr "Practice. Prepare. Get Hired."
+msgstr ""
 
 #: templates/dashboard/landing.html:101
 msgid "Seviye"
-msgstr "Level"
+msgstr ""
 
 #: templates/dashboard/landing.html:105
 msgid "Gramer Konusu"
-msgstr "Grammar Topic"
+msgstr ""
 
 #: templates/dashboard/landing.html:109
 msgid "Canlı sohbet"
-msgstr "Live chat"
+msgstr ""
 
 #: templates/dashboard/landing.html:119
 msgid "Nasıl Çalışır?"
-msgstr "How It Works?"
+msgstr ""
 
 #: templates/dashboard/landing.html:120
 msgid "3 adımda İngilizce pratiğine başla"
-msgstr "Start English practice in 3 steps"
+msgstr ""
 
 #: templates/dashboard/landing.html:121
 msgid "Kayıt ol, seviyeni seç, hemen çalışmaya başla."
-msgstr "Sign up, pick your level, start practicing."
+msgstr ""
 
 #: templates/dashboard/landing.html:127
 msgid "Kayıt Ol"
-msgstr "Sign Up"
+msgstr ""
 
 #: templates/dashboard/landing.html:128
 msgid "Sadece kullanıcı adı ve şifre. 10 saniyede hazırsın."
-msgstr "Just a username and password. Ready in 10 seconds."
+msgstr ""
 
 #: templates/dashboard/landing.html:133
 msgid "Seviye Seç"
-msgstr "Pick a Level"
+msgstr ""
 
 #: templates/dashboard/landing.html:134
 msgid "A1'den C2'ye seviyeni belirle. Kendi kelimelerini de ekle."
-msgstr "Choose your level from A1 to C2. Add your own words too."
+msgstr ""
 
 #: templates/dashboard/landing.html:139
 msgid "Her Gün Pratik Yap"
-msgstr "Practice Every Day"
+msgstr ""
 
 #: templates/dashboard/landing.html:140
 msgid "Quiz çöz, kelime öğren, AI ile konuş. İlerlemen otomatik kaydedilir."
 msgstr ""
-"Take quizzes, learn words, chat with AI. Progress is saved automatically."
 
 #: templates/dashboard/landing.html:150
 msgid "Özellikler"
-msgstr "Features"
+msgstr ""
 
 #: templates/dashboard/landing.html:151
 msgid "Süreç odaklı İngilizce deneyimi"
-msgstr "Process-focused English experience"
+msgstr ""
 
 #: templates/dashboard/landing.html:152
 msgid ""
 "Kelime, gramer, quiz ve AI pratik — günlük çalışmanı hızlandıran modüller."
 msgstr ""
-"Vocabulary, grammar, quizzes and AI practice — modules that speed up your "
-"daily study."
 
 #: templates/dashboard/landing.html:157 templates/interviews/list.html:3
 #: templates/interviews/list.html:10
 msgid "Mülakat Hazırlık"
-msgstr "Interview Preparation"
+msgstr ""
 
 #: templates/dashboard/landing.html:158
 msgid ""
 "Pozisyonuna özel AI mülakat soruları. Türkçe-İngilizce soru ve cevaplar. "
 "İstediğin iş başlığını yaz veya hazır kategorilerden seç."
 msgstr ""
-"AI interview questions tailored to your position. Turkish-English questions "
-"and answers. Type any job title or pick from ready-made categories."
 
 #: templates/dashboard/landing.html:163
 msgid ""
 "A1'den C2'ye 5574 kelime. Seviye seç, sırayla ilerle. Yanlışların otomatik "
 "tekrar eder."
 msgstr ""
-"5574 words from A1 to C2. Pick a level and progress in order. Wrong answers "
-"repeat automatically."
 
 #: templates/dashboard/landing.html:168
 msgid ""
 "Hocandan veya derslerden kelime gir, AI anlamını ve örnek cümlesini otomatik "
 "üretsin."
 msgstr ""
-"Enter words from your teacher or lessons; AI will automatically generate the "
-"meaning and example sentences."
 
 #: templates/dashboard/landing.html:173
 msgid ""
 "Zamanlar, modaller, conditionals — her konuda olumlu, olumsuz, soru "
 "örnekleri."
 msgstr ""
-"Tenses, modals, conditionals — positive, negative and question examples on "
-"every topic."
 
 #: templates/dashboard/landing.html:177
 msgid "AI ile Pratik"
-msgstr "Practice with AI"
+msgstr ""
 
 #: templates/dashboard/landing.html:178
 msgid "AI asistanla İngilizce konuş, hatalarını görsün, doğrusunu öğren."
 msgstr ""
-"Chat in English with an AI assistant, see your mistakes, learn the correct "
-"form."
 
 #: templates/dashboard/landing.html:188
 msgid "SSS"
-msgstr "FAQ"
+msgstr ""
 
 #: templates/dashboard/landing.html:189
 msgid "Sıkça Sorulan Sorular"
-msgstr "Frequently Asked Questions"
+msgstr ""
 
 #: templates/dashboard/landing.html:193
 msgid "Platform ücretli mi?"
-msgstr "Is the platform paid?"
+msgstr ""
 
 #: templates/dashboard/landing.html:194
 msgid ""
 "Hayır, platform tamamen ücretsizdir. Kayıt olun ve hemen kullanmaya başlayın."
 msgstr ""
-"No, the platform is completely free. Sign up and start using it right away."
 
 #: templates/dashboard/landing.html:197
 msgid "Kelime Hazinesi'nde hangi seviyeler var?"
-msgstr "Which levels are in the Word Bank?"
+msgstr ""
 
 #: templates/dashboard/landing.html:198
 msgid ""
 "A1'den C2'ye kadar 6 seviye ve toplam 5574 kelime mevcuttur. Her seviyede "
 "sırayla ilerlersiniz."
 msgstr ""
-"There are 6 levels from A1 to C2 and 5574 words in total. You progress step "
-"by step through each level."
 
 #: templates/dashboard/landing.html:201
 msgid "Yanlış yaptığım kelimeler ne oluyor?"
-msgstr "What happens to words I get wrong?"
+msgstr ""
 
 #: templates/dashboard/landing.html:202
 msgid ""
 "Yanlış cevapladığınız kelimeler otomatik olarak tekrar havuzuna eklenir ve "
 "ileriki sorularda karşınıza çıkar. Doğru cevaplayana kadar peşinizi bırakmaz."
 msgstr ""
-"Words you answered incorrectly are automatically added back to the pool and "
-"reappear in later questions. They won't leave you alone until you get them "
-"right."
 
 #: templates/dashboard/landing.html:205
 msgid "Kendi kelimelerimi ekleyebilir miyim?"
-msgstr "Can I add my own words?"
+msgstr ""
 
 #: templates/dashboard/landing.html:206
 msgid ""
 "Evet. Kelimelerim bölümünden istediğiniz kelimeleri girebilirsiniz. AI "
 "otomatik olarak Türkçe anlamını ve örnek cümlesini üretir."
 msgstr ""
-"Yes. You can enter any word you like from the My Words section. AI "
-"automatically generates its Turkish meaning and example sentence."
 
 #: templates/dashboard/landing.html:209
 msgid "AI Chat ne işe yarar?"
-msgstr "What does AI Chat do?"
+msgstr ""
 
 #: templates/dashboard/landing.html:210
 msgid ""
 "AI Chat ile İngilizce pratik yapabilirsiniz. Türkçe veya İngilizce yazın, AI "
 "asistan hatalarınızı düzeltir ve doğal konuşma pratiği sunar."
 msgstr ""
-"You can practice English with AI Chat. Write in Turkish or English; the AI "
-"assistant corrects your mistakes and offers natural conversation practice."
 
 #: templates/dashboard/landing.html:222
 msgid "Kariyerine İngilizce ile yön ver"
-msgstr "Shape your career with English"
+msgstr ""
 
 #: templates/dashboard/landing.html:223
 msgid ""
 "Kayıt olduktan sonra tüm özellikler aktif olur. Kelime hazinesi, gramer, AI "
 "pratik — hepsi seni bekliyor."
 msgstr ""
-"After signing up, all features become active. Word treasury, grammar, AI "
-"practice — everything is waiting for you."
 
 #: templates/dashboard/landing.html:226
 msgid "Ücretsiz Kayıt Ol"
-msgstr "Sign Up for Free"
+msgstr ""
 
 #: templates/dashboard/landing.html:236
 msgid "AI-coached interview prep for Turkish developers."
-msgstr "AI-coached interview prep for Turkish developers."
+msgstr ""
 
 #: templates/interviews/detail.html:8 templates/interviews/detail.html:54
 msgid "Mülakatlarım"
-msgstr "My Interviews"
+msgstr ""
 
 #: templates/interviews/detail.html:13 templates/interviews/list.html:88
 #: templates/quizzes/picker.html:30
 #, python-format
 msgid "%(count)s soru"
-msgstr "%(count)s questions"
+msgstr ""
 
 #: templates/interviews/detail.html:16 templates/interviews/list.html:93
 msgid "Bu mülakat silinsin mi?"
-msgstr "Delete this interview?"
+msgstr ""
 
 #: templates/interviews/detail.html:36
 msgid "Cevabı Göster"
-msgstr "Show Answer"
+msgstr ""
 
 #: templates/interviews/list.html:11
 msgid "Pozisyona özel veya CV'ne göre İngilizce-Türkçe mülakat soruları"
-msgstr "Position-specific or CV-based English-Turkish interview questions"
+msgstr ""
 
 #: templates/interviews/list.html:21
 msgid "Pozisyon Seç"
-msgstr "Pick Position"
+msgstr ""
 
 #: templates/interviews/list.html:25
 msgid "CV Yükle"
-msgstr "Upload CV"
+msgstr ""
 
 #: templates/interviews/list.html:33
 msgid "İş Pozisyonu"
-msgstr "Job Position"
+msgstr ""
 
 #: templates/interviews/list.html:35
 msgid "Developer Pozisyonları"
-msgstr "Developer Positions"
+msgstr ""
 
 #: templates/interviews/list.html:40
 msgid "Alan / Uzmanlık"
-msgstr "Field / Expertise"
+msgstr ""
 
 #: templates/interviews/list.html:45
 msgid "Diğer"
-msgstr "Other"
+msgstr ""
 
 #: templates/interviews/list.html:46
 msgid "Kendi başlığımı yazacağım"
-msgstr "I'll write my own title"
+msgstr ""
 
 #: templates/interviews/list.html:51
 msgid "İş Başlığı"
-msgstr "Job Title"
+msgstr ""
 
 #: templates/interviews/list.html:52
 msgid "ör: Frontend Developer, Data Engineer..."
-msgstr "e.g. Frontend Developer, Data Engineer..."
+msgstr ""
 
 #: templates/interviews/list.html:55
 msgid "AI ile Mülakat Soruları Oluştur"
-msgstr "Generate Interview Questions with AI"
+msgstr ""
 
 #: templates/interviews/list.html:64
 msgid "CV'ni yükle, AI sana özel sorular hazırlasın"
-msgstr "Upload your CV, let AI tailor questions to you"
+msgstr ""
 
 #: templates/interviews/list.html:65
 msgid ""
 "PDF, DOCX veya TXT formatında. AI, CV'deki beceriler ve deneyime göre "
 "kişiselleştirilmiş mülakat soruları üretir."
 msgstr ""
-"In PDF, DOCX or TXT format. AI generates personalized interview questions "
-"based on the skills and experience in your CV."
 
 #: templates/interviews/list.html:70
 msgid "CV Dosyası"
-msgstr "CV File"
+msgstr ""
 
 #: templates/interviews/list.html:73
 msgid "CV'yi Analiz Et ve Sorular Oluştur"
-msgstr "Analyze CV and Generate Questions"
+msgstr ""
 
 #: templates/interviews/list.html:79
 msgid "Geçmiş Mülakatlarım"
-msgstr "Past Interviews"
+msgstr ""
 
 #: templates/interviews/list.html:91
 msgid "Görüntüle"
-msgstr "View"
+msgstr ""
 
 #: templates/interviews/list.html:104
 msgid "Henüz mülakat oluşturmadın. Pozisyon seç veya CV yükle!"
 msgstr ""
-"You haven't created any interviews yet. Pick a position or upload a CV!"
 
 #: templates/legal/_kvkk_body.html:3
 msgid "Veri Sorumlusu"
@@ -1451,10 +1404,8 @@ msgid ""
 msgstr ""
 
 #: templates/legal/_kvkk_body.html:30
-#, fuzzy
-#| msgid "Mülakatlarım"
 msgid "Aktarım"
-msgstr "My Interviews"
+msgstr ""
 
 #: templates/legal/_kvkk_body.html:32
 msgid ""
@@ -1507,564 +1458,547 @@ msgstr ""
 #: templates/quizzes/feedback.html:3 templates/vocabulary/quiz_feedback.html:3
 #: templates/wordbank/feedback.html:3
 msgid "Sonuç"
-msgstr "Result"
+msgstr ""
 
 #: templates/quizzes/feedback.html:8 templates/quizzes/run.html:10
 #, python-format
 msgid "Soru %(current)s/%(total)s"
-msgstr "Question %(current)s/%(total)s"
+msgstr ""
 
 #: templates/quizzes/feedback.html:21
 #: templates/vocabulary/quiz_feedback.html:23
 #: templates/wordbank/feedback.html:23
 msgid "✓ Doğru!"
-msgstr "✓ Correct!"
+msgstr ""
 
 #: templates/quizzes/feedback.html:22
 msgid "Cevabın:"
-msgstr "Your answer:"
+msgstr ""
 
 #: templates/quizzes/feedback.html:24
 msgid "✗ Yanlış"
-msgstr "✗ Wrong"
+msgstr ""
 
 #: templates/quizzes/feedback.html:25 templates/quizzes/result.html:46
 #: templates/vocabulary/quiz_feedback.html:32
 #: templates/wordbank/feedback.html:31
 msgid "Senin:"
-msgstr "Yours:"
+msgstr ""
 
 #: templates/quizzes/feedback.html:25 templates/quizzes/result.html:46
 #: templates/vocabulary/quiz_feedback.html:32
 #: templates/wordbank/feedback.html:31
 msgid "(boş)"
-msgstr "(empty)"
+msgstr ""
 
 #: templates/quizzes/feedback.html:26 templates/quizzes/result.html:47
 #: templates/vocabulary/quiz_feedback.html:33
 #: templates/wordbank/feedback.html:32
 msgid "Doğrusu:"
-msgstr "Correct:"
+msgstr ""
 
 #: templates/quizzes/feedback.html:31
 #: templates/vocabulary/quiz_feedback.html:51
 #: templates/wordbank/feedback.html:49
 msgid "Sıradaki"
-msgstr "Next"
+msgstr ""
 
 #: templates/quizzes/feedback.html:32 templates/quizzes/run.html:42
 msgid "Bitir"
-msgstr "Finish"
+msgstr ""
 
 #: templates/quizzes/picker.html:26
 msgid "Varsayılan"
-msgstr "Default"
+msgstr ""
 
 #: templates/quizzes/picker.html:27
 msgid "✓ Bitirdin"
-msgstr "✓ Completed"
+msgstr ""
 
 #: templates/quizzes/picker.html:31
 #, python-format
 msgid "son skor %(score)s%%"
-msgstr "last score %(score)s%%"
+msgstr ""
 
 #: templates/quizzes/picker.html:37
 msgid "Tekrar çöz"
-msgstr "Retake"
+msgstr ""
 
 #: templates/quizzes/picker.html:37 templates/wordbank/levels.html:35
 msgid "Başla"
-msgstr "Start"
+msgstr ""
 
 #: templates/quizzes/picker.html:46
 msgid "Henüz quiz yok."
-msgstr "No quiz yet."
+msgstr ""
 
 #: templates/quizzes/picker.html:53 templates/quizzes/result.html:55
 msgid "Yeni AI Quiz Oluştur"
-msgstr "Generate New AI Quiz"
+msgstr ""
 
 #: templates/quizzes/picker.html:55
 msgid ""
 "Şu ana kadarki konuları/kelimeleri temel alarak AI senin için yeni bir quiz "
 "üretir."
-msgstr "AI generates a new quiz for you based on your topics/words so far."
+msgstr ""
 
 #: templates/quizzes/picker.html:59 templates/quizzes/result.html:61
 msgid "AI üretiyor..."
-msgstr "AI is generating..."
+msgstr ""
 
 #: templates/quizzes/picker.html:60
 msgid "Yeni Quiz Oluştur"
-msgstr "Generate New Quiz"
+msgstr ""
 
 #: templates/quizzes/result.html:3
 msgid "Quiz Sonucu"
-msgstr "Quiz Result"
+msgstr ""
 
 #: templates/quizzes/result.html:14
 msgid "Harika!"
-msgstr "Excellent!"
+msgstr ""
 
 #: templates/quizzes/result.html:15
 msgid "İyi iş!"
-msgstr "Good job!"
+msgstr ""
 
 #: templates/quizzes/result.html:16
 msgid "Devam et!"
-msgstr "Keep going!"
+msgstr ""
 
 #: templates/quizzes/result.html:20
 #, python-format
 msgid "%(correct)s/%(answered)s doğru (%(percent)s%%)"
-msgstr "%(correct)s/%(answered)s correct (%(percent)s%%)"
+msgstr ""
 
 #: templates/quizzes/result.html:27
 msgid "Skor"
-msgstr "Score"
+msgstr ""
 
 #: templates/quizzes/result.html:41
 #, python-format
 msgid "Yanlışların (%(count)s)"
-msgstr "Your mistakes (%(count)s)"
+msgstr ""
 
 #: templates/quizzes/result.html:57
 msgid "Bu konuyu bitirdin. AI senin için yepyeni bir quiz hazırlasın mı?"
-msgstr "You finished this topic. Want AI to prepare a brand new quiz for you?"
+msgstr ""
 
 #: templates/quizzes/result.html:62
 msgid "Yeni Quiz Başlat"
-msgstr "Start New Quiz"
+msgstr ""
 
 #: templates/quizzes/result.html:69 templates/quizzes/result.html:72
 msgid "Quizlere dön"
-msgstr "Back to quizzes"
+msgstr ""
 
 #: templates/quizzes/result.html:73 templates/vocabulary/add.html:17
 msgid "Kelimeler"
-msgstr "Words"
+msgstr ""
 
 #: templates/quizzes/run.html:37
 msgid "Cevabın..."
-msgstr "Your answer..."
+msgstr ""
 
 #: templates/quizzes/run.html:41 templates/vocabulary/quiz.html:45
 #: templates/wordbank/quiz.html:45
 msgid "Cevapla"
-msgstr "Answer"
+msgstr ""
 
 #: templates/subscriptions/_upgrade_card.html:8
 #, python-format
 msgid "Deneme süresi: %(days)s gün kaldı"
-msgstr "Trial period: %(days)s days left"
+msgstr ""
 
 #: templates/subscriptions/_upgrade_card.html:10
 #: templates/subscriptions/plans.html:10
 msgid "Paket Al, Sınırsız Kullan"
-msgstr "Get a Plan, Use It Without Limits"
+msgstr ""
 
 #: templates/subscriptions/_upgrade_card.html:15
 msgid "Kesintisiz pratik için şimdi paket seç."
-msgstr "Pick a plan now for uninterrupted practice."
+msgstr ""
 
 #: templates/subscriptions/_upgrade_card.html:17
 msgid "Mülakat, Chat, AI çeviri ve fazlası — hepsi tek pakette."
-msgstr "Interview, Chat, AI translation and more — all in one plan."
+msgstr ""
 
 #: templates/subscriptions/_upgrade_card.html:22
 #: templates/subscriptions/my_subscriptions.html:55
 msgid "Paketleri Gör"
-msgstr "See Plans"
+msgstr ""
 
 #: templates/subscriptions/checkout.html:3
 msgid "Ödeme"
-msgstr "Payment"
+msgstr ""
 
 #: templates/subscriptions/checkout.html:8
 msgid "Güvenli ödeme için iyzico yönlendirmesi"
-msgstr "iyzico redirect for secure payment"
+msgstr ""
 
 #: templates/subscriptions/checkout.html:17
 msgid "Ödeme sayfasına yönlendiriliyorsun..."
-msgstr "You're being redirected to the payment page..."
+msgstr ""
 
 #: templates/subscriptions/checkout.html:19
 msgid "Manuel yönlendirme"
-msgstr "Manual redirect"
+msgstr ""
 
 #: templates/subscriptions/checkout.html:21
 msgid "Ödeme formu alınamadı. Tekrar deneyin."
-msgstr "Could not load the payment form. Please try again."
+msgstr ""
 
 #: templates/subscriptions/checkout.html:22
 msgid "Paketlere dön"
-msgstr "Back to Plans"
+msgstr ""
 
 #: templates/subscriptions/failed.html:3
 msgid "Ödeme Başarısız"
-msgstr "Payment Failed"
+msgstr ""
 
 #: templates/subscriptions/failed.html:8
 msgid "Ödeme tamamlanamadı"
-msgstr "Payment could not be completed"
+msgstr ""
 
 #: templates/subscriptions/failed.html:12
 msgid "iyzico ödemeyi onaylamadı. Kartını veya tekrar denemeyi düşünebilirsin."
 msgstr ""
-"iyzico did not approve the payment. Consider trying a different card or "
-"trying again."
 
 #: templates/subscriptions/failed.html:16
 msgid "Tekrar Dene"
-msgstr "Try Again"
+msgstr ""
 
 #: templates/subscriptions/my_subscriptions.html:11
 msgid "Aktif aboneliğin ve geçmiş işlemlerin."
-msgstr "Your active subscription and past transactions."
+msgstr ""
 
 #: templates/subscriptions/my_subscriptions.html:25
 msgid "İptal edildi · süre sonunda biter"
-msgstr "Cancelled · ends at term end"
+msgstr ""
 
 #: templates/subscriptions/my_subscriptions.html:32
 #, python-format
 msgid "%(start)s — %(end)s"
-msgstr "%(start)s — %(end)s"
+msgstr ""
 
 #: templates/subscriptions/my_subscriptions.html:37
 msgid ""
 "Aboneliği iptal etmek istediğine emin misin? Erişimin süre sonuna kadar "
 "devam edecek."
 msgstr ""
-"Are you sure you want to cancel the subscription? Your access will continue "
-"until the term ends."
 
 #: templates/subscriptions/my_subscriptions.html:39
 msgid "İptal Et"
-msgstr "Cancel"
+msgstr ""
 
 #: templates/subscriptions/my_subscriptions.html:45
 msgid "Devam Ettir"
-msgstr "Resume"
+msgstr ""
 
 #: templates/subscriptions/my_subscriptions.html:53
 msgid "Aktif aboneliğin yok."
-msgstr "You don't have an active subscription."
+msgstr ""
 
 #: templates/subscriptions/my_subscriptions.html:61
 msgid "Tüm Aboneliklerim"
-msgstr "All My Subscriptions"
+msgstr ""
 
 #: templates/subscriptions/my_subscriptions.html:81
 msgid "Son Ödemeler"
-msgstr "Recent Payments"
+msgstr ""
 
 #: templates/subscriptions/plans.html:3
 msgid "Paketler"
-msgstr "Plans"
+msgstr ""
 
 #: templates/subscriptions/plans.html:16
 msgid "Deneme bitti"
-msgstr "Trial ended"
+msgstr ""
 
 #: templates/subscriptions/plans.html:23
 msgid "Deneme sürenin sonuna geldin. Devam etmek için bir paket seç."
-msgstr "You've reached the end of your trial. Pick a plan to continue."
+msgstr ""
 
 #: templates/subscriptions/plans.html:32
 msgid "En Popüler"
-msgstr "Most Popular"
+msgstr ""
 
 #: templates/subscriptions/plans.html:43
 msgid "gün"
-msgstr "days"
+msgstr ""
 
 #: templates/subscriptions/plans.html:46
 msgid "Sınırsız AI mülakat soru üretimi"
-msgstr "Unlimited AI interview question generation"
+msgstr ""
 
 #: templates/subscriptions/plans.html:47
 msgid "Sınırsız AI Chat pratiği"
-msgstr "Unlimited AI Chat practice"
+msgstr ""
 
 #: templates/subscriptions/plans.html:48
 msgid "Sınırsız toplu AI çeviri"
-msgstr "Unlimited bulk AI translation"
+msgstr ""
 
 #: templates/subscriptions/plans.html:49
 msgid "Kelime Hazinesi + Gramer"
-msgstr "Word Treasury + Grammar"
+msgstr ""
 
 #: templates/subscriptions/plans.html:50
 msgid "CV yükleme ile kişisel sorular"
-msgstr "Personalized questions from CV upload"
+msgstr ""
 
 #: templates/subscriptions/plans.html:55
 msgid "Bu Paketi Al"
-msgstr "Get This Plan"
+msgstr ""
 
 #: templates/subscriptions/plans.html:60
 msgid "Henüz tanımlı paket yok."
-msgstr "No plans defined yet."
+msgstr ""
 
 #: templates/subscriptions/plans.html:65
 msgid ""
 "Ödemeler iyzico güvenli altyapısı üzerinden alınır. Kart bilgileri bizde "
 "saklanmaz."
 msgstr ""
-"Payments are processed via iyzico's secure infrastructure. Card details are "
-"not stored by us."
 
 #: templates/subscriptions/success.html:3
 msgid "Ödeme Başarılı"
-msgstr "Payment Successful"
+msgstr ""
 
 #: templates/subscriptions/success.html:8
 msgid "Ödemen alındı!"
-msgstr "Your payment has been received!"
+msgstr ""
 
 #: templates/subscriptions/success.html:13
 #, python-format
 msgid "Aboneliğin <strong>%(exp)s</strong> tarihine kadar aktif."
-msgstr "Your subscription is active until <strong>%(exp)s</strong>."
+msgstr ""
 
 #: templates/subscriptions/success.html:20
 msgid "Mülakata Başla"
-msgstr "Start Interview"
+msgstr ""
 
 #: templates/topics/detail.html:11
 msgid "✓ Bitti"
-msgstr "✓ Done"
+msgstr ""
 
 #: templates/topics/detail.html:22
 msgid "Quizlere git"
-msgstr "Go to quizzes"
+msgstr ""
 
 #: templates/topics/detail.html:27
 msgid "Tekrar aktif"
-msgstr "Reactivate"
+msgstr ""
 
 #: templates/topics/detail.html:27
 msgid "Bitti"
-msgstr "Done"
+msgstr ""
 
 #: templates/topics/list.html:11
 #, python-format
 msgid "%(done)s / %(total)s konu tamamlandı"
-msgstr "%(done)s / %(total)s topics completed"
+msgstr ""
 
 #: templates/vocabulary/add.html:8 templates/vocabulary/edit.html:8
 msgid "Geri"
-msgstr "Back"
+msgstr ""
 
 #: templates/vocabulary/add.html:12
 msgid ""
 "İngilizce kelimeleri virgül veya satır başı ile ayırarak yaz. AI anlamlarını "
 "ve örnek cümleleri doldurup kaydedecek."
 msgstr ""
-"Enter English words separated by commas or new lines. AI will fill in "
-"meanings and example sentences."
 
 #: templates/vocabulary/add.html:21 templates/vocabulary/edit.html:29
 msgid "Kaynak"
-msgstr "Source"
+msgstr ""
 
 #: templates/vocabulary/add.html:21
 msgid "opsiyonel"
-msgstr "optional"
+msgstr ""
 
 #: templates/vocabulary/add.html:22
 msgid "ör: hoca, kitap, podcast..."
-msgstr "e.g. teacher, book, podcast..."
+msgstr ""
 
 #: templates/vocabulary/add.html:25
 msgid "AI ile çevir ve kaydet"
-msgstr "Translate with AI and save"
+msgstr ""
 
 #: templates/vocabulary/edit.html:3 templates/vocabulary/edit.html:7
 msgid "Kelime düzenle"
-msgstr "Edit word"
+msgstr ""
 
 #: templates/vocabulary/edit.html:20
 msgid "Örnek (EN)"
-msgstr "Example (EN)"
+msgstr ""
 
 #: templates/vocabulary/edit.html:23
 msgid "Örnek (TR)"
-msgstr "Example (TR)"
+msgstr ""
 
 #: templates/vocabulary/edit.html:26
 msgid "Sözcük türü"
-msgstr "Part of speech"
+msgstr ""
 
 #: templates/vocabulary/list.html:11
 #, python-format
 msgid "%(count)s kayıt · AI ile anlam, örnek cümle ve telaffuz"
 msgstr ""
-"%(count)s entries · Meaning, example sentence and pronunciation with AI"
 
 #: templates/vocabulary/list.html:21
 msgid "Quiz çalış"
-msgstr "Study quiz"
+msgstr ""
 
 #: templates/vocabulary/list.html:23
 msgid "Ekle"
-msgstr "Add"
+msgstr ""
 
 #: templates/vocabulary/list.html:31
 msgid "Quiz İlerlemen"
-msgstr "Quiz Progress"
+msgstr ""
 
 #: templates/vocabulary/list.html:32
 #, python-format
 msgid "✓ %(mastered)s öğrendin · ⟳ %(retry)s tekrar · ⏳ %(unseen)s kalan"
-msgstr "✓ %(mastered)s learned · ⟳ %(retry)s retry · ⏳ %(unseen)s remaining"
+msgstr ""
 
 #: templates/vocabulary/list.html:42
 msgid "İngilizce veya Türkçe ara..."
-msgstr "Search English or Turkish..."
+msgstr ""
 
 #: templates/vocabulary/list.html:67
 msgid "Silinsin mi?"
-msgstr "Delete this?"
+msgstr ""
 
 #: templates/vocabulary/list.html:78
 msgid "Henüz kelime yok."
-msgstr "No words yet."
+msgstr ""
 
 #: templates/vocabulary/list.html:79
 msgid "İlk kelimeni ekle"
-msgstr "Add your first word"
+msgstr ""
 
 #: templates/vocabulary/quiz.html:9 templates/vocabulary/quiz_feedback.html:9
 msgid "Kişisel Kelime Quiz"
-msgstr "Personal Word Quiz"
+msgstr ""
 
 #: templates/vocabulary/quiz.html:13 templates/vocabulary/quiz_feedback.html:13
 #: templates/wordbank/feedback.html:13 templates/wordbank/quiz.html:13
 msgid "Öğrendiğin:"
-msgstr "Learned:"
+msgstr ""
 
 #: templates/vocabulary/quiz.html:23 templates/wordbank/quiz.html:23
 msgid "Çoktan Seçmeli"
-msgstr "Multiple Choice"
+msgstr ""
 
 #: templates/vocabulary/quiz.html:24 templates/wordbank/quiz.html:24
 msgid "TEKRAR"
-msgstr "RETRY"
+msgstr ""
 
 #: templates/vocabulary/quiz_complete.html:3
 msgid "Tüm Kelimeler Öğrenildi!"
-msgstr "All Words Learned!"
+msgstr ""
 
 #: templates/vocabulary/quiz_complete.html:9
 msgid "Hepsi tamam!"
-msgstr "All done!"
+msgstr ""
 
 #: templates/vocabulary/quiz_complete.html:10
 #, python-format
 msgid "%(total)s kelimeyi öğrendin"
-msgstr "You learned %(total)s words"
+msgstr ""
 
 #: templates/vocabulary/quiz_complete.html:16
 #: templates/wordbank/complete.html:16
 msgid "Öğrenim"
-msgstr "Learning"
+msgstr ""
 
 #: templates/vocabulary/quiz_complete.html:25
 msgid "Kelimelerime dön"
-msgstr "Back to My Words"
+msgstr ""
 
 #: templates/vocabulary/quiz_complete.html:27
 msgid "İlerlemen sıfırlansın mı?"
-msgstr "Reset your progress?"
+msgstr ""
 
 #: templates/vocabulary/quiz_complete.html:29 templates/wordbank/levels.html:41
 msgid "Sıfırla"
-msgstr "Reset"
+msgstr ""
 
 #: templates/vocabulary/quiz_feedback.html:30
 #: templates/wordbank/feedback.html:29
 msgid "✗ Yanlış — tekrar havuzuna eklendi"
-msgstr "✗ Wrong — added to retry pool"
+msgstr ""
 
 #: templates/wordbank/complete.html:3 templates/wordbank/complete.html:9
 #, python-format
 msgid "%(level)s Tamamlandı!"
-msgstr "%(level)s Completed!"
+msgstr ""
 
 #: templates/wordbank/complete.html:10
 #, python-format
 msgid "Tüm %(total)s kelimeyi öğrendin"
-msgstr "You learned all %(total)s words"
+msgstr ""
 
 #: templates/wordbank/complete.html:29
 msgid "A2'ye geç"
-msgstr "Go to A2"
+msgstr ""
 
 #: templates/wordbank/complete.html:31
 msgid "B1'e geç"
-msgstr "Go to B1"
+msgstr ""
 
 #: templates/wordbank/complete.html:33
 msgid "B2'ye geç"
-msgstr "Go to B2"
+msgstr ""
 
 #: templates/wordbank/complete.html:35
 msgid "C1'e geç"
-msgstr "Go to C1"
+msgstr ""
 
 #: templates/wordbank/complete.html:37
 msgid "C2'ye geç"
-msgstr "Go to C2"
+msgstr ""
 
 #: templates/wordbank/complete.html:39 templates/wordbank/feedback.html:8
 #: templates/wordbank/quiz.html:8
 msgid "Seviyeler"
-msgstr "Levels"
+msgstr ""
 
 #: templates/wordbank/complete.html:43 templates/wordbank/levels.html:39
 #, python-format
 msgid "%(level)s ilerlemen sıfırlansın mı?"
-msgstr "Reset your %(level)s progress?"
+msgstr ""
 
 #: templates/wordbank/complete.html:45
 #, python-format
 msgid "%(level)s'i sıfırla"
-msgstr "Reset %(level)s"
+msgstr ""
 
 #: templates/wordbank/levels.html:11
 msgid "Oxford A1–C2 kelimeleri · Her seviyede sırayla ilerle"
-msgstr "Oxford A1–C2 words · Progress through each level in order"
+msgstr ""
 
 #: templates/wordbank/levels.html:13
 msgid "Yanlışlar otomatik döner"
-msgstr "Wrong answers come back automatically"
+msgstr ""
 
 #: templates/wordbank/levels.html:29
 #, python-format
 msgid "✓ %(mastered)s öğrendin"
-msgstr "✓ %(mastered)s learned"
+msgstr ""
 
 #: templates/wordbank/levels.html:30
 #, python-format
 msgid "⟳ %(retry)s tekrar"
-msgstr "⟳ %(retry)s retry"
+msgstr ""
 
 #: templates/wordbank/levels.html:31
 #, python-format
 msgid "⏳ %(unseen)s kalan"
-msgstr "⏳ %(unseen)s remaining"
+msgstr ""
 
 #: templates/wordbank/levels.html:35
 msgid "Devam et"
-msgstr "Continue"
-
-#, python-format
-#~ msgid "AI hata: %(error)s"
-#~ msgstr "AI error: %(error)s"
-
-#, python-format
-#~ msgid "AI çeviri hatası: %(error)s"
-#~ msgstr "AI translation error: %(error)s"
+msgstr ""

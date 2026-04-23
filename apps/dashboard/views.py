@@ -7,10 +7,13 @@ from django.db.models.functions import TruncDate
 from django.shortcuts import render
 from django.utils import timezone
 
+from apps.accounts.models import UserLevel
 from apps.vocabulary.models import Word
 from apps.topics.models import Topic, TopicCompletion
 from apps.quizzes.models import QuizSession
 from apps.wordbank.models import BankWord, BankProgress
+
+_LEVEL_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
 
 
 def _weekly_chart_data(user):
@@ -86,22 +89,47 @@ def _dashboard(request):
         user=user, finished_at__isnull=False
     ).order_by('-finished_at')[:5]
 
-    bank_levels = []
-    bank_total = BankWord.objects.count()
-    bank_mastered_total = BankProgress.objects.filter(user=user, mastered=True).count()
-    for code, _ in BankWord.LEVELS:
-        total = BankWord.objects.filter(level=code).count()
-        mastered = BankProgress.objects.filter(
-            user=user, word__level=code, mastered=True,
-        ).count()
-        bank_levels.append({
+    bank_totals = dict(
+        BankWord.objects.values_list('level').annotate(c=Count('id')).values_list('level', 'c')
+    )
+    bank_mastered_map = dict(
+        BankProgress.objects.filter(user=user, mastered=True)
+        .values_list('word__level').annotate(c=Count('id')).values_list('word__level', 'c')
+    )
+    bank_levels = [
+        {
             'code': code,
-            'total': total,
-            'mastered': mastered,
-        })
+            'total': bank_totals.get(code, 0),
+            'mastered': bank_mastered_map.get(code, 0),
+        }
+        for code, _ in BankWord.LEVELS
+    ]
+    bank_total = sum(bank_totals.values())
+    bank_mastered_total = sum(bank_mastered_map.values())
     bank_percent = round(100 * bank_mastered_total / bank_total) if bank_total else 0
 
     chart = _weekly_chart_data(user)
+
+    user_level, _ = UserLevel.objects.get_or_create(user=user)
+    current_idx = _LEVEL_ORDER.index(user_level.current_level) if user_level.current_level in _LEVEL_ORDER else 0
+    level_steps = [
+        {
+            'code': code,
+            'reached': idx <= current_idx,
+            'current': idx == current_idx,
+        }
+        for idx, code in enumerate(_LEVEL_ORDER)
+    ]
+    level_thresholds = dict(UserLevel._THRESHOLDS)
+    next_threshold = None
+    for idx in range(current_idx + 1, len(_LEVEL_ORDER)):
+        nxt = _LEVEL_ORDER[idx]
+        for t, lvl in UserLevel._THRESHOLDS:
+            if lvl == nxt:
+                next_threshold = {'level': nxt, 'score': t}
+                break
+        if next_threshold:
+            break
 
     return render(request, 'dashboard/home.html', {
         'total_words': total_words,
@@ -115,4 +143,7 @@ def _dashboard(request):
         'bank_percent': bank_percent,
         'bank_levels': bank_levels,
         'chart': chart,
+        'user_level': user_level,
+        'level_steps': level_steps,
+        'next_level': next_threshold,
     })

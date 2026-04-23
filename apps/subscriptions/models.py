@@ -1,6 +1,7 @@
 from datetime import timedelta
 
 from django.conf import settings
+from django.core.exceptions import ValidationError
 from django.db import models
 from django.utils import timezone
 from django.utils.translation import gettext_lazy as _
@@ -25,6 +26,20 @@ class Plan(models.Model):
     @property
     def price_str(self):
         return f'{self.price_try:.2f}'
+
+    def save(self, *args, **kwargs):
+        if self.pk:
+            old = type(self).objects.filter(pk=self.pk).only('slug').first()
+            if old and old.slug != self.slug:
+                has_live = Subscription.objects.filter(
+                    plan_id=self.pk,
+                    status__in=[Subscription.STATUS_ACTIVE, Subscription.STATUS_CANCELLED],
+                ).exists()
+                if has_live:
+                    raise ValidationError(
+                        _('Aktif abonelik olan planın slug değerini değiştiremezsin.')
+                    )
+        super().save(*args, **kwargs)
 
 
 class Subscription(models.Model):

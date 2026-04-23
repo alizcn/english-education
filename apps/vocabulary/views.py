@@ -1,15 +1,20 @@
+import logging
 import re
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.db import transaction
 from django.utils.translation import gettext as _
 from django.db.models import Q
 from django.shortcuts import render, redirect, get_object_or_404
 from django.views.decorators.http import require_POST
+from django_ratelimit.decorators import ratelimit
 
 from apps.subscriptions import access as sub_access
 from services import ai
 from . import services as vocab_services
 from .models import Word
+
+logger = logging.getLogger(__name__)
 
 
 def _user_words(user):
@@ -39,12 +44,12 @@ def _parse_input(raw: str) -> list[str]:
 
 
 @login_required
+@ratelimit(key='user', rate='10/h', method='POST', block=False)
 def bulk_add(request):
     if request.method == 'POST':
-        state = sub_access.get_state(request.user)
-        if not sub_access.can_use_bulk_translate(state):
-            messages.error(request, _('Toplu AI çeviri deneme hakkın doldu. Devam etmek için bir paket seç.'))
-            return redirect('subscriptions:plans')
+        if getattr(request, 'limited', False):
+            messages.error(request, _('Saatlik çeviri hakkını doldurdun. Biraz sonra tekrar dene.'))
+            return redirect('vocabulary:list')
 
         raw = request.POST.get('words', '')
         source = request.POST.get('source', '').strip()
@@ -56,34 +61,45 @@ def bulk_add(request):
 
         try:
             items = ai.translate_words(words)
-        except Exception as e:
-            messages.error(request, _('AI çeviri hatası: %(error)s') % {'error': e})
+        except ai.AIServiceError as e:
+            messages.error(request, str(e))
+            return render(request, 'vocabulary/add.html', {'raw': raw, 'source': source})
+        except Exception:
+            logger.exception('bulk_add: unexpected AI failure')
+            messages.error(request, _('AI çeviri sırasında beklenmedik bir hata oluştu.'))
             return render(request, 'vocabulary/add.html', {'raw': raw, 'source': source})
 
-        created = 0
-        skipped = 0
-        dropped = 0
-        for it in items:
-            eng = (it.get('english') or '').strip().lower()
-            tr = (it.get('turkish') or '').strip()
-            if not eng or not tr:
-                dropped += 1
-                continue
-            obj, was_created = Word.objects.get_or_create(
-                user=request.user,
-                english=eng,
-                defaults={
-                    'turkish': tr,
-                    'example_en': (it.get('example_en') or '').strip(),
-                    'example_tr': (it.get('example_tr') or '').strip(),
-                    'part_of_speech': (it.get('part_of_speech') or '').strip()[:30],
-                    'source': source[:80],
-                },
-            )
-            if was_created:
-                created += 1
-            else:
-                skipped += 1
+        with transaction.atomic():
+            state = sub_access.get_state(request.user)
+            if not sub_access.can_use_bulk_translate(state):
+                messages.error(request, _('Toplu AI çeviri deneme hakkın doldu. Devam etmek için bir paket seç.'))
+                return redirect('subscriptions:plans')
+
+            created = 0
+            skipped = 0
+            dropped = 0
+            for it in items:
+                eng = (it.get('english') or '').strip().lower()
+                tr = (it.get('turkish') or '').strip()
+                if not eng or not tr:
+                    dropped += 1
+                    continue
+                obj, was_created = Word.objects.get_or_create(
+                    user=request.user,
+                    english=eng,
+                    defaults={
+                        'turkish': tr,
+                        'example_en': (it.get('example_en') or '').strip(),
+                        'example_tr': (it.get('example_tr') or '').strip(),
+                        'part_of_speech': (it.get('part_of_speech') or '').strip()[:30],
+                        'source': source[:80],
+                    },
+                )
+                if was_created:
+                    created += 1
+                else:
+                    skipped += 1
+            sub_access.record_bulk_translate_use(state)
 
         msg = _('%(count)d kelime eklendi.') % {'count': created}
         if skipped:
@@ -91,7 +107,6 @@ def bulk_add(request):
         if dropped:
             msg += ' ' + _('(%(count)d tanesi eksik çeviriyle geldi, atlandı.)') % {'count': dropped}
         messages.success(request, msg)
-        sub_access.record_bulk_translate_use(state)
         return redirect('vocabulary:list')
 
     return render(request, 'vocabulary/add.html', {'raw': '', 'source': ''})

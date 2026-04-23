@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %}{% trans "Hesabı Sil" %}{% endblock %}
+{% block content %}
+<div class="card" style="max-width:560px;margin:32px auto;">
+    <h2>{% trans "Hesabı Sil" %}</h2>
+    <p class="muted">
+        {% blocktrans trimmed %}
+        Bu işlem geri alınamaz. Hesabınla birlikte kaydedilen kelimeler, mülakat
+        geçmişi, quiz sonuçları ve abonelik verileri silinir.
+        {% endblocktrans %}
+    </p>
+    <p>
+        {% blocktrans trimmed with username=request.user.username %}
+        Onaylamak için aşağıya <strong>{{ username }}</strong> yaz ve "Hesabı sil"e bas.
+        {% endblocktrans %}
+    </p>
+    <form method="post">
+        {% csrf_token %}
+        <label>
+            {% trans "Kullanıcı adımı yaz" %}
+            <input type="text" name="confirm" autocomplete="off" required>
+        </label>
+        <div style="display:flex;gap:8px;margin-top:12px;">
+            <a href="{% url 'accounts:profile' %}" class="btn">{% trans "Vazgeç" %}</a>
+            <button type="submit" class="btn btn-danger">{% trans "Hesabı sil" %}</button>
+        </div>
+    </form>
+</div>
+{% endblock %}

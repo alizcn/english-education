@@ -1,12 +1,18 @@
+import logging
+
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.db import transaction
 from django.shortcuts import get_object_or_404, redirect, render
 from django.utils.translation import gettext as _
 from django.views.decorators.http import require_POST
+from django_ratelimit.decorators import ratelimit
 
 from apps.subscriptions import access as sub_access
 from services import ai
 from .models import ChatConversation, ChatMessage
+
+logger = logging.getLogger(__name__)
 
 
 MAX_HISTORY = 20
@@ -39,37 +45,48 @@ def chat_page(request):
 
 
 @login_required
+@ratelimit(key='user', rate='30/h', method='POST', block=False)
 def send(request):
     if request.method != 'POST':
         return redirect('chat:page')
 
-    state = sub_access.get_state(request.user)
-    if not sub_access.can_use_chat(state):
-        messages.error(request, _('AI Chat deneme hakkın doldu. Devam etmek için bir paket seç.'))
-        return redirect('subscriptions:plans')
+    if getattr(request, 'limited', False):
+        messages.error(request, _('Çok hızlı yazıyorsun. Biraz sonra tekrar dene.'))
+        return redirect('chat:page')
 
     text = request.POST.get('message', '').strip()
     if not text:
         return redirect('chat:page')
 
-    conv = _get_or_create_conversation(request)
-    was_empty = conv.title == DEFAULT_TITLE and not conv.messages.exists()
-    ChatMessage.objects.create(conversation=conv, role=ChatMessage.USER, content=text)
+    with transaction.atomic():
+        state = sub_access.get_state(request.user)
+        if not sub_access.can_use_chat(state):
+            messages.error(request, _('AI Chat deneme hakkın doldu. Devam etmek için bir paket seç.'))
+            return redirect('subscriptions:plans')
 
-    if was_empty:
-        snippet = text.strip().splitlines()[0][:60].rstrip()
-        if snippet:
-            conv.title = snippet
-            conv.save(update_fields=['title'])
+        conv = _get_or_create_conversation(request)
+        was_empty = conv.title == DEFAULT_TITLE and not conv.messages.exists()
+        ChatMessage.objects.create(conversation=conv, role=ChatMessage.USER, content=text)
 
-    history = list(conv.messages.order_by('-created_at')[:MAX_HISTORY])
-    history.reverse()
-    api_messages = [{'role': m.role, 'content': m.content} for m in history]
+        if was_empty:
+            snippet = text.strip().splitlines()[0][:60].rstrip()
+            if snippet:
+                conv.title = snippet
+                conv.save(update_fields=['title'])
+
+        history = list(conv.messages.order_by('-created_at')[:MAX_HISTORY])
+        history.reverse()
+        api_messages = [{'role': m.role, 'content': m.content} for m in history]
+        sub_access.record_chat_use(state)
 
     try:
         reply = ai.chat(api_messages)
-    except Exception as e:
-        messages.error(request, _('AI hata: %(error)s') % {'error': e})
+    except ai.AIServiceError as e:
+        messages.error(request, str(e))
+        return redirect('chat:page')
+    except Exception:
+        logger.exception('chat send: unexpected AI failure')
+        messages.error(request, _('AI yanıt verirken beklenmedik bir hata oluştu.'))
         return redirect('chat:page')
 
     reply = (reply or '').strip()
@@ -79,7 +96,6 @@ def send(request):
 
     ChatMessage.objects.create(conversation=conv, role=ChatMessage.ASSISTANT, content=reply)
     conv.save()
-    sub_access.record_chat_use(state)
     return redirect('chat:page')
 
 

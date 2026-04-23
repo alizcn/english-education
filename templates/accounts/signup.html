@@ -13,6 +13,11 @@
         {% if form.username.errors %}<small style="color:var(--danger);">{{ form.username.errors|join:" " }}</small>{% endif %}
     </label>
     <label>
+        {% trans "E-posta" %}
+        <input type="email" name="email" value="{{ form.email.value|default:'' }}" autocomplete="email" required>
+        {% if form.email.errors %}<small style="color:var(--danger);">{{ form.email.errors|join:" " }}</small>{% endif %}
+    </label>
+    <label>
         {% trans "Şifre" %}
         <input type="password" name="password1" required>
         {% if form.password1.errors %}<small style="color:var(--danger);">{{ form.password1.errors|join:" " }}</small>{% endif %}
@@ -22,9 +27,52 @@
         <input type="password" name="password2" required>
         {% if form.password2.errors %}<small style="color:var(--danger);">{{ form.password2.errors|join:" " }}</small>{% endif %}
     </label>
+    <label class="kvkk-row" style="display:flex;align-items:flex-start;gap:8px;margin:12px 0;">
+        <input type="checkbox" name="kvkk_consent" id="id_kvkk_consent" required style="margin-top:4px;">
+        <span>
+            <a href="#" id="open-kvkk-modal">{% trans "KVKK Aydınlatma Metni" %}</a>{% trans "'ni okudum ve onaylıyorum." %}
+        </span>
+    </label>
+    {% if form.kvkk_consent.errors %}
+        <small style="color:var(--danger);">{{ form.kvkk_consent.errors|join:" " }}</small>
+    {% endif %}
     <button type="submit" class="btn btn-lg btn-block">{% trans "Hesap oluştur" %}</button>
 </form>
 <p class="text-center mt-2 muted">
     {% trans "Zaten hesabın var mı?" %} <a href="{% url 'accounts:login' %}">{% trans "Giriş yap" %}</a>
 </p>
+
+<div id="kvkk-modal" role="dialog" aria-modal="true" aria-labelledby="kvkk-modal-title" hidden
+     style="position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;z-index:1000;padding:16px;">
+    <div style="background:#fff;max-width:640px;width:100%;max-height:85vh;overflow-y:auto;border-radius:12px;padding:20px;">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+            <h3 id="kvkk-modal-title" style="margin:0;">{% trans "KVKK Aydınlatma Metni" %}</h3>
+            <button type="button" id="close-kvkk-modal" aria-label="Kapat"
+                    style="background:none;border:none;font-size:1.5rem;cursor:pointer;">&times;</button>
+        </div>
+        <div class="kvkk-body">
+            {% include "legal/_kvkk_body.html" %}
+        </div>
+        <div style="text-align:right;margin-top:12px;">
+            <button type="button" class="btn" id="accept-kvkk-modal">{% trans "Okudum, kapat" %}</button>
+        </div>
+    </div>
+</div>
+
+<script>
+(function(){
+    var openBtn = document.getElementById('open-kvkk-modal');
+    var closeBtn = document.getElementById('close-kvkk-modal');
+    var acceptBtn = document.getElementById('accept-kvkk-modal');
+    var modal = document.getElementById('kvkk-modal');
+    if (!openBtn || !modal) return;
+    function open(e){ e.preventDefault(); modal.hidden = false; }
+    function close(){ modal.hidden = true; }
+    openBtn.addEventListener('click', open);
+    closeBtn.addEventListener('click', close);
+    acceptBtn.addEventListener('click', close);
+    modal.addEventListener('click', function(e){ if (e.target === modal) close(); });
+    document.addEventListener('keydown', function(e){ if (e.key === 'Escape') close(); });
+})();
+</script>
 {% endblock %}

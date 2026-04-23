@@ -1,0 +1,61 @@
+{% load i18n %}
+<p>
+    <strong>{% trans "Veri Sorumlusu" %}:</strong> Levelenai ({% trans "operatör bilgisi üretim öncesi güncellenecek" %}).
+</p>
+<p>
+    {% blocktrans trimmed %}
+    6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında, Levelenai olarak
+    kişisel verilerinizin güvenliğine özen gösteriyoruz. Bu metin, hangi verilerin
+    toplandığını, hangi amaçlarla işlendiğini ve haklarınızı özetler.
+    {% endblocktrans %}
+</p>
+
+<h4>{% trans "Toplanan Veriler" %}</h4>
+<ul>
+    <li>{% trans "Kimlik: Kullanıcı adı, ad, soyad (isteğe bağlı)." %}</li>
+    <li>{% trans "İletişim: E-posta adresi." %}</li>
+    <li>{% trans "İşlem: Quiz / mülakat / sohbet etkinlikleri, trial ve abonelik bilgileri." %}</li>
+    <li>{% trans "Teknik: IP adresi, tarayıcı/oturum bilgileri, log kayıtları." %}</li>
+    <li>{% trans "Ödeme: Abonelik için iyzico üzerinden işlenen ödeme referansları (kart bilgileri tarafımızda saklanmaz)." %}</li>
+</ul>
+
+<h4>{% trans "İşleme Amaçları" %}</h4>
+<ul>
+    <li>{% trans "Hesap oluşturma, kimlik doğrulama ve oturum yönetimi." %}</li>
+    <li>{% trans "İngilizce mülakat hazırlık hizmetinin sunulması ve ilerleme takibi." %}</li>
+    <li>{% trans "Abonelik yönetimi, faturalandırma ve destek." %}</li>
+    <li>{% trans "Yasal yükümlülüklerin yerine getirilmesi ve kötüye kullanımın önlenmesi." %}</li>
+</ul>
+
+<h4>{% trans "Aktarım" %}</h4>
+<p>
+    {% blocktrans trimmed %}
+    Verileriniz, hizmetin sunulabilmesi için OpenAI (AI içerik üretimi) ve iyzico
+    (ödeme işlemleri) gibi tedarikçilerle sınırlı ölçüde paylaşılır. Bu paylaşımlar
+    sadece hizmetin gerektirdiği veriyle sınırlıdır.
+    {% endblocktrans %}
+</p>
+
+<h4>{% trans "Saklama Süresi" %}</h4>
+<p>
+    {% blocktrans trimmed %}
+    Veriler, hesabınız aktif olduğu sürece ve yasal saklama süreleri boyunca tutulur.
+    Hesabınızı sildiğinizde ilişkili kişisel veriler makul süre içinde silinir veya
+    anonimleştirilir.
+    {% endblocktrans %}
+</p>
+
+<h4>{% trans "Haklarınız (KVKK md. 11)" %}</h4>
+<ul>
+    <li>{% trans "İşlenip işlenmediğini öğrenme, bilgi talep etme." %}</li>
+    <li>{% trans "Amacına uygun kullanılıp kullanılmadığını öğrenme." %}</li>
+    <li>{% trans "Eksik/yanlış verilerin düzeltilmesini isteme." %}</li>
+    <li>{% trans "Silinmesini veya yok edilmesini isteme." %}</li>
+    <li>{% trans "Otomatik sistemlerle yapılan analizlere itiraz etme." %}</li>
+</ul>
+<p>
+    {% blocktrans trimmed %}
+    Talepleriniz için destek@levelenai.com adresine başvurabilirsiniz. Hesabınızı
+    uygulama içinden "Hesabı Sil" akışıyla da kaldırabilirsiniz.
+    {% endblocktrans %}
+</p>

@@ -37,13 +37,15 @@ def pick_next(user):
 
 
 def build_question(word, user):
-    distractors = list(
+    candidate_ids = list(
         Word.objects.filter(user=user)
         .exclude(id=word.id)
         .exclude(turkish=word.turkish)
         .exclude(turkish='')
-        .order_by('?')[:3]
+        .values_list('id', flat=True)
     )
+    chosen_ids = random.sample(candidate_ids, k=min(3, len(candidate_ids)))
+    distractors = list(Word.objects.filter(id__in=chosen_ids))
     correct = (word.turkish or '').strip()
     options = [correct] + [(d.turkish or '').strip() for d in distractors]
     options = [o for o in options if o]

@@ -54,13 +54,15 @@ def pick_next(user, level):
 
 def build_question(word):
     """Return list of up to 4 shuffled Turkish options (1 correct + 3 distractors)."""
-    distractors = list(
+    candidate_ids = list(
         BankWord.objects.filter(level=word.level)
         .exclude(id=word.id)
         .exclude(turkish=word.turkish)
         .exclude(turkish='')
-        .order_by('?')[:3]
+        .values_list('id', flat=True)
     )
+    chosen_ids = random.sample(candidate_ids, k=min(3, len(candidate_ids)))
+    distractors = list(BankWord.objects.filter(id__in=chosen_ids))
     correct = (word.turkish or '').strip()
     options = [correct] + [(d.turkish or '').strip() for d in distractors]
     options = [o for o in options if o]

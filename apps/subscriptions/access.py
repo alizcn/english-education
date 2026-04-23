@@ -4,6 +4,7 @@ from datetime import timedelta
 from typing import Optional
 
 from django.conf import settings
+from django.db.models import F
 from django.utils import timezone
 
 from .models import Subscription, TrialUsage
@@ -95,7 +96,7 @@ def record_interview_use(state: AccessState) -> None:
     if state.is_subscribed or not state.trial_usage:
         return
     TrialUsage.objects.filter(pk=state.trial_usage.pk).update(
-        interview_count=state.trial_usage.interview_count + 1
+        interview_count=F('interview_count') + 1
     )
 
 
@@ -103,7 +104,7 @@ def record_chat_use(state: AccessState) -> None:
     if state.is_subscribed or not state.trial_usage:
         return
     TrialUsage.objects.filter(pk=state.trial_usage.pk).update(
-        chat_count=state.trial_usage.chat_count + 1
+        chat_count=F('chat_count') + 1
     )
 
 
@@ -111,5 +112,5 @@ def record_bulk_translate_use(state: AccessState) -> None:
     if state.is_subscribed or not state.trial_usage:
         return
     TrialUsage.objects.filter(pk=state.trial_usage.pk).update(
-        bulk_translate_count=state.trial_usage.bulk_translate_count + 1
+        bulk_translate_count=F('bulk_translate_count') + 1
     )

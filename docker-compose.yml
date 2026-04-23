@@ -1,4 +1,16 @@
 services:
+  redis:
+    image: redis:7-alpine
+    container_name: english-education-redis
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+    volumes:
+      - ./data/redis:/data
+
   web:
     build: .
     container_name: english-education
@@ -9,5 +21,48 @@ services:
       - .env
     environment:
       - DB_PATH=/app/data/db.sqlite3
+      - REDIS_URL=redis://redis:6379/0
     volumes:
       - ./data:/app/data
+      - ./logs:/app/logs
+    depends_on:
+      redis:
+        condition: service_healthy
+
+  celery_worker:
+    build: .
+    container_name: english-education-celery
+    restart: unless-stopped
+    command: celery -A config worker -l info --concurrency=2
+    env_file:
+      - .env
+    environment:
+      - DB_PATH=/app/data/db.sqlite3
+      - REDIS_URL=redis://redis:6379/0
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    depends_on:
+      redis:
+        condition: service_healthy
+      web:
+        condition: service_started
+
+  celery_beat:
+    build: .
+    container_name: english-education-celery-beat
+    restart: unless-stopped
+    command: celery -A config beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler
+    env_file:
+      - .env
+    environment:
+      - DB_PATH=/app/data/db.sqlite3
+      - REDIS_URL=redis://redis:6379/0
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    depends_on:
+      redis:
+        condition: service_healthy
+      web:
+        condition: service_started

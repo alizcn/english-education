@@ -24,6 +24,34 @@
 
 {% include 'subscriptions/_upgrade_card.html' %}
 
+<div class="card level-card" style="margin:1rem 0;padding:1.25rem;">
+    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;">
+        <div>
+            <div style="font-size:.85rem;opacity:.7;">{% trans "İngilizce Seviyen" %}</div>
+            <div style="font-size:2rem;font-weight:700;">{{ user_level.current_level }}</div>
+        </div>
+        <div style="text-align:right;">
+            <div style="font-size:.85rem;opacity:.7;">{% trans "Toplam puan" %}</div>
+            <div style="font-size:1.4rem;font-weight:600;">{{ user_level.score }}</div>
+            {% if next_level %}
+                <small class="muted">
+                    {% blocktrans with level=next_level.level pts=next_level.score %}Sonraki: {{ level }} için {{ pts }} puan{% endblocktrans %}
+                </small>
+            {% endif %}
+        </div>
+    </div>
+    <div class="level-track" style="display:flex;gap:6px;margin-top:14px;">
+        {% for step in level_steps %}
+            <div style="flex:1;text-align:center;padding:8px 4px;border-radius:8px;font-weight:600;font-size:.9rem;
+                        {% if step.current %}background:var(--accent,#4f46e5);color:#fff;
+                        {% elif step.reached %}background:var(--accent-soft,#c7d2fe);color:var(--accent,#4f46e5);
+                        {% else %}background:var(--muted-bg,#f1f1f1);color:var(--muted,#888);{% endif %}">
+                {{ step.code }}
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
 <div class="stats-grid">
     <div class="stat-tile theme-indigo">
         <div class="stat-tile-label">{% trans "Kelime" %}</div>

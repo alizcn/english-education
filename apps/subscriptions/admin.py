@@ -7,8 +7,21 @@ from .models import Plan, Subscription, Payment, TrialUsage
 class PlanAdmin(admin.ModelAdmin):
     list_display = ('name', 'slug', 'price_try', 'duration_days', 'is_popular', 'is_active', 'sort_order')
     list_editable = ('is_active', 'is_popular', 'sort_order')
-    prepopulated_fields = {'slug': ('name',)}
     search_fields = ('name', 'slug')
+
+    def get_prepopulated_fields(self, request, obj=None):
+        # Yeni plan yaratılırken slug auto-populate; mevcut kayıtta dokunulmaz.
+        if obj is None:
+            return {'slug': ('name',)}
+        return {}
+
+    def get_readonly_fields(self, request, obj=None):
+        if obj and Subscription.objects.filter(
+            plan=obj,
+            status__in=[Subscription.STATUS_ACTIVE, Subscription.STATUS_CANCELLED],
+        ).exists():
+            return ('slug',)
+        return ()
 
 
 @admin.register(Subscription)
