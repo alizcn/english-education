@@ -8,7 +8,7 @@
   {
     "question_type": "translate_en_tr",
     "prompt": "She had left before I arrived.",
-    "correct_answer": "O gelmeden önce gitmişti.",
+    "correct_answer": "Ben varmadan önce o gitmişti.",
     "choices": null
   },
   {
@@ -37,7 +37,7 @@
   {
     "question_type": "translate_en_tr",
     "prompt": "They had finished dinner by 8.",
-    "correct_answer": "Onlar akşam yemeğini 8'ye kadar bitirmişti.",
+    "correct_answer": "Onlar 8'e kadar akşam yemeğini bitirmişlerdi.",
     "choices": null
   },
   {
@@ -88,8 +88,8 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "Hava kararmadan önce evdeydim.",
-    "correct_answer": "I had been home before it got dark.",
+    "prompt": "Yağmur başlamadan önce eve gitmiştim.",
+    "correct_answer": "I had gone home before the rain started.",
     "choices": null
   },
   {
@@ -153,7 +153,7 @@
   {
     "question_type": "translate_en_tr",
     "prompt": "They had never been to a concert.",
-    "correct_answer": "Onlar hiçbir konsere gitmemişti.",
+    "correct_answer": "Daha önce hiç konsere gitmemişlerdi.",
     "choices": null
   },
   {
@@ -204,8 +204,8 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "Bana gelmeden önce bir şeyler yapmıştım.",
-    "correct_answer": "I had done something before coming to me.",
+    "prompt": "O bana gelmeden önce bir şeyler yapmıştım.",
+    "correct_answer": "I had done something before he came to me.",
     "choices": null
   },
   {
@@ -262,8 +262,8 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "Müsait olmadan önce aramamıştım.",
-    "correct_answer": "I had not called before he was available.",
+    "prompt": "O gelmeden önce onu aramamıştım.",
+    "correct_answer": "I had not called him before he came.",
     "choices": null
   },
   {

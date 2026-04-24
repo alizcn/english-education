@@ -59,8 +59,8 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "Eğer ekseri kelimeleri öğrenirsen, konuşman daha iyi olur.",
-    "correct_answer": "If you learn most words, your speaking gets better.",
+    "prompt": "Hava soğuk olunca insanlar titrer.",
+    "correct_answer": "If the weather is cold, people shiver.",
     "choices": null
   },
   {
@@ -233,8 +233,8 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "Eğer yanlış yaparsan, üzülmemelisin.",
-    "correct_answer": "If you make a mistake, you should not be sad.",
+    "prompt": "Buzu ısıtırsan erir.",
+    "correct_answer": "If you heat ice, it melts.",
     "choices": null
   },
   {

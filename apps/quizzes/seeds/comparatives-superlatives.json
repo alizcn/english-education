@@ -95,7 +95,7 @@
   {
     "question_type": "translate_en_tr",
     "prompt": "He runs faster than anyone else.",
-    "correct_answer": "O, başkalarından daha hızlı koşuyor.",
+    "correct_answer": "O, herkesten daha hızlı koşar.",
     "choices": null
   },
   {
@@ -153,7 +153,7 @@
   {
     "question_type": "translate_en_tr",
     "prompt": "This test is easier than the previous one.",
-    "correct_answer": "Bu test öncekinin daha kolay.",
+    "correct_answer": "Bu test öncekinden daha kolay.",
     "choices": null
   },
   {
@@ -175,8 +175,8 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "Bu film hiç de ilginç değil.",
-    "correct_answer": "This movie is not interesting at all.",
+    "prompt": "Bu film gördüğüm en ilginç film.",
+    "correct_answer": "This movie is the most interesting film I have seen.",
     "choices": null
   },
   {
@@ -240,7 +240,7 @@
   {
     "question_type": "translate_en_tr",
     "prompt": "He is not as tall as his brother.",
-    "correct_answer": "O, kardeşinden bu kadar uzun değil.",
+    "correct_answer": "O, kardeşi kadar uzun değil.",
     "choices": null
   },
   {

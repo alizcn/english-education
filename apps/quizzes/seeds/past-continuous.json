@@ -7,8 +7,8 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "O dün sinema da değildi.",
-    "correct_answer": "He was not at the cinema yesterday.",
+    "prompt": "Sen aradığında duş alıyordum.",
+    "correct_answer": "I was taking a shower when you called.",
     "choices": null
   },
   {
@@ -48,7 +48,7 @@
   },
   {
     "question_type": "fill_blank",
-    "prompt": "She ___ at the party last week.",
+    "prompt": "She ___ when the music stopped.",
     "correct_answer": "was dancing",
     "choices": null
   },
@@ -135,7 +135,7 @@
   },
   {
     "question_type": "fill_blank",
-    "prompt": "They ___ a game yesterday.",
+    "prompt": "They ___ a game when I arrived.",
     "correct_answer": "were playing",
     "choices": null
   },
@@ -251,7 +251,7 @@
   },
   {
     "question_type": "fill_blank",
-    "prompt": "I ___ at the concert last night.",
+    "prompt": "I ___ when the lights went out.",
     "correct_answer": "was singing",
     "choices": null
   },
@@ -275,7 +275,7 @@
   {
     "question_type": "translate_en_tr",
     "prompt": "They were having lunch when I called.",
-    "correct_answer": "Ben aradığımda öğle yemeği yiyorlar.",
+    "correct_answer": "Ben aradığımda öğle yemeği yiyorlardı.",
     "choices": null
   },
   {

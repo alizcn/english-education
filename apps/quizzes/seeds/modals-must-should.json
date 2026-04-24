@@ -71,7 +71,7 @@
   },
   {
     "question_type": "fill_blank",
-    "prompt": "He ___ not be angry.",
+    "prompt": "He ___ be angry — his mood is terrible.",
     "correct_answer": "must",
     "choices": null
   },

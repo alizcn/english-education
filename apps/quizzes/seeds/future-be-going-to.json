@@ -175,8 +175,8 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "O bu akşam sinemaya gidecek.",
-    "correct_answer": "He is going to the cinema tonight.",
+    "prompt": "O bu akşam yeni bir film izleyecek.",
+    "correct_answer": "He is going to watch a new movie tonight.",
     "choices": null
   },
   {
@@ -204,8 +204,8 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "Biz her zaman sabah kahvaltısı yaparız.",
-    "correct_answer": "We are going to have breakfast every morning.",
+    "prompt": "Yarın sabah erken kalkacağız.",
+    "correct_answer": "We are going to wake up early tomorrow morning.",
     "choices": null
   },
   {

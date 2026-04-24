@@ -187,8 +187,8 @@
   },
   {
     "question_type": "fill_blank",
-    "prompt": "I ___ (not/understand) the lesson now.",
-    "correct_answer": "am not understanding",
+    "prompt": "I ___ (not/study) for the exam now.",
+    "correct_answer": "am not studying",
     "choices": null
   },
   {
@@ -216,7 +216,7 @@
   },
   {
     "question_type": "fill_blank",
-    "prompt": "They ___ (not/work) on weekends.",
+    "prompt": "They ___ (not/work) this week.",
     "correct_answer": "are not working",
     "choices": null
   },
@@ -245,7 +245,7 @@
   },
   {
     "question_type": "fill_blank",
-    "prompt": "She ___ (not/speak) French.",
+    "prompt": "She ___ (not/speak) right now.",
     "correct_answer": "is not speaking",
     "choices": null
   },
@@ -274,8 +274,8 @@
   },
   {
     "question_type": "fill_blank",
-    "prompt": "I ___ (not/see) you today.",
-    "correct_answer": "am not seeing",
+    "prompt": "I ___ (not/wait) for you today.",
+    "correct_answer": "am not waiting",
     "choices": null
   },
   {

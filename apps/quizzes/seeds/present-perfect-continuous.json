@@ -30,7 +30,7 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "Sen sabah beri bekliyorsun.",
+    "prompt": "Sabahtan beri bekliyorsun.",
     "correct_answer": "You have been waiting since morning.",
     "choices": null
   },
@@ -59,8 +59,8 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "O, üç gündür hastadır.",
-    "correct_answer": "She has been sick for three days.",
+    "prompt": "O, üç gündür okuyor.",
+    "correct_answer": "She has been studying for three days.",
     "choices": null
   },
   {
@@ -88,8 +88,8 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "Bütün hafta sonunu evde geçirdim.",
-    "correct_answer": "I have been spending the whole weekend at home.",
+    "prompt": "Bütün gündür evde çalışıyorum.",
+    "correct_answer": "I have been working at home all day.",
     "choices": null
   },
   {
@@ -117,8 +117,8 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "İki saat boyunca bekledi mi?",
-    "correct_answer": "Did he wait for two hours?",
+    "prompt": "İki saattir mi bekliyor?",
+    "correct_answer": "Has he been waiting for two hours?",
     "choices": null
   },
   {
@@ -146,8 +146,8 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "Bu sabah çay yapıyorum.",
-    "correct_answer": "I have been making tea this morning.",
+    "prompt": "Sabahtan beri çay içiyorum.",
+    "correct_answer": "I have been drinking tea since morning.",
     "choices": null
   },
   {
@@ -175,8 +175,8 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "Geçen haftadan beri burada duruyorlar.",
-    "correct_answer": "They have been standing here since last week.",
+    "prompt": "Geçen haftadan beri burada kalıyorlar.",
+    "correct_answer": "They have been staying here since last week.",
     "choices": null
   },
   {
@@ -204,8 +204,8 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "Onlar marketten dönüyorlar.",
-    "correct_answer": "They have been coming back from the market.",
+    "prompt": "Bir saattir marketten dönüyorlar.",
+    "correct_answer": "They have been walking back from the market for an hour.",
     "choices": null
   },
   {
@@ -233,7 +233,7 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "On, be saat boyunca çalışıyor.",
+    "prompt": "O, beş saattir çalışıyor.",
     "correct_answer": "She has been working for five hours.",
     "choices": null
   },
@@ -361,8 +361,8 @@
   },
   {
     "question_type": "fill_blank",
-    "prompt": "She has ___ not been studying for the exam.",
-    "correct_answer": "not",
+    "prompt": "She has not ___ studying for the exam.",
+    "correct_answer": "been",
     "choices": null
   },
   {

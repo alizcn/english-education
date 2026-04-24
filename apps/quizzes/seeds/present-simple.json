@@ -30,14 +30,14 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "Onlar sabah koşuyorlar.",
-    "correct_answer": "They run in the morning.",
+    "prompt": "Onlar her sabah koşar.",
+    "correct_answer": "They run every morning.",
     "choices": null
   },
   {
     "question_type": "translate_en_tr",
     "prompt": "We do not like winter.",
-    "correct_answer": "Kışları sevmiyoruz.",
+    "correct_answer": "Kışları sevmeyiz.",
     "choices": null
   },
   {
@@ -124,7 +124,7 @@
   {
     "question_type": "translate_en_tr",
     "prompt": "She works at a bank.",
-    "correct_answer": "O bir bankada çalışıyor.",
+    "correct_answer": "O bir bankada çalışır.",
     "choices": null
   },
   {
@@ -153,7 +153,7 @@
   {
     "question_type": "translate_en_tr",
     "prompt": "They enjoy their vacation.",
-    "correct_answer": "Onlar tatillerinin tadını çıkarıyorlar.",
+    "correct_answer": "Onlar tatillerinin tadını çıkarır.",
     "choices": null
   },
   {
@@ -168,21 +168,21 @@
     "choices": [
       "Yes, I want.",
       "No, I doesn't.",
-      "No, I don't want.",
+      "Yes, I do.",
       "Yes, I does."
     ],
-    "correct_answer": "Yes, I want."
+    "correct_answer": "Yes, I do."
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "O çocuklar için kitap okuyor.",
+    "prompt": "O, çocuklar için kitaplar okur.",
     "correct_answer": "She reads books for kids.",
     "choices": null
   },
   {
     "question_type": "translate_en_tr",
     "prompt": "We live in a small house.",
-    "correct_answer": "Küçük bir evde yaşıyoruz.",
+    "correct_answer": "Küçük bir evde yaşarız.",
     "choices": null
   },
   {
@@ -204,14 +204,14 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "Ben bu filmi izlemiyorum.",
-    "correct_answer": "I do not watch this movie.",
+    "prompt": "Ben korku filmleri izlemem.",
+    "correct_answer": "I do not watch horror movies.",
     "choices": null
   },
   {
     "question_type": "translate_en_tr",
     "prompt": "She visits her grandparents.",
-    "correct_answer": "O, büyüklerini ziyaret eder.",
+    "correct_answer": "O, büyükannesini ve büyükbabasını ziyaret eder.",
     "choices": null
   },
   {
@@ -262,8 +262,8 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "Onlar yeni bir araba almadı.",
-    "correct_answer": "They did not buy a new car.",
+    "prompt": "O, yeni arabaları sevmez.",
+    "correct_answer": "He does not like new cars.",
     "choices": null
   },
   {

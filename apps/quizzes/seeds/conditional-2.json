@@ -31,8 +31,8 @@
   },
   {
     "question_type": "fill_blank",
-    "prompt": "If it ___ rain, we would stay inside.",
-    "correct_answer": "didn't",
+    "prompt": "If it ___, we would stay inside.",
+    "correct_answer": "rained",
     "choices": null
   },
   {
@@ -103,14 +103,14 @@
   },
   {
     "question_type": "fill_blank",
-    "prompt": "If it ___ snow tomorrow, we would build a snowman.",
-    "correct_answer": "didn't",
+    "prompt": "If it ___ tomorrow, we would build a snowman.",
+    "correct_answer": "snowed",
     "choices": null
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "Eğer ona daha önce söyleseydim, belki yardımcı olabilirdi.",
-    "correct_answer": "If I had told him earlier, he might have helped.",
+    "prompt": "Eğer ona güvensem, ona her şeyi anlatırdım.",
+    "correct_answer": "If I trusted him, I would tell him everything.",
     "choices": null
   },
   {
@@ -133,8 +133,8 @@
   },
   {
     "question_type": "translate_en_tr",
-    "prompt": "If I had known, I would have come earlier.",
-    "correct_answer": "Eğer bilseydim, daha erken gelirdim.",
+    "prompt": "If I had more money, I would travel the world.",
+    "correct_answer": "Daha çok param olsa, dünyayı gezerdim.",
     "choices": null
   },
   {
@@ -145,8 +145,8 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "Eğer okulu bırakmasaydım, şimdi mezun olmuştum.",
-    "correct_answer": "If I hadn't dropped out, I would have graduated by now.",
+    "prompt": "Eğer senin yerinde olsam, bu işi kabul ederdim.",
+    "correct_answer": "If I were you, I would accept this job.",
     "choices": null
   },
   {

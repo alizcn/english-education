@@ -37,7 +37,7 @@
   {
     "question_type": "translate_en_tr",
     "prompt": "The song is sung by the choir.",
-    "correct_answer": "Şarkı koru tarafından söylenir.",
+    "correct_answer": "Şarkı koro tarafından söylenir.",
     "choices": null
   },
   {
@@ -280,13 +280,13 @@
   },
   {
     "question_type": "multiple_choice",
-    "prompt": "Was the dinner ready by 7 PM?",
-    "correct_answer": "Yes, the dinner was ready by 7 PM.",
+    "prompt": "Was the dinner served by 7 PM?",
+    "correct_answer": "Yes, the dinner was served by 7 PM.",
     "choices": [
-      "No, the dinner was not ready by 7 PM.",
-      "Yes, the dinner was ready by 7 PM.",
-      "The dinner is ready by 7 PM.",
-      "The dinner was never ready by 7 PM."
+      "No, the dinner was not served by 7 PM.",
+      "Yes, the dinner was served by 7 PM.",
+      "The dinner is served by 7 PM.",
+      "The dinner will be served by 7 PM."
     ]
   }
 ]

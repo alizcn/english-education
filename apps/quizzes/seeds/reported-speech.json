@@ -193,14 +193,14 @@
   },
   {
     "question_type": "multiple_choice",
-    "prompt": "She asked if I wanted tea.",
+    "prompt": "Direct: She asked, \"Do you want tea?\" Which is correct reported form?",
     "choices": [
       "She asked if I want tea.",
-      "She asked whether I wanted tea.",
-      "She inquired if I wanted tea.",
-      "She asked if I would like tea."
+      "She asked do I want tea.",
+      "She asked if I wanted tea.",
+      "She asked if would I like tea."
     ],
-    "correct_answer": "She asked whether I wanted tea."
+    "correct_answer": "She asked if I wanted tea."
   },
   {
     "question_type": "translate_tr_en",
@@ -251,14 +251,14 @@
   },
   {
     "question_type": "multiple_choice",
-    "prompt": "He asked what I was doing.",
+    "prompt": "Direct: He asked, \"What are you doing?\" Which is correct reported form?",
     "choices": [
-      "He asked what I am doing.",
-      "He inquired what I was doing.",
-      "He wanted to know what I do.",
-      "He requested what I was doing."
+      "He asked what am I doing.",
+      "He asked what was I doing.",
+      "He asked what I was doing.",
+      "He asked what I am doing."
     ],
-    "correct_answer": "He inquired what I was doing."
+    "correct_answer": "He asked what I was doing."
   },
   {
     "question_type": "translate_tr_en",

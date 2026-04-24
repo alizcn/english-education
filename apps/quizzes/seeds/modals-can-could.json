@@ -146,8 +146,8 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "Benim telefonum yok.",
-    "correct_answer": "I do not have a phone.",
+    "prompt": "Seni havalimanından alabilirim.",
+    "correct_answer": "I can pick you up from the airport.",
     "choices": null
   },
   {

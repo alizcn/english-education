@@ -147,7 +147,7 @@
   {
     "question_type": "translate_tr_en",
     "prompt": "Biz hiç sinemaya gitmedik.",
-    "correct_answer": "We have never gone to the cinema.",
+    "correct_answer": "We have never been to the cinema.",
     "choices": null
   },
   {
@@ -262,8 +262,8 @@
   },
   {
     "question_type": "translate_tr_en",
-    "prompt": "Ben hiç uyumadım.",
-    "correct_answer": "I have never slept.",
+    "prompt": "Hiç sushi denemedim.",
+    "correct_answer": "I have never tried sushi.",
     "choices": null
   },
   {
