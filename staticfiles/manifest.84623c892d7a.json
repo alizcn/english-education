@@ -1,0 +1,41 @@
+{
+  "name": "LevelEnAI — Level up your English. Land the interview.",
+  "short_name": "LevelEnAI",
+  "description": "AI-coached interview prep for Turkish developers.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f8fafc",
+  "theme_color": "#4f46e5",
+  "lang": "tr",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "/static/icons/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Mülakat Pratiği",
+      "short_name": "Mülakat",
+      "url": "/interviews/",
+      "icons": [{ "src": "/static/icons/logo.png", "sizes": "512x512" }]
+    },
+    {
+      "name": "Kelime Bankası",
+      "short_name": "Kelime",
+      "url": "/vocabulary/",
+      "icons": [{ "src": "/static/icons/logo.png", "sizes": "512x512" }]
+    },
+    {
+      "name": "AI Sohbet",
+      "short_name": "Sohbet",
+      "url": "/chat/",
+      "icons": [{ "src": "/static/icons/logo.png", "sizes": "512x512" }]
+    }
+  ]
+}
