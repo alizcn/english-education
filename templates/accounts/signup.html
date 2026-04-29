@@ -42,8 +42,23 @@
     {% trans "Zaten hesabın var mı?" %} <a href="{% url 'accounts:login' %}">{% trans "Giriş yap" %}</a>
 </p>
 
-<div id="kvkk-modal" role="dialog" aria-modal="true" aria-labelledby="kvkk-modal-title" hidden
-     style="position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;z-index:1000;padding:16px;">
+<style>
+    #kvkk-modal {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,.55);
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        padding: 16px;
+    }
+    #kvkk-modal.is-open {
+        display: flex;
+    }
+</style>
+
+<div id="kvkk-modal" role="dialog" aria-modal="true" aria-labelledby="kvkk-modal-title">
     <div style="background:#fff;max-width:640px;width:100%;max-height:85vh;overflow-y:auto;border-radius:12px;padding:20px;">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
             <h3 id="kvkk-modal-title" style="margin:0;">{% trans "KVKK Aydınlatma Metni" %}</h3>
@@ -54,7 +69,7 @@
             {% include "legal/_kvkk_body.html" %}
         </div>
         <div style="text-align:right;margin-top:12px;">
-            <button type="button" class="btn" id="accept-kvkk-modal">{% trans "Okudum, kapat" %}</button>
+            <button type="button" class="btn" id="accept-kvkk-modal">{% trans "Okudum, anladım" %}</button>
         </div>
     </div>
 </div>
@@ -65,14 +80,30 @@
     var closeBtn = document.getElementById('close-kvkk-modal');
     var acceptBtn = document.getElementById('accept-kvkk-modal');
     var modal = document.getElementById('kvkk-modal');
+    var checkbox = document.getElementById('id_kvkk_consent');
     if (!openBtn || !modal) return;
-    function open(e){ e.preventDefault(); modal.hidden = false; }
-    function close(){ modal.hidden = true; }
-    openBtn.addEventListener('click', open);
-    closeBtn.addEventListener('click', close);
-    acceptBtn.addEventListener('click', close);
-    modal.addEventListener('click', function(e){ if (e.target === modal) close(); });
-    document.addEventListener('keydown', function(e){ if (e.key === 'Escape') close(); });
+
+    function openModal(e){
+        e.preventDefault();
+        modal.classList.add('is-open');
+    }
+
+    function closeModal(){
+        modal.classList.remove('is-open');
+    }
+
+    function acceptAndClose(){
+        if (checkbox) {
+            checkbox.checked = true;
+        }
+        closeModal();
+    }
+
+    openBtn.addEventListener('click', openModal);
+    closeBtn.addEventListener('click', closeModal);
+    acceptBtn.addEventListener('click', acceptAndClose);
+    modal.addEventListener('click', function(e){ if (e.target === modal) closeModal(); });
+    document.addEventListener('keydown', function(e){ if (e.key === 'Escape') closeModal(); });
 })();
 </script>
 {% endblock %}
