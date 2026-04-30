@@ -95,7 +95,7 @@ def interview_create(request):
         title_for_ai = dict(JOB_CATEGORIES).get(job_category, job_category)
 
     try:
-        items = ai.generate_interview_questions(str(title_for_ai), n=50)
+        items = ai.generate_interview_questions(str(title_for_ai), n=25)
     except ai.AIServiceError as e:
         messages.error(request, str(e))
         return redirect('interviews:list')
@@ -163,7 +163,7 @@ def interview_create_cv(request):
         return redirect('interviews:list')
 
     try:
-        items = ai.generate_interview_from_cv(cv_text, n=50)
+        items = ai.generate_interview_from_cv(cv_text, n=25)
     except ai.AIServiceError as e:
         messages.error(request, str(e))
         return redirect('interviews:list')

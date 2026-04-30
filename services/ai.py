@@ -37,7 +37,7 @@ def _chat_json(system: str, user: str) -> dict:
                 {'role': 'system', 'content': system},
                 {'role': 'user', 'content': user},
             ],
-            timeout=60,
+            timeout=100,
         )
     except RateLimitError as e:
         logger.warning('openai rate limit: %s', e)

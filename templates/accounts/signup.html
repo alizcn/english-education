@@ -42,8 +42,8 @@
     {% trans "Zaten hesabın var mı?" %} <a href="{% url 'accounts:login' %}">{% trans "Giriş yap" %}</a>
 </p>
 
-<div id="kvkk-modal" role="dialog" aria-modal="true" aria-labelledby="kvkk-modal-title" hidden
-     style="position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;z-index:1000;padding:16px;">
+<div id="kvkk-modal" role="dialog" aria-modal="true" aria-labelledby="kvkk-modal-title"
+     style="position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;z-index:1000;padding:16px;">
     <div style="background:#fff;max-width:640px;width:100%;max-height:85vh;overflow-y:auto;border-radius:12px;padding:20px;">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
             <h3 id="kvkk-modal-title" style="margin:0;">{% trans "KVKK Aydınlatma Metni" %}</h3>
@@ -66,13 +66,15 @@
     var acceptBtn = document.getElementById('accept-kvkk-modal');
     var modal = document.getElementById('kvkk-modal');
     if (!openBtn || !modal) return;
-    function open(e){ e.preventDefault(); modal.hidden = false; }
-    function close(){ modal.hidden = true; }
+    var consent = document.getElementById('id_kvkk_consent');
+    function open(e){ e.preventDefault(); modal.style.display = 'flex'; }
+    function close(){ modal.style.display = 'none'; }
+    function accept(){ if (consent) consent.checked = true; close(); }
     openBtn.addEventListener('click', open);
     closeBtn.addEventListener('click', close);
-    acceptBtn.addEventListener('click', close);
+    acceptBtn.addEventListener('click', accept);
     modal.addEventListener('click', function(e){ if (e.target === modal) close(); });
-    document.addEventListener('keydown', function(e){ if (e.key === 'Escape') close(); });
+    document.addEventListener('keydown', function(e){ if (e.key === 'Escape' && modal.style.display !== 'none') close(); });
 })();
 </script>
 {% endblock %}
