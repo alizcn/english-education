@@ -54,12 +54,38 @@
     <small class="muted" style="display:block; margin-bottom:0.75rem;">
         {% trans "Şu ana kadarki konuları/kelimeleri temel alarak AI senin için yeni bir quiz üretir." %}
     </small>
-    <form method="post" action="{% if topic %}{% url generate_url slug=topic.slug %}{% else %}{% url generate_url %}{% endif %}" style="margin:0;">
+    <form method="post" action="{% if topic %}{% url generate_url slug=topic.slug %}{% else %}{% url generate_url %}{% endif %}" id="quiz-generate-form" style="margin:0;">
         {% csrf_token %}
-        <button type="submit" class="btn btn-lg" onclick="this.innerText='⏳ {% trans "AI üretiyor..." %}'; this.disabled=true; this.form.submit();">
+        <button type="submit" class="btn btn-lg">
             ⚡ {% trans "Yeni Quiz Oluştur" %}
         </button>
     </form>
 </div>
+
+<div id="quiz-loading" role="status" aria-live="polite"
+     style="position:fixed;inset:0;background:rgba(15,23,42,.72);display:none;align-items:center;justify-content:center;z-index:1000;padding:24px;">
+    <div style="background:#fff;max-width:380px;width:100%;border-radius:16px;padding:28px 24px;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.3);">
+        <div class="spinner" aria-hidden="true"
+             style="width:56px;height:56px;margin:0 auto 16px;border:4px solid #e2e8f0;border-top-color:var(--primary,#6366f1);border-radius:50%;animation:ql-spin 1s linear infinite;"></div>
+        <div style="font-weight:600;font-size:1.05rem;margin-bottom:6px;">{% trans "AI quizin hazırlanıyor..." %}</div>
+        <small class="muted">{% trans "Bu işlem 30-60 saniye sürebilir, sayfayı kapatma." %}</small>
+    </div>
+</div>
+<style>@keyframes ql-spin { to { transform: rotate(360deg); } }</style>
+<script>
+(function(){
+    var loading = document.getElementById('quiz-loading');
+    var form = document.getElementById('quiz-generate-form');
+    if (form) {
+        form.addEventListener('submit', function(){
+            loading.style.display = 'flex';
+            form.querySelectorAll('button[type=submit]').forEach(function(b){ b.disabled = true; });
+        });
+    }
+    window.addEventListener('pageshow', function(e){
+        if (e.persisted) { loading.style.display = 'none'; }
+    });
+})();
+</script>
 {% endif %}
 {% endblock %}

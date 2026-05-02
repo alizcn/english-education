@@ -105,6 +105,47 @@ def topic_picker(request, slug):
     })
 
 
+def _create_session_for_template(user, template):
+    raw_items = template.questions_data or []
+    items = [normalize_item(it) for it in raw_items if isinstance(it, dict)]
+    items = [
+        it for it in items
+        if (it.get('prompt') or '').strip() and (it.get('correct_answer') or '').strip()
+        and (it.get('question_type') != 'multiple_choice' or (it.get('choices') and len(it['choices']) >= 2))
+    ]
+    if not items:
+        return None
+
+    with transaction.atomic():
+        session = QuizSession.objects.create(
+            user=user,
+            template=template,
+            kind=template.kind,
+            topic=template.topic,
+            total_questions=len(items),
+        )
+        words_by_en = {}
+        if template.kind == QuizTemplate.WORD:
+            words_by_en = {
+                w.english.lower(): w for w in Word.objects.filter(user=user)
+            }
+        for i, it in enumerate(items):
+            word = None
+            if template.kind == QuizTemplate.WORD:
+                en = (it.get('english_word') or '').strip().lower()
+                word = words_by_en.get(en)
+            QuizQuestion.objects.create(
+                session=session,
+                order=i,
+                question_type=it.get('question_type') or QuizQuestion.TRANSLATE_EN_TR,
+                prompt=it.get('prompt') or '',
+                correct_answer=it.get('correct_answer') or '',
+                choices=it.get('choices'),
+                word=word,
+            )
+    return session
+
+
 @login_required
 @require_POST
 def generate_topic_quiz_view(request, slug):
@@ -121,7 +162,11 @@ def generate_topic_quiz_view(request, slug):
     if not tmpl:
         messages.error(request, _('Yeni quiz üretilemedi. Tekrar dene.'))
         return redirect('quizzes:topic_picker', slug=slug)
-    return redirect('quizzes:start_template', template_id=tmpl.pk)
+    session = _create_session_for_template(request.user, tmpl)
+    if not session:
+        messages.error(request, _('Bu quiz şablonu boş.'))
+        return redirect('quizzes:topic_picker', slug=slug)
+    return redirect('quizzes:run', pk=session.pk)
 
 
 @login_required
@@ -147,7 +192,11 @@ def generate_word_quiz(request):
     if not tmpl:
         messages.error(request, _('Yeni quiz üretilemedi. Tekrar dene.'))
         return redirect('quizzes:word_picker')
-    return redirect('quizzes:start_template', template_id=tmpl.pk)
+    session = _create_session_for_template(request.user, tmpl)
+    if not session:
+        messages.error(request, _('Bu quiz şablonu boş.'))
+        return redirect('quizzes:word_picker')
+    return redirect('quizzes:run', pk=session.pk)
 
 
 @login_required
@@ -157,44 +206,10 @@ def start_template(request, template_id):
         QuizTemplate.objects.filter(Q(user=request.user) | Q(user__isnull=True)),
         pk=template_id,
     )
-    raw_items = template.questions_data or []
-    items = [normalize_item(it) for it in raw_items if isinstance(it, dict)]
-    items = [
-        it for it in items
-        if (it.get('prompt') or '').strip() and (it.get('correct_answer') or '').strip()
-        and (it.get('question_type') != 'multiple_choice' or (it.get('choices') and len(it['choices']) >= 2))
-    ]
-    if not items:
+    session = _create_session_for_template(request.user, template)
+    if not session:
         messages.error(request, _('Bu quiz şablonu boş.'))
         return redirect('quizzes:word_picker')
-
-    with transaction.atomic():
-        session = QuizSession.objects.create(
-            user=request.user,
-            template=template,
-            kind=template.kind,
-            topic=template.topic,
-            total_questions=len(items),
-        )
-        words_by_en = {}
-        if template.kind == QuizTemplate.WORD:
-            words_by_en = {
-                w.english.lower(): w for w in Word.objects.filter(user=request.user)
-            }
-        for i, it in enumerate(items):
-            word = None
-            if template.kind == QuizTemplate.WORD:
-                en = (it.get('english_word') or '').strip().lower()
-                word = words_by_en.get(en)
-            QuizQuestion.objects.create(
-                session=session,
-                order=i,
-                question_type=it.get('question_type') or QuizQuestion.TRANSLATE_EN_TR,
-                prompt=it.get('prompt') or '',
-                correct_answer=it.get('correct_answer') or '',
-                choices=it.get('choices'),
-                word=word,
-            )
     return redirect('quizzes:run', pk=session.pk)
 
 
