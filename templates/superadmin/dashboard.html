@@ -1,0 +1,205 @@
+{% extends 'superadmin/base.html' %}
+{% load superadmin_extras %}
+{% block title %}Dashboard{% endblock %}
+
+{% block head_extra %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+{% endblock %}
+
+{% block content %}
+<div class="sa-topbar">
+    <div>
+        <div class="sa-crumb">Komuta Merkezi</div>
+        <h1>📊 Dashboard</h1>
+    </div>
+</div>
+
+<div class="sa-kpi-grid">
+    <div class="sa-kpi sa-kpi-accent">
+        <div class="sa-kpi-label">Toplam Kullanıcı</div>
+        <div class="sa-kpi-value">{{ user_total }}</div>
+        <div class="sa-kpi-sub">+{{ user_today }} bugün · +{{ user_week }} son 7 gün</div>
+    </div>
+    <div class="sa-kpi sa-kpi-success">
+        <div class="sa-kpi-label">Aktif Abonelik</div>
+        <div class="sa-kpi-value">{{ sub_active }}</div>
+        <div class="sa-kpi-sub">{{ sub_total }} toplam abonelik kaydı</div>
+    </div>
+    <div class="sa-kpi sa-kpi-success">
+        <div class="sa-kpi-label">Toplam Gelir (TL)</div>
+        <div class="sa-kpi-value">{{ revenue_total|floatformat:2 }}</div>
+        <div class="sa-kpi-sub">Bugün: {{ revenue_today|floatformat:2 }}</div>
+    </div>
+    <div class="sa-kpi sa-kpi-warning">
+        <div class="sa-kpi-label">30 Günlük Gelir (TL)</div>
+        <div class="sa-kpi-value">{{ revenue_month|floatformat:2 }}</div>
+        <div class="sa-kpi-sub">Sadece başarılı ödemeler</div>
+    </div>
+    <div class="sa-kpi">
+        <div class="sa-kpi-label">Quiz Oturumları</div>
+        <div class="sa-kpi-value">{{ quiz_sessions }}</div>
+        <div class="sa-kpi-sub">+{{ quiz_today }} bugün</div>
+    </div>
+    <div class="sa-kpi">
+        <div class="sa-kpi-label">Mülakat Oturumları</div>
+        <div class="sa-kpi-value">{{ interview_total }}</div>
+        <div class="sa-kpi-sub">Toplam üretilen mülakat</div>
+    </div>
+</div>
+
+<div class="sa-grid-2">
+    <div class="sa-card">
+        <div class="sa-card-head">📈 Son 30 Gün Gelir & Satış</div>
+        <div style="padding:18px;">
+            <canvas id="revChart" height="120"></canvas>
+        </div>
+    </div>
+    <div class="sa-card">
+        <div class="sa-card-head">💎 Aktif Abonelikler — Pakete Göre</div>
+        <div class="sa-table-wrap">
+            {% if plan_breakdown %}
+            <table class="sa-table">
+                <thead><tr><th>Paket</th><th>Aktif Üye</th></tr></thead>
+                <tbody>
+                {% for p in plan_breakdown %}
+                <tr>
+                    <td>{{ p.plan__name }}</td>
+                    <td><strong>{{ p.c }}</strong></td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            {% else %}
+            <div class="sa-empty">Aktif abonelik yok.</div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<div class="sa-grid-2" style="margin-top:18px;">
+    <div class="sa-card">
+        <div class="sa-card-head">
+            💳 Son Ödemeler
+            <div class="sa-spacer"></div>
+            <a href="{% url 'superadmin:list' slug='payments' %}" class="sa-btn sa-btn-sm sa-btn-ghost">Tümü →</a>
+        </div>
+        <div class="sa-table-wrap">
+            {% if recent_payments %}
+            <table class="sa-table">
+                <thead><tr><th>Kullanıcı</th><th>Paket</th><th>Tutar</th><th>Durum</th><th>Tarih</th></tr></thead>
+                <tbody>
+                {% for p in recent_payments %}
+                <tr>
+                    <td><a href="{% url 'superadmin:detail' slug='users' pk=p.user_id %}">{{ p.user }}</a></td>
+                    <td>{{ p.plan }}</td>
+                    <td>{{ p.amount }} {{ p.currency }}</td>
+                    <td>{{ p.get_status_display|sa_status }}</td>
+                    <td>{{ p.created_at|date:'d/m H:i' }}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            {% else %}
+            <div class="sa-empty">Henüz ödeme yok.</div>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="sa-card">
+        <div class="sa-card-head">
+            🎟️ Son Abonelikler
+            <div class="sa-spacer"></div>
+            <a href="{% url 'superadmin:list' slug='subscriptions' %}" class="sa-btn sa-btn-sm sa-btn-ghost">Tümü →</a>
+        </div>
+        <div class="sa-table-wrap">
+            {% if recent_subs %}
+            <table class="sa-table">
+                <thead><tr><th>Kullanıcı</th><th>Paket</th><th>Durum</th><th>Bitiş</th></tr></thead>
+                <tbody>
+                {% for s in recent_subs %}
+                <tr>
+                    <td><a href="{% url 'superadmin:detail' slug='users' pk=s.user_id %}">{{ s.user }}</a></td>
+                    <td>{{ s.plan }}</td>
+                    <td>{{ s.get_status_display|sa_status }}</td>
+                    <td>{% if s.expires_at %}{{ s.expires_at|date:'d/m/Y' }}{% else %}—{% endif %}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            {% else %}
+            <div class="sa-empty">Henüz abonelik yok.</div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<div class="sa-card" style="margin-top:18px;">
+    <div class="sa-card-head">
+        👥 Son Kayıt Olan Kullanıcılar
+        <div class="sa-spacer"></div>
+        <a href="{% url 'superadmin:list' slug='users' %}" class="sa-btn sa-btn-sm sa-btn-ghost">Tümü →</a>
+    </div>
+    <div class="sa-table-wrap">
+        {% if recent_users %}
+        <table class="sa-table">
+            <thead><tr><th>Kullanıcı</th><th>E-posta</th><th>Aktif</th><th>Süper</th><th>Kayıt</th></tr></thead>
+            <tbody>
+            {% for u in recent_users %}
+            <tr>
+                <td><a href="{% url 'superadmin:detail' slug='users' pk=u.pk %}">{{ u.username }}</a></td>
+                <td>{{ u.email|default:'—' }}</td>
+                <td>{{ u.is_active|sa_cell }}</td>
+                <td>{{ u.is_superuser|sa_cell }}</td>
+                <td>{{ u.date_joined|date:'d/m/Y H:i' }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <div class="sa-empty">Henüz kullanıcı yok.</div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+
+{% block body_extra %}
+<script>
+(function(){
+    var labels = {{ chart_labels|safe }};
+    var revenue = {{ chart_revenue|safe }};
+    var counts = {{ chart_count|safe }};
+    var ctx = document.getElementById('revChart');
+    if (!ctx || !window.Chart) return;
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [
+                {
+                    label: 'Gelir (TL)',
+                    data: revenue,
+                    borderColor: '#4f46e5',
+                    backgroundColor: 'rgba(79,70,229,.1)',
+                    fill: true, tension: .3, yAxisID: 'y',
+                },
+                {
+                    label: 'Satış Adedi',
+                    data: counts,
+                    borderColor: '#10b981',
+                    backgroundColor: 'rgba(16,185,129,.08)',
+                    fill: false, tension: .3, yAxisID: 'y2',
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            interaction: { intersect: false, mode: 'index' },
+            scales: {
+                y: { beginAtZero: true, position: 'left', title: { display: true, text: 'TL' } },
+                y2: { beginAtZero: true, position: 'right', grid: { drawOnChartArea: false }, title: { display: true, text: 'Adet' } }
+            }
+        }
+    });
+})();
+</script>
+{% endblock %}

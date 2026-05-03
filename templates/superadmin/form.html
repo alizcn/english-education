@@ -1,0 +1,48 @@
+{% extends 'superadmin/base.html' %}
+{% block title %}{% if mode == 'create' %}Yeni {{ resource.label_singular }}{% else %}{{ obj }} düzenle{% endif %}{% endblock %}
+
+{% block content %}
+<div class="sa-topbar">
+    <div>
+        <div class="sa-crumb">
+            <a href="{% url 'superadmin:dashboard' %}">Dashboard</a> /
+            <a href="{% url 'superadmin:list' slug=resource.slug %}">{{ resource.label }}</a> /
+            {% if mode == 'create' %}Yeni{% else %}<a href="{% url 'superadmin:detail' slug=resource.slug pk=obj.pk %}">#{{ obj.pk }}</a> / Düzenle{% endif %}
+        </div>
+        <h1>
+            {% if mode == 'create' %}+ Yeni {{ resource.label_singular }}{% else %}{{ obj }} düzenle{% endif %}
+        </h1>
+    </div>
+</div>
+
+<div class="sa-card">
+    <form method="post" enctype="multipart/form-data" class="sa-form" novalidate>
+        {% csrf_token %}
+        {% if form.non_field_errors %}
+        <div class="sa-message error">{{ form.non_field_errors }}</div>
+        {% endif %}
+        {% for field in form %}
+        <div class="sa-form-row">
+            <label for="{{ field.id_for_label }}">{{ field.label }}{% if field.field.required %} *{% endif %}</label>
+            {{ field }}
+            {% if field.help_text %}<small class="helptext">{{ field.help_text }}</small>{% endif %}
+            {{ field.errors }}
+        </div>
+        {% endfor %}
+        <div class="sa-form-actions">
+            <a href="{% if mode == 'edit' %}{% url 'superadmin:detail' slug=resource.slug pk=obj.pk %}{% else %}{% url 'superadmin:list' slug=resource.slug %}{% endif %}" class="sa-btn sa-btn-ghost">İptal</a>
+            <button type="submit" class="sa-btn sa-btn-primary">{% if mode == 'create' %}Oluştur{% else %}Kaydet{% endif %}</button>
+        </div>
+    </form>
+</div>
+{% endblock %}
+
+{% block body_extra %}
+<script>
+// Make all rendered Django form widgets pick up consistent styling
+document.querySelectorAll('.sa-form input, .sa-form select, .sa-form textarea').forEach(function(el){
+    if (el.type === 'checkbox' || el.type === 'radio' || el.type === 'submit' || el.type === 'button' || el.type === 'file') return;
+    el.classList.add('sa-input');
+});
+</script>
+{% endblock %}

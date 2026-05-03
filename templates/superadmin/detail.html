@@ -1,0 +1,54 @@
+{% extends 'superadmin/base.html' %}
+{% load superadmin_extras %}
+{% block title %}{{ obj }} · {{ resource.label_singular }}{% endblock %}
+
+{% block content %}
+<div class="sa-topbar">
+    <div>
+        <div class="sa-crumb">
+            <a href="{% url 'superadmin:dashboard' %}">Dashboard</a> /
+            <a href="{% url 'superadmin:list' slug=resource.slug %}">{{ resource.label }}</a> /
+            #{{ obj.pk }}
+        </div>
+        <h1>{{ resource.icon }} {{ obj }}</h1>
+    </div>
+    <div class="sa-spacer"></div>
+    {% if resource.slug == 'users' %}
+    <a href="{% url 'superadmin:assign_plan' pk=obj.pk %}" class="sa-btn sa-btn-primary">+ Plan Ata</a>
+    {% endif %}
+    {% if resource.can_edit %}
+    <a href="{% url 'superadmin:edit' slug=resource.slug pk=obj.pk %}" class="sa-btn sa-btn-primary">Düzenle</a>
+    {% endif %}
+    {% if resource.can_delete %}
+    <a href="{% url 'superadmin:delete' slug=resource.slug pk=obj.pk %}" class="sa-btn sa-btn-danger">Sil</a>
+    {% endif %}
+</div>
+
+<div class="sa-card">
+    <div class="sa-card-head">Alanlar</div>
+    {% for label, val in field_rows %}
+    <div class="sa-detail-row">
+        <div class="sa-detail-key">{{ label }}</div>
+        <div class="sa-detail-val">
+            {% if val|stringformat:'s'|slice:'0:1' == '{' or val|stringformat:'s'|slice:'0:1' == '[' %}
+            <pre>{{ val }}</pre>
+            {% else %}
+            {{ val|sa_cell }}
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% if extra_rows %}
+<div class="sa-card" style="margin-top:14px;">
+    <div class="sa-card-head">Ek Bilgiler</div>
+    {% for label, val in extra_rows %}
+    <div class="sa-detail-row">
+        <div class="sa-detail-key">{{ label }}</div>
+        <div class="sa-detail-val">{{ val|sa_cell }}</div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+{% endblock %}

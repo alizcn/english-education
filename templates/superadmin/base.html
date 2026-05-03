@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Superadmin{% endblock %} · LevelEnAI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/superadmin.css' %}">
+    {% block head_extra %}{% endblock %}
+</head>
+<body class="sa-body">
+<div class="sa-layout">
+    <aside class="sa-sidebar" id="saSidebar">
+        <a href="{% url 'superadmin:dashboard' %}" class="sa-brand">
+            <span class="sa-brand-mark">L</span>
+            <span>LevelEnAI</span>
+        </a>
+
+        <a href="{% url 'superadmin:dashboard' %}"
+           class="sa-nav-link {% if active_kind == 'dashboard' %}active{% endif %}">
+            <span class="sa-nav-icon">📊</span> Dashboard
+        </a>
+
+        {% for section_name, items in sections.items %}
+        <div class="sa-section-title">{{ section_name }}</div>
+        {% for slug, cls in items %}
+        <a href="{% url 'superadmin:list' slug=slug %}"
+           class="sa-nav-link {% if active_slug == slug %}active{% endif %}">
+            <span class="sa-nav-icon">{{ cls.icon }}</span> {{ cls.label }}
+        </a>
+        {% endfor %}
+        {% endfor %}
+
+        <div class="sa-nav-back">
+            <a href="/" class="sa-nav-link">
+                <span class="sa-nav-icon">↩</span> Siteye Dön
+            </a>
+            <a href="/levelenai-admin/" class="sa-nav-link">
+                <span class="sa-nav-icon">⚙</span> Django Admin
+            </a>
+        </div>
+    </aside>
+
+    <main class="sa-main">
+        {% if messages %}
+        {% for m in messages %}
+        <div class="sa-message {{ m.tags }}">{{ m }}</div>
+        {% endfor %}
+        {% endif %}
+
+        {% block content %}{% endblock %}
+    </main>
+</div>
+
+<script>
+(function(){
+    var btn = document.querySelector('.sa-toggle');
+    var sb = document.getElementById('saSidebar');
+    if (btn && sb) btn.addEventListener('click', function(){ sb.classList.toggle('open'); });
+})();
+</script>
+{% block body_extra %}{% endblock %}
+</body>
+</html>

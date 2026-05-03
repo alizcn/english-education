@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'apps.wordbank',
     'apps.interviews',
     'apps.subscriptions',
+    'apps.superadmin',
 ]
 
 CELERY_BROKER_URL = os.getenv('REDIS_URL', 'redis://localhost:6379/0')

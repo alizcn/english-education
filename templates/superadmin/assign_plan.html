@@ -1,0 +1,37 @@
+{% extends 'superadmin/base.html' %}
+{% block title %}{{ target_user }} · Plan ata{% endblock %}
+
+{% block content %}
+<div class="sa-topbar">
+    <div>
+        <div class="sa-crumb">
+            <a href="{% url 'superadmin:dashboard' %}">Dashboard</a> /
+            <a href="{% url 'superadmin:list' slug='users' %}">Kullanıcılar</a> /
+            <a href="{% url 'superadmin:detail' slug='users' pk=target_user.pk %}">{{ target_user }}</a> /
+            Plan Ata
+        </div>
+        <h1>+ Plan Ata: {{ target_user }}</h1>
+    </div>
+</div>
+
+<div class="sa-card">
+    <form method="post" class="sa-form">
+        {% csrf_token %}
+        <p class="sa-muted">
+            Bu kullanıcıya manuel olarak bir paket ataması yapılır. "Hemen aktive et" işaretliyse abonelik şimdi başlar
+            ve <strong>plan süresi (gün)</strong> kadar sürer.
+        </p>
+        {% for field in form %}
+        <div class="sa-form-row">
+            <label for="{{ field.id_for_label }}">{{ field.label }}{% if field.field.required %} *{% endif %}</label>
+            {{ field }}
+            {{ field.errors }}
+        </div>
+        {% endfor %}
+        <div class="sa-form-actions">
+            <a href="{% url 'superadmin:detail' slug='users' pk=target_user.pk %}" class="sa-btn sa-btn-ghost">İptal</a>
+            <button type="submit" class="sa-btn sa-btn-primary">Plan Ata</button>
+        </div>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends 'superadmin/base.html' %}
+{% block title %}Sil: {{ obj }}{% endblock %}
+
+{% block content %}
+<div class="sa-topbar">
+    <div>
+        <div class="sa-crumb">
+            <a href="{% url 'superadmin:dashboard' %}">Dashboard</a> /
+            <a href="{% url 'superadmin:list' slug=resource.slug %}">{{ resource.label }}</a> /
+            <a href="{% url 'superadmin:detail' slug=resource.slug pk=obj.pk %}">#{{ obj.pk }}</a> /
+            Sil
+        </div>
+        <h1>🗑️ Silme Onayı</h1>
+    </div>
+</div>
+
+<div class="sa-card">
+    <div class="sa-form">
+        <p>
+            <strong>{{ resource.label_singular }}</strong> kaydını silmek üzeresin: <code>{{ obj }}</code>
+        </p>
+        <p class="sa-muted">
+            Bu işlem geri alınamaz. İlişkili kayıtlar (varsa) cascade kurallarına göre silinebilir.
+        </p>
+        <form method="post">
+            {% csrf_token %}
+            <div class="sa-form-actions">
+                <a href="{% url 'superadmin:detail' slug=resource.slug pk=obj.pk %}" class="sa-btn sa-btn-ghost">İptal</a>
+                <button type="submit" class="sa-btn sa-btn-danger">Evet, sil</button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

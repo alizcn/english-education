@@ -1,0 +1,93 @@
+{% extends 'superadmin/base.html' %}
+{% load superadmin_extras %}
+{% block title %}{{ resource.label }}{% endblock %}
+
+{% block content %}
+<div class="sa-topbar">
+    <div>
+        <div class="sa-crumb"><a href="{% url 'superadmin:dashboard' %}">Dashboard</a> / {{ resource.label }}</div>
+        <h1>{{ resource.icon }} {{ resource.label }}</h1>
+    </div>
+    <div class="sa-spacer"></div>
+    {% if resource.can_create %}
+    <a href="{% url 'superadmin:create' slug=resource.slug %}" class="sa-btn sa-btn-primary">+ Yeni {{ resource.label_singular }}</a>
+    {% endif %}
+</div>
+
+<div class="sa-card">
+    <form method="get" class="sa-toolbar">
+        {% if resource.search_fields %}
+        <input type="search" name="q" value="{{ q }}" placeholder="🔍 Ara…">
+        {% endif %}
+        {% for f in filter_ui %}
+        <select name="{{ f.field }}">
+            <option value="">{{ f.label }}: tümü</option>
+            {% for v, lbl in f.choices %}
+            <option value="{{ v }}" {% if f.current == v %}selected{% endif %}>{{ lbl }}</option>
+            {% endfor %}
+        </select>
+        {% endfor %}
+        <button type="submit" class="sa-btn sa-btn-sm">Uygula</button>
+        {% if q or filter_ui %}
+        <a href="{% url 'superadmin:list' slug=resource.slug %}" class="sa-btn sa-btn-sm sa-btn-ghost">Temizle</a>
+        {% endif %}
+        <div class="sa-spacer"></div>
+        <span class="sa-muted">Toplam: <strong>{{ total }}</strong></span>
+    </form>
+
+    <div class="sa-table-wrap">
+        {% if rows %}
+        <table class="sa-table">
+            <thead>
+                <tr>
+                    {% for col in resource.list_columns %}
+                    <th>{{ col.1 }}</th>
+                    {% endfor %}
+                    <th class="sa-row-actions">İşlem</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in rows %}
+                <tr>
+                    {% for v in row.values %}
+                    <td>{{ v|sa_cell }}</td>
+                    {% endfor %}
+                    <td class="sa-row-actions">
+                        <a href="{% url 'superadmin:detail' slug=resource.slug pk=row.pk %}">Görüntüle</a>
+                        {% if resource.can_edit %}
+                        <a href="{% url 'superadmin:edit' slug=resource.slug pk=row.pk %}">Düzenle</a>
+                        {% endif %}
+                        {% if resource.can_delete %}
+                        <a href="{% url 'superadmin:delete' slug=resource.slug pk=row.pk %}" class="sa-danger">Sil</a>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <div class="sa-empty">Kayıt yok.</div>
+        {% endif %}
+    </div>
+
+    {% if pages > 1 %}
+    <div class="sa-pager">
+        <span>Sayfa {{ page }} / {{ pages }} · {{ page_size }} satır/sayfa</span>
+        <div class="sa-spacer"></div>
+        {% if has_prev %}
+        <a href="?{% sa_querystring page=1 %}">«</a>
+        <a href="?{% sa_querystring page=page|add:'-1' %}">‹</a>
+        {% else %}
+        <span class="disabled">« ‹</span>
+        {% endif %}
+        <span class="current">{{ page }}</span>
+        {% if has_next %}
+        <a href="?{% sa_querystring page=page|add:'1' %}">›</a>
+        <a href="?{% sa_querystring page=pages %}">»</a>
+        {% else %}
+        <span class="disabled">› »</span>
+        {% endif %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
