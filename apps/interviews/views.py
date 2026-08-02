@@ -2,13 +2,11 @@ import logging
 
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-from django.db import transaction
 from django.shortcuts import render, redirect, get_object_or_404
 from django.utils.translation import gettext as _
 from django.views.decorators.http import require_POST
 from django_ratelimit.decorators import ratelimit
 
-from apps.subscriptions import access as sub_access
 from services import ai
 from services.sanitize import SanitizationError, clean_cv_text, clean_job_title
 from .models import InterviewSession, JOB_CATEGORIES
@@ -108,21 +106,14 @@ def interview_create(request):
         messages.error(request, _('Sorular üretilemedi. Tekrar deneyin.'))
         return redirect('interviews:list')
 
-    with transaction.atomic():
-        state = sub_access.get_state(request.user)
-        if not sub_access.can_use_interview(state):
-            messages.error(request, _('Deneme hakkın doldu. Devam etmek için bir paket seç.'))
-            return redirect('subscriptions:plans')
-
-        source = InterviewSession.CUSTOM if job_category == 'custom' else InterviewSession.CATEGORY
-        session = InterviewSession.objects.create(
-            user=request.user,
-            source=source,
-            job_category=job_category if job_category in _cat_dict else 'custom',
-            custom_title=custom_title if job_category == 'custom' else '',
-            questions_data=items,
-        )
-        sub_access.record_interview_use(state)
+    source = InterviewSession.CUSTOM if job_category == 'custom' else InterviewSession.CATEGORY
+    session = InterviewSession.objects.create(
+        user=request.user,
+        source=source,
+        job_category=job_category if job_category in _cat_dict else 'custom',
+        custom_title=custom_title if job_category == 'custom' else '',
+        questions_data=items,
+    )
 
     messages.success(
         request,
@@ -176,20 +167,13 @@ def interview_create_cv(request):
         messages.error(request, _('Sorular üretilemedi. Tekrar deneyin.'))
         return redirect('interviews:list')
 
-    with transaction.atomic():
-        state = sub_access.get_state(request.user)
-        if not sub_access.can_use_interview(state):
-            messages.error(request, _('Deneme hakkın doldu. Devam etmek için bir paket seç.'))
-            return redirect('subscriptions:plans')
-
-        session = InterviewSession.objects.create(
-            user=request.user,
-            source=InterviewSession.CV,
-            job_category='custom',
-            cv_filename=cv_file.name,
-            questions_data=items,
-        )
-        sub_access.record_interview_use(state)
+    session = InterviewSession.objects.create(
+        user=request.user,
+        source=InterviewSession.CV,
+        job_category='custom',
+        cv_filename=cv_file.name,
+        questions_data=items,
+    )
 
     messages.success(
         request,

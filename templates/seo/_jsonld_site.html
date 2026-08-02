@@ -1,0 +1,52 @@
+{% load static i18n %}{% get_current_language as LANG %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ seo.site_url }}/#organization",
+      "name": "LevelEnAI",
+      "url": "{{ seo.site_url }}/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ seo.site_url }}{% static 'icons/icon-512.png' %}",
+        "width": 512,
+        "height": 512
+      },
+      "image": "{{ seo.default_image }}",
+      "description": "{% trans 'İngilizce kelime, gramer ve AI destekli mülakat hazırlığı sunan ücretsiz platform.' %}",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Codezzium"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ seo.site_url }}/#website",
+      "url": "{{ seo.site_url }}/",
+      "name": "LevelEnAI",
+      "inLanguage": "{{ LANG }}",
+      "publisher": { "@id": "{{ seo.site_url }}/#organization" }
+    },
+    {
+      "@type": "WebApplication",
+      "@id": "{{ seo.site_url }}/#app",
+      "name": "LevelEnAI",
+      "url": "{{ seo.site_url }}/",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Web, Android, iOS",
+      "inLanguage": ["tr", "en"],
+      "description": "{% trans 'Pozisyona özel AI mülakat soruları, 6.000+ kelime ve 18 gramer konusuyla İngilizce hazırlık uygulaması.' %}",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "TRY",
+        "availability": "https://schema.org/InStock"
+      },
+      "isAccessibleForFree": true,
+      "publisher": { "@id": "{{ seo.site_url }}/#organization" }
+    }
+  ]
+}
+</script>

@@ -14,25 +14,27 @@
 <ul>
     <li>{% trans "Kimlik: Kullanıcı adı, ad, soyad (isteğe bağlı)." %}</li>
     <li>{% trans "İletişim: E-posta adresi." %}</li>
-    <li>{% trans "İşlem: Quiz / mülakat / sohbet etkinlikleri, trial ve abonelik bilgileri." %}</li>
+    <li>{% trans "İşlem: Quiz / mülakat / sohbet etkinlikleri ve ilerleme kayıtları." %}</li>
     <li>{% trans "Teknik: IP adresi, tarayıcı/oturum bilgileri, log kayıtları." %}</li>
-    <li>{% trans "Ödeme: Abonelik için iyzico üzerinden işlenen ödeme referansları (kart bilgileri tarafımızda saklanmaz)." %}</li>
 </ul>
+<p class="muted">
+    {% trans "Platform tamamen ücretsizdir; ödeme, kart veya fatura bilgisi toplanmaz." %}
+</p>
 
 <h4>{% trans "İşleme Amaçları" %}</h4>
 <ul>
     <li>{% trans "Hesap oluşturma, kimlik doğrulama ve oturum yönetimi." %}</li>
     <li>{% trans "İngilizce mülakat hazırlık hizmetinin sunulması ve ilerleme takibi." %}</li>
-    <li>{% trans "Abonelik yönetimi, faturalandırma ve destek." %}</li>
+    <li>{% trans "Kullanıcı destek taleplerinin karşılanması." %}</li>
     <li>{% trans "Yasal yükümlülüklerin yerine getirilmesi ve kötüye kullanımın önlenmesi." %}</li>
 </ul>
 
 <h4>{% trans "Aktarım" %}</h4>
 <p>
     {% blocktrans trimmed %}
-    Verileriniz, hizmetin sunulabilmesi için OpenAI (AI içerik üretimi) ve iyzico
-    (ödeme işlemleri) gibi tedarikçilerle sınırlı ölçüde paylaşılır. Bu paylaşımlar
-    sadece hizmetin gerektirdiği veriyle sınırlıdır.
+    Verileriniz, hizmetin sunulabilmesi için OpenAI (AI içerik üretimi) gibi
+    tedarikçilerle sınırlı ölçüde paylaşılır. Bu paylaşımlar sadece hizmetin
+    gerektirdiği veriyle sınırlıdır.
     {% endblocktrans %}
 </p>
 

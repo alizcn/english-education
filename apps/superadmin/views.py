@@ -1,21 +1,18 @@
 import json
 from datetime import timedelta
-from decimal import Decimal
 
 from django import forms
 from django.contrib import messages
 from django.contrib.auth import get_user_model
-from django.db.models import Count, Sum, Q
+from django.db.models import Count, Q
 from django.db.models.functions import TruncDate
 from django.http import Http404
 from django.shortcuts import render, redirect, get_object_or_404
-from django.urls import reverse
 from django.utils import timezone
-from django.views.decorators.http import require_POST
 
-from apps.subscriptions.models import Plan, Subscription, Payment, TrialUsage
 from apps.quizzes.models import QuizSession
 from apps.interviews.models import InterviewSession
+from apps.chat.models import ChatConversation
 from apps.accounts.models import UserLevel
 
 from .decorators import superuser_required
@@ -90,6 +87,18 @@ def _filter_options(resource):
     return out
 
 
+def _daily_counts(qs, date_field, start_date, days):
+    """Return a list of `days` counts, one per day starting at start_date."""
+    rows = (
+        qs.filter(**{f'{date_field}__date__gte': start_date})
+        .annotate(d=TruncDate(date_field))
+        .values('d')
+        .annotate(c=Count('id'))
+    )
+    by_day = {r['d']: r['c'] for r in rows}
+    return [by_day.get(start_date + timedelta(days=i), 0) for i in range(days)]
+
+
 @superuser_required
 def dashboard(request):
     now = timezone.now()
@@ -101,48 +110,41 @@ def dashboard(request):
     user_today = User.objects.filter(date_joined__date=today).count()
     user_week = User.objects.filter(date_joined__date__gte=week_ago).count()
 
-    sub_active = Subscription.objects.filter(status=Subscription.STATUS_ACTIVE).count()
-    sub_total = Subscription.objects.count()
-
-    pay_success = Payment.objects.filter(status=Payment.STATUS_SUCCESS)
-    revenue_total = pay_success.aggregate(s=Sum('amount'))['s'] or Decimal('0')
-    revenue_month = pay_success.filter(created_at__date__gte=month_ago).aggregate(s=Sum('amount'))['s'] or Decimal('0')
-    revenue_today = pay_success.filter(created_at__date=today).aggregate(s=Sum('amount'))['s'] or Decimal('0')
-
     quiz_sessions = QuizSession.objects.count()
     quiz_today = QuizSession.objects.filter(started_at__date=today).count()
+    quiz_week = QuizSession.objects.filter(started_at__date__gte=week_ago).count()
+
     interview_total = InterviewSession.objects.count()
+    interview_week = InterviewSession.objects.filter(created_at__date__gte=week_ago).count()
 
-    # Daily revenue for last 30 days
-    daily = (
-        pay_success.filter(created_at__date__gte=month_ago)
-        .annotate(d=TruncDate('created_at'))
-        .values('d')
-        .annotate(total=Sum('amount'), c=Count('id'))
-        .order_by('d')
-    )
-    by_day = {r['d']: r for r in daily}
-    chart_labels, chart_revenue, chart_count = [], [], []
-    for i in range(30):
-        d = month_ago + timedelta(days=i)
-        chart_labels.append(d.strftime('%d/%m'))
-        row = by_day.get(d)
-        chart_revenue.append(float(row['total']) if row else 0)
-        chart_count.append(row['c'] if row else 0)
+    chat_total = ChatConversation.objects.count()
+    chat_week = ChatConversation.objects.filter(created_at__date__gte=week_ago).count()
 
-    recent_payments = (
-        Payment.objects.select_related('user', 'plan')
-        .order_by('-created_at')[:8]
-    )
+    # Son 7 günde herhangi bir aktivite üreten benzersiz kullanıcılar
+    active_users = User.objects.filter(
+        Q(quiz_sessions__started_at__date__gte=week_ago)
+        | Q(interview_sessions__created_at__date__gte=week_ago)
+        | Q(chats__created_at__date__gte=week_ago)
+    ).distinct().count()
+
+    # Son 30 günün günlük aktivite grafiği
+    chart_labels = [(month_ago + timedelta(days=i)).strftime('%d/%m') for i in range(30)]
+    chart_users = _daily_counts(User.objects.all(), 'date_joined', month_ago, 30)
+    chart_quizzes = _daily_counts(QuizSession.objects.all(), 'started_at', month_ago, 30)
+    chart_interviews = _daily_counts(InterviewSession.objects.all(), 'created_at', month_ago, 30)
+
     recent_users = User.objects.order_by('-date_joined')[:8]
-    recent_subs = (
-        Subscription.objects.select_related('user', 'plan')
+    recent_interviews = (
+        InterviewSession.objects.select_related('user')
         .order_by('-created_at')[:8]
     )
+    recent_quizzes = (
+        QuizSession.objects.select_related('user', 'topic')
+        .order_by('-started_at')[:8]
+    )
 
-    plan_breakdown = (
-        Subscription.objects.filter(status=Subscription.STATUS_ACTIVE)
-        .values('plan__name')
+    level_breakdown = (
+        UserLevel.objects.values('current_level')
         .annotate(c=Count('id'))
         .order_by('-c')
     )
@@ -152,21 +154,22 @@ def dashboard(request):
         'user_total': user_total,
         'user_today': user_today,
         'user_week': user_week,
-        'sub_active': sub_active,
-        'sub_total': sub_total,
-        'revenue_total': revenue_total,
-        'revenue_month': revenue_month,
-        'revenue_today': revenue_today,
+        'active_users': active_users,
         'quiz_sessions': quiz_sessions,
         'quiz_today': quiz_today,
+        'quiz_week': quiz_week,
         'interview_total': interview_total,
+        'interview_week': interview_week,
+        'chat_total': chat_total,
+        'chat_week': chat_week,
         'chart_labels': json.dumps(chart_labels),
-        'chart_revenue': json.dumps(chart_revenue),
-        'chart_count': json.dumps(chart_count),
-        'recent_payments': recent_payments,
+        'chart_users': json.dumps(chart_users),
+        'chart_quizzes': json.dumps(chart_quizzes),
+        'chart_interviews': json.dumps(chart_interviews),
         'recent_users': recent_users,
-        'recent_subs': recent_subs,
-        'plan_breakdown': plan_breakdown,
+        'recent_interviews': recent_interviews,
+        'recent_quizzes': recent_quizzes,
+        'level_breakdown': level_breakdown,
     })
     return render(request, 'superadmin/dashboard.html', ctx)
 
@@ -323,32 +326,3 @@ def delete_view(request, slug, pk):
     ctx = _common_context(active_slug=slug)
     ctx.update({'resource': resource, 'obj': obj})
     return render(request, 'superadmin/delete.html', ctx)
-
-
-# ---------- Special actions ----------
-
-class AssignPlanForm(forms.Form):
-    plan = forms.ModelChoiceField(queryset=Plan.objects.filter(is_active=True), label='Plan')
-    activate_now = forms.BooleanField(required=False, initial=True, label='Hemen aktive et')
-
-
-@superuser_required
-def assign_plan(request, pk):
-    user = get_object_or_404(User, pk=pk)
-    if request.method == 'POST':
-        form = AssignPlanForm(request.POST)
-        if form.is_valid():
-            plan = form.cleaned_data['plan']
-            sub = Subscription.objects.create(
-                user=user, plan=plan,
-                status=Subscription.STATUS_PENDING,
-            )
-            if form.cleaned_data['activate_now']:
-                sub.activate()
-            messages.success(request, f"{user} kullanıcısına {plan.name} planı atandı.")
-            return redirect('superadmin:detail', slug='users', pk=user.pk)
-    else:
-        form = AssignPlanForm()
-    ctx = _common_context(active_slug='users')
-    ctx.update({'target_user': user, 'form': form})
-    return render(request, 'superadmin/assign_plan.html', ctx)

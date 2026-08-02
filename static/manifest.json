@@ -1,21 +1,38 @@
 {
-  "name": "LevelEnAI — Level up your English. Land the interview.",
+  "name": "LevelEnAI — İngilizce öğren, mülakatı kap",
   "short_name": "LevelEnAI",
-  "description": "AI-coached interview prep for Turkish developers.",
-  "start_url": "/",
+  "description": "İngilizce kelime, gramer ve AI destekli mülakat hazırlığı. A1'den C2'ye 6.000+ kelime, 18 gramer konusu — tamamen ücretsiz.",
+  "start_url": "/?utm_source=pwa",
+  "id": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#f8fafc",
   "theme_color": "#4f46e5",
   "lang": "tr",
-  "categories": ["education", "productivity"],
+  "dir": "ltr",
+  "categories": [
+    "education",
+    "productivity"
+  ],
   "icons": [
     {
-      "src": "/static/icons/logo.png",
+      "src": "/static/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/static/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/static/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
   "shortcuts": [
@@ -23,19 +40,37 @@
       "name": "Mülakat Pratiği",
       "short_name": "Mülakat",
       "url": "/interviews/",
-      "icons": [{ "src": "/static/icons/logo.png", "sizes": "512x512" }]
+      "icons": [
+        {
+          "src": "/static/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     },
     {
-      "name": "Kelime Bankası",
+      "name": "Kelime Hazinesi",
       "short_name": "Kelime",
-      "url": "/vocabulary/",
-      "icons": [{ "src": "/static/icons/logo.png", "sizes": "512x512" }]
+      "url": "/wordbank/",
+      "icons": [
+        {
+          "src": "/static/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     },
     {
       "name": "AI Sohbet",
       "short_name": "Sohbet",
       "url": "/chat/",
-      "icons": [{ "src": "/static/icons/logo.png", "sizes": "512x512" }]
+      "icons": [
+        {
+          "src": "/static/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     }
   ]
 }

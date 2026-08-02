@@ -21,56 +21,51 @@
         <div class="sa-kpi-sub">+{{ user_today }} bugün · +{{ user_week }} son 7 gün</div>
     </div>
     <div class="sa-kpi sa-kpi-success">
-        <div class="sa-kpi-label">Aktif Abonelik</div>
-        <div class="sa-kpi-value">{{ sub_active }}</div>
-        <div class="sa-kpi-sub">{{ sub_total }} toplam abonelik kaydı</div>
-    </div>
-    <div class="sa-kpi sa-kpi-success">
-        <div class="sa-kpi-label">Toplam Gelir (TL)</div>
-        <div class="sa-kpi-value">{{ revenue_total|floatformat:2 }}</div>
-        <div class="sa-kpi-sub">Bugün: {{ revenue_today|floatformat:2 }}</div>
-    </div>
-    <div class="sa-kpi sa-kpi-warning">
-        <div class="sa-kpi-label">30 Günlük Gelir (TL)</div>
-        <div class="sa-kpi-value">{{ revenue_month|floatformat:2 }}</div>
-        <div class="sa-kpi-sub">Sadece başarılı ödemeler</div>
+        <div class="sa-kpi-label">Aktif Kullanıcı (7 gün)</div>
+        <div class="sa-kpi-value">{{ active_users }}</div>
+        <div class="sa-kpi-sub">Quiz / mülakat / sohbet üretenler</div>
     </div>
     <div class="sa-kpi">
         <div class="sa-kpi-label">Quiz Oturumları</div>
         <div class="sa-kpi-value">{{ quiz_sessions }}</div>
-        <div class="sa-kpi-sub">+{{ quiz_today }} bugün</div>
+        <div class="sa-kpi-sub">+{{ quiz_today }} bugün · +{{ quiz_week }} son 7 gün</div>
     </div>
-    <div class="sa-kpi">
+    <div class="sa-kpi sa-kpi-warning">
         <div class="sa-kpi-label">Mülakat Oturumları</div>
         <div class="sa-kpi-value">{{ interview_total }}</div>
-        <div class="sa-kpi-sub">Toplam üretilen mülakat</div>
+        <div class="sa-kpi-sub">+{{ interview_week }} son 7 gün</div>
+    </div>
+    <div class="sa-kpi">
+        <div class="sa-kpi-label">AI Sohbetleri</div>
+        <div class="sa-kpi-value">{{ chat_total }}</div>
+        <div class="sa-kpi-sub">+{{ chat_week }} son 7 gün</div>
     </div>
 </div>
 
 <div class="sa-grid-2">
     <div class="sa-card">
-        <div class="sa-card-head">📈 Son 30 Gün Gelir & Satış</div>
+        <div class="sa-card-head">📈 Son 30 Gün Aktivite</div>
         <div style="padding:18px;">
-            <canvas id="revChart" height="120"></canvas>
+            <canvas id="activityChart" height="120"></canvas>
         </div>
     </div>
     <div class="sa-card">
-        <div class="sa-card-head">💎 Aktif Abonelikler — Pakete Göre</div>
+        <div class="sa-card-head">🎯 Kullanıcılar — Seviyeye Göre</div>
         <div class="sa-table-wrap">
-            {% if plan_breakdown %}
+            {% if level_breakdown %}
             <table class="sa-table">
-                <thead><tr><th>Paket</th><th>Aktif Üye</th></tr></thead>
+                <thead><tr><th>Seviye</th><th>Kullanıcı</th></tr></thead>
                 <tbody>
-                {% for p in plan_breakdown %}
+                {% for l in level_breakdown %}
                 <tr>
-                    <td>{{ p.plan__name }}</td>
-                    <td><strong>{{ p.c }}</strong></td>
+                    <td>{{ l.current_level }}</td>
+                    <td><strong>{{ l.c }}</strong></td>
                 </tr>
                 {% endfor %}
                 </tbody>
             </table>
             {% else %}
-            <div class="sa-empty">Aktif abonelik yok.</div>
+            <div class="sa-empty">Henüz seviye kaydı yok.</div>
             {% endif %}
         </div>
     </div>
@@ -79,55 +74,54 @@
 <div class="sa-grid-2" style="margin-top:18px;">
     <div class="sa-card">
         <div class="sa-card-head">
-            💳 Son Ödemeler
+            🎤 Son Mülakatlar
             <div class="sa-spacer"></div>
-            <a href="{% url 'superadmin:list' slug='payments' %}" class="sa-btn sa-btn-sm sa-btn-ghost">Tümü →</a>
+            <a href="{% url 'superadmin:list' slug='interviews' %}" class="sa-btn sa-btn-sm sa-btn-ghost">Tümü →</a>
         </div>
         <div class="sa-table-wrap">
-            {% if recent_payments %}
+            {% if recent_interviews %}
             <table class="sa-table">
-                <thead><tr><th>Kullanıcı</th><th>Paket</th><th>Tutar</th><th>Durum</th><th>Tarih</th></tr></thead>
+                <thead><tr><th>Kullanıcı</th><th>Kaynak</th><th>Pozisyon</th><th>Tarih</th></tr></thead>
                 <tbody>
-                {% for p in recent_payments %}
+                {% for i in recent_interviews %}
                 <tr>
-                    <td><a href="{% url 'superadmin:detail' slug='users' pk=p.user_id %}">{{ p.user }}</a></td>
-                    <td>{{ p.plan }}</td>
-                    <td>{{ p.amount }} {{ p.currency }}</td>
-                    <td>{{ p.get_status_display|sa_status }}</td>
-                    <td>{{ p.created_at|date:'d/m H:i' }}</td>
+                    <td><a href="{% url 'superadmin:detail' slug='users' pk=i.user_id %}">{{ i.user }}</a></td>
+                    <td>{{ i.get_source_display }}</td>
+                    <td>{{ i.custom_title|default:i.job_category }}</td>
+                    <td>{{ i.created_at|date:'d/m H:i' }}</td>
                 </tr>
                 {% endfor %}
                 </tbody>
             </table>
             {% else %}
-            <div class="sa-empty">Henüz ödeme yok.</div>
+            <div class="sa-empty">Henüz mülakat yok.</div>
             {% endif %}
         </div>
     </div>
 
     <div class="sa-card">
         <div class="sa-card-head">
-            🎟️ Son Abonelikler
+            ⚡ Son Quiz Oturumları
             <div class="sa-spacer"></div>
-            <a href="{% url 'superadmin:list' slug='subscriptions' %}" class="sa-btn sa-btn-sm sa-btn-ghost">Tümü →</a>
+            <a href="{% url 'superadmin:list' slug='quiz-sessions' %}" class="sa-btn sa-btn-sm sa-btn-ghost">Tümü →</a>
         </div>
         <div class="sa-table-wrap">
-            {% if recent_subs %}
+            {% if recent_quizzes %}
             <table class="sa-table">
-                <thead><tr><th>Kullanıcı</th><th>Paket</th><th>Durum</th><th>Bitiş</th></tr></thead>
+                <thead><tr><th>Kullanıcı</th><th>Tür</th><th>Doğru</th><th>Başlangıç</th></tr></thead>
                 <tbody>
-                {% for s in recent_subs %}
+                {% for s in recent_quizzes %}
                 <tr>
                     <td><a href="{% url 'superadmin:detail' slug='users' pk=s.user_id %}">{{ s.user }}</a></td>
-                    <td>{{ s.plan }}</td>
-                    <td>{{ s.get_status_display|sa_status }}</td>
-                    <td>{% if s.expires_at %}{{ s.expires_at|date:'d/m/Y' }}{% else %}—{% endif %}</td>
+                    <td>{{ s.get_kind_display }}</td>
+                    <td>{{ s.correct_count }}/{{ s.total_questions }}</td>
+                    <td>{{ s.started_at|date:'d/m H:i' }}</td>
                 </tr>
                 {% endfor %}
                 </tbody>
             </table>
             {% else %}
-            <div class="sa-empty">Henüz abonelik yok.</div>
+            <div class="sa-empty">Henüz quiz oturumu yok.</div>
             {% endif %}
         </div>
     </div>
@@ -166,9 +160,10 @@
 <script>
 (function(){
     var labels = {{ chart_labels|safe }};
-    var revenue = {{ chart_revenue|safe }};
-    var counts = {{ chart_count|safe }};
-    var ctx = document.getElementById('revChart');
+    var users = {{ chart_users|safe }};
+    var quizzes = {{ chart_quizzes|safe }};
+    var interviews = {{ chart_interviews|safe }};
+    var ctx = document.getElementById('activityChart');
     if (!ctx || !window.Chart) return;
     new Chart(ctx, {
         type: 'line',
@@ -176,18 +171,25 @@
             labels: labels,
             datasets: [
                 {
-                    label: 'Gelir (TL)',
-                    data: revenue,
+                    label: 'Yeni Kullanıcı',
+                    data: users,
                     borderColor: '#4f46e5',
                     backgroundColor: 'rgba(79,70,229,.1)',
-                    fill: true, tension: .3, yAxisID: 'y',
+                    fill: true, tension: .3,
                 },
                 {
-                    label: 'Satış Adedi',
-                    data: counts,
+                    label: 'Quiz Oturumu',
+                    data: quizzes,
                     borderColor: '#10b981',
                     backgroundColor: 'rgba(16,185,129,.08)',
-                    fill: false, tension: .3, yAxisID: 'y2',
+                    fill: false, tension: .3,
+                },
+                {
+                    label: 'Mülakat',
+                    data: interviews,
+                    borderColor: '#f59e0b',
+                    backgroundColor: 'rgba(245,158,11,.08)',
+                    fill: false, tension: .3,
                 }
             ]
         },
@@ -195,8 +197,7 @@
             responsive: true,
             interaction: { intersect: false, mode: 'index' },
             scales: {
-                y: { beginAtZero: true, position: 'left', title: { display: true, text: 'TL' } },
-                y2: { beginAtZero: true, position: 'right', grid: { drawOnChartArea: false }, title: { display: true, text: 'Adet' } }
+                y: { beginAtZero: true, title: { display: true, text: 'Adet' } }
             }
         }
     });

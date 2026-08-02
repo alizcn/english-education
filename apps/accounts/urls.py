@@ -1,5 +1,6 @@
 from django.contrib.auth.views import LoginView, LogoutView
 from django.urls import path
+from django.utils.translation import gettext_lazy as _
 from django_ratelimit.decorators import ratelimit
 
 from . import views
@@ -14,6 +15,6 @@ urlpatterns = [
     path('login/', _rate_limited_login, name='login'),
     path('logout/', LogoutView.as_view(), name='logout'),
     path('signup/', views.signup, name='signup'),
-    path('profil/', views.profile, name='profile'),
-    path('hesap-sil/', views.delete_account, name='delete_account'),
+    path(_('profil/'), views.profile, name='profile'),
+    path(_('hesap-sil/'), views.delete_account, name='delete_account'),
 ]

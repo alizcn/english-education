@@ -1,0 +1,116 @@
+{% extends 'seo/_public_base.html' %}
+{% load i18n %}
+
+{% block full_title %}{{ topic.name }} — {% trans "Konu Anlatımı ve Örnek Cümleler" %} | LevelEnAI{% endblock %}
+{% block meta_description %}{% blocktrans with name=topic.name %}{{ name }} konu anlatımı: ne zaman kullanılır, nasıl kurulur ve olumlu, olumsuz, soru örnek cümleler — Türkçe karşılıklarıyla birlikte.{% endblocktrans %}{% endblock %}
+{% block og_title %}{{ topic.name }} — {% trans "İngilizce konu anlatımı" %}{% endblock %}
+{% block og_description %}{% blocktrans with name=topic.name count=example_count %}{{ name }} konusunun kuralları ve {{ count }} örnek cümlesi, Türkçe çevirileriyle.{% endblocktrans %}{% endblock %}
+{% block og_type %}article{% endblock %}
+
+{% block breadcrumb %}<span>›</span> <a href="{% url 'seo:grammar_index' %}">{% trans "İngilizce Gramer" %}</a> <span>›</span> <span aria-current="page">{{ topic.name }}</span>{% endblock %}
+
+{% block json_ld %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "{% trans 'Ana Sayfa' %}", "item": "{{ seo.site_url }}/"},
+        {"@type": "ListItem", "position": 2, "name": "{% trans 'İngilizce Gramer' %}", "item": "{{ seo.site_url }}{% url 'seo:grammar_index' %}"},
+        {"@type": "ListItem", "position": 3, "name": "{{ topic.name }}", "item": "{{ seo.canonical }}"}
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "{{ topic.name }} — {% trans 'İngilizce konu anlatımı' %}",
+      "url": "{{ seo.canonical }}",
+      "learningResourceType": "{% trans 'Gramer konu anlatımı' %}",
+      "educationalLevel": "A1-C2",
+      "teaches": "{{ topic.name }}",
+      "isAccessibleForFree": true,
+      "datePublished": "{{ topic.created_at|date:'c' }}",
+      "dateModified": "{{ topic.updated_at|date:'c' }}",
+      "inLanguage": "{{ explanation_lang }}",
+      "publisher": {"@id": "{{ seo.site_url }}/#organization"},
+      "isPartOf": {"@id": "{{ seo.site_url }}/#website"}
+    }
+  ]
+}
+</script>
+{% endblock %}
+
+{% block public_content %}
+<article class="pub-article">
+    <header class="pub-head">
+        <span class="l-eyebrow">📘 {% trans "Gramer" %}</span>
+        <h1>{{ topic.name }} — {% trans "Konu Anlatımı" %}</h1>
+        <p class="pub-meta">{% blocktrans %}{{ example_count }} örnek cümle · Türkçe açıklama · ücretsiz{% endblocktrans %}</p>
+    </header>
+
+    {% if explanation %}
+    <section class="pub-prose" aria-labelledby="anlatim">
+        <h2 id="anlatim" class="pub-h2">{% trans "Kural ve kullanım" %}</h2>
+        <div class="pub-explanation" lang="{{ explanation_lang }}">{{ explanation }}</div>
+    </section>
+    {% endif %}
+
+    {% if positives %}
+    <section aria-labelledby="olumlu">
+        <h2 id="olumlu" class="pub-h2">✅ {% trans "Olumlu cümle örnekleri" %}</h2>
+        <table class="pub-table">
+            <thead><tr><th scope="col">English</th><th scope="col">{% trans "Türkçe" %}</th></tr></thead>
+            <tbody>
+            {% for e in positives %}<tr><td lang="en">{{ e.sentence_en }}</td><td lang="tr">{{ e.sentence_tr }}</td></tr>{% endfor %}
+            </tbody>
+        </table>
+    </section>
+    {% endif %}
+
+    {% if negatives %}
+    <section aria-labelledby="olumsuz">
+        <h2 id="olumsuz" class="pub-h2">⛔ {% trans "Olumsuz cümle örnekleri" %}</h2>
+        <table class="pub-table">
+            <thead><tr><th scope="col">English</th><th scope="col">{% trans "Türkçe" %}</th></tr></thead>
+            <tbody>
+            {% for e in negatives %}<tr><td lang="en">{{ e.sentence_en }}</td><td lang="tr">{{ e.sentence_tr }}</td></tr>{% endfor %}
+            </tbody>
+        </table>
+    </section>
+    {% endif %}
+
+    {% if questions %}
+    <section aria-labelledby="soru">
+        <h2 id="soru" class="pub-h2">❓ {% trans "Soru cümlesi örnekleri" %}</h2>
+        <table class="pub-table">
+            <thead><tr><th scope="col">English</th><th scope="col">{% trans "Türkçe" %}</th></tr></thead>
+            <tbody>
+            {% for e in questions %}<tr><td lang="en">{{ e.sentence_en }}</td><td lang="tr">{{ e.sentence_tr }}</td></tr>{% endfor %}
+            </tbody>
+        </table>
+    </section>
+    {% endif %}
+</article>
+
+<nav class="pub-pager" aria-label="{% trans 'Konular arası gezinme' %}">
+    {% if prev_topic %}
+    <a href="{% url 'seo:grammar_detail' slug=prev_topic.slug %}" class="pub-pager-link">
+        ← <span>{{ prev_topic.name }}</span>
+    </a>
+    {% else %}<span></span>{% endif %}
+    {% if next_topic %}
+    <a href="{% url 'seo:grammar_detail' slug=next_topic.slug %}" class="pub-pager-link pub-pager-next">
+        <span>{{ next_topic.name }}</span> →
+    </a>
+    {% endif %}
+</nav>
+
+<section aria-labelledby="diger">
+    <h2 id="diger" class="pub-h2">{% trans "Diğer gramer konuları" %}</h2>
+    <div class="pub-chips">
+        {% for t in siblings %}<a href="{% url 'seo:grammar_detail' slug=t.slug %}" class="pub-chip">{{ t.name }}</a>{% endfor %}
+        <a href="{% url 'seo:grammar_index' %}" class="pub-chip pub-chip-all">{% trans "Tüm konular" %} →</a>
+    </div>
+</section>
+{% endblock %}

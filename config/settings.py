@@ -22,15 +22,16 @@ if not DEBUG:
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY', '')
 OPENAI_MODEL = os.getenv('OPENAI_MODEL', 'gpt-4o-mini')
 
-IYZICO_API_KEY = os.getenv('IYZICO_API_KEY', '')
-IYZICO_SECRET_KEY = os.getenv('IYZICO_SECRET_KEY', '')
-IYZICO_BASE_URL = os.getenv('IYZICO_BASE_URL', 'https://sandbox-api.iyzipay.com')
-SITE_URL = os.getenv('SITE_URL', 'http://localhost:8070')
-
-TRIAL_DAYS = 3
-TRIAL_INTERVIEW_LIMIT = 1
-TRIAL_CHAT_LIMIT = 1
-TRIAL_BULK_TRANSLATE_LIMIT = 1
+# ---------------------------------------------------------------- SEO
+# Canonical/OG/sitemap URL'leri bu köke göre kurulur. Şema mutlaka https
+# olmalı; aksi halde canonical ile gerçek URL çakışır.
+SITE_URL = os.getenv('SITE_URL', 'https://levelenai.com').rstrip('/')
+SITE_NAME = 'LevelEnAI'
+SEO_DEFAULT_IMAGE = 'og/levelenai-og.png'
+SEO_TWITTER_HANDLE = os.getenv('SEO_TWITTER_HANDLE', '')
+# Search Console / Analytics doğrulaması — boşsa etiket hiç basılmaz.
+GOOGLE_SITE_VERIFICATION = os.getenv('GOOGLE_SITE_VERIFICATION', '')
+GA_MEASUREMENT_ID = os.getenv('GA_MEASUREMENT_ID', '')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -39,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sitemaps',
     'django_celery_beat',
     'apps.accounts',
     'apps.dashboard',
@@ -48,7 +50,7 @@ INSTALLED_APPS = [
     'apps.chat',
     'apps.wordbank',
     'apps.interviews',
-    'apps.subscriptions',
+    'apps.seo',
     'apps.superadmin',
 ]
 
@@ -73,7 +75,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'apps.subscriptions.middleware.SubscriptionGateMiddleware',
 ]
 
 ROOT_URLCONF = 'config.urls'
@@ -89,7 +90,7 @@ TEMPLATES = [
                 'django.template.context_processors.i18n',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'apps.subscriptions.context_processors.subscription_status',
+                'apps.seo.context_processors.seo',
             ],
         },
     },

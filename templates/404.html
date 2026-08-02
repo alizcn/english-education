@@ -1,0 +1,37 @@
+{% extends 'seo/_public_base.html' %}
+{% load i18n %}
+
+{% block full_title %}{% trans "Sayfa bulunamadı (404)" %} | LevelEnAI{% endblock %}
+{% block meta_description %}{% trans "Aradığın sayfa taşınmış ya da hiç var olmamış olabilir." %}{% endblock %}
+{% block robots %}noindex, follow{% endblock %}
+{% block breadcrumb %}<span>›</span> <span aria-current="page">404</span>{% endblock %}
+{% block json_ld %}{% endblock %}
+
+{% block public_content %}
+<header class="pub-head">
+    <span class="l-eyebrow">🧭 404</span>
+    <h1>{% trans "Bu sayfayı bulamadık" %}</h1>
+    <p class="pub-lead">{% trans "Adres yanlış yazılmış ya da içerik taşınmış olabilir. Aşağıdan devam edebilirsin." %}</p>
+</header>
+
+<section aria-labelledby="nereye">
+    <h2 id="nereye" class="pub-h2">{% trans "Buradan devam et" %}</h2>
+    <div class="pub-grid">
+        <a href="{% url 'seo:grammar_index' %}" class="pub-card">
+            <span class="pub-card-title">{% trans "İngilizce Gramer Konuları" %}</span>
+            <span class="pub-card-desc">{% trans "18 konu, Türkçe anlatım ve örnek cümleler." %}</span>
+            <span class="pub-card-more">{% trans "İncele" %} →</span>
+        </a>
+        <a href="{% url 'seo:words_index' %}" class="pub-card">
+            <span class="pub-card-title">{% trans "Kelime Listeleri" %}</span>
+            <span class="pub-card-desc">{% trans "A1'den C2'ye seviye seviye kelime listeleri." %}</span>
+            <span class="pub-card-more">{% trans "İncele" %} →</span>
+        </a>
+        <a href="{% url 'seo:interview_index' %}" class="pub-card">
+            <span class="pub-card-title">{% trans "Mülakat Soruları" %}</span>
+            <span class="pub-card-desc">{% trans "Pozisyona özel İngilizce mülakat hazırlığı." %}</span>
+            <span class="pub-card-more">{% trans "İncele" %} →</span>
+        </a>
+    </div>
+</section>
+{% endblock %}

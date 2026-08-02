@@ -1,0 +1,78 @@
+{% extends 'seo/_public_base.html' %}
+{% load i18n %}
+
+{% block full_title %}{% trans "İngilizce Kelime Listeleri — A1, A2, B1, B2, C1, C2 Seviyeleri" %} | LevelEnAI{% endblock %}
+{% block meta_description %}{% blocktrans %}Seviyelere ayrılmış İngilizce kelime listeleri: A1'den C2'ye 6.000'den fazla kelime, Türkçe anlamları ve örnek cümleleriyle. Ücretsiz, kayıt gerekmez.{% endblocktrans %}{% endblock %}
+{% block og_title %}{% trans "İngilizce Kelime Listeleri (A1–C2) — LevelEnAI" %}{% endblock %}
+{% block og_description %}{% trans "6.000+ kelime, Türkçe anlam ve örnek cümlelerle seviye seviye." %}{% endblock %}
+
+{% block breadcrumb %}<span>›</span> <span aria-current="page">{% trans "İngilizce Kelimeler" %}</span>{% endblock %}
+
+{% block json_ld %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "{% trans 'Ana Sayfa' %}", "item": "{{ seo.site_url }}/"},
+        {"@type": "ListItem", "position": 2, "name": "{% trans 'İngilizce Kelimeler' %}", "item": "{{ seo.canonical }}"}
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "{% trans 'İngilizce Kelime Listeleri' %}",
+      "url": "{{ seo.canonical }}",
+      "isPartOf": {"@id": "{{ seo.site_url }}/#website"},
+      "mainEntity": {
+        "@type": "ItemList",
+        "numberOfItems": {{ levels|length }},
+        "itemListElement": [
+          {% for l in levels %}{"@type": "ListItem", "position": {{ forloop.counter }}, "name": "{{ l.code }}", "url": "{{ seo.site_url }}{% url 'seo:words_level' level=l.code|lower %}"}{% if not forloop.last %},{% endif %}
+          {% endfor %}
+        ]
+      }
+    }
+  ]
+}
+</script>
+{% endblock %}
+
+{% block public_content %}
+<header class="pub-head">
+    <span class="l-eyebrow">📚 {% trans "Kelime Hazinesi" %}</span>
+    <h1>{% trans "İngilizce Kelime Listeleri (A1–C2)" %}</h1>
+    <p class="pub-lead">
+        {% blocktrans trimmed %}Avrupa Dil Portfolyosu seviyelerine göre ayrılmış İngilizce kelime listeleri.
+        Her kelimenin Türkçe anlamı, sözcük türü ve mümkün olduğunda örnek cümlesi yer alır.
+        Listeler sıklık sırasına göre dizilidir: baştan başlayıp ilerledikçe daha az rastlanan
+        kelimelere geçersin.{% endblocktrans %}
+    </p>
+    <p class="pub-meta">{% blocktrans %}Toplam {{ total }} kelime · 6 seviye · ücretsiz{% endblocktrans %}</p>
+</header>
+
+<section aria-labelledby="seviyeler">
+    <h2 id="seviyeler" class="pub-h2">{% trans "Seviyeni seç" %}</h2>
+    <div class="pub-grid">
+        {% for l in levels %}
+        <a href="{% url 'seo:words_level' level=l.code|lower %}" class="pub-card pub-card-level">
+            <span class="pub-level-badge">{{ l.code }}</span>
+            <span class="pub-card-title">{% blocktrans with code=l.code %}{{ code }} seviyesi kelimeler{% endblocktrans %}</span>
+            <span class="pub-card-desc">{{ l.blurb }}</span>
+            <span class="pub-card-more">{% blocktrans with n=l.total %}{{ n }} kelime{% endblocktrans %} →</span>
+        </a>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="pub-prose" aria-labelledby="hangi">
+    <h2 id="hangi" class="pub-h2">{% trans "Hangi seviyeden başlamalıyım?" %}</h2>
+    <p>{% blocktrans trimmed %}Bir listeye göz at ve kelimelerin yaklaşık %80'ini biliyorsan bir üst seviyeye geç.
+    Yarısından fazlasını bilmiyorsan bir alt seviyede kal. Günde 20–30 yeni kelime hedefi çoğu kişi için
+    sürdürülebilir bir tempodur; önemli olan her gün tekrar etmektir.{% endblocktrans %}</p>
+    <p>{% blocktrans %}Kelimeleri cümle içinde görmek kalıcılığı ciddi biçimde artırır. Bu yüzden{% endblocktrans %}
+    <a href="{% url 'seo:grammar_index' %}">{% trans "gramer konularındaki örnek cümleleri" %}</a>
+    {% trans "kelime çalışmanla birlikte yürütmeni öneririz." %}</p>
+</section>
+{% endblock %}

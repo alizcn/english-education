@@ -1,0 +1,60 @@
+{% extends 'seo/_public_base.html' %}
+{% load i18n %}
+
+{% block full_title %}{% trans "Site Haritası" %} | LevelEnAI{% endblock %}
+{% block meta_description %}{% trans "LevelEnAI'daki tüm gramer konuları, seviye seviye kelime listeleri ve mülakat hazırlık sayfalarının tek sayfalık dizini." %}{% endblock %}
+{% block og_title %}{% trans "LevelEnAI Site Haritası" %}{% endblock %}
+
+{% block breadcrumb %}<span>›</span> <span aria-current="page">{% trans "Site Haritası" %}</span>{% endblock %}
+
+{% block json_ld %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "{% trans 'Ana Sayfa' %}", "item": "{{ seo.site_url }}/"},
+    {"@type": "ListItem", "position": 2, "name": "{% trans 'Site Haritası' %}", "item": "{{ seo.canonical }}"}
+  ]
+}
+</script>
+{% endblock %}
+
+{% block public_content %}
+<header class="pub-head">
+    <span class="l-eyebrow">🗺️ {% trans "Dizin" %}</span>
+    <h1>{% trans "Site Haritası" %}</h1>
+    <p class="pub-lead">{% trans "Sitedeki halka açık tüm sayfalar tek listede." %}</p>
+</header>
+
+<section aria-labelledby="sm-genel">
+    <h2 id="sm-genel" class="pub-h2">{% trans "Genel" %}</h2>
+    <ul class="pub-linklist">
+        <li><a href="{% url 'dashboard:home' %}">{% trans "Ana Sayfa" %}</a></li>
+        <li><a href="{% url 'accounts:signup' %}">{% trans "Ücretsiz Kayıt Ol" %}</a></li>
+        <li><a href="{% url 'dashboard:install_guide' %}">{% trans "Uygulamayı Yükle" %}</a></li>
+        <li><a href="{% url 'seo:interview_index' %}">{% trans "İngilizce Mülakat Soruları" %}</a></li>
+    </ul>
+</section>
+
+<section aria-labelledby="sm-gramer">
+    <h2 id="sm-gramer" class="pub-h2"><a href="{% url 'seo:grammar_index' %}">{% trans "İngilizce Gramer Konuları" %}</a></h2>
+    <ul class="pub-linklist pub-linklist-cols">
+        {% for t in topics %}
+        <li><a href="{% url 'seo:grammar_detail' slug=t.slug %}">{{ t.name }}</a></li>
+        {% endfor %}
+    </ul>
+</section>
+
+<section aria-labelledby="sm-kelime">
+    <h2 id="sm-kelime" class="pub-h2"><a href="{% url 'seo:words_index' %}">{% trans "İngilizce Kelime Listeleri" %}</a></h2>
+    <ul class="pub-linklist pub-linklist-cols">
+        {% for l in levels %}
+        <li>
+            <a href="{% url 'seo:words_level' level=l.code|lower %}">{% blocktrans with code=l.code %}{{ code }} seviyesi kelimeler{% endblocktrans %}</a>
+            <small class="muted">({% blocktrans with n=l.total %}{{ n }} kelime{% endblocktrans %})</small>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endblock %}

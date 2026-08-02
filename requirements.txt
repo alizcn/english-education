@@ -5,7 +5,6 @@ requests>=2.31
 beautifulsoup4>=4.12
 PyPDF2>=3.0
 python-docx>=1.0
-iyzipay>=1.0.45
 gunicorn>=21.2
 whitenoise>=6.6
 django-ratelimit>=4.1

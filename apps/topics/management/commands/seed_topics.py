@@ -1,5 +1,6 @@
 from django.core.management.base import BaseCommand
 from django.db import transaction
+from apps.topics.explanations_en import EXPLANATIONS_EN
 from apps.topics.models import Topic, TopicExample
 
 TOPICS = [
@@ -936,11 +937,13 @@ class Command(BaseCommand):
         total_examples = 0
         with transaction.atomic():
             for order, t in enumerate(TOPICS):
+                explanation_en = EXPLANATIONS_EN.get(t['slug'], '')
                 topic, was_created = Topic.objects.get_or_create(
                     slug=t['slug'],
                     defaults={
                         'name': t['name'],
                         'explanation': t['explanation'],
+                        'explanation_en': explanation_en,
                         'order': order,
                     },
                 )
@@ -949,6 +952,7 @@ class Command(BaseCommand):
                 else:
                     topic.name = t['name']
                     topic.explanation = t['explanation']
+                    topic.explanation_en = explanation_en
                     topic.order = order
                     topic.save()
 

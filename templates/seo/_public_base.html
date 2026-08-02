@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+
+{# Halka açık içerik sayfalarının ortak iskeleti: uygulama chrome'u yerine
+   ziyaretçiye uygun sade bir üst menü + zengin iç bağlantılı alt bilgi. #}
+
+{% block robots %}index, follow, max-snippet:-1, max-image-preview:large{% endblock %}
+{% block body_class %}pub-body{% endblock %}
+
+{% block body %}
+<nav class="landing-nav">
+    <div class="landing-nav-inner">
+        <a href="{% url 'dashboard:home' %}" class="landing-nav-logo" aria-label="LevelEnAI" style="text-decoration:none;">
+            {% include '_levelenai_logo.html' with logo_height="36px" %}
+        </a>
+        <div class="pub-nav-links">
+            <a href="{% url 'seo:grammar_index' %}" class="pub-nav-link {% if request.resolver_match.url_name == 'grammar_index' or request.resolver_match.url_name == 'grammar_detail' %}active{% endif %}">{% trans "Gramer" %}</a>
+            <a href="{% url 'seo:words_index' %}" class="pub-nav-link {% if 'words' in request.resolver_match.url_name %}active{% endif %}">{% trans "Kelimeler" %}</a>
+            <a href="{% url 'seo:interview_index' %}" class="pub-nav-link {% if request.resolver_match.url_name == 'interview_index' %}active{% endif %}">{% trans "Mülakat" %}</a>
+        </div>
+        <div class="landing-nav-right">
+            <form method="post" action="{% url 'set_language' %}" class="lang-switcher">
+                {% csrf_token %}
+                <input type="hidden" name="next" value="{{ request.path }}">
+                {% get_current_language as LANG %}
+                {% if LANG == 'tr' %}
+                <button type="submit" name="language" value="en" class="lang-btn">EN</button>
+                {% else %}
+                <button type="submit" name="language" value="tr" class="lang-btn">TR</button>
+                {% endif %}
+            </form>
+            {% if user.is_authenticated %}
+            <a href="{% url 'dashboard:home' %}" class="btn btn-sm">{% trans "Uygulamaya git" %}</a>
+            {% else %}
+            <a href="{% url 'accounts:login' %}" class="btn btn-sm landing-nav-login">{% trans "Giriş yap" %}</a>
+            <a href="{% url 'accounts:signup' %}" class="btn btn-sm">{% trans "Ücretsiz kayıt" %}</a>
+            {% endif %}
+        </div>
+    </div>
+</nav>
+
+<main class="pub-main">
+    <div class="l-container">
+        <nav class="pub-breadcrumb" aria-label="{% trans 'Site haritası yolu' %}">
+            <a href="{% url 'dashboard:home' %}">{% trans "Ana Sayfa" %}</a>
+            {% block breadcrumb %}{% endblock %}
+        </nav>
+        {% block public_content %}{% endblock %}
+
+        <aside class="pub-cta">
+            <div>
+                <h2>{% trans "Öğrendiklerini pratiğe dök" %}</h2>
+                <p>{% trans "Quiz çöz, kelimelerini takip et, AI ile İngilizce konuş. Kayıt ücretsiz, kredi kartı istenmez." %}</p>
+            </div>
+            <a href="{% url 'accounts:signup' %}" class="btn btn-lg landing-btn-primary">{% trans "Ücretsiz Başla" %} →</a>
+        </aside>
+    </div>
+</main>
+
+<footer class="landing-footer">
+    <div style="opacity:0.75; margin-bottom:0.5rem; display:flex; justify-content:center;">
+        {% include '_levelenai_logo.html' with logo_height="30px" %}
+    </div>
+    <nav class="footer-links" aria-label="{% trans 'Alt bağlantılar' %}">
+        <a href="{% url 'dashboard:home' %}" class="footer-link">{% trans "Ana Sayfa" %}</a>
+        <a href="{% url 'seo:grammar_index' %}" class="footer-link">{% trans "İngilizce Gramer" %}</a>
+        <a href="{% url 'seo:words_index' %}" class="footer-link">{% trans "Kelime Listeleri" %}</a>
+        <a href="{% url 'seo:interview_index' %}" class="footer-link">{% trans "Mülakat Soruları" %}</a>
+        <a href="{% url 'dashboard:install_guide' %}" class="footer-link">{% trans "Uygulamayı Yükle" %}</a>
+        <a href="{% url 'seo:html_sitemap' %}" class="footer-link">{% trans "Site Haritası" %}</a>
+    </nav>
+    <div class="footer-bottom">
+        <small>© 2026 LevelEnAI. {% trans "Tüm hakları saklıdır." %}</small>
+        <div class="codezzium-badge">
+            {% trans "Bir" %}
+            <img src="{% static 'icons/codezzium-logo.png' %}" alt="Codezzium" width="59" height="18" loading="lazy" decoding="async" style="vertical-align: middle;">
+            {% trans "ürünüdür" %}
+        </div>
+    </div>
+</footer>
+{% endblock %}

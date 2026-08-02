@@ -1,24 +1,51 @@
+{% extends 'base.html' %}
 {% load static %}
 {% load i18n %}
-<!DOCTYPE html>
-<html lang="{{ LANGUAGE_CODE }}">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta name="theme-color" content="#4f46e5">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="manifest" href="{% static 'manifest.json' %}">
-    <link rel="icon" href="{% static 'icons/levelenai-mark.svg' %}" type="image/svg+xml">
-    <link rel="alternate icon" href="{% static 'icons/logo.png' %}" type="image/png">
-    <link rel="apple-touch-icon" href="{% static 'icons/logo.png' %}">
-    <title>LevelEnAI — {% trans "Level up your English. Land the interview." %}</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{% static 'css/app.css' %}">
-</head>
-<body class="landing-body">
 
+{% block full_title %}{% trans "Ücretsiz İngilizce Öğrenme ve AI Mülakat Hazırlık Platformu" %} | LevelEnAI{% endblock %}
+{% block meta_description %}{% trans "6.000+ kelime, 18 gramer konusu ve pozisyonuna özel AI mülakat sorularıyla İngilizceni geliştir. A1'den C2'ye seviye takibi, AI sohbet pratiği — tamamen ücretsiz." %}{% endblock %}
+{% block robots %}index, follow, max-snippet:-1, max-image-preview:large{% endblock %}
+{% block og_title %}{% trans "LevelEnAI — Ücretsiz İngilizce ve AI mülakat hazırlığı" %}{% endblock %}
+{% block og_description %}{% trans "Pozisyonuna özel mülakat soruları, 6.000+ kelime, gramer ve AI pratik. Kayıt ol, ücretsiz kullan." %}{% endblock %}
+{% block body_class %}landing-body{% endblock %}
+
+{% block json_ld %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "{% trans 'Platform ücretli mi?' %}",
+      "acceptedAnswer": {"@type": "Answer", "text": "{% trans 'Hayır, platform tamamen ücretsizdir. Kayıt olun ve hemen kullanmaya başlayın.' %}"}
+    },
+    {
+      "@type": "Question",
+      "name": "{% trans 'Kelime Hazinesi&#39;nde hangi seviyeler var?' %}",
+      "acceptedAnswer": {"@type": "Answer", "text": "{% trans 'A1&#39;den C2&#39;ye kadar 6 seviye ve toplam 6.000&#39;den fazla kelime mevcuttur. Her seviyede sırayla ilerlersiniz.' %}"}
+    },
+    {
+      "@type": "Question",
+      "name": "{% trans 'Yanlış yaptığım kelimeler ne oluyor?' %}",
+      "acceptedAnswer": {"@type": "Answer", "text": "{% trans 'Yanlış cevapladığınız kelimeler otomatik olarak tekrar havuzuna eklenir ve ileriki sorularda karşınıza çıkar.' %}"}
+    },
+    {
+      "@type": "Question",
+      "name": "{% trans 'Kendi kelimelerimi ekleyebilir miyim?' %}",
+      "acceptedAnswer": {"@type": "Answer", "text": "{% trans 'Evet. Kelimelerim bölümünden istediğiniz kelimeleri girebilirsiniz. AI otomatik olarak Türkçe anlamını ve örnek cümlesini üretir.' %}"}
+    },
+    {
+      "@type": "Question",
+      "name": "{% trans 'AI Chat ne işe yarar?' %}",
+      "acceptedAnswer": {"@type": "Answer", "text": "{% trans 'AI Chat ile İngilizce pratik yapabilirsiniz. Türkçe veya İngilizce yazın, AI asistan hatalarınızı düzeltir ve doğal konuşma pratiği sunar.' %}"}
+    }
+  ]
+}
+</script>
+{% endblock %}
+
+{% block body %}
 <!-- Navbar -->
 <nav class="landing-nav">
     <div class="landing-nav-inner">
@@ -53,7 +80,7 @@
                     <span class="l-highlight">{% trans "İngilizce hazırlan." %}</span>
                 </h1>
                 <p class="l-hero-slogan" style="font-weight:700; color:var(--primary); margin-bottom:0.5rem;">{% trans "İngilizceni seviye atlat. Mülakatı kap." %}</p>
-                <p class="l-hero-desc">{% trans "Pozisyonuna özel mülakat soruları, 5500+ kelime, gramer ve AI pratik — hepsi tek platformda." %}</p>
+                <p class="l-hero-desc">{% trans "Pozisyonuna özel mülakat soruları, 6.000+ kelime, gramer ve AI pratik — hepsi tek platformda, tamamen ücretsiz." %}</p>
                 <div class="l-hero-ctas">
                     <a href="{% url 'accounts:signup' %}" class="btn btn-lg landing-btn-primary">{% trans "Hemen Başla" %} →</a>
                     <a href="{% url 'accounts:login' %}" class="btn btn-lg landing-btn-ghost">{% trans "Giriş yap" %}</a>
@@ -61,28 +88,28 @@
             </div>
             <div class="fade-up delay-2">
                 <div class="l-preview-card">
-                    <h5 class="l-preview-title">{% trans "LevelEnAI ile Hazırlan" %}</h5>
-                    <div class="l-preview-item">
+                    <h2 class="l-preview-title" style="font-size:1.05rem;">{% trans "LevelEnAI ile Hazırlan" %}</h2>
+                    <a class="l-preview-item" href="{% url 'seo:interview_index' %}" style="text-decoration:none; color:inherit;">
                         <span class="l-preview-icon icon-purple"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><path d="M20 8v6M23 11h-6"/></svg></span>
                         <div>
                             <div class="l-preview-label">{% trans "Mülakat Soruları" %}</div>
                             <small class="muted">{% trans "Pozisyona özel TR/EN soru-cevap" %}</small>
                         </div>
-                    </div>
-                    <div class="l-preview-item">
+                    </a>
+                    <a class="l-preview-item" href="{% url 'seo:words_index' %}" style="text-decoration:none; color:inherit;">
                         <span class="l-preview-icon icon-blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
                         <div>
-                            <div class="l-preview-label">{% trans "5574 Kelime Hazinesi" %}</div>
+                            <div class="l-preview-label">{% trans "6.000+ Kelime Hazinesi" %}</div>
                             <small class="muted">{% trans "A1'den C2'ye sıralı quiz" %}</small>
                         </div>
-                    </div>
-                    <div class="l-preview-item">
+                    </a>
+                    <a class="l-preview-item" href="{% url 'seo:grammar_index' %}" style="text-decoration:none; color:inherit;">
                         <span class="l-preview-icon icon-green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0H5a2 2 0 0 1-2-2v-4m6 6h10a2 2 0 0 0 2-2v-4"/></svg></span>
                         <div>
                             <div class="l-preview-label">{% trans "Gramer + AI Chat" %}</div>
                             <small class="muted">{% trans "Konu çalış, AI ile konuş" %}</small>
                         </div>
-                    </div>
+                    </a>
                     <div class="l-preview-trust">
                         <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                         {% trans "Practice. Prepare. Get Hired." %}
@@ -93,7 +120,7 @@
         <!-- Metrics -->
         <div class="l-metrics fade-up delay-3">
             <div class="l-metric">
-                <div class="l-metric-value">5574</div>
+                <div class="l-metric-value">6163</div>
                 <div class="l-metric-label">{% trans "Kelime" %}</div>
             </div>
             <div class="l-metric">
@@ -154,27 +181,30 @@
         <div class="l-features-grid">
             <div class="l-feature-card fade-up" style="border-left: 3px solid var(--primary);">
                 <span class="l-feature-pill icon-purple"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><path d="M20 8v6M23 11h-6"/></svg></span>
-                <h4>{% trans "Mülakat Hazırlık" %} ⭐</h4>
+                <h3>{% trans "Mülakat Hazırlık" %} ⭐</h3>
                 <p>{% trans "Pozisyonuna özel AI mülakat soruları. Türkçe-İngilizce soru ve cevaplar. İstediğin iş başlığını yaz veya hazır kategorilerden seç." %}</p>
+                <a href="{% url 'seo:interview_index' %}" class="l-feature-link">{% trans "Mülakat kategorilerine bak" %} →</a>
             </div>
             <div class="l-feature-card fade-up delay-1">
                 <span class="l-feature-pill icon-blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
-                <h4>{% trans "Kelime Hazinesi" %}</h4>
-                <p>{% trans "A1'den C2'ye 5574 kelime. Seviye seç, sırayla ilerle. Yanlışların otomatik tekrar eder." %}</p>
+                <h3>{% trans "Kelime Hazinesi" %}</h3>
+                <p>{% trans "A1'den C2'ye 6.000'den fazla kelime. Seviye seç, sırayla ilerle. Yanlışların otomatik tekrar eder." %}</p>
+                <a href="{% url 'seo:words_index' %}" class="l-feature-link">{% trans "Seviyelere göre kelime listeleri" %} →</a>
             </div>
             <div class="l-feature-card fade-up delay-1">
                 <span class="l-feature-pill icon-blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></span>
-                <h4>{% trans "Kişisel Kelimeler" %}</h4>
+                <h3>{% trans "Kişisel Kelimeler" %}</h3>
                 <p>{% trans "Hocandan veya derslerden kelime gir, AI anlamını ve örnek cümlesini otomatik üretsin." %}</p>
             </div>
             <div class="l-feature-card fade-up delay-2">
                 <span class="l-feature-pill icon-green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0H5a2 2 0 0 1-2-2v-4m6 6h10a2 2 0 0 0 2-2v-4"/></svg></span>
-                <h4>{% trans "Gramer Konuları" %}</h4>
+                <h3>{% trans "Gramer Konuları" %}</h3>
                 <p>{% trans "Zamanlar, modaller, conditionals — her konuda olumlu, olumsuz, soru örnekleri." %}</p>
+                <a href="{% url 'seo:grammar_index' %}" class="l-feature-link">{% trans "18 gramer konusunu incele" %} →</a>
             </div>
             <div class="l-feature-card fade-up delay-3">
                 <span class="l-feature-pill icon-orange"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
-                <h4>{% trans "AI ile Pratik" %}</h4>
+                <h3>{% trans "AI ile Pratik" %}</h3>
                 <p>{% trans "AI asistanla İngilizce konuş, hatalarını görsün, doğrusunu öğren." %}</p>
             </div>
         </div>
@@ -195,7 +225,7 @@
             </details>
             <details class="l-faq-item">
                 <summary>{% trans "Kelime Hazinesi'nde hangi seviyeler var?" %}<span class="l-faq-icon">+</span></summary>
-                <div class="l-faq-body">{% trans "A1'den C2'ye kadar 6 seviye ve toplam 5574 kelime mevcuttur. Her seviyede sırayla ilerlersiniz." %}</div>
+                <div class="l-faq-body">{% trans "A1'den C2'ye kadar 6 seviye ve toplam 6.000'den fazla kelime mevcuttur. Her seviyede sırayla ilerlersiniz." %}</div>
             </details>
             <details class="l-faq-item">
                 <summary>{% trans "Yanlış yaptığım kelimeler ne oluyor?" %}<span class="l-faq-icon">+</span></summary>
@@ -234,17 +264,25 @@
         {% include '_levelenai_logo.html' with logo_height="32px" %}
     </div>
     <small>{% trans "AI-coached interview prep for Turkish developers." %}</small>
+    <nav class="footer-links" aria-label="{% trans 'Alt bağlantılar' %}">
+        <a href="{% url 'seo:grammar_index' %}" class="footer-link">{% trans "İngilizce Gramer" %}</a>
+        <a href="{% url 'seo:words_index' %}" class="footer-link">{% trans "Kelime Listeleri" %}</a>
+        <a href="{% url 'seo:interview_index' %}" class="footer-link">{% trans "Mülakat Soruları" %}</a>
+        <a href="{% url 'dashboard:install_guide' %}" class="footer-link">{% trans "Uygulamayı Yükle" %}</a>
+        <a href="{% url 'seo:html_sitemap' %}" class="footer-link">{% trans "Site Haritası" %}</a>
+    </nav>
     <div class="footer-bottom">
         <small>© 2026 LevelEnAI. {% trans "Tüm hakları saklıdır." %}</small>
-        <a href="{% url 'dashboard:install_guide' %}" class="footer-link">📱 {% trans "Uygulamayı Yükle" %}</a>
         <div class="codezzium-badge">
             {% trans "Bir" %}
-            <img src="{% static 'icons/codezzium-logo.png' %}" alt="Codezzium" height="18" style="vertical-align: middle;">
+            <img src="{% static 'icons/codezzium-logo.png' %}" alt="Codezzium" width="59" height="18" loading="lazy" decoding="async" style="vertical-align: middle;">
             {% trans "ürünüdür" %}
         </div>
     </div>
 </footer>
+{% endblock %}
 
+{% block body_scripts %}
 <script>
 (function() {
     if ('IntersectionObserver' in window) {
@@ -259,5 +297,4 @@
     }
 })();
 </script>
-</body>
-</html>
+{% endblock %}

@@ -2,6 +2,7 @@ import json
 import logging
 from typing import Iterable
 from django.conf import settings
+from django.utils.translation import gettext as _
 from openai import (
     OpenAI,
     APIConnectionError,
@@ -41,20 +42,20 @@ def _chat_json(system: str, user: str) -> dict:
         )
     except RateLimitError as e:
         logger.warning('openai rate limit: %s', e)
-        raise AIServiceError('AI şu an çok yoğun, bir dakika sonra tekrar dene.') from e
+        raise AIServiceError(_('AI şu an çok yoğun, bir dakika sonra tekrar dene.')) from e
     except (APITimeoutError, APIConnectionError) as e:
         logger.warning('openai connection issue: %s', e)
-        raise AIServiceError('AI bağlantısı zaman aşımına uğradı, tekrar dene.') from e
+        raise AIServiceError(_('AI bağlantısı zaman aşımına uğradı, tekrar dene.')) from e
     except APIError as e:
         logger.exception('openai api error')
-        raise AIServiceError('AI servisi şu an yanıt vermiyor.') from e
+        raise AIServiceError(_('AI servisi şu an yanıt vermiyor.')) from e
 
     content = resp.choices[0].message.content or '{}'
     try:
         return json.loads(content)
     except json.JSONDecodeError:
         logger.error('openai returned non-json content: %.500s', content)
-        raise AIServiceError('AI yanıtı beklenen formatta değil. Tekrar dene.')
+        raise AIServiceError(_('AI yanıtı beklenen formatta değil. Tekrar dene.'))
 
 
 def translate_words(words: Iterable[str]) -> list[dict]:
@@ -237,11 +238,11 @@ def chat(messages: list[dict]) -> str:
         )
     except RateLimitError as e:
         logger.warning('openai rate limit (chat): %s', e)
-        raise AIServiceError('AI şu an çok yoğun, bir dakika sonra tekrar dene.') from e
+        raise AIServiceError(_('AI şu an çok yoğun, bir dakika sonra tekrar dene.')) from e
     except (APITimeoutError, APIConnectionError) as e:
         logger.warning('openai connection issue (chat): %s', e)
-        raise AIServiceError('AI bağlantısı zaman aşımına uğradı, tekrar dene.') from e
+        raise AIServiceError(_('AI bağlantısı zaman aşımına uğradı, tekrar dene.')) from e
     except APIError as e:
         logger.exception('openai api error (chat)')
-        raise AIServiceError('AI servisi şu an yanıt vermiyor.') from e
+        raise AIServiceError(_('AI servisi şu an yanıt vermiyor.')) from e
     return resp.choices[0].message.content or ''

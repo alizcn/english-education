@@ -1,6 +1,10 @@
 {% extends 'accounts/_auth_base.html' %}
 {% load i18n %}
+{% block full_title %}{% trans "Ücretsiz Kayıt Ol — İngilizce ve AI Mülakat Pratiği" %} | LevelEnAI{% endblock %}
 {% block auth_title %}{% trans "Kayıt ol" %}{% endblock %}
+{% block auth_heading %}{% trans "Ücretsiz hesap oluştur" %}{% endblock %}
+{% block meta_description %}{% trans "Saniyeler içinde ücretsiz hesap aç: 6.000+ kelime, 18 gramer konusu ve pozisyonuna özel AI mülakat soruları seni bekliyor. Kredi kartı istenmez." %}{% endblock %}
+{% block robots %}index, follow, max-snippet:-1, max-image-preview:large{% endblock %}
 {% block auth_content %}
 <form method="post">
     {% csrf_token %}

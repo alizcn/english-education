@@ -1,0 +1,97 @@
+{% extends 'seo/_public_base.html' %}
+{% load i18n %}
+
+{% block full_title %}{% trans "İngilizce Mülakat Soruları — Pozisyona Göre Hazırlık" %} | LevelEnAI{% endblock %}
+{% block meta_description %}{% blocktrans %}Yazılım ve teknoloji pozisyonları için İngilizce mülakat hazırlığı. Backend, frontend, DevOps, veri ve daha fazlası — CV'ni yükle, AI sana özel mülakat soruları üretsin. Ücretsiz.{% endblocktrans %}{% endblock %}
+{% block og_title %}{% trans "İngilizce Mülakat Soruları — LevelEnAI" %}{% endblock %}
+{% block og_description %}{% trans "Pozisyonuna özel AI mülakat soruları, Türkçe-İngilizce cevaplarla. Ücretsiz." %}{% endblock %}
+
+{% block breadcrumb %}<span>›</span> <span aria-current="page">{% trans "İngilizce Mülakat Soruları" %}</span>{% endblock %}
+
+{% block json_ld %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "{% trans 'Ana Sayfa' %}", "item": "{{ seo.site_url }}/"},
+        {"@type": "ListItem", "position": 2, "name": "{% trans 'İngilizce Mülakat Soruları' %}", "item": "{{ seo.canonical }}"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "{% trans 'İngilizce mülakata nasıl hazırlanmalıyım?' %}",
+          "acceptedAnswer": {"@type": "Answer", "text": "{% trans 'Pozisyonunda sık sorulan soruları İngilizce yazılı olarak cevapla, sonra sesli tekrarla. Teknik terimleri Türkçe düşünüp çevirmek yerine doğrudan İngilizce kalıplarla öğren.' %}"}
+        },
+        {
+          "@type": "Question",
+          "name": "{% trans 'CV yükleyerek soru üretmek nasıl çalışıyor?' %}",
+          "acceptedAnswer": {"@type": "Answer", "text": "{% trans 'PDF veya Word formatındaki CV&#39;ni yüklersin; yapay zekâ deneyimlerini okuyup sana özel mülakat soruları ve örnek cevaplar üretir.' %}"}
+        },
+        {
+          "@type": "Question",
+          "name": "{% trans 'Mülakat hazırlığı ücretli mi?' %}",
+          "acceptedAnswer": {"@type": "Answer", "text": "{% trans 'Hayır. LevelEnAI tamamen ücretsizdir; kayıt olman yeterli.' %}"}
+        }
+      ]
+    }
+  ]
+}
+</script>
+{% endblock %}
+
+{% block public_content %}
+<header class="pub-head">
+    <span class="l-eyebrow">🎤 {% trans "Mülakat Hazırlık" %}</span>
+    <h1>{% trans "İngilizce Mülakat Soruları" %}</h1>
+    <p class="pub-lead">
+        {% blocktrans trimmed %}Teknik bilgin yeterli olsa bile mülakat İngilizce ilerlediğinde iş değişir.
+        LevelEnAI, seçtiğin pozisyona ya da yüklediğin CV'ye göre sana özel İngilizce mülakat soruları
+        üretir; her sorunun yanında Türkçe karşılığı ve örnek cevabı yer alır.{% endblocktrans %}
+    </p>
+    <p class="pub-meta">{% blocktrans %}{{ total }} pozisyon kategorisi · CV'den soru üretme · ücretsiz{% endblocktrans %}</p>
+</header>
+
+<section aria-labelledby="kategoriler">
+    <h2 id="kategoriler" class="pub-h2">{% trans "Pozisyon kategorileri" %}</h2>
+    <div class="pub-chips pub-chips-lg">
+        {% for c in categories %}<span class="pub-chip">{{ c.label }}</span>{% endfor %}
+    </div>
+    <p class="pub-meta" style="margin-top:0.75rem;">
+        {% trans "Listede olmayan bir pozisyon için kendi iş başlığını yazabilirsin." %}
+    </p>
+</section>
+
+<section class="pub-prose" aria-labelledby="nasil">
+    <h2 id="nasil" class="pub-h2">{% trans "Nasıl çalışıyor?" %}</h2>
+    <ol class="pub-steps">
+        <li>{% blocktrans %}<strong>Pozisyonunu seç</strong> ya da kendi iş başlığını yaz.{% endblocktrans %}</li>
+        <li>{% blocktrans %}<strong>İstersen CV'ni yükle</strong> — sorular deneyimlerine göre kişiselleşir.{% endblocktrans %}</li>
+        <li>{% blocktrans %}<strong>Soruları çalış:</strong> her soru İngilizce, altında Türkçe karşılığı ve örnek cevap.{% endblocktrans %}</li>
+        <li>{% blocktrans %}<strong>AI Chat'te prova yap:</strong> cevaplarını yazarak dene, hatalarını düzelt.{% endblocktrans %}</li>
+    </ol>
+</section>
+
+<section class="pub-prose" aria-labelledby="ipuclari">
+    <h2 id="ipuclari" class="pub-h2">{% trans "İngilizce mülakat için 5 pratik ipucu" %}</h2>
+    <ul class="pub-list">
+        <li>{% blocktrans %}Kendini tanıtma bölümünü ezberleme, kalıp cümlelerle esnek bir iskelet kur.{% endblocktrans %}</li>
+        <li>{% blocktrans %}Geçmiş deneyimleri anlatırken Past Simple ve Present Perfect ayrımına dikkat et.{% endblocktrans %}</li>
+        <li>{% blocktrans %}Teknik terimleri çevirmeye çalışma; sektörde nasıl kullanılıyorsa öyle söyle.{% endblocktrans %}</li>
+        <li>{% blocktrans %}Anlamadığın soruda "Could you rephrase that?" demek zayıflık değil, profesyonelliktir.{% endblocktrans %}</li>
+        <li>{% blocktrans %}Cevaplarını STAR (Situation, Task, Action, Result) kalıbına oturt.{% endblocktrans %}</li>
+    </ul>
+    <p>
+        {% trans "Zaman ve koşul kalıplarını tazelemek için" %}
+        <a href="{% url 'seo:grammar_index' %}">{% trans "gramer konularına" %}</a>,
+        {% trans "sektör kelimeleri için" %}
+        <a href="{% url 'seo:words_index' %}">{% trans "B2–C1 kelime listelerine" %}</a>
+        {% trans "göz atabilirsin." %}
+    </p>
+</section>
+{% endblock %}

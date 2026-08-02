@@ -1,0 +1,39 @@
+User-agent: *
+
+# Halka açık içerik
+Allow: /$
+Allow: /ingilizce-gramer/
+Allow: /ingilizce-kelimeler/
+Allow: /ingilizce-mulakat-sorulari/
+Allow: /uygulamayi-yukle/
+Allow: /site-haritasi/
+Allow: /en/
+Allow: /static/
+
+# Kişisel/oturum gerektiren alanlar — indekslenmemeli
+Disallow: /accounts/
+Disallow: /words/
+Disallow: /topics/
+Disallow: /quiz/
+Disallow: /chat/
+Disallow: /wordbank/
+Disallow: /interviews/
+Disallow: /super/
+Disallow: /levelenai-admin/
+Disallow: /i18n/
+Disallow: /en/i18n/
+Disallow: /en/accounts/
+Disallow: /en/words/
+Disallow: /en/topics/
+Disallow: /en/quiz/
+Disallow: /en/chat/
+Disallow: /en/wordbank/
+Disallow: /en/interviews/
+
+# Tarama bütçesini yiyen parametreler
+Disallow: /*?next=
+Disallow: /*?q=
+
+# Yapay zekâ tarayıcıları için ayrı bir kısıt yok; içerik açık kalsın.
+
+Sitemap: {{ site_url }}/sitemap.xml

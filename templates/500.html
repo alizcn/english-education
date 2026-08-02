@@ -1,0 +1,29 @@
+{% load static i18n %}
+<!DOCTYPE html>
+{# 500'de context processor'lar çalışmaz; bu sayfa bilinçli olarak bağımsızdır.
+   Çeviri makinesi context processor'lardan bağımsız olduğu için {% trans %}
+   burada da güvenle kullanılabilir. #}
+<html lang="{{ LANGUAGE_CODE|default:'tr' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>{% trans "Bir şeyler ters gitti" %} · LevelEnAI</title>
+    <link rel="icon" href="{% static 'icons/levelenai-mark.svg' %}" type="image/svg+xml">
+    <link rel="stylesheet" href="{% static 'css/inter.css' %}">
+    <link rel="stylesheet" href="{% static 'css/app.css' %}">
+</head>
+<body>
+<main class="main" style="max-width:640px;margin:0 auto;padding:4rem 1rem;text-align:center;">
+    <div style="font-size:3rem;line-height:1;margin-bottom:1rem;">⚠️</div>
+    <h1 style="margin-bottom:0.5rem;">{% trans "Bir şeyler ters gitti" %}</h1>
+    <p class="muted" style="margin-bottom:1.5rem;">
+        {% blocktrans trimmed %}
+        Sunucu tarafında beklenmedik bir hata oluştu. Kayıt altına alındı; kısa
+        süre içinde tekrar denemeni öneririz.
+        {% endblocktrans %}
+    </p>
+    <a href="/" class="btn btn-lg">{% trans "Ana sayfaya dön" %}</a>
+</main>
+</body>
+</html>

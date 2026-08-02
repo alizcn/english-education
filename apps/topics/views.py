@@ -1,7 +1,7 @@
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect, get_object_or_404
-from django.utils.translation import gettext as _
+from django.utils.translation import get_language, gettext as _
 from django.views.decorators.http import require_POST
 
 from .models import Topic, TopicCompletion
@@ -33,8 +33,11 @@ def topic_detail(request, slug):
     positives = [e for e in examples if e.kind == 'positive']
     negatives = [e for e in examples if e.kind == 'negative']
     questions = [e for e in examples if e.kind == 'question']
+    explanation, explanation_lang = topic.explanation_for(get_language())
     return render(request, 'topics/detail.html', {
         'topic': topic,
+        'explanation': explanation,
+        'explanation_lang': explanation_lang,
         'is_completed': is_completed,
         'positives': positives,
         'negatives': negatives,

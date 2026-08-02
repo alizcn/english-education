@@ -1,0 +1,79 @@
+{% extends 'seo/_public_base.html' %}
+{% load i18n %}
+
+{% block full_title %}{% trans "İngilizce Gramer Konuları — Konu Anlatımı ve Örnek Cümleler" %} | LevelEnAI{% endblock %}
+{% block meta_description %}{% blocktrans %}İngilizce gramer konuları tek sayfada: zamanlar, modallar, conditionals, passive voice ve daha fazlası. Her konuda Türkçe açıklama ve olumlu, olumsuz, soru örnek cümleleri.{% endblocktrans %}{% endblock %}
+{% block og_title %}{% trans "İngilizce Gramer Konuları — LevelEnAI" %}{% endblock %}
+{% block og_description %}{% trans "18 gramer konusu, Türkçe anlatım ve 300+ örnek cümle. Ücretsiz." %}{% endblock %}
+{% block og_type %}website{% endblock %}
+
+{% block breadcrumb %}<span>›</span> <span aria-current="page">{% trans "İngilizce Gramer" %}</span>{% endblock %}
+
+{% block json_ld %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "{% trans 'Ana Sayfa' %}", "item": "{{ seo.site_url }}/"},
+        {"@type": "ListItem", "position": 2, "name": "{% trans 'İngilizce Gramer' %}", "item": "{{ seo.canonical }}"}
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "{% trans 'İngilizce Gramer Konuları' %}",
+      "url": "{{ seo.canonical }}",
+      "isPartOf": {"@id": "{{ seo.site_url }}/#website"},
+      "mainEntity": {
+        "@type": "ItemList",
+        "numberOfItems": {{ total }},
+        "itemListElement": [
+          {% for t in topics %}{"@type": "ListItem", "position": {{ forloop.counter }}, "name": "{{ t.name }}", "url": "{{ seo.site_url }}{% url 'seo:grammar_detail' slug=t.slug %}"}{% if not forloop.last %},{% endif %}
+          {% endfor %}
+        ]
+      }
+    }
+  ]
+}
+</script>
+{% endblock %}
+
+{% block public_content %}
+<header class="pub-head">
+    <span class="l-eyebrow">📘 {% trans "Gramer Rehberi" %}</span>
+    <h1>{% trans "İngilizce Gramer Konuları" %}</h1>
+    <p class="pub-lead">
+        {% blocktrans trimmed %}Zamanlardan koşul cümlelerine, modal fiillerden edilgen çatıya kadar İngilizcenin
+        temel gramer konularını Türkçe açıklamalarla topladık. Her konunun altında olumlu, olumsuz ve
+        soru biçiminde örnek cümleler bulacaksın — hepsi Türkçe karşılığıyla birlikte.{% endblocktrans %}
+    </p>
+    <p class="pub-meta">{% blocktrans %}{{ total }} konu · her konuda 18 örnek cümle · ücretsiz{% endblocktrans %}</p>
+</header>
+
+<section aria-labelledby="konular">
+    <h2 id="konular" class="pub-h2">{% trans "Tüm konular" %}</h2>
+    <div class="pub-grid">
+        {% for t in topics %}
+        <a href="{% url 'seo:grammar_detail' slug=t.slug %}" class="pub-card">
+            <span class="pub-card-index">{{ forloop.counter|stringformat:"02d" }}</span>
+            <span class="pub-card-title">{{ t.name }}</span>
+            <span class="pub-card-desc">{{ t.explanation|truncatechars:110 }}</span>
+            <span class="pub-card-more">{% trans "Konu anlatımı" %} →</span>
+        </a>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="pub-prose" aria-labelledby="nasil">
+    <h2 id="nasil" class="pub-h2">{% trans "Gramer çalışırken nasıl ilerlemeli?" %}</h2>
+    <p>{% blocktrans trimmed %}Gramer öğrenmenin en hızlı yolu kuralı okuyup hemen örnek cümlelerle pekiştirmektir.
+    Önce konunun ne zaman kullanıldığını oku, ardından olumlu/olumsuz/soru örneklerini sesli tekrarla.
+    Aynı kalıbı kendi cümlelerinle yeniden kur — böylece kural ezber değil, refleks haline gelir.{% endblocktrans %}</p>
+    <p>{% blocktrans trimmed %}Sıralamayı takip etmek istersen Present Simple ile başlayıp zamanlar bittikten sonra
+    modallara, koşul cümlelerine ve edilgen çatıya geçmen önerilir. Her konudan sonra{% endblocktrans %}
+    <a href="{% url 'seo:words_index' %}">{% trans "seviyene uygun kelime listesiyle" %}</a>
+    {% trans "kelime dağarcığını genişletmeyi unutma." %}</p>
+</section>
+{% endblock %}

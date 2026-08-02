@@ -1,24 +1,14 @@
+{% extends 'base.html' %}
 {% load static %}
 {% load i18n %}
-<!DOCTYPE html>
-<html lang="{{ LANGUAGE_CODE }}">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#4f46e5">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="manifest" href="{% static 'manifest.json' %}">
-    <link rel="icon" href="{% static 'icons/levelenai-mark.svg' %}" type="image/svg+xml">
-    <link rel="alternate icon" href="{% static 'icons/logo.png' %}" type="image/png">
-    <link rel="apple-touch-icon" href="{% static 'icons/logo.png' %}">
-    <title>{% block auth_title %}{% endblock %} · LevelEnAI</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{% static 'css/app.css' %}">
-</head>
-<body class="auth-body">
 
+{# Giriş/kayıt sayfaları: base.html'in SEO başlığını devralır, gövdesi sade. #}
+
+{% block title %}{% block auth_title %}{% endblock %}{% endblock %}
+{% block body_class %}auth-body{% endblock %}
+{% block json_ld %}{% endblock %}
+
+{% block body %}
 <div class="auth-shell">
     <div style="text-align:right; margin-bottom:0.5rem;">
         <form method="post" action="{% url 'set_language' %}" class="lang-switcher">
@@ -33,15 +23,15 @@
         </form>
     </div>
     <div style="text-align:center; margin-bottom:1.5rem;">
-        <div style="display:flex; justify-content:center; margin-bottom:0.4rem;">
+        <a href="{% url 'dashboard:home' %}" style="display:flex; justify-content:center; margin-bottom:0.4rem; text-decoration:none;">
             {% include '_levelenai_logo.html' with logo_height="72px" %}
-        </div>
+        </a>
         <div style="font-size:0.88rem; color:var(--text-muted); margin-top:0.3rem;">{% trans "Level up your English. Land the interview." %}</div>
         <div style="font-size:0.78rem; color:var(--text-soft); margin-top:0.15rem;">{% trans "İngilizceni seviye atlat. Mülakatı kap." %}</div>
     </div>
 
     <div class="auth-card">
-        <h2 style="margin-bottom:1.25rem; text-align:center;">{% block auth_heading %}{{ self.auth_title|default:'' }}{% endblock %}</h2>
+        <h1 style="margin-bottom:1.25rem; text-align:center; font-size:1.5rem;">{% block auth_heading %}{% endblock %}</h1>
         {% if messages %}
         <div class="flash-wrap">
             {% for message in messages %}
@@ -51,7 +41,11 @@
         {% endif %}
         {% block auth_content %}{% endblock %}
     </div>
-</div>
 
-</body>
-</html>
+    <nav class="footer-links" style="margin-top:1.5rem;" aria-label="{% trans 'Alt bağlantılar' %}">
+        <a href="{% url 'seo:grammar_index' %}" class="footer-link">{% trans "İngilizce Gramer" %}</a>
+        <a href="{% url 'seo:words_index' %}" class="footer-link">{% trans "Kelime Listeleri" %}</a>
+        <a href="{% url 'seo:interview_index' %}" class="footer-link">{% trans "Mülakat Soruları" %}</a>
+    </nav>
+</div>
+{% endblock %}

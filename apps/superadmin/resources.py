@@ -6,7 +6,6 @@ imports it once at startup.
 from django.contrib.auth import get_user_model
 
 from apps.accounts.models import UserConsent, UserLevel
-from apps.subscriptions.models import Plan, Subscription, Payment, TrialUsage
 from apps.quizzes.models import QuizTemplate, QuizSession, QuizQuestion
 from apps.interviews.models import InterviewSession
 from apps.topics.models import Topic, TopicCompletion, TopicExample
@@ -48,18 +47,19 @@ class UserResource(Resource):
                    'is_active', 'is_staff', 'is_superuser')
     order_by = ('-date_joined',)
     detail_extra = (
-        ('subscription_count', 'Abonelik Sayısı'),
-        ('payment_total', 'Toplam Ödeme (TL)'),
+        ('quiz_session_count', 'Quiz Oturumu'),
+        ('interview_count', 'Mülakat Sayısı'),
+        ('word_count', 'Kişisel Kelime'),
     )
 
-    def subscription_count(self, obj):
-        return obj.subscriptions.count()
+    def quiz_session_count(self, obj):
+        return obj.quiz_sessions.count()
 
-    def payment_total(self, obj):
-        from django.db.models import Sum
-        from apps.subscriptions.models import Payment
-        s = obj.payments.filter(status=Payment.STATUS_SUCCESS).aggregate(s=Sum('amount'))['s']
-        return f"{s or 0}"
+    def interview_count(self, obj):
+        return obj.interview_sessions.count()
+
+    def word_count(self, obj):
+        return obj.words.count()
 
 
 @register('user-consents')
@@ -100,97 +100,6 @@ class UserLevelResource(Resource):
     filters = (('current_level', 'Seviye'),)
     select_related = ('user',)
     order_by = ('-updated_at',)
-
-
-# ===================== Abonelik & Satış =====================
-
-@register('plans')
-class PlanResource(Resource):
-    model = Plan
-    label = 'Paketler'
-    label_singular = 'Paket'
-    icon = '💎'
-    section = 'Abonelik'
-    list_columns = (
-        ('id', '#'),
-        ('name', 'Ad'),
-        ('slug', 'Slug'),
-        ('price_try', 'Fiyat (TL)'),
-        ('duration_days', 'Süre (gün)'),
-        ('is_popular', 'Popüler'),
-        ('is_active', 'Aktif'),
-        ('sort_order', 'Sıra'),
-    )
-    search_fields = ('name', 'slug', 'description')
-    filters = (('is_active', 'Aktif'), ('is_popular', 'Popüler'))
-    order_by = ('sort_order', 'price_try')
-
-
-@register('subscriptions')
-class SubscriptionResource(Resource):
-    model = Subscription
-    label = 'Abonelikler'
-    label_singular = 'Abonelik'
-    icon = '🎟️'
-    section = 'Abonelik'
-    list_columns = (
-        ('id', '#'),
-        ('user', 'Kullanıcı'),
-        ('plan', 'Paket'),
-        ('status', 'Durum'),
-        ('starts_at', 'Başlangıç'),
-        ('expires_at', 'Bitiş'),
-        ('created_at', 'Oluşturma'),
-    )
-    search_fields = ('user__username', 'user__email', 'plan__name')
-    filters = (('status', 'Durum'), ('plan', 'Paket'))
-    select_related = ('user', 'plan')
-    order_by = ('-created_at',)
-
-
-@register('payments')
-class PaymentResource(Resource):
-    model = Payment
-    label = 'Ödemeler'
-    label_singular = 'Ödeme'
-    icon = '💳'
-    section = 'Abonelik'
-    list_columns = (
-        ('id', '#'),
-        ('user', 'Kullanıcı'),
-        ('plan', 'Paket'),
-        ('amount', 'Tutar'),
-        ('currency', 'PB'),
-        ('status', 'Durum'),
-        ('conversation_id', 'Conv ID'),
-        ('created_at', 'Tarih'),
-    )
-    search_fields = ('user__username', 'user__email', 'conversation_id', 'iyzico_token')
-    filters = (('status', 'Durum'), ('plan', 'Paket'))
-    select_related = ('user', 'plan', 'subscription')
-    order_by = ('-created_at',)
-    can_create = False  # Iyzico üretiyor; manuel oluşturmak doğru değil
-
-
-@register('trial-usages')
-class TrialUsageResource(Resource):
-    model = TrialUsage
-    label = 'Deneme Kullanımları'
-    label_singular = 'Deneme'
-    icon = '🆓'
-    section = 'Abonelik'
-    list_columns = (
-        ('id', '#'),
-        ('user', 'Kullanıcı'),
-        ('trial_started_at', 'Başlangıç'),
-        ('trial_ends_at', 'Bitiş'),
-        ('interview_count', 'Mülakat'),
-        ('chat_count', 'Chat'),
-        ('bulk_translate_count', 'Çeviri'),
-    )
-    search_fields = ('user__username', 'user__email')
-    select_related = ('user',)
-    order_by = ('-trial_started_at',)
 
 
 # ===================== İçerik =====================

@@ -8,7 +8,6 @@ from django.utils.translation import gettext as _
 from django.views.decorators.http import require_POST
 from django_ratelimit.decorators import ratelimit
 
-from apps.subscriptions import access as sub_access
 from services import ai
 from .models import ChatConversation, ChatMessage
 
@@ -59,11 +58,6 @@ def send(request):
         return redirect('chat:page')
 
     with transaction.atomic():
-        state = sub_access.get_state(request.user)
-        if not sub_access.can_use_chat(state):
-            messages.error(request, _('AI Chat deneme hakkın doldu. Devam etmek için bir paket seç.'))
-            return redirect('subscriptions:plans')
-
         conv = _get_or_create_conversation(request)
         was_empty = conv.title == DEFAULT_TITLE and not conv.messages.exists()
         ChatMessage.objects.create(conversation=conv, role=ChatMessage.USER, content=text)
@@ -77,7 +71,6 @@ def send(request):
         history = list(conv.messages.order_by('-created_at')[:MAX_HISTORY])
         history.reverse()
         api_messages = [{'role': m.role, 'content': m.content} for m in history]
-        sub_access.record_chat_use(state)
 
     try:
         reply = ai.chat(api_messages)

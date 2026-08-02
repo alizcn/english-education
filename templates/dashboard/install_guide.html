@@ -1,14 +1,16 @@
 {% extends 'base.html' %}
 {% load i18n %}
 {% load static %}
-{% block title %}{% trans "Uygulamayı Yükle" %}{% endblock %}
+{% block full_title %}{% trans "LevelEnAI Uygulamasını Telefona Yükle (Android ve iPhone)" %} | LevelEnAI{% endblock %}
+{% block meta_description %}{% trans "LevelEnAI'ı ana ekranına ekleyip uygulama gibi kullan. Android Chrome ve iPhone Safari için adım adım kurulum kılavuzu." %}{% endblock %}
+{% block robots %}index, follow, max-snippet:-1, max-image-preview:large{% endblock %}
 
 {% block content %}
 <section class="feature-hero theme-dashboard">
     <div class="feature-hero-row">
         <div class="feature-hero-icon">📱</div>
         <div style="flex:1; min-width:200px;">
-            <h2 class="feature-hero-title">{% trans "Uygulamayı Ana Ekrana Ekle" %}</h2>
+            <h1 class="feature-hero-title">{% trans "Uygulamayı Ana Ekrana Ekle" %}</h1>
             <p class="feature-hero-sub">{% trans "Telefonundan tek tıkla aç — tıpkı App Store uygulaması gibi." %}</p>
         </div>
     </div>
@@ -39,7 +41,7 @@
                 <span class="muted">{% trans "Uygulama ana ekranına eklenir ve App Store uygulaması gibi açılır." %}</span>
             </li>
         </ol>
-        <img src="{% static 'icons/install-android.png' %}" alt="{% trans 'Android Chrome ana ekrana ekle adımları' %}" class="install-screenshot">
+        <img src="{% static 'icons/install-android.png' %}" alt="{% trans 'Android Chrome ana ekrana ekle adımları' %}" class="install-screenshot" width="571" height="541" loading="lazy" decoding="async">
     </div>
 
     <div data-pane="ios" class="install-pane" hidden>
@@ -61,7 +63,7 @@
                 <span class="muted">{% trans "Uygulama simgesi ana ekranına eklenir." %}</span>
             </li>
         </ol>
-        <img src="{% static 'icons/install-ios.png' %}" alt="{% trans 'iPhone Safari ana ekrana ekle adımları' %}" class="install-screenshot">
+        <img src="{% static 'icons/install-ios.png' %}" alt="{% trans 'iPhone Safari ana ekrana ekle adımları' %}" class="install-screenshot" width="469" height="475" loading="lazy" decoding="async">
     </div>
 </div>
 

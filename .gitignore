@@ -8,3 +8,8 @@ venv/
 logs/
 .vscode/
 .idea/
+
+# collectstatic çıktısı — imajda build sırasında üretilir
+staticfiles/
+# çalışma zamanı verisi: canlı SQLite, redis dump, DB yedekleri
+data/

@@ -1,0 +1,101 @@
+{% extends 'seo/_public_base.html' %}
+{% load i18n %}
+
+{% block full_title %}{% blocktrans with code=level %}{{ code }} Seviyesi İngilizce Kelimeler ve Türkçe Anlamları{% endblocktrans %}{% if page_obj.number > 1 %} — {% blocktrans with n=page_obj.number %}Sayfa {{ n }}{% endblocktrans %}{% endif %} | LevelEnAI{% endblock %}
+{% block meta_description %}{% blocktrans with code=level n=total %}{{ code }} seviyesi İngilizce kelimeler: {{ n }} kelimenin Türkçe anlamı, sözcük türü ve örnek cümlesi. Sıklık sırasına göre dizili, ücretsiz liste.{% endblocktrans %}{% if page_obj.number > 1 %} {% blocktrans with a=page_obj.number b=paginator.num_pages %}Sayfa {{ a }}/{{ b }}.{% endblocktrans %}{% endif %}{% endblock %}
+{% block og_title %}{% blocktrans with code=level %}{{ code }} Seviyesi İngilizce Kelimeler{% endblocktrans %} — LevelEnAI{% endblock %}
+{% block og_description %}{{ blurb }}{% endblock %}
+
+{% block pagination_links %}
+{% if page_obj.has_previous %}<link rel="prev" href="{{ seo.site_url }}{{ request.path }}{% if page_obj.previous_page_number > 1 %}?page={{ page_obj.previous_page_number }}{% endif %}">{% endif %}
+{% if page_obj.has_next %}<link rel="next" href="{{ seo.site_url }}{{ request.path }}?page={{ page_obj.next_page_number }}">{% endif %}
+{% endblock %}
+
+{% block breadcrumb %}<span>›</span> <a href="{% url 'seo:words_index' %}">{% trans "İngilizce Kelimeler" %}</a> <span>›</span> <span aria-current="page">{{ level }}</span>{% endblock %}
+
+{% block json_ld %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "{% trans 'Ana Sayfa' %}", "item": "{{ seo.site_url }}/"},
+        {"@type": "ListItem", "position": 2, "name": "{% trans 'İngilizce Kelimeler' %}", "item": "{{ seo.site_url }}{% url 'seo:words_index' %}"},
+        {"@type": "ListItem", "position": 3, "name": "{{ level }}", "item": "{{ seo.canonical }}"}
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "{% blocktrans with code=level %}{{ code }} Seviyesi İngilizce Kelimeler{% endblocktrans %}",
+      "url": "{{ seo.canonical }}",
+      "inLanguage": "{{ LANGUAGE_CODE }}",
+      "isAccessibleForFree": true,
+      "isPartOf": {"@id": "{{ seo.site_url }}/#website"}
+    }
+  ]
+}
+</script>
+{% endblock %}
+
+{% block public_content %}
+<header class="pub-head">
+    <span class="pub-level-badge pub-level-badge-lg">{{ level }}</span>
+    <h1>{% blocktrans with code=level %}{{ code }} Seviyesi İngilizce Kelimeler{% endblocktrans %}</h1>
+    <p class="pub-lead">{{ blurb }}</p>
+    <p class="pub-meta">{% blocktrans with n=total %}{{ n }} kelime{% endblocktrans %} · {% blocktrans with a=page_obj.number b=paginator.num_pages %}sayfa {{ a }}/{{ b }}{% endblocktrans %}</p>
+</header>
+
+<section aria-labelledby="liste">
+    <h2 id="liste" class="pub-h2">{% blocktrans with code=level %}{{ code }} kelime listesi{% endblocktrans %}</h2>
+    <table class="pub-table pub-table-words">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">English</th>
+                <th scope="col">{% trans "Türkçe" %}</th>
+                <th scope="col">{% trans "Örnek cümle" %}</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for w in page_obj %}
+            <tr>
+                <td class="pub-rank">{{ forloop.counter0|add:offset }}</td>
+                <td lang="en">
+                    <strong>{{ w.english }}</strong>
+                    {% if w.part_of_speech %}<span class="pub-pos">{{ w.part_of_speech }}</span>{% endif %}
+                </td>
+                <td lang="tr">{{ w.turkish }}</td>
+                <td class="pub-example">
+                    {% if w.example_en %}<span lang="en">{{ w.example_en }}</span>{% if w.example_tr %}<small lang="tr">{{ w.example_tr }}</small>{% endif %}{% else %}—{% endif %}
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</section>
+
+{% if paginator.num_pages > 1 %}
+<nav class="pub-pagination" aria-label="{% trans 'Sayfalama' %}">
+    {% if page_obj.has_previous %}
+    <a href="?page={{ page_obj.previous_page_number }}" class="pub-page-link">← {% trans "Önceki" %}</a>
+    {% endif %}
+    <span class="pub-page-status">{% blocktrans with a=page_obj.number b=paginator.num_pages %}Sayfa {{ a }} / {{ b }}{% endblocktrans %}</span>
+    {% if page_obj.has_next %}
+    <a href="?page={{ page_obj.next_page_number }}" class="pub-page-link">{% trans "Sonraki" %} →</a>
+    {% endif %}
+</nav>
+{% endif %}
+
+<section aria-labelledby="diger-seviyeler">
+    <h2 id="diger-seviyeler" class="pub-h2">{% trans "Diğer seviyeler" %}</h2>
+    <div class="pub-chips">
+        {% for l in levels %}
+        <a href="{% url 'seo:words_level' level=l.code|lower %}" class="pub-chip {% if l.code == level %}pub-chip-active{% endif %}">
+            {{ l.code }} <small>({{ l.total }})</small>
+        </a>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}

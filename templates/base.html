@@ -4,23 +4,64 @@
 <html lang="{{ LANGUAGE_CODE }}">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    {# ---- Başlık & açıklama ---------------------------------------- #}
+    <title>{% block full_title %}{% block title %}{% trans "İngilizce Öğren" %}{% endblock %} · LevelEnAI{% endblock %}</title>
+    <meta name="description" content="{% block meta_description %}{% trans "LevelEnAI ile İngilizce kelime, gramer ve AI destekli mülakat pratiği. A1'den C2'ye 6.000+ kelime, 18 gramer konusu — tamamen ücretsiz." %}{% endblock %}">
+    {# Oturum içi sayfalar varsayılan olarak indekslenmez; halka açık şablonlar
+       `robots` bloğunu "index, follow, max-image-preview:large…" ile ezer. #}
+    <meta name="robots" content="{% block robots %}noindex, follow{% endblock %}">
+
+    {# ---- Canonical & hreflang ------------------------------------- #}
+    {% if not seo.skip %}
+    <link rel="canonical" href="{% block canonical %}{{ seo.canonical }}{% endblock %}">
+    {% for alt in seo.alternates %}<link rel="alternate" hreflang="{{ alt.code }}" href="{{ alt.url }}">
+    {% endfor %}<link rel="alternate" hreflang="x-default" href="{{ seo.x_default }}">
+    {% endif %}
+    {% block pagination_links %}{% endblock %}
+
+    {# ---- Open Graph / Twitter ------------------------------------- #}
+    <meta property="og:site_name" content="LevelEnAI">
+    <meta property="og:type" content="{% block og_type %}website{% endblock %}">
+    <meta property="og:locale" content="{% if LANGUAGE_CODE == 'en' %}en_US{% else %}tr_TR{% endif %}">
+    <meta property="og:locale:alternate" content="{% if LANGUAGE_CODE == 'en' %}tr_TR{% else %}en_US{% endif %}">
+    <meta property="og:title" content="{% block og_title %}{% trans "LevelEnAI — İngilizce öğren, mülakatı kap." %}{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}{% trans "İngilizce kelime, gramer ve AI destekli mülakat hazırlığı — tamamen ücretsiz." %}{% endblock %}">
+    <meta property="og:url" content="{{ seo.canonical }}">
+    <meta property="og:image" content="{% block og_image %}{{ seo.default_image }}{% endblock %}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{% trans "LevelEnAI — İngilizce öğren, mülakatı kap." %}">
+    <meta name="twitter:card" content="summary_large_image">
+    {% if seo.twitter %}<meta name="twitter:site" content="{{ seo.twitter }}">{% endif %}
+
+    {# ---- PWA & ikonlar -------------------------------------------- #}
     <meta name="theme-color" content="#4f46e5">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="LevelEnAI">
     <link rel="manifest" href="{% static 'manifest.json' %}">
     <link rel="icon" href="{% static 'icons/levelenai-mark.svg' %}" type="image/svg+xml">
-    <link rel="alternate icon" href="{% static 'icons/logo.png' %}" type="image/png">
-    <link rel="apple-touch-icon" href="{% static 'icons/logo.png' %}">
-    <title>{% block title %}LevelEnAI{% endblock %} · {% trans "Level up your English. Land the interview." %}</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{% static 'css/app.css' %}">
-</head>
-<body>
+    <link rel="alternate icon" href="{% static 'icons/icon-192.png' %}" type="image/png" sizes="192x192">
+    <link rel="apple-touch-icon" href="{% static 'icons/apple-touch-icon.png' %}">
 
+    {# ---- Stil & yazı tipi (self-hosted: üçüncü taraf istek yok) ---- #}
+    <link rel="preload" href="{% static 'fonts/inter-latin-ext.woff2' %}" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="{% static 'css/inter.css' %}">
+    <link rel="stylesheet" href="{% static 'css/app.css' %}">
+
+    {% if seo.google_verification %}<meta name="google-site-verification" content="{{ seo.google_verification }}">{% endif %}
+    {% if not seo.skip %}{% include 'seo/_jsonld_site.html' %}{% endif %}
+    {% block json_ld %}{% endblock %}
+    {% block extra_head %}{% endblock %}
+    {% if seo.ga_id %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ seo.ga_id }}"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','{{ seo.ga_id }}');</script>
+    {% endif %}
+</head>
+<body class="{% block body_class %}{% endblock %}">
+{% block body %}
 <header class="topbar">
     <div class="topbar-inner">
         <a href="{% url 'dashboard:home' %}" class="brand" aria-label="LevelEnAI">
@@ -57,26 +98,12 @@
                         <div class="user-avatar" style="width:40px; height:40px; font-size:1.1rem;">{{ user.username|first|upper }}</div>
                         <div style="min-width:0;">
                             <div class="user-menu-name">{{ user.username }}</div>
-                            {% if user_access.is_subscribed %}
-                            <div class="user-menu-sub">✓ {% trans "Aktif abonelik" %}</div>
-                            {% elif user_access.is_trial %}
-                            <div class="user-menu-sub">⏳ {% blocktrans with days=user_access.trial_days_left %}{{ days }} gün deneme{% endblocktrans %}</div>
-                            {% else %}
-                            <div class="user-menu-sub">{% trans "Paket yok" %}</div>
-                            {% endif %}
+                            <div class="user-menu-sub">{{ user.email|default:"" }}</div>
                         </div>
                     </div>
                     <a href="{% url 'accounts:profile' %}" class="user-menu-item" role="menuitem">
                         <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
                         {% trans "Profilim" %}
-                    </a>
-                    <a href="{% url 'subscriptions:my' %}" class="user-menu-item" role="menuitem">
-                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
-                        {% trans "Paketlerim" %}
-                    </a>
-                    <a href="{% url 'subscriptions:plans' %}" class="user-menu-item" role="menuitem">
-                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v8M8 12h8"/></svg>
-                        {% trans "Paket Al" %}
                     </a>
                     <div class="user-menu-divider"></div>
                     <form method="post" action="{% url 'accounts:logout' %}" class="user-menu-logout">
@@ -137,7 +164,7 @@
         <a href="{% url 'dashboard:install_guide' %}" class="footer-link">📱 {% trans "Uygulamayı Yükle" %}</a>
         <div class="codezzium-badge">
             {% trans "Bir" %}
-            <img src="{% static 'icons/codezzium-logo.png' %}" alt="Codezzium" height="18" style="vertical-align: middle;">
+            <img src="{% static 'icons/codezzium-logo.png' %}" alt="Codezzium" width="59" height="18" loading="lazy" decoding="async" style="vertical-align: middle;">
             {% trans "ürünüdür" %}
         </div>
     </div>
@@ -155,10 +182,6 @@
 </div>
 
 <script>
-if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/static/sw.js').catch(() => {});
-}
-
 // Smart install banner
 (function() {
     const banner = document.getElementById('install-banner');
@@ -253,6 +276,14 @@ if ('serviceWorker' in navigator) {
         }
     });
 })();
+</script>
+{% endblock %}
+
+{% block body_scripts %}{% endblock %}
+<script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/static/sw.js').catch(() => {});
+}
 </script>
 </body>
 </html>

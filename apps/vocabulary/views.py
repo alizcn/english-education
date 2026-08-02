@@ -9,7 +9,6 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.views.decorators.http import require_POST
 from django_ratelimit.decorators import ratelimit
 
-from apps.subscriptions import access as sub_access
 from services import ai
 from . import services as vocab_services
 from .models import Word
@@ -70,11 +69,6 @@ def bulk_add(request):
             return render(request, 'vocabulary/add.html', {'raw': raw, 'source': source})
 
         with transaction.atomic():
-            state = sub_access.get_state(request.user)
-            if not sub_access.can_use_bulk_translate(state):
-                messages.error(request, _('Toplu AI çeviri deneme hakkın doldu. Devam etmek için bir paket seç.'))
-                return redirect('subscriptions:plans')
-
             created = 0
             skipped = 0
             dropped = 0
@@ -99,7 +93,6 @@ def bulk_add(request):
                     created += 1
                 else:
                     skipped += 1
-            sub_access.record_bulk_translate_use(state)
 
         msg = _('%(count)d kelime eklendi.') % {'count': created}
         if skipped:
