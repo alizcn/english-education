@@ -76,16 +76,13 @@
 
 <!-- Existing sessions -->
 <div id="interview-loading" role="status" aria-live="polite"
-     style="position:fixed;inset:0;background:rgba(15,23,42,.72);display:none;align-items:center;justify-content:center;z-index:1000;padding:24px;">
-    <div style="background:#fff;max-width:380px;width:100%;border-radius:16px;padding:28px 24px;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.3);">
-        <div class="spinner" aria-hidden="true"
-             style="width:56px;height:56px;margin:0 auto 16px;border:4px solid #e2e8f0;border-top-color:var(--primary,#6366f1);border-radius:50%;animation:il-spin 1s linear infinite;"></div>
+     style="position:fixed;inset:0;background:rgba(11,13,19,.6);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);display:none;align-items:center;justify-content:center;z-index:1000;padding:24px;">
+    <div style="background:var(--surface);max-width:380px;width:100%;border-radius:var(--radius-lg);padding:1.75rem 1.5rem;text-align:center;box-shadow:var(--shadow-lg);">
+        <div class="spinner" aria-hidden="true" style="width:44px;height:44px;margin:0 auto 1rem;"></div>
         <div style="font-weight:600;font-size:1.05rem;margin-bottom:6px;">{% trans "AI mülakat soruların hazırlanıyor..." %}</div>
         <small class="muted">{% trans "Bu işlem 30-60 saniye sürebilir, sayfayı kapatma." %}</small>
     </div>
 </div>
-<style>@keyframes il-spin { to { transform: rotate(360deg); } }</style>
-
 {% if sessions %}
 <div class="section-title">{% trans "Geçmiş Mülakatlarım" %}</div>
 <div class="list">

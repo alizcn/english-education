@@ -10,7 +10,8 @@
 
 {% block body %}
 <div class="auth-shell">
-    <div style="text-align:right; margin-bottom:0.5rem;">
+    <div style="display:flex; justify-content:flex-end; align-items:center; gap:0.35rem; margin-bottom:0.5rem;">
+        {% include '_theme_toggle.html' %}
         <form method="post" action="{% url 'set_language' %}" class="lang-switcher">
             {% csrf_token %}
             <input type="hidden" name="next" value="{{ request.path }}">

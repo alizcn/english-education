@@ -38,15 +38,10 @@
             {% endif %}
         </div>
     </div>
-    <div class="level-track" style="display:flex;gap:6px;margin-top:14px;">
+    <div class="level-track">
         {% for step in level_steps %}
             <a href="{% url 'wordbank:quiz' level=step.code %}"
-               style="flex:1;text-align:center;padding:8px 4px;border-radius:8px;font-weight:600;font-size:.9rem;text-decoration:none;transition:transform .15s ease, box-shadow .15s ease;
-                        {% if step.current %}background:var(--accent,#4f46e5);color:#fff;
-                        {% elif step.reached %}background:var(--accent-soft,#c7d2fe);color:var(--accent,#4f46e5);
-                        {% else %}background:var(--muted-bg,#f1f1f1);color:var(--muted,#888);{% endif %}"
-               onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(79,70,229,.2)';"
-               onmouseout="this.style.transform='';this.style.boxShadow='';">
+               class="level-step{% if step.current %} current{% elif step.reached %} reached{% endif %}">
                 {{ step.code }}
             </a>
         {% endfor %}
@@ -178,56 +173,91 @@
 {% if chart.has_data %}
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
 <script>
-new Chart(document.getElementById('weeklyChart'), {
-    type: 'bar',
-    data: {
-        labels: {{ chart.labels|safe }},
-        datasets: [
-            {
-                label: '{% trans "Kelime Hazinesi" %}',
-                data: {{ chart.bank_data|safe }},
-                backgroundColor: 'rgba(79, 70, 229, 0.7)',
-                borderRadius: 6,
-                borderSkipped: false,
+// Grafik renklerini CSS değişkenlerinden okur; böylece tek bir palet kaynağı
+// kalır ve tema değiştiğinde grafik de birlikte döner.
+(function () {
+    const el = document.getElementById('weeklyChart');
+    if (!el || !window.Chart) return;
+    const FONT = "'Inter', sans-serif";
+    let chart = null;
+
+    function token(name) {
+        return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+    }
+
+    function build() {
+        const primary = token('--primary');
+        const soft = token('--primary-line');
+        return {
+            type: 'bar',
+            data: {
+                labels: {{ chart.labels|safe }},
+                datasets: [
+                    {
+                        label: '{% trans "Kelime Hazinesi" %}',
+                        data: {{ chart.bank_data|safe }},
+                        backgroundColor: primary,
+                        borderRadius: 4,
+                        borderSkipped: false,
+                        maxBarThickness: 22,
+                    },
+                    {
+                        label: '{% trans "Kişisel Kelimeler" %}',
+                        data: {{ chart.personal_data|safe }},
+                        backgroundColor: soft,
+                        borderRadius: 4,
+                        borderSkipped: false,
+                        maxBarThickness: 22,
+                    }
+                ]
             },
-            {
-                label: '{% trans "Kişisel Kelimeler" %}',
-                data: {{ chart.personal_data|safe }},
-                backgroundColor: 'rgba(16, 185, 129, 0.7)',
-                borderRadius: 6,
-                borderSkipped: false,
-            }
-        ]
-    },
-    options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: {
-            legend: {
-                position: 'bottom',
-                labels: {
-                    boxWidth: 12,
-                    padding: 16,
-                    font: { family: "'Inter', sans-serif", size: 12 }
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            usePointStyle: true, pointStyle: 'circle',
+                            boxWidth: 7, boxHeight: 7, padding: 18,
+                            color: token('--text-muted'),
+                            font: { family: FONT, size: 12, weight: 500 }
+                        }
+                    },
+                    tooltip: {
+                        backgroundColor: token('--ink-950'),
+                        titleColor: token('--bg'),
+                        bodyColor: token('--bg'),
+                        padding: 10, cornerRadius: 8, displayColors: false,
+                        titleFont: { family: FONT, size: 12, weight: 600 },
+                        bodyFont: { family: FONT, size: 12 }
+                    }
+                },
+                scales: {
+                    x: {
+                        grid: { display: false },
+                        border: { color: token('--border-soft') },
+                        ticks: { color: token('--text-soft'), font: { family: FONT, size: 12 } }
+                    },
+                    y: {
+                        beginAtZero: true,
+                        border: { display: false },
+                        ticks: { stepSize: 1, color: token('--text-faint'), font: { family: FONT, size: 11 } },
+                        grid: { color: token('--border-soft') }
+                    }
                 }
             }
-        },
-        scales: {
-            x: {
-                grid: { display: false },
-                ticks: { font: { family: "'Inter', sans-serif", size: 12 } }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    stepSize: 1,
-                    font: { family: "'Inter', sans-serif", size: 11 }
-                },
-                grid: { color: 'rgba(0,0,0,0.04)' }
-            }
-        }
+        };
     }
-});
+
+    function render() {
+        if (chart) chart.destroy();
+        chart = new Chart(el, build());
+    }
+
+    render();
+    window.addEventListener('themechange', render);
+})();
 </script>
 {% endif %}
 {% endblock %}

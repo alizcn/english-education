@@ -3,14 +3,29 @@
 <!DOCTYPE html>
 <html lang="{{ LANGUAGE_CODE }}">
 <head>
+    {% comment %}Tema, boyamadan önce kesin bir değere sabitlenir: önce kullanıcının
+    kayıtlı tercihi, yoksa sistem tercihi. Böylece yanlış temanın bir kare bile
+    görünmesi (FOUC) mümkün olmaz ve CSS'te tek bir koyu blok yeter.{% endcomment %}
+    <script>
+    (function () {
+        var d = document.documentElement;
+        d.classList.add('js');
+        var saved = null;
+        try { saved = localStorage.getItem('levelenai-theme'); } catch (e) {}
+        var theme = (saved === 'light' || saved === 'dark')
+            ? saved
+            : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        d.setAttribute('data-theme', theme);
+    })();
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
     {# ---- Başlık & açıklama ---------------------------------------- #}
     <title>{% block full_title %}{% block title %}{% trans "İngilizce Öğren" %}{% endblock %} · LevelEnAI{% endblock %}</title>
     <meta name="description" content="{% block meta_description %}{% trans "LevelEnAI ile İngilizce kelime, gramer ve AI destekli mülakat pratiği. A1'den C2'ye 6.000+ kelime, 18 gramer konusu — tamamen ücretsiz." %}{% endblock %}">
-    {# Oturum içi sayfalar varsayılan olarak indekslenmez; halka açık şablonlar
-       `robots` bloğunu "index, follow, max-image-preview:large…" ile ezer. #}
+    {% comment %}Oturum içi sayfalar varsayılan olarak indekslenmez; halka açık
+    şablonlar `robots` bloğunu "index, follow, max-image-preview:large…" ile ezer.{% endcomment %}
     <meta name="robots" content="{% block robots %}noindex, follow{% endblock %}">
 
     {# ---- Canonical & hreflang ------------------------------------- #}
@@ -37,7 +52,9 @@
     {% if seo.twitter %}<meta name="twitter:site" content="{{ seo.twitter }}">{% endif %}
 
     {# ---- PWA & ikonlar -------------------------------------------- #}
-    <meta name="theme-color" content="#4f46e5">
+    <meta name="theme-color" content="#F4F7F9" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0A1417" media="(prefers-color-scheme: dark)">
+    <meta name="color-scheme" content="light dark">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="LevelEnAI">
@@ -76,6 +93,7 @@
             <a href="{% url 'chat:page' %}" class="topnav-link {% if 'chat' in request.resolver_match.namespaces %}active{% endif %}">{% trans "AI Chat" %}</a>
         </nav>
         <div style="display:flex; align-items:center; gap:0.35rem;">
+            {% include '_theme_toggle.html' %}
             <form method="post" action="{% url 'set_language' %}" class="lang-switcher">
                 {% csrf_token %}
                 <input type="hidden" name="next" value="{{ request.path }}">
@@ -280,6 +298,48 @@
 {% endblock %}
 
 {% block body_scripts %}{% endblock %}
+<script>
+// Tema anahtarı — gövde bloğunun dışında, çünkü landing ve giriş sayfaları
+// {% templatetag openblock %} block body {% templatetag closeblock %} bloğunu tamamen eziyor.
+(function () {
+    const root = document.documentElement;
+    const KEY = 'levelenai-theme';
+    const media = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+
+    function stored() {
+        try {
+            const v = localStorage.getItem(KEY);
+            return (v === 'light' || v === 'dark') ? v : null;
+        } catch (e) { return null; }
+    }
+
+    function apply(theme) {
+        root.setAttribute('data-theme', theme);
+        document.querySelectorAll('[data-theme-toggle]').forEach(function (b) {
+            b.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
+        });
+        // Grafikler CSS değişkenlerinden renk okur; tema değişince yeniden çizsinler.
+        window.dispatchEvent(new CustomEvent('themechange', { detail: { theme: theme } }));
+    }
+
+    document.addEventListener('click', function (e) {
+        const btn = e.target.closest && e.target.closest('[data-theme-toggle]');
+        if (!btn) return;
+        const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        try { localStorage.setItem(KEY, next); } catch (err) {}
+        apply(next);
+    });
+
+    // Kullanıcı elle bir seçim yapmadıysa sistem tercihini izlemeye devam et.
+    if (media && media.addEventListener) {
+        media.addEventListener('change', function (e) {
+            if (!stored()) apply(e.matches ? 'dark' : 'light');
+        });
+    }
+
+    apply(root.getAttribute('data-theme') || 'light');
+})();
+</script>
 <script>
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/static/sw.js').catch(() => {});
