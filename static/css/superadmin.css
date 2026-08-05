@@ -340,3 +340,93 @@
     .sa-main { padding: 18px; }
     .sa-detail-row { grid-template-columns: 1fr; gap: 4px; }
 }
+
+/* ============================================================================
+   KOYU TEMA
+   Tercih uygulamayla aynı anahtardan (levelenai-theme) okunur; panelde koyu
+   temayı seçen kişi burada da koyu görür. Sadece token yeniden tanımlanır.
+   ========================================================================== */
+
+.sa-brand-row {
+    display: flex; align-items: center; gap: 8px;
+    padding: 0 8px 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, .08);
+    margin-bottom: 14px;
+}
+.sa-brand-row .sa-brand { flex: 1; padding: 0; border-bottom: 0; margin-bottom: 0; }
+
+.sa-theme-toggle {
+    flex-shrink: 0;
+    width: 26px; height: 26px;
+    display: inline-flex; align-items: center; justify-content: center;
+    padding: 0;
+    border: 1px solid rgba(255, 255, 255, .16);
+    border-radius: 7px;
+    background: transparent;
+    font-size: .78rem;
+    line-height: 1;
+    cursor: pointer;
+}
+.sa-theme-toggle:hover { background: rgba(255, 255, 255, .08); }
+.sa-theme-sun { display: none; }
+:root[data-theme="dark"] .sa-theme-sun { display: inline; }
+:root[data-theme="dark"] .sa-theme-moon { display: none; }
+
+:root[data-theme="dark"] {
+    --sa-primary: #22D3EE;
+    --sa-primary-dark: #67E8F9;
+    --sa-primary-soft: rgba(34, 211, 238, .14);
+    --sa-accent: #67E8F9;
+
+    --sa-success: #34D399;
+    --sa-success-soft: rgba(52, 211, 153, .15);
+    --sa-success-ink: #6EE7B7;
+    --sa-warning: #FBBF24;
+    --sa-warning-soft: rgba(251, 191, 36, .15);
+    --sa-warning-ink: #FCD34D;
+    --sa-danger: #F87171;
+    --sa-danger-soft: rgba(248, 113, 113, .15);
+    --sa-danger-ink: #FCA5A5;
+    --sa-info: #38BDF8;
+    --sa-info-soft: rgba(56, 189, 248, .15);
+
+    --sa-text: #EAF3F6;
+    --sa-muted: #A3BCC5;
+    --sa-soft: #86A2AD;
+    --sa-bg: #0A1417;
+    --sa-surface: #111E23;
+    --sa-border: #24393F;
+    --sa-border-soft: #1C2E35;
+
+    --sa-shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 1px 3px rgba(0, 0, 0, .32);
+    --sa-shadow-lg: 0 2px 4px rgba(0, 0, 0, .4), 0 24px 48px -18px rgba(0, 0, 0, .7);
+    color-scheme: dark;
+}
+
+/* Koyu temada birincil dolgu parlıyor: üstündeki metin koyu olmalı. */
+:root[data-theme="dark"] .sa-btn-primary,
+:root[data-theme="dark"] .sa-btn-primary:hover,
+:root[data-theme="dark"] .sa-pager .current {
+    color: #04222B;
+}
+:root[data-theme="dark"] .sa-btn-danger,
+:root[data-theme="dark"] .sa-btn-danger:hover { color: #2A0A0A; }
+:root[data-theme="dark"] .sa-brand-mark { color: #04222B; }
+
+/* Kenar çubuğu her iki temada koyu; açık temada kendi zemininden ayrışsın. */
+:root[data-theme="dark"] .sa-sidebar { background: #060F12; }
+
+:root[data-theme="dark"] .sa-toolbar input,
+:root[data-theme="dark"] .sa-toolbar select,
+:root[data-theme="dark"] .sa-form-row input[type=text],
+:root[data-theme="dark"] .sa-form-row input[type=email],
+:root[data-theme="dark"] .sa-form-row input[type=number],
+:root[data-theme="dark"] .sa-form-row input[type=password],
+:root[data-theme="dark"] .sa-form-row input[type=url],
+:root[data-theme="dark"] .sa-form-row input[type=date],
+:root[data-theme="dark"] .sa-form-row input[type=datetime-local],
+:root[data-theme="dark"] .sa-form-row textarea,
+:root[data-theme="dark"] .sa-form-row select {
+    background: var(--sa-surface);
+    color: var(--sa-text);
+}

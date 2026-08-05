@@ -19,8 +19,9 @@ if not DEBUG:
     SECURE_REFERRER_POLICY = 'strict-origin-when-cross-origin'
     X_FRAME_OPTIONS = 'DENY'
 
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY', '')
-OPENAI_MODEL = os.getenv('OPENAI_MODEL', 'gpt-4o-mini')
+ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY', '')
+CLAUDE_MODEL = os.getenv('CLAUDE_MODEL', 'claude-sonnet-4-5')
+CLAUDE_MAX_TOKENS = int(os.getenv('CLAUDE_MAX_TOKENS', '1200'))
 
 # ---------------------------------------------------------------- SEO
 # Canonical/OG/sitemap URL'leri bu köke göre kurulur. Şema mutlaka https

@@ -35,6 +35,9 @@ urlpatterns += i18n_patterns(
     path('wordbank/', include('apps.wordbank.urls')),
     path('interviews/', include('apps.interviews.urls')),
     path('', include('apps.seo.urls')),
+    # Eski Türkçe slug'lar → yeni İngilizce adresler (301). En sonda: gerçek
+    # yollar önce eşleşsin, yönlendirmeler yalnız artakalan istekleri yakalasın.
+    path('', include('apps.seo.legacy_urls')),
     prefix_default_language=False,
 )
 

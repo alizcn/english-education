@@ -3,8 +3,8 @@ import logging
 from typing import Iterable
 from django.conf import settings
 from django.utils.translation import gettext as _
-from openai import (
-    OpenAI,
+from anthropic import (
+    Anthropic,
     APIConnectionError,
     APIError,
     APITimeoutError,
@@ -13,48 +13,57 @@ from openai import (
 
 logger = logging.getLogger(__name__)
 
-_client: OpenAI | None = None
+_client: Anthropic | None = None
 
 
 class AIServiceError(Exception):
     """AI hizmet katmanı hatası — view'lerde yakalanıp kullanıcıya mesaj döndürülür."""
 
 
-def client() -> OpenAI:
+def client() -> Anthropic:
     global _client
     if _client is None:
-        if not settings.OPENAI_API_KEY:
-            raise RuntimeError('OPENAI_API_KEY .env dosyasında tanımlı değil.')
-        _client = OpenAI(api_key=settings.OPENAI_API_KEY)
+        if not settings.ANTHROPIC_API_KEY:
+            raise RuntimeError('ANTHROPIC_API_KEY .env dosyasında tanımlı değil.')
+        _client = Anthropic(api_key=settings.ANTHROPIC_API_KEY)
     return _client
+
+
+def _extract_text(resp) -> str:
+    blocks = getattr(resp, 'content', []) or []
+    pieces = []
+    for block in blocks:
+        if hasattr(block, 'text'):
+            pieces.append(block.text)
+    return ''.join(pieces).strip() or '{}'
 
 
 def _chat_json(system: str, user: str) -> dict:
     try:
-        resp = client().chat.completions.create(
-            model=settings.OPENAI_MODEL,
-            response_format={'type': 'json_object'},
+        resp = client().messages.create(
+            model=settings.CLAUDE_MODEL,
+            max_tokens=settings.CLAUDE_MAX_TOKENS,
+            temperature=0,
+            system=system,
             messages=[
-                {'role': 'system', 'content': system},
                 {'role': 'user', 'content': user},
             ],
-            timeout=100,
         )
     except RateLimitError as e:
-        logger.warning('openai rate limit: %s', e)
+        logger.warning('claude rate limit: %s', e)
         raise AIServiceError(_('AI şu an çok yoğun, bir dakika sonra tekrar dene.')) from e
     except (APITimeoutError, APIConnectionError) as e:
-        logger.warning('openai connection issue: %s', e)
+        logger.warning('claude connection issue: %s', e)
         raise AIServiceError(_('AI bağlantısı zaman aşımına uğradı, tekrar dene.')) from e
     except APIError as e:
-        logger.exception('openai api error')
+        logger.exception('claude api error')
         raise AIServiceError(_('AI servisi şu an yanıt vermiyor.')) from e
 
-    content = resp.choices[0].message.content or '{}'
+    content = _extract_text(resp)
     try:
         return json.loads(content)
     except json.JSONDecodeError:
-        logger.error('openai returned non-json content: %.500s', content)
+        logger.error('claude returned non-json content: %.500s', content)
         raise AIServiceError(_('AI yanıtı beklenen formatta değil. Tekrar dene.'))
 
 
@@ -231,18 +240,20 @@ def chat(messages: list[dict]) -> str:
         ),
     }
     try:
-        resp = client().chat.completions.create(
-            model=settings.OPENAI_MODEL,
-            messages=[system] + messages,
-            timeout=60,
+        resp = client().messages.create(
+            model=settings.CLAUDE_MODEL,
+            max_tokens=settings.CLAUDE_MAX_TOKENS,
+            temperature=0,
+            system=system['content'],
+            messages=messages,
         )
     except RateLimitError as e:
-        logger.warning('openai rate limit (chat): %s', e)
+        logger.warning('claude rate limit (chat): %s', e)
         raise AIServiceError(_('AI şu an çok yoğun, bir dakika sonra tekrar dene.')) from e
     except (APITimeoutError, APIConnectionError) as e:
-        logger.warning('openai connection issue (chat): %s', e)
+        logger.warning('claude connection issue (chat): %s', e)
         raise AIServiceError(_('AI bağlantısı zaman aşımına uğradı, tekrar dene.')) from e
     except APIError as e:
-        logger.exception('openai api error (chat)')
+        logger.exception('claude api error (chat)')
         raise AIServiceError(_('AI servisi şu an yanıt vermiyor.')) from e
-    return resp.choices[0].message.content or ''
+    return _extract_text(resp)

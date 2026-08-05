@@ -2,11 +2,11 @@ User-agent: *
 
 # Halka açık içerik
 Allow: /$
-Allow: /ingilizce-gramer/
-Allow: /ingilizce-kelimeler/
-Allow: /ingilizce-mulakat-sorulari/
-Allow: /uygulamayi-yukle/
-Allow: /site-haritasi/
+Allow: /english-grammar/
+Allow: /english-vocabulary/
+Allow: /english-interview-questions/
+Allow: /install-app/
+Allow: /sitemap/
 Allow: /en/
 Allow: /static/
 

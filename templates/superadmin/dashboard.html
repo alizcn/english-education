@@ -163,6 +163,7 @@
     var users = {{ chart_users|safe }};
     var quizzes = {{ chart_quizzes|safe }};
     var interviews = {{ chart_interviews|safe }};
+    var T = function (n) { return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); };
     var ctx = document.getElementById('activityChart');
     if (!ctx || !window.Chart) return;
     new Chart(ctx, {
@@ -173,22 +174,22 @@
                 {
                     label: 'Yeni Kullanıcı',
                     data: users,
-                    borderColor: '#0E7490',
-                    backgroundColor: 'rgba(14,116,144,.10)',
+                    borderColor: T('--sa-primary'),
+                    backgroundColor: T('--sa-primary-soft'),
                     fill: true, tension: .3,
                 },
                 {
                     label: 'Quiz Oturumu',
                     data: quizzes,
-                    borderColor: '#047857',
-                    backgroundColor: 'rgba(4,120,87,.08)',
+                    borderColor: T('--sa-success'),
+                    backgroundColor: T('--sa-success-soft'),
                     fill: false, tension: .3,
                 },
                 {
                     label: 'Mülakat',
                     data: interviews,
-                    borderColor: '#B45309',
-                    backgroundColor: 'rgba(180,83,9,.08)',
+                    borderColor: T('--sa-warning'),
+                    backgroundColor: T('--sa-warning-soft'),
                     fill: false, tension: .3,
                 }
             ]

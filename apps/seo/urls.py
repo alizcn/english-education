@@ -1,21 +1,21 @@
 """Halka açık SEO sayfaları.
 
-Yollar çevrilebilir: TR'de `/ingilizce-gramer/`, EN'de `/en/english-grammar/`.
-Böylece her dil kendi anahtar kelimesini URL'de taşır. Çeviri yoksa Türkçe
-slug'a düşer — kırılmaz.
+Yollar her dilde İngilizce'dir: `/english-grammar/`, `/en/english-grammar/`.
+Tek bir slug seti tutmak hem paylaşılan bağlantıları hem de analitik
+raporlarını sadeleştirir. Eski Türkçe slug'lar `legacy_redirects` içinden
+kalıcı olarak (301) yeni adreslere taşınır — indekslenmiş bağlantılar ölmez.
 """
 from django.urls import path
-from django.utils.translation import gettext_lazy as _
 
 from . import views
 
 app_name = 'seo'
 
 urlpatterns = [
-    path(_('ingilizce-gramer/'), views.grammar_index, name='grammar_index'),
-    path(_('ingilizce-gramer/<slug:slug>/'), views.grammar_detail, name='grammar_detail'),
-    path(_('ingilizce-kelimeler/'), views.words_index, name='words_index'),
-    path(_('ingilizce-kelimeler/<slug:level>/'), views.words_level, name='words_level'),
-    path(_('ingilizce-mulakat-sorulari/'), views.interview_index, name='interview_index'),
-    path(_('site-haritasi/'), views.html_sitemap, name='html_sitemap'),
+    path('english-grammar/', views.grammar_index, name='grammar_index'),
+    path('english-grammar/<slug:slug>/', views.grammar_detail, name='grammar_detail'),
+    path('english-vocabulary/', views.words_index, name='words_index'),
+    path('english-vocabulary/<slug:level>/', views.words_level, name='words_level'),
+    path('english-interview-questions/', views.interview_index, name='interview_index'),
+    path('sitemap/', views.html_sitemap, name='html_sitemap'),
 ]

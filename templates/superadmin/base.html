@@ -2,6 +2,16 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
+    {% comment %}Tema, uygulamanın kullandığı anahtarın aynısından okunur:
+    panelde koyu temayı seçen kişi superadmin'de de koyu görsün.{% endcomment %}
+    <script>
+    (function () {
+        var d = document.documentElement, saved = null;
+        try { saved = localStorage.getItem('levelenai-theme'); } catch (e) {}
+        d.setAttribute('data-theme', (saved === 'light' || saved === 'dark') ? saved
+            : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+    })();
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Superadmin{% endblock %} · LevelEnAI</title>
@@ -13,10 +23,18 @@
 <body class="sa-body">
 <div class="sa-layout">
     <aside class="sa-sidebar" id="saSidebar">
-        <a href="{% url 'superadmin:dashboard' %}" class="sa-brand">
-            <span class="sa-brand-mark">L</span>
-            <span>LevelEnAI</span>
-        </a>
+        {% comment %}Buton bilerek bağlantının DIŞINDA: <a> içine <button> koymak
+        geçersiz HTML ve tıklama davranışı öngörülemez hâle gelir.{% endcomment %}
+        <div class="sa-brand-row">
+            <a href="{% url 'superadmin:dashboard' %}" class="sa-brand">
+                <span class="sa-brand-mark">L</span>
+                <span>LevelEnAI</span>
+            </a>
+            <button type="button" class="sa-theme-toggle" data-sa-theme title="Temayı değiştir"
+                    aria-label="Temayı değiştir">
+                <span class="sa-theme-moon">🌙</span><span class="sa-theme-sun">☀️</span>
+            </button>
+        </div>
 
         <a href="{% url 'superadmin:dashboard' %}"
            class="sa-nav-link {% if active_kind == 'dashboard' %}active{% endif %}">
@@ -59,6 +77,16 @@
     var btn = document.querySelector('.sa-toggle');
     var sb = document.getElementById('saSidebar');
     if (btn && sb) btn.addEventListener('click', function(){ sb.classList.toggle('open'); });
+
+    var themeBtn = document.querySelector('[data-sa-theme]');
+    if (themeBtn) themeBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+        var root = document.documentElement;
+        var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('levelenai-theme', next); } catch (err) {}
+        window.dispatchEvent(new CustomEvent('themechange', { detail: { theme: next } }));
+    });
 })();
 </script>
 {% block body_extra %}{% endblock %}
