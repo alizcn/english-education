@@ -10,7 +10,10 @@
             {% if session.source == 'cv' %}<span class="badge badge-primary" style="font-size:0.7rem; vertical-align:middle;">CV</span> {% endif %}
             {{ session.display_title }}
         </h2>
-        <small class="muted">{% blocktrans with count=session.question_count %}{{ count }} soru{% endblocktrans %} · {{ session.created_at|date:"d M Y · H:i" }}</small>
+        <small class="muted">
+            {% if session.status == 'ready' %}{% blocktrans with count=session.question_count %}{{ count }} soru{% endblocktrans %}
+            {% else %}{{ session.get_status_display }}{% endif %} · {{ session.created_at|date:"d M Y · H:i" }}
+        </small>
     </div>
     <form method="post" action="{% url 'interviews:delete' session.pk %}" style="margin:0;"
           onsubmit="return confirm('{% trans "Bu mülakat silinsin mi?" %}');">
@@ -18,6 +21,65 @@
         <button type="submit" class="btn btn-ghost btn-sm">{% trans "Sil" %}</button>
     </form>
 </div>
+
+{% if session.status == 'pending' %}
+<div class="card mb-2" style="text-align:center; padding:2rem 1.5rem;">
+    <div class="spinner" aria-hidden="true" style="width:44px;height:44px;margin:0 auto 1rem;"></div>
+    <div style="font-weight:600; font-size:1.05rem; margin-bottom:6px;" role="status" aria-live="polite">
+        <span id="gen-progress">{% trans "Sorular hazırlanıyor..." %}</span>
+    </div>
+    <small class="muted">
+        {% trans "Sorular hazırlandıkça burada görünecek. Sayfayı kapatabilirsin; kaldığın yerden devam eder." %}
+    </small>
+</div>
+<div id="gen-more" style="display:none; position:sticky; top:0.75rem; z-index:20; text-align:center; margin-bottom:1rem;">
+    <button type="button" class="btn btn-sm btn-primary" onclick="location.reload();">
+        {% trans "Yeni sorular hazır — göster" %}
+    </button>
+</div>
+<script>
+(function(){
+    // Üretim parça parça ilerliyor. Yeni soru geldikçe sayfayı tazeliyoruz; ama
+    // kullanıcı okumaya başladıysa (sayfayı kaydırdıysa) altından çekmeyip
+    // "yeni sorular hazır" düğmesini gösteriyoruz.
+    var url = "{% url 'interviews:status' session.pk %}";
+    var label = document.getElementById('gen-progress');
+    var more = document.getElementById('gen-more');
+    var shown = {{ session.question_count }};
+    var tpl = "{% trans '%(done)s / %(total)s soru hazır...' %}";
+
+    function refresh(){
+        if (window.scrollY < 200) { location.reload(); }
+        else { more.style.display = 'block'; }
+    }
+
+    var timer = setInterval(function(){
+        fetch(url, {headers: {'X-Requested-With': 'XMLHttpRequest'}})
+            .then(function(r){ return r.ok ? r.json() : null; })
+            .then(function(data){
+                if (!data) { return; }
+                if (data.ready_count > 0) {
+                    label.textContent = tpl
+                        .replace('%(done)s', data.ready_count)
+                        .replace('%(total)s', data.total);
+                }
+                if (data.status !== 'pending') { clearInterval(timer); refresh(); return; }
+                if (data.ready_count > shown) { shown = data.ready_count; refresh(); }
+            })
+            .catch(function(){ /* geçici ağ hatası — bir sonraki turda tekrar denenir */ });
+    }, 4000);
+})();
+</script>
+
+{% elif session.status == 'failed' %}
+<div class="card mb-2">
+    <div style="font-weight:600; margin-bottom:0.4rem;">{% trans "Sorular üretilemedi" %}</div>
+    <p class="muted" style="margin-bottom:1rem;">
+        {% if session.error_message %}{{ session.error_message }}{% else %}{% trans "Sorular üretilirken bilinmeyen bir hata oluştu." %}{% endif %}
+    </p>
+    <a href="{% url 'interviews:list' %}" class="btn btn-secondary">{% trans "Yeni mülakat başlat" %}</a>
+</div>
+{% endif %}
 
 {% for q in session.questions_data %}
 {% if q.question_tr and q.question_en and q.answer_tr and q.answer_en %}

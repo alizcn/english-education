@@ -80,7 +80,7 @@
     <div style="background:var(--surface);max-width:380px;width:100%;border-radius:var(--radius-lg);padding:1.75rem 1.5rem;text-align:center;box-shadow:var(--shadow-lg);">
         <div class="spinner" aria-hidden="true" style="width:44px;height:44px;margin:0 auto 1rem;"></div>
         <div style="font-weight:600;font-size:1.05rem;margin-bottom:6px;">{% trans "AI mülakat soruların hazırlanıyor..." %}</div>
-        <small class="muted">{% trans "Bu işlem 30-60 saniye sürebilir, sayfayı kapatma." %}</small>
+        <small class="muted">{% trans "Yönlendiriliyorsun; üretim arka planda sürecek." %}</small>
     </div>
 </div>
 {% if sessions %}
@@ -92,8 +92,12 @@
             <div style="font-weight:600; display:flex; align-items:center; gap:0.4rem;">
                 {% if s.source == 'cv' %}<span class="badge badge-primary">CV</span>{% endif %}
                 {{ s.display_title }}
+                {% if s.status != 'ready' %}<span class="badge">{{ s.get_status_display }}</span>{% endif %}
             </div>
-            <small class="muted">{% blocktrans with count=s.question_count %}{{ count }} soru{% endblocktrans %} · {{ s.created_at|date:"d M Y · H:i" }}</small>
+            <small class="muted">
+                {% if s.status == 'ready' %}{% blocktrans with count=s.question_count %}{{ count }} soru{% endblocktrans %}
+                {% else %}{{ s.get_status_display }}{% endif %} · {{ s.created_at|date:"d M Y · H:i" }}
+            </small>
         </a>
         <div class="btn-row">
             <a href="{% url 'interviews:detail' s.pk %}" class="btn btn-sm btn-secondary">{% trans "Görüntüle" %}</a>

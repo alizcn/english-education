@@ -19,9 +19,32 @@ if not DEBUG:
     SECURE_REFERRER_POLICY = 'strict-origin-when-cross-origin'
     X_FRAME_OPTIONS = 'DENY'
 
+# ---------------------------------------------------------------- Claude
+# cli = Claude Code CLI subprocess'i, kimlik ~/.claude oturumundan (Pro/Max
+# aboneliği) gelir; API key gerekmez. api = ANTHROPIC_API_KEY ile token başına
+# faturalanan resmî SDK.
+CLAUDE_AUTH_MODE = os.getenv('CLAUDE_AUTH_MODE', 'cli')
+# Boşsa SDK claude binary'sini PATH'te arar.
+CLAUDE_CLI_PATH = os.getenv('CLAUDE_CLI_PATH', '')
+# Subprocess başına duvar saati sınırı — asılı kalan bir CLI gunicorn worker'ını
+# meşgul etmesin. 25 soruluk mülakat üretimi ölçümde ~480s sürüyor; sınır ona göre.
+# Gunicorn --timeout değeri bunun üstünde kalmalı (bkz. Dockerfile).
+CLAUDE_CLI_TIMEOUT = int(os.getenv('CLAUDE_CLI_TIMEOUT', '600'))
 ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY', '')
-CLAUDE_MODEL = os.getenv('CLAUDE_MODEL', 'claude-sonnet-4-5')
-CLAUDE_MAX_TOKENS = int(os.getenv('CLAUDE_MAX_TOKENS', '1200'))
+CLAUDE_MODEL = os.getenv('CLAUDE_MODEL', 'claude-haiku-4-5')
+# Quiz/çeviri/mülakat üretimi uzun JSON döndürüyor ve düşünme blokları da bu
+# bütçeden harcanıyor; sınır bu yüzden geniş.
+CLAUDE_MAX_TOKENS = int(os.getenv('CLAUDE_MAX_TOKENS', '16000'))
+CLAUDE_CHAT_MAX_TOKENS = int(os.getenv('CLAUDE_CHAT_MAX_TOKENS', '4000'))
+# low | medium | high | xhigh | max. Boş = parametre hiç gönderilmez.
+# DİKKAT: Haiku 4.5 effort parametresini kabul etmiyor, gönderilirse hata döner.
+# Bu yüzden varsayılan boş. Opus/Sonnet'e geçersen doldurabilirsin.
+CLAUDE_REASONING_EFFORT = os.getenv('CLAUDE_REASONING_EFFORT', '')
+# adaptive | disabled. Boş = parametre hiç gönderilmez, model düşünmeden yanıtlar.
+# DİKKAT: adaptive/disabled yalnızca Opus 4.6+ ve Sonnet 4.6+ için geçerli.
+# Haiku 4.5'te düşünmeyi kapatmanın yolu parametreyi hiç göndermemek.
+CLAUDE_THINKING = os.getenv('CLAUDE_THINKING', '')
+CLAUDE_MAX_RETRIES = int(os.getenv('CLAUDE_MAX_RETRIES', '3'))
 
 # ---------------------------------------------------------------- SEO
 # Canonical/OG/sitemap URL'leri bu köke göre kurulur. Şema mutlaka https
@@ -58,6 +81,10 @@ INSTALLED_APPS = [
 CELERY_BROKER_URL = os.getenv('REDIS_URL', 'redis://localhost:6379/0')
 CELERY_RESULT_BACKEND = CELERY_BROKER_URL
 CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
+# acks_late'li görevler için: worker ölürse mesaj bu süre sonunda yeniden teslim
+# edilir. Görevlerin hard time_limit'inden (720s) büyük olmalı — küçük olursa
+# hâlâ çalışan bir görev ikinci kez teslim edilip aynı iş iki kez yapılır.
+CELERY_BROKER_TRANSPORT_OPTIONS = {'visibility_timeout': 900}
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_RESULT_SERIALIZER = 'json'

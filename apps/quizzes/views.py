@@ -5,14 +5,15 @@ from django.contrib.auth.decorators import login_required
 from django.utils.translation import gettext as _
 from django.db import transaction
 from django.db.models import F, Q
+from django.http import JsonResponse
 from django.shortcuts import render, redirect, get_object_or_404
 from django.utils import timezone
 from django.views.decorators.http import require_POST
 
 from apps.topics.models import Topic
 from apps.vocabulary.models import Word
-from services import ai
 from . import services as quiz_services
+from . import tasks
 from .models import QuizSession, QuizQuestion, QuizTemplate
 from .normalization import normalize_item
 
@@ -146,27 +147,31 @@ def _create_session_for_template(user, template):
     return session
 
 
+def _has_pending(user, kind, topic=None) -> bool:
+    return QuizTemplate.objects.filter(
+        user=user, kind=kind, topic=topic, status=QuizTemplate.PENDING,
+    ).exists()
+
+
 @login_required
 @require_POST
 def generate_topic_quiz_view(request, slug):
+    """Üretimi kuyruğa atıp hemen döner — eskiden burada ~100s bloke oluyorduk."""
     topic = get_object_or_404(Topic, slug=slug)
-    try:
-        tmpl = quiz_services.generate_one(request.user, QuizTemplate.TOPIC, topic=topic)
-    except ai.AIServiceError as e:
-        messages.error(request, str(e))
+    if _has_pending(request.user, QuizTemplate.TOPIC, topic=topic):
+        messages.info(request, _('Zaten hazırlanan bir quiz var, birazdan görünecek.'))
         return redirect('quizzes:topic_picker', slug=slug)
-    except Exception:
-        logger.exception('generate_topic_quiz_view: unexpected failure')
-        messages.error(request, _('Quiz üretilirken beklenmedik bir hata oluştu.'))
-        return redirect('quizzes:topic_picker', slug=slug)
-    if not tmpl:
-        messages.error(request, _('Yeni quiz üretilemedi. Tekrar dene.'))
-        return redirect('quizzes:topic_picker', slug=slug)
-    session = _create_session_for_template(request.user, tmpl)
-    if not session:
-        messages.error(request, _('Bu quiz şablonu boş.'))
-        return redirect('quizzes:topic_picker', slug=slug)
-    return redirect('quizzes:run', pk=session.pk)
+
+    tmpl = QuizTemplate.objects.create(
+        user=request.user,
+        kind=QuizTemplate.TOPIC,
+        topic=topic,
+        name=quiz_services.next_template_name(request.user, QuizTemplate.TOPIC, topic=topic),
+        status=QuizTemplate.PENDING,
+    )
+    tasks.generate_topic_template.delay(tmpl.pk, topic.pk)
+    messages.success(request, _('Quiz hazırlanıyor. Sorular hazırlandıkça burada görünecek.'))
+    return redirect('quizzes:topic_picker', slug=slug)
 
 
 @login_required
@@ -180,23 +185,30 @@ def generate_word_quiz(request):
             % {'min': MIN_WORDS_FOR_QUIZ, 'total': total_words}
         )
         return redirect('vocabulary:list')
-    try:
-        tmpl = quiz_services.generate_one(request.user, QuizTemplate.WORD)
-    except ai.AIServiceError as e:
-        messages.error(request, str(e))
+    if _has_pending(request.user, QuizTemplate.WORD):
+        messages.info(request, _('Zaten hazırlanan bir quiz var, birazdan görünecek.'))
         return redirect('quizzes:word_picker')
-    except Exception:
-        logger.exception('generate_word_quiz: unexpected failure')
-        messages.error(request, _('Quiz üretilirken beklenmedik bir hata oluştu.'))
-        return redirect('quizzes:word_picker')
-    if not tmpl:
-        messages.error(request, _('Yeni quiz üretilemedi. Tekrar dene.'))
-        return redirect('quizzes:word_picker')
-    session = _create_session_for_template(request.user, tmpl)
-    if not session:
-        messages.error(request, _('Bu quiz şablonu boş.'))
-        return redirect('quizzes:word_picker')
-    return redirect('quizzes:run', pk=session.pk)
+
+    tmpl = QuizTemplate.objects.create(
+        user=request.user,
+        kind=QuizTemplate.WORD,
+        name=quiz_services.next_template_name(request.user, QuizTemplate.WORD),
+        status=QuizTemplate.PENDING,
+    )
+    tasks.generate_word_template.delay(tmpl.pk, request.user.pk)
+    messages.success(request, _('Quiz hazırlanıyor. Sorular hazırlandıkça burada görünecek.'))
+    return redirect('quizzes:word_picker')
+
+
+@login_required
+def template_status(request, template_id):
+    """Picker sayfası hazırlanan quizi buradan yokluyor."""
+    template = get_object_or_404(QuizTemplate, pk=template_id, user=request.user)
+    return JsonResponse({
+        'status': template.status,
+        'ready_count': template.question_count,
+        'total': tasks.QUESTION_TARGET,
+    })
 
 
 @login_required
@@ -206,10 +218,18 @@ def start_template(request, template_id):
         QuizTemplate.objects.filter(Q(user=request.user) | Q(user__isnull=True)),
         pk=template_id,
     )
+    fallback = (
+        redirect('quizzes:topic_picker', slug=template.topic.slug)
+        if template.topic_id else redirect('quizzes:word_picker')
+    )
+    if not template.is_ready:
+        # Yarım şablonla oturum açmak kullanıcıya eksik quiz verir.
+        messages.error(request, _('Bu quiz henüz hazır değil.'))
+        return fallback
     session = _create_session_for_template(request.user, template)
     if not session:
         messages.error(request, _('Bu quiz şablonu boş.'))
-        return redirect('quizzes:word_picker')
+        return fallback
     return redirect('quizzes:run', pk=session.pk)
 
 

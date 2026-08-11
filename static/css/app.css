@@ -1104,6 +1104,12 @@ label input, label textarea, label select { margin-top: 0.35rem; }
 .chat-history-item:hover .chat-history-actions,
 .chat-history-item.active .chat-history-actions { opacity: 1; }
 
+/* Dokunmatik cihazda hover yok: aksi halde sil/yeniden adlandır düğmeleri
+   aktif sohbet dışında hiç görünmez ve sohbet silinemez hale gelir. */
+@media (hover: none) {
+    .chat-history-actions { opacity: 1; }
+}
+
 .chat-rename-form { display: none; width: 100%; gap: 0.25rem; margin-top: 0.4rem; }
 .chat-rename-form.show { display: flex; }
 .chat-rename-form input { flex: 1; padding: 0.3rem 0.5rem; font-size: 0.85rem; }

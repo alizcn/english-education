@@ -2,13 +2,14 @@ import logging
 
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.http import JsonResponse
 from django.shortcuts import render, redirect, get_object_or_404
 from django.utils.translation import gettext as _
 from django.views.decorators.http import require_POST
 from django_ratelimit.decorators import ratelimit
 
-from services import ai
 from services.sanitize import SanitizationError, clean_cv_text, clean_job_title
+from . import tasks
 from .models import InterviewSession, JOB_CATEGORIES
 from .utils import extract_cv_text
 
@@ -92,33 +93,17 @@ def interview_create(request):
     else:
         title_for_ai = dict(JOB_CATEGORIES).get(job_category, job_category)
 
-    try:
-        items = ai.generate_interview_questions(str(title_for_ai), n=25)
-    except ai.AIServiceError as e:
-        messages.error(request, str(e))
-        return redirect('interviews:list')
-    except Exception:
-        logger.exception('interview_create: unexpected AI failure')
-        messages.error(request, _('Sorular üretilirken beklenmedik bir hata oluştu.'))
-        return redirect('interviews:list')
-
-    if not items:
-        messages.error(request, _('Sorular üretilemedi. Tekrar deneyin.'))
-        return redirect('interviews:list')
-
     source = InterviewSession.CUSTOM if job_category == 'custom' else InterviewSession.CATEGORY
     session = InterviewSession.objects.create(
         user=request.user,
         source=source,
         job_category=job_category if job_category in _cat_dict else 'custom',
         custom_title=custom_title if job_category == 'custom' else '',
-        questions_data=items,
+        status=InterviewSession.PENDING,
     )
+    tasks.generate_from_title.delay(session.pk, str(title_for_ai))
 
-    messages.success(
-        request,
-        _('%(count)d mülakat sorusu oluşturuldu.') % {'count': len(items)}
-    )
+    messages.success(request, _('Sorular hazırlanıyor. Hazır olunca bu sayfada görünecek.'))
     return redirect('interviews:detail', pk=session.pk)
 
 
@@ -153,32 +138,17 @@ def interview_create_cv(request):
         messages.error(request, _('CV içeriği çok kısa veya okunamadı.'))
         return redirect('interviews:list')
 
-    try:
-        items = ai.generate_interview_from_cv(cv_text, n=25)
-    except ai.AIServiceError as e:
-        messages.error(request, str(e))
-        return redirect('interviews:list')
-    except Exception:
-        logger.exception('interview_create_cv: unexpected AI failure')
-        messages.error(request, _('Sorular üretilirken beklenmedik bir hata oluştu.'))
-        return redirect('interviews:list')
-
-    if not items:
-        messages.error(request, _('Sorular üretilemedi. Tekrar deneyin.'))
-        return redirect('interviews:list')
-
     session = InterviewSession.objects.create(
         user=request.user,
         source=InterviewSession.CV,
         job_category='custom',
         cv_filename=cv_file.name,
-        questions_data=items,
+        status=InterviewSession.PENDING,
     )
+    # Kuyruk mesajını şişirmemek için kırpıyoruz; üretici zaten ilk 4000 karakteri kullanıyor.
+    tasks.generate_from_cv.delay(session.pk, cv_text[:8000])
 
-    messages.success(
-        request,
-        _('CV analiz edildi. %(count)d mülakat sorusu oluşturuldu.') % {'count': len(items)}
-    )
+    messages.success(request, _('CV analiz ediliyor. Sorular hazır olunca bu sayfada görünecek.'))
     return redirect('interviews:detail', pk=session.pk)
 
 
@@ -186,6 +156,21 @@ def interview_create_cv(request):
 def interview_detail(request, pk):
     session = get_object_or_404(InterviewSession, pk=pk, user=request.user)
     return render(request, 'interviews/detail.html', {'session': session})
+
+
+@login_required
+def interview_status(request, pk):
+    """Detay sayfası hazırlanan mülakatı buradan yokluyor.
+
+    Üretim parça parça ilerlediği için sadece durumu değil kaç sorunun hazır
+    olduğunu da veriyoruz; sayfa böylece biriken soruları erkenden gösterebiliyor.
+    """
+    session = get_object_or_404(InterviewSession, pk=pk, user=request.user)
+    return JsonResponse({
+        'status': session.status,
+        'ready_count': session.question_count,
+        'total': tasks.QUESTION_COUNT,
+    })
 
 
 @login_required

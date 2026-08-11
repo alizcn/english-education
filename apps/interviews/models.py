@@ -1,6 +1,6 @@
 from django.conf import settings
 from django.db import models
-from django.utils.translation import gettext_lazy as _
+from django.utils.translation import gettext_lazy as _, pgettext_lazy
 
 
 JOB_CATEGORIES = [
@@ -56,11 +56,26 @@ class InterviewSession(models.Model):
         (CV, _('CV yükleme')),
     ]
 
+    PENDING = 'pending'
+    READY = 'ready'
+    FAILED = 'failed'
+    # pgettext: "Hazırlanıyor" quiz tarafında da msgid olarak var ve orada
+    # quiz'e özgü çevrilmiş. Bağlam vermezsek İngilizce'de quiz metnini miras alır.
+    STATUS_CHOICES = [
+        (PENDING, pgettext_lazy('mülakat durumu', 'Hazırlanıyor')),
+        (READY, pgettext_lazy('mülakat durumu', 'Hazır')),
+        (FAILED, pgettext_lazy('mülakat durumu', 'Başarısız')),
+    ]
+
     source = models.CharField(max_length=10, choices=SOURCE_CHOICES, default=CATEGORY)
     job_category = models.CharField(max_length=30, choices=JOB_CATEGORIES, default='custom')
     custom_title = models.CharField(max_length=200, blank=True)
     cv_filename = models.CharField(max_length=200, blank=True)
     questions_data = models.JSONField(default=list)
+    # Varsayılan READY: migration'da mevcut satırlar zaten dolu, onlar hazır sayılmalı.
+    # Üretimi kuyruğa atan view'ler status'ü açıkça PENDING veriyor.
+    status = models.CharField(max_length=10, choices=STATUS_CHOICES, default=READY)
+    error_message = models.CharField(max_length=300, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:

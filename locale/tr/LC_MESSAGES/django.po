@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-03 07:56+0300\n"
+"POT-Creation-Date: 2026-08-10 22:03+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -239,57 +239,70 @@ msgstr ""
 msgid "CV yükleme"
 msgstr ""
 
-#: apps/interviews/views.py:43
-msgid "CV dosyası 5 MB'dan büyük olamaz."
+#: apps/interviews/models.py:65
+msgctxt "mülakat durumu"
+msgid "Hazırlanıyor"
 msgstr ""
 
-#: apps/interviews/views.py:46
-msgid "Desteklenen formatlar: PDF, DOCX, TXT."
+#: apps/interviews/models.py:66
+msgctxt "mülakat durumu"
+msgid "Hazır"
 msgstr ""
 
-#: apps/interviews/views.py:56
-msgid "Dosya içeriği desteklenen bir formatla eşleşmiyor."
+#: apps/interviews/models.py:67
+msgctxt "mülakat durumu"
+msgid "Başarısız"
 msgstr ""
 
-#: apps/interviews/views.py:76 apps/interviews/views.py:130
-msgid "Saatlik mülakat üretim hakkını doldurdun. Biraz sonra tekrar dene."
-msgstr ""
-
-#: apps/interviews/views.py:83
-msgid "Lütfen bir iş başlığı girin."
-msgstr ""
-
-#: apps/interviews/views.py:102 apps/interviews/views.py:163
+#: apps/interviews/tasks.py:45
 msgid "Sorular üretilirken beklenmedik bir hata oluştu."
 msgstr ""
 
-#: apps/interviews/views.py:106 apps/interviews/views.py:167
+#: apps/interviews/tasks.py:49
 msgid "Sorular üretilemedi. Tekrar deneyin."
 msgstr ""
 
-#: apps/interviews/views.py:120
-#, python-format
-msgid "%(count)d mülakat sorusu oluşturuldu."
+#: apps/interviews/views.py:44
+msgid "CV dosyası 5 MB'dan büyük olamaz."
 msgstr ""
 
-#: apps/interviews/views.py:135
+#: apps/interviews/views.py:47
+msgid "Desteklenen formatlar: PDF, DOCX, TXT."
+msgstr ""
+
+#: apps/interviews/views.py:57
+msgid "Dosya içeriği desteklenen bir formatla eşleşmiyor."
+msgstr ""
+
+#: apps/interviews/views.py:77 apps/interviews/views.py:115
+msgid "Saatlik mülakat üretim hakkını doldurdun. Biraz sonra tekrar dene."
+msgstr ""
+
+#: apps/interviews/views.py:84
+msgid "Lütfen bir iş başlığı girin."
+msgstr ""
+
+#: apps/interviews/views.py:106
+msgid "Sorular hazırlanıyor. Hazır olunca bu sayfada görünecek."
+msgstr ""
+
+#: apps/interviews/views.py:120
 msgid "Lütfen bir CV dosyası yükleyin."
 msgstr ""
 
-#: apps/interviews/views.py:148
+#: apps/interviews/views.py:133
 msgid "CV dosyası okunamadı."
 msgstr ""
 
-#: apps/interviews/views.py:153
+#: apps/interviews/views.py:138
 msgid "CV içeriği çok kısa veya okunamadı."
 msgstr ""
 
-#: apps/interviews/views.py:180
-#, python-format
-msgid "CV analiz edildi. %(count)d mülakat sorusu oluşturuldu."
+#: apps/interviews/views.py:151
+msgid "CV analiz ediliyor. Sorular hazır olunca bu sayfada görünecek."
 msgstr ""
 
-#: apps/interviews/views.py:196
+#: apps/interviews/views.py:173
 msgid "Mülakat silindi."
 msgstr ""
 
@@ -500,30 +513,35 @@ msgstr ""
 msgid "%(level)s ilerlemen sıfırlandı."
 msgstr ""
 
-#: config/settings.py:118 templates/seo/grammar_detail.html:63
+#: config/settings.py:141 templates/seo/grammar_detail.html:63
 #: templates/seo/grammar_detail.html:75 templates/seo/grammar_detail.html:87
 #: templates/seo/words_level.html:57 templates/vocabulary/edit.html:17
 msgid "Türkçe"
 msgstr ""
 
-#: config/settings.py:119 templates/vocabulary/edit.html:14
+#: config/settings.py:142 templates/vocabulary/edit.html:14
 msgid "English"
 msgstr ""
 
-#: services/ai.py:45 services/ai.py:241
+#: services/claude_client.py:135
+msgid "AI bu isteği yanıtlamayı reddetti. İfadeni değiştirip tekrar dene."
+msgstr ""
+
+#: services/claude_client.py:176
+msgid "AI yanıtı beklenen formatta değil. Tekrar dene."
+msgstr ""
+
+#: services/claude_client.py:191
 msgid "AI şu an çok yoğun, bir dakika sonra tekrar dene."
 msgstr ""
 
-#: services/ai.py:48 services/ai.py:244
+#: services/claude_client.py:194 services/claude_client.py:321
 msgid "AI bağlantısı zaman aşımına uğradı, tekrar dene."
 msgstr ""
 
-#: services/ai.py:51 services/ai.py:247
+#: services/claude_client.py:199 services/claude_client.py:203
+#: services/claude_client.py:325 services/claude_client.py:328
 msgid "AI servisi şu an yanıt vermiyor."
-msgstr ""
-
-#: services/ai.py:58
-msgid "AI yanıtı beklenen formatta değil. Tekrar dene."
 msgstr ""
 
 #: services/sanitize.py:26
@@ -892,8 +910,8 @@ msgstr ""
 msgid "Bu sohbet silinsin mi?"
 msgstr ""
 
-#: templates/chat/page.html:25 templates/interviews/detail.html:18
-#: templates/interviews/list.html:103
+#: templates/chat/page.html:25 templates/interviews/detail.html:21
+#: templates/interviews/list.html:107
 msgid "Sil"
 msgstr ""
 
@@ -1594,21 +1612,43 @@ msgstr ""
 msgid "Site Haritası"
 msgstr ""
 
-#: templates/interviews/detail.html:8 templates/interviews/detail.html:54
+#: templates/interviews/detail.html:8 templates/interviews/detail.html:92
 msgid "Mülakatlarım"
 msgstr ""
 
-#: templates/interviews/detail.html:13 templates/interviews/list.html:96
+#: templates/interviews/detail.html:14 templates/interviews/list.html:98
 #: templates/quizzes/picker.html:30
 #, python-format
 msgid "%(count)s soru"
 msgstr ""
 
-#: templates/interviews/detail.html:16 templates/interviews/list.html:101
+#: templates/interviews/detail.html:19 templates/interviews/list.html:105
 msgid "Bu mülakat silinsin mi?"
 msgstr ""
 
-#: templates/interviews/detail.html:36
+#: templates/interviews/detail.html:29
+msgid "Sorular hazırlanıyor..."
+msgstr ""
+
+#: templates/interviews/detail.html:32
+msgid ""
+"Bu işlem birkaç dakika sürebilir. Sayfayı kapatabilirsin; hazır olunca "
+"burada seni bekliyor olacak."
+msgstr ""
+
+#: templates/interviews/detail.html:52
+msgid "Sorular üretilemedi"
+msgstr ""
+
+#: templates/interviews/detail.html:54
+msgid "Sorular üretilirken bilinmeyen bir hata oluştu."
+msgstr ""
+
+#: templates/interviews/detail.html:56
+msgid "Yeni mülakat başlat"
+msgstr ""
+
+#: templates/interviews/detail.html:74
 msgid "Cevabı Göster"
 msgstr ""
 
@@ -1678,19 +1718,19 @@ msgstr ""
 msgid "AI mülakat soruların hazırlanıyor..."
 msgstr ""
 
-#: templates/interviews/list.html:83 templates/quizzes/picker.html:70
-msgid "Bu işlem 30-60 saniye sürebilir, sayfayı kapatma."
+#: templates/interviews/list.html:83
+msgid "Yönlendiriliyorsun; üretim arka planda sürecek."
 msgstr ""
 
 #: templates/interviews/list.html:87
 msgid "Geçmiş Mülakatlarım"
 msgstr ""
 
-#: templates/interviews/list.html:99
+#: templates/interviews/list.html:103
 msgid "Görüntüle"
 msgstr ""
 
-#: templates/interviews/list.html:112
+#: templates/interviews/list.html:116
 msgid "Henüz mülakat oluşturmadın. Pozisyon seç veya CV yükle!"
 msgstr ""
 
@@ -1900,6 +1940,10 @@ msgstr ""
 
 #: templates/quizzes/picker.html:69
 msgid "AI quizin hazırlanıyor..."
+msgstr ""
+
+#: templates/quizzes/picker.html:70
+msgid "Bu işlem 30-60 saniye sürebilir, sayfayı kapatma."
 msgstr ""
 
 #: templates/quizzes/result.html:3

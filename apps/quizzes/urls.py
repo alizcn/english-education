@@ -9,6 +9,7 @@ urlpatterns = [
     path('topics/<slug:slug>/', views.topic_picker, name='topic_picker'),
     path('topics/<slug:slug>/generate/', views.generate_topic_quiz_view, name='generate_topic'),
     path('start/<int:template_id>/', views.start_template, name='start_template'),
+    path('template/<int:template_id>/status/', views.template_status, name='template_status'),
     path('<int:pk>/', views.run_quiz, name='run'),
     path('<int:pk>/answer/', views.submit_answer, name='answer'),
     path('<int:pk>/result/', views.result, name='result'),

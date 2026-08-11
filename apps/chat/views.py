@@ -2,13 +2,13 @@ import logging
 
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-from django.db import transaction
+from django.db import IntegrityError, transaction
 from django.shortcuts import get_object_or_404, redirect, render
 from django.utils.translation import gettext as _
 from django.views.decorators.http import require_POST
 from django_ratelimit.decorators import ratelimit
 
-from services import ai
+from services import claude_client as claude
 from .models import ChatConversation, ChatMessage
 
 logger = logging.getLogger(__name__)
@@ -73,8 +73,8 @@ def send(request):
         api_messages = [{'role': m.role, 'content': m.content} for m in history]
 
     try:
-        reply = ai.chat(api_messages)
-    except ai.AIServiceError as e:
+        reply = claude.chat(api_messages)
+    except claude.ClaudeClientError as e:
         messages.error(request, str(e))
         return redirect('chat:page')
     except Exception:
@@ -87,7 +87,15 @@ def send(request):
         messages.error(request, _('AI boş yanıt döndü. Tekrar dene.'))
         return redirect('chat:page')
 
-    ChatMessage.objects.create(conversation=conv, role=ChatMessage.ASSISTANT, content=reply)
+    try:
+        ChatMessage.objects.create(conversation=conv, role=ChatMessage.ASSISTANT, content=reply)
+    except IntegrityError:
+        # Yanıt üretilirken (saniyeler sürüyor) kullanıcı sohbeti silmiş olabilir.
+        # Silinmiş sohbete yazmak FOREIGN KEY hatası verip isteği 500'e düşürüyordu.
+        logger.info('chat send: sohbet yanıt üretilirken silinmiş (conv=%s)', conv.pk)
+        messages.info(request, _('Bu sohbet silindiği için yanıt kaydedilmedi.'))
+        return redirect('chat:page')
+
     conv.save()
     return redirect('chat:page')
 

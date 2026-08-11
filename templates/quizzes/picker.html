@@ -19,24 +19,36 @@
 {% if templates %}
 <div class="list">
     {% for t in templates %}
-    <div class="topic-card {% if t.is_completed %}done{% endif %}">
+    <div class="topic-card {% if t.is_completed %}done{% endif %}"
+         {% if t.status == 'pending' %}data-pending-template="{{ t.id }}"{% endif %}>
         <div style="flex:1;">
             <div class="topic-name">
                 {{ t.name }}
                 {% if t.is_seed %}<span class="badge" style="margin-left:0.4rem;">{% trans "Varsayılan" %}</span>{% endif %}
                 {% if t.is_completed %}<span class="badge badge-success" style="margin-left:0.4rem;">{% trans "✓ Bitirdin" %}</span>{% endif %}
+                {% if t.status != 'ready' %}<span class="badge" style="margin-left:0.4rem;">{{ t.get_status_display }}</span>{% endif %}
             </div>
             <small class="muted">
-                {% blocktrans with count=t.questions_data|length %}{{ count }} soru{% endblocktrans %}
-                {% if t.last_session %} · {% blocktrans with score=t.last_session.score_percent %}son skor {{ score }}%{% endblocktrans %}{% endif %}
+                {% if t.status == 'pending' %}
+                    <span class="quiz-progress">{% trans "Hazırlanıyor..." %}</span>
+                {% elif t.status == 'failed' %}
+                    {% if t.error_message %}{{ t.error_message }}{% else %}{% trans "Quiz üretilemedi." %}{% endif %}
+                {% else %}
+                    {% blocktrans with count=t.question_count %}{{ count }} soru{% endblocktrans %}
+                    {% if t.last_session %} · {% blocktrans with score=t.last_session.score_percent %}son skor {{ score }}%{% endblocktrans %}{% endif %}
+                {% endif %}
             </small>
         </div>
+        {% if t.status == 'ready' %}
         <form method="post" action="{% url 'quizzes:start_template' t.id %}" style="margin:0;">
             {% csrf_token %}
             <button type="submit" class="btn btn-sm">
                 {% if t.is_completed %}{% trans "Tekrar çöz" %}{% else %}{% trans "Başla" %} →{% endif %}
             </button>
         </form>
+        {% elif t.status == 'pending' %}
+        <div class="spinner" aria-hidden="true" style="width:22px;height:22px;"></div>
+        {% endif %}
     </div>
     {% endfor %}
 </div>
@@ -62,26 +74,55 @@
     </form>
 </div>
 
-<div id="quiz-loading" role="status" aria-live="polite"
-     style="position:fixed;inset:0;background:rgba(11,13,19,.6);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);display:none;align-items:center;justify-content:center;z-index:1000;padding:24px;">
-    <div style="background:var(--surface);max-width:380px;width:100%;border-radius:var(--radius-lg);padding:1.75rem 1.5rem;text-align:center;box-shadow:var(--shadow-lg);">
-        <div class="spinner" aria-hidden="true" style="width:44px;height:44px;margin:0 auto 1rem;"></div>
-        <div style="font-weight:600;font-size:1.05rem;margin-bottom:6px;">{% trans "AI quizin hazırlanıyor..." %}</div>
-        <small class="muted">{% trans "Bu işlem 30-60 saniye sürebilir, sayfayı kapatma." %}</small>
-    </div>
-</div><script>
+<script>
 (function(){
-    var loading = document.getElementById('quiz-loading');
+    // Üretim artık arka planda: form anında dönüyor, tam ekran bekleme perdesi
+    // gerekmiyor. Sadece çift gönderimi engelliyoruz.
     var form = document.getElementById('quiz-generate-form');
     if (form) {
         form.addEventListener('submit', function(){
-            loading.style.display = 'flex';
             form.querySelectorAll('button[type=submit]').forEach(function(b){ b.disabled = true; });
         });
     }
     window.addEventListener('pageshow', function(e){
-        if (e.persisted) { loading.style.display = 'none'; }
+        if (e.persisted && form) {
+            form.querySelectorAll('button[type=submit]').forEach(function(b){ b.disabled = false; });
+        }
     });
+})();
+</script>
+{% endif %}
+
+{% if templates %}
+<script>
+(function(){
+    // Hazırlanan quizleri yokla: sorular biriktikçe sayacı güncelle, bitince
+    // sayfayı tazele ki "Başla" düğmesi çıksın.
+    var cards = document.querySelectorAll('[data-pending-template]');
+    if (!cards.length) { return; }
+    var base = "{% url 'quizzes:template_status' 0 %}";
+    var tpl = "{% trans '%(done)s / %(total)s soru hazır...' %}";
+
+    var timer = setInterval(function(){
+        var pending = document.querySelectorAll('[data-pending-template]');
+        if (!pending.length) { clearInterval(timer); return; }
+        pending.forEach(function(card){
+            var id = card.getAttribute('data-pending-template');
+            fetch(base.replace('/0/', '/' + id + '/'), {headers: {'X-Requested-With': 'XMLHttpRequest'}})
+                .then(function(r){ return r.ok ? r.json() : null; })
+                .then(function(data){
+                    if (!data) { return; }
+                    if (data.status !== 'pending') { clearInterval(timer); location.reload(); return; }
+                    var label = card.querySelector('.quiz-progress');
+                    if (label && data.ready_count > 0) {
+                        label.textContent = tpl
+                            .replace('%(done)s', data.ready_count)
+                            .replace('%(total)s', data.total);
+                    }
+                })
+                .catch(function(){ /* geçici ağ hatası — bir sonraki turda tekrar denenir */ });
+        });
+    }, 4000);
 })();
 </script>
 {% endif %}

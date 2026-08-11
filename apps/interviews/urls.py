@@ -8,5 +8,6 @@ urlpatterns = [
     path('create/', views.interview_create, name='create'),
     path('create-cv/', views.interview_create_cv, name='create_cv'),
     path('<int:pk>/', views.interview_detail, name='detail'),
+    path('<int:pk>/status/', views.interview_status, name='status'),
     path('<int:pk>/delete/', views.interview_delete, name='delete'),
 ]

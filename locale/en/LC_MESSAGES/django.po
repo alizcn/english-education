@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-03 07:56+0300\n"
+"POT-Creation-Date: 2026-08-10 22:03+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -238,57 +238,74 @@ msgstr "Custom title"
 msgid "CV yükleme"
 msgstr "CV upload"
 
-#: apps/interviews/views.py:43
-msgid "CV dosyası 5 MB'dan büyük olamaz."
-msgstr "The CV file cannot be larger than 5 MB."
+#: apps/interviews/models.py:65
+#| msgid "AI quizin hazırlanıyor..."
+msgctxt "mülakat durumu"
+msgid "Hazırlanıyor"
+msgstr "Preparing"
 
-#: apps/interviews/views.py:46
-msgid "Desteklenen formatlar: PDF, DOCX, TXT."
-msgstr "Supported formats: PDF, DOCX, TXT."
+#: apps/interviews/models.py:66
+#| msgid "Hazır"
+msgctxt "mülakat durumu"
+msgid "Hazır"
+msgstr "Ready"
 
-#: apps/interviews/views.py:56
-msgid "Dosya içeriği desteklenen bir formatla eşleşmiyor."
-msgstr "The file content does not match a supported format."
+#: apps/interviews/models.py:67
+#| msgid "Başarısız"
+msgctxt "mülakat durumu"
+msgid "Başarısız"
+msgstr "Failed"
 
-#: apps/interviews/views.py:76 apps/interviews/views.py:130
-msgid "Saatlik mülakat üretim hakkını doldurdun. Biraz sonra tekrar dene."
-msgstr "You've used up your hourly interview generation quota. Try again shortly."
-
-#: apps/interviews/views.py:83
-msgid "Lütfen bir iş başlığı girin."
-msgstr "Please enter a job title."
-
-#: apps/interviews/views.py:102 apps/interviews/views.py:163
+#: apps/interviews/tasks.py:45
 msgid "Sorular üretilirken beklenmedik bir hata oluştu."
 msgstr "An unexpected error occurred while generating the questions."
 
-#: apps/interviews/views.py:106 apps/interviews/views.py:167
+#: apps/interviews/tasks.py:49
 msgid "Sorular üretilemedi. Tekrar deneyin."
 msgstr "Questions could not be generated. Try again."
 
-#: apps/interviews/views.py:120
-#, python-format
-msgid "%(count)d mülakat sorusu oluşturuldu."
-msgstr "%(count)d interview questions created."
+#: apps/interviews/views.py:44
+msgid "CV dosyası 5 MB'dan büyük olamaz."
+msgstr "The CV file cannot be larger than 5 MB."
 
-#: apps/interviews/views.py:135
+#: apps/interviews/views.py:47
+msgid "Desteklenen formatlar: PDF, DOCX, TXT."
+msgstr "Supported formats: PDF, DOCX, TXT."
+
+#: apps/interviews/views.py:57
+msgid "Dosya içeriği desteklenen bir formatla eşleşmiyor."
+msgstr "The file content does not match a supported format."
+
+#: apps/interviews/views.py:77 apps/interviews/views.py:115
+msgid "Saatlik mülakat üretim hakkını doldurdun. Biraz sonra tekrar dene."
+msgstr ""
+"You've used up your hourly interview generation quota. Try again shortly."
+
+#: apps/interviews/views.py:84
+msgid "Lütfen bir iş başlığı girin."
+msgstr "Please enter a job title."
+
+#: apps/interviews/views.py:106
+msgid "Sorular hazırlanıyor. Hazır olunca bu sayfada görünecek."
+msgstr "Your questions are being prepared. They will appear on this page when ready."
+
+#: apps/interviews/views.py:120
 msgid "Lütfen bir CV dosyası yükleyin."
 msgstr "Please upload a CV file."
 
-#: apps/interviews/views.py:148
+#: apps/interviews/views.py:133
 msgid "CV dosyası okunamadı."
 msgstr "CV file could not be read."
 
-#: apps/interviews/views.py:153
+#: apps/interviews/views.py:138
 msgid "CV içeriği çok kısa veya okunamadı."
 msgstr "CV content is too short or unreadable."
 
-#: apps/interviews/views.py:180
-#, python-format
-msgid "CV analiz edildi. %(count)d mülakat sorusu oluşturuldu."
-msgstr "CV analyzed. %(count)d interview questions created."
+#: apps/interviews/views.py:151
+msgid "CV analiz ediliyor. Sorular hazır olunca bu sayfada görünecek."
+msgstr "Your CV is being analyzed. The questions will appear on this page when ready."
 
-#: apps/interviews/views.py:196
+#: apps/interviews/views.py:173
 msgid "Mülakat silindi."
 msgstr "Interview deleted."
 
@@ -505,31 +522,36 @@ msgstr "%(level)s level is not loaded."
 msgid "%(level)s ilerlemen sıfırlandı."
 msgstr "Your %(level)s progress has been reset."
 
-#: config/settings.py:118 templates/seo/grammar_detail.html:63
+#: config/settings.py:141 templates/seo/grammar_detail.html:63
 #: templates/seo/grammar_detail.html:75 templates/seo/grammar_detail.html:87
 #: templates/seo/words_level.html:57 templates/vocabulary/edit.html:17
 msgid "Türkçe"
 msgstr "Turkish"
 
-#: config/settings.py:119 templates/vocabulary/edit.html:14
+#: config/settings.py:142 templates/vocabulary/edit.html:14
 msgid "English"
 msgstr "English"
 
-#: services/ai.py:45 services/ai.py:241
+#: services/claude_client.py:135
+msgid "AI bu isteği yanıtlamayı reddetti. İfadeni değiştirip tekrar dene."
+msgstr "The AI declined to answer this request. Try rephrasing it."
+
+#: services/claude_client.py:176
+msgid "AI yanıtı beklenen formatta değil. Tekrar dene."
+msgstr "The AI response wasn't in the expected format. Please try again."
+
+#: services/claude_client.py:191
 msgid "AI şu an çok yoğun, bir dakika sonra tekrar dene."
 msgstr "The AI is very busy right now — please try again in a minute."
 
-#: services/ai.py:48 services/ai.py:244
+#: services/claude_client.py:194 services/claude_client.py:321
 msgid "AI bağlantısı zaman aşımına uğradı, tekrar dene."
 msgstr "The connection to the AI timed out — please try again."
 
-#: services/ai.py:51 services/ai.py:247
+#: services/claude_client.py:199 services/claude_client.py:203
+#: services/claude_client.py:325 services/claude_client.py:328
 msgid "AI servisi şu an yanıt vermiyor."
 msgstr "The AI service isn't responding right now."
-
-#: services/ai.py:58
-msgid "AI yanıtı beklenen formatta değil. Tekrar dene."
-msgstr "The AI response wasn't in the expected format. Please try again."
 
 #: services/sanitize.py:26
 msgid "Pozisyon adı boş olamaz."
@@ -916,8 +938,8 @@ msgstr "Rename"
 msgid "Bu sohbet silinsin mi?"
 msgstr "Delete this chat?"
 
-#: templates/chat/page.html:25 templates/interviews/detail.html:18
-#: templates/interviews/list.html:103
+#: templates/chat/page.html:25 templates/interviews/detail.html:21
+#: templates/interviews/list.html:107
 msgid "Sil"
 msgstr "Delete"
 
@@ -1246,7 +1268,6 @@ msgstr ""
 "assistant corrects your mistakes and offers natural conversation practice."
 
 #: templates/dashboard/landing.html:56
-#| msgid "Ücretsiz kayıt"
 msgid "Ücretsiz"
 msgstr "Free"
 
@@ -1259,30 +1280,26 @@ msgid "Kredi kartı yok · Süre sınırı yok"
 msgstr "No credit card · No time limit"
 
 #: templates/dashboard/landing.html:84
-#| msgid "İngilizceni seviye atlat. Mülakatı kap."
 msgid "İngilizceni seviye atlat."
 msgstr "Level up your English."
 
 #: templates/dashboard/landing.html:85
-#| msgid "Mülakat"
 msgid "Mülakatı kap."
 msgstr "Land the interview."
 
 #: templates/dashboard/landing.html:89
-#| msgid ""
-#| "Pozisyonuna özel mülakat soruları, 6.000+ kelime, gramer ve AI pratik — "
-#| "hepsi tek platformda, tamamen ücretsiz."
 msgid ""
 "Pozisyonuna özel AI mülakat soruları, A1'den C2'ye 6.000+ kelime, 18 gramer "
 "konusu ve AI sohbet pratiği. Türk yazılımcılar için tek platformda."
-msgstr "Role-specific AI interview questions, 6,000+ words from A1 to C2, 18 grammar topics and AI chat practice — one platform, built for Turkish developers."
+msgstr ""
+"Role-specific AI interview questions, 6,000+ words from A1 to C2, 18 grammar "
+"topics and AI chat practice — one platform, built for Turkish developers."
 
 #: templates/dashboard/landing.html:93 templates/seo/_public_base.html:56
 msgid "Ücretsiz Başla"
 msgstr "Start Free"
 
 #: templates/dashboard/landing.html:94
-#| msgid "Kelime Listeleri"
 msgid "Kelime listelerine bak"
 msgstr "Browse the word lists"
 
@@ -1291,7 +1308,6 @@ msgid "Kurulum gerekmez"
 msgstr "No setup required"
 
 #: templates/dashboard/landing.html:104
-#| msgid "Sadece kullanıcı adı ve şifre. 10 saniyede hazırsın."
 msgid "Sadece kullanıcı adı ve şifre"
 msgstr "Just a username and password"
 
@@ -1303,30 +1319,27 @@ msgstr "KVKK compliant"
 msgid ""
 "LevelEnAI paneli: İngilizce seviye takibi, kelime hazinesi ilerlemesi ve "
 "haftalık çalışma grafiği"
-msgstr "The LevelEnAI dashboard: English level tracking, vocabulary progress and a weekly study chart"
+msgstr ""
+"The LevelEnAI dashboard: English level tracking, vocabulary progress and a "
+"weekly study chart"
 
 #: templates/dashboard/landing.html:142
-#| msgid "Mülakat"
 msgid "AI mülakat"
 msgstr "AI interview"
 
 #: templates/dashboard/landing.html:143
-#| msgid "Pozisyona özel veya CV'ne göre İngilizce-Türkçe mülakat soruları"
 msgid "Pozisyona veya CV'ne özel sorular"
 msgstr "Questions tailored to your role or CV"
 
 #: templates/dashboard/landing.html:149
-#| msgid "6.000+ Kelime Hazinesi"
 msgid "6.000+ kelime"
 msgstr "6,000+ words"
 
 #: templates/dashboard/landing.html:150
-#| msgid "A1'den C2'ye sıralı quiz"
 msgid "A1'den C2'ye sıralı ilerleme"
 msgstr "Ordered progress from A1 to C2"
 
 #: templates/dashboard/landing.html:156
-#| msgid "Yeni sohbet"
 msgid "AI sohbet"
 msgstr "AI chat"
 
@@ -1339,7 +1352,6 @@ msgid "Mobil uygulama"
 msgstr "Mobile app"
 
 #: templates/dashboard/landing.html:164
-#| msgid "Tek dokunuşla aç, app gibi kullan."
 msgid "Ana ekrana ekle, app gibi kullan"
 msgstr "Add to your home screen, use it like an app"
 
@@ -1351,7 +1363,9 @@ msgstr "Scattered prep doesn't get you through an interview"
 msgid ""
 "Kelimeler defterde, gramer YouTube'da, mülakat soruları forumlarda. Hazırlık "
 "dağıldığında ilerlemeyi göremiyorsun."
-msgstr "Words in a notebook, grammar on YouTube, interview questions on forums. When prep is scattered, you can't see your progress."
+msgstr ""
+"Words in a notebook, grammar on YouTube, interview questions on forums. When "
+"prep is scattered, you can't see your progress."
 
 #: templates/dashboard/landing.html:184
 msgid "Bugün nasıl gidiyor?"
@@ -1366,12 +1380,10 @@ msgid "Gramer dağınık videolardan, sıralama yok"
 msgstr "Grammar comes from scattered videos, in no order"
 
 #: templates/dashboard/landing.html:189
-#| msgid "İngilizce Mülakat Soruları — Pozisyona Göre Hazırlık"
 msgid "Mülakat soruları genel; senin pozisyonuna göre değil"
 msgstr "Interview questions are generic, not matched to your role"
 
 #: templates/dashboard/landing.html:190
-#| msgid "Yanlış yaptığım kelimeler ne oluyor?"
 msgid "Yanlış yaptığın kelime bir daha karşına çıkmıyor"
 msgstr "A word you get wrong never comes back around"
 
@@ -1380,7 +1392,6 @@ msgid "Seviyenin nerede olduğunu ölçemiyorsun"
 msgstr "You have no way to measure where your level is"
 
 #: templates/dashboard/landing.html:202
-#| msgid "LevelEnAI ile Hazırlan"
 msgid "LevelEnAI ile"
 msgstr "With LevelEnAI"
 
@@ -1389,15 +1400,13 @@ msgid "6.000+ kelime seviyelere ayrılmış, sırayla ilerliyorsun"
 msgstr "6,000+ words split by level — you work through them in order"
 
 #: templates/dashboard/landing.html:206
-#| msgid ""
-#| "Zamanlar, modaller, conditionals — her konuda olumlu, olumsuz, soru "
-#| "örnekleri."
 msgid "18 gramer konusu; olumlu, olumsuz ve soru örnekleriyle"
 msgstr "18 grammar topics, each with positive, negative and question examples"
 
 #: templates/dashboard/landing.html:207
 msgid "İş başlığını yaz veya CV'ni yükle, sorular sana göre üretilsin"
-msgstr "Type a job title or upload your CV, and the questions are generated for you"
+msgstr ""
+"Type a job title or upload your CV, and the questions are generated for you"
 
 #: templates/dashboard/landing.html:208
 msgid "Yanlışların tekrar havuzuna düşüyor, peşini bırakmıyor"
@@ -1415,10 +1424,11 @@ msgstr "Who is it built for?"
 msgid ""
 "İngilizce mülakat, İngilizce dokümantasyon ve İngilizce ekip toplantısı işin "
 "bir parçasıysa buradasın."
-msgstr "If English interviews, English documentation and English stand-ups are part of your job, you're in the right place."
+msgstr ""
+"If English interviews, English documentation and English stand-ups are part "
+"of your job, you're in the right place."
 
 #: templates/dashboard/landing.html:228
-#| msgid "Yazılım Geliştirme (Genel)"
 msgid "Yazılım geliştiriciler"
 msgstr "Software developers"
 
@@ -1426,10 +1436,11 @@ msgstr "Software developers"
 msgid ""
 "Backend, frontend, mobil, veri — pozisyonunu seç, o role özel İngilizce-"
 "Türkçe mülakat soruları üretilsin."
-msgstr "Backend, frontend, mobile, data — pick your role and get English-Turkish interview questions written for it."
+msgstr ""
+"Backend, frontend, mobile, data — pick your role and get English-Turkish "
+"interview questions written for it."
 
 #: templates/dashboard/landing.html:233
-#| msgid "Yeniden adlandır"
 msgid "Yeni mezunlar"
 msgstr "New graduates"
 
@@ -1437,7 +1448,9 @@ msgstr "New graduates"
 msgid ""
 "A1'den başla, seviye atladıkça puanın artsın. Nereden başlayacağını "
 "düşünmeden çalışmaya otur."
-msgstr "Start at A1 and earn points as you level up. Sit down and study without wondering where to begin."
+msgstr ""
+"Start at A1 and earn points as you level up. Sit down and study without "
+"wondering where to begin."
 
 #: templates/dashboard/landing.html:238
 msgid "Remote iş arayanlar"
@@ -1447,20 +1460,21 @@ msgstr "Remote job seekers"
 msgid ""
 "Yurt dışı görüşmelerinde takıldığın yer kelime ve akıcılıksa, günlük "
 "pratikle ikisini birden çalış."
-msgstr "If vocabulary and fluency are what trip you up in international interviews, daily practice covers both at once."
+msgstr ""
+"If vocabulary and fluency are what trip you up in international interviews, "
+"daily practice covers both at once."
 
 #: templates/dashboard/landing.html:243
 msgid "Kendi listesini tutanlar"
 msgstr "People who keep their own list"
 
 #: templates/dashboard/landing.html:244
-#| msgid ""
-#| "Hocandan veya derslerden kelime gir, AI anlamını ve örnek cümlesini "
-#| "otomatik üretsin."
 msgid ""
 "Dersten veya işten aldığın kelimeleri gir; AI anlamını ve örnek cümlesini "
 "yazsın, quizini üretsin."
-msgstr "Enter words from class or work; the AI writes the meaning and an example sentence, then builds your quiz."
+msgstr ""
+"Enter words from class or work; the AI writes the meaning and an example "
+"sentence, then builds your quiz."
 
 #: templates/dashboard/landing.html:255
 msgid "Seviye"
@@ -1540,10 +1554,11 @@ msgstr "Practice with AI"
 
 #: templates/dashboard/landing.html:304
 msgid "AI asistanla İngilizce konuş, hatalarını görsün, doğrusunu öğren."
-msgstr "Speak English with the AI assistant; it catches your mistakes and shows you the correct form."
+msgstr ""
+"Speak English with the AI assistant; it catches your mistakes and shows you "
+"the correct form."
 
 #: templates/dashboard/landing.html:308
-#| msgid "Seviye"
 msgid "Seviye Takibi"
 msgstr "Level tracking"
 
@@ -1551,7 +1566,9 @@ msgstr "Level tracking"
 msgid ""
 "Her doğru cevap puana dönüşür, puan seviyene. Haftalık grafiğinde ne kadar "
 "çalıştığını görürsün."
-msgstr "Every correct answer becomes points, and points become levels. The weekly chart shows how much you've studied."
+msgstr ""
+"Every correct answer becomes points, and points become levels. The weekly "
+"chart shows how much you've studied."
 
 #: templates/dashboard/landing.html:320
 msgid "3 adımda İngilizce pratiğine başla"
@@ -1583,7 +1600,9 @@ msgstr "Practice Every Day"
 
 #: templates/dashboard/landing.html:340
 msgid "Quiz çöz, kelime öğren, AI ile konuş. İlerlemen otomatik kaydedilir."
-msgstr "Take quizzes, learn words, talk to the AI. Your progress is saved automatically."
+msgstr ""
+"Take quizzes, learn words, talk to the AI. Your progress is saved "
+"automatically."
 
 #: templates/dashboard/landing.html:351
 msgid "Ödeme planı yok. Tek bir plan var: ücretsiz."
@@ -1592,7 +1611,9 @@ msgstr "No pricing tiers. There is one plan: free."
 #: templates/dashboard/landing.html:352
 msgid ""
 "Kredi kartı istemiyoruz, deneme süresi saymıyoruz, özellik kilitlemiyoruz."
-msgstr "We don't ask for a credit card, count down a trial, or lock features behind a paywall."
+msgstr ""
+"We don't ask for a credit card, count down a trial, or lock features behind "
+"a paywall."
 
 #: templates/dashboard/landing.html:356
 msgid "Neden ücretsiz?"
@@ -1602,7 +1623,9 @@ msgstr "Why is it free?"
 msgid ""
 "LevelEnAI bir yan ürün olarak geliştirildi. Amacı Türk yazılımcıların "
 "İngilizce mülakatlarda takılmamasını sağlamak; abonelik satmak değil."
-msgstr "LevelEnAI was built as a side project. Its purpose is to keep Turkish developers from stumbling in English interviews — not to sell subscriptions."
+msgstr ""
+"LevelEnAI was built as a side project. Its purpose is to keep Turkish "
+"developers from stumbling in English interviews — not to sell subscriptions."
 
 #: templates/dashboard/landing.html:360
 msgid "Sonra ücretli olacak mı?"
@@ -1612,7 +1635,9 @@ msgstr "Will it become paid later?"
 msgid ""
 "Bugün kullandığınız özellikler ücretsiz kalır. İleride ek bir hizmet gelirse "
 "mevcut özellikleri kilitlemez."
-msgstr "The features you use today stay free. If an additional service ever arrives, it won't lock away what already exists."
+msgstr ""
+"The features you use today stay free. If an additional service ever arrives, "
+"it won't lock away what already exists."
 
 #: templates/dashboard/landing.html:364
 msgid "Verilerim ne oluyor?"
@@ -1622,7 +1647,9 @@ msgstr "What happens to my data?"
 msgid ""
 "Kelime ve ilerleme kaydınız yalnızca size gösterilir. Hesabınızı istediğiniz "
 "an profil sayfasından kalıcı olarak silebilirsiniz."
-msgstr "Your words and progress are shown only to you. You can permanently delete your account at any time from the profile page."
+msgstr ""
+"Your words and progress are shown only to you. You can permanently delete "
+"your account at any time from the profile page."
 
 #: templates/dashboard/landing.html:376
 msgid "Sıkça Sorulan Sorular"
@@ -1679,21 +1706,47 @@ msgstr "AI-coached interview prep for Turkish developers."
 msgid "Site Haritası"
 msgstr "Sitemap"
 
-#: templates/interviews/detail.html:8 templates/interviews/detail.html:54
+#: templates/interviews/detail.html:8 templates/interviews/detail.html:92
 msgid "Mülakatlarım"
 msgstr "My Interviews"
 
-#: templates/interviews/detail.html:13 templates/interviews/list.html:96
+#: templates/interviews/detail.html:14 templates/interviews/list.html:98
 #: templates/quizzes/picker.html:30
 #, python-format
 msgid "%(count)s soru"
 msgstr "%(count)s questions"
 
-#: templates/interviews/detail.html:16 templates/interviews/list.html:101
+#: templates/interviews/detail.html:19 templates/interviews/list.html:105
 msgid "Bu mülakat silinsin mi?"
 msgstr "Delete this interview?"
 
-#: templates/interviews/detail.html:36
+#: templates/interviews/detail.html:29
+#| msgid "AI mülakat soruların hazırlanıyor..."
+msgid "Sorular hazırlanıyor..."
+msgstr "Preparing your questions..."
+
+#: templates/interviews/detail.html:32
+msgid ""
+"Bu işlem birkaç dakika sürebilir. Sayfayı kapatabilirsin; hazır olunca "
+"burada seni bekliyor olacak."
+msgstr "This can take a few minutes. You can close the page; your questions will be waiting here."
+
+#: templates/interviews/detail.html:52
+#| msgid "Sorular üretilemedi. Tekrar deneyin."
+msgid "Sorular üretilemedi"
+msgstr "Questions could not be generated"
+
+#: templates/interviews/detail.html:54
+#| msgid "Sorular üretilirken beklenmedik bir hata oluştu."
+msgid "Sorular üretilirken bilinmeyen bir hata oluştu."
+msgstr "An unknown error occurred while generating the questions."
+
+#: templates/interviews/detail.html:56
+#| msgid "Yeni Quiz Oluştur"
+msgid "Yeni mülakat başlat"
+msgstr "Start a new interview"
+
+#: templates/interviews/detail.html:74
 msgid "Cevabı Göster"
 msgstr "Show Answer"
 
@@ -1765,19 +1818,19 @@ msgstr "Analyze CV and Generate Questions"
 msgid "AI mülakat soruların hazırlanıyor..."
 msgstr "Your AI interview questions are being prepared…"
 
-#: templates/interviews/list.html:83 templates/quizzes/picker.html:70
-msgid "Bu işlem 30-60 saniye sürebilir, sayfayı kapatma."
-msgstr "This can take 30–60 seconds; please don't close the page."
+#: templates/interviews/list.html:83
+msgid "Yönlendiriliyorsun; üretim arka planda sürecek."
+msgstr "Redirecting you; generation continues in the background."
 
 #: templates/interviews/list.html:87
 msgid "Geçmiş Mülakatlarım"
 msgstr "Past Interviews"
 
-#: templates/interviews/list.html:99
+#: templates/interviews/list.html:103
 msgid "Görüntüle"
 msgstr "View"
 
-#: templates/interviews/list.html:112
+#: templates/interviews/list.html:116
 msgid "Henüz mülakat oluşturmadın. Pozisyon seç veya CV yükle!"
 msgstr "You haven't created an interview yet. Pick a role or upload your CV!"
 
@@ -1836,7 +1889,9 @@ msgstr "Account creation, authentication and session management."
 
 #: templates/legal/_kvkk_body.html:27
 msgid "İngilizce mülakat hazırlık hizmetinin sunulması ve ilerleme takibi."
-msgstr "Providing the English interview preparation service and tracking your progress."
+msgstr ""
+"Providing the English interview preparation service and tracking your "
+"progress."
 
 #: templates/legal/_kvkk_body.html:28
 msgid "Kullanıcı destek taleplerinin karşılanması."
@@ -2001,6 +2056,10 @@ msgstr "Generate New Quiz"
 #: templates/quizzes/picker.html:69
 msgid "AI quizin hazırlanıyor..."
 msgstr "Your AI quiz is being prepared…"
+
+#: templates/quizzes/picker.html:70
+msgid "Bu işlem 30-60 saniye sürebilir, sayfayı kapatma."
+msgstr "This can take 30–60 seconds; please don't close the page."
 
 #: templates/quizzes/result.html:3
 msgid "Quiz Sonucu"
@@ -2192,7 +2251,8 @@ msgstr "English Grammar Topics — LevelEnAI"
 
 #: templates/seo/grammar_index.html:7
 msgid "18 gramer konusu, Türkçe anlatım ve 300+ örnek cümle. Ücretsiz."
-msgstr "18 grammar topics, Turkish explanations and 300+ example sentences. Free."
+msgstr ""
+"18 grammar topics, Turkish explanations and 300+ example sentences. Free."
 
 #: templates/seo/grammar_index.html:45
 msgid "Gramer Rehberi"
@@ -2683,7 +2743,8 @@ msgstr "Part of speech"
 #: templates/vocabulary/list.html:11
 #, python-format
 msgid "%(count)s kayıt · AI ile anlam, örnek cümle ve telaffuz"
-msgstr "%(count)s entries · AI-generated meaning, example sentence and pronunciation"
+msgstr ""
+"%(count)s entries · AI-generated meaning, example sentence and pronunciation"
 
 #: templates/vocabulary/list.html:21
 msgid "Quiz çalış"

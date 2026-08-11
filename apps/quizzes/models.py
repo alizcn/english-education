@@ -1,12 +1,23 @@
 from django.conf import settings
 from django.db import models
-from django.utils.translation import gettext_lazy as _
+from django.utils.translation import gettext_lazy as _, pgettext_lazy
 
 
 class QuizTemplate(models.Model):
     WORD = 'word'
     TOPIC = 'topic'
     KIND_CHOICES = [(WORD, _('Kelime')), (TOPIC, _('Konu'))]
+
+    PENDING = 'pending'
+    READY = 'ready'
+    FAILED = 'failed'
+    # pgettext: aynı msgid mülakat tarafında da var ve orada mülakata özgü
+    # çevrildi. Bağlam vermezsek biri diğerinin çevirisini miras alır.
+    STATUS_CHOICES = [
+        (PENDING, pgettext_lazy('quiz durumu', 'Hazırlanıyor')),
+        (READY, pgettext_lazy('quiz durumu', 'Hazır')),
+        (FAILED, pgettext_lazy('quiz durumu', 'Başarısız')),
+    ]
 
     user = models.ForeignKey(
         settings.AUTH_USER_MODEL,
@@ -22,7 +33,13 @@ class QuizTemplate(models.Model):
         related_name='quiz_templates',
     )
     name = models.CharField(max_length=40)
-    questions_data = models.JSONField()
+    # Üretim arka planda ve parça parça ilerliyor: şablon PENDING olarak boş
+    # doğuyor, sorular biriktikçe buraya yazılıyor.
+    questions_data = models.JSONField(default=list)
+    # Varsayılan READY: mevcut satırlar (seed quizler dahil) zaten dolu.
+    # Üretimi kuyruğa atan view'ler status'ü açıkça PENDING veriyor.
+    status = models.CharField(max_length=10, choices=STATUS_CHOICES, default=READY)
+    error_message = models.CharField(max_length=300, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:
@@ -30,6 +47,14 @@ class QuizTemplate(models.Model):
 
     def __str__(self):
         return f'{self.name} [{self.kind}]'
+
+    @property
+    def question_count(self):
+        return len(self.questions_data) if self.questions_data else 0
+
+    @property
+    def is_ready(self):
+        return self.status == self.READY
 
 
 class QuizSession(models.Model):

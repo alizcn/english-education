@@ -25,6 +25,10 @@ services:
     volumes:
       - ./data:/app/data
       - ./logs:/app/logs
+      # CLAUDE_AUTH_MODE=cli için: Claude Code CLI kimliği bu oturumdan okunur.
+      # CLAUDE_AUTH_MODE=api kullanılacaksa bu iki satır kaldırılabilir.
+      - ~/.claude:/root/.claude
+      - ~/.claude.json:/root/.claude.json
     depends_on:
       redis:
         condition: service_healthy
@@ -42,6 +46,8 @@ services:
     volumes:
       - ./data:/app/data
       - ./logs:/app/logs
+      - ~/.claude:/root/.claude
+      - ~/.claude.json:/root/.claude.json
     depends_on:
       redis:
         condition: service_healthy
