@@ -218,6 +218,25 @@ class ParallelMapTests(unittest.TestCase):
     def test_empty_input_yields_nothing(self):
         self.assertEqual(list(claude_client.parallel_map(lambda x: x, [])), [])
 
+    def test_consumer_bailing_out_does_not_block_on_running_chunks(self):
+        """celery soft_time_limit tüketiciyi keserse görev asılı kalmamalı.
+
+        `with ThreadPoolExecutor(...)` kullanılsaydı blok çıkışı shutdown(wait=True)
+        yapar ve en yavaş parçanın CLI timeout'unu (600s) beklerdi.
+        """
+        def slow(x):
+            if x == 0:
+                return 'hizli'
+            time.sleep(3)
+            return 'yavas'
+
+        gen = claude_client.parallel_map(slow, list(range(4)))
+        next(gen)  # ilk biten parçayı al, sonra tüketiciyi kes
+        start = time.monotonic()
+        gen.close()
+        elapsed = time.monotonic() - start
+        self.assertLess(elapsed, 1.0, f'çalışan parçaları bekledi: {elapsed:.2f}s')
+
 
 class ApiTransportTests(unittest.TestCase):
     """_generate_api'nin stop_reason ve hata eşlemesi — ağa çıkmadan."""

@@ -45,6 +45,12 @@ CLAUDE_REASONING_EFFORT = os.getenv('CLAUDE_REASONING_EFFORT', '')
 # Haiku 4.5'te düşünmeyi kapatmanın yolu parametreyi hiç göndermemek.
 CLAUDE_THINKING = os.getenv('CLAUDE_THINKING', '')
 CLAUDE_MAX_RETRIES = int(os.getenv('CLAUDE_MAX_RETRIES', '3'))
+# Uzun üretimler paralel parçalara bölünüyor (bkz. services/claude_client.parallel_map).
+# Bu tavan BELLEKLE sınırlı: cli modunda her parça ayrı bir Claude Code subprocess'i ve
+# ölçümde her biri ~220-400 MB RSS. Celery worker concurrency'siyle ÇARPILIR — ikisini
+# birlikte büyütmek OOM'a, oradan da acks_late yüzünden sonsuz yeniden teslim döngüsüne
+# götürür. Ölçüm ayrıca 5'ten fazla parçanın hız kazandırmadığını gösteriyor.
+CLAUDE_MAX_PARALLEL = int(os.getenv('CLAUDE_MAX_PARALLEL', '5'))
 
 # ---------------------------------------------------------------- SEO
 # Canonical/OG/sitemap URL'leri bu köke göre kurulur. Şema mutlaka https

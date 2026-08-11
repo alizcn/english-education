@@ -37,7 +37,12 @@ services:
     build: .
     container_name: english-education-celery
     restart: unless-stopped
-    command: celery -A config worker -l info --concurrency=2
+    # concurrency=1: her görev kendi içinde CLAUDE_MAX_PARALLEL (5) subprocess'e
+    # açılıyor ve her biri ~220-400 MB. concurrency=2 en kötü durumda 10 subprocess
+    # ≈ 3 GB demekti; OOM-kill + acks_late yeniden teslimi sonsuz döngü yaratır.
+    # Eşzamanlı ikinci kullanıcı sıraya girer — OOM'da 15 dakika beklemekten iyi.
+    command: celery -A config worker -l info --concurrency=1
+    mem_limit: 3g
     env_file:
       - .env
     environment:
