@@ -180,6 +180,20 @@ class CliTransportTests(unittest.TestCase):
         self.assertEqual(out, '{"items": []}')
 
 
+class CliSessionLimitTests(unittest.TestCase):
+    def test_session_limit_string_is_detected(self):
+        text = "You've hit your session limit · resets 7:30am (UTC)"
+        self.assertTrue(claude_client._is_session_limit_error(Exception(text)))
+        self.assertTrue(claude_client._is_session_limit_error(Exception('Claude Code returned an error result: success')))
+
+    @mock.patch.object(claude_client, '_run_sync', side_effect=Exception("You've hit your session limit · resets 7:30am (UTC)"))
+    def test_generate_cli_reports_session_limit_cleanly(self, _mock_run_sync):
+        with self.assertRaises(claude_client.ClaudeClientError) as ctx:
+            claude_client._generate_cli('sys', [{'role': 'user', 'content': 'hi'}], 100)
+        self.assertFalse(ctx.exception.retryable)
+        self.assertIn('oturum', str(ctx.exception).lower())
+
+
 class ParallelMapTests(unittest.TestCase):
     """Parçalı üretimin taşıyıcısı: bitenler beklemeden akmalı, hata turu düşürmemeli."""
 

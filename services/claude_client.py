@@ -283,6 +283,16 @@ async def _cli_query(system: str, prompt: str) -> str:
     return ''.join(pieces).strip()
 
 
+def _is_session_limit_error(exc: BaseException) -> bool:
+    text = str(exc).lower()
+    return (
+        'session limit' in text
+        or 'you\'ve hit your session limit' in text
+        or 'claude code returned an error result: success' in text
+        or 'rate limit' in text
+    )
+
+
 def _run_sync(coro):
     """Coroutine'i senkron bağlamdan çalıştırır; ASGI altındaysak ayrı thread'te loop açar."""
     try:
@@ -326,6 +336,14 @@ def _generate_cli(system: str, messages: list[dict], max_tokens: int) -> str:
         raise ClaudeClientError(_('AI servisi şu an yanıt vermiyor.'), retryable=False) from e
     except Exception as e:
         logger.exception('claude cli hatası')
+        if _is_session_limit_error(e):
+            raise ClaudeClientError(
+                _(
+                    'Claude Code oturumu doldu. Birkaç dakika sonra tekrar dene ya da '
+                    'ANTHROPIC_API_KEY ekleyerek API modunu kullan.'
+                ),
+                retryable=False,
+            ) from e
         raise ClaudeClientError(_('AI servisi şu an yanıt vermiyor.')) from e
 
 

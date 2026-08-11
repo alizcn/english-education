@@ -21,6 +21,9 @@
     <button type="submit" class="btn btn-lg btn-block">{% trans "Giriş yap" %}</button>
 </form>
 <p class="text-center mt-2 muted">
+    <a href="{% url 'accounts:password_reset' %}">{% trans "Şifremi unuttum" %}</a>
+</p>
+<p class="text-center mt-2 muted">
     {% trans "Hesabın yok mu?" %} <a href="{% url 'accounts:signup' %}">{% trans "Kayıt ol" %}</a>
 </p>
 {% endblock %}

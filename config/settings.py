@@ -9,8 +9,48 @@ load_dotenv(BASE_DIR / '.env')
 
 SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'change-me-if-you-like')
 DEBUG = os.getenv('DJANGO_DEBUG', '0') == '1'
-ALLOWED_HOSTS = [h.strip() for h in os.getenv('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',') if h.strip()]
-CSRF_TRUSTED_ORIGINS = [o.strip() for o in os.getenv('CSRF_TRUSTED_ORIGINS', '').split(',') if o.strip()]
+
+
+def _split_csv(value):
+    return [item.strip() for item in value.split(',') if item.strip()]
+
+
+def _host_from_url(url_value):
+    if not url_value:
+        return ''
+    url_value = url_value.strip().rstrip('/')
+    if '://' in url_value:
+        url_value = url_value.split('://', 1)[1]
+    host = url_value.split('/', 1)[0]
+    return host.split(':', 1)[0]
+
+
+SITE_URL = os.getenv('SITE_URL', 'https://levelenai.com').rstrip('/')
+
+
+def get_allowed_hosts():
+    hosts = set(_split_csv(os.getenv('ALLOWED_HOSTS', 'localhost,127.0.0.1,[::1]')))
+    site_host = _host_from_url(SITE_URL)
+    if site_host:
+        hosts.add(site_host)
+    return sorted(hosts)
+
+
+def get_csrf_trusted_origins():
+    origins = set(_split_csv(os.getenv('CSRF_TRUSTED_ORIGINS', '')))
+    site_url = os.getenv('SITE_URL', '').strip()
+    if site_url:
+        origins.add(site_url.rstrip('/'))
+    for host in ('http://localhost:8000', 'http://127.0.0.1:8000', 'http://localhost:8070', 'http://127.0.0.1:8070'):
+        origins.add(host)
+    return sorted(origins)
+
+
+ALLOWED_HOSTS = get_allowed_hosts()
+CSRF_TRUSTED_ORIGINS = get_csrf_trusted_origins()
+
+EMAIL_BACKEND = os.getenv('EMAIL_BACKEND', 'django.core.mail.backends.console.EmailBackend')
+DEFAULT_FROM_EMAIL = os.getenv('DEFAULT_FROM_EMAIL', 'noreply@levelenai.com')
 
 if not DEBUG:
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
@@ -55,7 +95,6 @@ CLAUDE_MAX_PARALLEL = int(os.getenv('CLAUDE_MAX_PARALLEL', '5'))
 # ---------------------------------------------------------------- SEO
 # Canonical/OG/sitemap URL'leri bu köke göre kurulur. Şema mutlaka https
 # olmalı; aksi halde canonical ile gerçek URL çakışır.
-SITE_URL = os.getenv('SITE_URL', 'https://levelenai.com').rstrip('/')
 SITE_NAME = 'LevelEnAI'
 SEO_DEFAULT_IMAGE = 'og/levelenai-og.png'
 SEO_TWITTER_HANDLE = os.getenv('SEO_TWITTER_HANDLE', '')
