@@ -14,7 +14,29 @@
 </div>
 
 <div class="card mb-2">
-    <div class="topic-explanation" lang="{{ explanation_lang }}" style="margin:0; color:var(--text); white-space:pre-line; line-height:1.6;">{{ explanation }}</div>
+    <div class="topic-explanation" lang="{{ explanation_lang }}">
+        {% for section in topic.explanation_sections %}
+            <div class="topic-note-block">
+                <div class="topic-note-title">{{ section.title }}</div>
+                {% if section.items %}
+                    {% if section.items|length == 1 and section.title == 'Özet' %}
+                        <div style="white-space: pre-line; line-height: 1.7; color: var(--text);">{{ section.items.0 }}</div>
+                    {% else %}
+                        <ul class="topic-note-list">
+                            {% for item in section.items %}
+                                <li>{{ item }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                {% endif %}
+            </div>
+        {% empty %}
+            <div class="topic-note-block">
+                <div class="topic-note-title">{% trans "Açıklama" %}</div>
+                <div style="white-space: pre-line; line-height: 1.7; color: var(--text);">{{ explanation }}</div>
+            </div>
+        {% endfor %}
+    </div>
 </div>
 
 <div class="btn-row mb-2">
