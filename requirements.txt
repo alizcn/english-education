@@ -13,3 +13,4 @@ python-magic>=0.4.27
 celery>=5.3
 redis>=5.0
 django-celery-beat>=2.5
+django-auditlog>=3.0

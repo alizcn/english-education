@@ -381,3 +381,43 @@ class ChatMessageResource(Resource):
     def content_preview(self, obj):
         s = obj.content or ''
         return (s[:100] + '…') if len(s) > 100 else s
+
+
+# ===================== Sistem =====================
+
+@register('audit-logs')
+class AuditLogResource(Resource):
+    from auditlog.models import LogEntry as _LogEntry
+    model = _LogEntry
+    label = 'Audit Log'
+    label_singular = 'Log'
+    icon = '🔍'
+    section = 'Sistem'
+    list_columns = (
+        ('timestamp', 'Zaman'),
+        ('actor', 'Kullanıcı'),
+        ('content_type', 'Model'),
+        ('object_repr', 'Nesne'),
+        ('get_action_display', 'İşlem'),
+        ('changes_short', 'Değişiklikler'),
+        ('remote_addr', 'IP'),
+    )
+    search_fields = ('object_repr', 'actor__username', 'actor__email')
+    order_by = ('-timestamp',)
+    can_create = False
+    can_edit = False
+    select_related = ('content_type', 'actor')
+
+    def get_action_display(self, obj):
+        return obj.get_action_display()
+
+    def changes_short(self, obj):
+        try:
+            changes = obj.changes
+            if not changes:
+                return ''
+            keys = list(changes.keys())
+            preview = ', '.join(keys[:3])
+            return f'{preview} (+{len(keys)-3})' if len(keys) > 3 else preview
+        except Exception:
+            return ''

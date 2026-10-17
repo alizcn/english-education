@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -sS -c /tmp/cj2.txt http://127.0.0.1:8070/accounts/signup/)",
+      "Bash(docker exec *)",
+      "Bash(pip3 install *)",
+      "Bash(curl -sS -o /dev/null -w \"%{http_code}\\\\n\" http://127.0.0.1:8070/accounts/login/)",
+      "Bash(curl -sS http://127.0.0.1:8070/accounts/login/)",
+      "Bash(curl -sS -o /dev/null -w \"%{http_code}\\\\n\" http://127.0.0.1:8070/)",
+      "Bash(curl -sS http://127.0.0.1:8070/)",
+      "Bash(DB_PATH=/root/apps/english-education/data/db.sqlite3 python3 manage.py migrate quizzes)",
+      "Bash(DB_PATH=/root/apps/english-education/data/db.sqlite3 python3 manage.py showmigrations quizzes)",
+      "Bash(curl -sS -o /dev/null -w 'HTTP %{http_code}\\\\n' http://localhost:8070/)",
+      "Bash(curl -sS -o /dev/null -w 'HTTP %{http_code}\\\\n' http://localhost:8070/quiz/topics/present-simple/)",
+      "Bash(find /root/apps/english-education/locale -name '*.po' -exec wc -l {} \\\\;)",
+      "Bash(sed -n '385,395p' /root/apps/english-education/locale/en/LC_MESSAGES/django.po)",
+      "Bash(sed -n '710,725p' /root/apps/english-education/locale/en/LC_MESSAGES/django.po)",
+      "Bash(DB_PATH=/root/apps/english-education/data/db.sqlite3 python3 manage.py seed_topics)",
+      "Bash(curl -sS -o /dev/null -w 'logo SVG: %{http_code} · %{size_download}B\\\\n' http://localhost:8070/static/icons/hireup-logo.svg)",
+      "Bash(curl -sS -o /dev/null -w 'mark SVG: %{http_code} · %{size_download}B\\\\n' http://localhost:8070/static/icons/hireup-mark.svg)",
+      "Bash(python manage.py shell -c \"from django.contrib.auth import get_user_model; U=get_user_model\\(\\); [print\\(u.username, u.email, u.is_superuser\\) for u in U.objects.filter\\(is_superuser=True\\)]\")",
+      "Bash(curl -s -o /tmp/landing_tr.html -w \"TR: %{http_code}\\\\n\" http://localhost:8070/)",
+      "Bash(curl -s -o /tmp/landing_en.html -w \"EN: %{http_code}\\\\n\" -H \"Cookie: django_language=en\" http://localhost:8070/)",
+      "Bash(curl -s -c /tmp/ck.txt http://localhost:8070/accounts/login/)",
+      "Bash(curl -s -b /tmp/ck.txt http://localhost:8070/abonelik/paketlerim/ -o /tmp/subs_en.html -w \"Subs EN: %{http_code}\\\\n\")",
+      "Bash(curl -s -b /tmp/ck.txt http://localhost:8070/)",
+      "Bash(curl -s -c /tmp/ck3.txt https://levelenai.com/accounts/login/)"
+    ]
+  }
+}

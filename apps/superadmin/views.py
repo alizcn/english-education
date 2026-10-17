@@ -313,6 +313,23 @@ def update_view(request, slug, pk):
 
 
 @superuser_required
+def reset_password_view(request, pk):
+    user = get_object_or_404(User, pk=pk)
+    if request.method == 'POST':
+        new_password = request.POST.get('new_password', '').strip()
+        if len(new_password) < 6:
+            messages.error(request, 'Şifre en az 6 karakter olmalı.')
+        else:
+            user.set_password(new_password)
+            user.save(update_fields=['password'])
+            messages.success(request, f'{user.username} şifresi güncellendi.')
+            return redirect('superadmin:detail', slug='users', pk=pk)
+    ctx = _common_context(active_slug='users')
+    ctx['obj'] = user
+    return render(request, 'superadmin/reset_password.html', ctx)
+
+
+@superuser_required
 def delete_view(request, slug, pk):
     resource = get_resource(slug)
     if not resource or not resource.can_delete:

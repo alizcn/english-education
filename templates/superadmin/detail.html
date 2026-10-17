@@ -16,6 +16,9 @@
     {% if resource.can_edit %}
     <a href="{% url 'superadmin:edit' slug=resource.slug pk=obj.pk %}" class="sa-btn sa-btn-primary">Düzenle</a>
     {% endif %}
+    {% if resource.slug == 'users' %}
+    <a href="{% url 'superadmin:reset_password' pk=obj.pk %}" class="sa-btn sa-btn-warning">Şifre Sıfırla</a>
+    {% endif %}
     {% if resource.can_delete %}
     <a href="{% url 'superadmin:delete' slug=resource.slug pk=obj.pk %}" class="sa-btn sa-btn-danger">Sil</a>
     {% endif %}

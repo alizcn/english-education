@@ -6,6 +6,7 @@ app_name = 'superadmin'
 
 urlpatterns = [
     path('', views.dashboard, name='dashboard'),
+    path('users/<int:pk>/reset-password/', views.reset_password_view, name='reset_password'),
     path('<slug:slug>/', views.list_view, name='list'),
     path('<slug:slug>/new/', views.create_view, name='create'),
     path('<slug:slug>/<int:pk>/', views.detail_view, name='detail'),

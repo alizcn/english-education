@@ -1,5 +1,9 @@
 from django.conf.urls.i18n import i18n_patterns
 from django.contrib import admin
+
+admin.site.site_header = 'LevelEnAI Yönetim'
+admin.site.site_title = 'LevelEnAI Admin'
+admin.site.index_title = 'Kontrol Paneli'
 from django.contrib.sitemaps.views import sitemap
 from django.urls import path, include
 

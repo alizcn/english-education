@@ -356,8 +356,8 @@ strong, b { color: var(--text); font-weight: 620; }
 }
 
 .topbar-inner {
-    max-width: 1000px; margin: 0 auto;
-    padding: 0 1rem;
+    max-width: 1440px; margin: 0 auto;
+    padding: 0 2rem;
     height: 100%;
     display: flex; align-items: center; justify-content: space-between; gap: 1rem;
 }
@@ -390,8 +390,8 @@ strong, b { color: var(--text); font-weight: 620; }
 .topnav-link.active { color: var(--primary); font-weight: 600; background: var(--primary-soft); }
 
 .main {
-    max-width: 1000px; margin: 0 auto;
-    padding: 1.5rem 1rem calc(var(--bnav-h) + 2rem);
+    max-width: 1440px; margin: 0 auto;
+    padding: 1.5rem 2rem calc(var(--bnav-h) + 2rem);
     min-height: calc(100vh - var(--nav-h));
     position: relative;
     z-index: 1;
@@ -1177,7 +1177,7 @@ label input, label textarea, label select { margin-top: 0.35rem; }
     display: grid;
     grid-template-columns: 264px 1fr;
     gap: 1rem;
-    max-width: 1100px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -1820,7 +1820,7 @@ label input, label textarea, label select { margin-top: 0.35rem; }
     height: 60px;
 }
 .landing-nav-inner {
-    max-width: 1120px; margin: 0 auto; padding: 0 1.25rem; height: 100%;
+    max-width: 1440px; margin: 0 auto; padding: 0 2rem; height: 100%;
     display: flex; align-items: center; justify-content: space-between; gap: 0.75rem;
 }
 .landing-nav-logo { height: 32px; }
@@ -1847,7 +1847,7 @@ label input, label textarea, label select { margin-top: 0.35rem; }
 }
 @media (min-width: 900px) { .nav-free-tag { display: inline-flex; } }
 
-.l-container { max-width: 1120px; margin: 0 auto; padding: 0 1.25rem; }
+.l-container { max-width: 1440px; margin: 0 auto; padding: 0 2rem; }
 .l-container-narrow { max-width: 760px; }
 
 /* --- Bölüm ritmi: üç zemin ------------------------------------------- */
@@ -3170,8 +3170,8 @@ a.pub-chip:hover { border-color: var(--border-strong); color: var(--primary); }
 }
 
 @media (min-width: 1024px) {
-    .main { max-width: 1060px; }
-    .topbar-inner { max-width: 1060px; }
+    .main { max-width: 1440px; }
+    .topbar-inner { max-width: 1440px; }
 }
 
 @media (max-width: 767px) {

@@ -85,6 +85,7 @@
             {% include '_levelenai_logo.html' with logo_height="38px" %}
         </a>
         <nav class="topnav">
+            {% if user.is_superuser %}<a href="{% url 'superadmin:dashboard' %}" class="topnav-link {% if 'superadmin' in request.resolver_match.namespaces %}active{% endif %}">⚙ Yönetim</a>{% endif %}
             <a href="{% url 'dashboard:home' %}" class="topnav-link {% if request.resolver_match.url_name == 'home' %}active{% endif %}">{% trans "Ana Sayfa" %}</a>
             <a href="{% url 'interviews:list' %}" class="topnav-link {% if 'interviews' in request.resolver_match.namespaces %}active{% endif %}">{% trans "Mülakat" %}</a>
             <a href="{% url 'wordbank:levels' %}" class="topnav-link {% if 'wordbank' in request.resolver_match.namespaces %}active{% endif %}">{% trans "Kelime Hazinesi" %}</a>
@@ -123,6 +124,12 @@
                         <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
                         {% trans "Profilim" %}
                     </a>
+                    {% if user.is_superuser %}
+                    <a href="/levelenai-admin/" class="user-menu-item" role="menuitem" target="_blank">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+                        Admin Panel
+                    </a>
+                    {% endif %}
                     <div class="user-menu-divider"></div>
                     <form method="post" action="{% url 'accounts:logout' %}" class="user-menu-logout">
                         {% csrf_token %}

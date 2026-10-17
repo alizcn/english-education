@@ -16,13 +16,14 @@ services:
     container_name: english-education
     restart: unless-stopped
     ports:
-      - "8070:8000"
+      - "8010:8000"
     env_file:
       - .env
     environment:
       - DB_PATH=/app/data/db.sqlite3
       - REDIS_URL=redis://redis:6379/0
     volumes:
+      - ./templates:/app/templates
       - ./data:/app/data
       - ./logs:/app/logs
       # CLAUDE_AUTH_MODE=cli için: Claude Code CLI kimliği bu oturumdan okunur.
