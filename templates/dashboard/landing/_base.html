@@ -51,6 +51,12 @@ gibi HTML'e basılıyordu — kaynak yolu halka açık sayfada görünüyordu.{%
 
 {# ---- HERO: konumlandırma + gerçek ürün görseli ---------------------- #}
 <section class="l-hero-section">
+    <div class="aurora" aria-hidden="true">
+        <span class="aurora__blob aurora__blob--1"></span>
+        <span class="aurora__blob aurora__blob--2"></span>
+        <span class="aurora__blob aurora__blob--3"></span>
+        <span class="aurora__blob aurora__blob--4"></span>
+    </div>
     <div class="l-container">
         <div class="l-hero-inner fade-up">
             <span class="free-badge">
@@ -89,6 +95,24 @@ gibi HTML'e basılıyordu — kaynak yolu halka açık sayfada görünüyordu.{%
     </div>
 
     <div class="hero-shot fade-up delay-1">
+        {% comment %}Süzülen kartlar dekoratif ve dil-nötr (yalnızca sayı ve
+        seviye kodu): çevirisi gerekmiyor, ekran okuyucudan gizli.{% endcomment %}
+        <span class="float-chip float-chip--a" aria-hidden="true">
+            <span class="float-chip__icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>
+            9/10
+        </span>
+        <span class="float-chip float-chip--b" aria-hidden="true">
+            <span class="float-chip__icon"><svg viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></span>
+            B1 → B2
+        </span>
+        <span class="float-chip float-chip--c" aria-hidden="true">
+            <span class="float-chip__icon"><svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
+            +24
+        </span>
+        <span class="float-chip float-chip--d" aria-hidden="true">
+            <span class="float-chip__icon"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
+            <span class="hello-roll"><span class="hello-roll__col"><span>Hello</span><span>Hallo</span><span>Bonjour</span><span>Merhaba</span><span>Hello</span></span></span>
+        </span>
         <div class="hero-shot__frame">
             <div class="hero-shot__bar">
                 <span class="hero-shot__dots" aria-hidden="true"><span></span><span></span><span></span></span>
@@ -107,6 +131,25 @@ gibi HTML'e basılıyordu — kaynak yolu halka açık sayfada görünüyordu.{%
         <div class="hero-shot__fade" aria-hidden="true"></div>
     </div>
 </section>
+
+{% comment %}Kelime şeridi + canlı demo: kelime hazinesinden gerçek kelimeler
+(learn_extras.showcase_words). Arayüz dili hedef dille aynıysa anlam
+olmadığından liste boş gelir ve iki bölüm de basılmaz.{% endcomment %}
+{% showcase_words landing_target 30 fallback=generic_landing as showcase %}
+{% if showcase|length >= 10 %}
+<section class="word-stream" aria-label="{% trans 'Kelime hazinesinden örnekler' %}">
+    {% for row in "ab" %}
+    <div class="word-stream__row{% if forloop.last %} word-stream__row--rev{% endif %}">
+        {% for copy in "12" %}
+        <div class="word-stream__track"{% if forloop.last %} aria-hidden="true"{% endif %}>
+            {% if forloop.parentloop.first %}{% for w in showcase|slice:":15" %}<span class="word-pill lvl-{{ w.level|lower }}"><span class="word-pill__lvl">{{ w.level }}</span><b lang="{{ w.lang }}">{{ w.term }}</b><span class="word-pill__mean">{{ w.meaning }}</span></span>{% endfor %}
+            {% else %}{% for w in showcase|slice:"15:" %}<span class="word-pill lvl-{{ w.level|lower }}"><span class="word-pill__lvl">{{ w.level }}</span><b lang="{{ w.lang }}">{{ w.term }}</b><span class="word-pill__mean">{{ w.meaning }}</span></span>{% endfor %}{% endif %}
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</section>
+{% endif %}
 
 {# ---- Yetenek şeridi -------------------------------------------------- #}
 <section class="l-section l-section--tight">
@@ -143,6 +186,57 @@ gibi HTML'e basılıyordu — kaynak yolu halka açık sayfada görünüyordu.{%
         </div>
     </div>
 </section>
+
+{% if showcase|length >= 10 %}
+<section id="dene" class="l-section l-section--brand demo-section">
+    <div class="l-container">
+        <div class="demo-grid">
+            <div class="demo-copy reveal">
+                <span class="l-eyebrow"><span class="live-dot" aria-hidden="true"></span>{% trans "Canlı demo" %}</span>
+                <h2>{% trans "Kayıt olmadan bir tur dene" %}</h2>
+                <p class="l-lead">{% trans "Kelime hazinesinden beş gerçek kelime. Doğru anlamı seç, ardından örnek cümleyi gör." %}</p>
+                <a href="{% url 'accounts:signup' %}" class="l-feature-link">{% trans "Ücretsiz Kayıt Ol" %} →</a>
+            </div>
+
+            <div class="quiz-demo reveal" data-quiz
+                 data-correct="{% trans 'Doğru!' %}"
+                 data-wrong="{% trans 'Doğrusu işaretlendi' %}"
+                 data-next="{% trans 'Sonraki kelime' %}"
+                 data-finish="{% trans 'Sonucu gör' %}">
+                <div class="quiz-demo__top">
+                    <span class="quiz-demo__dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+                    <span class="quiz-demo__score" aria-live="polite">0/5</span>
+                </div>
+                <div class="flip">
+                    <div class="flip__inner">
+                        <div class="flip__face flip__front">
+                            <span class="word-pill__lvl quiz-demo__lvl"></span>
+                            <div class="quiz-demo__term" lang="{{ landing_target }}"></div>
+                            <div class="quiz-demo__hint">{% trans "Doğru anlamı seç" %}</div>
+                        </div>
+                        <div class="flip__face flip__back">
+                            <span class="quiz-demo__label">{% trans "Örnek cümle" %}</span>
+                            <p class="quiz-demo__ex" lang="{{ landing_target }}"></p>
+                            <p class="quiz-demo__ex-tr"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="quiz-demo__options" role="group"></div>
+                <div class="quiz-demo__bottom">
+                    <span class="quiz-demo__feedback" aria-live="polite"></span>
+                    <button type="button" class="btn quiz-demo__next" hidden></button>
+                </div>
+                <div class="quiz-demo__end" hidden>
+                    <div class="quiz-demo__final"><span class="quiz-demo__final-num"></span>/5</div>
+                    <a href="{% url 'accounts:signup' %}" class="btn btn-lg landing-btn-primary">{% trans "Ücretsiz Kayıt Ol" %} →</a>
+                    <button type="button" class="btn btn-ghost quiz-demo__replay">{% trans "Tekrar oyna" %}</button>
+                </div>
+                {{ showcase|json_script:"showcase-data" }}
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
 
 {% comment %}01 · Önce / sonra. Listelerin çoğu hedef dilden bağımsız (dağınık
 hazırlık her dilde aynı şekilde dağınık); yalnızca başlık, lead ve dile özgü
@@ -429,19 +523,4 @@ sicilden doluyor, yani beşinci dil eklendiğinde metin elle güncellenmiyor.
 </footer>
 {% endblock %}
 
-{% block body_scripts %}
-<script>
-(function() {
-    if ('IntersectionObserver' in window) {
-        var io = new IntersectionObserver(function(entries) {
-            entries.forEach(function(e) {
-                if (e.isIntersecting) { e.target.classList.add('is-visible'); io.unobserve(e.target); }
-            });
-        }, { threshold: 0.1 });
-        document.querySelectorAll('.reveal, .fade-up').forEach(function(el) { io.observe(el); });
-    } else {
-        document.querySelectorAll('.reveal, .fade-up').forEach(function(el) { el.classList.add('is-visible'); });
-    }
-})();
-</script>
-{% endblock %}
+{% comment %}Kaydırınca belirme, sayaçlar ve kart ışığı static/js/motion.js'de.{% endcomment %}

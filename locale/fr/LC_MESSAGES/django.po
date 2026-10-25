@@ -3455,3 +3455,43 @@ msgstr "⏳ %(unseen)s restant"
 #: templates/wordbank/levels.html:35
 msgid "Devam et"
 msgstr "Continuer"
+
+#: templates/dashboard/landing/_base.html
+msgid "Kelime hazinesinden örnekler"
+msgstr "Exemples du vocabulaire"
+
+#: templates/dashboard/landing/_base.html
+msgid "Canlı demo"
+msgstr "Démo en direct"
+
+#: templates/dashboard/landing/_base.html
+msgid "Kayıt olmadan bir tur dene"
+msgstr "Essaie une manche sans inscription"
+
+#: templates/dashboard/landing/_base.html
+msgid "Kelime hazinesinden beş gerçek kelime. Doğru anlamı seç, ardından örnek cümleyi gör."
+msgstr "Cinq vrais mots du vocabulaire. Choisis le bon sens, puis découvre la phrase d'exemple."
+
+#: templates/dashboard/landing/_base.html
+msgid "Doğru!"
+msgstr "Correct !"
+
+#: templates/dashboard/landing/_base.html
+msgid "Doğrusu işaretlendi"
+msgstr "La bonne réponse est indiquée"
+
+#: templates/dashboard/landing/_base.html
+msgid "Sonraki kelime"
+msgstr "Mot suivant"
+
+#: templates/dashboard/landing/_base.html
+msgid "Sonucu gör"
+msgstr "Voir le résultat"
+
+#: templates/dashboard/landing/_base.html
+msgid "Doğru anlamı seç"
+msgstr "Choisis le bon sens"
+
+#: templates/dashboard/landing/_base.html
+msgid "Tekrar oyna"
+msgstr "Rejouer"

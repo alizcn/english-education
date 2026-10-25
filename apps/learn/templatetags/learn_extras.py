@@ -64,3 +64,55 @@ def lang_name(code, case='nom'):
 def learnable_languages():
     """Yayındaki öğrenilebilir diller — kurs seçicide dönülüyor."""
     return languages.LEARNABLE_LANGUAGES
+
+
+SHOWCASE_LEVELS = ('A1', 'A2', 'B1')
+
+
+@register.simple_tag
+def showcase_words(target, count=30, fallback=False):
+    """Landing'deki kelime şeridi ve canlı quiz için gerçek kelimeler.
+
+    Ana dil arayüz dili. Hedef ile aynıysa (İngilizce arayüzde İngilizce)
+    anlam yok: `fallback` açıksa (dört dili tanıtan genel ana sayfa) başka bir
+    öğrenilebilir dile geçilir, kapalıysa liste boş döner ve şablon bölümleri
+    gizler. Saatte bir yenileniyor.
+    """
+    from django.core.cache import cache
+    from apps.wordbank.models import BankWord
+
+    native = _ui_language()
+    if native == target:
+        if not fallback:
+            return []
+        target = next((c for c in languages.LEARNABLE_CODES if c != native), None)
+        if not target:
+            return []
+    key = f'showcase_words:{target}:{native}:{count}'
+    words = cache.get(key)
+    if words is not None:
+        return words
+    qs = (BankWord.objects
+          .filter(language=target, level__in=SHOWCASE_LEVELS,
+                  translations__language=native)
+          .exclude(example='')
+          .prefetch_related('translations')
+          .order_by('?')[:count])
+    words = []
+    for w in qs:
+        tr = w.translation_for(native)
+        if not tr:
+            continue
+        meaning = tr.meaning.split(',')[0].split(';')[0].strip()
+        if not meaning or len(meaning) > 32 or len(w.term) > 22:
+            continue
+        words.append({
+            'lang': target,
+            'term': w.term,
+            'level': w.level,
+            'meaning': meaning,
+            'example': w.example,
+            'example_translation': tr.example_translation,
+        })
+    cache.set(key, words, 3600)
+    return words

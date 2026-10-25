@@ -71,6 +71,8 @@
     <link rel="preload" href="{% static 'fonts/inter-latin-ext.woff2' %}" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="{% static 'css/inter.css' %}">
     <link rel="stylesheet" href="{% static 'css/app.css' %}">
+    <link rel="stylesheet" href="{% static 'css/motion.css' %}">
+    <script src="{% static 'js/motion.js' %}" defer></script>
 
     {% if seo.google_verification %}<meta name="google-site-verification" content="{{ seo.google_verification }}">{% endif %}
     {% if not seo.skip %}{% include 'seo/_jsonld_site.html' %}{% endif %}
