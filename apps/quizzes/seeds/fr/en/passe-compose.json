@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "J'ai vu un film hier.",
+    "correct_answer": "I saw a film yesterday.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle est venue à la maison.",
+    "correct_answer": "She came to the house.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ils n'ont pas compris la leçon.",
+    "correct_answer": "They did not understand the lesson.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Avez-vous terminé votre projet?",
+    "correct_answer": "Have you finished your project?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je me suis trompé.",
+    "correct_answer": "I made a mistake.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I have written a letter.",
+    "correct_answer": "J'ai écrit une lettre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He arrived this morning.",
+    "correct_answer": "Il est arrivé ce matin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We did not eat.",
+    "correct_answer": "Nous n'avons pas mangé.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Did she go to work?",
+    "correct_answer": "Est-elle allée au travail?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They have received a package.",
+    "correct_answer": "Ils ont reçu un paquet.",
+    "choices": null
+  }
+]

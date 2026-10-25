@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "La petite fille est heureuse.",
+    "correct_answer": "The little girl is happy.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "These are beautiful old houses.",
+    "correct_answer": "Ce sont de belles vieilles maisons.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je n'aime pas les garçons malheureux.",
+    "correct_answer": "I don't like unhappy boys.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She has a new blue car.",
+    "correct_answer": "Elle a une nouvelle voiture bleue.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ce n'est pas une bonne question.",
+    "correct_answer": "This is not a good question.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Tall and beautiful trees stand here.",
+    "correct_answer": "De grands et beaux arbres se dressent ici.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Avez-vous des amies italiennes?",
+    "correct_answer": "Do you have Italian girlfriends?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The small red chairs are very comfortable.",
+    "correct_answer": "Les petites chaises rouges sont très confortables.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous avons un bon professeur.",
+    "correct_answer": "We have a good teacher.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "That is not a long story.",
+    "correct_answer": "Ce n'est pas une longue histoire.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Les vieilles dames sont très élégantes.",
+    "correct_answer": "The old ladies are very elegant.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She has three beautiful young daughters.",
+    "correct_answer": "Elle a trois belles jeunes filles.",
+    "choices": null
+  }
+]

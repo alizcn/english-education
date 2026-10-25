@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "J'avais mangé avant de partir.",
+    "correct_answer": "Gitmeden önce yemiştim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ben geldiğimde, o evi terk etmişti.",
+    "correct_answer": "Quand je suis arrivé, il avait quitté la maison.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle était allée à l'école.",
+    "correct_answer": "O okula gitmişti.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onlar gelmeden, ben kendimi hazırlamıştım.",
+    "correct_answer": "Avant qu'ils arrivent, je m'étais préparé.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu n'avais pas compris.",
+    "correct_answer": "Anlamamıştın.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Evi temizlemeden, ben yemek pişirmiştim.",
+    "correct_answer": "Avant de nettoyer la maison, j'avais préparé à manger.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Avaient-ils terminé?",
+    "correct_answer": "Bitirmişler miydi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Biz gelmeden, öğretmen dersi anlatmıştı.",
+    "correct_answer": "Avant que nous arrivions, l'enseignant avait expliqué la leçon.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous n'étions pas partis à temps.",
+    "correct_answer": "Zamanında ayrılmamıştık.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ben uyandığımda, o kahvaltı yapmıştı.",
+    "correct_answer": "Quand je me suis réveillé, il avait pris le petit-déjeuner.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ils avaient oublié les clés.",
+    "correct_answer": "Anahtarları unutmuşlardı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kapı açık buldum çünkü onu açmıştı.",
+    "correct_answer": "J'ai trouvé la porte ouverte parce qu'il l'avait ouverte.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Vous n'aviez pas lu le livre.",
+    "correct_answer": "Kitabı okumamıştınız.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Biz orada varınca, satıcı dükkanı kapamıştı.",
+    "correct_answer": "Quand nous sommes arrivés, le vendeur avait fermé le magasin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Était-elle venue à la réunion?",
+    "correct_answer": "O toplantıya gelmişti mi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Çalışmaya başlamadan, ben kahve içmiştim.",
+    "correct_answer": "Avant de commencer à travailler, j'avais pris un café.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je n'étais jamais allé là.",
+    "correct_answer": "Oraya hiç gitmemiştim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Filmi başladığında, ben popcorn satın almıştım.",
+    "correct_answer": "Quand le film a commencé, j'avais acheté du pop-corn.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elles avaient rangé la chambre.",
+    "correct_answer": "Odayı toplamışlardı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Görüşme başlamadan, onlar tartışmışlardı.",
+    "correct_answer": "Avant que la réunion commence, ils avaient discuté.",
+    "choices": null
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "J'avais préparé le dîner avant qu'ils arrivent.",
+    "correct_answer": "I had prepared dinner before they arrived.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He had finished reading the newspaper.",
+    "correct_answer": "Il avait fini de lire le journal.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "N'avais-tu pas compris la leçon?",
+    "correct_answer": "Hadn't you understood the lesson?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They had never seen that film.",
+    "correct_answer": "Ils n'avaient jamais vu ce film.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ils avaient commencé la réunion avant mon arrivée.",
+    "correct_answer": "They had started the meeting before my arrival.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We had tidied our rooms before the holidays.",
+    "correct_answer": "Nous avions rangé nos chambres avant les vacances.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous nous étions habillés rapidement.",
+    "correct_answer": "We had dressed quickly.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Had she prepared everything?",
+    "correct_answer": "Avait-elle tout préparé?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Aviez-vous terminé avant midi?",
+    "correct_answer": "Had you finished before noon?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He had never seen such a thing.",
+    "correct_answer": "Il n'avait jamais vu une telle chose.",
+    "choices": null
+  }
+]

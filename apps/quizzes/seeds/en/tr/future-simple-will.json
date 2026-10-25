@@ -1,0 +1,86 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I will go to the cinema tomorrow.",
+    "correct_answer": "Yarın sinemaya gideceğim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She will not come to the party.",
+    "correct_answer": "Partiye gelmeyecek.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Will you help me?",
+    "correct_answer": "Bana yardım edecek misin?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They will finish the project next week.",
+    "correct_answer": "Projeyi gelecek hafta bitirecekler.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He won't listen to you.",
+    "correct_answer": "Seni dinlemeyecek.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "We will have dinner together.",
+    "correct_answer": "Birlikte akşam yemeği yiyeceğiz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "It will rain this weekend.",
+    "correct_answer": "Bu hafta sonu yağmur yağacak.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Yarın yağmur yağacak.",
+    "correct_answer": "It will rain tomorrow.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Siz bize yardım edecek misiniz?",
+    "correct_answer": "Will you help us?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onlar bunu başaramayacaklar.",
+    "correct_answer": "They will not be able to do it.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ben sana sonra telefon edeceğim.",
+    "correct_answer": "I will call you later.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O filmi seveceksin.",
+    "correct_answer": "You will love that movie.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Akşam eve döneceksin.",
+    "correct_answer": "You will go home in the evening.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O bunu asla yapamayacak.",
+    "correct_answer": "He will never be able to do it.",
+    "choices": null
+  }
+]

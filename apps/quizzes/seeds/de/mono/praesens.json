@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich ___ jeden Morgen Kaffee.",
+    "correct_answer": "trinke",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Konjugation von 'gehen' (2. Person Singular) ist korrekt?",
+    "correct_answer": "Du gehst in die Schule",
+    "choices": [
+      "Du gehst in die Schule",
+      "Du gehen in die Schule",
+      "Du geht in die Schule",
+      "Du gohst in die Schule"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Er ___ ein Buch.",
+    "correct_answer": "liest",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form von 'sein' (1. Person Singular) ist korrekt?",
+    "correct_answer": "Ich bin Student",
+    "choices": [
+      "Ich bin Student",
+      "Ich seid Student",
+      "Ich bist Student",
+      "Ich sind Student"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Wir ___ zusammen Mittag.",
+    "correct_answer": "essen",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Verneinung ist grammatikalisch korrekt?",
+    "correct_answer": "Sie spielen nicht im Park",
+    "choices": [
+      "Sie spielen nicht im Park",
+      "Sie nicht spielen im Park",
+      "Sie spielen im Park nicht",
+      "Nicht sie spielen im Park"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das Kind ___ jetzt.",
+    "correct_answer": "schläft",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Frage mit 'du' ist grammatikalisch korrekt?",
+    "correct_answer": "Arbeitest du morgen?",
+    "choices": [
+      "Arbeitest du morgen?",
+      "Du arbeitest morgen?",
+      "Arbeitet du morgen?",
+      "Arbeite du morgen?"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich ___ keinen Kaffee am Abend.",
+    "correct_answer": "trinke",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form von 'haben' (3. Person Singular) ist korrekt?",
+    "correct_answer": "Er hat einen Bruder",
+    "choices": [
+      "Er hat einen Bruder",
+      "Er habt einen Bruder",
+      "Er hast einen Bruder",
+      "Er haben einen Bruder"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Der Zug ___ um 9 Uhr ab.",
+    "correct_answer": "fährt",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form von 'können' (3. Person Plural) ist korrekt?",
+    "correct_answer": "Sie können morgen kommen",
+    "choices": [
+      "Sie können morgen kommen",
+      "Sie könnt morgen kommen",
+      "Sie kannst morgen kommen",
+      "Sie können zu morgen kommen"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ihr ___ noch nicht zu Hause?",
+    "correct_answer": "seid",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Negation ist grammatikalisch richtig?",
+    "correct_answer": "Ich mache das Essen nicht",
+    "choices": [
+      "Ich mache das Essen nicht",
+      "Ich nicht mache das Essen",
+      "Ich mache nicht das Essen",
+      "Nicht ich mache das Essen"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Anna ___ eine neue Wohnung.",
+    "correct_answer": "hat",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Frage mit Fragewort ist grammatikalisch korrekt?",
+    "correct_answer": "Wo wohnst du?",
+    "choices": [
+      "Wo wohnst du?",
+      "Wo wohnt du?",
+      "Wohnst wo du?",
+      "Wo du wohnst?"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Heute ___ es sehr warm.",
+    "correct_answer": "ist",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form von 'wollen' (2. Person Singular) ist korrekt?",
+    "correct_answer": "Du willst nach Berlin fahren",
+    "choices": [
+      "Du willst nach Berlin fahren",
+      "Du wollen nach Berlin fahren",
+      "Du wollt nach Berlin fahren",
+      "Du willt nach Berlin fahren"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Wir ___ das nicht verstehen.",
+    "correct_answer": "verstehen",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Frage mit Negation ist grammatikalisch korrekt?",
+    "correct_answer": "Spielst du nicht gerne?",
+    "choices": [
+      "Spielst du nicht gerne?",
+      "Du spielst nicht gerne?",
+      "Nicht spielst du gerne?",
+      "Spielst nicht du gerne?"
+    ]
+  }
+]

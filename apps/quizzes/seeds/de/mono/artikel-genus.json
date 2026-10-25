@@ -1,0 +1,157 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ Mann schläft.",
+    "correct_answer": "Der",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ Frau arbeitet.",
+    "correct_answer": "Die",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ Kind spielt im Park.",
+    "correct_answer": "Das",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das ist ___ Tisch.",
+    "correct_answer": "ein",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich sehe ___ Mann.",
+    "correct_answer": "den",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sie kauft ___ Lampe.",
+    "correct_answer": "eine",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich gebe ___ Kind das Buch.",
+    "correct_answer": "dem",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ Kinder spielen.",
+    "correct_answer": "Die",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das Haus ___ Lehrers ist groß.",
+    "correct_answer": "des",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Er hat keinen ___.",
+    "correct_answer": "Bruder",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Der Hund schläft ___ Bett.",
+    "correct_answer": "im",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ist ___ Fenster groß?",
+    "correct_answer": "das",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das ___ ist klein.",
+    "correct_answer": "Kind",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "___ Auto ist rot.",
+    "correct_answer": "Das",
+    "choices": [
+      "Der",
+      "Die",
+      "Das",
+      "Ein"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Ich sehe ___ Hund.",
+    "correct_answer": "einen",
+    "choices": [
+      "einen",
+      "ein",
+      "einem",
+      "der"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Ich gebe ___ Frau das Buch.",
+    "correct_answer": "der",
+    "choices": [
+      "der",
+      "den",
+      "die",
+      "das"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Das Haus ___ Mannes ist groß.",
+    "correct_answer": "des",
+    "choices": [
+      "der",
+      "den",
+      "des",
+      "dem"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Artikel passt zu 'Tisch'?",
+    "correct_answer": "der",
+    "choices": [
+      "der",
+      "die",
+      "das",
+      "ein"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "___ Schulen sind groß.",
+    "correct_answer": "Die",
+    "choices": [
+      "Der",
+      "Das",
+      "Die",
+      "Ein"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Ich fahre ___ Park.",
+    "correct_answer": "in den",
+    "choices": [
+      "in den",
+      "in der",
+      "in das",
+      "in dem"
+    ]
+  }
+]

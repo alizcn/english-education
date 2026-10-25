@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je viendrai demain.",
+    "correct_answer": "Yarın geleceğim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu finiras ton devoir.",
+    "correct_answer": "Ödevini bitireceğsin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ils parleront français.",
+    "correct_answer": "Fransızca konuşacaklar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle ne mangera pas de pain.",
+    "correct_answer": "Ekmek yemeyecek.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous ferons une promenade.",
+    "correct_answer": "Bir yürüyüş yapacağız.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Vous verrez le film.",
+    "correct_answer": "Filmi göreceksiniz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je ne serai pas là.",
+    "correct_answer": "Orada olmayacağım.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il aura un grand succès.",
+    "correct_answer": "Büyük bir başarı kazanacak.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elles iront à l'école.",
+    "correct_answer": "Okula gidecekler.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je voudrai un café.",
+    "correct_answer": "Bir kahve isteyeceğim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Parlerez-vous demain?",
+    "correct_answer": "Yarın konuşacak mısınız?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous ne pourrons pas partir.",
+    "correct_answer": "Gidemeyeceğiz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ben bir mektup yazacağım.",
+    "correct_answer": "J'écrirai une lettre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Biz burada kalmayacağız.",
+    "correct_answer": "Nous ne resterons pas ici.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Siz güzel müzik dinleyeceksiniz.",
+    "correct_answer": "Vous écouterez de la belle musique.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onlar parka gidecekler.",
+    "correct_answer": "Ils iront au parc.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Yarın yağmur yağacak.",
+    "correct_answer": "Demain il pleuvra.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Biz saat kaçta buluşacağız?",
+    "correct_answer": "À quelle heure nous rencontrerons-nous?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O kitabı okumayacak.",
+    "correct_answer": "Il ne lira pas ce livre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Yarın çok güzel bir gün olacak.",
+    "correct_answer": "Demain ce sera une très belle journée.",
+    "choices": null
+  }
+]

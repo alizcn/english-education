@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Mädchen, das in meiner Klasse sitzt, heißt Maria.",
+    "correct_answer": "La fille qui est dans ma classe s'appelle Maria.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "L'homme à qui j'ai donné le livre est mon professeur.",
+    "correct_answer": "Der Mann, dem ich das Buch gegeben habe, ist mein Lehrer.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Frau, mit der ich arbeite, ist sehr intelligent.",
+    "correct_answer": "La femme avec laquelle je travaille est très intelligente.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Les enfants dont les parents travaillent jouent au parc.",
+    "correct_answer": "Die Kinder, deren Eltern arbeiten, spielen im Park.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Film, den ich nicht sehen will, ist zu lang.",
+    "correct_answer": "Le film que je ne veux pas voir est trop long.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "C'est le professeur qui m'a aidé hier.",
+    "correct_answer": "Das ist der Professor, der mir gestern geholfen hat.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das ist die Theorie, von der ich nicht überzeugt bin.",
+    "correct_answer": "C'est la théorie dont je ne suis pas convaincu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "L'étudiant dont l'examen est demain est nerveux.",
+    "correct_answer": "Der Student, dessen Prüfung morgen ist, ist nervös.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Studenten, auf die die Professoren warten, kommen bald.",
+    "correct_answer": "Les étudiants que les professeurs attendent arrivent bientôt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "La personne avec qui je travaille est sympa.",
+    "correct_answer": "Die Person, mit der ich arbeite, ist nett.",
+    "choices": null
+  }
+]

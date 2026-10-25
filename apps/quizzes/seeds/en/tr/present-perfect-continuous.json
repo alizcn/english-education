@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I have been waiting for two hours.",
+    "correct_answer": "İki saattir bekliyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She has been studying all day.",
+    "correct_answer": "Bütün gün ders çalışıyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They have not been talking to each other.",
+    "correct_answer": "Birbirlerine konuşmuyorlar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Have you been feeling tired recently?",
+    "correct_answer": "Son zamanlarda yorgun hissediyor musun?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He has been learning English since 2020.",
+    "correct_answer": "2020'den beri İngilizce öğreniyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "We have been waiting in the queue all morning.",
+    "correct_answer": "Sabah boyunca kuyrukta bekliyoruz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Üç hafta boyunca seyahat ediyorlar.",
+    "correct_answer": "They have been traveling for three weeks.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Son zamanlarda yeterince uyumamış.",
+    "correct_answer": "She hasn't been sleeping enough recently.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Siz burada ne kadar süredir çalışıyorsunuz?",
+    "correct_answer": "How long have you been working here?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Çocuklar bahçede oynuyorlar.",
+    "correct_answer": "The children have been playing in the garden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bu cihaz düzgün çalışmıyor.",
+    "correct_answer": "This device hasn't been working properly.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Dört yıldır bu şehirde yaşıyorum.",
+    "correct_answer": "I have been living in this city for four years.",
+    "choices": null
+  }
+]

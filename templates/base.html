@@ -1,5 +1,5 @@
 {% load static %}
-{% load i18n %}
+{% load i18n learn_extras %}
 <!DOCTYPE html>
 <html lang="{{ LANGUAGE_CODE }}">
 <head>
@@ -22,8 +22,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
     {# ---- Başlık & açıklama ---------------------------------------- #}
-    <title>{% block full_title %}{% block title %}{% trans "İngilizce Öğren" %}{% endblock %} · LevelEnAI{% endblock %}</title>
-    <meta name="description" content="{% block meta_description %}{% trans "LevelEnAI ile İngilizce kelime, gramer ve AI destekli mülakat pratiği. A1'den C2'ye 6.000+ kelime, 18 gramer konusu — tamamen ücretsiz." %}{% endblock %}">
+    <title>{% block full_title %}{% block title %}{% target_name 'acc' as tacc %}{% blocktrans with lang=tacc %}{{ lang }} Öğren{% endblocktrans %}{% endblock %} · LevelEnAI{% endblock %}</title>
+    <meta name="description" content="{% block meta_description %}{% target_name as tlang %}{% blocktrans with lang=tlang %}LevelEnAI ile {{ lang }} kelime, gramer ve AI destekli mülakat pratiği. A1'den C2'ye binlerce kelime ve gramer konusu — tamamen ücretsiz.{% endblocktrans %}{% endblock %}">
     {% comment %}Oturum içi sayfalar varsayılan olarak indekslenmez; halka açık
     şablonlar `robots` bloğunu "index, follow, max-image-preview:large…" ile ezer.{% endcomment %}
     <meta name="robots" content="{% block robots %}noindex, follow{% endblock %}">
@@ -32,22 +32,26 @@
     {% if not seo.skip %}
     <link rel="canonical" href="{% block canonical %}{{ seo.canonical }}{% endblock %}">
     {% for alt in seo.alternates %}<link rel="alternate" hreflang="{{ alt.code }}" href="{{ alt.url }}">
-    {% endfor %}<link rel="alternate" hreflang="x-default" href="{{ seo.x_default }}">
+    {% endfor %}{% if seo.x_default %}<link rel="alternate" hreflang="x-default" href="{{ seo.x_default }}">{% endif %}
     {% endif %}
     {% block pagination_links %}{% endblock %}
 
     {# ---- Open Graph / Twitter ------------------------------------- #}
     <meta property="og:site_name" content="LevelEnAI">
     <meta property="og:type" content="{% block og_type %}website{% endblock %}">
-    <meta property="og:locale" content="{% if LANGUAGE_CODE == 'en' %}en_US{% else %}tr_TR{% endif %}">
-    <meta property="og:locale:alternate" content="{% if LANGUAGE_CODE == 'en' %}tr_TR{% else %}en_US{% endif %}">
-    <meta property="og:title" content="{% block og_title %}{% trans "LevelEnAI — İngilizce öğren, mülakatı kap." %}{% endblock %}">
-    <meta property="og:description" content="{% block og_description %}{% trans "İngilizce kelime, gramer ve AI destekli mülakat hazırlığı — tamamen ücretsiz." %}{% endblock %}">
+    {% comment %}Dil sicilinden geliyor (services/languages.py). Eskiden iki
+    dilli bir {% templatetag openblock %} if {% templatetag closeblock %} vardı
+    ve üçüncü dil aktifken og:locale yanlış şekilde tr_TR oluyordu.{% endcomment %}
+    <meta property="og:locale" content="{{ seo.og_locale }}">
+    {% for locale in seo.og_locale_alternates %}<meta property="og:locale:alternate" content="{{ locale }}">
+    {% endfor %}
+    <meta property="og:title" content="{% block og_title %}{% target_name 'acc' as tacc %}{% blocktrans with lang=tacc %}LevelEnAI — {{ lang }} öğren, mülakatı kap.{% endblocktrans %}{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}{% target_name as tlang %}{% blocktrans with lang=tlang %}{{ lang }} kelime, gramer ve AI destekli mülakat hazırlığı — tamamen ücretsiz.{% endblocktrans %}{% endblock %}">
     <meta property="og:url" content="{{ seo.canonical }}">
     <meta property="og:image" content="{% block og_image %}{{ seo.default_image }}{% endblock %}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="{% trans "LevelEnAI — İngilizce öğren, mülakatı kap." %}">
+    <meta property="og:image:alt" content="{% target_name 'acc' as tacc %}{% blocktrans with lang=tacc %}LevelEnAI — {{ lang }} öğren, mülakatı kap.{% endblocktrans %}">
     <meta name="twitter:card" content="summary_large_image">
     {% if seo.twitter %}<meta name="twitter:site" content="{{ seo.twitter }}">{% endif %}
 
@@ -58,7 +62,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="LevelEnAI">
-    <link rel="manifest" href="{% static 'manifest.json' %}">
+    <link rel="manifest" href="{% url 'seo:manifest' %}">
     <link rel="icon" href="{% static 'icons/levelenai-mark.svg' %}" type="image/svg+xml">
     <link rel="alternate icon" href="{% static 'icons/icon-192.png' %}" type="image/png" sizes="192x192">
     <link rel="apple-touch-icon" href="{% static 'icons/apple-touch-icon.png' %}">
@@ -95,16 +99,7 @@
         </nav>
         <div style="display:flex; align-items:center; gap:0.35rem;">
             {% include '_theme_toggle.html' %}
-            <form method="post" action="{% url 'set_language' %}" class="lang-switcher">
-                {% csrf_token %}
-                <input type="hidden" name="next" value="{{ request.path }}">
-                {% get_current_language as LANG %}
-                {% if LANG == 'tr' %}
-                <button type="submit" name="language" value="en" class="lang-btn" title="English">EN</button>
-                {% else %}
-                <button type="submit" name="language" value="tr" class="lang-btn" title="Türkçe">TR</button>
-                {% endif %}
-            </form>
+            {% include '_lang_switcher.html' %}
             {% if user.is_authenticated %}
             <div class="user-menu" data-user-menu>
                 <button type="button" class="user-chip user-menu-trigger" data-user-menu-trigger aria-haspopup="true" aria-expanded="false">
@@ -120,6 +115,19 @@
                             <div class="user-menu-sub">{{ user.email|default:"" }}</div>
                         </div>
                     </div>
+                    {% comment %}Kurs seçici BURADAN linklenmek zorunda: çok
+                    kurslu olma özelliği hiçbir yerden linklenmediği için
+                    arayüzde görünmüyordu ve kullanıcı ancak `/learn/`
+                    adresini elle yazarak ikinci bir dil ekleyebiliyordu.
+                    Aktif kursu da yazıyoruz ki hangi dilde çalışıldığı
+                    menüden görünsün.{% endcomment %}
+                    <a href="{% url 'learn:courses' %}" class="user-menu-item" role="menuitem">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                        {% trans "Kurslarım" %}
+                        {% if request.target_language %}
+                        <span class="badge" style="margin-left:auto;">{% lang_name request.target_language %}</span>
+                        {% endif %}
+                    </a>
                     <a href="{% url 'accounts:profile' %}" class="user-menu-item" role="menuitem">
                         <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
                         {% trans "Profilim" %}
@@ -144,6 +152,32 @@
         </div>
     </div>
 </header>
+
+{% comment %}KURS ŞERİDİ — uygulama içinde sürekli görünen ince bant.
+
+Niçin gerekli: kullanıcı birden çok dil çalışabiliyor ve hangi kursta
+olduğu yalnızca URL'den (`/learn/de/...`) anlaşılıyordu. Sayfalar arasında
+gezerken "ben şu an hangi dildeyim?" sorusu cevapsız kalıyordu.
+
+Yalnızca kursu olan GİRİŞ YAPMIŞ kullanıcıda çıkıyor; halka açık sayfalarda
+ve kimlik sayfalarında `request.course` boş olduğu için hiç render edilmiyor.
+Kurs değiştirme bağlantısı aynı şeritte, yani değiştirmek tek tık.
+{% endcomment %}
+{% if request.course %}
+<div class="course-bar">
+    <div class="course-bar-inner">
+        <span class="course-bar-text">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            {% target_name 'acc' as c_target %}{% native_name as c_native %}{% blocktrans with lang=c_target nlang=c_native %}{{ lang }} öğreniyorsun · anlatım {{ nlang }}{% endblocktrans %}
+        </span>
+        <span class="course-bar-meta">
+            <span class="badge">{{ request.course.current_level }}</span>
+            <span class="badge">{{ request.course.score }}p</span>
+            <a href="{% url 'learn:courses' %}" class="course-bar-link">{% trans "Kurs değiştir" %}</a>
+        </span>
+    </div>
+</div>
+{% endif %}
 
 <main class="main">
     {% if messages %}
@@ -274,37 +308,43 @@
     setTimeout(() => { banner.hidden = false; }, 1200);
 })();
 
+</script>
+{% endblock %}
+
+{% block body_scripts %}{% endblock %}
+<script>
+// Açılır menüler (kullanıcı menüsü + dil seçici) — gövde bloğunun DIŞINDA,
+// çünkü landing ve giriş sayfaları {% templatetag openblock %} block body
+// {% templatetag closeblock %} bloğunu tamamen eziyor ve dil seçici o
+// sayfalarda da var.
 (function() {
-    const menus = document.querySelectorAll('[data-user-menu]');
+    const menus = document.querySelectorAll('[data-dropdown], [data-user-menu]');
+    function close(menu) {
+        menu.classList.remove('is-open');
+        const t = menu.querySelector('[data-dropdown-trigger], [data-user-menu-trigger]');
+        if (t) t.setAttribute('aria-expanded', 'false');
+    }
     menus.forEach(menu => {
-        const trigger = menu.querySelector('[data-user-menu-trigger]');
-        const panel = menu.querySelector('[data-user-menu-panel]');
+        const trigger = menu.querySelector('[data-dropdown-trigger], [data-user-menu-trigger]');
+        const panel = menu.querySelector('[data-dropdown-panel], [data-user-menu-panel]');
         if (!trigger || !panel) return;
         trigger.addEventListener('click', (e) => {
             e.stopPropagation();
+            // Aynı anda tek menü açık kalsın: dil seçici ve kullanıcı menüsü
+            // yan yana duruyor, ikisi birlikte açılınca üst üste biniyorlar.
+            menus.forEach(other => { if (other !== menu) close(other); });
             const open = menu.classList.toggle('is-open');
             trigger.setAttribute('aria-expanded', open ? 'true' : 'false');
         });
     });
     document.addEventListener('click', (e) => {
-        menus.forEach(menu => {
-            if (!menu.contains(e.target)) {
-                menu.classList.remove('is-open');
-                const t = menu.querySelector('[data-user-menu-trigger]');
-                if (t) t.setAttribute('aria-expanded', 'false');
-            }
-        });
+        menus.forEach(menu => { if (!menu.contains(e.target)) close(menu); });
     });
     document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') {
-            menus.forEach(menu => menu.classList.remove('is-open'));
-        }
+        if (e.key === 'Escape') menus.forEach(close);
     });
 })();
 </script>
-{% endblock %}
-
-{% block body_scripts %}{% endblock %}
 <script>
 // Tema anahtarı — gövde bloğunun dışında, çünkü landing ve giriş sayfaları
 // {% templatetag openblock %} block body {% templatetag closeblock %} bloğunu tamamen eziyor.

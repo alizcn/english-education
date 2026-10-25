@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Mann, der hier arbeitet, ist mein Vater.",
+    "correct_answer": "The man who works here is my father.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Buch, das ich lese, ist sehr interessant.",
+    "correct_answer": "The book that I am reading is very interesting.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Frau, der ich vertraue, ist sehr weise.",
+    "correct_answer": "The woman that I trust is very wise.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Schüler, dessen Prüfung morgen ist, ist nervös.",
+    "correct_answer": "The student whose exam is tomorrow is nervous.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Restaurant, in dem wir essen, hat gutes Essen.",
+    "correct_answer": "The restaurant in which we eat has good food.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The woman whom I saw yesterday is my colleague.",
+    "correct_answer": "Die Frau, die ich gestern gesehen habe, ist meine Kollegin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The house that my parents bought is very big.",
+    "correct_answer": "Das Haus, das meine Eltern gekauft haben, ist sehr groß.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The people who live here are friendly.",
+    "correct_answer": "Die Menschen, die hier wohnen, sind freundlich.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The man to whom I gave the book is a teacher.",
+    "correct_answer": "Der Mann, dem ich das Buch gegeben habe, ist Lehrer.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I don't like the film that you watched last night.",
+    "correct_answer": "Mir gefällt der Film nicht, den du gestern Abend angeschaut hast.",
+    "choices": null
+  }
+]

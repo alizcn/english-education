@@ -1,0 +1,86 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I can speak French.",
+    "correct_answer": "Ich kann Französisch sprechen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie konnte sehr gut singen.",
+    "correct_answer": "She could sing very well.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Can you help me?",
+    "correct_answer": "Kannst du mir helfen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Er kann nicht Englisch sprechen.",
+    "correct_answer": "He cannot speak English.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They could see the lake.",
+    "correct_answer": "Sie konnten den See sehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich kann schwimmen.",
+    "correct_answer": "I can swim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Could you come tomorrow?",
+    "correct_answer": "Könntest du morgen kommen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Du kannst sehr gut kochen.",
+    "correct_answer": "You can cook very well.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "We couldn't understand the lesson.",
+    "correct_answer": "Wir konnten die Lektion nicht verstehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Könnten Sie mir bitte helfen?",
+    "correct_answer": "Could you help me please?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "You can borrow my book.",
+    "correct_answer": "Du kannst mein Buch ausleihen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich konnte nicht ins Kino gehen.",
+    "correct_answer": "I could not go to the cinema.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He couldn't find his keys.",
+    "correct_answer": "Er konnte seine Schlüssel nicht finden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie können alle Sprachen gut sprechen.",
+    "correct_answer": "They can speak all languages well.",
+    "choices": null
+  }
+]

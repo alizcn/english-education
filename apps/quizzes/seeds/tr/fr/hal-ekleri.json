@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kitabı okudum.",
+    "correct_answer": "J'ai lu le livre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Evde oturuyorum.",
+    "correct_answer": "Je suis à la maison.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Öğretmene kitap verdim.",
+    "correct_answer": "J'ai donné un livre à l'enseignant.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kitabı okumadım.",
+    "correct_answer": "Je n'ai pas lu le livre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kitabı mı okudum?",
+    "correct_answer": "Ai-je lu le livre?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "J'ai lu le livre.",
+    "correct_answer": "Kitabı okudum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je suis à la maison.",
+    "correct_answer": "Evdeyim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "C'est la clé de la porte.",
+    "correct_answer": "Kapının anahtarıdır.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je n'ai pas mangé de pomme.",
+    "correct_answer": "Elma yemedim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Vient-il de l'école?",
+    "correct_answer": "Okuldan geliyor mu?",
+    "choices": null
+  }
+]

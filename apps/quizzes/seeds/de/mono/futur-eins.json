@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Morgen ___ ich ins Kino gehen.",
+    "correct_answer": "werde",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Du ___ nächste Woche kommen.",
+    "correct_answer": "wirst",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Er ___ ein Buch lesen.",
+    "correct_answer": "wird",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Wir ___ zusammen essen.",
+    "correct_answer": "werden",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ihr ___ am Wochenende spielen.",
+    "correct_answer": "werdet",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sie ___ das Haus verlassen.",
+    "correct_answer": "werden",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich ___ nicht spielen.",
+    "correct_answer": "werde",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Du ___ nicht spät aufwachen.",
+    "correct_answer": "wirst",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ du morgen anrufen?",
+    "correct_answer": "Wirst",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Was ___ wir kaufen?",
+    "correct_answer": "werden",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence is correct?",
+    "correct_answer": "Ich werde morgen arbeiten.",
+    "choices": [
+      "Ich werden morgen arbeiten.",
+      "Ich werde morgen arbeiten.",
+      "Ich bin morgen arbeiten.",
+      "Ich wird morgen arbeiten."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct negative form?",
+    "correct_answer": "Sie werden das Auto nicht kaufen.",
+    "choices": [
+      "Sie nicht werden das Auto kaufen.",
+      "Sie werden nicht das Auto kaufen.",
+      "Sie werden das Auto nicht kaufen.",
+      "Sie werdet das Auto nicht kaufen."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence correctly expresses 'I will rest'?",
+    "correct_answer": "Ich werde mich ausruhen.",
+    "choices": [
+      "Ich werde ausruhen.",
+      "Ich werde mich ausruhen.",
+      "Ich werde mir ausruhen.",
+      "Ich mich werde ausruhen."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct Future I form for 'wir'?",
+    "correct_answer": "Wir werden lange bleiben.",
+    "choices": [
+      "Wir werde lange bleiben.",
+      "Wir werden lange bleiben.",
+      "Wir werde nicht bleiben.",
+      "Wir werdet lange bleiben."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct question form?",
+    "correct_answer": "Wirst du morgen kommen?",
+    "choices": [
+      "Wirst du morgen kommen?",
+      "Du wirst morgen kommen?",
+      "Morgen wirst du kommen?",
+      "Werden du morgen kommen?"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence correctly uses the separable verb 'anrufen'?",
+    "correct_answer": "Sie wird anrufen.",
+    "choices": [
+      "Sie wird rufen an.",
+      "Sie wird an rufen.",
+      "Sie wird anrufen.",
+      "Sie ruft an werden."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which W-Frage is correct?",
+    "correct_answer": "Wann werde ich gehen?",
+    "choices": [
+      "Wenn werde ich gehen?",
+      "Wann werde ich gehen?",
+      "Wann ich werde gehen?",
+      "Wann werde gehen ich?"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct form with the reflexive pronoun 'sich'?",
+    "correct_answer": "Er wird sich beeilen.",
+    "choices": [
+      "Er werde sich beeilen.",
+      "Er wird sich beeilen.",
+      "Er wird beeilen sich.",
+      "Er wird zu sich beeilen."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct question for 'ihr'?",
+    "correct_answer": "Werdet ihr am Freitag spielen?",
+    "choices": [
+      "Werdet ihr am Freitag spielen?",
+      "Ihr werdet am Freitag spielen?",
+      "Werden ihr am Freitag spielen?",
+      "Ihr werdet spielen am Freitag?"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct negative form of 'I will stay long'?",
+    "correct_answer": "Ich werde nicht lange bleiben.",
+    "choices": [
+      "Ich werden nicht lange bleiben.",
+      "Ich werde nicht lange bleiben.",
+      "Ich nicht werde lange bleiben.",
+      "Ich werde lange nicht bleiben."
+    ]
+  }
+]

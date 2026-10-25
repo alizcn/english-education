@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich kaufte ein Buch.",
+    "correct_answer": "J'ai acheté un livre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Il est allé à l'école.",
+    "correct_answer": "Er ging zur Schule.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle n'a pas vu l'arbre.",
+    "correct_answer": "Sie sah den Baum nicht.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Mann trank einen starken Kaffee.",
+    "correct_answer": "L'homme a bu un café fort.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Nous avons joué au football.",
+    "correct_answer": "Wir spielten Fußball.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Kind kam zu spät.",
+    "correct_answer": "L'enfant est arrivé en retard.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Tu n'as pas trouvé les clés.",
+    "correct_answer": "Du fandst die Schlüssel nicht.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir fanden das Geld unter dem Bett.",
+    "correct_answer": "Nous avons trouvé l'argent sous le lit.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Il y avait beaucoup de gens au Markt.",
+    "correct_answer": "Es gab viele Menschen auf dem Markt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Hatten Sie keine Angst?",
+    "correct_answer": "N'aviez-vous pas peur?",
+    "choices": null
+  }
+]

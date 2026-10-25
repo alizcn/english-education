@@ -1,0 +1,3457 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-25 10:42+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps/accounts/forms.py:12 apps/accounts/forms.py:48 templates/accounts/signup.html:20
+msgid "E-posta"
+msgstr "E-Mail"
+
+#: apps/accounts/forms.py:17
+msgid "KVKK Aydınlatma Metnini okudum ve onaylıyorum."
+msgstr "Ich habe den KVKK-Informationstext gelesen und akzeptiert."
+
+#: apps/accounts/forms.py:18
+msgid "Devam etmek için KVKK metnini onaylamalısın."
+msgstr "Du musst den KVKK-Text akzeptieren, um fortzufahren."
+
+#: apps/accounts/forms.py:28
+msgid "E-posta zorunludur."
+msgstr "E-Mail ist erforderlich."
+
+#: apps/accounts/forms.py:30 apps/accounts/forms.py:62
+msgid "Bu e-posta başka bir hesapta kullanılıyor."
+msgstr "Diese E-Mail wird bereits von einem anderen Konto verwendet."
+
+#: apps/accounts/forms.py:46
+msgid "Ad"
+msgstr "Vorname"
+
+#: apps/accounts/forms.py:47
+msgid "Soyad"
+msgstr "Nachname"
+
+#: apps/accounts/models.py:70 apps/chat/models.py:19 apps/interviews/models.py:77 apps/quizzes/models.py:34 apps/quizzes/models.py:86 apps/vocabulary/models.py:20 templates/learn/courses.html:19 templates/learn/courses.html:73
+msgid "Öğrenilen dil"
+msgstr "Lernsprache"
+
+#: apps/accounts/models.py:75 apps/chat/models.py:23 apps/interviews/models.py:81 apps/quizzes/models.py:38 apps/quizzes/models.py:90 apps/topics/models.py:96 apps/vocabulary/models.py:24 templates/learn/courses.html:20 templates/learn/courses.html:81
+msgid "Anlatım dili"
+msgstr "Oberflächensprache"
+
+#: apps/accounts/models.py:81
+msgid "Kullanıcının üzerinde çalıştığı kurs."
+msgstr "Der Kurs, an dem der Benutzer arbeitet."
+
+#: apps/accounts/models.py:90
+msgid "Kurs"
+msgstr "Kurs"
+
+#: apps/accounts/models.py:91 templates/learn/courses.html:17
+msgid "Kurslar"
+msgstr "Kurse"
+
+#: apps/accounts/models.py:111 apps/learn/views.py:84
+msgid "Anlatım dili, öğrenilen dille aynı olamaz."
+msgstr "Oberflächensprache und Lernsprache können nicht identisch sein."
+
+#: apps/accounts/models.py:117 apps/learn/views.py:56
+msgid "Bu dil henüz öğrenilebilir değil."
+msgstr "Diese Sprache kann noch nicht gelernt werden."
+
+#: apps/accounts/models.py:121 apps/learn/views.py:82
+msgid "Bu dil henüz yayında değil."
+msgstr "Diese Sprache ist noch nicht veröffentlicht."
+
+#: apps/accounts/views.py:31
+msgid "Çok fazla kayıt denemesi. Biraz sonra tekrar dene."
+msgstr "Zu viele Registrierungsversuche. Versuche es später erneut."
+
+#: apps/accounts/views.py:58
+msgid "Profilin güncellendi."
+msgstr "Dein Profil wurde aktualisiert."
+
+#: apps/accounts/views.py:71
+msgid "Onay için kullanıcı adını doğru yaz."
+msgstr "Gib deinen Benutzernamen korrekt ein."
+
+#: apps/accounts/views.py:79
+msgid "Hesabın silindi."
+msgstr "Dein Konto wurde gelöscht."
+
+#: apps/chat/models.py:38
+msgid "User"
+msgstr "Benutzer"
+
+#: apps/chat/models.py:38
+msgid "Assistant"
+msgstr "Assistent"
+
+#: apps/chat/views.py:68
+msgid "Çok hızlı yazıyorsun. Biraz sonra tekrar dene."
+msgstr "Du schreibst zu schnell. Versuche es später erneut."
+
+#: apps/chat/views.py:101
+msgid "AI yanıt verirken beklenmedik bir hata oluştu."
+msgstr "Ein unerwarteter Fehler ist aufgetreten, während die KI antwortet hat."
+
+#: apps/chat/views.py:106
+msgid "AI boş yanıt döndü. Tekrar dene."
+msgstr "Die KI gab keine Antwort. Versuchen Sie es erneut."
+
+#: apps/chat/views.py:115
+msgid "Bu sohbet silindiği için yanıt kaydedilmedi."
+msgstr "Die Antwort wurde nicht gespeichert, da dieser Chat gelöscht wurde."
+
+#: apps/chat/views.py:125
+msgid "Yeni sohbet başlatıldı."
+msgstr "Neuer Chat gestartet."
+
+#: apps/chat/views.py:142
+msgid "Başlık boş olamaz."
+msgstr "Der Titel darf nicht leer sein."
+
+#: apps/chat/views.py:146
+msgid "Başlık güncellendi."
+msgstr "Titel aktualisiert."
+
+#: apps/chat/views.py:158
+msgid "Sohbet silindi."
+msgstr "Chat gelöscht."
+
+#: apps/content/models.py:35
+msgid "Kelime hazinesi"
+msgstr "Wortschatz"
+
+#: apps/content/models.py:36 templates/seo/grammar_index.html:64
+msgid "Konu anlatımı"
+msgstr "Erklärung"
+
+#: apps/content/models.py:37
+msgid "Konu örnekleri"
+msgstr "Beispiele"
+
+#: apps/content/models.py:38
+msgid "Konu adları"
+msgstr "Themennamen"
+
+#: apps/content/models.py:39
+msgid "Seed quiz"
+msgstr "Startquiz"
+
+#: apps/content/models.py:47
+msgid "Bekliyor"
+msgstr "Ausstehend"
+
+#: apps/content/models.py:48
+msgid "Çalışıyor"
+msgstr "Läuft"
+
+#: apps/content/models.py:49 templates/topics/detail.html:57
+msgid "Bitti"
+msgstr "Fertig"
+
+#: apps/content/models.py:50
+msgid "Başarısız"
+msgstr "Fehlgeschlagen"
+
+#: apps/content/models.py:84
+msgid "Üretim parçası"
+msgstr "Generiertes Element"
+
+#: apps/content/models.py:85
+msgid "Üretim parçaları"
+msgstr "Generierte Elemente"
+
+#: apps/dashboard/faq.py:35
+msgid "Hangi dilleri öğrenebilirim?"
+msgstr "Welche Sprachen kann ich lernen?"
+
+#: apps/dashboard/faq.py:36
+msgid "İngilizce, Almanca, Fransızca ve Türkçe. Aynı hesapla birden çok dil çalışabilirsiniz; her kursun kendi seviyesi ve puanı vardır. Anlatım dilini de siz seçersiniz — örneğin Almancayı Türkçe, İngilizce ya da Fransızca açıklamalarla çalışabilirsiniz."
+msgstr "Englisch, Deutsch, Französisch und Türkisch. Mit demselben Konto können Sie mehrere Sprachen lernen; jeder Kurs hat sein eigenes Niveau und seine Punkte. Sie wählen auch die Unterrichtssprache — zum Beispiel können Sie Deutsch mit Erklärungen auf Türkisch, Englisch oder Französisch lernen."
+
+#: apps/dashboard/faq.py:42
+msgid "Platform ücretli mi?"
+msgstr "Ist die Plattform kostenpflichtig?"
+
+#: apps/dashboard/faq.py:43
+msgid "Hayır, platform tamamen ücretsizdir. Kayıt olun ve hemen kullanmaya başlayın."
+msgstr "Nein, die Plattform ist vollständig kostenlos. Registrieren Sie sich und beginnen Sie sofort."
+
+#: apps/dashboard/faq.py:47
+msgid "Kelime Hazinesi'nde hangi seviyeler var?"
+msgstr "Welche Niveaus gibt es im Wortschatz?"
+
+#: apps/dashboard/faq.py:48
+msgid "A1'den C2'ye kadar 6 seviye ve binlerce kelime mevcuttur. Her seviyede sırayla ilerlersiniz."
+msgstr "Es gibt 6 Niveaus von A1 bis C2 mit Tausenden von Wörtern. Sie durchlaufen jedes Niveau der Reihe nach."
+
+#: apps/dashboard/faq.py:52
+msgid "Yanlış yaptığım kelimeler ne oluyor?"
+msgstr "Was passiert mit Wörtern, die ich falsch beantwortet habe?"
+
+#: apps/dashboard/faq.py:53
+msgid "Yanlış cevapladığınız kelimeler otomatik olarak tekrar havuzuna eklenir ve ileriki sorularda karşınıza çıkar. Doğru cevaplayana kadar peşinizi bırakmaz."
+msgstr "Wörter, die Sie falsch beantwortet haben, werden automatisch zur Wiederholung hinzugefügt und erscheinen in zukünftigen Fragen erneut. Sie werden Ihnen immer wieder gestellt, bis Sie sie richtig beantworten."
+
+#: apps/dashboard/faq.py:58
+msgid "Kendi kelimelerimi ekleyebilir miyim?"
+msgstr "Kann ich meine eigenen Wörter hinzufügen?"
+
+#: apps/dashboard/faq.py:59
+msgid "Evet. Kelimelerim bölümünden istediğiniz kelimeleri girebilirsiniz. AI otomatik olarak anlamını ve örnek cümlesini üretir."
+msgstr "Ja. Im Bereich \"Meine Wörter\" können Sie eigene Wörter eingeben. Die KI generiert automatisch die Bedeutung und einen Beispielsatz."
+
+#: apps/dashboard/faq.py:63
+msgid "AI Chat ne işe yarar?"
+msgstr "Wofür ist AI Chat?"
+
+#: apps/dashboard/faq.py:64
+msgid "AI Chat ile pratik yapabilirsiniz. Ana dilinizde ya da öğrendiğiniz dilde yazın, AI asistan hatalarınızı düzeltir ve doğal konuşma pratiği sunar."
+msgstr "Sie können mit AI Chat üben. Schreiben Sie in Ihrer Muttersprache oder in der Sprache, die Sie lernen – der KI-Assistent korrigiert Ihre Fehler und bietet natürliche Gesprächspraxis."
+
+#: apps/interviews/models.py:10 tests/test_translations.py:158
+msgid "Backend Developer"
+msgstr "Backend-Entwickler"
+
+#: apps/interviews/models.py:11
+msgid "Frontend Developer"
+msgstr "Frontend-Entwickler"
+
+#: apps/interviews/models.py:12
+msgid "Python Full Stack Developer"
+msgstr "Python-Full-Stack-Entwickler"
+
+#: apps/interviews/models.py:13
+msgid ".NET Full Stack Developer"
+msgstr ".NET-Full-Stack-Entwickler"
+
+#: apps/interviews/models.py:14
+msgid "Java Full Stack Developer"
+msgstr "Java-Full-Stack-Entwickler"
+
+#: apps/interviews/models.py:15
+msgid "Node.js Full Stack Developer"
+msgstr "Node.js-Full-Stack-Entwickler"
+
+#: apps/interviews/models.py:16
+msgid "React Developer"
+msgstr "React-Entwickler"
+
+#: apps/interviews/models.py:17
+msgid "Angular Developer"
+msgstr "Angular-Entwickler"
+
+#: apps/interviews/models.py:18
+msgid "Vue.js Developer"
+msgstr "Vue.js-Entwickler"
+
+#: apps/interviews/models.py:19
+msgid "Go (Golang) Developer"
+msgstr "Go (Golang)-Entwickler"
+
+#: apps/interviews/models.py:20
+msgid "Rust Developer"
+msgstr "Rust-Entwickler"
+
+#: apps/interviews/models.py:21
+msgid "PHP / Laravel Developer"
+msgstr "PHP / Laravel-Entwickler"
+
+#: apps/interviews/models.py:22
+msgid "iOS Developer (Swift)"
+msgstr "iOS-Entwickler (Swift)"
+
+#: apps/interviews/models.py:23
+msgid "Android Developer (Kotlin)"
+msgstr "Android-Entwickler (Kotlin)"
+
+#: apps/interviews/models.py:24
+msgid "Flutter / Dart Developer"
+msgstr "Flutter / Dart-Entwickler"
+
+#: apps/interviews/models.py:26
+msgid "Yazılım Geliştirme (Genel)"
+msgstr "Softwareentwicklung (Allgemein)"
+
+#: apps/interviews/models.py:27 tests/test_translations.py:159
+msgid "DevOps / SRE"
+msgstr "DevOps / SRE"
+
+#: apps/interviews/models.py:28
+msgid "Bulut Bilişim (AWS/Azure/GCP)"
+msgstr "Cloud Computing (AWS/Azure/GCP)"
+
+#: apps/interviews/models.py:29
+msgid "Siber Güvenlik"
+msgstr "Cybersicherheit"
+
+#: apps/interviews/models.py:30
+msgid "Yapay Zeka / Makine Öğrenmesi"
+msgstr "Künstliche Intelligenz / Maschinelles Lernen"
+
+#: apps/interviews/models.py:31
+msgid "Veri Bilimi / Veri Mühendisliği"
+msgstr "Datenwissenschaft / Datentechnik"
+
+#: apps/interviews/models.py:32
+msgid "Veri Tabanı Yönetimi (DBA)"
+msgstr "Datenbankmanagement (DBA)"
+
+#: apps/interviews/models.py:33
+msgid "Ağ Sistemleri"
+msgstr "Netzwerksysteme"
+
+#: apps/interviews/models.py:34
+msgid "Bilişim Sistemleri"
+msgstr "IT-Systeme"
+
+#: apps/interviews/models.py:35
+msgid "Bilgisayar Yönetimi"
+msgstr "IT-Verwaltung"
+
+#: apps/interviews/models.py:36
+msgid "Proje Yönetimi / Scrum Master"
+msgstr "Projektmanagement / Scrum Master"
+
+#: apps/interviews/models.py:37
+msgid "QA / Test Mühendisliği"
+msgstr "QA / Testentwicklung"
+
+#: apps/interviews/models.py:38
+msgid "Mobil Uygulama Geliştirme (Genel)"
+msgstr "Mobile App-Entwicklung (Allgemein)"
+
+#: apps/interviews/models.py:39
+msgid "Web Geliştirme (Genel)"
+msgstr "Webentwicklung (Allgemein)"
+
+#: apps/interviews/models.py:40
+msgid "Gömülü Sistemler"
+msgstr "Eingebettete Systeme"
+
+#: apps/interviews/models.py:41
+msgid "Oyun Geliştirme"
+msgstr "Spieleentwicklung"
+
+#: apps/interviews/models.py:42
+msgid "Özel (kendi yazdığın)"
+msgstr "Benutzerdefiniert (eigene)"
+
+#: apps/interviews/models.py:56
+msgid "Kategori"
+msgstr "Kategorie"
+
+#: apps/interviews/models.py:57
+msgid "Özel başlık"
+msgstr "Benutzerdefinierter Titel"
+
+#: apps/interviews/models.py:58
+msgid "CV yükleme"
+msgstr "Lebenslauf hochladen"
+
+#: apps/interviews/models.py:67
+msgctxt "mülakat durumu"
+msgid "Hazırlanıyor"
+msgstr "In Bearbeitung"
+
+#: apps/interviews/models.py:68
+msgctxt "mülakat durumu"
+msgid "Hazır"
+msgstr "Fertig"
+
+#: apps/interviews/models.py:69
+msgctxt "mülakat durumu"
+msgid "Başarısız"
+msgstr "Fehlgeschlagen"
+
+#: apps/interviews/tasks.py:128
+msgid "Sorular üretilirken beklenmedik bir hata oluştu."
+msgstr "Ein unerwarteter Fehler ist beim Generieren von Fragen aufgetreten."
+
+#: apps/interviews/tasks.py:130
+msgid "Sorular üretilemedi. Tekrar deneyin."
+msgstr "Fragen konnten nicht generiert werden. Versuchen Sie es erneut."
+
+#: apps/interviews/views.py:45
+msgid "CV dosyası 5 MB'dan büyük olamaz."
+msgstr "Lebenslauf-Datei darf nicht größer als 5 MB sein."
+
+#: apps/interviews/views.py:48
+msgid "Desteklenen formatlar: PDF, DOCX, TXT."
+msgstr "Unterstützte Formate: PDF, DOCX, TXT."
+
+#: apps/interviews/views.py:58
+msgid "Dosya içeriği desteklenen bir formatla eşleşmiyor."
+msgstr "Dateiformat wird nicht unterstützt."
+
+#: apps/interviews/views.py:82 apps/interviews/views.py:125
+msgid "Saatlik mülakat üretim hakkını doldurdun. Biraz sonra tekrar dene."
+msgstr "Du hast dein stündliches Limit erreicht. Versuche es später erneut."
+
+#: apps/interviews/views.py:89
+msgid "Lütfen bir iş başlığı girin."
+msgstr "Bitte geben Sie einen Jobtitel ein."
+
+#: apps/interviews/views.py:116
+msgid "Sorular hazırlanıyor. Hazır olunca bu sayfada görünecek."
+msgstr "Fragen werden vorbereitet. Sie werden auf dieser Seite angezeigt, wenn sie fertig sind."
+
+#: apps/interviews/views.py:130
+msgid "Lütfen bir CV dosyası yükleyin."
+msgstr "Bitte laden Sie einen Lebenslauf hoch."
+
+#: apps/interviews/views.py:143
+msgid "CV dosyası okunamadı."
+msgstr "Lebenslauf-Datei konnte nicht gelesen werden."
+
+#: apps/interviews/views.py:148
+msgid "CV içeriği çok kısa veya okunamadı."
+msgstr "Der CV-Inhalt ist zu kurz oder konnte nicht gelesen werden."
+
+#: apps/interviews/views.py:166
+msgid "CV analiz ediliyor. Sorular hazır olunca bu sayfada görünecek."
+msgstr "Der CV wird analysiert. Die Fragen werden auf dieser Seite angezeigt, wenn sie bereit sind."
+
+#: apps/interviews/views.py:196
+msgid "Mülakat silindi."
+msgstr "Das Interview wurde gelöscht."
+
+#: apps/learn/views.py:38
+#, python-format
+msgid "%(language)s kursuna geçtin."
+msgstr "Du hast zu %(language)s gewechselt."
+
+#: apps/learn/views.py:63
+msgid "Kurs eklendi."
+msgstr "Kurs hinzugefügt."
+
+#: apps/learn/views.py:88
+msgid "Anlatım dili güncellendi."
+msgstr "Sprache aktualisiert."
+
+#: apps/quizzes/management/commands/seed_quizzes.py:104 templates/quizzes/picker.html:27
+msgid "Varsayılan"
+msgstr "Standard"
+
+#: apps/quizzes/models.py:11 apps/quizzes/models.py:75 apps/quizzes/models.py:115 apps/seo/views.py:324 templates/dashboard/home.html:58 templates/dashboard/landing/_base.html:214
+msgid "Kelime"
+msgstr "Wort"
+
+#: apps/quizzes/models.py:11 apps/quizzes/models.py:75 templates/quizzes/result.html:70 templates/topics/list.html:21
+msgid "Konu"
+msgstr "Thema"
+
+#: apps/quizzes/models.py:19
+msgctxt "quiz durumu"
+msgid "Hazırlanıyor"
+msgstr "Wird vorbereitet"
+
+#: apps/quizzes/models.py:20
+msgctxt "quiz durumu"
+msgid "Hazır"
+msgstr "Fertig"
+
+#: apps/quizzes/models.py:21
+msgctxt "quiz durumu"
+msgid "Başarısız"
+msgstr "Fehlgeschlagen"
+
+#: apps/quizzes/models.py:153
+msgid "Hedef dilden çeviri"
+msgstr "Übersetzung aus der Zielsprache"
+
+#: apps/quizzes/models.py:154
+msgid "Hedef dile çeviri"
+msgstr "Übersetzung in die Zielsprache"
+
+#: apps/quizzes/models.py:155
+msgid "Boşluk doldurma"
+msgstr "Lückentext"
+
+#: apps/quizzes/models.py:156
+msgid "Çoktan seçmeli"
+msgstr "Multiple Choice"
+
+#: apps/quizzes/tasks.py:113
+msgid "Quiz üretilirken beklenmedik bir hata oluştu."
+msgstr "Ein unerwarteter Fehler ist beim Generieren des Quiz aufgetreten."
+
+#: apps/quizzes/tasks.py:115
+msgid "Quiz üretilemedi. Tekrar dene."
+msgstr "Das Quiz konnte nicht erstellt werden. Versuche es erneut."
+
+#: apps/quizzes/views.py:61 apps/quizzes/views.py:204
+#, python-format
+msgid "Kelime quizi için en az %(min)d kelime gerekli. Şu an: %(total)d."
+msgstr "Für ein Wort-Quiz sind mindestens %(min)d Wörter erforderlich. Aktuell: %(total)d."
+
+#: apps/quizzes/views.py:74
+msgid "Kelime Quizleri"
+msgstr "Wort-Quizze"
+
+#: apps/quizzes/views.py:75
+msgid "Henüz AI quizin yoksa \"Yeni Quiz Oluştur\"a bas."
+msgstr "Falls du noch kein KI-Quiz hast, klicke auf 'Neues Quiz erstellen'."
+
+#: apps/quizzes/views.py:99
+#, python-format
+msgid "%(name)s Quizleri"
+msgstr "%(name)s Quizze"
+
+#: apps/quizzes/views.py:100
+msgid "Varsayılan quiz her zaman burada. Bitirdikten sonra AI ile yenisini üretebilirsin."
+msgstr "Das Standard-Quiz ist immer hier. Nachdem du es abgeschlossen hast, kannst du mit KI ein neues generieren."
+
+#: apps/quizzes/views.py:172 apps/quizzes/views.py:209
+msgid "Zaten hazırlanan bir quiz var, birazdan görünecek."
+msgstr "Ein Quiz wird bereits vorbereitet und wird bald angezeigt."
+
+#: apps/quizzes/views.py:190 apps/quizzes/views.py:225
+msgid "Quiz hazırlanıyor. Sorular hazırlandıkça burada görünecek."
+msgstr "Das Quiz wird vorbereitet. Die Fragen werden hier angezeigt, sobald sie erstellt sind."
+
+#: apps/quizzes/views.py:253
+msgid "Bu quiz henüz hazır değil."
+msgstr "Dieses Quiz ist noch nicht bereit."
+
+#: apps/quizzes/views.py:257
+msgid "Bu quiz şablonu boş."
+msgstr "Diese Quiz-Vorlage ist leer."
+
+#: apps/seo/views.py:27
+msgid "Başlangıç seviyesi. Günlük hayatın en sık geçen temel kelimeleri."
+msgstr "Anfängerstufe. Die häufigsten Grundwörter des Alltags."
+
+#: apps/seo/views.py:28
+msgid "Temel seviye. Basit konuşmaları ve kısa metinleri anlamak için gereken kelimeler."
+msgstr "Grundstufe. Wörter zum Verständnis einfacher Gespräche und kurzer Texte."
+
+#: apps/seo/views.py:29
+msgid "Orta seviye. İş ve okul hayatında sık kullanılan kelimeler."
+msgstr "Mittelstufe. Wörter, die häufig im Beruf und in der Schule verwendet werden."
+
+#: apps/seo/views.py:30
+msgid "Orta-üst seviye. Soyut konuları ve teknik metinleri takip etmeni sağlayan kelimeler."
+msgstr "Obere Mittelstufe. Wörter zum Verstehen abstrakter Themen und Fachtexte."
+
+#: apps/seo/views.py:31
+msgid "İleri seviye. Akademik ve profesyonel bağlamlarda geçen kelimeler."
+msgstr "Fortgeschrittene Stufe. Wörter aus akademischen und beruflichen Kontexten."
+
+#: apps/seo/views.py:32
+msgid "Usta seviye. Deyimsel, akademik ve nadir kullanılan kelimeler."
+msgstr "Beherrschungsstufe. Idiomatische, akademische und seltene Wörter."
+
+#: apps/seo/views.py:301
+msgid "LevelEnAI — İngilizce öğren, mülakatı kap"
+msgstr "LevelEnAI — Englisch lernen, Interview meistern"
+
+#: apps/seo/views.py:304
+msgid "İngilizce kelime, gramer ve AI destekli mülakat hazırlığı. A1'den C2'ye 6.000+ kelime, 18 gramer konusu — tamamen ücretsiz."
+msgstr "Englische Vokabeln, Grammatik und KI-gestützte Interviewvorbereitung. 6.000+ Wörter von A1 bis C2, 18 Grammatikthemen – komplett kostenlos."
+
+#: apps/seo/views.py:323
+msgid "Mülakat Pratiği"
+msgstr "Interviewtraining"
+
+#: apps/seo/views.py:323 templates/base.html:97 templates/base.html:216 templates/interviews/detail.html:3 templates/seo/_public_base.html:19
+msgid "Mülakat"
+msgstr "Interview"
+
+#: apps/seo/views.py:324 templates/base.html:98 templates/dashboard/home.html:83 templates/dashboard/home.html:117 templates/dashboard/home.html:202 templates/dashboard/landing/_base.html:279 templates/seo/words_index.html:44 templates/wordbank/levels.html:3 templates/wordbank/levels.html:10 templates/wordbank/quiz.html:3
+msgid "Kelime Hazinesi"
+msgstr "Wortschatz"
+
+#: apps/seo/views.py:325
+msgid "AI Sohbet"
+msgstr "KI-Chat"
+
+#: apps/seo/views.py:325
+msgid "Sohbet"
+msgstr "Chat"
+
+#: apps/topics/models.py:28 apps/wordbank/models.py:29
+msgid "Hedef dil"
+msgstr "Zielsprache"
+
+#: apps/topics/models.py:98
+msgid "Anlatım (markdown)"
+msgstr "Beschreibung (Markdown)"
+
+#: apps/topics/models.py:140 templates/topics/detail.html:63
+msgid "Olumlu"
+msgstr "Positiv"
+
+#: apps/topics/models.py:141 templates/topics/detail.html:73
+msgid "Olumsuz"
+msgstr "Negativ"
+
+#: apps/topics/models.py:142 templates/topics/detail.html:83
+msgid "Soru"
+msgstr "Frage"
+
+#: apps/topics/models.py:149
+msgid "Cümle (hedef dilde)"
+msgstr "Satz (Zielsprache)"
+
+#: apps/topics/models.py:153
+msgid "{\"tr\": \"...\", \"en\": \"...\"} — ana dil kodundan çeviriye."
+msgstr "{\"tr\": \"...\", \"en\": \"...\"} — vom Sprachcode zur Übersetzung."
+
+#: apps/topics/views.py:62
+#, python-format
+msgid "\"%(name)s\" tekrar aktif."
+msgstr "\"%(name)s\" ist wieder aktiv."
+
+#: apps/topics/views.py:65
+#, python-format
+msgid "\"%(name)s\" bitti olarak işaretlendi."
+msgstr "\"%(name)s\" wurde als abgeschlossen markiert."
+
+#: apps/vocabulary/models.py:26 apps/wordbank/models.py:35
+msgid "Terim"
+msgstr "Begriff"
+
+#: apps/vocabulary/models.py:27 apps/wordbank/models.py:89
+msgid "Anlam"
+msgstr "Bedeutung"
+
+#: apps/vocabulary/views.py:50
+msgid "Saatlik çeviri hakkını doldurdun. Biraz sonra tekrar dene."
+msgstr "Stündliches Übersetzungslimit erreicht. Versuche es später erneut."
+
+#: apps/vocabulary/views.py:58
+msgid "Hiç kelime girmedin."
+msgstr "Keine Wörter eingegeben."
+
+#: apps/vocabulary/views.py:69
+msgid "AI çeviri sırasında beklenmedik bir hata oluştu."
+msgstr "Bei der KI-Übersetzung ist ein unerwarteter Fehler aufgetreten."
+
+#: apps/vocabulary/views.py:100 tests/test_translations.py:65
+#, python-format
+msgid "%(count)d kelime eklendi."
+msgstr "%(count)d Wörter hinzugefügt."
+
+#: apps/vocabulary/views.py:102
+#, python-format
+msgid "(%(count)d tanesi zaten vardı.)"
+msgstr "(%(count)d waren bereits vorhanden.)"
+
+#: apps/vocabulary/views.py:104
+#, python-format
+msgid "(%(count)d tanesi eksik çeviriyle geldi, atlandı.)"
+msgstr "(%(count)d mit unvollständiger Übersetzung, übersprungen.)"
+
+#: apps/vocabulary/views.py:118
+msgid "Terim ve anlam alanları boş olamaz."
+msgstr "Begriff und Bedeutung dürfen nicht leer sein."
+
+#: apps/vocabulary/views.py:123
+msgid "Bu kelime zaten kayıtlı."
+msgstr "Dieses Wort existiert bereits."
+
+#: apps/vocabulary/views.py:132
+msgid "Kaydedildi."
+msgstr "Gespeichert."
+
+#: apps/vocabulary/views.py:142
+msgid "Silindi."
+msgstr "Gelöscht."
+
+#: apps/vocabulary/views.py:153
+#, python-format
+msgid "Quiz için en az %(min)d kelime gerekli. Şu an: %(total)d."
+msgstr "Mindestens %(min)d Wörter für Quiz erforderlich. Derzeit: %(total)d."
+
+#: apps/vocabulary/views.py:200
+msgid "Quiz ilerlemen sıfırlandı."
+msgstr "Quiz-Fortschritt zurückgesetzt."
+
+#: apps/wordbank/models.py:33
+msgid "Kaynak listedeki sıra. Quiz ilerleyişini bu belirler."
+msgstr "Reihenfolge aus Quellenliste. Dies bestimmt den Fortschritt."
+
+#: apps/wordbank/models.py:39
+msgid "Örnek cümle (hedef dilde)"
+msgstr "Beispielsatz (Zielsprache)"
+
+#: apps/wordbank/models.py:87
+msgid "Ana dil"
+msgstr "Muttersprache"
+
+#: apps/wordbank/views.py:14 templates/dashboard/landing/_base.html:387
+msgid "Başlangıç"
+msgstr "Anfänger"
+
+#: apps/wordbank/views.py:15
+msgid "Temel Üstü"
+msgstr "Aufbau"
+
+#: apps/wordbank/views.py:16
+msgid "Orta"
+msgstr "Mittelstufe"
+
+#: apps/wordbank/views.py:17
+msgid "Orta Üstü"
+msgstr "Obere Mittelstufe"
+
+#: apps/wordbank/views.py:18
+msgid "İleri"
+msgstr "Fortgeschrittene"
+
+#: apps/wordbank/views.py:19
+msgid "Uzman"
+msgstr "Meister"
+
+#: apps/wordbank/views.py:52
+#, python-format
+msgid "%(level)s seviyesi yüklü değil."
+msgstr "%(level)s-Stufe nicht geladen."
+
+#: apps/wordbank/views.py:71
+msgid "Bu kelimenin çevirisi eksik, atlandı."
+msgstr "Übersetzung unvollständig, übersprungen."
+
+#: apps/wordbank/views.py:138
+#, python-format
+msgid "%(level)s ilerlemen sıfırlandı."
+msgstr "%(level)s-Fortschritt zurückgesetzt."
+
+#: services/claude_client.py:181
+msgid "AI bu isteği yanıtlamayı reddetti. İfadeni değiştirip tekrar dene."
+msgstr "Die KI hat diese Anfrage abgelehnt. Umformuliere deinen Text und versuche es erneut."
+
+#: services/claude_client.py:222
+msgid "AI yanıtı beklenen formatta değil. Tekrar dene."
+msgstr "Die KI-Antwort hat nicht das erwartete Format. Versuche es erneut."
+
+#: services/claude_client.py:237
+msgid "AI şu an çok yoğun, bir dakika sonra tekrar dene."
+msgstr "Die KI ist gerade sehr ausgelastet. Versuche es in einer Minute erneut."
+
+#: services/claude_client.py:240 services/claude_client.py:377
+msgid "AI bağlantısı zaman aşımına uğradı, tekrar dene."
+msgstr "Die KI-Verbindung hat das Zeitlimit überschritten. Versuche es erneut."
+
+#: services/claude_client.py:245 services/claude_client.py:249 services/claude_client.py:382 services/claude_client.py:393
+msgid "AI servisi şu an yanıt vermiyor."
+msgstr "Der KI-Dienst antwortet derzeit nicht."
+
+#: services/claude_client.py:388
+msgid "Claude Code oturumu doldu. Birkaç dakika sonra tekrar dene ya da ANTHROPIC_API_KEY ekleyerek API modunu kullan."
+msgstr "Die Claude Code-Sitzung ist abgelaufen. Versuche es in wenigen Minuten erneut oder nutze den API-Modus mit ANTHROPIC_API_KEY."
+
+#: services/sanitize.py:26
+msgid "Pozisyon adı boş olamaz."
+msgstr "Der Positionsname darf nicht leer sein."
+
+#: services/sanitize.py:28
+msgid "Pozisyon adı tek satırda olmalı."
+msgstr "Der Positionsname muss in einer Zeile stehen."
+
+#: services/sanitize.py:31
+msgid "Geçersiz pozisyon adı. Sadece harf, rakam ve temel noktalama (.,-/()&+#) kullan."
+msgstr "Ungültiger Positionsname. Verwende nur Buchstaben, Zahlen und Satzzeichen (.,-/()&+#)."
+
+#: services/sanitize.py:34
+msgid "Pozisyon adı geçersiz ifadeler içeriyor."
+msgstr "Der Positionsname enthält ungültige Ausdrücke."
+
+#: templates/404.html:4
+msgid "Sayfa bulunamadı (404)"
+msgstr "Seite nicht gefunden (404)"
+
+#: templates/404.html:5
+msgid "Aradığın sayfa taşınmış ya da hiç var olmamış olabilir."
+msgstr "Die gesuchte Seite wurde möglicherweise verschoben oder existiert nicht."
+
+#: templates/404.html:13
+msgid "Bu sayfayı bulamadık"
+msgstr "Diese Seite konnte nicht gefunden werden."
+
+#: templates/404.html:14
+msgid "Adres yanlış yazılmış ya da içerik taşınmış olabilir. Aşağıdan devam edebilirsin."
+msgstr "Die Adresse ist möglicherweise falsch eingegeben oder der Inhalt wurde verschoben. Du kannst unten fortfahren."
+
+#: templates/404.html:18
+msgid "Buradan devam et"
+msgstr "Hier fortfahren"
+
+#: templates/404.html:21 templates/seo/grammar_index.html:6 templates/seo/grammar_index.html:26 templates/seo/grammar_index.html:46 templates/seo/html_sitemap.html:41
+#, python-format
+msgid "%(lang)s Gramer Konuları"
+msgstr "%(lang)s-Grammatikthemen"
+
+#: templates/404.html:22
+msgid "18 konu, Türkçe anlatım ve örnek cümleler."
+msgstr "18 Themen mit Erklärungen auf Türkisch und Beispielsätzen."
+
+#: templates/404.html:23 templates/404.html:28 templates/404.html:33
+msgid "İncele"
+msgstr "Erkunden"
+
+#: templates/404.html:26 templates/dashboard/landing/_base.html:419 templates/seo/_public_base.html:59
+msgid "Kelime Listeleri"
+msgstr "Wortlisten"
+
+#: templates/404.html:27
+msgid "A1'den C2'ye seviye seviye kelime listeleri."
+msgstr "Wortlisten von A1 bis C2 nach Sprachniveau."
+
+#: templates/404.html:31 templates/dashboard/landing/_base.html:420 templates/seo/_public_base.html:60
+msgid "Mülakat Soruları"
+msgstr "Interviewfragen"
+
+#: templates/404.html:32
+#, python-format
+msgid "Pozisyona özel %(lang)s mülakat hazırlığı."
+msgstr "%(lang)s-Interviewvorbereitung für deine Position."
+
+#: templates/500.html:11 templates/500.html:19
+msgid "Bir şeyler ters gitti"
+msgstr "Etwas ist schiefgelaufen."
+
+#: templates/500.html:21
+msgid "Sunucu tarafında beklenmedik bir hata oluştu. Kayıt altına alındı; kısa süre içinde tekrar denemeni öneririz."
+msgstr "Ein unerwarteter Fehler ist auf der Serverseite aufgetreten. Er wurde protokolliert. Wir empfehlen, es in Kürze erneut zu versuchen."
+
+#: templates/500.html:26
+msgid "Ana sayfaya dön"
+msgstr "Zur Startseite zurück"
+
+#: templates/_lang_switcher.html:20
+msgid "Dil seç"
+msgstr "Sprache wählen"
+
+#: templates/_theme_toggle.html:9
+msgid "Temayı değiştir"
+msgstr "Design ändern"
+
+#: templates/accounts/_auth_base.html:28
+msgid "İngilizce, Almanca, Fransızca ve Türkçe — kelime, gramer ve AI destekli pratik."
+msgstr "Englisch, Deutsch, Französisch und Türkisch — Vokabeln, Grammatik und KI-gestützte Übung."
+
+#: templates/accounts/delete_account.html:3 templates/accounts/delete_account.html:6
+msgid "Hesabı Sil"
+msgstr "Konto löschen"
+
+#: templates/accounts/delete_account.html:8
+msgid "Bu işlem geri alınamaz. Hesabınla birlikte kaydedilen kelimeler, mülakat geçmişi ve quiz sonuçları silinir."
+msgstr "Diese Aktion kann nicht rückgängig gemacht werden. Gespeicherte Wörter, Interviewverlauf und Quiz-Ergebnisse werden gelöscht."
+
+#: templates/accounts/delete_account.html:14
+#, python-format
+msgid "Onaylamak için aşağıya <strong>%(username)s</strong> yaz ve \"Hesabı sil\"e bas."
+msgstr "Geben Sie zur Bestätigung unten <strong>%(username)s</strong> ein und klicken Sie auf \"Konto löschen\"."
+
+#: templates/accounts/delete_account.html:21
+msgid "Kullanıcı adımı yaz"
+msgstr "Benutzernamen eingeben"
+
+#: templates/accounts/delete_account.html:25 templates/vocabulary/add.html:26 templates/vocabulary/edit.html:34
+msgid "Vazgeç"
+msgstr "Abbrechen"
+
+#: templates/accounts/delete_account.html:26
+msgid "Hesabı sil"
+msgstr "Konto löschen"
+
+#: templates/accounts/login.html:3 templates/accounts/login.html:4 templates/accounts/login.html:21 templates/accounts/password_reset_complete.html:10 templates/accounts/password_reset_done.html:10 templates/accounts/signup.html:46 templates/dashboard/landing/_base.html:47 templates/seo/_public_base.html:27
+msgid "Giriş yap"
+msgstr "Anmelden"
+
+#: templates/accounts/login.html:5
+msgid "LevelEnAI hesabına giriş yap; kelime, gramer ve AI mülakat pratiğine kaldığın yerden devam et."
+msgstr "Melden Sie sich bei Ihrem LevelEnAI-Konto an und fahren Sie fort mit Wortschatz, Grammatik und KI-Interviewtraining."
+
+#: templates/accounts/login.html:14 templates/accounts/signup.html:15
+msgid "Kullanıcı adı"
+msgstr "Benutzername"
+
+#: templates/accounts/login.html:18 templates/accounts/signup.html:25
+msgid "Şifre"
+msgstr "Passwort"
+
+#: templates/accounts/login.html:24 templates/accounts/password_reset_form.html:3 templates/accounts/password_reset_form.html:4
+msgid "Şifremi unuttum"
+msgstr "Passwort vergessen"
+
+#: templates/accounts/login.html:27
+msgid "Hesabın yok mu?"
+msgstr "Noch kein Konto?"
+
+#: templates/accounts/login.html:27 templates/accounts/signup.html:4 templates/dashboard/landing/_base.html:48
+msgid "Kayıt ol"
+msgstr "Registrieren"
+
+#: templates/accounts/password_reset_complete.html:3 templates/accounts/password_reset_complete.html:4
+msgid "Şifre değiştirildi"
+msgstr "Passwort geändert"
+
+#: templates/accounts/password_reset_complete.html:7
+msgid "Şifreniz başarıyla güncellendi."
+msgstr "Ihr Passwort wurde erfolgreich aktualisiert."
+
+#: templates/accounts/password_reset_confirm.html:3 templates/accounts/password_reset_confirm.html:4
+msgid "Yeni şifre belirle"
+msgstr "Neues Passwort festlegen"
+
+#: templates/accounts/password_reset_confirm.html:12
+msgid "Yeni şifre"
+msgstr "Neues Passwort"
+
+#: templates/accounts/password_reset_confirm.html:19
+msgid "Yeni şifre (tekrar)"
+msgstr "Neues Passwort bestätigen"
+
+#: templates/accounts/password_reset_confirm.html:25 tests/test_translations.py:100
+msgid "Şifreyi sıfırla"
+msgstr "Passwort zurücksetzen"
+
+#: templates/accounts/password_reset_done.html:3 templates/accounts/password_reset_done.html:4
+msgid "E-posta gönderildi"
+msgstr "E-Mail gesendet"
+
+#: templates/accounts/password_reset_done.html:7
+msgid "Şifre sıfırlama bağlantısı e-posta adresine gönderildi. Gelen kutunu kontrol et."
+msgstr "Ein Link zum Zurücksetzen des Passworts wurde an Ihre E-Mail-Adresse gesendet. Überprüfen Sie Ihren Posteingang."
+
+#: templates/accounts/password_reset_email.html:2
+msgid ""
+"Merhaba,\n"
+"\n"
+"Şifrenizi sıfırlamak için aşağıdaki bağlantıya tıklayın:"
+msgstr ""
+"Hallo,\n"
+"\n"
+"Klicken Sie auf den folgenden Link, um Ihr Passwort zurückzusetzen:"
+
+#: templates/accounts/password_reset_email.html:8
+msgid ""
+"Bu bağlantı birkaç dakika sonra geçersiz hale gelecektir.\n"
+"\n"
+"Eğer bu talebi siz göndermediyseniz, bu e-postayı görmezden gelebilirsiniz."
+msgstr ""
+"Dieser Link wird in wenigen Minuten ungültig.\n"
+"\n"
+"Wenn Sie diese Anfrage nicht gestellt haben, können Sie diese E-Mail ignorieren."
+
+#: templates/accounts/password_reset_form.html:12
+msgid "E-posta adresi"
+msgstr "E-Mail-Adresse"
+
+#: templates/accounts/password_reset_form.html:18
+msgid "Sıfırlama bağlantısı gönder"
+msgstr "Link zum Zurücksetzen senden"
+
+#: templates/accounts/password_reset_form.html:21
+msgid "Giriş sayfasına dön"
+msgstr "Zur Anmeldung zurück"
+
+#: templates/accounts/profile.html:3
+msgid "Profil"
+msgstr "Profil"
+
+#: templates/accounts/profile.html:10 templates/base.html:137
+msgid "Profilim"
+msgstr "Mein Profil"
+
+#: templates/accounts/profile.html:11
+msgid "Bilgilerini görüntüle ve güncelle."
+msgstr "Informationen anzeigen und aktualisieren."
+
+#: templates/accounts/profile.html:22
+msgid "tarihinden beri"
+msgstr "seit"
+
+#: templates/accounts/profile.html:36 templates/chat/page.html:31 templates/learn/courses.html:43 templates/vocabulary/edit.html:33
+msgid "Kaydet"
+msgstr "Speichern"
+
+#: templates/accounts/profile.html:43
+msgid "Hesabımı kalıcı olarak sil"
+msgstr "Mein Konto dauerhaft löschen"
+
+#: templates/accounts/signup.html:3
+#, python-format
+msgid "Ücretsiz Kayıt Ol — %(lang)s ve AI Mülakat Pratiği"
+msgstr "Kostenlos anmelden — %(lang)s und KI-Interviewpraxis"
+
+#: templates/accounts/signup.html:5
+msgid "Ücretsiz hesap oluştur"
+msgstr "Kostenloses Konto erstellen"
+
+#: templates/accounts/signup.html:6
+msgid "Saniyeler içinde ücretsiz hesap aç: 6.000+ kelime, 18 gramer konusu ve pozisyonuna özel AI mülakat soruları seni bekliyor. Kredi kartı istenmez."
+msgstr "Erstellen Sie in wenigen Sekunden kostenlos ein Konto: 6.000+ Wörter, 18 Grammatikthemen und auf Ihre Position zugeschnittene KI-Vorstellungsgespräch-Fragen. Kreditkarte nicht erforderlich."
+
+#: templates/accounts/signup.html:30
+msgid "Şifre tekrar"
+msgstr "Passwort wiederholen"
+
+#: templates/accounts/signup.html:37 templates/accounts/signup.html:53
+msgid "KVKK Aydınlatma Metni"
+msgstr "KVKK-Informationsmitteilung"
+
+#: templates/accounts/signup.html:37
+msgid "'ni okudum ve onaylıyorum."
+msgstr "Ich habe gelesen und stimme zu."
+
+#: templates/accounts/signup.html:43
+msgid "Hesap oluştur"
+msgstr "Konto erstellen"
+
+#: templates/accounts/signup.html:46
+msgid "Zaten hesabın var mı?"
+msgstr "Haben Sie bereits ein Konto?"
+
+#: templates/accounts/signup.html:61
+msgid "Okudum, kapat"
+msgstr "Gelesen, Schließen"
+
+#: templates/base.html:26 templates/dashboard/landing/_base.html:413
+#, python-format
+msgid "%(lang)s Öğren"
+msgstr "%(lang)s-Lernen"
+
+#: templates/base.html:27
+#, python-format
+msgid "LevelEnAI ile %(lang)s kelime, gramer ve AI destekli mülakat pratiği. A1'den C2'ye binlerce kelime ve gramer konusu — tamamen ücretsiz."
+msgstr "Mit LevelEnAI %(lang)s-Wörter, Grammatik und KI-unterstützte Interviewpraxis. Tausende Wörter und Grammatikthemen von A1 bis C2 — völlig kostenlos."
+
+#: templates/base.html:51 templates/base.html:57
+#, python-format
+msgid "LevelEnAI — %(lang)s öğren, mülakatı kap."
+msgstr "LevelEnAI — %(lang)s lernen, Interview bestehen."
+
+#: templates/base.html:52
+#, python-format
+msgid "%(lang)s kelime, gramer ve AI destekli mülakat hazırlığı — tamamen ücretsiz."
+msgstr "%(lang)s-Wörter, Grammatik und KI-unterstützte Interviewvorbereitung — völlig kostenlos."
+
+#: templates/base.html:96 templates/dashboard/home.html:3 templates/seo/_public_base.html:37 templates/seo/_public_base.html:57 templates/seo/grammar_detail.html:30 templates/seo/grammar_index.html:20 templates/seo/html_sitemap.html:16 templates/seo/html_sitemap.html:33 templates/seo/interview_index.html:19 templates/seo/licenses.html:23 templates/seo/words_index.html:19 templates/seo/words_level.html:24
+msgid "Ana Sayfa"
+msgstr "Startseite"
+
+#: templates/base.html:99 templates/vocabulary/list.html:3 templates/vocabulary/list.html:10 templates/vocabulary/quiz.html:3 templates/vocabulary/quiz.html:8 templates/vocabulary/quiz_feedback.html:3 templates/vocabulary/quiz_feedback.html:8
+msgid "Kelimelerim"
+msgstr "Meine Wörter"
+
+#: templates/base.html:100 templates/base.html:212 templates/dashboard/home.html:63 templates/topics/detail.html:8 templates/topics/list.html:3 templates/topics/list.html:19 tests/test_translations.py:152
+msgid "Konular"
+msgstr "Themen"
+
+#: templates/base.html:101 templates/chat/page.html:3
+msgid "AI Chat"
+msgstr "AI Chat"
+
+#: templates/base.html:130 templates/learn/courses.html:3 templates/learn/courses.html:10
+msgid "Kurslarım"
+msgstr "Meine Kurse"
+
+#: templates/base.html:150
+msgid "Çıkış Yap"
+msgstr "Abmelden"
+
+#: templates/base.html:175
+#, python-format
+msgid "%(lang)s öğreniyorsun · anlatım %(nlang)s"
+msgstr "Du lernst %(lang)s · Unterricht in %(nlang)s"
+
+#: templates/base.html:180
+#| msgid "Temayı değiştir"
+msgid "Kurs değiştir"
+msgstr "Kurs wechseln"
+
+#: templates/base.html:200
+msgid "Ana"
+msgstr "Startseite"
+
+#: templates/base.html:204 templates/dashboard/home.html:68
+msgid "Hazine"
+msgstr "Schätze"
+
+#: templates/base.html:208
+msgid "Kelimem"
+msgstr "Mein Wort"
+
+#: templates/base.html:220
+msgid "Chat"
+msgstr "Chat"
+
+#: templates/base.html:226 templates/dashboard/landing/_base.html:426 templates/seo/_public_base.html:79
+msgid "Tüm hakları saklıdır."
+msgstr "Alle Rechte vorbehalten."
+
+#: templates/base.html:227 templates/dashboard/landing/_base.html:421 templates/seo/_public_base.html:61 templates/seo/html_sitemap.html:35
+msgid "Uygulamayı Yükle"
+msgstr "App installieren"
+
+#: templates/base.html:229 templates/dashboard/landing/_base.html:428 templates/seo/_public_base.html:81
+msgid "Bir"
+msgstr "Ein"
+
+#: templates/base.html:231 templates/dashboard/landing/_base.html:430 templates/seo/_public_base.html:83
+msgid "ürünüdür"
+msgstr "Produkt"
+
+#: templates/base.html:240
+msgid "Ana ekrana ekle"
+msgstr "Zum Startbildschirm hinzufügen"
+
+#: templates/base.html:241
+msgid "Tek dokunuşla aç, app gibi kullan."
+msgstr "Mit einem Tap öffnen, wie eine App nutzen."
+
+#: templates/base.html:243
+msgid "Göster"
+msgstr "Anzeigen"
+
+#: templates/base.html:244
+msgid "Kapat"
+msgstr "Schließen"
+
+#: templates/chat/page.html:9
+msgid "Sohbetler"
+msgstr "Chats"
+
+#: templates/chat/page.html:10 templates/chat/page.html:46
+msgid "Yeni sohbet"
+msgstr "Neuer Chat"
+
+#: templates/chat/page.html:10
+msgid "Yeni"
+msgstr "Neu"
+
+#: templates/chat/page.html:20
+msgid "Yeniden adlandır"
+msgstr "Umbenennen"
+
+#: templates/chat/page.html:23
+msgid "Bu sohbet silinsin mi?"
+msgstr "Soll dieser Chat gelöscht werden?"
+
+#: templates/chat/page.html:25 templates/interviews/detail.html:21 templates/interviews/list.html:107
+msgid "Sil"
+msgstr "Löschen"
+
+#: templates/chat/page.html:35
+msgid "Henüz sohbet yok."
+msgstr "Noch keine Chats."
+
+#: templates/chat/page.html:43
+msgid "Geçmiş"
+msgstr "Chronik"
+
+#: templates/chat/page.html:55
+#, python-format
+msgid "Hey! %(lang)s pratik için buradayım. İstediğin dilde yaz — örnek bir mesaj da verebilirsin."
+msgstr "Hallo! Ich bin hier für %(lang)s-Praxis. Schreib in deiner Sprache — gerne auch ein Beispiel."
+
+#: templates/chat/page.html:61
+msgid "Mesajını yaz..."
+msgstr "Schreib eine Nachricht..."
+
+#: templates/chat/page.html:62
+msgid "Gönder"
+msgstr "Senden"
+
+#: templates/dashboard/home.html:17
+#, python-format
+msgid "%(lang)s seviye atlat. Mülakatı kap."
+msgstr "%(lang)s-Level aufleveln. Das Interview bestehen."
+
+#: templates/dashboard/home.html:24
+msgid "CV yükle, mülakata hazırlan"
+msgstr "Lebenslauf hochladen, Interview vorbereiten"
+
+#: templates/dashboard/home.html:25
+msgid "AI seni simüle eder →"
+msgstr "KI simuliert dich →"
+
+#: templates/dashboard/home.html:33
+#, python-format
+msgid "%(lang)s Seviyen"
+msgstr "%(lang)s-Niveau"
+
+#: templates/dashboard/home.html:37
+msgid "Toplam puan"
+msgstr "Gesamtpunkte"
+
+#: templates/dashboard/home.html:41
+#, python-format
+msgid "Sonraki: %(level)s için %(pts)s puan"
+msgstr "Nächstes: %(pts)s Punkte für %(level)s"
+
+#: templates/dashboard/home.html:60
+msgid "Toplam kayıt"
+msgstr "Gesamtzahl"
+
+#: templates/dashboard/home.html:65
+msgid "tamamlandı"
+msgstr "abgeschlossen"
+
+#: templates/dashboard/home.html:70
+msgid "öğrenilen kelime"
+msgstr "Gelernte Wörter"
+
+#: templates/dashboard/home.html:73 templates/quizzes/run.html:3 templates/topics/list.html:45 templates/vocabulary/quiz.html:3
+msgid "Quiz"
+msgstr "Quiz"
+
+#: templates/dashboard/home.html:75
+msgid "son bitirilen"
+msgstr "Zuletzt abgeschlossen"
+
+#: templates/dashboard/home.html:89
+msgid "Çalışmaya devam"
+msgstr "Weitermachen"
+
+#: templates/dashboard/home.html:94
+msgid "Haftalık İlerleme"
+msgstr "Wöchentliche Fortschritte"
+
+#: templates/dashboard/home.html:100
+msgid "Henüz veri yok — kelime çalışmaya başladığında grafik burada görünecek."
+msgstr "Noch keine Daten — das Diagramm wird hier angezeigt, wenn du anfängst, Wörter zu lernen."
+
+#: templates/dashboard/home.html:104
+msgid "Hızlı Başla"
+msgstr "Schnellstart"
+
+#: templates/dashboard/home.html:109 templates/vocabulary/add.html:3 templates/vocabulary/add.html:7
+msgid "Kelime ekle"
+msgstr "Wort hinzufügen"
+
+#: templates/dashboard/home.html:110
+msgid "AI ile toplu çeviri"
+msgstr "Massenübersetzung mit KI"
+
+#: templates/dashboard/home.html:118
+msgid "A1'den C2'ye seviyeli quiz"
+msgstr "Stufenquiz A1–C2"
+
+#: templates/dashboard/home.html:125 templates/dashboard/landing/_base.html:290 templates/dashboard/landing/index.html:84 templates/topics/list.html:10
+msgid "Gramer Konuları"
+msgstr "Grammatikthemen"
+
+#: templates/dashboard/home.html:126
+msgid "Tense, modal, conditional"
+msgstr "Zeiten, Modal, Konditional"
+
+#: templates/dashboard/home.html:133
+msgid "AI ile pratik"
+msgstr "Üben mit KI"
+
+#: templates/dashboard/home.html:134
+msgid "Canlı sohbet, TR/EN"
+msgstr "Live-Chat, TR/EN"
+
+#: templates/dashboard/home.html:141
+msgid "Devam eden konular"
+msgstr "Laufende Themen"
+
+#: templates/dashboard/home.html:146
+msgid "çalış"
+msgstr "Üben"
+
+#: templates/dashboard/home.html:153
+msgid "Son quiz skorları"
+msgstr "Letzte Quiz-Ergebnisse"
+
+#: templates/dashboard/home.html:159
+msgid "Kelime quizi"
+msgstr "Vokabel-Quiz"
+
+#: templates/dashboard/home.html:174
+msgid "Başlamaya hazırsın!"
+msgstr "Du bist bereit!"
+
+#: templates/dashboard/home.html:210 templates/dashboard/landing/_base.html:285
+msgid "Kişisel Kelimeler"
+msgstr "Meine Wörter"
+
+#: templates/dashboard/install_guide.html:4
+msgid "LevelEnAI Uygulamasını Telefona Yükle (Android ve iPhone)"
+msgstr "LevelEnAI-App auf Handy herunterladen (Android und iPhone)"
+
+#: templates/dashboard/install_guide.html:5
+msgid "LevelEnAI'ı ana ekranına ekleyip uygulama gibi kullan. Android Chrome ve iPhone Safari için adım adım kurulum kılavuzu."
+msgstr "Füge LevelEnAI zu deinem Startbildschirm hinzu und nutze es wie eine App. Schritt-für-Schritt-Anleitung für Android Chrome und iPhone Safari."
+
+#: templates/dashboard/install_guide.html:13
+msgid "Uygulamayı Ana Ekrana Ekle"
+msgstr "App zum Startbildschirm Hinzufügen"
+
+#: templates/dashboard/install_guide.html:14
+msgid "Telefonundan tek tıkla aç — tıpkı App Store uygulaması gibi."
+msgstr "Mit einem Klick von deinem Handy öffnen — wie eine App Store-App."
+
+#: templates/dashboard/install_guide.html:21
+msgid "Android (Chrome)"
+msgstr "Android (Chrome)"
+
+#: templates/dashboard/install_guide.html:22
+msgid "iPhone (Safari)"
+msgstr "iPhone (Safari)"
+
+#: templates/dashboard/install_guide.html:28
+msgid "Chrome'u aç"
+msgstr "Chrome Öffnen"
+
+#: templates/dashboard/install_guide.html:29
+msgid "Bu siteyi (levelenai.com) Chrome tarayıcısında açtığından emin ol."
+msgstr "Stelle sicher, dass du diese Website (levelenai.com) in Chrome öffnest."
+
+#: templates/dashboard/install_guide.html:32
+msgid "Sağ üstteki üç noktaya ⋮ dokun"
+msgstr "Tippe auf die drei Punkte ⋮ oben rechts"
+
+#: templates/dashboard/install_guide.html:33
+msgid "Adres çubuğunun sağında yer alır."
+msgstr "Es befindet sich rechts neben der Adressleiste."
+
+#: templates/dashboard/install_guide.html:36
+msgid "“Ana ekrana ekle” seçeneğine dokun"
+msgstr "Tippen Sie auf die Option „Zur Startseite hinzufügen“"
+
+#: templates/dashboard/install_guide.html:37
+msgid "Menünün altlarında bulunur."
+msgstr "Es befindet sich am unteren Ende des Menüs."
+
+#: templates/dashboard/install_guide.html:40
+msgid "“Ekle” butonuna dokun"
+msgstr "Tippen Sie auf die Schaltfläche „Hinzufügen“"
+
+#: templates/dashboard/install_guide.html:41
+msgid "Uygulama ana ekranına eklenir ve App Store uygulaması gibi açılır."
+msgstr "Die App wird zu deinem Startbildschirm hinzugefügt und öffnet sich wie eine App Store-App."
+
+#: templates/dashboard/install_guide.html:44
+msgid "Android Chrome ana ekrana ekle adımları"
+msgstr "Android Chrome zum Startbildschirm Hinzufügen"
+
+#: templates/dashboard/install_guide.html:50
+msgid "Safari'yi aç"
+msgstr "Safari Öffnen"
+
+#: templates/dashboard/install_guide.html:51
+msgid "iPhone'da bu adım Chrome'da çalışmaz — Safari gerekli."
+msgstr "Auf dem iPhone funktioniert dieser Schritt nicht in Chrome — Safari ist erforderlich."
+
+#: templates/dashboard/install_guide.html:54
+msgid "Alt ortadaki Paylaş butonuna dokun"
+msgstr "Tippe auf die Schaltfläche \"Teilen\" unten in der Mitte"
+
+#: templates/dashboard/install_guide.html:55
+msgid "Yukarı ok işaretli dikdörtgen ikon."
+msgstr "Rechteck-Symbol mit einem nach oben zeigenden Pfeil."
+
+#: templates/dashboard/install_guide.html:58
+msgid "“Ana Ekrana Ekle” satırına dokun"
+msgstr "Tippen Sie auf die Zeile „Zur Startseite hinzufügen“"
+
+#: templates/dashboard/install_guide.html:59
+msgid "Paylaş menüsünün ortalarında bulunur."
+msgstr "Es befindet sich in der Mitte des Teilen-Menüs."
+
+#: templates/dashboard/install_guide.html:62
+msgid "Sağ üstten “Ekle” butonuna dokun"
+msgstr "Tippen Sie oben rechts auf die Schaltfläche „Hinzufügen“"
+
+#: templates/dashboard/install_guide.html:63
+msgid "Uygulama simgesi ana ekranına eklenir."
+msgstr "Das App-Symbol wird zum Startbildschirm hinzugefügt."
+
+#: templates/dashboard/install_guide.html:66
+msgid "iPhone Safari ana ekrana ekle adımları"
+msgstr "Schritte zum Hinzufügen zum Startbildschirm in iPhone Safari"
+
+#: templates/dashboard/install_guide.html:71
+msgid "Panele Dön"
+msgstr "Zurück zum Panel"
+
+#: templates/dashboard/landing/_base.html:44
+msgid "Ücretsiz"
+msgstr "Kostenlos"
+
+#: templates/dashboard/landing/_base.html:58
+msgid "Tamamen ücretsiz"
+msgstr "Vollständig kostenlos"
+
+#: templates/dashboard/landing/_base.html:59
+msgid "Kredi kartı yok · Süre sınırı yok"
+msgstr "Keine Kreditkarte erforderlich · Keine Zeitbeschränkung"
+
+#: templates/dashboard/landing/_base.html:71 templates/seo/_public_base.html:47
+msgid "Ücretsiz Başla"
+msgstr "Kostenlos starten"
+
+#: templates/dashboard/landing/_base.html:72
+msgid "Kelime listelerine bak"
+msgstr "Wortlisten ansehen"
+
+#: templates/dashboard/landing/_base.html:78
+msgid "Kurulum gerekmez"
+msgstr "Keine Installation erforderlich"
+
+#: templates/dashboard/landing/_base.html:82
+msgid "Sadece kullanıcı adı ve şifre"
+msgstr "Nur Benutzername und Passwort"
+
+#: templates/dashboard/landing/_base.html:86
+msgid "KVKK uyumlu"
+msgstr "KVKK-konform"
+
+#: templates/dashboard/landing/_base.html:128
+msgid "A1'den C2'ye sıralı ilerleme"
+msgstr "Strukturiertes Lernen von A1 bis C2"
+
+#: templates/dashboard/landing/_base.html:134
+msgid "AI sohbet"
+msgstr "KI-Chat"
+
+#: templates/dashboard/landing/_base.html:135
+msgid "Yazarken hatanı düzeltir"
+msgstr "Korrigiert Fehler beim Schreiben"
+
+#: templates/dashboard/landing/_base.html:141
+msgid "Mobil uygulama"
+msgstr "Mobile App"
+
+#: templates/dashboard/landing/_base.html:142
+msgid "Ana ekrana ekle, app gibi kullan"
+msgstr "Zum Startbildschirm hinzufügen, wie eine App nutzen"
+
+#: templates/dashboard/landing/_base.html:166
+msgid "Bugün nasıl gidiyor?"
+msgstr "Wie läufts heute?"
+
+#: templates/dashboard/landing/_base.html:169
+msgid "Kelimeler not defterinde; hangisini bildiğin belirsiz"
+msgstr "Vokabeln im Notizbuch; unklar, welche du beherrschst"
+
+#: templates/dashboard/landing/_base.html:170
+msgid "Gramer dağınık videolardan, sıralama yok"
+msgstr "Grammatik aus verstreuten Videos, keine Struktur"
+
+#: templates/dashboard/landing/_base.html:172
+msgid "Yanlış yaptığın kelime bir daha karşına çıkmıyor"
+msgstr "Falsch beantwortete Wörter erscheinen dir nicht wieder"
+
+#: templates/dashboard/landing/_base.html:173
+msgid "Seviyenin nerede olduğunu ölçemiyorsun"
+msgstr "Du kannst dein Niveau nicht bestimmen"
+
+#: templates/dashboard/landing/_base.html:184
+msgid "LevelEnAI ile"
+msgstr "Mit LevelEnAI"
+
+#: templates/dashboard/landing/_base.html:188
+msgid "18 gramer konusu; olumlu, olumsuz ve soru örnekleriyle"
+msgstr "18 Grammatikthemen mit affirmativen, negativen und Fragebeispielen"
+
+#: templates/dashboard/landing/_base.html:190
+msgid "Yanlışların tekrar havuzuna düşüyor, peşini bırakmıyor"
+msgstr "Deine Fehler landen im Wiederholungspool und werden nicht vergessen"
+
+#: templates/dashboard/landing/_base.html:191
+msgid "Seviyen ve haftalık ilerlemen panelde görünüyor"
+msgstr "Dein Niveau und wöchentliche Fortschritte im Überblick"
+
+#: templates/dashboard/landing/_base.html:203
+msgid "Kimler için tasarlandı?"
+msgstr "Für wen ist das konzipiert?"
+
+#: templates/dashboard/landing/_base.html:218
+msgid "Seviye"
+msgstr "Niveau"
+
+#: templates/dashboard/landing/_base.html:222
+msgid "Gramer Konusu"
+msgstr "Grammatikthema"
+
+#: templates/dashboard/landing/_base.html:226
+msgid "Canlı sohbet"
+msgstr "Live-Chat"
+
+#: templates/dashboard/landing/_base.html:242
+msgid "Dört dil, tek hesap"
+msgstr "Vier Sprachen, ein Konto"
+
+#: templates/dashboard/landing/_base.html:243
+msgid "Aynı hesapla birden çok dil çalışabilirsin; her kursun kendi seviyesi ve puanı var. Anlatım dilini de sen seçiyorsun."
+msgstr "Mit demselben Konto kannst du mehrere Sprachen lernen; jeder Kurs hat sein eigenes Niveau und seine Punkte. Du wählst auch die Unterrichtssprache."
+
+#: templates/dashboard/landing/_base.html:251
+#, python-format
+msgid "%(levels)s seviyelerinde %(lang)s kelime hazinesi, 18 gramer konusu ve quizler."
+msgstr "%(lang)s-Wortschatz auf %(levels)s Niveaus, 18 Grammatikthemen und Quiz"
+
+#: templates/dashboard/landing/_base.html:253
+msgid "Gramer konularına bak"
+msgstr "Grammatikthemen ansehen"
+
+#: templates/dashboard/landing/_base.html:255
+#, python-format
+msgid "%(lang)s öğrenmeye başla"
+msgstr "%(lang)s lernen"
+
+#: templates/dashboard/landing/_base.html:268
+msgid "Kelime, gramer, quiz ve AI pratik — günlük çalışmanı hızlandıran modüller."
+msgstr "Wörter, Grammatik, Quiz und KI-Praxis — Module für schnelleres Lernen."
+
+#: templates/dashboard/landing/_base.html:275
+msgid "Mülakat kategorilerine bak"
+msgstr "Interview-Kategorien"
+
+#: templates/dashboard/landing/_base.html:281
+msgid "Seviyelere göre kelime listeleri"
+msgstr "Wortlisten nach Niveau"
+
+#: templates/dashboard/landing/_base.html:286
+msgid "Hocandan veya derslerden kelime gir, AI anlamını ve örnek cümlesini otomatik üretsin."
+msgstr "Wörter vom Lehrer oder aus dem Unterricht eingeben, KI erstellt automatisch Bedeutung und Beispielsätze."
+
+#: templates/dashboard/landing/_base.html:292
+msgid "18 gramer konusunu incele"
+msgstr "Erkunde 18 Grammatikthemen"
+
+#: templates/dashboard/landing/_base.html:296
+msgid "AI ile Pratik"
+msgstr "Mit KI üben"
+
+#: templates/dashboard/landing/_base.html:301
+msgid "Seviye Takibi"
+msgstr "Lernfortschritt"
+
+#: templates/dashboard/landing/_base.html:302
+msgid "Her doğru cevap puana dönüşür, puan seviyene. Haftalık grafiğinde ne kadar çalıştığını görürsün."
+msgstr "Jede richtige Antwort ergibt Punkte, Punkte erhöhen dein Niveau. In der Wochengrafik siehst du deinen Lernaufwand."
+
+#: templates/dashboard/landing/_base.html:314
+msgid "Kayıt ol, seviyeni seç, hemen çalışmaya başla."
+msgstr "Registrieren, Niveau wählen, sofort anfangen."
+
+#: templates/dashboard/landing/_base.html:320
+msgid "Kayıt Ol"
+msgstr "Registrieren"
+
+#: templates/dashboard/landing/_base.html:321
+msgid "Sadece kullanıcı adı ve şifre. 10 saniyede hazırsın."
+msgstr "Nur Benutzername und Passwort. In 10 Sekunden fertig."
+
+#: templates/dashboard/landing/_base.html:326
+msgid "Seviye Seç"
+msgstr "Level wählen"
+
+#: templates/dashboard/landing/_base.html:327
+msgid "A1'den C2'ye seviyeni belirle. Kendi kelimelerini de ekle."
+msgstr "Bestimme dein Sprachniveau von A1 bis C2. Füge eigene Wörter hinzu."
+
+#: templates/dashboard/landing/_base.html:332
+msgid "Her Gün Pratik Yap"
+msgstr "Täglich üben"
+
+#: templates/dashboard/landing/_base.html:333
+msgid "Quiz çöz, kelime öğren, AI ile konuş. İlerlemen otomatik kaydedilir."
+msgstr "Löse Quiz, lerne Wörter, sprich mit KI. Dein Fortschritt wird automatisch gespeichert."
+
+#: templates/dashboard/landing/_base.html:344
+msgid "Ödeme planı yok. Tek bir plan var: ücretsiz."
+msgstr "Keine Bezahlpläne. Ein Plan: kostenlos."
+
+#: templates/dashboard/landing/_base.html:345
+msgid "Kredi kartı istemiyoruz, deneme süresi saymıyoruz, özellik kilitlemiyoruz."
+msgstr "Keine Kreditkarte, keine Testphase, keine Funktionssperrungen."
+
+#: templates/dashboard/landing/_base.html:349
+msgid "Neden ücretsiz?"
+msgstr "Warum kostenlos?"
+
+#: templates/dashboard/landing/_base.html:353
+msgid "Sonra ücretli olacak mı?"
+msgstr "Wird es später kostenpflichtig?"
+
+#: templates/dashboard/landing/_base.html:354
+msgid "Bugün kullandığınız özellikler ücretsiz kalır. İleride ek bir hizmet gelirse mevcut özellikleri kilitlemez."
+msgstr "Die Funktionen, die du heute nutzt, bleiben kostenlos. Falls später ein zusätzlicher Service kommt, werden die aktuellen Funktionen nicht gesperrt."
+
+#: templates/dashboard/landing/_base.html:357
+msgid "Verilerim ne oluyor?"
+msgstr "Was passiert mit meinen Daten?"
+
+#: templates/dashboard/landing/_base.html:358
+msgid "Kelime ve ilerleme kaydınız yalnızca size gösterilir. Hesabınızı istediğiniz an profil sayfasından kalıcı olarak silebilirsiniz."
+msgstr "Deine Wort- und Lernfortschritte werden nur dir angezeigt. Du kannst dein Konto jederzeit auf der Profilseite dauerhaft löschen."
+
+#: templates/dashboard/landing/_base.html:369
+msgid "Sıkça Sorulan Sorular"
+msgstr "Häufig gestellte Fragen"
+
+#: templates/dashboard/landing/_base.html:388
+msgid "Bugün başla, hiçbir şey ödeme"
+msgstr "Heute starten, nichts zahlen"
+
+#: templates/dashboard/landing/_base.html:389
+msgid "Kayıt olduktan sonra tüm özellikler aktif olur: dört dilde kelime hazinesi, gramer, quiz ve AI pratik. İstediğin kadar dil ekleyebilirsin."
+msgstr "Nach der Anmeldung sind alle Funktionen aktiv: Wortschatz in vier Sprachen, Grammatik, Quiz und KI-Übung. Du kannst beliebig viele Sprachen hinzufügen."
+
+#: templates/dashboard/landing/_base.html:390
+msgid "Kredi kartı yok · Süre sınırı yok · İstediğin an hesabını sil"
+msgstr "Keine Kreditkarte · Keine Zeitlimits · Konto jederzeit löschen"
+
+#: templates/dashboard/landing/_base.html:393 templates/seo/_signup_gate.html:20 templates/seo/html_sitemap.html:34
+msgid "Ücretsiz Kayıt Ol"
+msgstr "Kostenlos registrieren"
+
+#: templates/dashboard/landing/_base.html:409
+msgid "Öğrenilebilecek diller"
+msgstr "Lernbare Sprachen"
+
+#: templates/dashboard/landing/_base.html:417 templates/seo/_public_base.html:56
+msgid "Alt bağlantılar"
+msgstr "Weitere Links"
+
+#: templates/dashboard/landing/_base.html:422 templates/seo/_public_base.html:62
+msgid "Kaynaklar"
+msgstr "Ressourcen"
+
+#: templates/dashboard/landing/_base.html:423 templates/seo/_public_base.html:63 templates/seo/html_sitemap.html:4 templates/seo/html_sitemap.html:8 templates/seo/html_sitemap.html:17 templates/seo/html_sitemap.html:26
+msgid "Site Haritası"
+msgstr "Sitemap"
+
+#: templates/dashboard/landing/de.html:10
+msgid "Ücretsiz Almanca Öğrenme Platformu — Goethe ve Ausbildung Hazırlığı"
+msgstr "Kostenlose Deutschlernplattform — Goethe- und Ausbildungsvorbereitung"
+
+#: templates/dashboard/landing/de.html:11
+msgid "8.300+ Almanca kelime artikel ve çoğullarıyla, 18 gramer konusu ve her kelimede Türkçe karşılık. A1'den C1'e seviye takibi — tamamen ücretsiz."
+msgstr "8.300+ deutsche Wörter mit Artikeln und Pluralformen, 18 Grammatikthemen und türkische Übersetzungen zu jedem Wort. Niveauverfolgung von A1 bis C1 — vollständig kostenlos."
+
+#: templates/dashboard/landing/de.html:12
+msgid "LevelEnAI — Ücretsiz Almanca öğrenme ve sınav hazırlığı"
+msgstr "LevelEnAI — Kostenlos Deutsch lernen und Prüfungsvorbereitung"
+
+#: templates/dashboard/landing/de.html:13
+msgid "Artikelli kelime listeleri, Almanca gramer konuları ve AI pratik. Kayıt ol, ücretsiz kullan."
+msgstr "Wortlisten mit Artikeln, Deutsche Grammatikthemen und KI-Praxis. Melde dich an, nutze kostenlos."
+
+#: templates/dashboard/landing/de.html:15
+msgid "Almancayı sıfırdan kur."
+msgstr "Deutsch von Grund auf aufbauen."
+
+#: templates/dashboard/landing/de.html:16 templates/dashboard/landing/fr.html:15
+msgid "Sınavı geç."
+msgstr "Prüfung bestehen."
+
+#: templates/dashboard/landing/de.html:18
+msgid "A1'den C1'e 8.300+ kelime — her biri artikeli ve çoğuluyla. 18 Almanca gramer konusu, Türkçe anlatımlı. Goethe, ÖSD ve Ausbildung hazırlığı için tek platformda."
+msgstr "Von A1 bis C1: 8.300+ Wörter — jeweils mit Artikel und Plural. 18 deutsche Grammatikthemen, türkisch erklärt. Eine Plattform für Goethe-, ÖSD- und Ausbildungsvorbereitung."
+
+#: templates/dashboard/landing/de.html:20
+msgid "LevelEnAI paneli: Almanca seviye takibi, kelime hazinesi ilerlemesi ve haftalık çalışma grafiği"
+msgstr "LevelEnAI Dashboard: Deutsch-Niveauverfolgung, Wortschatz-Fortschritt und wöchentliches Lerndiagramm"
+
+#: templates/dashboard/landing/de.html:22
+msgid "Artikel ve çoğul"
+msgstr "Artikel und Plural"
+
+#: templates/dashboard/landing/de.html:23
+msgid "Her isim der/die/das ve çoğuluyla"
+msgstr "Jedes Nomen mit der/die/das und Plural"
+
+#: templates/dashboard/landing/de.html:24
+msgid "8.300+ kelime"
+msgstr "8.300+ Wörter"
+
+#: templates/dashboard/landing/de.html:26
+msgid "Almanca ezberle ilerlemiyor"
+msgstr "Mit Auswendiglernen kommst du im Deutschen nicht voran."
+
+#: templates/dashboard/landing/de.html:27
+msgid "Artikelleri kelimeden ayrı öğrenmek, der/die/das'ı her cümlede yeniden tahmin etmek demek. Sınav tarihine kadar hangi kelimeyi bildiğini de ölçemiyorsun."
+msgstr "Wenn du Artikel getrennt von Wörtern lernst, musst du der/die/das in jedem Satz neu raten. Bis zum Prüfungstag weißt du nicht, welche Wörter du beherrschst."
+
+#: templates/dashboard/landing/de.html:28
+msgid "Artikeli ve çoğulu kelimeden ayrı düşüyor, ikisini bir arada ezberlemiyorsun"
+msgstr "Artikel und Plural bleiben vom Wort getrennt — du lernst sie nicht zusammen."
+
+#: templates/dashboard/landing/de.html:30
+msgid "8.300+ kelime seviyelere ayrılmış, artikeli ve çoğulu kelimeyle birlikte"
+msgstr "8.300+ Wörter nach Niveaus sortiert, mit Artikeln und Pluralformen"
+
+#: templates/dashboard/landing/de.html:31
+msgid "Fiillerde yardımcı fiil ve Partizip II kayıtlı; Perfekt'i tahminle kurmuyorsun"
+msgstr "Verben enthalten Hilfsverben und Partizip II; das Perfekt konstruierst du nicht durch Raten."
+
+#: templates/dashboard/landing/de.html:33
+msgid "Almanya'da çalışmak, okumak ya da aileye katılmak için bir sertifika gerekiyorsa buradasın."
+msgstr "Du brauchst ein Deutschzertifikat für Arbeit, Studium oder Familiennachzug? Du bist richtig hier."
+
+#: templates/dashboard/landing/de.html:38
+msgid "Ausbildung başvuranlar"
+msgstr "Ausbildungsbewerber"
+
+#: templates/dashboard/landing/de.html:39
+msgid "Başvuru için B1 isteniyor. A1'den sırayla ilerle, gramer konularını Türkçe anlatımla çalış."
+msgstr "B1 wird für die Bewerbung benötigt. Arbeite dich von A1 an vor, lerne Grammatikthemen mit türkischen Erklärungen."
+
+#: templates/dashboard/landing/de.html:43
+msgid "Aile birleşimi bekleyenler"
+msgstr "Familiennachzug"
+
+#: templates/dashboard/landing/de.html:44
+msgid "Vize için A1 sertifikası şart. Gündelik kelimelerden başla, günde 20 dakikayla ilerle."
+msgstr "A1-Zertifikat ist für das Visum erforderlich. Beginne mit alltäglichen Wörtern, arbeite täglich 20 Minuten."
+
+#: templates/dashboard/landing/de.html:48
+msgid "Sağlık çalışanları"
+msgstr "Gesundheitsfachkräfte"
+
+#: templates/dashboard/landing/de.html:49
+msgid "Denklik için B2 gerekiyor. Mesleki kelimelerin yanında gramer ve AI pratiğiyle akıcılığı da çalış."
+msgstr "B2 ist für die Anerkennung erforderlich. Lerne neben Fachvokabeln auch Grammatik und übe Sprachflüssigkeit mit KI-Übungen."
+
+#: templates/dashboard/landing/de.html:53 templates/dashboard/landing/fr.html:37
+msgid "Üniversite adayları"
+msgstr "Studienbewerber"
+
+#: templates/dashboard/landing/de.html:54
+msgid "TestDaF ya da DSH yolundaysan C1 kelimelerine kadar aynı sistemle devam et."
+msgstr "Auf TestDaF oder DSH? Nutze das System bis zu C1-Wörtern."
+
+#: templates/dashboard/landing/de.html:61
+msgid "Almancaya sistemli başlangıç"
+msgstr "Systematischer Einstieg ins Deutsche"
+
+#: templates/dashboard/landing/de.html:62 templates/dashboard/landing/en.html:60 templates/dashboard/landing/fr.html:60 templates/dashboard/landing/index.html:70 templates/dashboard/landing/tr.html:63 templates/interviews/list.html:3 templates/interviews/list.html:10 templates/seo/interview_index.html:50
+msgid "Mülakat Hazırlık"
+msgstr "Interview-Vorbereitung"
+
+#: templates/dashboard/landing/de.html:63
+msgid "Almanca iş görüşmesine hazırlan: pozisyonunu yaz, soru ve cevaplar Almanca-Türkçe üretilsin."
+msgstr "Vorbereitung auf Vorstellungsgespräche: Gib deine Position ein, Fragen und Antworten auf Deutsch-Türkisch"
+
+#: templates/dashboard/landing/de.html:64
+msgid "A1'den C1'e 8.300'den fazla kelime. Her isimde artikel ve çoğul, her fiilde yardımcı fiil ve Partizip II."
+msgstr "Über 8.300 Wörter von A1 bis C1. Jedes Substantiv mit Artikel und Plural, jedes Verb mit Hilfsverb und Partizip II."
+
+#: templates/dashboard/landing/de.html:65
+msgid "Perfekt, Dativ, Akkusativ, Konjunktiv II — her konuda olumlu, olumsuz, soru örnekleri."
+msgstr "Perfekt, Dativ, Akkusativ, Konjunktiv II – zu jedem Thema positive, negative und Fragebeispiele"
+
+#: templates/dashboard/landing/de.html:66
+msgid "AI asistanla Almanca konuş, hatalarını görsün, doğrusunu öğren."
+msgstr "Mit KI Deutsch sprechen, Fehler sehen, richtig lernen"
+
+#: templates/dashboard/landing/de.html:68
+msgid "3 adımda Almanca pratiğine başla"
+msgstr "Deutsche Praxis in 3 Schritten"
+
+#: templates/dashboard/landing/de.html:70 templates/dashboard/landing/fr.html:68
+msgid "LevelEnAI bir yan ürün olarak geliştirildi. Amacı dil sertifikasının kimsenin önünde engel olmaması; abonelik satmak değil."
+msgstr "LevelEnAI wurde als Nebenprojekt entwickelt. Das Ziel: Sprachzertifikate sollen niemandem im Weg stehen – nicht um Abos zu verkaufen."
+
+#: templates/dashboard/landing/de.html:72
+msgid "Ücretsiz Almanca öğrenme ve sınav hazırlığı."
+msgstr "Kostenloses Deutschlernen und Prüfungsvorbereitung"
+
+#: templates/dashboard/landing/de.html:73
+msgid "Almanca Gramer"
+msgstr "Deutsche Grammatik"
+
+#: templates/dashboard/landing/en.html:9
+msgid "Ücretsiz İngilizce Öğrenme ve AI Mülakat Hazırlık Platformu"
+msgstr "Kostenlose Plattform zum Englischlernen und zur KI-Interviewvorbereitung"
+
+#: templates/dashboard/landing/en.html:10
+msgid "6.000+ kelime, 18 gramer konusu ve pozisyonuna özel AI mülakat sorularıyla İngilizceni geliştir. A1'den C2'ye seviye takibi, AI sohbet pratiği — tamamen ücretsiz."
+msgstr "Verbessere dein Englisch mit 6.000+ Wörtern, 18 Grammatikthemen und positionsspezifischen KI-Interviewfragen. Level-Tracking von A1 bis C2, KI-Chat-Praxis — vollständig kostenlos."
+
+#: templates/dashboard/landing/en.html:11
+msgid "LevelEnAI — Ücretsiz İngilizce ve AI mülakat hazırlığı"
+msgstr "LevelEnAI — Kostenlos Englisch lernen und KI-Interviewvorbereitung"
+
+#: templates/dashboard/landing/en.html:12
+msgid "Pozisyonuna özel mülakat soruları, 6.000+ kelime, gramer ve AI pratik. Kayıt ol, ücretsiz kullan."
+msgstr "Positionsspezifische Interviewfragen, 6.000+ Wörter, Grammatik und KI-Praxis. Melde dich an und nutze es kostenlos."
+
+#: templates/dashboard/landing/en.html:14
+msgid "İngilizceni seviye atlat."
+msgstr "Englisch auf die nächste Stufe bringen."
+
+#: templates/dashboard/landing/en.html:15
+msgid "Mülakatı kap."
+msgstr "Meistere das Interview."
+
+#: templates/dashboard/landing/en.html:17
+msgid "Pozisyonuna özel AI mülakat soruları, A1'den C2'ye 6.000+ kelime, 18 gramer konusu ve AI sohbet pratiği. Türk yazılımcılar için tek platformda."
+msgstr "Positionsspezifische KI-Interviewfragen, 6.000+ Wörter von A1 bis C2, 18 Grammatikthemen und KI-Chat-Praxis. Die einzige Plattform für türkische Programmierer."
+
+#: templates/dashboard/landing/en.html:19
+msgid "LevelEnAI paneli: İngilizce seviye takibi, kelime hazinesi ilerlemesi ve haftalık çalışma grafiği"
+msgstr "LevelEnAI-Dashboard: Englisch-Level-Tracking, Wortschatz-Fortschritt und wöchentliche Lernstatistik"
+
+#: templates/dashboard/landing/en.html:21
+msgid "AI mülakat"
+msgstr "KI-Interview"
+
+#: templates/dashboard/landing/en.html:22
+msgid "Pozisyona veya CV'ne özel sorular"
+msgstr "Fragen zur Position oder zu Ihrem Lebenslauf"
+
+#: templates/dashboard/landing/en.html:23
+msgid "6.000+ kelime"
+msgstr "6.000+ Wörter"
+
+#: templates/dashboard/landing/en.html:25
+msgid "Dağınık hazırlıkla mülakata girilmiyor"
+msgstr "Mit unstrukturierter Vorbereitung gehst du nicht ins Vorstellungsgespräch"
+
+#: templates/dashboard/landing/en.html:26
+msgid "Kelimeler defterde, gramer YouTube'da, mülakat soruları forumlarda. Hazırlık dağıldığında ilerlemeyi göremiyorsun."
+msgstr "Vokabeln im Notizbuch, Grammatik auf YouTube, Interviewfragen in Foren. Mit zersplitterter Vorbereitung siehst du keinen Fortschritt."
+
+#: templates/dashboard/landing/en.html:27
+msgid "Mülakat soruları genel; senin pozisyonuna göre değil"
+msgstr "Allgemeine Interviewfragen; nicht auf deine Position zugeschnitten"
+
+#: templates/dashboard/landing/en.html:29
+msgid "6.000+ kelime seviyelere ayrılmış, sırayla ilerliyorsun"
+msgstr "6.000+ Wörter in Stufen eingeteilt, strukturierter Lernfortschritt"
+
+#: templates/dashboard/landing/en.html:30
+msgid "İş başlığını yaz veya CV'ni yükle, sorular sana göre üretilsin"
+msgstr "Gib Jobbezeichnung ein oder lade deinen CV hoch — Fragen werden für dich generiert"
+
+#: templates/dashboard/landing/en.html:32
+msgid "İngilizce mülakat, İngilizce dokümantasyon ve İngilizce ekip toplantısı işin bir parçasıysa buradasın."
+msgstr "Wenn englische Vorstellungsgespräche, englische Dokumentation und englische Teambesprechungen zu deinem Job gehören, bist du hier richtig."
+
+#: templates/dashboard/landing/en.html:37
+msgid "Yazılım geliştiriciler"
+msgstr "Softwareentwickler"
+
+#: templates/dashboard/landing/en.html:38
+msgid "Backend, frontend, mobil, veri — pozisyonunu seç, o role özel İngilizce-Türkçe mülakat soruları üretilsin."
+msgstr "Backend, Frontend, Mobile, Daten — wähle deine Position, erhalte englisch-türkische Interviewfragen für diese Rolle"
+
+#: templates/dashboard/landing/en.html:42
+msgid "Yeni mezunlar"
+msgstr "Hochschulabsolventen"
+
+#: templates/dashboard/landing/en.html:43
+msgid "A1'den başla, seviye atladıkça puanın artsın. Nereden başlayacağını düşünmeden çalışmaya otur."
+msgstr "Beginne bei A1, verdiene Punkte beim Levelaufstieg. Arbeite sofort los, ohne zu überlegen, wo du anfangen sollst."
+
+#: templates/dashboard/landing/en.html:47
+msgid "Remote iş arayanlar"
+msgstr "Remote-Jobs"
+
+#: templates/dashboard/landing/en.html:48
+msgid "Yurt dışı görüşmelerinde takıldığın yer kelime ve akıcılıksa, günlük pratikle ikisini birden çalış."
+msgstr "In internationalen Interviews bei Wortschatz und Flüssigkeit steckenbleiben? Trainiere beides täglich."
+
+#: templates/dashboard/landing/en.html:52 templates/dashboard/landing/fr.html:52 templates/dashboard/landing/index.html:62
+msgid "Kendi listesini tutanlar"
+msgstr "Eigene Listen"
+
+#: templates/dashboard/landing/en.html:53 templates/dashboard/landing/index.html:63
+msgid "Dersten veya işten aldığın kelimeleri gir; AI anlamını ve örnek cümlesini yazsın, quizini üretsin."
+msgstr "Gib Wörter aus Unterricht oder Arbeit ein; KI generiert Bedeutung, Beispielsätze und Quiz."
+
+#: templates/dashboard/landing/en.html:59
+msgid "Süreç odaklı İngilizce deneyimi"
+msgstr "Englischtraining durch Praxis"
+
+#: templates/dashboard/landing/en.html:61
+msgid "Pozisyonuna özel AI mülakat soruları. Türkçe-İngilizce soru ve cevaplar. İstediğin iş başlığını yaz veya hazır kategorilerden seç."
+msgstr "Position-spezifische KI-Interviewfragen. Türkisch-englische Fragen und Antworten. Gib deinen Jobtitel ein oder wähle aus Kategorien."
+
+#: templates/dashboard/landing/en.html:62
+msgid "A1'den C2'ye 6.000'den fazla kelime. Seviye seç, sırayla ilerle. Yanlışların otomatik tekrar eder."
+msgstr "Von A1 bis C2 über 6.000 Wörter. Wähle dein Niveau, lerne der Reihe nach. Fehler werden automatisch wiederholt."
+
+#: templates/dashboard/landing/en.html:63
+msgid "Zamanlar, modaller, conditionals — her konuda olumlu, olumsuz, soru örnekleri."
+msgstr "Zeitformen, Modalverben, Bedingungssätze — positive, negative, Fragebeispiele zu jedem Thema."
+
+#: templates/dashboard/landing/en.html:64
+msgid "AI asistanla İngilizce konuş, hatalarını görsün, doğrusunu öğren."
+msgstr "Sprich Englisch mit KI-Assistent, sieh deine Fehler, lerne die richtige Form."
+
+#: templates/dashboard/landing/en.html:66
+msgid "3 adımda İngilizce pratiğine başla"
+msgstr "Englisch in 3 Schritten trainieren"
+
+#: templates/dashboard/landing/en.html:68
+msgid "LevelEnAI bir yan ürün olarak geliştirildi. Amacı Türk yazılımcıların İngilizce mülakatlarda takılmamasını sağlamak; abonelik satmak değil."
+msgstr "LevelEnAI wurde als Nebenprodukt entwickelt. Ziel: türkische Entwickler in englischen Interviews unterstützen – nicht Abos verkaufen."
+
+#: templates/dashboard/landing/en.html:70
+msgid "AI-coached interview prep for Turkish developers."
+msgstr "KI-gestützte Interviewvorbereitung für türkische Entwickler"
+
+#: templates/dashboard/landing/en.html:71
+msgid "İngilizce Gramer"
+msgstr "Englische Grammatik"
+
+#: templates/dashboard/landing/fr.html:9
+msgid "Ücretsiz Fransızca Öğrenme Platformu — DELF ve TCF Hazırlığı"
+msgstr "Kostenlose Französisch-Lernplattform — DELF- und TCF-Vorbereitung"
+
+#: templates/dashboard/landing/fr.html:10
+msgid "14.000+ Fransızca kelime, 18 gramer konusu ve her kelimede Türkçe karşılık. A1'den C2'ye seviye takibi, AI sohbet pratiği — tamamen ücretsiz."
+msgstr "14.000+ französische Wörter, 18 französische Grammatikthemen und deutsche Übersetzungen für jedes Wort. Leveltracking von A1 bis C2, KI-Chat-Übung – völlig kostenlos."
+
+#: templates/dashboard/landing/fr.html:11
+msgid "LevelEnAI — Ücretsiz Fransızca öğrenme ve sınav hazırlığı"
+msgstr "LevelEnAI – Kostenlos Französisch lernen und Prüfungen vorbereiten"
+
+#: templates/dashboard/landing/fr.html:12
+msgid "Seviyeye göre kelime listeleri, Fransızca gramer konuları ve AI pratik. Kayıt ol, ücretsiz kullan."
+msgstr "Wortlisten nach Niveau, französische Grammatikthemen und KI-Übung. Melden Sie sich an, nutzen Sie kostenlos."
+
+#: templates/dashboard/landing/fr.html:14
+msgid "Fransızcayı sıfırdan kur."
+msgstr "Französisch von Grund auf aufbauen"
+
+#: templates/dashboard/landing/fr.html:17
+msgid "A1'den C2'ye 14.000+ kelime, 18 Fransızca gramer konusu ve AI sohbet pratiği. Türkçe anlatımlı; DELF, TCF ve üniversite başvuruları için tek platformda."
+msgstr "Von A1 bis C2: 14.000+ Wörter, 18 französische Grammatikthemen und KI-Chat-Übung. Auf Deutsch erklärt; für DELF, TCF und Hochschulbewerbungen auf einer Plattform."
+
+#: templates/dashboard/landing/fr.html:19
+msgid "LevelEnAI paneli: Fransızca seviye takibi, kelime hazinesi ilerlemesi ve haftalık çalışma grafiği"
+msgstr "LevelEnAI-Panel: Französisch-Leveltracking, Wortschatzfortschritt und wöchentliche Statistik"
+
+#: templates/dashboard/landing/fr.html:21
+msgid "Seviye garantili liste"
+msgstr "Stufengerechte Liste"
+
+#: templates/dashboard/landing/fr.html:22
+msgid "Kelime seviyeleri akademik korpustan"
+msgstr "Wortebenen aus akademischem Korpus"
+
+#: templates/dashboard/landing/fr.html:23
+msgid "14.000+ kelime"
+msgstr "14.000+ Wörter"
+
+#: templates/dashboard/landing/fr.html:25
+msgid "Fransızca kelime listesi bulmak kolay, sıralı olanı değil"
+msgstr "Französische Wortlisten sind leicht zu finden, sortierte aber nicht"
+
+#: templates/dashboard/landing/fr.html:26
+msgid "İnternetteki listeler hangi seviyeye ait olduğunu söylemiyor. C1 kelimesini A1'de ezberleyip gündelik cümleyi kuramıyorsun."
+msgstr "Internetlisten sagen nicht, zu welcher Stufe sie gehören. Du merkst dir C1-Wörter auf A1-Niveau und kannst keine alltäglichen Sätze bilden."
+
+#: templates/dashboard/landing/fr.html:27 templates/dashboard/landing/index.html:37
+msgid "Hangi kelimenin hangi seviyeye ait olduğu belirsiz"
+msgstr "Unklar, zu welcher Stufe jedes Wort gehört"
+
+#: templates/dashboard/landing/fr.html:29
+msgid "14.000+ kelime seviyelere ayrılmış, sırayla ilerliyorsun"
+msgstr "14.000+ Wörter nach Stufen eingeteilt – Sie lernen Schritt für Schritt"
+
+#: templates/dashboard/landing/fr.html:30
+msgid "Kesme işareti ve aksanlar cevapta esnek değerlendiriliyor, eksik aksan uyarı veriyor"
+msgstr "Apostrophe und Akzente werden in Antworten flexibel bewertet, fehlende Akzente geben eine Warnung"
+
+#: templates/dashboard/landing/fr.html:32
+msgid "Fransa'da okumak, Québec'e başvurmak ya da Fransızca bir sertifika almak gündemindeyse buradasın."
+msgstr "In Frankreich studieren, nach Québec bewerben oder französisches Zertifikat? Du bist hier richtig."
+
+#: templates/dashboard/landing/fr.html:38
+msgid "Fransa ve Belçika başvuruları B2 istiyor. A1'den sırayla ilerle, seviyeni panelde gör."
+msgstr "Bewerbungen für Frankreich und Belgien erfordern B2. Arbeite der Reihe nach von A1, sieh deinen Level im Panel."
+
+#: templates/dashboard/landing/fr.html:42
+msgid "Kanada'ya başvuranlar"
+msgstr "Kanada-Bewerber"
+
+#: templates/dashboard/landing/fr.html:43
+msgid "Québec ve federal programlarda Fransızca puan getiriyor. TCF kelime havuzunu sistemli çalış."
+msgstr "In Quebec und föderalen Programmen bringt Französisch Punkte. Arbeite systematisch den TCF-Wortschatz durch."
+
+#: templates/dashboard/landing/fr.html:47
+msgid "Erasmus öğrencileri"
+msgstr "Erasmus-Studierende"
+
+#: templates/dashboard/landing/fr.html:48
+msgid "Dönem başlamadan gündelik Fransızcayı kur: kelime, gramer ve AI ile konuşma pratiği."
+msgstr "Baue dir alltägliches Französisch auf, bevor das Semester anfängt: Vokabeln, Grammatik und KI-Sprechpraxis."
+
+#: templates/dashboard/landing/fr.html:53
+msgid "Dersten veya kitaptan aldığın kelimeleri gir; AI anlamını ve örnek cümlesini yazsın."
+msgstr "Gib Wörter aus deinem Unterricht oder aus Büchern ein; die KI erklärt die Bedeutung und gibt einen Beispielsatz."
+
+#: templates/dashboard/landing/fr.html:59
+msgid "Fransızcaya sistemli başlangıç"
+msgstr "Systematischer Einstieg ins Französische"
+
+#: templates/dashboard/landing/fr.html:61
+msgid "Fransızca iş görüşmesine hazırlan: pozisyonunu yaz, soru ve cevaplar Fransızca-Türkçe üretilsin."
+msgstr "Vorbereitung auf französische Vorstellungsgespräche: Gib deine Position ein, Fragen und Antworten auf Französisch-Türkisch"
+
+#: templates/dashboard/landing/fr.html:62
+msgid "A1'den C2'ye 14.000'den fazla kelime. Seviye seç, sırayla ilerle. Yanlışların otomatik tekrar eder."
+msgstr "Von A1 bis C2: über 14.000 Wörter. Wähle deine Stufe, schreite folgerichtig voran. Deine Fehler wiederholen sich automatisch."
+
+#: templates/dashboard/landing/fr.html:63
+msgid "Passé composé, imparfait, subjonctif, pronoms — her konuda olumlu, olumsuz, soru örnekleri."
+msgstr "Passé composé, imparfait, subjonctif, pronoms — zu jedem Thema positive, negative und Fragebeispiele."
+
+#: templates/dashboard/landing/fr.html:64
+msgid "AI asistanla Fransızca konuş, hatalarını görsün, doğrusunu öğren."
+msgstr "Sprich Französisch mit dem KI-Assistenten, erkenne deine Fehler und lerne das Richtige."
+
+#: templates/dashboard/landing/fr.html:66
+msgid "3 adımda Fransızca pratiğine başla"
+msgstr "Beginne Französisch in 3 Schritten"
+
+#: templates/dashboard/landing/fr.html:70
+msgid "Ücretsiz Fransızca öğrenme ve sınav hazırlığı."
+msgstr "Kostenloses Französisch-Lernen und Prüfungsvorbereitung."
+
+#: templates/dashboard/landing/fr.html:71
+msgid "Fransızca Gramer"
+msgstr "Französische Grammatik"
+
+#: templates/dashboard/landing/index.html:17
+msgid "Ücretsiz Dil Öğrenme Platformu — İngilizce, Almanca, Fransızca, Türkçe"
+msgstr "Kostenlose Sprachlernplattform — Englisch, Deutsch, Französisch, Türkisch"
+
+#: templates/dashboard/landing/index.html:18
+msgid "Dört dilde ücretsiz dil öğrenme: 36.000+ kelime, her dilde 18 gramer konusu, quizler ve AI pratik. Anlatım dilini sen seç, aynı hesapla birden çok dil çalış."
+msgstr "Kostenlose Sprachenlernung in vier Sprachen: 36.000+ Wörter, 18 Grammatikthemen pro Sprache, Quiz und KI-Übung. Wähle deine Oberflächensprache, lerne mehrere Sprachen mit einem Konto."
+
+#: templates/dashboard/landing/index.html:19
+msgid "LevelEnAI — Dört dilde ücretsiz dil öğrenme"
+msgstr "LevelEnAI — Kostenlose Sprachenlernung in vier Sprachen"
+
+#: templates/dashboard/landing/index.html:20
+msgid "İngilizce, Almanca, Fransızca ve Türkçe. Kelime, gramer, quiz ve AI pratik — tamamen ücretsiz."
+msgstr "Englisch, Deutsch, Französisch und Türkisch. Vokabeln, Grammatik, Quiz und KI-Übung — völlig kostenlos."
+
+#: templates/dashboard/landing/index.html:22
+msgid "Yeni bir dil öğren."
+msgstr "Lerne eine neue Sprache."
+
+#: templates/dashboard/landing/index.html:23
+msgid "Kendi hızınla."
+msgstr "In deinem eigenen Tempo."
+
+#: templates/dashboard/landing/index.html:25
+msgid "İngilizce, Almanca, Fransızca ve Türkçe. A1'den C2'ye 36.000+ kelime, her dilde 18 gramer konusu, quizler ve AI sohbet pratiği. Aynı hesapla birden çok dil çalışabilirsin; anlatım dilini de sen seçersin."
+msgstr "Englisch, Deutsch, Französisch und Türkisch. Von A1 bis C2: 36.000+ Wörter, 18 Grammatikthemen pro Sprache, Quiz und KI-Konversationspraxis. Lerne mehrere Sprachen mit einem Konto; wähle deine Oberflächensprache."
+
+#: templates/dashboard/landing/index.html:27 templates/dashboard/landing/index.html:72 templates/dashboard/landing/index.html:74 templates/dashboard/landing/index.html:76
+msgid "Dilleri gör"
+msgstr "Sprachen anzeigen"
+
+#: templates/dashboard/landing/index.html:29
+msgid "LevelEnAI paneli: dil seviyesi takibi, kelime hazinesi ilerlemesi ve haftalık çalışma grafiği"
+msgstr "LevelEnAI-Dashboard: Sprachniveauverfolgung, Wortschatzfortschritt und wöchentliches Lerndiagramm"
+
+#: templates/dashboard/landing/index.html:31
+msgid "Dört dil"
+msgstr "Vier Sprachen"
+
+#: templates/dashboard/landing/index.html:32
+msgid "Tek hesapta, her biri kendi seviyesiyle"
+msgstr "Ein Konto, jede Sprache auf ihrem eigenen Niveau"
+
+#: templates/dashboard/landing/index.html:33
+msgid "36.000+ kelime"
+msgstr "36.000+ Wörter"
+
+#: templates/dashboard/landing/index.html:35
+msgid "Dağınık kaynakla dil öğrenilmiyor"
+msgstr "Mit verstreuten Quellen lernt man keine Sprache"
+
+#: templates/dashboard/landing/index.html:36
+msgid "Kelimeler defterde, gramer YouTube'da, alıştırma forumlarda. Hazırlık dağıldığında ilerlemeyi göremiyorsun."
+msgstr "Wörter im Notizbuch, Grammatik auf YouTube, Übungen im Forum. Ohne Struktur siehst du keinen Fortschritt."
+
+#: templates/dashboard/landing/index.html:39
+msgid "36.000+ kelime dört dile ve seviyelere ayrılmış, sırayla ilerliyorsun"
+msgstr "36.000+ Wörter in vier Sprachen und Levels, systematischer Fortschritt"
+
+#: templates/dashboard/landing/index.html:40
+msgid "Anlatım dilini seçiyorsun: Almancayı Türkçe, İngilizce ya da Fransızca açıklamalarla çalış"
+msgstr "Wähle die Erklärungssprache: Deutsch mit türkischen, englischen oder französischen Erklärungen"
+
+#: templates/dashboard/landing/index.html:42
+msgid "İster sınav, ister iş, ister taşındığın ülkenin dili — dördünden biriyle başla."
+msgstr "Ob Prüfung, Job oder die Sprache deines neuen Landes – fang mit einer an."
+
+#: templates/dashboard/landing/index.html:47
+msgid "İş ve mülakat"
+msgstr "Beruf und Interview"
+
+#: templates/dashboard/landing/index.html:48
+msgid "Pozisyonunu yaz ya da CV'ni yükle; o role özel mülakat soruları ve örnek cevaplar üretilsin."
+msgstr "Gib deine Position ein oder lade deinen CV hoch – es werden Interviewfragen und Beispielantworten für diese Rolle generiert."
+
+#: templates/dashboard/landing/index.html:52
+msgid "Sınav hazırlığı"
+msgstr "Prüfungsvorbereitung"
+
+#: templates/dashboard/landing/index.html:53
+msgid "Goethe, DELF, TCF ya da okul sınavı — seviye seviye ilerle, eksiğini panelde gör."
+msgstr "Goethe, DELF, TCF oder Schulprüfung – Level für Level vorankommen, Lücken im Dashboard erkennen."
+
+#: templates/dashboard/landing/index.html:57
+msgid "Yurt dışı planı"
+msgstr "Auslandsplan"
+
+#: templates/dashboard/landing/index.html:58
+msgid "Ausbildung, üniversite, vize ya da taşınma: gündelik dilden başla, sertifika seviyesine çık."
+msgstr "Ausbildung, Universität, Visum oder Umzug: von Alltagssprache zum Zertifikatniveau"
+
+#: templates/dashboard/landing/index.html:69
+msgid "Her dilde aynı yapı"
+msgstr "Gleiche Struktur in jeder Sprache"
+
+#: templates/dashboard/landing/index.html:71
+msgid "Pozisyonuna özel AI mülakat soruları, öğrendiğin dilde soru ve kendi dilinde cevap."
+msgstr "KI-Interviewfragen für deine Position – Fragen in deiner Lernsprache, Antworten in deiner Sprache."
+
+#: templates/dashboard/landing/index.html:73
+msgid "Dört dilde toplam 36.000+ kelime, A1'den C2'ye seviyelere ayrılmış. Yanlışların otomatik tekrar eder."
+msgstr "36.000+ Wörter in vier Sprachen, A1 bis C2. Deine Fehler wiederholen sich automatisch."
+
+#: templates/dashboard/landing/index.html:75
+msgid "Her dilde 18 gramer konusu; olumlu, olumsuz ve soru örnekleriyle, kendi dilinde anlatımla."
+msgstr "18 Grammatikthemen pro Sprache mit positiven, negativen und Fragebeispielen – in deiner Sprache erklärt."
+
+#: templates/dashboard/landing/index.html:77
+msgid "AI asistanla öğrendiğin dilde konuş, hatalarını görsün, doğrusunu öğren."
+msgstr "Sprich mit dem KI-Assistenten in deiner Lernsprache, sehe deine Fehler, lerne das Richtige."
+
+#: templates/dashboard/landing/index.html:79
+msgid "3 adımda pratiğe başla"
+msgstr "Trainiere in 3 Schritten"
+
+#: templates/dashboard/landing/index.html:81
+msgid "LevelEnAI bir yan ürün olarak geliştirildi. Amacı dil öğrenmek isteyenin kaynak aramakla uğraşmaması; abonelik satmak değil."
+msgstr "LevelEnAI wurde als Nebenprojekt entwickelt. Ziel ist, dass Sprachlernende nicht selbst Ressourcen suchen müssen – nicht um Abos zu verkaufen."
+
+#: templates/dashboard/landing/index.html:83
+msgid "Dört dilde ücretsiz dil öğrenme ve AI pratik."
+msgstr "Kostenlos Sprachen lernen und mit KI üben – in vier Sprachen."
+
+#: templates/dashboard/landing/tr.html:11
+msgid "Ücretsiz Türkçe Öğrenme Platformu — Kelime, Gramer ve AI Pratik"
+msgstr "Kostenlose Türkisch-Lernplattform — Vokabeln, Grammatik und KI-Praxis"
+
+#: templates/dashboard/landing/tr.html:12
+msgid "7.900+ Türkçe kelime, 18 gramer konusu ve her kelimede İngilizce, Fransızca, Almanca karşılık. A1'den C1'e seviye takibi — tamamen ücretsiz."
+msgstr "Über 7.900 türkische Wörter, 18 Grammatikthemen mit Englisch-, Französisch- und Deutschentsprechungen. Stufenverfolgung A1–C1 — kostenlos."
+
+#: templates/dashboard/landing/tr.html:13
+msgid "LevelEnAI — Ücretsiz Türkçe öğrenme platformu"
+msgstr "LevelEnAI — Kostenlose Türkisch-Lernplattform"
+
+#: templates/dashboard/landing/tr.html:14
+msgid "Seviyeye göre kelime listeleri, Türkçe gramer konuları ve AI pratik. Kayıt ol, ücretsiz kullan."
+msgstr "Wortlisten nach Stufe, türkische Grammatikthemen und KI-Praxis. Melde dich an, alles kostenlos."
+
+#: templates/dashboard/landing/tr.html:16
+msgid "Türkçeyi sıfırdan kur."
+msgstr "Türkisch von Grund auf lernen."
+
+#: templates/dashboard/landing/tr.html:17
+msgid "Gündelik hayatta kullan."
+msgstr "Im Alltag einsetzen."
+
+#: templates/dashboard/landing/tr.html:19
+msgid "A1'den C1'e 7.900+ kelime, 18 Türkçe gramer konusu ve AI sohbet pratiği. Anlatım dilini kendin seçiyorsun: İngilizce, Fransızca ya da Almanca."
+msgstr "A1 bis C1: über 7.900 Wörter, 18 Türkisch-Grammatik-Themen und KI-Sprachpraxis. Wähle deine Unterrichtssprache: Englisch, Französisch oder Deutsch."
+
+#: templates/dashboard/landing/tr.html:21
+msgid "LevelEnAI paneli: Türkçe seviye takibi, kelime hazinesi ilerlemesi ve haftalık çalışma grafiği"
+msgstr "LevelEnAI-Panel: Türkçe-Stufenverfolgung, Wortschatzentwicklung und wöchentliche Aktivitätsgrafik"
+
+#: templates/dashboard/landing/tr.html:23
+msgid "Anlatım dilini sen seç"
+msgstr "Wähle deine Erklärungssprache"
+
+#: templates/dashboard/landing/tr.html:24
+msgid "İngilizce, Fransızca veya Almanca"
+msgstr "Englisch, Französisch oder Deutsch"
+
+#: templates/dashboard/landing/tr.html:25
+msgid "7.900+ kelime"
+msgstr "7.900+ Wörter"
+
+#: templates/dashboard/landing/tr.html:27
+msgid "Türkçe kaynak bulmak kolay değil"
+msgstr "Türkische Ressourcen sind schwer zu finden."
+
+#: templates/dashboard/landing/tr.html:28
+msgid "Türkçe için seviyeye ayrılmış, karşılıklı kelime listeleri az. Ekler ve ünlü uyumu da ezberle değil örnekle oturuyor."
+msgstr "Nach Niveaus sortierte, zweisprachige Wortlisten für Türkisch sind selten. Suffixe und Vokalharmonie lernst du durch Beispiele, nicht durch Auswendiglernen."
+
+#: templates/dashboard/landing/tr.html:29
+msgid "Ekler ve ünlü uyumu kuralı okunuyor ama örnek cümlede görünmüyor"
+msgstr "Die Regel für Suffixe und Vokalharmonie wird erklärt, erscheint aber nicht im Beispielsatz."
+
+#: templates/dashboard/landing/tr.html:31
+msgid "7.900+ kelime seviyelere ayrılmış, sırayla ilerliyorsun"
+msgstr "7.900+ Wörter nach Stufen — schreite folgerichtig voran"
+
+#: templates/dashboard/landing/tr.html:32
+msgid "Her kelime ve her gramer örneği kendi dilindeki karşılığıyla birlikte"
+msgstr "Jedes Wort und jedes Grammatik-Beispiel mit Übersetzung in deiner Sprache."
+
+#: templates/dashboard/landing/tr.html:34
+msgid "Türkiye'de yaşamak, çalışmak ya da okumak gündeminizdeyse buradasınız."
+msgstr "Du möchtest in der Türkei leben, arbeiten oder studieren? Dann bist du hier richtig."
+
+#: templates/dashboard/landing/tr.html:39
+msgid "Türkiye'de yaşayanlar"
+msgstr "In der Türkei Lebende"
+
+#: templates/dashboard/landing/tr.html:40
+msgid "Markette, hastanede, kurumda geçen cümlelerle başla. Gündelik kelimeler A1 ve A2'de."
+msgstr "Alltägliche Sätze: Supermarkt, Arztpraxis, Behörden. Grundvokabeln in A1 und A2."
+
+#: templates/dashboard/landing/tr.html:44
+msgid "Üniversite öğrencileri"
+msgstr "Universitätsstudenten"
+
+#: templates/dashboard/landing/tr.html:45
+msgid "TÖMER kuruna paralel çalış: kelimeyi quizle pekiştir, gramer konusunu kendi dilinde oku."
+msgstr "Parallel zum TÖMER-Kurs: Vokabeln durch Quizze festigen, Grammatik-Themen in deiner Sprache lesen."
+
+#: templates/dashboard/landing/tr.html:49
+msgid "Karma aileler"
+msgstr "Internationale Paare"
+
+#: templates/dashboard/landing/tr.html:50
+msgid "Eşinizin ailesiyle konuşmak için gereken şey akademik Türkçe değil; gündelik kalıplar ve pratik."
+msgstr "Mit der Familie brauchst du keine akademische Sprache – alltägliche Wendungen und Praxis."
+
+#: templates/dashboard/landing/tr.html:54
+msgid "İş için gelenler"
+msgstr "Geschäftsreisende"
+
+#: templates/dashboard/landing/tr.html:55
+msgid "Ekip toplantısında ve yazışmada takıldığınız yer kelimeyse, günlük pratikle ilerleyin."
+msgstr "Bei Teamtreffen oder Korrespondenz an Wörtern hängen? Üben Sie täglich weiter."
+
+#: templates/dashboard/landing/tr.html:62
+msgid "Türkçeye sistemli başlangıç"
+msgstr "Systematischer Einstieg ins Türkische"
+
+#: templates/dashboard/landing/tr.html:64
+msgid "Türkçe iş görüşmesine hazırlanın: pozisyonunuzu yazın, soru ve cevaplar kendi dilinizdeki karşılığıyla üretilsin."
+msgstr "Bereiten Sie sich auf türkisches Jobinterview vor: Position eingeben, Fragen und Antworten in Ihrer Sprache generieren"
+
+#: templates/dashboard/landing/tr.html:65
+msgid "A1'den C1'e 7.900'den fazla kelime. Seviye seç, sırayla ilerle. Yanlışların otomatik tekrar eder."
+msgstr "Von A1 bis C1: über 7.900 Wörter. Wähle deine Stufe, schreite folgerichtig voran. Deine Fehler wiederholen sich automatisch."
+
+#: templates/dashboard/landing/tr.html:66
+msgid "Ekler, ünlü uyumu, geçmiş zamanlar, koşul cümleleri — her konuda olumlu, olumsuz, soru örnekleri."
+msgstr "Suffixe, Vokalharmonie, Vergangenheitsformen, Bedingungssätze — zu jedem Thema positive, negative und Fragebeispiele."
+
+#: templates/dashboard/landing/tr.html:67
+msgid "AI asistanla Türkçe konuş, hatalarını görsün, doğrusunu öğren."
+msgstr "Sprich Türkçe mit dem KI-Assistenten, erkenne deine Fehler und lerne das Richtige."
+
+#: templates/dashboard/landing/tr.html:69
+msgid "3 adımda Türkçe pratiğine başla"
+msgstr "Beginne Türkçe in 3 Schritten"
+
+#: templates/dashboard/landing/tr.html:71
+msgid "LevelEnAI bir yan ürün olarak geliştirildi. Amacı Türkçeyi öğrenmek isteyenin kaynak aramakla uğraşmaması; abonelik satmak değil."
+msgstr "LevelEnAI wurde als Nebenprodukt entwickelt. Sein Zweck ist es, Türkischlernenden die Ressourcensuche zu ersparen – nicht um Abos zu verkaufen."
+
+#: templates/dashboard/landing/tr.html:73
+msgid "Ücretsiz Türkçe öğrenme platformu."
+msgstr "Kostenlose Türkisch-Lernplattform"
+
+#: templates/dashboard/landing/tr.html:74
+msgid "Türkçe Gramer"
+msgstr "Türkische Grammatik"
+
+#: templates/interviews/detail.html:8 templates/interviews/detail.html:122
+msgid "Mülakatlarım"
+msgstr "Meine Interviews"
+
+#: templates/interviews/detail.html:14 templates/interviews/list.html:98 templates/quizzes/picker.html:37
+#, python-format
+msgid "%(count)s soru"
+msgstr "%(count)s Fragen"
+
+#: templates/interviews/detail.html:19 templates/interviews/list.html:105
+msgid "Bu mülakat silinsin mi?"
+msgstr "Dieses Interview löschen?"
+
+#: templates/interviews/detail.html:29
+msgid "Sorular hazırlanıyor..."
+msgstr "Fragen werden vorbereitet..."
+
+#: templates/interviews/detail.html:32
+msgid "Sorular hazırlandıkça burada görünecek. Sayfayı kapatabilirsin; kaldığın yerden devam eder."
+msgstr "Die Fragen werden hier angezeigt, sobald sie fertig sind. Du kannst die Seite schließen; du fährst später fort, wo du aufgehört hast."
+
+#: templates/interviews/detail.html:37
+msgid "Yeni sorular hazır — göster"
+msgstr "Neue Fragen bereit — anzeigen"
+
+#: templates/interviews/detail.html:55 templates/quizzes/picker.html:110 tests/test_translations.py:58
+#, python-brace-format
+msgid "{done} / {total} soru hazır..."
+msgstr "{done} / {total} Fragen bereit..."
+
+#: templates/interviews/detail.html:82
+msgid "Sorular üretilemedi"
+msgstr "Fragen konnten nicht generiert werden"
+
+#: templates/interviews/detail.html:84
+msgid "Sorular üretilirken bilinmeyen bir hata oluştu."
+msgstr "Ein unbekannter Fehler ist beim Generieren von Fragen aufgetreten."
+
+#: templates/interviews/detail.html:86
+msgid "Yeni mülakat başlat"
+msgstr "Neues Interview starten"
+
+#: templates/interviews/detail.html:104
+msgid "Cevabı Göster"
+msgstr "Antwort zeigen"
+
+#: templates/interviews/list.html:11
+#, python-format
+msgid "Pozisyona özel veya CV'ne göre %(lang)s-%(nlang)s mülakat soruları"
+msgstr "Positions- oder CV-spezifische %(lang)s-%(nlang)s Interviewfragen"
+
+#: templates/interviews/list.html:21
+msgid "Pozisyon Seç"
+msgstr "Position wählen"
+
+#: templates/interviews/list.html:25
+msgid "CV Yükle"
+msgstr "Lebenslauf hochladen"
+
+#: templates/interviews/list.html:33
+msgid "İş Pozisyonu"
+msgstr "Position"
+
+#: templates/interviews/list.html:35
+msgid "Developer Pozisyonları"
+msgstr "Entwicklerpositionen"
+
+#: templates/interviews/list.html:40
+msgid "Alan / Uzmanlık"
+msgstr "Bereich / Fachkompetenz"
+
+#: templates/interviews/list.html:45
+msgid "Diğer"
+msgstr "Sonstiges"
+
+#: templates/interviews/list.html:46
+msgid "Kendi başlığımı yazacağım"
+msgstr "Meinen eigenen Titel eingeben"
+
+#: templates/interviews/list.html:51
+msgid "İş Başlığı"
+msgstr "Jobtitel"
+
+#: templates/interviews/list.html:52
+msgid "ör: Frontend Developer, Data Engineer..."
+msgstr "z.B.: Frontend Developer, Data Engineer..."
+
+#: templates/interviews/list.html:55
+msgid "AI ile Mülakat Soruları Oluştur"
+msgstr "Interviewfragen mit AI erstellen"
+
+#: templates/interviews/list.html:64
+msgid "CV'ni yükle, AI sana özel sorular hazırlasın"
+msgstr "Laden Sie Ihren Lebenslauf hoch, damit AI Ihnen personalisierte Fragen vorbereitet"
+
+#: templates/interviews/list.html:65
+msgid "PDF, DOCX veya TXT formatında. AI, CV'deki beceriler ve deneyime göre kişiselleştirilmiş mülakat soruları üretir."
+msgstr "PDF, DOCX oder TXT-Format. AI erstellt personalisierte Interviewfragen basierend auf Ihre Fähigkeiten und Erfahrung aus dem Lebenslauf."
+
+#: templates/interviews/list.html:70
+msgid "CV Dosyası"
+msgstr "Lebenslauf-Datei"
+
+#: templates/interviews/list.html:73
+msgid "CV'yi Analiz Et ve Sorular Oluştur"
+msgstr "Lebenslauf analysieren und Fragen erstellen"
+
+#: templates/interviews/list.html:82
+msgid "AI mülakat soruların hazırlanıyor..."
+msgstr "AI bereitet Interviewfragen vor..."
+
+#: templates/interviews/list.html:83
+msgid "Yönlendiriliyorsun; üretim arka planda sürecek."
+msgstr "Sie werden weitergeleitet; die Generierung wird im Hintergrund fortgesetzt."
+
+#: templates/interviews/list.html:87
+msgid "Geçmiş Mülakatlarım"
+msgstr "Frühere Interviews"
+
+#: templates/interviews/list.html:103
+msgid "Görüntüle"
+msgstr "Anzeigen"
+
+#: templates/interviews/list.html:116
+msgid "Henüz mülakat oluşturmadın. Pozisyon seç veya CV yükle!"
+msgstr "Sie haben noch kein Interview erstellt. Wählen Sie eine Position oder laden Sie Ihren Lebenslauf hoch!"
+
+#: templates/learn/courses.html:11
+msgid "Birden çok dil öğrenebilirsin; her kurs kendi seviyesini taşır."
+msgstr "Du kannst mehrere Sprachen lernen; jeder Kurs hat sein eigenes Niveau."
+
+#: templates/learn/courses.html:21 templates/topics/list.html:23
+msgid "İşlem"
+msgstr "Aktion"
+
+#: templates/learn/courses.html:29
+msgid "Aktif"
+msgstr "Aktiv"
+
+#: templates/learn/courses.html:52
+msgid "Bu kursa geç"
+msgstr "Zum Kurs"
+
+#: templates/learn/courses.html:60
+msgid "Henüz kursun yok."
+msgstr "Du hast noch keinen Kurs."
+
+#: templates/learn/courses.html:68
+msgid "Yeni kurs ekle"
+msgstr "Neuen Kurs hinzufügen"
+
+#: templates/learn/courses.html:88
+msgid "Kurs ekle"
+msgstr "Kurs hinzufügen"
+
+#: templates/legal/_kvkk_body.html:3
+msgid "Veri Sorumlusu"
+msgstr "Verantwortlicher"
+
+#: templates/legal/_kvkk_body.html:3
+msgid "operatör bilgisi üretim öncesi güncellenecek"
+msgstr "Betreiberinformationen werden vor der Produktion aktualisiert"
+
+#: templates/legal/_kvkk_body.html:6
+msgid "6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında, Levelenai olarak kişisel verilerinizin güvenliğine özen gösteriyoruz. Bu metin, hangi verilerin toplandığını, hangi amaçlarla işlendiğini ve haklarınızı özetler."
+msgstr "Im Rahmen des Gesetzes Nr. 6698 zum Schutz personenbezogener Daten kümmern wir uns bei Levelenai um die Sicherheit Ihrer persönlichen Daten. Dieser Text fasst zusammen, welche Daten erfasst werden, für welche Zwecke sie verarbeitet werden und welche Rechte Sie haben."
+
+#: templates/legal/_kvkk_body.html:13
+msgid "Toplanan Veriler"
+msgstr "Erfasste Daten"
+
+#: templates/legal/_kvkk_body.html:15
+msgid "Kimlik: Kullanıcı adı, ad, soyad (isteğe bağlı)."
+msgstr "Identität: Benutzername, Vorname, Nachname (optional)."
+
+#: templates/legal/_kvkk_body.html:16
+msgid "İletişim: E-posta adresi."
+msgstr "Kontakt: E-Mail-Adresse."
+
+#: templates/legal/_kvkk_body.html:17
+msgid "İşlem: Quiz / mülakat / sohbet etkinlikleri ve ilerleme kayıtları."
+msgstr "Aktivität: Quiz / Interview / Chat-Ereignisse und Fortschrittsprotokolle."
+
+#: templates/legal/_kvkk_body.html:18
+msgid "Teknik: IP adresi, tarayıcı/oturum bilgileri, log kayıtları."
+msgstr "Technisch: IP-Adresse, Browser-/Sitzungsinformationen, Protokolleinträge."
+
+#: templates/legal/_kvkk_body.html:21
+msgid "Platform tamamen ücretsizdir; ödeme, kart veya fatura bilgisi toplanmaz."
+msgstr "Die Plattform ist völlig kostenlos; es werden keine Zahlungs-, Karten- oder Rechnungsinformationen erfasst."
+
+#: templates/legal/_kvkk_body.html:24
+msgid "İşleme Amaçları"
+msgstr "Verarbeitungszwecke"
+
+#: templates/legal/_kvkk_body.html:26
+msgid "Hesap oluşturma, kimlik doğrulama ve oturum yönetimi."
+msgstr "Kontoerstellung, Authentifizierung und Sitzungsverwaltung."
+
+#: templates/legal/_kvkk_body.html:27
+#, python-format
+msgid "%(lang)s mülakat hazırlık hizmetinin sunulması ve ilerleme takibi."
+msgstr "%(lang)s-Interviewvorbereitung und Fortschrittsverfolgung"
+
+#: templates/legal/_kvkk_body.html:28
+msgid "Kullanıcı destek taleplerinin karşılanması."
+msgstr "Erfüllung von Benutzerunterstützungsanfragen."
+
+#: templates/legal/_kvkk_body.html:29
+msgid "Yasal yükümlülüklerin yerine getirilmesi ve kötüye kullanımın önlenmesi."
+msgstr "Erfüllung gesetzlicher Verpflichtungen und Missbrauchsprävention."
+
+#: templates/legal/_kvkk_body.html:32
+msgid "Aktarım"
+msgstr "Übertragung"
+
+#: templates/legal/_kvkk_body.html:34
+msgid "Verileriniz, hizmetin sunulabilmesi için OpenAI (AI içerik üretimi) gibi tedarikçilerle sınırlı ölçüde paylaşılır. Bu paylaşımlar sadece hizmetin gerektirdiği veriyle sınırlıdır."
+msgstr "Ihre Daten werden in begrenztem Umfang mit Anbietern wie OpenAI (KI-Inhaltserzeugung) geteilt, um den Dienst bereitzustellen. Diese Weitergabe ist auf die für den Dienst erforderlichen Daten beschränkt."
+
+#: templates/legal/_kvkk_body.html:41
+msgid "Saklama Süresi"
+msgstr "Aufbewahrungsdauer"
+
+#: templates/legal/_kvkk_body.html:43
+msgid "Veriler, hesabınız aktif olduğu sürece ve yasal saklama süreleri boyunca tutulur. Hesabınızı sildiğinizde ilişkili kişisel veriler makul süre içinde silinir veya anonimleştirilir."
+msgstr "Daten werden gespeichert, solange Ihr Konto aktiv ist, und während der gesetzlichen Aufbewahrungsfristen. Wenn Sie Ihr Konto löschen, werden zugehörige persönliche Daten innerhalb angemessener Zeit gelöscht oder anonymisiert."
+
+#: templates/legal/_kvkk_body.html:50
+msgid "Haklarınız (KVKK md. 11)"
+msgstr "Ihre Rechte (KVKK md. 11)"
+
+#: templates/legal/_kvkk_body.html:52
+msgid "İşlenip işlenmediğini öğrenme, bilgi talep etme."
+msgstr "Zu erfahren, ob persönliche Daten verarbeitet werden und Informationen anzufordern"
+
+#: templates/legal/_kvkk_body.html:53
+msgid "Amacına uygun kullanılıp kullanılmadığını öğrenme."
+msgstr "Zu erfahren, ob persönliche Daten ihrem Zweck entsprechend verwendet werden"
+
+#: templates/legal/_kvkk_body.html:54
+msgid "Eksik/yanlış verilerin düzeltilmesini isteme."
+msgstr "Berichtigung unvollständiger oder falscher Daten zu fordern"
+
+#: templates/legal/_kvkk_body.html:55
+msgid "Silinmesini veya yok edilmesini isteme."
+msgstr "Löschung oder Vernichtung zu fordern"
+
+#: templates/legal/_kvkk_body.html:56
+msgid "Otomatik sistemlerle yapılan analizlere itiraz etme."
+msgstr "Gegen automatisierte Analysen Widerspruch einzulegen"
+
+#: templates/legal/_kvkk_body.html:59
+msgid "Talepleriniz için destek@levelenai.com adresine başvurabilirsiniz. Hesabınızı uygulama içinden \"Hesabı Sil\" akışıyla da kaldırabilirsiniz."
+msgstr "Für Ihre Anfragen kontaktieren Sie destek@levelenai.com. Sie können Ihr Konto auch über den \"Konto löschen\"-Prozess in der App entfernen."
+
+#: templates/quizzes/feedback.html:3 templates/vocabulary/quiz_feedback.html:3 templates/wordbank/feedback.html:3
+msgid "Sonuç"
+msgstr "Ergebnis"
+
+#: templates/quizzes/feedback.html:8 templates/quizzes/run.html:10
+#, python-format
+msgid "Soru %(current)s/%(total)s"
+msgstr "Frage %(current)s/%(total)s"
+
+#: templates/quizzes/feedback.html:21 templates/vocabulary/quiz_feedback.html:23 templates/wordbank/feedback.html:23
+msgid "✓ Doğru!"
+msgstr "✓ Richtig!"
+
+#: templates/quizzes/feedback.html:22
+msgid "Cevabın:"
+msgstr "Deine Antwort:"
+
+#: templates/quizzes/feedback.html:24
+msgid "✗ Yanlış"
+msgstr "✗ Falsch"
+
+#: templates/quizzes/feedback.html:25 templates/quizzes/result.html:46 templates/vocabulary/quiz_feedback.html:32 templates/wordbank/feedback.html:31
+msgid "Senin:"
+msgstr "Deine:"
+
+#: templates/quizzes/feedback.html:25 templates/quizzes/result.html:46 templates/vocabulary/quiz_feedback.html:32 templates/wordbank/feedback.html:31
+msgid "(boş)"
+msgstr "(leer)"
+
+#: templates/quizzes/feedback.html:26 templates/quizzes/result.html:47 templates/vocabulary/quiz_feedback.html:33 templates/wordbank/feedback.html:32
+msgid "Doğrusu:"
+msgstr "Richtig:"
+
+#: templates/quizzes/feedback.html:31 templates/vocabulary/quiz_feedback.html:51 templates/wordbank/feedback.html:49
+msgid "Sıradaki"
+msgstr "Weiter"
+
+#: templates/quizzes/feedback.html:32 templates/quizzes/run.html:42
+msgid "Bitir"
+msgstr "Beenden"
+
+#: templates/quizzes/picker.html:28
+msgid "✓ Bitirdin"
+msgstr "✓ Geschafft!"
+
+#: templates/quizzes/picker.html:33 tests/test_translations.py:45
+msgid "Hazırlanıyor..."
+msgstr "Wird vorbereitet..."
+
+#: templates/quizzes/picker.html:35
+msgid "Quiz üretilemedi."
+msgstr "Quiz konnte nicht erstellt werden."
+
+#: templates/quizzes/picker.html:38
+#, python-format
+msgid "son skor %(score)s%%"
+msgstr "Punkte %(score)s%%"
+
+#: templates/quizzes/picker.html:46
+msgid "Tekrar çöz"
+msgstr "Erneut versuchen"
+
+#: templates/quizzes/picker.html:46 templates/wordbank/levels.html:35
+msgid "Başla"
+msgstr "Starten"
+
+#: templates/quizzes/picker.html:58
+msgid "Henüz quiz yok."
+msgstr "Noch keine Quiz."
+
+#: templates/quizzes/picker.html:65 templates/quizzes/result.html:55
+msgid "Yeni AI Quiz Oluştur"
+msgstr "Neues KI-Quiz erstellen"
+
+#: templates/quizzes/picker.html:67
+msgid "Şu ana kadarki konuları/kelimeleri temel alarak AI senin için yeni bir quiz üretir."
+msgstr "Basierend auf deinen bisherigen Themen/Wörtern generiert KI ein neues Quiz für dich."
+
+#: templates/quizzes/picker.html:72
+msgid "Yeni Quiz Oluştur"
+msgstr "Neues Quiz erstellen"
+
+#: templates/quizzes/result.html:3
+msgid "Quiz Sonucu"
+msgstr "Quiz-Ergebnis"
+
+#: templates/quizzes/result.html:14
+msgid "Harika!"
+msgstr "Toll!"
+
+#: templates/quizzes/result.html:15
+msgid "İyi iş!"
+msgstr "Gut gemacht!"
+
+#: templates/quizzes/result.html:16
+msgid "Devam et!"
+msgstr "Weiter!"
+
+#: templates/quizzes/result.html:20
+#, python-format
+msgid "%(correct)s/%(answered)s doğru (%(percent)s%%)"
+msgstr "%(correct)s/%(answered)s richtig (%(percent)s%%)"
+
+#: templates/quizzes/result.html:27
+msgid "Skor"
+msgstr "Punktzahl"
+
+#: templates/quizzes/result.html:41
+#, python-format
+msgid "Yanlışların (%(count)s)"
+msgstr "Deine Fehler (%(count)s)"
+
+#: templates/quizzes/result.html:57
+msgid "Bu konuyu bitirdin. AI senin için yepyeni bir quiz hazırlasın mı?"
+msgstr "Du hast dieses Thema abgeschlossen. Soll KI ein brandneues Quiz für dich vorbereiten?"
+
+#: templates/quizzes/result.html:61
+msgid "AI üretiyor..."
+msgstr "KI generiert..."
+
+#: templates/quizzes/result.html:62
+msgid "Yeni Quiz Başlat"
+msgstr "Neues Quiz starten"
+
+#: templates/quizzes/result.html:69 templates/quizzes/result.html:72
+msgid "Quizlere dön"
+msgstr "Zurück zu Quizzes"
+
+#: templates/quizzes/result.html:73 templates/seo/_public_base.html:18 templates/vocabulary/add.html:17
+msgid "Kelimeler"
+msgstr "Wörter"
+
+#: templates/quizzes/run.html:37
+msgid "Cevabın..."
+msgstr "Deine Antwort..."
+
+#: templates/quizzes/run.html:41 templates/vocabulary/quiz.html:45 templates/wordbank/quiz.html:50
+msgid "Cevapla"
+msgstr "Antworten"
+
+#: templates/seo/_jsonld_site.html:18
+#, python-format
+msgid "%(lang)s kelime, gramer ve AI destekli mülakat hazırlığı sunan ücretsiz platform."
+msgstr "Kostenlose Plattform für %(lang)s-Wörter, Grammatik und KI-gestützte Interviewvorbereitung"
+
+#: templates/seo/_jsonld_site.html:40
+#, python-format
+msgid "Pozisyona özel AI mülakat soruları, binlerce kelime ve gramer konusuyla %(lang)s hazırlık uygulaması."
+msgstr "%(lang)s-Vorbereitungs-App mit positionsspezifischen KI-Interviewfragen, Tausenden Wörtern und Grammatikthemen"
+
+#: templates/seo/_public_base.html:17 templates/seo/grammar_detail.html:67
+msgid "Gramer"
+msgstr "Grammatik"
+
+#: templates/seo/_public_base.html:25
+msgid "Uygulamaya git"
+msgstr "Zur App"
+
+#: templates/seo/_public_base.html:28
+msgid "Ücretsiz kayıt"
+msgstr "Kostenlos registrieren"
+
+#: templates/seo/_public_base.html:36
+msgid "Site haritası yolu"
+msgstr "Navigationspfad"
+
+#: templates/seo/_public_base.html:44
+msgid "Öğrendiklerini pratiğe dök"
+msgstr "Übe das Gelernte"
+
+#: templates/seo/_public_base.html:45
+#, python-format
+msgid "Quiz çöz, kelimelerini takip et, AI ile %(lang)s konuş. Kayıt ücretsiz, kredi kartı istenmez."
+msgstr "Löse Quiz, verfolge Wörter, sprich %(lang)s mit KI. Kostenlose Anmeldung – keine Kreditkarte erforderlich."
+
+#: templates/seo/_public_base.html:58 templates/seo/_public_base.html:74 templates/seo/grammar_detail.html:20 templates/seo/grammar_detail.html:31 templates/seo/grammar_index.html:10 templates/seo/grammar_index.html:21
+#, python-format
+msgid "%(lang)s Gramer"
+msgstr "%(lang)s-Grammatik"
+
+#: templates/seo/_public_base.html:70
+msgid "Diğer diller"
+msgstr "Andere Sprachen"
+
+#: templates/seo/_signup_gate.html:11
+msgid "Kayıt gerekli"
+msgstr "Anmeldung erforderlich"
+
+#: templates/seo/_signup_gate.html:13
+msgid "Devamı için ücretsiz hesap aç"
+msgstr "Kostenloses Konto erstellen"
+
+#: templates/seo/_signup_gate.html:16
+msgid "Kayıt olduğunda tüm içerik açılır: quiz çözersin, yanlışların tekrar havuzuna düşer, seviyen ve haftalık ilerlemen panelde görünür. Kredi kartı istenmez."
+msgstr "Wenn du dich registrierst, werden alle Inhalte freigegeben: du löst Quiz, deine Fehler fallen in den Wiederholungspool, dein Niveau und wöchentlicher Fortschritt sind auf dem Dashboard sichtbar. Keine Kreditkarte erforderlich."
+
+#: templates/seo/grammar_detail.html:14
+msgid "Konu Anlatımı ve Örnek Cümleler"
+msgstr "Themenerklärung und Beispielsätze"
+
+#: templates/seo/grammar_detail.html:15
+#, python-format
+msgid "%(name)s konu anlatımı: ne zaman kullanılır, nasıl kurulur ve olumlu, olumsuz, soru örnek cümleler — Türkçe karşılıklarıyla birlikte."
+msgstr "%(name)s-Erklärung: Wann wird es verwendet, wie wird es konstruiert, positive, negative und Frage-Beispielsätze — mit türkischen Übersetzungen."
+
+#: templates/seo/grammar_detail.html:16 templates/seo/grammar_detail.html:37
+#, python-format
+msgid "%(lang)s konu anlatımı"
+msgstr "%(lang)s-Themenerklärung"
+
+#: templates/seo/grammar_detail.html:17
+#, python-format
+msgid "%(name)s konusunun kuralları ve %(count)s örnek cümlesi, Türkçe çevirileriyle."
+msgstr "Regeln von %(name)s und %(count)s Beispielsätze mit türkischen Übersetzungen"
+
+#: templates/seo/grammar_detail.html:39
+msgid "Gramer konu anlatımı"
+msgstr "Grammatikerklärung"
+
+#: templates/seo/grammar_detail.html:68
+msgid "Konu Anlatımı"
+msgstr "Erklärung"
+
+#: templates/seo/grammar_detail.html:69
+#, python-format
+msgid "%(example_count)s örnek cümle · Türkçe açıklama · ücretsiz"
+msgstr "%(example_count)s Beispielsätze · Türkische Erklärung · kostenlos"
+
+#: templates/seo/grammar_detail.html:74
+msgid "Kural ve kullanım"
+msgstr "Regel und Verwendung"
+
+#: templates/seo/grammar_detail.html:92
+msgid "Olumlu cümle örnekleri"
+msgstr "Positive Beispielsätze"
+
+#: templates/seo/grammar_detail.html:104
+msgid "Olumsuz cümle örnekleri"
+msgstr "Negative Beispielsätze"
+
+#: templates/seo/grammar_detail.html:116
+msgid "Soru cümlesi örnekleri"
+msgstr "Frage-Beispielsätze"
+
+#: templates/seo/grammar_detail.html:127
+#, python-format
+msgid "%(s)s bölüm ve %(e)s örnek cümle daha"
+msgstr "%(s)s Abschnitte und %(e)s Beispielsätze mehr"
+
+#: templates/seo/grammar_detail.html:132
+msgid "Konular arası gezinme"
+msgstr "Themennavigation"
+
+#: templates/seo/grammar_detail.html:146
+msgid "Diğer gramer konuları"
+msgstr "Weitere Grammatikthemen"
+
+#: templates/seo/grammar_detail.html:149 templates/seo/grammar_index.html:57
+msgid "Tüm konular"
+msgstr "Alle Themen"
+
+#: templates/seo/grammar_index.html:4
+#, python-format
+msgid "%(lang)s Gramer Konuları — Konu Anlatımı ve Örnek Cümleler"
+msgstr "%(lang)s-Grammatikthemen — Erklärungen und Beispielsätze"
+
+#: templates/seo/grammar_index.html:5
+#, python-format
+msgid "%(lang)s gramer konuları tek sayfada: zamanlar, modallar, koşul cümleleri, edilgen çatı ve daha fazlası. Her konuda %(nlang)s açıklama ve olumlu, olumsuz, soru örnek cümleleri."
+msgstr "%(lang)s-Grammatikthemen auf einer Seite: Zeiten, Modalverben, Bedingungssätze, Passiv und mehr. Zu jedem Thema %(nlang)s Erklärungen und Beispielsätze in positiver, negativer und Frageform."
+
+#: templates/seo/grammar_index.html:7
+#, python-format
+msgid "%(count)s gramer konusu, %(nlang)s anlatım ve örnek cümleler. Ücretsiz."
+msgstr "%(count)s Grammatikthemen, %(nlang)s Erklärungen und Beispielsätze. Kostenlos."
+
+#: templates/seo/grammar_index.html:45
+msgid "Gramer Rehberi"
+msgstr "Grammatikratgeber"
+
+#: templates/seo/grammar_index.html:48
+#, python-format
+msgid "Zamanlardan koşul cümlelerine, modal fiillerden edilgen çatıya kadar temel %(lang)s gramer konularını %(nlang)s açıklamalarla topladık. Her konunun altında olumlu, olumsuz ve soru biçiminde örnek cümleler bulacaksın — hepsi %(nlang)s karşılığıyla birlikte."
+msgstr "Von Zeiten über Bedingungssätze bis zu Modalverben und Passiv – grundlegende %(lang)s-Grammatik mit %(nlang)s Erklärungen. Zu jedem Thema Beispielsätze in positiver, negativer und Frageform – alle mit %(nlang)s Übersetzungen."
+
+#: templates/seo/grammar_index.html:53
+#, python-format
+msgid "%(total)s konu · her konuda 18 örnek cümle · ücretsiz"
+msgstr "%(total)s Themen · 18 Beispielsätze pro Thema · kostenlos"
+
+#: templates/seo/grammar_index.html:71
+msgid "Gramer çalışırken nasıl ilerlemeli?"
+msgstr "Wie lernt man Grammatik richtig?"
+
+#: templates/seo/grammar_index.html:72
+msgid "Gramer öğrenmenin en hızlı yolu kuralı okuyup hemen örnek cümlelerle pekiştirmektir. Önce konunun ne zaman kullanıldığını oku, ardından olumlu/olumsuz/soru örneklerini sesli tekrarla. Aynı kalıbı kendi cümlelerinle yeniden kur — böylece kural ezber değil, refleks haline gelir."
+msgstr "Die schnellste Art, Grammatik zu lernen: Regel lesen und sofort mit Beispielsätzen üben. Erst lesen, wann das Thema verwendet wird, dann die positiven/negativen/Frage-Beispiele laut sprechen. Danach das Muster mit eigenen Sätzen nachbauen — so wird die Regel zur Routine statt zum Auswendiglernen."
+
+#: templates/seo/grammar_index.html:75
+msgid "Sıralamayı takip etmek istersen Present Simple ile başlayıp zamanlar bittikten sonra modallara, koşul cümlelerine ve edilgen çatıya geçmen önerilir. Her konudan sonra"
+msgstr "Wenn du der Reihenfolge folgen möchtest, empfehlen wir: Beginne mit Present Simple, gehe dann die Zeiten durch, danach Modalverben, Bedingungssätze und Passiv. Nach jedem Thema"
+
+#: templates/seo/grammar_index.html:77
+msgid "seviyene uygun kelime listesiyle"
+msgstr "mit einer für dein Niveau geeigneten Wortliste"
+
+#: templates/seo/grammar_index.html:78
+msgid "kelime dağarcığını genişletmeyi unutma."
+msgstr "Vergiss nicht, deinen Wortschatz zu erweitern."
+
+#: templates/seo/html_sitemap.html:5
+msgid "LevelEnAI'daki tüm gramer konuları, seviye seviye kelime listeleri ve mülakat hazırlık sayfalarının tek sayfalık dizini."
+msgstr "Ein einseitiges Verzeichnis aller Grammatikthemen in LevelEnAI, Wortlisten nach Niveaus und Seiten zur Interviewvorbereitung."
+
+#: templates/seo/html_sitemap.html:6
+msgid "LevelEnAI Site Haritası"
+msgstr "LevelEnAI Sitemap"
+
+#: templates/seo/html_sitemap.html:25
+msgid "Dizin"
+msgstr "Index"
+
+#: templates/seo/html_sitemap.html:27
+msgid "Sitedeki halka açık tüm sayfalar tek listede."
+msgstr "Alle öffentlichen Seiten dieser Website in einer Liste."
+
+#: templates/seo/html_sitemap.html:31
+msgid "Genel"
+msgstr "Allgemein"
+
+#: templates/seo/html_sitemap.html:36 templates/seo/interview_index.html:6 templates/seo/interview_index.html:9 templates/seo/interview_index.html:20 templates/seo/interview_index.html:51
+#, python-format
+msgid "%(lang)s Mülakat Soruları"
+msgstr "%(lang)s-Interviewfragen"
+
+#: templates/seo/html_sitemap.html:50 templates/seo/words_index.html:25
+#, python-format
+msgid "%(lang)s Kelime Listeleri"
+msgstr "%(lang)s-Wortlisten"
+
+#: templates/seo/html_sitemap.html:54 templates/seo/words_index.html:62
+#, python-format
+msgid "%(code)s seviyesi kelimeler"
+msgstr "Wörter auf Niveau %(code)s"
+
+#: templates/seo/html_sitemap.html:55 templates/seo/words_index.html:64 templates/seo/words_level.html:57
+#, python-format
+msgid "%(n)s kelime"
+msgstr "%(n)s Wörter"
+
+#: templates/seo/interview_index.html:4
+#, python-format
+msgid "%(lang)s Mülakat Soruları — Pozisyona Göre Hazırlık"
+msgstr "%(lang)s-Interviewfragen — Vorbereitung nach Position"
+
+#: templates/seo/interview_index.html:5
+#, python-format
+msgid "Yazılım ve teknoloji pozisyonları için %(lang)s mülakat hazırlığı. Backend, frontend, DevOps, veri ve daha fazlası — CV'ni yükle, AI sana özel mülakat soruları üretsin. Ücretsiz."
+msgstr "%(lang)s-Interviewvorbereitung für Software- und Technologiepositionen. Backend, Frontend, DevOps, Daten und mehr — lade dein CV hoch, die KI generiert dir personalisierte Interviewfragen. Kostenlos."
+
+#: templates/seo/interview_index.html:7
+#, python-format
+msgid "Pozisyonuna özel AI mülakat soruları, %(nlang)s-%(lang)s cevaplarla. Ücretsiz."
+msgstr "KI-Interviewfragen für deine Position mit %(nlang)s-%(lang)s-Antworten. Kostenlos."
+
+#: templates/seo/interview_index.html:28
+#, python-format
+msgid "%(lang)s mülakata nasıl hazırlanmalıyım?"
+msgstr "Wie sollte ich mich auf ein %(lang)s-Interview vorbereiten?"
+
+#: templates/seo/interview_index.html:29
+#, python-format
+msgid "Pozisyonunda sık sorulan soruları %(lang)s yazılı olarak cevapla, sonra sesli tekrarla. Teknik terimleri %(nlang)s düşünüp çevirmek yerine doğrudan %(lang)s kalıplarla öğren."
+msgstr "Beantworte häufig gestellte Fragen deiner Position schriftlich auf %(lang)s und wiederhole sie dann mündlich. Lerne %(lang)s-Muster direkt, statt Fachbegriffe von %(nlang)s zu übersetzen."
+
+#: templates/seo/interview_index.html:33
+msgid "CV yükleyerek soru üretmek nasıl çalışıyor?"
+msgstr "Wie funktioniert die Fragenerzeugung durch CV-Upload?"
+
+#: templates/seo/interview_index.html:34
+msgid "PDF veya Word formatındaki CV&#39;ni yüklersin; yapay zekâ deneyimlerini okuyup sana özel mülakat soruları ve örnek cevaplar üretir."
+msgstr "Du lädst deinen CV als PDF oder Word-Datei hoch; künstliche Intelligenz liest deine Erfahrung und generiert dir maßgeschneiderte Interviewfragen und Beispielantworten."
+
+#: templates/seo/interview_index.html:38
+msgid "Mülakat hazırlığı ücretli mi?"
+msgstr "Kostet die Interviewvorbereitung etwas?"
+
+#: templates/seo/interview_index.html:39
+msgid "Hayır. LevelEnAI tamamen ücretsizdir; kayıt olman yeterli."
+msgstr "Nein. LevelEnAI ist völlig kostenlos; du musst dich nur registrieren."
+
+#: templates/seo/interview_index.html:53
+#, python-format
+msgid "Teknik bilgin yeterli olsa bile mülakat %(tloc)s ilerlediğinde iş değişir. LevelEnAI, seçtiğin pozisyona ya da yüklediğin CV'ye göre sana özel %(lang)s mülakat soruları üretir; her sorunun yanında %(nlang)s karşılığı ve örnek cevabı yer alır."
+msgstr "Selbst wenn dein technisches Wissen ausreicht, ändert sich alles, wenn das Interview %(tloc)s fortschreitet. LevelEnAI generiert je nach deiner gewählten Position oder deinem hochgeladenen CV personalisierte %(lang)s-Interviewfragen; jede Frage enthält die %(nlang)s-Entsprechung und eine Beispielantwort."
+
+#: templates/seo/interview_index.html:58
+#, python-format
+msgid "%(total)s pozisyon kategorisi · CV'den soru üretme · ücretsiz"
+msgstr "%(total)s Positionskategorien · Fragenableitung aus CV · kostenlos"
+
+#: templates/seo/interview_index.html:62
+msgid "Pozisyon kategorileri"
+msgstr "Positionskategorien"
+
+#: templates/seo/interview_index.html:67
+msgid "Listede olmayan bir pozisyon için kendi iş başlığını yazabilirsin."
+msgstr "Du kannst einen eigenen Jobtitel für eine Position eintragen, die nicht in der Liste vorhanden ist."
+
+#: templates/seo/interview_index.html:72
+msgid "Nasıl çalışıyor?"
+msgstr "Wie funktioniert es?"
+
+#: templates/seo/interview_index.html:74
+msgid "<strong>Pozisyonunu seç</strong> ya da kendi iş başlığını yaz."
+msgstr "<strong>Wählen Sie Ihre Position</strong> oder geben Sie einen eigenen Jobtitel ein."
+
+#: templates/seo/interview_index.html:75
+msgid "<strong>İstersen CV'ni yükle</strong> — sorular deneyimlerine göre kişiselleşir."
+msgstr "<strong>Laden Sie Ihren Lebenslauf hoch</strong> — die Fragen werden Ihrer Erfahrung entsprechend personalisiert."
+
+#: templates/seo/interview_index.html:76
+#, python-format
+msgid "<strong>Soruları çalış:</strong> her soru %(lang)s, altında %(nlang)s karşılığı ve örnek cevap."
+msgstr "<strong>Fragen trainieren:</strong> jede Frage %(lang)s, darunter %(nlang)s Entsprechung und Beispielantwort."
+
+#: templates/seo/interview_index.html:77
+msgid "<strong>AI Chat'te prova yap:</strong> cevaplarını yazarak dene, hatalarını düzelt."
+msgstr "<strong>Üben Sie im AI-Chat:</strong> schreiben Sie Ihre Antworten, korrigieren Sie Ihre Fehler."
+
+#: templates/seo/interview_index.html:82
+#, python-format
+msgid "%(lang)s mülakat için 5 pratik ipucu"
+msgstr "5 praktische Tipps für das %(lang)s-Interview"
+
+#: templates/seo/interview_index.html:84
+msgid "Kendini tanıtma bölümünü ezberleme, kalıp cümlelerle esnek bir iskelet kur."
+msgstr "Lerne den Vorstellungsteil nicht auswendig; baue mit Mustersätzen ein flexibles Gerüst auf."
+
+#: templates/seo/interview_index.html:85
+msgid "Geçmiş deneyimleri anlatırken Past Simple ve Present Perfect ayrımına dikkat et."
+msgstr "Achte beim Erzählen von vergangenen Erfahrungen auf den Unterschied zwischen Past Simple und Present Perfect."
+
+#: templates/seo/interview_index.html:86
+msgid "Teknik terimleri çevirmeye çalışma; sektörde nasıl kullanılıyorsa öyle söyle."
+msgstr "Übersetze Fachbegriffe nicht; sprich sie so, wie sie in der Branche verwendet werden."
+
+#: templates/seo/interview_index.html:87
+msgid "Anlamadığın soruda \"Could you rephrase that?\" demek zayıflık değil, profesyonelliktir."
+msgstr "Bei unverstandenen Fragen ist „Could you rephrase that?“ zu sagen nicht Schwäche, sondern Professionalität."
+
+#: templates/seo/interview_index.html:88
+msgid "Cevaplarını STAR (Situation, Task, Action, Result) kalıbına oturt."
+msgstr "Strukturiere deine Antworten nach dem STAR-Muster (Situation, Task, Action, Result)."
+
+#: templates/seo/interview_index.html:91
+msgid "Zaman ve koşul kalıplarını tazelemek için"
+msgstr "Um Zeit- und Bedingungsmuster aufzufrischen,"
+
+#: templates/seo/interview_index.html:92
+msgid "gramer konularına"
+msgstr "Grammatikthemen,"
+
+#: templates/seo/interview_index.html:93
+msgid "sektör kelimeleri için"
+msgstr "für Branchenvokabular"
+
+#: templates/seo/interview_index.html:94
+msgid "B2–C1 kelime listelerine"
+msgstr "B2–C1-Wortlisten"
+
+#: templates/seo/interview_index.html:95
+msgid "göz atabilirsin."
+msgstr "kannst du durchsehen."
+
+#: templates/seo/licenses.html:10 templates/seo/licenses.html:12 templates/seo/licenses.html:15 templates/seo/licenses.html:24 templates/seo/licenses.html:32
+msgid "Kaynaklar ve Lisanslar"
+msgstr "Quellen und Lizenzen"
+
+#: templates/seo/licenses.html:11
+msgid "LevelEnAI'deki kelime listelerinin seviye omurgası hangi kaynaklardan geliyor, hangi lisansla kullanılıyor ve içeriğin hangi kısmı bize ait."
+msgstr "Woher stammt die Grundstruktur der Wortlisten in LevelEnAI, unter welcher Lizenz wird sie genutzt und welcher Teil des Inhalts ist eigen?"
+
+#: templates/seo/licenses.html:13
+msgid "Kelime listesi kaynakları, lisansları ve atıfları."
+msgstr "Wortlistenquellen, Lizenzen und Quellenangaben"
+
+#: templates/seo/licenses.html:33
+msgid "Her dilin kelime listesinde seviye omurgası (hangi kelime hangi CEFR seviyesinde) dış bir kaynaktan geliyor. Anlamlar, örnek cümleler ve çeviriler bu platformda üretildi."
+msgstr "Die Grundstruktur (welches Wort auf welchem CEFR-Niveau) stammt von externen Quellen. Bedeutungen, Beispielsätze und Übersetzungen wurden auf dieser Plattform mit KI generiert."
+
+#: templates/seo/licenses.html:37
+msgid "Kelime listesi kaynakları"
+msgstr "Wortlistenquellen"
+
+#: templates/seo/licenses.html:42
+msgid "Dil"
+msgstr "Sprache"
+
+#: templates/seo/licenses.html:43
+msgid "Seviye omurgası"
+msgstr "Grundstruktur"
+
+#: templates/seo/licenses.html:44
+msgid "Lisans ve atıf"
+msgstr "Lizenz und Quellenangaben"
+
+#: templates/seo/licenses.html:64
+msgid "Kaynaklardan ne alındı?"
+msgstr "Was stammt von externen Quellen?"
+
+#: templates/seo/licenses.html:65
+msgid "Dış kaynaklardan yalnızca şu alanlar alındı: başlık kelime (lemma), CEFR seviyesi, sözcük türü ve Almanca isimlerde artikel ile çoğul biçim. Kaynak metinlerin tanımları, örnek cümleleri veya açıklamaları kopyalanmadı."
+msgstr "Von externen Quellen wurden nur übernommen: Stichwort (Lemma), CEFR-Niveau, Wortart sowie bei deutschen Substantiven Artikel und Pluralform. Definitionen, Beispielsätze und Erklärungen aus den Quelltexten wurden nicht kopiert."
+
+#: templates/seo/licenses.html:66
+msgid "Kelimelerin anlamları, hedef dildeki örnek cümleler, bu cümlelerin çevirileri, gramer anlatımları ve quiz soruları platformda yapay zekâ ile üretildi; hatalı gördüğünüz bir kaydı bildirirseniz düzeltilir."
+msgstr "Bedeutungen, Beispielsätze, deren Übersetzungen, Grammatik-Erklärungen und Quiz-Fragen wurden mit KI generiert. Fehler können Sie melden und werden dann korrigiert."
+
+#: templates/seo/licenses.html:70
+msgid "Lisans notu"
+msgstr "Lizenzhinweis"
+
+#: templates/seo/licenses.html:71
+msgid "FLELex, CC BY-NC lisansıyla araştırma ve öğretim amaçlı kullanıma açıktır; bu platform ücretsizdir ve içerikten gelir elde edilmez. wordfreq verisi CC BY-SA 4.0'dır ve yukarıdaki atıfla kullanılır. Goethe-Institut Wortliste telifli bir yayındır; listeden yalnızca başlık kelime, artikel ve çoğul biçim alınmıştır. Oxford listeleri de Oxford University Press telifindedir ve aynı kapsamda kullanılmıştır."
+msgstr "FLELex steht unter CC BY-NC für Forschungs- und Unterrichtszwecke zur Verfügung; die Plattform ist kostenlos und erwirtschaftet keine Einnahmen. wordfreq-Daten unterliegen CC BY-SA 4.0 mit oben angegebener Quellenangabe. Goethe-Institut Wortliste ist urheberrechtlich geschützt; übernommen wurden nur Stichwort, Artikel und Pluralform. Oxford-Listen sind ebenfalls von Oxford University Press geschützt und gleich genutzt."
+
+#: templates/seo/licenses.html:72
+msgid "Bu sayfa hukuki bir görüş değildir. Bir kaynağın sahibi olarak kullanımın kapsamıyla ilgili bir itirazınız varsa iletişime geçtiğinizde ilgili veri kaldırılır."
+msgstr "Diese Seite stellt keine Rechtsberatung dar. Falls Sie als Inhaber einer Quelle Einwände gegen die Nutzungsweise haben, werden die Daten nach Kontaktaufnahme entfernt."
+
+#: templates/seo/licenses.html:76
+msgid "Açık kaynak bileşenler"
+msgstr "Open-Source-Komponenten"
+
+#: templates/seo/licenses.html:77
+msgid "Platform Django ile geliştirildi; kelime frekansları için wordfreq, PDF okuma için PyPDF2, katalog işlemleri için polib kullanılıyor. Hepsi kendi açık kaynak lisanslarıyla dağıtılmaktadır."
+msgstr "Die Plattform wurde mit Django entwickelt; wordfreq für Wortfrequenzen, PyPDF2 für PDF-Lesevorgänge und polib für Katalogverwaltung. Alle unter ihren jeweiligen Open-Source-Lizenzen."
+
+#: templates/seo/words_index.html:4
+#, python-format
+msgid "%(lang)s Kelime Listeleri — A1, A2, B1, B2, C1, C2 Seviyeleri"
+msgstr "%(lang)s-Wortlisten — A1, A2, B1, B2, C1, C2 Niveaus"
+
+#: templates/seo/words_index.html:5
+#, python-format
+msgid "Seviyelere ayrılmış %(lang)s kelime listeleri: A1'den C2'ye %(n)s kelime, %(nlang)s anlamları ve örnek cümleleriyle. Ücretsiz, kayıt gerekmez."
+msgstr "%(lang)s-Wortlisten nach Niveaus: %(n)s Wörter von A1 bis C2, mit %(nlang)s Bedeutungen und Beispielsätzen. Kostenlos, keine Registrierung erforderlich."
+
+#: templates/seo/words_index.html:6 templates/seo/words_index.html:45
+#, python-format
+msgid "%(lang)s Kelime Listeleri (A1–C2)"
+msgstr "%(lang)s-Wortlisten (A1–C2)"
+
+#: templates/seo/words_index.html:7
+#, python-format
+msgid "%(n)s kelime, %(nlang)s anlam ve örnek cümlelerle seviye seviye."
+msgstr "%(n)s Wörter, %(nlang)s Bedeutungen und Beispielsätze, Niveau für Niveau."
+
+#: templates/seo/words_index.html:9 templates/seo/words_index.html:20 templates/seo/words_level.html:14 templates/seo/words_level.html:25
+#, python-format
+msgid "%(lang)s Kelimeler"
+msgstr "%(lang)s-Wörter"
+
+#: templates/seo/words_index.html:47
+#, python-format
+msgid "Avrupa Dil Portfolyosu seviyelerine göre ayrılmış %(lang)s kelime listeleri. Her kelimenin %(nlang)s anlamı, sözcük türü ve mümkün olduğunda örnek cümlesi yer alır. Listeler sıklık sırasına göre dizilidir: baştan başlayıp ilerledikçe daha az rastlanan kelimelere geçersin."
+msgstr "%(lang)s-Wortlisten nach Niveaus des Europäischen Sprachenportfolios. Jedes Wort enthält %(nlang)s Bedeutung, Wortart und wenn möglich einen Beispielsatz. Die Listen sind nach Häufigkeit sortiert, von häufigen zu seltenen Wörtern."
+
+#: templates/seo/words_index.html:53
+#, python-format
+msgid "Toplam %(total)s kelime · 6 seviye · ücretsiz"
+msgstr "Insgesamt %(total)s Wörter · 6 Niveaus · kostenlos"
+
+#: templates/seo/words_index.html:57
+msgid "Seviyeni seç"
+msgstr "Wähle dein Niveau"
+
+#: templates/seo/words_index.html:71
+msgid "Hangi seviyeden başlamalıyım?"
+msgstr "Welches Niveau passt zu mir?"
+
+#: templates/seo/words_index.html:72
+#, python-format
+msgid "Bir listeye göz at ve kelimelerin yaklaşık %%80'ini biliyorsan bir üst seviyeye geç. Yarısından fazlasını bilmiyorsan bir alt seviyede kal. Günde 20–30 yeni kelime hedefi çoğu kişi için sürdürülebilir bir tempodur; önemli olan her gün tekrar etmektir."
+msgstr "Schau dir eine Liste an: Wenn du etwa %%80 der Wörter kennst, geh zum nächsten Niveau über. Wenn du weniger als die Hälfte kennst, bleib auf deinem aktuellen Niveau. 20–30 neue Wörter pro Tag – ein nachhaltiges Tempo für die meisten; wichtig ist die tägliche Wiederholung."
+
+#: templates/seo/words_index.html:75
+msgid "Kelimeleri cümle içinde görmek kalıcılığı ciddi biçimde artırır. Bu yüzden"
+msgstr "Wörter in Sätzen zu sehen, erhöht die Merkfähigkeit erheblich. Deshalb"
+
+#: templates/seo/words_index.html:76
+msgid "gramer konularındaki örnek cümleleri"
+msgstr "empfehlen wir dir, die Beispielsätze in den Grammatikthemen"
+
+#: templates/seo/words_index.html:77
+msgid "kelime çalışmanla birlikte yürütmeni öneririz."
+msgstr "zusammen mit deinem Vokabeltraining zu nutzen."
+
+#: templates/seo/words_level.html:4
+#, python-format
+msgid "%(code)s Seviyesi %(lang)s Kelimeler ve %(nlang)s Anlamları"
+msgstr "%(code)s-Stufe %(lang)s-Wörter und %(nlang)s-Bedeutungen"
+
+#: templates/seo/words_level.html:4
+#, python-format
+msgid "Sayfa %(n)s"
+msgstr "Seite %(n)s"
+
+#: templates/seo/words_level.html:5
+#, python-format
+msgid "%(code)s seviyesi %(lang)s kelimeler: %(n)s kelimenin %(nlang)s anlamı, sözcük türü ve örnek cümlesi. Sıklık sırasına göre dizili, ücretsiz liste."
+msgstr "%(code)s-Stufe %(lang)s-Wörter: %(nlang)s-Bedeutungen von %(n)s Wörtern, Wortart und Beispielsätze. Nach Häufigkeit geordnet, kostenlose Liste."
+
+#: templates/seo/words_level.html:5
+#, python-format
+msgid "Sayfa %(a)s/%(b)s."
+msgstr "Seite %(a)s/%(b)s."
+
+#: templates/seo/words_level.html:6 templates/seo/words_level.html:31 templates/seo/words_level.html:55
+#, python-format
+msgid "%(code)s Seviyesi %(lang)s Kelimeler"
+msgstr "%(code)s-Stufe %(lang)s-Wörter"
+
+#: templates/seo/words_level.html:57
+#, python-format
+msgid "sayfa %(a)s/%(b)s"
+msgstr "Seite %(a)s/%(b)s"
+
+#: templates/seo/words_level.html:61
+#, python-format
+msgid "%(code)s kelime listesi"
+msgstr "%(code)s-Wortliste"
+
+#: templates/seo/words_level.html:68
+msgid "Örnek cümle"
+msgstr "Beispielsatz"
+
+#: templates/seo/words_level.html:90
+#, python-format
+msgid "%(n)s kelime daha"
+msgstr "%(n)s Wörter mehr"
+
+#: templates/seo/words_level.html:99
+msgid "Sayfalama"
+msgstr "Seitennummerierung"
+
+#: templates/seo/words_level.html:101
+msgid "Önceki"
+msgstr "Zurück"
+
+#: templates/seo/words_level.html:103
+#, python-format
+msgid "Sayfa %(a)s / %(b)s"
+msgstr "Seite %(a)s / %(b)s"
+
+#: templates/seo/words_level.html:105
+msgid "Sonraki"
+msgstr "Weiter"
+
+#: templates/seo/words_level.html:111
+msgid "Diğer seviyeler"
+msgstr "Andere Stufen"
+
+#: templates/topics/detail.html:11
+msgid "✓ Bitti"
+msgstr "✓ Fertig"
+
+#: templates/topics/detail.html:43
+msgid "Açıklama"
+msgstr "Erklärung"
+
+#: templates/topics/detail.html:52
+msgid "Quizlere git"
+msgstr "Zu den Quizzen"
+
+#: templates/topics/detail.html:57
+msgid "Tekrar aktif"
+msgstr "Erneut aktivieren"
+
+#: templates/topics/list.html:11
+#, python-format
+msgid "%(done)s / %(total)s konu tamamlandı"
+msgstr "%(done)s / %(total)s Themen abgeschlossen"
+
+#: templates/topics/list.html:22
+msgid "Durum"
+msgstr "Status"
+
+#: templates/topics/list.html:37
+msgid "Tamamlandı"
+msgstr "Abgeschlossen"
+
+#: templates/topics/list.html:39
+msgid "Devam ediyor"
+msgstr "In Bearbeitung"
+
+#: templates/topics/list.html:44
+msgid "Detay"
+msgstr "Details"
+
+#: templates/vocabulary/add.html:8 templates/vocabulary/edit.html:8
+msgid "Geri"
+msgstr "Zurück"
+
+#: templates/vocabulary/add.html:12
+#, python-format
+msgid "%(lang)s kelimeleri virgül veya satır başı ile ayırarak yaz. AI anlamlarını ve örnek cümleleri doldurup kaydedecek."
+msgstr "%(lang)s-Wörter durch Komma oder Zeilenumbruch getrennt eingeben. KI füllt Bedeutungen und Beispielsätze aus und speichert."
+
+#: templates/vocabulary/add.html:21 templates/vocabulary/edit.html:29
+msgid "Kaynak"
+msgstr "Quelle"
+
+#: templates/vocabulary/add.html:21
+msgid "opsiyonel"
+msgstr "optional"
+
+#: templates/vocabulary/add.html:22
+msgid "ör: hoca, kitap, podcast..."
+msgstr "z.B.: Lehrer, Buch, Podcast..."
+
+#: templates/vocabulary/add.html:25
+msgid "AI ile çevir ve kaydet"
+msgstr "Mit KI übersetzen und speichern"
+
+#: templates/vocabulary/edit.html:3 templates/vocabulary/edit.html:7
+msgid "Kelime düzenle"
+msgstr "Wort bearbeiten"
+
+#: templates/vocabulary/edit.html:17
+msgid "Türkçe"
+msgstr "Türkisch"
+
+#: templates/vocabulary/edit.html:20
+msgid "Örnek (EN)"
+msgstr "Beispiel (EN)"
+
+#: templates/vocabulary/edit.html:23
+msgid "Örnek (TR)"
+msgstr "Beispiel (TR)"
+
+#: templates/vocabulary/edit.html:26
+msgid "Sözcük türü"
+msgstr "Wortart"
+
+#: templates/vocabulary/list.html:11
+#, python-format
+msgid "%(count)s kayıt · AI ile anlam, örnek cümle ve telaffuz"
+msgstr "%(count)s Eintrag · Bedeutung, Beispielsatz und Aussprache mit KI"
+
+#: templates/vocabulary/list.html:21
+msgid "Quiz çalış"
+msgstr "Quiz üben"
+
+#: templates/vocabulary/list.html:23
+msgid "Ekle"
+msgstr "Hinzufügen"
+
+#: templates/vocabulary/list.html:31
+msgid "Quiz İlerlemen"
+msgstr "Quiz-Fortschritt"
+
+#: templates/vocabulary/list.html:32
+#, python-format
+msgid "✓ %(mastered)s öğrendin · ⟳ %(retry)s tekrar · ⏳ %(unseen)s kalan"
+msgstr "✓ %(mastered)s gelernt · ⟳ %(retry)s Wiederholung · ⏳ %(unseen)s übrig"
+
+#: templates/vocabulary/list.html:42
+#, python-format
+msgid "%(lang)s veya %(nlang)s ara..."
+msgstr "%(lang)s oder %(nlang)s suchen..."
+
+#: templates/vocabulary/list.html:67
+msgid "Silinsin mi?"
+msgstr "Löschen?"
+
+#: templates/vocabulary/list.html:78
+msgid "Henüz kelime yok."
+msgstr "Noch keine Wörter."
+
+#: templates/vocabulary/list.html:79
+msgid "İlk kelimeni ekle"
+msgstr "Füge dein erstes Wort hinzu"
+
+#: templates/vocabulary/quiz.html:9 templates/vocabulary/quiz_feedback.html:9
+msgid "Kişisel Kelime Quiz"
+msgstr "Persönliches Wort-Quiz"
+
+#: templates/vocabulary/quiz.html:13 templates/vocabulary/quiz_feedback.html:13 templates/wordbank/feedback.html:13 templates/wordbank/quiz.html:13
+msgid "Öğrendiğin:"
+msgstr "Gelernt:"
+
+#: templates/vocabulary/quiz.html:23 templates/wordbank/quiz.html:23
+msgid "Çoktan Seçmeli"
+msgstr "Mehrfachauswahl"
+
+#: templates/vocabulary/quiz.html:24 templates/wordbank/quiz.html:24
+msgid "TEKRAR"
+msgstr "WIEDERHOLEN"
+
+#: templates/vocabulary/quiz_complete.html:3
+msgid "Tüm Kelimeler Öğrenildi!"
+msgstr "Alle Wörter gelernt!"
+
+#: templates/vocabulary/quiz_complete.html:9
+msgid "Hepsi tamam!"
+msgstr "Alles erledigt!"
+
+#: templates/vocabulary/quiz_complete.html:10
+#, python-format
+msgid "%(total)s kelimeyi öğrendin"
+msgstr "Du hast %(total)s Wörter gelernt"
+
+#: templates/vocabulary/quiz_complete.html:16 templates/wordbank/complete.html:16
+msgid "Öğrenim"
+msgstr "Lernen"
+
+#: templates/vocabulary/quiz_complete.html:25
+msgid "Kelimelerime dön"
+msgstr "Zurück zu meinen Wörtern"
+
+#: templates/vocabulary/quiz_complete.html:27
+msgid "İlerlemen sıfırlansın mı?"
+msgstr "Fortschritt zurücksetzen?"
+
+#: templates/vocabulary/quiz_complete.html:29 templates/wordbank/levels.html:41
+msgid "Sıfırla"
+msgstr "Zurücksetzen"
+
+#: templates/vocabulary/quiz_feedback.html:30 templates/wordbank/feedback.html:29
+msgid "✗ Yanlış — tekrar havuzuna eklendi"
+msgstr "✗ Falsch — zurück in den Pool"
+
+#: templates/wordbank/complete.html:3 templates/wordbank/complete.html:9
+#, python-format
+msgid "%(level)s Tamamlandı!"
+msgstr "%(level)s abgeschlossen!"
+
+#: templates/wordbank/complete.html:10
+#, python-format
+msgid "Tüm %(total)s kelimeyi öğrendin"
+msgstr "Du hast alle %(total)s Wörter gelernt"
+
+#: templates/wordbank/complete.html:29
+msgid "A2'ye geç"
+msgstr "Zu A2 wechseln"
+
+#: templates/wordbank/complete.html:31
+msgid "B1'e geç"
+msgstr "Zu B1 wechseln"
+
+#: templates/wordbank/complete.html:33
+msgid "B2'ye geç"
+msgstr "Zu B2 wechseln"
+
+#: templates/wordbank/complete.html:35
+msgid "C1'e geç"
+msgstr "Zu C1 wechseln"
+
+#: templates/wordbank/complete.html:37
+msgid "C2'ye geç"
+msgstr "Zu C2 wechseln"
+
+#: templates/wordbank/complete.html:39 templates/wordbank/feedback.html:8 templates/wordbank/quiz.html:8
+msgid "Seviyeler"
+msgstr "Niveaus"
+
+#: templates/wordbank/complete.html:43 templates/wordbank/levels.html:39
+#, python-format
+msgid "%(level)s ilerlemen sıfırlansın mı?"
+msgstr "%(level)s-Fortschritt zurücksetzen?"
+
+#: templates/wordbank/complete.html:45
+#, python-format
+msgid "%(level)s'i sıfırla"
+msgstr "%(level)s zurücksetzen"
+
+#: templates/wordbank/levels.html:11
+msgid "Oxford A1–C2 kelimeleri · Her seviyede sırayla ilerle"
+msgstr "Oxford A1–C2 Wörter · Stufe für Stufe voranschreiten"
+
+#: templates/wordbank/levels.html:13
+msgid "Yanlışlar otomatik döner"
+msgstr "Fehler kehren automatisch zurück"
+
+#: templates/wordbank/levels.html:29
+#, python-format
+msgid "✓ %(mastered)s öğrendin"
+msgstr "%(mastered)s gelernt"
+
+#: templates/wordbank/levels.html:30
+#, python-format
+msgid "⟳ %(retry)s tekrar"
+msgstr "%(retry)s zu wiederholen"
+
+#: templates/wordbank/levels.html:31
+#, python-format
+msgid "⏳ %(unseen)s kalan"
+msgstr "%(unseen)s verbleibend"
+
+#: templates/wordbank/levels.html:35
+msgid "Devam et"
+msgstr "Weiter"

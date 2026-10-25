@@ -1,7 +1,9 @@
 from pathlib import Path
-from django.utils.translation import gettext_lazy as _
 from dotenv import load_dotenv
 import os
+import sys
+
+from services import languages
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -9,6 +11,12 @@ load_dotenv(BASE_DIR / '.env')
 
 SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'change-me-if-you-like')
 DEBUG = os.getenv('DJANGO_DEBUG', '0') == '1'
+
+#: Test koşusu mu? HTTPS zorlaması bir DAĞITIM meselesi; test client düz HTTP
+#: konuştuğu için `SECURE_SSL_REDIRECT` açıkken her istek 301'e takılıyor ve
+#: onlarca test view'a hiç ulaşmıyor. Testlerin, ortamın nasıl
+#: yapılandırıldığına bağlı olmaması gerekiyor.
+TESTING = 'test' in sys.argv
 
 
 def _split_csv(value):
@@ -58,6 +66,25 @@ if not DEBUG:
     CSRF_COOKIE_SECURE = True
     SECURE_REFERRER_POLICY = 'strict-origin-when-cross-origin'
     X_FRAME_OPTIONS = 'DENY'
+
+    # HTTPS zorlaması ORTAM DEĞİŞKENİNE bağlı, kodda sabit değil. İkisi de
+    # TLS'i sonlandıran katmana (burada Cloudflare) bağımlı: proxy
+    # `X-Forwarded-Proto` göndermiyorsa Django her isteği HTTP sanar ve
+    # `SECURE_SSL_REDIRECT` sonsuz yönlendirme döngüsü üretir — site çöker.
+    # Env'e bağlı olduğu için açmak ve geri almak yeniden build gerektirmiyor.
+    SECURE_SSL_REDIRECT = (
+        not TESTING and os.getenv('DJANGO_SECURE_SSL_REDIRECT', '0') == '1'
+    )
+    # HSTS GERİ ALINAMAZ: tarayıcı başlığı bir kez gördükten sonra
+    # `max-age` boyunca o alan adına HTTP ile hiç bağlanmıyor. O yüzden
+    # varsayılan 0 ve açılırken kısa bir süreyle başlanmalı (ör. 300),
+    # her şey doğrulandıktan sonra bir yıla (31536000) çıkarılmalı.
+    SECURE_HSTS_SECONDS = int(os.getenv('DJANGO_SECURE_HSTS_SECONDS', '0'))
+    if SECURE_HSTS_SECONDS:
+        SECURE_HSTS_INCLUDE_SUBDOMAINS = (
+            os.getenv('DJANGO_SECURE_HSTS_SUBDOMAINS', '1') == '1'
+        )
+        SECURE_HSTS_PRELOAD = os.getenv('DJANGO_SECURE_HSTS_PRELOAD', '0') == '1'
 
 # ---------------------------------------------------------------- Claude
 # cli = Claude Code CLI subprocess'i, kimlik ~/.claude oturumundan (Pro/Max
@@ -121,6 +148,8 @@ INSTALLED_APPS = [
     'apps.interviews',
     'apps.seo',
     'apps.superadmin',
+    'apps.learn',
+    'apps.content',
     'auditlog',
 ]
 
@@ -135,6 +164,10 @@ CELERY_TASK_SERIALIZER = 'json'
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_RESULT_SERIALIZER = 'json'
 
+# Kurs prefix'i olmayan bir uygulama yolu bu dile yönlendirilir ve anonim
+# ziyaretçinin menüsündeki {% url %} çağrıları bu prefix'i alır.
+LEARN_DEFAULT_TARGET = 'en'
+
 LOGIN_URL = 'accounts:login'
 LOGIN_REDIRECT_URL = 'dashboard:home'
 LOGOUT_REDIRECT_URL = 'accounts:login'
@@ -147,6 +180,10 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
+    # AuthenticationMiddleware'DEN SONRA: kullanıcının aktif kursunu okuyor,
+    # yani `request.user` kurulmuş olmak zorunda. LocaleMiddleware de daha
+    # yukarıda olduğu için ana dilin arayüz dilinden alınması da sağlanıyor.
+    'apps.learn.middleware.CourseMiddleware',
     'auditlog.middleware.AuditlogMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -177,6 +214,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.getenv('DB_PATH', str(BASE_DIR / 'db.sqlite3')),
+        'OPTIONS': {'timeout': 30},
     }
 }
 
@@ -186,15 +224,22 @@ LANGUAGE_CODE = 'tr'
 TIME_ZONE = 'Europe/Istanbul'
 CELERY_TIMEZONE = TIME_ZONE
 USE_I18N = True
-USE_L10N = True
 USE_TZ = True
 
-LANGUAGES = [
-    ('tr', _('Türkçe')),
-    ('en', _('English')),
-]
+# Diller tek yerden geliyor: services/languages.py. Sicilde yayında olmayan
+# diller (is_ui=False) buraya girmez — bir dil LANGUAGES'e girdiği anda /fr/
+# gibi bir prefix yayına çıkıyor ve katalog boşsa msgid'ler Türkçe olduğu için
+# kullanıcı yarı Türkçe bir sayfa görüyor.
+# Adlar dilin kendi adıyla yazılı (Türkçe/English/Deutsch): dil seçicide
+# kullanıcı kendi dilini kendi adıyla arıyor, çeviriye gerek yok.
+LANGUAGES = [(spec.code, spec.native_name) for spec in languages.UI_LANGUAGES]
 
 LOCALE_PATHS = [BASE_DIR / 'locale']
+
+LANGUAGE_COOKIE_NAME = 'levelenai_lang'
+LANGUAGE_COOKIE_AGE = 60 * 60 * 24 * 365
+LANGUAGE_COOKIE_SAMESITE = 'Lax'
+LANGUAGE_COOKIE_SECURE = not DEBUG
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [BASE_DIR / 'static']

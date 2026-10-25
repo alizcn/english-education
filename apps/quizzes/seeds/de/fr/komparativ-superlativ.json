@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Mein Auto ist schneller als deines.",
+    "correct_answer": "Ma voiture est plus rapide que la tienne.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie ist älter als ihr Bruder.",
+    "correct_answer": "Elle est plus âgée que son frère.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das ist das beste Restaurant in der Stadt.",
+    "correct_answer": "C'est le meilleur restaurant de la ville.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Dieser Berg ist höher als jener.",
+    "correct_answer": "Cette montagne est plus haute que celle-là.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Wetter ist nicht so schön wie gestern.",
+    "correct_answer": "Le temps n'est pas aussi beau qu'hier.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ist er älter als du?",
+    "correct_answer": "Est-il plus âgé que toi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle est plus grande que moi.",
+    "correct_answer": "Sie ist größer als ich.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "C'est la plus jeune de la classe.",
+    "correct_answer": "Sie ist die Jüngste der Klasse.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ce film est moins intéressant que celui-ci.",
+    "correct_answer": "Dieser Film ist weniger interessant als dieser.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Il parle plus vite qu'elle.",
+    "correct_answer": "Er spricht schneller als sie.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "C'est la meilleure solution.",
+    "correct_answer": "Das ist die beste Lösung.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Parlez-vous plus lentement que lui?",
+    "correct_answer": "Sprechen Sie langsamer als er?",
+    "choices": null
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Er ruft seinen Freund an.",
+    "correct_answer": "He is calling his friend.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She visits her grandmother every week.",
+    "correct_answer": "Sie besucht ihre Großmutter jede Woche.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir verstehen das Problem nicht.",
+    "correct_answer": "We don't understand the problem.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I forget his name.",
+    "correct_answer": "Ich vergesse seinen Namen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Steht er um 8 Uhr auf?",
+    "correct_answer": "Does he get up at 8 o'clock?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She doesn't go out on weekdays.",
+    "correct_answer": "Sie geht an Wochentagen nicht aus.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich erkenne ihn nicht.",
+    "correct_answer": "I don't recognize him.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They leave the house early.",
+    "correct_answer": "Sie verlassen das Haus früh.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Machen Sie bitte die Tür auf!",
+    "correct_answer": "Please open the door!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I tell him a story.",
+    "correct_answer": "Ich erzähle ihm eine Geschichte.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir erkennen das Mädchen nicht.",
+    "correct_answer": "We don't recognize the girl.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He comes back at 6 o'clock.",
+    "correct_answer": "Er kommt um 6 Uhr zurück.",
+    "choices": null
+  }
+]

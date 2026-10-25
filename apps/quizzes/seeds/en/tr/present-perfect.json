@@ -1,0 +1,86 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I have finished my homework.",
+    "correct_answer": "Ödevimi bitirdim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She has lived in London for five years.",
+    "correct_answer": "Beş yıldır Londra'da yaşıyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Have you ever been to Paris?",
+    "correct_answer": "Hiç Paris'e gittiniz mi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They have not arrived yet.",
+    "correct_answer": "Henüz gelmemişler.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He has just finished his work.",
+    "correct_answer": "Az önce işini bitirdi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "We have been friends for ten years.",
+    "correct_answer": "On yıldır arkadaşız.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Have they visited the museum?",
+    "correct_answer": "Müzeyi ziyaret ettiler mi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Uzun süredir burada çalışıyorum.",
+    "correct_answer": "I have been working here for a long time.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Hiç böyle bir şey görmedim.",
+    "correct_answer": "I have never seen anything like that.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Daha yemek yemedi.",
+    "correct_answer": "She has not eaten yet.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kaç kez buraya gittiniz?",
+    "correct_answer": "How many times have you been here?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Yeni bir kitap aldı.",
+    "correct_answer": "She has bought a new book.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onu çocukluğundan beri biliyorum.",
+    "correct_answer": "I have known him since childhood.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "İş yerinde hep iyi davrandılar mı?",
+    "correct_answer": "Have they always behaved well at work?",
+    "choices": null
+  }
+]

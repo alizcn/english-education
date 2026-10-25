@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je me réveille à 7 heures.",
+    "correct_answer": "Ich wache um 7 Uhr auf.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle s'habille rapidement.",
+    "correct_answer": "Sie zieht sich schnell an.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous nous amusons beaucoup.",
+    "correct_answer": "Wir amüsieren uns sehr.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu te dépêches?",
+    "correct_answer": "Beeilst du dich?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je ne me couche pas tôt.",
+    "correct_answer": "Ich gehe nicht früh ins Bett.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ils se rencontrent chaque jour.",
+    "correct_answer": "Sie treffen sich jeden Tag.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich dusche mich morgens.",
+    "correct_answer": "Je me douche le matin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir küssen uns.",
+    "correct_answer": "Nous nous embrassons.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie schminkt sich.",
+    "correct_answer": "Elle se maquille.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Du erinnerst dich nicht?",
+    "correct_answer": "Tu ne te souviens pas?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie schlafen nicht ein.",
+    "correct_answer": "Ils ne s'endorment pas.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ihr zieht euch an.",
+    "correct_answer": "Vous vous habillez.",
+    "choices": null
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je vais manger une pomme.",
+    "correct_answer": "Bir elma yiyeceğim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Yarın bahçeye gideceksin.",
+    "correct_answer": "Tu vas aller au jardin demain.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu vas regarder la télévision ce soir.",
+    "correct_answer": "Bu akşam televizyon izleyeceksin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ben bir kitap okuyacağım.",
+    "correct_answer": "Je vais lire un livre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il ne va pas venir demain.",
+    "correct_answer": "Yarın gelmeyecek.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bugün öğleden sonra uyuyacağız.",
+    "correct_answer": "Nous allons dormir cet après-midi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous allons manger une pizza.",
+    "correct_answer": "Pizza yiyeceğiz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onlar çok geç olacaklar.",
+    "correct_answer": "Ils vont arriver très tard.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elles vont faire les courses ce matin.",
+    "correct_answer": "Bu sabah alışveriş yapacaklar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kışı Paris'te geçirecekler.",
+    "correct_answer": "Ils vont passer l'hiver à Paris.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je ne vais jamais le faire.",
+    "correct_answer": "Bunu hiçbir zaman yapmayacağım.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Siz bugün gelmeyeceksiniz.",
+    "correct_answer": "Vous n'allez pas venir aujourd'hui.",
+    "choices": null
+  }
+]

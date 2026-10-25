@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das Haus ___ gebaut.",
+    "correct_answer": "wird",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Der Brief ___ geschrieben worden.",
+    "correct_answer": "ist",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das Auto ___ nicht repariert.",
+    "correct_answer": "wird",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die Tür ___ geöffnet.",
+    "correct_answer": "wird",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das Fenster ___ geschlossen.",
+    "correct_answer": "ist",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Der Kuchen ___ gegessen.",
+    "correct_answer": "wird",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das Problem ___ gelöst werden.",
+    "correct_answer": "muss",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die Stadt ___ zerstört worden.",
+    "correct_answer": "ist",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Der Tisch ___ gedeckt.",
+    "correct_answer": "wird",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ die Aufgabe gelöst?",
+    "correct_answer": "Wird",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz ist im Vorgangspassiv Präsens?",
+    "correct_answer": "Das Fenster wird geöffnet.",
+    "choices": [
+      "Das Fenster wird geöffnet.",
+      "Das Fenster ist geöffnet.",
+      "Das Fenster wird öffnen.",
+      "Das Fenster öffnet sich."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Satzform ist negativ?",
+    "correct_answer": "Das Auto wird nicht repariert.",
+    "choices": [
+      "Das Auto wird repariert.",
+      "Das Auto wird nicht repariert.",
+      "Das Auto wird reparieren.",
+      "Das Auto repariert sich."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz ist im Zustandspassiv?",
+    "correct_answer": "Die Tür ist geschlossen.",
+    "choices": [
+      "Die Tür wird geschlossen.",
+      "Die Tür ist geschlossen.",
+      "Die Tür wird schließen.",
+      "Die Tür schließt sich."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz ist im Präteritum Passiv?",
+    "correct_answer": "Das Haus wurde gebaut.",
+    "choices": [
+      "Das Haus wird gebaut.",
+      "Das Haus wurde gebaut.",
+      "Das Haus ist gebaut worden.",
+      "Das Haus wird gebaut werden."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz ist im Perfekt Passiv?",
+    "correct_answer": "Das Haus ist gebaut worden.",
+    "choices": [
+      "Das Haus wird gebaut.",
+      "Das Haus wurde gebaut.",
+      "Das Haus ist gebaut worden.",
+      "Das Haus war gebaut worden."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form ist eine Frage im Passiv?",
+    "correct_answer": "Wird das Fenster geöffnet?",
+    "choices": [
+      "Wird das Fenster geöffnet?",
+      "Öffnet das Fenster sich?",
+      "Ist das Fenster offen?",
+      "Das Fenster wird geöffnet?"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Satzform mit 'von' ist korrekt?",
+    "correct_answer": "Die Straße wird von den Arbeitern repariert.",
+    "choices": [
+      "Die Straße wird von den Arbeitern repariert.",
+      "Die Straße wird durch den Arbeitern repariert.",
+      "Die Straße wird mit den Arbeitern repariert.",
+      "Die Straße wird für die Arbeiter repariert."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz mit Modalverb ist korrekt?",
+    "correct_answer": "Das Haus muss gebaut werden.",
+    "choices": [
+      "Das Haus wird bauen müssen.",
+      "Das Haus muss gebaut werden.",
+      "Das Haus muss bauen werden.",
+      "Das Haus wird müssen gebaut."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz ist im Futur I Passiv?",
+    "correct_answer": "Das Haus wird gebaut werden.",
+    "choices": [
+      "Das Haus wird gebaut.",
+      "Das Haus wird gebaut werden.",
+      "Das Haus wurde gebaut.",
+      "Das Haus ist gebaut worden."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche negative Form ist korrekt?",
+    "correct_answer": "Das Fenster wird nicht geschlossen.",
+    "choices": [
+      "Das Fenster wird nicht geschlossen.",
+      "Das Fenster wird schließen nicht.",
+      "Das Fenster nicht wird geschlossen.",
+      "Das Fenster ist nicht schließen."
+    ]
+  }
+]

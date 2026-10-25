@@ -1,0 +1,110 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Les chats noirs sont mignons.",
+    "correct_answer": "The black cats are cute.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Une petite maison",
+    "correct_answer": "A small house",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Le crayon rouge",
+    "correct_answer": "The red pencil",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Les journaux importants",
+    "correct_answer": "The important newspapers",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Des fleurs roses",
+    "correct_answer": "Pink flowers",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Un livre bleu",
+    "correct_answer": "A blue book",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Les chevaux blancs courent vite.",
+    "correct_answer": "The white horses run fast.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "La porte verte n'est pas fermée.",
+    "correct_answer": "The green door is not closed.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Les beaux tableaux",
+    "correct_answer": "The beautiful paintings",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The white dog",
+    "correct_answer": "Le chien blanc",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "A red apple",
+    "correct_answer": "Une pomme rouge",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Three big houses",
+    "correct_answer": "Trois grandes maisons",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The modern offices",
+    "correct_answer": "Les bureaux modernes",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Two beautiful girls",
+    "correct_answer": "Deux belles filles",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The cake is delicious.",
+    "correct_answer": "Le gâteau est délicieux.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "These blue boxes",
+    "correct_answer": "Ces boîtes bleues",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The problem is not easy.",
+    "correct_answer": "Le problème n'est pas facile.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "A brown horse",
+    "correct_answer": "Un cheval brun",
+    "choices": null
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yarın erken uyanamalıyım.",
+    "correct_answer": "I must wake up early tomorrow.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "You must finish this work today.",
+    "correct_answer": "Bu işi bugün tamamlamalısın.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Hiç kimseye söylememelisiz.",
+    "correct_answer": "You must not tell anyone.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They should not go out.",
+    "correct_answer": "Dışarı çıkmamalıdırlar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "O bunu yapmalı mı?",
+    "correct_answer": "Should he do this?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Should we leave now?",
+    "correct_answer": "Şimdi gitmeli miyiz?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kilo vermeliyiz.",
+    "correct_answer": "We must lose weight.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I have to call you tomorrow.",
+    "correct_answer": "Yarın seni aramalıyım.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gitmemeliyim.",
+    "correct_answer": "I must not go.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She must not know about this.",
+    "correct_answer": "Bunu bilmemeli.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ödemeyi hemen yapmalısın.",
+    "correct_answer": "You must make the payment immediately.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He must wait here.",
+    "correct_answer": "Burada beklemeli.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Bana söylememelisin.",
+    "correct_answer": "You must not tell me.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Should I wear a jacket?",
+    "correct_answer": "Ceket giymeli miyim?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Doktor gelmelidir.",
+    "correct_answer": "The doctor must come.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We must hurry.",
+    "correct_answer": "Acele etmeliyiz.",
+    "choices": null
+  }
+]

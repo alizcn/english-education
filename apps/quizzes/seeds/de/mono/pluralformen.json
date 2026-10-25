@@ -1,0 +1,152 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die ___ sind groß.",
+    "correct_answer": "Häuser",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Der Mann sitzt neben den ___.",
+    "correct_answer": "Frauen",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche ist die korrekte Pluralform von 'der Mann'?",
+    "correct_answer": "Männer",
+    "choices": [
+      "Männer",
+      "Mans",
+      "Mannes",
+      "Manne"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich habe fünf ___.",
+    "correct_answer": "Bücher",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die ___ sind nicht klein.",
+    "correct_answer": "Fenster",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Der Plural von 'die Frau' ist...",
+    "correct_answer": "Frauen",
+    "choices": [
+      "Frauen",
+      "Fraus",
+      "Frauens",
+      "Frouen"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Wo sind die ___?",
+    "correct_answer": "Schlüssel",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die ___ schlafen gerne.",
+    "correct_answer": "Katzen",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Pluralform ist korrekt?",
+    "correct_answer": "die Äpfel",
+    "choices": [
+      "die Apfel",
+      "die Äpfel",
+      "die Apfels",
+      "die Äpfles"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Meine ___ leben in Berlin.",
+    "correct_answer": "Eltern",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die ___ sind nicht teuer.",
+    "correct_answer": "Autos",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Hast du die ___?",
+    "correct_answer": "Stifte",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Der Plural von 'das Kind' ist...",
+    "correct_answer": "Kinder",
+    "choices": [
+      "Kinds",
+      "Kinder",
+      "Kindes",
+      "Kindee"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Meine ___ haben keine Autos.",
+    "correct_answer": "Brüder",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sind deine ___ zu Hause?",
+    "correct_answer": "Eltern",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche ist NICHT die korrekte Pluralform?",
+    "correct_answer": "die Fensters",
+    "choices": [
+      "die Häuser",
+      "die Frauen",
+      "die Studenten",
+      "die Fensters"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die ___ spielen im Park.",
+    "correct_answer": "Mädchen",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Wir haben keine ___.",
+    "correct_answer": "Gärten",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Möchtest du die ___?",
+    "correct_answer": "Äpfel",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Was ist die Pluralform von 'das Buch'?",
+    "correct_answer": "Bücher",
+    "choices": [
+      "Buchs",
+      "Bücher",
+      "Buches",
+      "Bukhs"
+    ]
+  }
+]

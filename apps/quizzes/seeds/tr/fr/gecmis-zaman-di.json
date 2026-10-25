@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Dün sinemaya gittim.",
+    "correct_answer": "Je suis allé au cinéma hier.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kahvemi içtim.",
+    "correct_answer": "J'ai bu mon café.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Telefon çaldı.",
+    "correct_answer": "Le téléphone a sonné.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Anahtarımı buldum.",
+    "correct_answer": "J'ai trouvé ma clé.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Pencereyi açtı.",
+    "correct_answer": "Il a ouvert la fenêtre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "J'ai mangé le pain.",
+    "correct_answer": "Ekmeği yedim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Nous avons joué au parc.",
+    "correct_answer": "Parkta oynadık.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Tu as vu le film?",
+    "correct_answer": "Filmi gördün mü?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle n'a pas dormi.",
+    "correct_answer": "Uyumadı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ils ont étudié hier.",
+    "correct_answer": "Dün çalıştılar.",
+    "choices": null
+  }
+]

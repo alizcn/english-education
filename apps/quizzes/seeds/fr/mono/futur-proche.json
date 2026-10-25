@@ -1,0 +1,140 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je ___ partir demain.",
+    "correct_answer": "vais",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Tu ___ regarder un film ce soir?",
+    "correct_answer": "vas",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Il ___ prendre un café.",
+    "correct_answer": "va",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle ___ faire les courses demain.",
+    "correct_answer": "va",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Nous ___ manger une pizza ce soir.",
+    "correct_answer": "allons",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Vous ___ danser à la fête?",
+    "correct_answer": "allez",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elles ___ arriver dans deux heures.",
+    "correct_answer": "vont",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je ne ___ pas rester chez moi.",
+    "correct_answer": "vais",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Tu ne ___ pas venir à la réunion.",
+    "correct_answer": "vas",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle ne ___ pas comprendre ce texte.",
+    "correct_answer": "va",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ -tu partir bientôt?",
+    "correct_answer": "Vas",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Demain, je ___ manger au restaurant.",
+    "correct_answer": "vais",
+    "choices": [
+      "vais",
+      "va",
+      "allons",
+      "vont"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Ils ___ partir ce soir ou demain?",
+    "correct_answer": "vont",
+    "choices": [
+      "vont",
+      "vais",
+      "va",
+      "allez"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Est-ce que vous ___ finir vos devoirs?",
+    "correct_answer": "allez",
+    "choices": [
+      "allez",
+      "allons",
+      "vas",
+      "vont"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Nous ne ___ pas acheter cette voiture.",
+    "correct_answer": "allons",
+    "choices": [
+      "allons",
+      "allez",
+      "vont",
+      "vais"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Vous ne ___ pas comprendre cette règle.",
+    "correct_answer": "allez",
+    "choices": [
+      "allez",
+      "allons",
+      "vont",
+      "vas"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elles ___ regarder la télévision ce soir.",
+    "correct_answer": "vont",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Je ___ faire du sport demain matin.",
+    "correct_answer": "vais",
+    "choices": [
+      "vais",
+      "va",
+      "allez",
+      "allons"
+    ]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "La femme qui habite ici est gentille.",
+    "correct_answer": "Die Frau, die hier wohnt, ist nett.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Le livre que j'ai lu était excellent.",
+    "correct_answer": "Das Buch, das ich gelesen habe, war ausgezeichnet.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "L'ami dont je t'ai parlé arrive demain.",
+    "correct_answer": "Der Freund, von dem ich dir erzählt habe, kommt morgen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Le café où je travaille est accueillant.",
+    "correct_answer": "Das Café, in dem ich arbeite, ist einladend.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Les enfants qui jouent sont heureux.",
+    "correct_answer": "Die Kinder, die spielen, sind glücklich.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "La clé que tu cherches est ici.",
+    "correct_answer": "Der Schlüssel, den du suchst, ist hier.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "L'homme qui ne parle pas français.",
+    "correct_answer": "Der Mann, der nicht Französisch spricht.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Le film que je n'aime pas est long.",
+    "correct_answer": "Der Film, den ich nicht mag, ist lang.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "La personne dont nous avons parlé.",
+    "correct_answer": "Die Person, von der wir gesprochen haben.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "L'endroit où nous nous sommes rencontrés.",
+    "correct_answer": "Der Ort, an dem wir uns trafen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Der Mann, der Französisch spricht.",
+    "correct_answer": "L'homme qui parle français.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Das Buch, das du empfiehlst.",
+    "correct_answer": "Le livre que tu recommandes.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die Frau, von der ich gesprochen habe.",
+    "correct_answer": "La femme dont j'ai parlé.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Das Haus, in dem er wohnt.",
+    "correct_answer": "La maison où il habite.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die Kinder, die hier spielen.",
+    "correct_answer": "Les enfants qui jouent ici.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Der Film, den ich nicht mag.",
+    "correct_answer": "Le film que je n'aime pas.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Der Lehrer, der nicht gekommen ist.",
+    "correct_answer": "Le professeur qui n'est pas venu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die Antwort, die wir gefunden haben.",
+    "correct_answer": "La réponse que nous avons trouvée.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Der Moment, in dem es passierte.",
+    "correct_answer": "Le moment où c'est arrivé.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die Person, von der ich Hilfe brauche.",
+    "correct_answer": "La personne dont j'ai besoin.",
+    "choices": null
+  }
+]

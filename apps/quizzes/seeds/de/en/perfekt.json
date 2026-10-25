@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to English: Ich habe das Buch gelesen.",
+    "correct_answer": "I have read the book.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to German: They drank coffee.",
+    "correct_answer": "Sie haben Kaffee getrunken.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to English: Sie ist schnell gelaufen.",
+    "correct_answer": "She ran quickly.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to German: The child has played in the garden.",
+    "correct_answer": "Das Kind hat im Garten gespielt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to English: Das habe ich nicht verstanden.",
+    "correct_answer": "I did not understand that.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to German: Has he arrived?",
+    "correct_answer": "Ist er angekommen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to English: Bist du fertig geworden?",
+    "correct_answer": "Have you finished?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to German: I have not eaten.",
+    "correct_answer": "Ich habe nicht gegessen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to English: Wo bist du gewesen?",
+    "correct_answer": "Where have you been?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to German: They have worked for three hours.",
+    "correct_answer": "Sie haben drei Stunden gearbeitet.",
+    "choices": null
+  }
+]

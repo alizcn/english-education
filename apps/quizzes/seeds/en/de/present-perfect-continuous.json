@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I have been waiting here for an hour.",
+    "correct_answer": "Ich warte schon seit einer Stunde hier.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She hasn't been sleeping well.",
+    "correct_answer": "Sie schläft nicht gut.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "How long have you been studying?",
+    "correct_answer": "Wie lange lernst du schon?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They have been living in Paris since 2020.",
+    "correct_answer": "Sie leben schon seit 2020 in Paris.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Have you been working all day?",
+    "correct_answer": "Arbeitest du den ganzen Tag schon?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich bin schon zwei Stunden am Kochen.",
+    "correct_answer": "I have been cooking for two hours.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie warten schon seit einer halben Stunde.",
+    "correct_answer": "They have been waiting for half an hour.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wie lange spielst du schon Gitarre?",
+    "correct_answer": "How long have you been playing guitar?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir arbeiten schon seit Montag zusammen.",
+    "correct_answer": "We have been working together since Monday.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Arbeitet er schon lange in diesem Büro?",
+    "correct_answer": "Has he been working in this office for a long time?",
+    "choices": null
+  }
+]

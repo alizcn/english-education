@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Mann trinkt einen Kaffee.",
+    "correct_answer": "Adam bir kahve içiyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kadın bir kitap okuyor.",
+    "correct_answer": "Die Frau liest ein Buch.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich sehe keinen Hund.",
+    "correct_answer": "Köpek görmüyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Çocuk oyuncakla oynuyor.",
+    "correct_answer": "Das Kind spielt mit dem Spielzeug.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ist das ein Fenster?",
+    "correct_answer": "Bu bir pencere mi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kapı kırmızıdır.",
+    "correct_answer": "Die Tür ist rot.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Blumen sind sehr schön.",
+    "correct_answer": "Çiçekler çok güzel.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Köpek büyük değil.",
+    "correct_answer": "Der Hund ist nicht groß.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Lehrer erklärt die Regel.",
+    "correct_answer": "Öğretmen kuralı açıklıyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kız bir şarkı söylüyor.",
+    "correct_answer": "Das Mädchen singt ein Lied.",
+    "choices": null
+  }
+]

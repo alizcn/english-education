@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I had finished my work before lunch.",
+    "correct_answer": "J'avais terminé mon travail avant le déjeuner.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle avait déjà quitté la maison.",
+    "correct_answer": "She had already left the house.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They had never seen that film before.",
+    "correct_answer": "Ils n'avaient jamais vu ce film auparavant.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Nous avions mangé avant d'aller au cinéma.",
+    "correct_answer": "We had eaten before going to the cinema.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Had you finished your homework?",
+    "correct_answer": "Aviez-vous terminé vos devoirs?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Il n'avait pas compris la leçon.",
+    "correct_answer": "He had not understood the lesson.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "By the time we arrived, the meeting had started.",
+    "correct_answer": "Au moment où nous sommes arrivés, la réunion avait commencé.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "J'avais écrit trois lettres avant midi.",
+    "correct_answer": "I had written three letters before noon.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She hadn't expected such a large crowd.",
+    "correct_answer": "Elle ne s'était pas attendue à une foule aussi importante.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Avaient-ils visité Paris avant?",
+    "correct_answer": "Had they visited Paris before?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He had gone to the store before noon.",
+    "correct_answer": "Il était allé au magasin avant midi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Les enfants avaient déjà mangé quand je suis rentré.",
+    "correct_answer": "The children had already eaten when I came home.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "We had lived in London for five years before moving.",
+    "correct_answer": "Nous avions vécu à Londres pendant cinq ans avant de déménager.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Tu n'avais jamais vu un désert avant.",
+    "correct_answer": "You had never seen a desert before.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Had she completed the project?",
+    "correct_answer": "Avait-elle terminé le projet?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ils avaient fermé la porte avant de partir.",
+    "correct_answer": "They had closed the door before leaving.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "By then, I had forgotten all about it.",
+    "correct_answer": "À ce moment-là, j'avais tout oublié.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Vous aviez appelé le médecin avant son arrivée.",
+    "correct_answer": "You had called the doctor before his arrival.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They hadn't arrived when we left.",
+    "correct_answer": "Ils n'étaient pas arrivés quand nous sommes partis.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle avait appris à cuisiner avant de déménager à Paris.",
+    "correct_answer": "She had learned to cook before moving to Paris.",
+    "choices": null
+  }
+]

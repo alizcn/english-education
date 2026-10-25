@@ -1,0 +1,167 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ne ___ pas la fenêtre!",
+    "correct_answer": "ferme",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle est la forme correcte? '___ attentif!'",
+    "correct_answer": "Sois",
+    "choices": [
+      "Sois",
+      "Soit",
+      "Soyez",
+      "Es"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ avec nous, s'il vous plaît!",
+    "correct_answer": "Venez",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle est la forme correcte de l'impératif pour 'tu' avec le verbe 'aller'?",
+    "correct_answer": "va",
+    "choices": [
+      "va",
+      "vais",
+      "ailles",
+      "alles"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ -moi tes devoirs!",
+    "correct_answer": "Montre",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez pour la forme 'vous' avec 'parler': Ne ___ pas trop fort!",
+    "correct_answer": "parlez",
+    "choices": [
+      "parlez",
+      "parlés",
+      "parles",
+      "parlent"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ne ___ pas ici!",
+    "correct_answer": "reste",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est l'impératif du verbe 'avoir' pour la personne 'tu'?",
+    "correct_answer": "aie",
+    "choices": [
+      "aies",
+      "as",
+      "aie",
+      "ais"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ne ___ pas de bêtises!",
+    "correct_answer": "fais",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle est la bonne forme pour 'tu' avec 'manger'? '___ une pomme!'",
+    "correct_answer": "Mange",
+    "choices": [
+      "Mangez",
+      "Manges",
+      "Mange",
+      "Manger"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ le bus pour aller à l'école!",
+    "correct_answer": "Prends",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle est la bonne forme pour 'nous' avec le verbe 'finir'?",
+    "correct_answer": "finissons",
+    "choices": [
+      "finissez",
+      "finissons",
+      "finisses",
+      "finissent"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ne ___ pas tard le soir!",
+    "correct_answer": "rentre",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle est la forme correcte pour 'tu' avec 'envoyer'? '___ -lui un message!'",
+    "correct_answer": "Envoie",
+    "choices": [
+      "Envoies",
+      "Envoie",
+      "Envoyé",
+      "Envoyant"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ ici tout de suite!",
+    "correct_answer": "Viens",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Parle-___ si tu sais la réponse!",
+    "correct_answer": "y",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ne ___ rien à personne!",
+    "correct_answer": "dis",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle est la forme correcte pour 'vous' avec le verbe 'être'?",
+    "correct_answer": "soyez",
+    "choices": [
+      "soyez",
+      "êtes",
+      "soyés",
+      "sois"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___-moi un café, s'il te plaît!",
+    "correct_answer": "Prépare",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est l'impératif pour 'nous' avec le verbe 'aller'?",
+    "correct_answer": "allons",
+    "choices": [
+      "allons",
+      "allez",
+      "allés",
+      "allent"
+    ]
+  }
+]

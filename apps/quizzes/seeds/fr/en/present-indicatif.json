@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je travaille à l'école.",
+    "correct_answer": "I work at school.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elles ne vont pas au cinéma.",
+    "correct_answer": "They do not go to the cinema.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu aimes le café?",
+    "correct_answer": "Do you like coffee?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous prenons un repas ensemble.",
+    "correct_answer": "We have a meal together.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il ne peut pas venir demain.",
+    "correct_answer": "He cannot come tomorrow.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I eat an apple.",
+    "correct_answer": "Je mange une pomme.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They want to sleep.",
+    "correct_answer": "Ils veulent dormir.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Does she live in Paris?",
+    "correct_answer": "Habite-t-elle à Paris?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "You are very happy.",
+    "correct_answer": "Vous êtes très heureux.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We do not have time.",
+    "correct_answer": "Nous n'avons pas le temps.",
+    "choices": null
+  }
+]

@@ -2,6 +2,8 @@ from django.conf import settings
 from django.db import models
 from django.utils.translation import gettext_lazy as _, pgettext_lazy
 
+from services import languages
+
 
 class QuizTemplate(models.Model):
     WORD = 'word'
@@ -24,6 +26,16 @@ class QuizTemplate(models.Model):
         on_delete=models.CASCADE,
         null=True, blank=True,
         related_name='quiz_templates',
+    )
+    # Dil çifti şablonun kendi özelliği, kullanıcının değil: seed şablonları
+    # `user=None` olduğu için `UserCourse`a FK verilemiyor.
+    target_language = models.CharField(
+        max_length=5, choices=languages.LANGUAGE_CHOICES, default='en',
+        db_index=True, verbose_name=_('Öğrenilen dil'),
+    )
+    native_language = models.CharField(
+        max_length=5, choices=languages.LANGUAGE_CHOICES, default='tr',
+        verbose_name=_('Anlatım dili'),
     )
     kind = models.CharField(max_length=10, choices=KIND_CHOICES)
     topic = models.ForeignKey(
@@ -67,6 +79,16 @@ class QuizSession(models.Model):
         on_delete=models.CASCADE,
         related_name='quiz_sessions',
     )
+    # Puan bu çiftin kursuna yazılıyor (bkz. apps/accounts/signals.py):
+    # Almanca quizinin puanı İngilizce seviyesini yükseltmemeli.
+    target_language = models.CharField(
+        max_length=5, choices=languages.LANGUAGE_CHOICES, default='en',
+        db_index=True, verbose_name=_('Öğrenilen dil'),
+    )
+    native_language = models.CharField(
+        max_length=5, choices=languages.LANGUAGE_CHOICES, default='tr',
+        verbose_name=_('Anlatım dili'),
+    )
     template = models.ForeignKey(
         QuizTemplate,
         on_delete=models.SET_NULL,
@@ -90,8 +112,9 @@ class QuizSession(models.Model):
         ordering = ['-started_at']
 
     def __str__(self):
-        label = self.topic.name if self.topic else 'Kelime'
-        return f'{label} ({self.correct_count}/{self.total_questions})'
+        label = self.topic.name if self.topic else str(_('Kelime'))
+        return (f'[{self.target_language}] {label} '
+                f'({self.correct_count}/{self.total_questions})')
 
     @property
     def answered_count(self):
@@ -115,13 +138,20 @@ class QuizSession(models.Model):
 
 
 class QuizQuestion(models.Model):
-    TRANSLATE_EN_TR = 'translate_en_tr'
-    TRANSLATE_TR_EN = 'translate_tr_en'
+    # Dil ÇİFTİ değil, YÖN kodlanıyor. `translate_en_tr` gibi çift bazlı
+    # isimlendirme 4 hedef × 3 ana dil = 12 çiftte 24 enum değerine patlıyordu;
+    # yön + oturumun `target_language`/`native_language` alanları birlikte
+    # anlamı tam belirlediği için sabit 4 değer yetiyor.
+    #
+    # max_length=20 sınırın dibinde: iki değer de 19 karakter. Daha uzun bir
+    # tip adı eklenirse AlterField gerekir.
+    TRANSLATE_TO_NATIVE = 'translate_to_native'   # hedef dilde sor, ana dilde cevapla
+    TRANSLATE_TO_TARGET = 'translate_to_target'   # ana dilde sor, hedef dilde cevapla
     FILL_BLANK = 'fill_blank'
     MULTIPLE_CHOICE = 'multiple_choice'
     TYPE_CHOICES = [
-        (TRANSLATE_EN_TR, _('Çeviri EN→TR')),
-        (TRANSLATE_TR_EN, _('Çeviri TR→EN')),
+        (TRANSLATE_TO_NATIVE, _('Hedef dilden çeviri')),
+        (TRANSLATE_TO_TARGET, _('Hedef dile çeviri')),
         (FILL_BLANK, _('Boşluk doldurma')),
         (MULTIPLE_CHOICE, _('Çoktan seçmeli')),
     ]

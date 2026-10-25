@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ chat noir joue dans le parc.",
+    "correct_answer": "Le",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ maison est grande.",
+    "correct_answer": "La",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "J'ai ___ ami français.",
+    "correct_answer": "un",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Voici ___ fille intelligente.",
+    "correct_answer": "une",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ enfants jouent ici.",
+    "correct_answer": "Les",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle n'a pas ___ crayon.",
+    "correct_answer": "de",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Complétez: Une fille, des ___",
+    "correct_answer": "filles",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Complétez: Un gâteau, des ___",
+    "correct_answer": "gâteaux",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Complétez: Un journal, des ___",
+    "correct_answer": "journaux",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Complétez: Une fois, des ___",
+    "correct_answer": "fois",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel article va avec 'chien'?",
+    "correct_answer": "Le chien",
+    "choices": [
+      "Le chien",
+      "La chien",
+      "Un chienne",
+      "Des chien"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel article va avec 'table'?",
+    "correct_answer": "Une table",
+    "choices": [
+      "Un table",
+      "Une table",
+      "La tables",
+      "Les table"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le pluriel correct de 'livre'?",
+    "correct_answer": "des livres",
+    "choices": [
+      "des livres",
+      "des livre",
+      "un livres",
+      "les livre"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le pluriel correct de 'tableau'?",
+    "correct_answer": "des tableaux",
+    "choices": [
+      "des tableaus",
+      "des tableaux",
+      "un tableaux",
+      "le tableaus"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le pluriel correct de 'journal'?",
+    "correct_answer": "des journaux",
+    "choices": [
+      "des journals",
+      "des journaux",
+      "un journaux",
+      "les journals"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel article va avec 'problème'?",
+    "correct_answer": "le problème",
+    "choices": [
+      "la problème",
+      "une problème",
+      "le problème",
+      "un problèmes"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel article va avec 'sourire'?",
+    "correct_answer": "le sourire",
+    "choices": [
+      "le sourire",
+      "la sourire",
+      "une sourire",
+      "les sourire"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le pluriel correct de 'bateau'?",
+    "correct_answer": "des bateaux",
+    "choices": [
+      "des bateaus",
+      "des bateaux",
+      "un bateaux",
+      "les bateaus"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est correct?",
+    "correct_answer": "une belle-mère",
+    "choices": [
+      "une belle-mère",
+      "un belle-mère",
+      "les belle-mère",
+      "des belle-meres"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: Un prix, des ___",
+    "correct_answer": "prix",
+    "choices": [
+      "prixs",
+      "prix",
+      "prixes",
+      "pris"
+    ]
+  }
+]

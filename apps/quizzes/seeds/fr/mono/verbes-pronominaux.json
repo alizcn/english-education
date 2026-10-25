@@ -1,0 +1,147 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je ___ réveille à 7 heures chaque matin.",
+    "correct_answer": "me",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Tu ___ habilles rapidement ce matin.",
+    "correct_answer": "te",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Il ___ appelle Jean.",
+    "correct_answer": "s'",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Nous ___ amusons ensemble à la maison.",
+    "correct_answer": "nous",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Vous ___ dépêchez pour arriver à l'école.",
+    "correct_answer": "vous",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ils ___ promènent dans le parc.",
+    "correct_answer": "se",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je ne ___ réveille pas à 6 heures.",
+    "correct_answer": "me",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle ne ___ habille pas en noir.",
+    "correct_answer": "s'",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Lève-___ tout de suite!",
+    "correct_answer": "toi",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ne te ___ pas si tard!",
+    "correct_answer": "couche",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je me ___ levé tôt ce matin.",
+    "correct_answer": "suis",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle s'___ endormie avant minuit.",
+    "correct_answer": "est",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Nous nous ___ réveillés sans alarme.",
+    "correct_answer": "sommes",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je ne me ___ pas levé avant 8 heures.",
+    "correct_answer": "suis",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Réveille-___ ! On est en retard!",
+    "correct_answer": "toi",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "How do you ask 'At what time do you wake up?' (informal, using tu)?",
+    "correct_answer": "Tu te réveilles à quelle heure?",
+    "choices": [
+      "Tu te réveilles à quelle heure?",
+      "Tu réveilles te à quelle heure?",
+      "Te tu réveilles à quelle heure?",
+      "Tu s'réveilles à quelle heure?"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct negative form of 'Il se lève tôt'?",
+    "correct_answer": "Il ne se lève pas tôt.",
+    "choices": [
+      "Il ne se lève pas tôt.",
+      "Il se ne lève pas tôt.",
+      "Il ne lève se pas tôt.",
+      "Se ne lève il pas tôt."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct passé composé form of 'Elles se dépêcher'?",
+    "correct_answer": "Elles se sont dépêchées.",
+    "choices": [
+      "Elles s'ont dépêchées.",
+      "Elles se sont dépêchées.",
+      "Elles se ont dépêchées.",
+      "Elles sont se dépêchées."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "How do you ask 'Does she get dressed quickly?' using inversion?",
+    "correct_answer": "S'habille-t-elle rapidement?",
+    "choices": [
+      "S'habille-t-elle rapidement?",
+      "Elle s'habille-t-elle rapidement?",
+      "Habille-s-elle rapidement?",
+      "T-elle s'habille rapidement?"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct imperative affirmative form for 'Get ready!' (vous)?",
+    "correct_answer": "Préparez-vous!",
+    "choices": [
+      "Préparez-vous!",
+      "Vous préparez!",
+      "Préparez vous!",
+      "Vous vous préparez!"
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Cette voiture est plus rapide que la mienne.",
+    "correct_answer": "This car is faster than mine.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Le café est moins cher que le thé.",
+    "correct_answer": "Coffee is less expensive than tea.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle joue mieux que tous les autres musiciens.",
+    "correct_answer": "She plays better than all the other musicians.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il n'est pas plus intelligent que moi.",
+    "correct_answer": "He is not more intelligent than me.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "C'est la moins chère des trois solutions.",
+    "correct_answer": "It is the least expensive of the three solutions.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She is the most talented student in her class.",
+    "correct_answer": "Elle est l'étudiante la plus talentueuse de sa classe.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He speaks more fluently than his brother.",
+    "correct_answer": "Il parle plus couramment que son frère.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "This solution is less expensive than the other.",
+    "correct_answer": "Cette solution est moins chère que l'autre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They have as much patience as we do.",
+    "correct_answer": "Ils ont autant de patience que nous.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Is your apartment bigger than mine?",
+    "correct_answer": "Ton appartement est-il plus grand que le mien?",
+    "choices": null
+  }
+]

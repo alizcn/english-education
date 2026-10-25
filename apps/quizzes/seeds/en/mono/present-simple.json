@@ -1,0 +1,150 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ (play) tennis every day.",
+    "correct_answer": "plays",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ (watch) films on weekends.",
+    "correct_answer": "watch",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He ___ (go) to the office at 9 a.m.",
+    "correct_answer": "goes",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ like chocolate.",
+    "correct_answer": "don't",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ speak French.",
+    "correct_answer": "doesn't",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ understand the question.",
+    "correct_answer": "don't",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ you like pizza?",
+    "correct_answer": "Do",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ he know the answer?",
+    "correct_answer": "Does",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The baby ___ (cry) every night.",
+    "correct_answer": "cries",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ (study) English together.",
+    "correct_answer": "study",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "He ___ to school every day.",
+    "correct_answer": "goes",
+    "choices": [
+      "go",
+      "goes",
+      "going",
+      "gone"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "She ___ like spicy food.",
+    "correct_answer": "doesn't",
+    "choices": [
+      "don't",
+      "doesn't",
+      "does",
+      "is"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Do you ___ English?",
+    "correct_answer": "speak",
+    "choices": [
+      "speaks",
+      "speak",
+      "speaking",
+      "spoke"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "___ they play football?",
+    "correct_answer": "Do",
+    "choices": [
+      "Do",
+      "Does",
+      "Did",
+      "Are"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "I ___ coffee every morning.",
+    "correct_answer": "drink",
+    "choices": [
+      "drink",
+      "drinks",
+      "drinking",
+      "drank"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "The sun ___ in the east.",
+    "correct_answer": "rises",
+    "choices": [
+      "rise",
+      "rises",
+      "rising",
+      "rose"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "We ___ not go out on weekdays.",
+    "correct_answer": "do",
+    "choices": [
+      "does",
+      "do",
+      "don't",
+      "doesn't"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "It ___ at 9 o'clock.",
+    "correct_answer": "starts",
+    "choices": [
+      "start",
+      "starts",
+      "starting",
+      "started"
+    ]
+  }
+]

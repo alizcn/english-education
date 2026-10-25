@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich werde morgen arbeiten.",
+    "correct_answer": "I will work tomorrow.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Du wirst nicht zu spät kommen.",
+    "correct_answer": "You will not arrive late.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Er wird ein Auto kaufen.",
+    "correct_answer": "He will buy a car.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie wird sich beeilen.",
+    "correct_answer": "She will hurry up.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir werden zusammen essen.",
+    "correct_answer": "We will eat together.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Werden Sie morgen kommen?",
+    "correct_answer": "Will you come tomorrow?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I will travel next week.",
+    "correct_answer": "Ich werde nächste Woche reisen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "You will not understand this.",
+    "correct_answer": "Du wirst das nicht verstehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He will wake up at 8 o'clock.",
+    "correct_answer": "Er wird um 8 Uhr aufwachen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They will probably be at home.",
+    "correct_answer": "Sie werden wahrscheinlich zu Hause sein.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Will you help me?",
+    "correct_answer": "Wirst du mir helfen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I will call you tomorrow.",
+    "correct_answer": "Ich werde dich morgen anrufen.",
+    "choices": null
+  }
+]

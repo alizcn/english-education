@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yarın erkenden uyanamalıyım.",
+    "correct_answer": "Ich muss morgen früh aufwachen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Du musst dieses Buch lesen.",
+    "correct_answer": "Bu kitabı okumalısın.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Siz bu hatayı tekrar yapmamalısınız.",
+    "correct_answer": "Ihr solltet diesen Fehler nicht wieder machen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Biz bu konuda daha dikkatli davranmalıyız.",
+    "correct_answer": "Wir müssen in dieser Angelegenheit vorsichtiger handeln.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich muss jetzt gehen.",
+    "correct_answer": "Şimdi gitmeliyim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Daha hızlı çalışmalıyız.",
+    "correct_answer": "Wir müssen schneller arbeiten.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Du solltest nicht zu laut sprechen.",
+    "correct_answer": "Çok yüksek konuşmamalısın.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "O yemeği şimdi mi yemelisin, yoksa sonra mı?",
+    "correct_answer": "Solltest du dieses Essen jetzt oder später essen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Müssen wir morgen kommen?",
+    "correct_answer": "Yarın gelmeli miyiz?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ödemeyi yapmalısın.",
+    "correct_answer": "Du musst die Zahlung machen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir müssen dieses Problem sofort lösen.",
+    "correct_answer": "Bu sorunu hemen çözmeliyiz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Erken kalkmalısınız.",
+    "correct_answer": "Ihr müsst früh aufstehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Haydi, evime gitmeliyim.",
+    "correct_answer": "Komm schon, ich muss nach Hause gehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich sollte das Buch lesen.",
+    "correct_answer": "Kitabı okumalıyım.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Doktor gelmelidir.",
+    "correct_answer": "Der Arzt sollte kommen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Du solltest nicht zu spät kommen.",
+    "correct_answer": "Geç gelmemelisin.",
+    "choices": null
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kahve her sabah yapılır.",
+    "correct_answer": "Coffee is made every morning.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kapı açılmadı.",
+    "correct_answer": "The door was not opened.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kitaplar kütüphanede okundu.",
+    "correct_answer": "The books were read in the library.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Pencereler kapatılmış mı?",
+    "correct_answer": "Were the windows closed?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Dersler iptal edildi.",
+    "correct_answer": "The lessons were cancelled.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The letter was written by Fatima.",
+    "correct_answer": "Mektup Fatima tarafından yazıldı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The door is opened every day.",
+    "correct_answer": "Kapı her gün açılır.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The house was not repaired.",
+    "correct_answer": "Ev tamirlenmedi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The windows will be broken.",
+    "correct_answer": "Pencereler kırılacak.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The homework was finished quickly.",
+    "correct_answer": "Ödev çabuk bitirildi.",
+    "choices": null
+  }
+]

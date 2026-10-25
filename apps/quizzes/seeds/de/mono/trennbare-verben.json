@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Er ___ um 7 Uhr auf.",
+    "correct_answer": "steht",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sie kauft im Supermarkt ___.",
+    "correct_answer": "ein",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich ___ meinen Freund angerufen.",
+    "correct_answer": "habe",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Wir sind um 8 Uhr ___.",
+    "correct_answer": "aufgestanden",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sie besucht ihre Großmutter ___.",
+    "correct_answer": "nicht",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die Tür ___ auf.",
+    "correct_answer": "macht",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich ziehe mein T-Shirt ___.",
+    "correct_answer": "an",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Er ___ eine Geschichte erzählt.",
+    "correct_answer": "hat",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Wir fahren am Samstag ___.",
+    "correct_answer": "weg",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die Lehrerin ___ die Aufgabe.",
+    "correct_answer": "erklärt",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence uses the correct word order for aufstehen?",
+    "correct_answer": "Er steht morgen früh auf",
+    "choices": [
+      "Er aufsteht morgen früh",
+      "Er steht morgen früh auf",
+      "Auf steht er morgen früh",
+      "Er steht auf morgen früh"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Choose the correct Partizip II of anfangen:",
+    "correct_answer": "angefangen",
+    "choices": [
+      "anfangen",
+      "angefangen",
+      "anfangenget",
+      "gefangen"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct question form with aufstehen?",
+    "correct_answer": "Steht er um 7 Uhr auf?",
+    "choices": [
+      "Steht er um 7 Uhr auf?",
+      "Steht auf er um 7 Uhr?",
+      "Auf steht er um 7 Uhr?",
+      "Steht er auf um 7 Uhr?"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which shows correct negation with the untrennbar verb besuchen?",
+    "correct_answer": "Sie besucht ihre Großmutter nicht",
+    "choices": [
+      "Sie besuchtnicht ihre Großmutter",
+      "Sie besucht ihre Großmutter nicht",
+      "Sie nicht besucht ihre Großmutter",
+      "Sie besucht nicht auf ihre Großmutter"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which shows correct word order for einkaufen in present tense?",
+    "correct_answer": "Ich kaufe im Supermarkt ein",
+    "choices": [
+      "Ich einkaufe im Supermarkt",
+      "Ich kaufe einkaufen",
+      "Ich kaufe im Supermarkt ein",
+      "Ich im Supermarkt ein kaufe"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Choose the correct Präteritum form of erklären:",
+    "correct_answer": "Er erklärte eine Geschichte",
+    "choices": [
+      "Er erklärte auf eine Geschichte",
+      "Er erklärte eine Geschichte",
+      "Er erklärt auf eine Geschichte",
+      "Er erklärte ab eine Geschichte"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence correctly uses zurückkommen in Perfekt?",
+    "correct_answer": "Wir sind zurückgekommen",
+    "choices": [
+      "Wir haben zurück gekommen",
+      "Wir sind zurückgekommen",
+      "Wir sind zurück gekommen",
+      "Wir haben zurückgekommen"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct Partizip II of verlassen (untrennbar)?",
+    "correct_answer": "verlassen",
+    "choices": [
+      "verlässt",
+      "verlässt auf",
+      "verlassen",
+      "gegangen"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which form correctly negates the sentence with erklären?",
+    "correct_answer": "Sie erklärt das Bild nicht",
+    "choices": [
+      "Sie erklärt das Bild auf nicht",
+      "Sie erklärt nicht auf das Bild",
+      "Sie erklärt das Bild auf",
+      "Sie erklärt das Bild nicht"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Choose the grammatically correct sentence with aufstehen and a modal verb:",
+    "correct_answer": "Ich muss morgen früh aufstehen",
+    "choices": [
+      "Ich muss morgen früh aufstehen",
+      "Ich muss aufstehen morgen früh",
+      "Ich aufstehen muss morgen früh",
+      "Ich muss morgen früh stehen auf"
+    ]
+  }
+]

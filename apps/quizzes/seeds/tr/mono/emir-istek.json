@@ -1,0 +1,140 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Lütfen kapıyı ___.",
+    "correct_answer": "aç",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Siz lütfen bekle___.",
+    "correct_answer": "yin",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Gitme___ lütfen!",
+    "correct_answer": "yin",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Keşke yarın gel___.",
+    "correct_answer": "se",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "O sağ ___.",
+    "correct_answer": "olsun",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Çabuk ___! Geç kalırız!",
+    "correct_answer": "ol",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Siz okuma___.",
+    "correct_answer": "yın",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Gide___.",
+    "correct_answer": "lim",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Uyuma___, lütfen.",
+    "correct_answer": "yın",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Keşke ben de gel___.",
+    "correct_answer": "seydim",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Arkadaşın sağ ___.",
+    "correct_answer": "olsun",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Bu yemeği ___.",
+    "correct_answer": "yeme",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct sen form (you singular) NEGATIVE imperative of 'yazmak'?",
+    "correct_answer": "yazma",
+    "choices": [
+      "yaz",
+      "yazma",
+      "yazın",
+      "yazarsın"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct siz form (formal you) imperative of 'dinlemek'?",
+    "correct_answer": "dinleyin",
+    "choices": [
+      "dinle",
+      "dinleyin",
+      "dinleme",
+      "dinleyecek"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct optative o (he/she/it) form of 'gitmek'?",
+    "correct_answer": "gitsin",
+    "choices": [
+      "gitter",
+      "gitsin",
+      "gitse",
+      "gitmiş"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct biz (we) optative form of 'koşmak'?",
+    "correct_answer": "koşalım",
+    "choices": [
+      "koşsunlar",
+      "koşalım",
+      "koştuk",
+      "koşarız"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence uses the optative mood (expressing a wish) correctly?",
+    "correct_answer": "Keşke gelse.",
+    "choices": [
+      "Keşke gelse.",
+      "Keşke gelme.",
+      "Keşke gelmek.",
+      "Keşke geldi."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct NEGATIVE siz imperative of 'konuşmak'?",
+    "correct_answer": "konuşmayın",
+    "choices": [
+      "konuş",
+      "konuşun",
+      "konuşma",
+      "konuşmayın"
+    ]
+  }
+]

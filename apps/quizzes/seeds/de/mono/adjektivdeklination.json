@@ -1,0 +1,150 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Der _____ Mann kommt aus Berlin.",
+    "correct_answer": "neue",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich sehe einen _____ Film.",
+    "correct_answer": "spannenden",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das _____ Kind schläft.",
+    "correct_answer": "kleine",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sie mag eine _____ Pizza nicht.",
+    "correct_answer": "leckere",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die _____ Blumen sind schön.",
+    "correct_answer": "roten",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Der Geschmack des _____ Kaffees ist stark.",
+    "correct_answer": "starken",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Magst du diesen _____ Kaffee?",
+    "correct_answer": "teuren",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Mit einem _____ Freund bin ich glücklich.",
+    "correct_answer": "guten",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das _____ Haus ist nicht teuer.",
+    "correct_answer": "moderne",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Wollen Sie den _____ Arzt sehen?",
+    "correct_answer": "neuen",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form ist richtig? 'Der ___ Mann ist weise.'",
+    "correct_answer": "weise",
+    "choices": [
+      "weise",
+      "weisen",
+      "weises",
+      "weisem"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Wähle die Richtige: 'Ich kaufe keinen ___ Computer.'",
+    "correct_answer": "teuren",
+    "choices": [
+      "teuer",
+      "teuren",
+      "teure",
+      "teures"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Ergänze: 'Das ___ Auto ist nicht schnell.'",
+    "correct_answer": "schnelle",
+    "choices": [
+      "schnelle",
+      "schnellen",
+      "schnellem",
+      "schneller"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Wähle richtig: 'Mit einer ___ Lehrerin lerne ich gerne.'",
+    "correct_answer": "guten",
+    "choices": [
+      "gute",
+      "guten",
+      "guter",
+      "gutem"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form passt? 'Kennst du diese ___ Häuser?'",
+    "correct_answer": "alten",
+    "choices": [
+      "alte",
+      "alten",
+      "alter",
+      "altem"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Richtig ist: 'Der Preis des ___ Buches ist hoch.'",
+    "correct_answer": "teuren",
+    "choices": [
+      "teure",
+      "teuren",
+      "teurer",
+      "teurem"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Wähle die beste Lösung: 'Ein ___ Lehrer ist immer geduldig.'",
+    "correct_answer": "geduldiger",
+    "choices": [
+      "geduldige",
+      "geduldiger",
+      "geduldigem",
+      "geduldigen"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Ergänze richtig: 'Sie arbeitet nicht in einer ___ Firma.'",
+    "correct_answer": "großen",
+    "choices": [
+      "großer",
+      "großem",
+      "großen",
+      "große"
+    ]
+  }
+]

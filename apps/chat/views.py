@@ -8,7 +8,9 @@ from django.utils.translation import gettext as _
 from django.views.decorators.http import require_POST
 from django_ratelimit.decorators import ratelimit
 
+from apps.accounts.services import current_pair
 from services import claude_client as claude
+from services import languages
 from .models import ChatConversation, ChatMessage
 
 logger = logging.getLogger(__name__)
@@ -19,27 +21,40 @@ DEFAULT_TITLE = 'New chat'
 
 
 def _get_or_create_conversation(request) -> ChatConversation:
+    pair = current_pair(request)
     conv_id = request.session.get('chat_conv_id')
     if conv_id:
-        conv = ChatConversation.objects.filter(pk=conv_id, user=request.user).first()
+        conv = ChatConversation.objects.filter(
+            pk=conv_id, user=request.user, target_language=pair.target_code,
+        ).first()
         if conv:
             return conv
-    conv = ChatConversation.objects.create(user=request.user)
+    conv = ChatConversation.objects.create(
+        user=request.user,
+        target_language=pair.target_code,
+        native_language=pair.native_code,
+    )
     request.session['chat_conv_id'] = conv.pk
     return conv
 
 
-def _user_conversations(user):
-    return ChatConversation.objects.filter(user=user).order_by('-updated_at')
+def _user_conversations(user, target_language):
+    # Sohbet listesi kursa göre süzülüyor: Almanca pratiği İngilizce
+    # sohbetlerinin arasında kaybolmasın.
+    return ChatConversation.objects.filter(
+        user=user, target_language=target_language,
+    ).order_by('-updated_at')
 
 
 @login_required
 def chat_page(request):
+    pair = current_pair(request)
     conv = _get_or_create_conversation(request)
     return render(request, 'chat/page.html', {
         'conversation': conv,
         'messages_list': conv.messages.all(),
-        'conversations': _user_conversations(request.user),
+        'conversations': _user_conversations(request.user, pair.target_code),
+        'pair': pair,
     })
 
 
@@ -72,8 +87,12 @@ def send(request):
         history.reverse()
         api_messages = [{'role': m.role, 'content': m.content} for m in history]
 
+    # Sohbetin kendi dil çifti kullanılıyor, isteğin aktif kursu değil:
+    # kullanıcı kurs değiştirip eski bir sohbete dönerse o sohbet kendi
+    # dilinde devam etmeli.
+    conv_pair = languages.pair(conv.target_language, conv.native_language)
     try:
-        reply = claude.chat(api_messages)
+        reply = claude.chat(api_messages, pair=conv_pair)
     except claude.ClaudeClientError as e:
         messages.error(request, str(e))
         return redirect('chat:page')

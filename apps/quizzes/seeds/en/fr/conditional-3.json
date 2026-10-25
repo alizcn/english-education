@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you had asked me, I would have helped you.",
+    "correct_answer": "Si tu m'avais demandé, je t'aurais aidé.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si j'avais su, j'aurais changé d'avis.",
+    "correct_answer": "If I had known, I would have changed my mind.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If he hadn't been tired, he wouldn't have left early.",
+    "correct_answer": "S'il n'avait pas été fatigué, il ne serait pas parti tôt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si vous aviez étudié, vous auriez réussi l'examen.",
+    "correct_answer": "If you had studied, you would have passed the exam.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si elle n'avait pas oublié ses clés, elle ne serait pas retournée à la maison.",
+    "correct_answer": "If she hadn't forgotten her keys, she wouldn't have gone back home.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you had watered the plants, they would have survived.",
+    "correct_answer": "Si tu avais arrosé les plantes, elles auraient survécu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si nous avions réservé d'avance, nous aurions eu un meilleur prix.",
+    "correct_answer": "If we had booked in advance, we would have got a better price.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Would you have come if I had asked you?",
+    "correct_answer": "Serais-tu venu si je t'avais demandé?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si j'avais étudié plus dur, j'aurais réussi l'examen.",
+    "correct_answer": "If I had studied harder, I would have passed the exam.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If they had checked the weather, they would have taken an umbrella.",
+    "correct_answer": "S'ils avaient vérifié la météo, ils auraient pris un parapluie.",
+    "choices": null
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I can swim.",
+    "correct_answer": "Je peux nager.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She could cook well.",
+    "correct_answer": "Elle pouvait bien cuisiner.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "You cannot leave.",
+    "correct_answer": "Vous ne pouvez pas partir.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Can you help me?",
+    "correct_answer": "Pouvez-vous m'aider?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They could not find it.",
+    "correct_answer": "Ils ne pouvaient pas le trouver.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He can speak three languages.",
+    "correct_answer": "Il peut parler trois langues.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Could she understand?",
+    "correct_answer": "Pouvait-elle comprendre?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je peux danser.",
+    "correct_answer": "I can dance.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Il pouvait jouer du piano.",
+    "correct_answer": "He could play the piano.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Nous ne pouvons pas venir.",
+    "correct_answer": "We cannot come.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Peux-tu conduire?",
+    "correct_answer": "Can you drive?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle ne pouvait pas voir.",
+    "correct_answer": "She could not see.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Vous pouvez m'aider?",
+    "correct_answer": "Can you help me?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ils pouvaient nager.",
+    "correct_answer": "They could swim.",
+    "choices": null
+  }
+]

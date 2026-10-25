@@ -1,4 +1,4 @@
-{% load static i18n %}{% get_current_language as LANG %}
+{% load static i18n learn_extras %}{% get_current_language as LANG %}{% lang_name target_language as tlang %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -15,7 +15,7 @@
         "height": 512
       },
       "image": "{{ seo.default_image }}",
-      "description": "{% trans 'İngilizce kelime, gramer ve AI destekli mülakat hazırlığı sunan ücretsiz platform.' %}",
+      "description": "{% blocktrans with lang=tlang %}{{ lang }} kelime, gramer ve AI destekli mülakat hazırlığı sunan ücretsiz platform.{% endblocktrans %}",
       "parentOrganization": {
         "@type": "Organization",
         "name": "Codezzium"
@@ -36,8 +36,8 @@
       "url": "{{ seo.site_url }}/",
       "applicationCategory": "EducationalApplication",
       "operatingSystem": "Web, Android, iOS",
-      "inLanguage": ["tr", "en"],
-      "description": "{% trans 'Pozisyona özel AI mülakat soruları, 6.000+ kelime ve 18 gramer konusuyla İngilizce hazırlık uygulaması.' %}",
+      "inLanguage": [{% for code in seo.ui_codes %}"{{ code }}"{% if not forloop.last %}, {% endif %}{% endfor %}],
+      "description": "{% blocktrans with lang=tlang %}Pozisyona özel AI mülakat soruları, binlerce kelime ve gramer konusuyla {{ lang }} hazırlık uygulaması.{% endblocktrans %}",
       "offers": {
         "@type": "Offer",
         "price": "0",

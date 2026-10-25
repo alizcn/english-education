@@ -1,0 +1,110 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I have lost my keys.",
+    "correct_answer": "J'ai perdu mes clés.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle a terminé son travail.",
+    "correct_answer": "She has finished her work.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Have you seen the film?",
+    "correct_answer": "Avez-vous vu le film?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Nous avons habité ici pendant dix ans.",
+    "correct_answer": "We have lived here for ten years.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They have just arrived.",
+    "correct_answer": "Ils viennent d'arriver.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je n'ai jamais mangé de sushi.",
+    "correct_answer": "I have never eaten sushi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She has not called yet.",
+    "correct_answer": "Elle n'a pas encore appelé.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Avez-vous jamais visité l'Italie?",
+    "correct_answer": "Have you ever visited Italy?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "We have been friends for a long time.",
+    "correct_answer": "Nous sommes amis depuis longtemps.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Il a travaillé ici depuis 2015.",
+    "correct_answer": "He has worked here since 2015.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Have they finished their work?",
+    "correct_answer": "Ont-ils fini leur travail?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Vous n'avez pas encore reçu la lettre?",
+    "correct_answer": "Haven't you received the letter yet?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I have never been to Russia.",
+    "correct_answer": "Je n'ai jamais été en Russie.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ils viennent de partir.",
+    "correct_answer": "They have just left.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He has written three books.",
+    "correct_answer": "Il a écrit trois livres.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "J'ai étudié l'anglais depuis 2020.",
+    "correct_answer": "I have studied English since 2020.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "We have already eaten dinner.",
+    "correct_answer": "Nous avons déjà dîné.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle n'a pas encore répondu.",
+    "correct_answer": "She has not answered yet.",
+    "choices": null
+  }
+]

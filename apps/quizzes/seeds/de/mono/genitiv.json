@@ -1,0 +1,150 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das Auto ___ Vaters ist neu.",
+    "correct_answer": "meines",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die Farbe ___ Hauses ist blau.",
+    "correct_answer": "des",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Wegen ___ Regens bleiben wir zu Hause.",
+    "correct_answer": "des",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das Buch ___ Lehrers ist interessant.",
+    "correct_answer": "des",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die Schule ___ Tochter ist groß.",
+    "correct_answer": "meiner",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Der Garten ___ Nachbarn ist schön.",
+    "correct_answer": "unserer",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Eines ___ kam ein Mann in die Stadt.",
+    "correct_answer": "Tages",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das ist nicht das Auto ___ Bruders.",
+    "correct_answer": "meines",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Während ___ Nacht hörte ich Geräusche.",
+    "correct_answer": "der",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Trotz ___ Windes konnte er laufen.",
+    "correct_answer": "des",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Das Auto ___ Vaters ist schnell.",
+    "correct_answer": "meines",
+    "choices": [
+      "meines",
+      "meinem",
+      "meinen",
+      "meiner"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Die Farbe ___ Autos ist grün.",
+    "correct_answer": "des",
+    "choices": [
+      "des",
+      "dem",
+      "den",
+      "der"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Wegen ___ Schnees bleiben wir zu Hause.",
+    "correct_answer": "des",
+    "choices": [
+      "des",
+      "dem",
+      "den",
+      "der"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Das Buch ___ Autors ist gut.",
+    "correct_answer": "des",
+    "choices": [
+      "des",
+      "dem",
+      "den",
+      "der"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Ist das das Haus ___ alten Mannes?",
+    "correct_answer": "eines",
+    "choices": [
+      "eines",
+      "einem",
+      "einen",
+      "einer"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Die Stimme ___ Kindes ist laut.",
+    "correct_answer": "des",
+    "choices": [
+      "des",
+      "dem",
+      "den",
+      "der"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Wessen Buch ist das? Das ist das Buch ___.",
+    "correct_answer": "meines Lehrers",
+    "choices": [
+      "meines Lehrers",
+      "meinem Lehrer",
+      "meinen Lehrer",
+      "meiner Lehrerin"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Während ___ Tages arbeitete sie.",
+    "correct_answer": "des",
+    "choices": [
+      "des",
+      "dem",
+      "den",
+      "der"
+    ]
+  }
+]

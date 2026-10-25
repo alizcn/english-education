@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "O yazabilir.",
+    "correct_answer": "She can write.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Biz gelebiliyoruz.",
+    "correct_answer": "We can come.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Onlar İngilizce konuşamıyorlar.",
+    "correct_answer": "They cannot speak English.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Bu araç çok uzağa gidebiliyor.",
+    "correct_answer": "This vehicle can go very far.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çocuk burada oynayabilir mi?",
+    "correct_answer": "Can the child play here?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Dün gelebildiniz mi?",
+    "correct_answer": "Were you able to come yesterday?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I can understand this.",
+    "correct_answer": "Bunu anlayabilirim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She cannot drive.",
+    "correct_answer": "O araba kullanamıyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Can you help me?",
+    "correct_answer": "Bana yardım edebilir misiniz?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We can solve this problem.",
+    "correct_answer": "Biz bu sorunu çözebiliriz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They cannot come tomorrow.",
+    "correct_answer": "Onlar yarın gelemeyecekler.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He can speak English very well.",
+    "correct_answer": "O çok iyi İngilizce konuşabiliyor.",
+    "choices": null
+  }
+]

@@ -1,34 +1,31 @@
-User-agent: *
+{% comment %}Dil prefix'leri `seo.lang_prefixes`ten geliyor (varsayılan dil
+öneksiz olduğu için liste boş bir string ile başlar). Eskiden `/en/` için
+sekiz Disallow satırı elle tekrarlanmıştı; her yeni dil dokuz satır daha
+eklemek demekti ve biri atlanınca oturum sayfaları sessizce indekslenirdi.
+{% endcomment %}User-agent: *
 
 # Halka açık içerik
 Allow: /$
-Allow: /english-grammar/
-Allow: /english-vocabulary/
-Allow: /english-interview-questions/
-Allow: /install-app/
-Allow: /sitemap/
-Allow: /en/
-Allow: /static/
+{% for prefix in seo.lang_prefixes %}{% if prefix %}Allow: {{ prefix }}/
+{% endif %}{% endfor %}{% for prefix in seo.lang_prefixes %}Allow: {{ prefix }}/english-grammar/
+Allow: {{ prefix }}/english-vocabulary/
+Allow: {{ prefix }}/english-interview-questions/
+Allow: {{ prefix }}/install-app/
+Allow: {{ prefix }}/sitemap/
+{% endfor %}Allow: /static/
 
 # Kişisel/oturum gerektiren alanlar — indekslenmemeli
-Disallow: /accounts/
-Disallow: /words/
-Disallow: /topics/
-Disallow: /quiz/
-Disallow: /chat/
-Disallow: /wordbank/
-Disallow: /interviews/
-Disallow: /super/
+{% for prefix in seo.lang_prefixes %}Disallow: {{ prefix }}/accounts/
+Disallow: {{ prefix }}/words/
+Disallow: {{ prefix }}/topics/
+Disallow: {{ prefix }}/quiz/
+Disallow: {{ prefix }}/chat/
+Disallow: {{ prefix }}/wordbank/
+Disallow: {{ prefix }}/interviews/
+Disallow: {{ prefix }}/learn/
+Disallow: {{ prefix }}/i18n/
+{% endfor %}Disallow: /super/
 Disallow: /levelenai-admin/
-Disallow: /i18n/
-Disallow: /en/i18n/
-Disallow: /en/accounts/
-Disallow: /en/words/
-Disallow: /en/topics/
-Disallow: /en/quiz/
-Disallow: /en/chat/
-Disallow: /en/wordbank/
-Disallow: /en/interviews/
 
 # Tarama bütçesini yiyen parametreler
 Disallow: /*?next=

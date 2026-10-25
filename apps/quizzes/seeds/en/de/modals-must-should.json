@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "You must arrive on time.",
+    "correct_answer": "Du musst pünktlich ankommen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich sollte mehr Wasser trinken.",
+    "correct_answer": "I should drink more water.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She shouldn't stay up too late.",
+    "correct_answer": "Sie sollte nicht zu spät aufbleiben.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir müssen den Bericht bis morgen fertigstellen.",
+    "correct_answer": "We must finish the report by tomorrow.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Students must complete their homework before class.",
+    "correct_answer": "Schüler müssen ihre Hausaufgaben vor dem Unterricht fertigstellen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Du solltest mit deinem Arzt sprechen.",
+    "correct_answer": "You should speak to your doctor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "You must listen carefully to the instructions.",
+    "correct_answer": "Du musst sorgfältig auf die Anweisungen hören.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kinder müssen ihre Eltern respektieren.",
+    "correct_answer": "Children must respect their parents.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He should apologize for his mistake.",
+    "correct_answer": "Er sollte sich für seinen Fehler entschuldigen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie sollten nicht so viel Zucker essen.",
+    "correct_answer": "You should not eat so much sugar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Should I call him first?",
+    "correct_answer": "Sollte ich ihn zuerst anrufen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Das Baby muss schlafen.",
+    "correct_answer": "The baby must sleep.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Parents should talk to their children about school.",
+    "correct_answer": "Eltern sollten mit ihren Kindern über die Schule sprechen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ihr müsst pünktlich sein.",
+    "correct_answer": "You must be on time.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "We must protect the environment.",
+    "correct_answer": "Wir müssen die Umwelt schützen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Er muss heute arbeiten.",
+    "correct_answer": "He must work today.",
+    "choices": null
+  }
+]

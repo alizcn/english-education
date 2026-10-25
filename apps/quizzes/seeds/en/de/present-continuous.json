@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I am reading a book.",
+    "correct_answer": "Ich lese gerade ein Buch.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie schreibt gerade eine E-Mail.",
+    "correct_answer": "She is writing an email.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They are playing football.",
+    "correct_answer": "Sie spielen gerade Fußball.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir arbeiten gerade nicht.",
+    "correct_answer": "We are not working.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Is he sleeping?",
+    "correct_answer": "Schläft er gerade?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Mutter kocht gerade das Abendessen.",
+    "correct_answer": "Mother is cooking dinner.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She is not listening to music.",
+    "correct_answer": "Sie hört gerade keine Musik.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Arbeitet er gerade an seinem Laptop?",
+    "correct_answer": "Is he working on his laptop?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The cat is sitting on the sofa.",
+    "correct_answer": "Die Katze sitzt gerade auf dem Sofa.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie trinkt gerade Kaffee.",
+    "correct_answer": "She is drinking coffee.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "We are watching a movie right now.",
+    "correct_answer": "Wir schauen gerade einen Film.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die Kinder spielen gerade nicht im Park.",
+    "correct_answer": "The children are not playing in the park.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Are you studying English?",
+    "correct_answer": "Lernst du gerade Englisch?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich koche gerade.",
+    "correct_answer": "I am cooking.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He is not working at the moment.",
+    "correct_answer": "Er arbeitet gerade nicht.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Was machst du gerade?",
+    "correct_answer": "What are you doing?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They are running in the forest.",
+    "correct_answer": "Sie laufen gerade im Wald.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich kaufe gerade nicht ein.",
+    "correct_answer": "I am not shopping.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Is she preparing breakfast?",
+    "correct_answer": "Bereitet sie gerade das Frühstück vor?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Der Zug kommt gerade an.",
+    "correct_answer": "The train is arriving.",
+    "choices": null
+  }
+]

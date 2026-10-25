@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gelirse, bana haber ver.",
+    "correct_answer": "S'il vient, donne-moi des nouvelles.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çalışmazsa, başarısız olur.",
+    "correct_answer": "S'il ne travaille pas, il échouera.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Bu işi tutarsa, başarır mı?",
+    "correct_answer": "S'il prend ce travail, réussira-t-il?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yağmur yağarsa, evde kalırız.",
+    "correct_answer": "S'il pleut, nous resterons à la maison.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sorarsan, söylerim.",
+    "correct_answer": "Si tu demandes, je dirai.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si tu dors tôt, tu seras en forme demain.",
+    "correct_answer": "Erken yatarsan, yarın iyi olursun.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "S'il ne vient pas, nous commencerons.",
+    "correct_answer": "Gelmezse, başlayacağız.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si elle travaille dur, elle réussira.",
+    "correct_answer": "Çok çalışırsa, başarılı olur.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "S'ils ne viennent pas à la fête, que ferons-nous?",
+    "correct_answer": "Etkinliğe gelmezlerse, ne yapacağız?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "N'allez-vous pas partir s'il pleut?",
+    "correct_answer": "Yağmur yağarsa, gitmez miyiz?",
+    "choices": null
+  }
+]

@@ -1,0 +1,111 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich ___ lange in München gelebt.",
+    "correct_answer": "hatte",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sie ___ bereits angekommen.",
+    "correct_answer": "war",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form ist das Plusquamperfekt (positive Form)?",
+    "correct_answer": "Ich hatte das Buch gelesen.",
+    "choices": [
+      "Ich hatte das Buch gelesen.",
+      "Ich habe das Buch gelesen.",
+      "Ich las das Buch.",
+      "Ich lese das Buch."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Wir ___ die Aufgabe nicht erledigt.",
+    "correct_answer": "hatten",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ du das Geld mitgenommen?",
+    "correct_answer": "Hattest",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form ist die richtige Negation im Plusquamperfekt?",
+    "correct_answer": "Sie war nicht mitgekommen.",
+    "choices": [
+      "Sie war nicht mitgekommen.",
+      "Sie ist nicht mitgekommen.",
+      "Sie nicht war mitgekommen.",
+      "Sie war mitgekommen nicht."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die Kinder ___ schnell gelaufen.",
+    "correct_answer": "waren",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Er hatte das Fenster nicht ___.",
+    "correct_answer": "geöffnet",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz zeigt Vorvergangenheit (Plusquamperfekt)?",
+    "correct_answer": "Ich hatte gegessen, dann ging ich ins Kino.",
+    "choices": [
+      "Ich hatte gegessen, dann ging ich ins Kino.",
+      "Ich esse und dann gehe ich ins Kino.",
+      "Ich aß und dann ging ich ins Kino.",
+      "Ich bin gegessen und dann bin ich ins Kino gegangen."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sie ___ nicht verstanden.",
+    "correct_answer": "hatten",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche ist die korrekte Plusquamperfekt-Form mit Bewegungsverben?",
+    "correct_answer": "Ich war nach Berlin gefahren.",
+    "choices": [
+      "Ich war nach Berlin gefahren.",
+      "Ich war nach Berlin fahren.",
+      "Ich hatte nach Berlin gefahren.",
+      "Ich bin nach Berlin gefahren."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ ihr rechtzeitig angekommen?",
+    "correct_answer": "Wart",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Nachdem er gegessen ___, verließ er das Haus.",
+    "correct_answer": "hatte",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form ist korrekt im Plusquamperfekt (negativ)?",
+    "correct_answer": "Sie hatte die Aufgabe nicht gemacht.",
+    "choices": [
+      "Sie hatte die Aufgabe nicht gemacht.",
+      "Sie hat die Aufgabe nicht gemacht.",
+      "Sie nicht hatte die Aufgabe gemacht.",
+      "Sie die Aufgabe nicht gemacht hatte."
+    ]
+  }
+]

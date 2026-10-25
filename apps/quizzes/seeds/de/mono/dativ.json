@@ -1,0 +1,150 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich gebe ___ ein Buch.",
+    "correct_answer": "dem Kind",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Der Lehrer erklärt ___ die Aufgabe.",
+    "correct_answer": "dem Schüler",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich danke ___ für die Hilfe.",
+    "correct_answer": "dir",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich helfe ___ beim Lernen.",
+    "correct_answer": "euch",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sie zeigt ___ die neue Wohnung.",
+    "correct_answer": "dem Mann",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das Geschenk gefällt ___ sehr.",
+    "correct_answer": "ihr",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Er sitzt neben ___.",
+    "correct_answer": "mir",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das Kind folgt ___ Mutter.",
+    "correct_answer": "der",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich komme aus ___.",
+    "correct_answer": "der Schule",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Dieser Job schadet ___ Gesundheit.",
+    "correct_answer": "meiner",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz ist grammatikalisch korrekt?",
+    "correct_answer": "Ich helfe meinem Bruder.",
+    "choices": [
+      "Ich helfe meinen Bruder.",
+      "Ich helfe meinem Bruder.",
+      "Ich helfe mein Bruder.",
+      "Ich helfe meinen Brudern."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Im Dativ maskulin Singular ist die korrekte Artikel-Form:",
+    "correct_answer": "dem",
+    "choices": [
+      "den",
+      "der",
+      "dem",
+      "die"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz hat eine korrekte Dativform mit einer Präposition?",
+    "correct_answer": "bei meinem Freund",
+    "choices": [
+      "bei meinen Freund",
+      "bei mein Freund",
+      "bei meinem Freund",
+      "bei meiner Freund"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Das Kind folgt ___ Mutter. Welcher Artikel ist korrekt im Dativ?",
+    "correct_answer": "der",
+    "choices": [
+      "den",
+      "dem",
+      "der",
+      "die"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Die Frau gibt ___ Mann einen Ring. Welche Dativform ist korrekt?",
+    "correct_answer": "dem",
+    "choices": [
+      "den",
+      "dem",
+      "der",
+      "die"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Adjektivform im Dativ ist korrekt?",
+    "correct_answer": "dem schwarzen Hund",
+    "choices": [
+      "dem schwarzen Hund",
+      "den schwarzen Hund",
+      "dem schwarze Hund",
+      "den schwarze Hund"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Wem gibst du das Geschenk? Welche Form ist korrekt?",
+    "correct_answer": "meiner Freundin",
+    "choices": [
+      "meinen Freundin",
+      "meiner Freundin",
+      "meinem Freundin",
+      "meine Freundin"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Das gefällt ___ nicht. Welches Pronomen ist im Dativ korrekt?",
+    "correct_answer": "mir",
+    "choices": [
+      "mich",
+      "mir",
+      "mein",
+      "meinen"
+    ]
+  }
+]

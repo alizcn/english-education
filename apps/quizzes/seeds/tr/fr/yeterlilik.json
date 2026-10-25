@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ben çok hızlı koşabiliyorum.",
+    "correct_answer": "Je peux courir très vite.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je ne peux pas parler français.",
+    "correct_answer": "Fransızca konuşamıyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "O iyi İngilizce konuşabiliyor.",
+    "correct_answer": "Il parle bien l'anglais.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Pouvez-vous m'aider demain?",
+    "correct_answer": "Yarın bana yardım edebilir misiniz?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Biz bu sorunu çözebiliyoruz.",
+    "correct_answer": "Nous pouvons résoudre ce problème.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle ne peut pas venir demain.",
+    "correct_answer": "O yarın gelemez.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çocuklar burada oynayabiliyor.",
+    "correct_answer": "Les enfants peuvent jouer ici.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Peux-tu m'appeler ce soir?",
+    "correct_answer": "Bu akşam beni arayabilir misin?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ben bu kitabı okuyamıyorum.",
+    "correct_answer": "Je ne peux pas lire ce livre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ils peuvent danser très bien.",
+    "correct_answer": "Onlar çok iyi dansedebiliyorlar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Siz Türkçe yazabiliyorsunuz.",
+    "correct_answer": "Vous pouvez écrire en turc.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je peux arriver à l'heure?",
+    "correct_answer": "Ben zamanında gelebilir miyim?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "O malı bulamıyor.",
+    "correct_answer": "Il ne peut pas trouver l'article.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elles peuvent chanter en arabe.",
+    "correct_answer": "Onlar Arapça şarkı söyleyebiliyorlar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Bu makine maliyeti azaltabilir.",
+    "correct_answer": "Cette machine peut réduire les coûts.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Tu ne peux pas manger ici.",
+    "correct_answer": "Burada yiyemezsin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Biz yarın gelebilir miyiz?",
+    "correct_answer": "Pouvons-nous venir demain?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle ne peut pas dormir.",
+    "correct_answer": "O uyuyamıyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Onlar çok çabuk anlatabiliyorlar.",
+    "correct_answer": "Ils peuvent expliquer très rapidement.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Vous pouvez jouer au football?",
+    "correct_answer": "Futbol oynayabilir misiniz?",
+    "choices": null
+  }
+]

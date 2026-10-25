@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kitap okuyorum.",
+    "correct_answer": "I am reading a book.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Siz nerede çalışıyorsunuz?",
+    "correct_answer": "Where are you working?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "O yazı yazmıyor.",
+    "correct_answer": "He/She is not writing.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Biz kahve içiyoruz.",
+    "correct_answer": "We are drinking coffee.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çocuklar oyun oynuyorlar.",
+    "correct_answer": "The children are playing a game.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I am sleeping.",
+    "correct_answer": "Uyuyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Are they watching TV?",
+    "correct_answer": "Televizyon izliyorlar mı?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "You are not listening.",
+    "correct_answer": "Dinlemiyorsunuz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We are going.",
+    "correct_answer": "Gidiyoruz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She is cooking dinner.",
+    "correct_answer": "O akşam yemeği pişiriyor.",
+    "choices": null
+  }
+]

@@ -23,6 +23,9 @@ from django.contrib.auth import get_user_model
 from django.core.management.base import BaseCommand, CommandError
 from django.utils import timezone
 
+# Hero görseli bugün İngilizce kursunu gösteriyor.
+DEMO_TARGET = 'en'
+DEMO_NATIVE = 'tr'
 DEMO_USERNAME = '__hero_shot_demo__'
 DEMO_PASSWORD = 'HeroShotOnly!2345'
 
@@ -84,7 +87,7 @@ class Command(BaseCommand):
 
     # ---------------------------------------------------------------- veri
     def _seed(self):
-        from apps.accounts.models import UserLevel
+        from apps.accounts.models import UserCourse
         from apps.topics.models import Topic, TopicCompletion
         from apps.vocabulary.models import Word
         from apps.quizzes.models import QuizSession
@@ -96,7 +99,10 @@ class Command(BaseCommand):
 
         rng = random.Random(7)
         today = timezone.now().date()
-        words = list(BankWord.objects.filter(level='A1').order_by('rank')[:140])
+        words = list(
+            BankWord.objects.filter(language=DEMO_TARGET, level='A1')
+            .order_by('rank')[:140]
+        )
         if not words:
             raise CommandError('Kelime bankası boş — önce load_wordbank çalıştır.')
 
@@ -118,24 +124,33 @@ class Command(BaseCommand):
         for word in words[i:i + 7]:
             BankProgress.objects.create(user=user, word=word, mastered=False, wrong_count=1)
 
-        for topic in Topic.objects.all()[:6]:
+        for topic in Topic.objects.filter(language=DEMO_TARGET)[:6]:
             TopicCompletion.objects.create(user=user, topic=topic)
 
-        for english, turkish, pos in PERSONAL_WORDS:
-            Word.objects.create(user=user, english=english, turkish=turkish,
+        for term, meaning, pos in PERSONAL_WORDS:
+            Word.objects.create(user=user, term=term, meaning=meaning,
+                                target_language=DEMO_TARGET,
+                                native_language=DEMO_NATIVE,
                                 part_of_speech=pos, mastered=True,
                                 times_asked=2, times_correct=2)
 
-        for idx, (topic, correct) in enumerate(zip(Topic.objects.all()[:3], (9, 8, 10))):
+        for idx, (topic, correct) in enumerate(
+            zip(Topic.objects.filter(language=DEMO_TARGET)[:3], (9, 8, 10))
+        ):
             session = QuizSession.objects.create(
+                target_language=DEMO_TARGET,
+                native_language=DEMO_NATIVE,
                 user=user, kind='topic', topic=topic,
                 total_questions=10, correct_count=correct, wrong_count=10 - correct)
             QuizSession.objects.filter(pk=session.pk).update(
                 finished_at=timezone.now() - timedelta(days=idx + 1, hours=2))
 
-        level, _ = UserLevel.objects.get_or_create(user=user)
-        level.current_level, level.score = 'A2', 180
-        level.save()
+        course, _ = UserCourse.objects.get_or_create(
+            user=user, target_language=DEMO_TARGET,
+            defaults={'native_language': DEMO_NATIVE, 'is_active': True},
+        )
+        course.current_level, course.score = 'A2', 180
+        course.save()
 
         self.stdout.write('Gösterim verisi hazır.')
         return user

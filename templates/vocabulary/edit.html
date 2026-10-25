@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load i18n %}
+{% load i18n learn_extras %}
 {% block title %}{% trans "Kelime düzenle" %}{% endblock %}
 
 {% block content %}
@@ -11,17 +11,17 @@
 <div class="card">
     <form method="post">
         {% csrf_token %}
-        <label>{% trans "English" %}
-            <input type="text" name="english" value="{{ word.english }}" required>
+        <label>{% target_name %}
+            <input type="text" name="term" value="{{ word.term }}" required>
         </label>
         <label>{% trans "Türkçe" %}
-            <input type="text" name="turkish" value="{{ word.turkish }}" required>
+            <input type="text" name="meaning" value="{{ word.meaning }}" required>
         </label>
         <label>{% trans "Örnek (EN)" %}
-            <input type="text" name="example_en" value="{{ word.example_en }}">
+            <input type="text" name="example" value="{{ word.example }}">
         </label>
         <label>{% trans "Örnek (TR)" %}
-            <input type="text" name="example_tr" value="{{ word.example_tr }}">
+            <input type="text" name="example_translation" value="{{ word.example_translation }}">
         </label>
         <label>{% trans "Sözcük türü" %}
             <input type="text" name="part_of_speech" value="{{ word.part_of_speech }}">

@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If I had more time, I would travel around the world.",
+    "correct_answer": "Daha fazla zamanım olsaydı, dünyayı gezerdim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you studied harder, you would pass the exam.",
+    "correct_answer": "Daha sıkı çalışsaydın, sınavı geçerdin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If she had a car, she would drive to work every day.",
+    "correct_answer": "Bir arabası olsaydı, her gün işe arabayla giderdi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If they didn't live so far away, we would see them more often.",
+    "correct_answer": "Daha yakında yaşasalar, onları daha sık görürdük.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If he asked her out, she would say yes.",
+    "correct_answer": "Ona çıkma teklifi yapsaydı, evet derdi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If it were not so cold, we would go to the beach.",
+    "correct_answer": "Bu kadar soğuk olmasaydı, sahile giderdik.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Would you forgive him if he apologized sincerely?",
+    "correct_answer": "Eğer samimiyetle özür dilerse, onu affeder misin?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If I were you, I would study harder for the exam.",
+    "correct_answer": "Ben senin yerimde olsaydım, sınav için daha sıkı çalışırdım.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer zengin olsaydım, dünyayı gezerdim.",
+    "correct_answer": "If I were rich, I would travel around the world.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Daha çok çalışsaydı, başarılı olurdu.",
+    "correct_answer": "If he worked harder, he would be successful.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer yakında yaşasalar, onları daha sık görürdük.",
+    "correct_answer": "If they lived closer, we would see them more often.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer yardım etmeseydim, bunu yapamayacaktı.",
+    "correct_answer": "If I didn't help him, he wouldn't be able to do it.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer o kadar güzel olmasaydı, onunla konuşmazdı.",
+    "correct_answer": "If she weren't so beautiful, he wouldn't talk to her.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer kazansaydık, çok sevinirdik.",
+    "correct_answer": "If we won, we would be very happy.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer bu paranız olsaydı, ne yapardınız?",
+    "correct_answer": "If you had this money, what would you do?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O bana yardım etmeseydi, başarısız olurdum.",
+    "correct_answer": "If he didn't help me, I would fail.",
+    "choices": null
+  }
+]

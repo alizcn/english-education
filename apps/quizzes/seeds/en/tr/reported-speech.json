@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She said she was tired.",
+    "correct_answer": "O, yorgun olduğunu söyledi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He told me he had finished the work.",
+    "correct_answer": "Bana işi tamamladığını söyledi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They said they wouldn't come.",
+    "correct_answer": "Gelmeyeceklerini söylediler.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She told me she was moving to London.",
+    "correct_answer": "Bana Londra'ya taşındığını söyledi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He said he didn't like coffee.",
+    "correct_answer": "O, kahveyi sevmediğini söyledi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bana gelemeyeceğini söyledi.",
+    "correct_answer": "He told me he couldn't come.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O, onu dün gördüğünü söyledi.",
+    "correct_answer": "He said he had seen her the day before.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bize yarın geleceğini söyledi.",
+    "correct_answer": "She told us she would come the next day.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onlar müşteri bulduklarını söylediler.",
+    "correct_answer": "They said they had found a customer.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bana yardım edemeyeceğini söyledi.",
+    "correct_answer": "She told me she couldn't help me.",
+    "choices": null
+  }
+]

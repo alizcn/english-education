@@ -29,8 +29,21 @@ COPY . .
 
 RUN mkdir -p /app/data
 
+# Çeviriler BUILD aşamasında derleniyor. Eskiden CMD içindeydi: .po dosyası
+# bayat kalırsa canlıya da bayat yansıyordu ve her container açılışı gereksiz
+# iş yapıyordu. .mo artefaktı artık imajın parçası, repoda tutulmuyor.
+RUN python manage.py compilemessages
+
 RUN python manage.py collectstatic --noinput
 
 EXPOSE 8000
 
-CMD ["sh", "-c", "python manage.py migrate --noinput && python manage.py compilemessages && python manage.py seed_topics && python manage.py load_wordbank && python manage.py seed_quizzes && gunicorn config.wsgi:application --bind 0.0.0.0:8000 --workers 3 --timeout 900 --access-logfile - --error-logfile -"]
+# Seed komutları CMD'den çıkarıldı ve entrypoint'e taşındı: dört dil × altı
+# seviye × ~6k satır + çeviriler her açılışta dakikalar sürüyordu, ayrıca
+# seed_topics örnekleri silip yeniden yaratıyordu. Entrypoint kaynak
+# dosyaların parmak izini tutup değişmemişse adımı atlıyor.
+COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+
+ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
+CMD ["gunicorn", "config.wsgi:application", "--bind", "0.0.0.0:8000", "--workers", "3", "--timeout", "900", "--access-logfile", "-", "--error-logfile", "-"]

@@ -1,0 +1,162 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "If he studied harder, he ___ pass his exams.",
+    "correct_answer": "would",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you had a car, you ___ drive to work every day.",
+    "correct_answer": "would",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If she lived in London, she ___ be very happy.",
+    "correct_answer": "would",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If they had more money, they ___ buy a bigger house.",
+    "correct_answer": "would",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If I ___ the president, I would change the education system.",
+    "correct_answer": "were",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you didn't work so much, you ___ be so tired.",
+    "correct_answer": "wouldn't",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If it weren't so cold, we ___ go to the beach.",
+    "correct_answer": "would",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If he had time, he ___ help you with the project.",
+    "correct_answer": "would",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If she knew the answer, she ___ tell you immediately.",
+    "correct_answer": "would",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If we moved to the coast, we ___ swim every day.",
+    "correct_answer": "would",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If I had a car, I ___ drive to work.",
+    "correct_answer": "would",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If they lived in the city, they ___ not spend so much on transportation.",
+    "correct_answer": "would",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence is correct?",
+    "correct_answer": "If he studied hard, he would pass.",
+    "choices": [
+      "If he studies hard, he would pass.",
+      "If he studied hard, he would pass.",
+      "If he studied hard, he passes.",
+      "If he would study hard, he would pass."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What would you do if you had more free time?",
+    "correct_answer": "I would travel around the world.",
+    "choices": [
+      "I would travel around the world.",
+      "I will travel around the world.",
+      "I traveled around the world.",
+      "I am traveling around the world."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Choose the correct negative form:",
+    "correct_answer": "If she lived here, she wouldn't be alone.",
+    "choices": [
+      "If she lived here, she wouldn't be alone.",
+      "If she lived here, she be not alone.",
+      "If she wouldn't live here, she would be alone.",
+      "If she didn't lived here, she wouldn't be alone."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence correctly uses the second conditional?",
+    "correct_answer": "If I had more money, I would travel.",
+    "choices": [
+      "If I would have more money, I would travel.",
+      "If I had more money, I would travel.",
+      "If I have more money, I would travel.",
+      "If I had more money, I travel."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct form in the if-clause?",
+    "correct_answer": "If you helped me",
+    "choices": [
+      "If you would help me",
+      "If you help me",
+      "If you helped me",
+      "If you will help me"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complete: 'If he asked her out, she ___'",
+    "correct_answer": "would say yes",
+    "choices": [
+      "would say yes",
+      "will say yes",
+      "says yes",
+      "said yes"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence uses the second conditional correctly?",
+    "correct_answer": "If he were rich, he would travel.",
+    "choices": [
+      "If he was rich, he would travel.",
+      "If he were rich, he would travel.",
+      "If he will be rich, he would travel.",
+      "If he is rich, he would travel."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "If you didn't work so much, you ___?",
+    "correct_answer": "wouldn't be so tired",
+    "choices": [
+      "wouldn't be so tired",
+      "will not be so tired",
+      "aren't so tired",
+      "weren't so tired"
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yarın denize gideceğim.",
+    "correct_answer": "Demain, j'irai à la mer.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Tu liras ce livre la semaine prochaine.",
+    "correct_answer": "Bu kitabı gelecek hafta okuyacaksın.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "O, burada kalmayacak.",
+    "correct_answer": "Il ne restera pas ici.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle n'arrivera pas à l'heure.",
+    "correct_answer": "O, vaktinde gelmeyecek.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gelecek hafta tatile gidecek misin?",
+    "correct_answer": "Iras-tu en vacances la semaine prochaine?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Est-ce qu'il finira ce travail aujourd'hui?",
+    "correct_answer": "O, bu işi bugün bitirecek mi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Biz gelecek pazartesi futbol oynayacağız.",
+    "correct_answer": "Nous jouerons au football lundi prochain.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Nous regarderons un film demain soir.",
+    "correct_answer": "Yarın akşam bir film izleyeceğiz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Siz yarın burada olmayacaksınız mı?",
+    "correct_answer": "Vous ne serez pas ici demain?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ils ne vont pas arriver à temps.",
+    "correct_answer": "Onlar zamanında gelmeyecekler.",
+    "choices": null
+  }
+]

@@ -1,0 +1,74 @@
+{% extends 'dashboard/landing/_base.html' %}
+{% load i18n %}
+
+{# TÜRKÇE hedefin pazarlama metni — `/learn-turkish/`.
+   Tek sayfa ki kitlesi Türkçe KONUŞMUYOR: Türkiye'de yaşayan yabancılar,
+   oturum izni için TÖMER'e giden öğrenciler, karma aileler, Türkiye'ye iş
+   için gelenler. msgid'ler (sitenin geri kalanı gibi) Türkçe ama sayfa
+   pratikte `/en/learn-turkish/`, `/de/learn-turkish/` üzerinden okunuyor —
+   yani bu metnin katalog çevirisi süs değil, sayfanın kendisi. #}
+
+{% block full_title %}{% trans "Ücretsiz Türkçe Öğrenme Platformu — Kelime, Gramer ve AI Pratik" %} | LevelEnAI{% endblock %}
+{% block meta_description %}{% trans "7.900+ Türkçe kelime, 18 gramer konusu ve her kelimede İngilizce, Fransızca, Almanca karşılık. A1'den C1'e seviye takibi — tamamen ücretsiz." %}{% endblock %}
+{% block og_title %}{% trans "LevelEnAI — Ücretsiz Türkçe öğrenme platformu" %}{% endblock %}
+{% block og_description %}{% trans "Seviyeye göre kelime listeleri, Türkçe gramer konuları ve AI pratik. Kayıt ol, ücretsiz kullan." %}{% endblock %}
+
+{% block l_hero_title %}{% trans "Türkçeyi sıfırdan kur." %}
+                <span class="l-highlight">{% trans "Gündelik hayatta kullan." %}</span>{% endblock %}
+
+{% block l_hero_desc %}{% trans "A1'den C1'e 7.900+ kelime, 18 Türkçe gramer konusu ve AI sohbet pratiği. Anlatım dilini kendin seçiyorsun: İngilizce, Fransızca ya da Almanca." %}{% endblock %}
+
+{% block l_hero_image_alt %}{% trans 'LevelEnAI paneli: Türkçe seviye takibi, kelime hazinesi ilerlemesi ve haftalık çalışma grafiği' %}{% endblock %}
+
+{% block l_capability_1_title %}{% trans "Anlatım dilini sen seç" %}{% endblock %}
+{% block l_capability_1_text %}{% trans "İngilizce, Fransızca veya Almanca" %}{% endblock %}
+{% block l_capability_2_title %}{% trans "7.900+ kelime" %}{% endblock %}
+
+{% block l_problem_title %}{% trans "Türkçe kaynak bulmak kolay değil" %}{% endblock %}
+{% block l_problem_lead %}{% trans "Türkçe için seviyeye ayrılmış, karşılıklı kelime listeleri az. Ekler ve ünlü uyumu da ezberle değil örnekle oturuyor." %}{% endblock %}
+{% block l_problem_item_3 %}{% trans "Ekler ve ünlü uyumu kuralı okunuyor ama örnek cümlede görünmüyor" %}{% endblock %}
+
+{% block l_solution_item_1 %}{% trans "7.900+ kelime seviyelere ayrılmış, sırayla ilerliyorsun" %}{% endblock %}
+{% block l_solution_item_3 %}{% trans "Her kelime ve her gramer örneği kendi dilindeki karşılığıyla birlikte" %}{% endblock %}
+
+{% block l_audience_lead %}{% trans "Türkiye'de yaşamak, çalışmak ya da okumak gündeminizdeyse buradasınız." %}{% endblock %}
+
+{% block l_audience_cards %}
+            <div class="audience-card">
+                <span class="audience-icon icon-purple"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span>
+                <h3>{% trans "Türkiye'de yaşayanlar" %}</h3>
+                <p>{% trans "Markette, hastanede, kurumda geçen cümlelerle başla. Gündelik kelimeler A1 ve A2'de." %}</p>
+            </div>
+            <div class="audience-card">
+                <span class="audience-icon icon-green"><svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
+                <h3>{% trans "Üniversite öğrencileri" %}</h3>
+                <p>{% trans "TÖMER kuruna paralel çalış: kelimeyi quizle pekiştir, gramer konusunu kendi dilinde oku." %}</p>
+            </div>
+            <div class="audience-card">
+                <span class="audience-icon icon-blue"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+                <h3>{% trans "Karma aileler" %}</h3>
+                <p>{% trans "Eşinizin ailesiyle konuşmak için gereken şey akademik Türkçe değil; gündelik kalıplar ve pratik." %}</p>
+            </div>
+            <div class="audience-card">
+                <span class="audience-icon icon-orange"><svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></span>
+                <h3>{% trans "İş için gelenler" %}</h3>
+                <p>{% trans "Ekip toplantısında ve yazışmada takıldığınız yer kelimeyse, günlük pratikle ilerleyin." %}</p>
+            </div>
+{% endblock %}
+
+{% block l_metric_words %}7900{% endblock %}
+{% block l_metric_levels %}A1–C1{% endblock %}
+
+{% block l_features_title %}{% trans "Türkçeye sistemli başlangıç" %}{% endblock %}
+{% block l_feature_1_title %}{% trans "Mülakat Hazırlık" %}{% endblock %}
+{% block l_feature_1_text %}{% trans "Türkçe iş görüşmesine hazırlanın: pozisyonunuzu yazın, soru ve cevaplar kendi dilinizdeki karşılığıyla üretilsin." %}{% endblock %}
+{% block l_feature_2_text %}{% trans "A1'den C1'e 7.900'den fazla kelime. Seviye seç, sırayla ilerle. Yanlışların otomatik tekrar eder." %}{% endblock %}
+{% block l_feature_4_text %}{% trans "Ekler, ünlü uyumu, geçmiş zamanlar, koşul cümleleri — her konuda olumlu, olumsuz, soru örnekleri." %}{% endblock %}
+{% block l_feature_5_text %}{% trans "AI asistanla Türkçe konuş, hatalarını görsün, doğrusunu öğren." %}{% endblock %}
+
+{% block l_steps_title %}{% trans "3 adımda Türkçe pratiğine başla" %}{% endblock %}
+
+{% block l_why_free_text %}{% trans "LevelEnAI bir yan ürün olarak geliştirildi. Amacı Türkçeyi öğrenmek isteyenin kaynak aramakla uğraşmaması; abonelik satmak değil." %}{% endblock %}
+
+{% block l_footer_tagline %}{% trans "Ücretsiz Türkçe öğrenme platformu." %}{% endblock %}
+{% block l_footer_grammar_label %}{% trans "Türkçe Gramer" %}{% endblock %}

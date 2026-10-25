@@ -1,0 +1,138 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je ne ___ pas de café le matin.",
+    "correct_answer": "prends",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle ne ___ rien aujourd'hui.",
+    "correct_answer": "fait",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Tu ne ___ jamais à la piscine?",
+    "correct_answer": "vas",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Nous ne ___ plus ici.",
+    "correct_answer": "habitons",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Il n' ___ aucun ami.",
+    "correct_answer": "a",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Vous ne ___ ni café ni thé?",
+    "correct_answer": "prenez",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je n' ___ pas fini mes devoirs.",
+    "correct_answer": "ai",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ils ne ___ pas arrivés à l'heure.",
+    "correct_answer": "sont",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle phrase est correcte?",
+    "correct_answer": "Je ne suis pas d'accord",
+    "choices": [
+      "Je suis pas d'accord",
+      "Je ne suis pas d'accord",
+      "Je ne pas suis accord",
+      "Je pas ne suis d'accord"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Comment dit-on 'I never go to the library' en français?",
+    "correct_answer": "Je ne vais jamais à la bibliothèque",
+    "choices": [
+      "Je ne vais jamais à la bibliothèque",
+      "Je jamais ne vais à la bibliothèque",
+      "Je vais jamais à la bibliothèque",
+      "Je ne jamais vais à la bibliothèque"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel mot complète correctement la phrase 'Tu ne fais ___ aujourd'hui'?",
+    "correct_answer": "rien",
+    "choices": [
+      "personne",
+      "rien",
+      "jamais",
+      "plus"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez correctement: 'Je ne ___ jamais compris ce problème.'",
+    "correct_answer": "ai",
+    "choices": [
+      "ai",
+      "avez",
+      "sommes",
+      "ont"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle phrase exprime 'He has no doubt'?",
+    "correct_answer": "Il n'a aucun doute",
+    "choices": [
+      "Il n'a aucun doute",
+      "Il n'a doute aucun",
+      "Il no a pas doute",
+      "Il n'aucun doute"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Laquelle de ces phrases est INCORRECTE?",
+    "correct_answer": "Je pas ne suis d'accord",
+    "choices": [
+      "Je ne suis pas d'accord",
+      "Je pas ne suis d'accord",
+      "Je n'ai aucun doute",
+      "Il ne travaille plus ici"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: 'Tu n' ___ pas arrivé à l'heure, n'est-ce pas?'",
+    "correct_answer": "es",
+    "choices": [
+      "es",
+      "as",
+      "a",
+      "avez"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle phrase exprime correctement 'I see nobody'?",
+    "correct_answer": "Je ne vois personne",
+    "choices": [
+      "Je ne vois personne",
+      "Je vois ne personne",
+      "Je ne personne vois",
+      "Je personne ne vois"
+    ]
+  }
+]

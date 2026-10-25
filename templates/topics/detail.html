@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load i18n %}
+{% load i18n topic_extras %}
 {% block title %}{{ topic.name }}{% endblock %}
 
 {% block content %}
@@ -15,12 +15,19 @@
 
 <div class="card mb-2">
     <div class="topic-explanation" lang="{{ explanation_lang }}">
-        {% for section in topic.explanation_sections %}
+        {% comment %}Başlık ve "düz paragraf mı" kararı artık ayrıştırıcıdan
+        geliyor. Eskiden Python görünür bir metin ('Özet') üretiyor ve burada
+        `section.title == 'Özet'` ile karşılaştırılıyordu — o metin çevrilse
+        şablon mantığı sessizce bozulacaktı.{% endcomment %}
+        {% for section in sections %}
             <div class="topic-note-block">
+                {% if section.title %}
                 <div class="topic-note-title">{{ section.title }}</div>
+                {% endif %}
                 {% if section.items %}
-                    {% if section.items|length == 1 and section.title == 'Özet' %}
-                        <div style="white-space: pre-line; line-height: 1.7; color: var(--text);">{{ section.items.0 }}</div>
+                    {% if section.prose %}
+                        <div style="white-space: pre-line; line-height: 1.7; color: var(--text);">{{ section.items|join:"
+" }}</div>
                     {% else %}
                         <ul class="topic-note-list">
                             {% for item in section.items %}
@@ -55,8 +62,8 @@
     <div class="example-heading pos"><span class="dot"></span> {% trans "Olumlu" %}</div>
     {% for e in positives %}
     <div class="example-item pos">
-        <div class="en">{{ e.sentence_en }}</div>
-        <div class="tr">{{ e.sentence_tr }}</div>
+        <div class="en" lang="{{ pair.target_code }}">{{ e.sentence }}</div>
+        <div class="tr" lang="{{ pair.native_code }}">{{ e.translations|dict_get:pair.native_code }}</div>
     </div>
     {% endfor %}
 </section>
@@ -65,8 +72,8 @@
     <div class="example-heading neg"><span class="dot"></span> {% trans "Olumsuz" %}</div>
     {% for e in negatives %}
     <div class="example-item neg">
-        <div class="en">{{ e.sentence_en }}</div>
-        <div class="tr">{{ e.sentence_tr }}</div>
+        <div class="en" lang="{{ pair.target_code }}">{{ e.sentence }}</div>
+        <div class="tr" lang="{{ pair.native_code }}">{{ e.translations|dict_get:pair.native_code }}</div>
     </div>
     {% endfor %}
 </section>
@@ -75,8 +82,8 @@
     <div class="example-heading q"><span class="dot"></span> {% trans "Soru" %}</div>
     {% for e in questions %}
     <div class="example-item q">
-        <div class="en">{{ e.sentence_en }}</div>
-        <div class="tr">{{ e.sentence_tr }}</div>
+        <div class="en" lang="{{ pair.target_code }}">{{ e.sentence }}</div>
+        <div class="tr" lang="{{ pair.native_code }}">{{ e.translations|dict_get:pair.native_code }}</div>
     </div>
     {% endfor %}
 </section>

@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich helfe dir mit deinen Aufgaben.",
+    "correct_answer": "I help you with your tasks.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She gives the child a toy.",
+    "correct_answer": "Sie gibt dem Kind ein Spielzeug.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Kleid gefällt meiner Schwester nicht.",
+    "correct_answer": "My sister doesn't like the dress.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He follows his mother.",
+    "correct_answer": "Er folgt seiner Mutter.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wem gibst du den Brief?",
+    "correct_answer": "Who do you give the letter to?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I show the teacher my homework.",
+    "correct_answer": "Ich zeige dem Lehrer meine Hausaufgaben.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie kommen aus der Schule.",
+    "correct_answer": "They come from school.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Do you help your friend?",
+    "correct_answer": "Hilfst du deinem Freund?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Dieser Job schadet seiner Gesundheit nicht.",
+    "correct_answer": "This job doesn't harm his health.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He doesn't believe me.",
+    "correct_answer": "Er glaubt mir nicht.",
+    "choices": null
+  }
+]

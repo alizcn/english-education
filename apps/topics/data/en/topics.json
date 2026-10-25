@@ -1,0 +1,3368 @@
+[
+  {
+    "slug": "present-simple",
+    "name": "Present Simple",
+    "order": 0,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "I drink coffee every morning.",
+        "translations": {
+          "tr": "Her sabah kahve içerim.",
+          "fr": "Je bois du café chaque matin.",
+          "de": "Ich trinke jeden Morgen Kaffee."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "She works as a teacher.",
+        "translations": {
+          "tr": "O öğretmen olarak çalışır.",
+          "fr": "Elle travaille comme professeur.",
+          "de": "Sie arbeitet als Lehrerin."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "They live in London.",
+        "translations": {
+          "tr": "Onlar Londra'da yaşarlar.",
+          "fr": "Ils vivent à Londres.",
+          "de": "Sie leben in London."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "He plays football on weekends.",
+        "translations": {
+          "tr": "O hafta sonlarında futbol oynar.",
+          "fr": "Il joue au football le week-end.",
+          "de": "Er spielt am Wochenende Fußball."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "We eat dinner at 7 PM.",
+        "translations": {
+          "tr": "Akşam saat 7'de akşam yemeği yeriz.",
+          "fr": "Nous dînons à 19 heures.",
+          "de": "Wir essen um 19 Uhr zu Abend."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "The sun rises in the east.",
+        "translations": {
+          "tr": "Güneş doğuda doğar.",
+          "fr": "Le soleil se lève à l'est.",
+          "de": "Die Sonne geht im Osten auf."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "I don't like spicy food.",
+        "translations": {
+          "tr": "Baharatlı yemeği sevmem.",
+          "fr": "Je n'aime pas la nourriture épicée.",
+          "de": "Ich mag kein scharfes Essen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "She doesn't drive to work.",
+        "translations": {
+          "tr": "O işe araba ile gitmez.",
+          "fr": "Elle ne conduit pas au travail.",
+          "de": "Sie fährt nicht mit dem Auto zur Arbeit."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "They don't speak French.",
+        "translations": {
+          "tr": "Onlar Fransızca konuşmazlar.",
+          "fr": "Ils ne parlent pas français.",
+          "de": "Sie sprechen kein Französisch."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "He doesn't watch television.",
+        "translations": {
+          "tr": "O televizyon izlemez.",
+          "fr": "Il ne regarde pas la télévision.",
+          "de": "Er schaut nicht fern."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "We don't eat meat on Fridays.",
+        "translations": {
+          "tr": "Cuma günleri et yemeyiz.",
+          "fr": "Nous ne mangeons pas de viande le vendredi.",
+          "de": "Wir essen freitags kein Fleisch."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "The cat doesn't like water.",
+        "translations": {
+          "tr": "Kedi suyu sevmez.",
+          "fr": "Le chat n'aime pas l'eau.",
+          "de": "Die Katze mag kein Wasser."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Do you speak English?",
+        "translations": {
+          "tr": "İngilizce konuşur musunuz?",
+          "fr": "Parlez-vous l'anglais?",
+          "de": "Sprechen Sie Englisch?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Does she work here?",
+        "translations": {
+          "tr": "O burada çalışır mı?",
+          "fr": "Est-ce qu'elle travaille ici?",
+          "de": "Arbeitet sie hier?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Do they have children?",
+        "translations": {
+          "tr": "Onların çocukları var mı?",
+          "fr": "Ont-ils des enfants?",
+          "de": "Haben sie Kinder?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Does he like pizza?",
+        "translations": {
+          "tr": "O pizzayı sever mi?",
+          "fr": "Aime-t-il la pizza?",
+          "de": "Mag er Pizza?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "What time do you wake up?",
+        "translations": {
+          "tr": "Saat kaçta uyanırsınız?",
+          "fr": "À quelle heure vous levez-vous?",
+          "de": "Um wie viel Uhr stehen Sie auf?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Why does she study so hard?",
+        "translations": {
+          "tr": "Neden bu kadar çok çalışır?",
+          "fr": "Pourquoi étudie-t-elle si dur?",
+          "de": "Warum lernt sie so hart?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "present-continuous",
+    "name": "Present Continuous",
+    "order": 1,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "I am reading a book.",
+        "translations": {
+          "tr": "Bir kitap okuyorum.",
+          "fr": "Je suis en train de lire un livre.",
+          "de": "Ich lese gerade ein Buch."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "She is cooking dinner.",
+        "translations": {
+          "tr": "Akşam yemeği pişiriyor.",
+          "fr": "Elle prépare le dîner.",
+          "de": "Sie kocht gerade das Abendessen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "They are playing football.",
+        "translations": {
+          "tr": "Futbol oynuyorlar.",
+          "fr": "Ils jouent au football.",
+          "de": "Sie spielen gerade Fußball."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "He is working on his laptop.",
+        "translations": {
+          "tr": "Dizüstü bilgisayarında çalışıyor.",
+          "fr": "Il travaille sur son ordinateur portable.",
+          "de": "Er arbeitet gerade an seinem Laptop."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "We are watching a movie.",
+        "translations": {
+          "tr": "Bir film izliyoruz.",
+          "fr": "Nous regardons un film.",
+          "de": "Wir schauen gerade einen Film."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "The cat is sleeping on the sofa.",
+        "translations": {
+          "tr": "Kedi kanepede uyuyor.",
+          "fr": "Le chat dort sur le canapé.",
+          "de": "Die Katze schläft gerade auf dem Sofa."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "I am not listening to music.",
+        "translations": {
+          "tr": "Müzik dinlemiyorum.",
+          "fr": "Je n'écoute pas de musique.",
+          "de": "Ich höre gerade keine Musik."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "She is not wearing a hat.",
+        "translations": {
+          "tr": "Şapka takmıyor.",
+          "fr": "Elle ne porte pas de chapeau.",
+          "de": "Sie trägt gerade keinen Hut."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "They are not studying for the exam.",
+        "translations": {
+          "tr": "Sınav için çalışmıyorlar.",
+          "fr": "Ils n'étudient pas pour l'examen.",
+          "de": "Sie lernen gerade nicht für die Prüfung."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "He is not driving to work today.",
+        "translations": {
+          "tr": "Bugün işe araba ile gitmiyor.",
+          "fr": "Il ne va pas au travail en voiture aujourd'hui.",
+          "de": "Er fährt heute gerade nicht zur Arbeit."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "We are not leaving soon.",
+        "translations": {
+          "tr": "Yakında gitmiyoruz.",
+          "fr": "Nous ne partons pas bientôt.",
+          "de": "Wir gehen gerade nicht bald weg."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "The dog is not eating its food.",
+        "translations": {
+          "tr": "Köpek yemeğini yemiyor.",
+          "fr": "Le chien ne mange pas sa nourriture.",
+          "de": "Der Hund isst sein Futter gerade nicht."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Are you doing your homework?",
+        "translations": {
+          "tr": "Ödevini yapıyor musun?",
+          "fr": "Est-ce que tu fais tes devoirs?",
+          "de": "Machst du gerade deine Hausaufgaben?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Is she drinking coffee?",
+        "translations": {
+          "tr": "Kahve içiyor mu?",
+          "fr": "Est-ce qu'elle boit du café?",
+          "de": "Trinkt sie gerade Kaffee?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "What are they discussing?",
+        "translations": {
+          "tr": "Neyi tartışıyorlar?",
+          "fr": "Qu'est-ce qu'ils discutent?",
+          "de": "Worüber sprechen sie gerade?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Is he staying at a hotel?",
+        "translations": {
+          "tr": "Otelde mi kalıyor?",
+          "fr": "Est-ce qu'il séjourne à l'hôtel?",
+          "de": "Übernachtet er gerade in einem Hotel?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Are we waiting for the bus?",
+        "translations": {
+          "tr": "Otobüs için mi bekliyoruz?",
+          "fr": "Est-ce que nous attendons le bus?",
+          "de": "Warten wir gerade auf den Bus?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Why is the baby crying?",
+        "translations": {
+          "tr": "Bebeğim neden ağlıyor?",
+          "fr": "Pourquoi le bébé pleure-t-il?",
+          "de": "Warum weint das Baby gerade?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "present-perfect",
+    "name": "Present Perfect",
+    "order": 2,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "I have finished my homework.",
+        "translations": {
+          "tr": "Ödevimi bitirdim.",
+          "fr": "J'ai terminé mes devoirs.",
+          "de": "Ich habe meine Hausaufgaben fertig."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "She has lived in London for five years.",
+        "translations": {
+          "tr": "Beş yıldır Londra'da yaşıyor.",
+          "fr": "Elle habite à Londres depuis cinq ans.",
+          "de": "Sie lebt seit fünf Jahren in London."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "They have just arrived at the airport.",
+        "translations": {
+          "tr": "Az önce havalimanına vardılar.",
+          "fr": "Ils viennent d'arriver à l'aéroport.",
+          "de": "Sie sind gerade am Flughafen angekommen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "He has studied English since 2020.",
+        "translations": {
+          "tr": "2020'den beri İngilizce çalışıyor.",
+          "fr": "Il étudie l'anglais depuis 2020.",
+          "de": "Er lernt Englisch seit 2020."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "We have been friends for a long time.",
+        "translations": {
+          "tr": "Uzun zamandır arkadaşız.",
+          "fr": "Nous sommes amis depuis longtemps.",
+          "de": "Wir sind schon lange Freunde."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "You have watched that movie before.",
+        "translations": {
+          "tr": "O filmi daha önce izlediniz.",
+          "fr": "Vous avez déjà regardé ce film.",
+          "de": "Sie haben diesen Film schon früher angesehen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "I have not finished my homework.",
+        "translations": {
+          "tr": "Ödevimi bitirmedim.",
+          "fr": "Je n'ai pas terminé mes devoirs.",
+          "de": "Ich habe meine Hausaufgaben nicht gemacht."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "She has not lived in New York.",
+        "translations": {
+          "tr": "Yeni York'ta yaşamadı.",
+          "fr": "Elle n'a pas vécu à New York.",
+          "de": "Sie hat nicht in New York gelebt."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "They have not arrived yet.",
+        "translations": {
+          "tr": "Henüz varmamışlar.",
+          "fr": "Ils ne sont pas encore arrivés.",
+          "de": "Sie sind noch nicht angekommen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "He has not studied French.",
+        "translations": {
+          "tr": "Fransızca çalışmadı.",
+          "fr": "Il n'a pas étudié le français.",
+          "de": "Er hat Französisch nicht gelernt."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "We have not been to that restaurant.",
+        "translations": {
+          "tr": "O restoran'a gitmemişiz.",
+          "fr": "Nous ne sommes pas allés à ce restaurant.",
+          "de": "Wir sind nicht in dieses Restaurant gegangen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "You have not seen that movie.",
+        "translations": {
+          "tr": "O filmi görmemediniz.",
+          "fr": "Vous n'avez pas vu ce film.",
+          "de": "Sie haben diesen Film nicht gesehen."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Have you finished your homework?",
+        "translations": {
+          "tr": "Ödevinizi tamamladınız mı?",
+          "fr": "Avez-vous terminé vos devoirs?",
+          "de": "Haben Sie Ihre Hausaufgaben fertig?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Has she lived in London for five years?",
+        "translations": {
+          "tr": "Beş yıldır Londra'da mı yaşıyor?",
+          "fr": "Habite-t-elle à Londres depuis cinq ans?",
+          "de": "Lebt sie seit fünf Jahren in London?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Have they arrived at the airport?",
+        "translations": {
+          "tr": "Havalimanına mı vardılar?",
+          "fr": "Sont-ils arrivés à l'aéroport?",
+          "de": "Sind sie am Flughafen angekommen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Has he studied English since 2020?",
+        "translations": {
+          "tr": "2020'den beri İngilizce mi çalışıyor?",
+          "fr": "Étudie-t-il l'anglais depuis 2020?",
+          "de": "Lernt er Englisch seit 2020?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Have we been friends for a long time?",
+        "translations": {
+          "tr": "Uzun zamandır arkadaş mıyız?",
+          "fr": "Sommes-nous amis depuis longtemps?",
+          "de": "Sind wir schon lange Freunde?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Have you watched that movie before?",
+        "translations": {
+          "tr": "O filmi daha önce izlediniz mi?",
+          "fr": "Avez-vous déjà regardé ce film?",
+          "de": "Haben Sie diesen Film schon angesehen?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "present-perfect-continuous",
+    "name": "Present Perfect Continuous",
+    "order": 3,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "I have been working on this project for three weeks.",
+        "translations": {
+          "tr": "Bu proje üzerinde üç haftadır çalışıyorum.",
+          "fr": "Je travaille sur ce projet depuis trois semaines.",
+          "de": "Ich arbeite seit drei Wochen an diesem Projekt."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "She has been studying French for two years.",
+        "translations": {
+          "tr": "İki yıldır Fransızca öğreniyor.",
+          "fr": "Elle étudie le français depuis deux ans.",
+          "de": "Sie lernt seit zwei Jahren Französisch."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "They have been living in this city since January.",
+        "translations": {
+          "tr": "Ocaktan beri bu şehirde yaşıyorlar.",
+          "fr": "Ils vivent dans cette ville depuis janvier.",
+          "de": "Sie wohnen seit Januar in dieser Stadt."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "He has been playing guitar all afternoon.",
+        "translations": {
+          "tr": "Bütün öğleden sonra gitar çalıyor.",
+          "fr": "Il joue de la guitare tout l'après-midi.",
+          "de": "Er spielt den ganzen Nachmittag Gitarre."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "We have been waiting for the bus for ten minutes.",
+        "translations": {
+          "tr": "On dakikadır otobüs bekliyoruz.",
+          "fr": "Nous attendons le bus depuis dix minutes.",
+          "de": "Wir warten seit zehn Minuten auf den Bus."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "The kids have been playing in the garden.",
+        "translations": {
+          "tr": "Çocuklar bahçede oynuyorlar.",
+          "fr": "Les enfants jouent dans le jardin.",
+          "de": "Die Kinder spielen im Garten."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "I haven't been sleeping well lately.",
+        "translations": {
+          "tr": "Son zamanlarda iyi uyuyamıyorum.",
+          "fr": "Je ne dors pas bien en ce moment.",
+          "de": "Ich schlafe in letzter Zeit nicht gut."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "She hasn't been eating much recently.",
+        "translations": {
+          "tr": "Son zamanlarda çok yemiyor.",
+          "fr": "Elle ne mange pas beaucoup récemment.",
+          "de": "Sie isst in letzter Zeit nicht viel."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "They haven't been speaking to each other.",
+        "translations": {
+          "tr": "Birbirlerine konuşmuyorlar.",
+          "fr": "Ils ne se parlent pas.",
+          "de": "Sie sprechen nicht miteinander."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "He hasn't been working out for months.",
+        "translations": {
+          "tr": "Aylardır spor yapmıyor.",
+          "fr": "Il ne s'entraîne pas depuis des mois.",
+          "de": "Er trainiert seit Monaten nicht mehr."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "We haven't been watching TV all week.",
+        "translations": {
+          "tr": "Bütün hafta TV izlemedik.",
+          "fr": "Nous ne regardons pas la télévision de toute la semaine.",
+          "de": "Wir haben die ganze Woche nicht ferngesehen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "The dog hasn't been barking today.",
+        "translations": {
+          "tr": "Köpek bugün havlamıyor.",
+          "fr": "Le chien n'a pas aboyé aujourd'hui.",
+          "de": "Der Hund hat heute nicht gebellt."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "How long have you been studying here?",
+        "translations": {
+          "tr": "Burada ne kadar süredir okuyorsun?",
+          "fr": "Depuis combien de temps étudies-tu ici?",
+          "de": "Wie lange studierst du hier schon?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Has she been feeling better?",
+        "translations": {
+          "tr": "Kendini daha iyi hissediyor mu?",
+          "fr": "Se sent-elle mieux?",
+          "de": "Fühlt sie sich besser?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Have they been making progress?",
+        "translations": {
+          "tr": "İlerleme kaydediyorlar mı?",
+          "fr": "Font-ils des progrès?",
+          "de": "Machen sie Fortschritte?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "What has he been doing all day?",
+        "translations": {
+          "tr": "Bütün gün ne yapıyor?",
+          "fr": "Qu'est-ce qu'il fait toute la journée?",
+          "de": "Was tut er den ganzen Tag?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "How long have we been talking?",
+        "translations": {
+          "tr": "Ne kadar süredir konuşuyoruz?",
+          "fr": "Depuis combien de temps parlons-nous?",
+          "de": "Wie lange sprechen wir schon?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Have you been waiting long?",
+        "translations": {
+          "tr": "Uzun süredir mi bekliyorsun?",
+          "fr": "Attends-tu depuis longtemps?",
+          "de": "Wartest du schon lange?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "past-simple",
+    "name": "Past Simple",
+    "order": 4,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "I went to the store yesterday.",
+        "translations": {
+          "tr": "Dün mağazaya gittim.",
+          "fr": "Je suis allé au magasin hier.",
+          "de": "Ich bin gestern in den Laden gegangen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "She ate breakfast this morning.",
+        "translations": {
+          "tr": "Bu sabah kahvaltı yaptı.",
+          "fr": "Elle a pris le petit-déjeuner ce matin.",
+          "de": "Sie hat heute Morgen Frühstück gegessen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "They watched a movie last night.",
+        "translations": {
+          "tr": "Dün gece bir film izlediler.",
+          "fr": "Ils ont regardé un film hier soir.",
+          "de": "Sie haben gestern Abend einen Film angeschaut."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "He worked on the project all day.",
+        "translations": {
+          "tr": "Bütün gün proje üzerinde çalıştı.",
+          "fr": "Il a travaillé sur le projet toute la journée.",
+          "de": "Er hat den ganzen Tag an dem Projekt gearbeitet."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "We visited our grandparents last weekend.",
+        "translations": {
+          "tr": "Geçen hafta sonu büyüklerimizi ziyaret ettik.",
+          "fr": "Nous avons visité nos grands-parents le week-end dernier.",
+          "de": "Wir haben unsere Großeltern letztes Wochenende besucht."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "The cat slept on the couch.",
+        "translations": {
+          "tr": "Kedi kanepede uyudu.",
+          "fr": "Le chat a dormi sur le canapé.",
+          "de": "Die Katze schlief auf dem Sofa."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "I didn't go to the store yesterday.",
+        "translations": {
+          "tr": "Dün mağazaya gitmedim.",
+          "fr": "Je ne suis pas allé au magasin hier.",
+          "de": "Ich bin gestern nicht in den Laden gegangen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "She didn't eat breakfast this morning.",
+        "translations": {
+          "tr": "Bu sabah kahvaltı yapmadı.",
+          "fr": "Elle n'a pas pris le petit-déjeuner ce matin.",
+          "de": "Sie hat heute Morgen kein Frühstück gegessen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "They didn't watch a movie last night.",
+        "translations": {
+          "tr": "Dün gece bir film izlemediler.",
+          "fr": "Ils n'ont pas regardé un film hier soir.",
+          "de": "Sie haben gestern Abend keinen Film angeschaut."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "He didn't work on the project all day.",
+        "translations": {
+          "tr": "Bütün gün proje üzerinde çalışmadı.",
+          "fr": "Il n'a pas travaillé sur le projet toute la journée.",
+          "de": "Er hat nicht den ganzen Tag an dem Projekt gearbeitet."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "We didn't visit our grandparents last weekend.",
+        "translations": {
+          "tr": "Geçen hafta sonu büyüklerimizi ziyaret etmedik.",
+          "fr": "Nous n'avons pas visité nos grands-parents le week-end dernier.",
+          "de": "Wir haben unsere Großeltern letztes Wochenende nicht besucht."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "The cat didn't sleep on the couch.",
+        "translations": {
+          "tr": "Kedi kanepede uyumadı.",
+          "fr": "Le chat n'a pas dormi sur le canapé.",
+          "de": "Die Katze schlief nicht auf dem Sofa."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Did you go to the store yesterday?",
+        "translations": {
+          "tr": "Dün mağazaya gittin mi?",
+          "fr": "Es-tu allé au magasin hier?",
+          "de": "Bist du gestern in den Laden gegangen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Did she eat breakfast this morning?",
+        "translations": {
+          "tr": "Bu sabah kahvaltı yaptı mı?",
+          "fr": "A-t-elle pris le petit-déjeuner ce matin?",
+          "de": "Hat sie heute Morgen Frühstück gegessen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Did they watch a movie last night?",
+        "translations": {
+          "tr": "Dün gece bir film izlediler mi?",
+          "fr": "Ont-ils regardé un film hier soir?",
+          "de": "Haben sie gestern Abend einen Film angeschaut?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Did he work on the project all day?",
+        "translations": {
+          "tr": "Bütün gün proje üzerinde çalıştı mı?",
+          "fr": "A-t-il travaillé sur le projet toute la journée?",
+          "de": "Hat er den ganzen Tag an dem Projekt gearbeitet?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Did you visit your grandparents last weekend?",
+        "translations": {
+          "tr": "Geçen hafta sonu büyüklerinizi ziyaret ettiniz mi?",
+          "fr": "Avez-vous visité vos grands-parents le week-end dernier?",
+          "de": "Haben Sie Ihre Großeltern letztes Wochenende besucht?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Did the cat sleep on the couch?",
+        "translations": {
+          "tr": "Kedi kanepede uyudu mu?",
+          "fr": "Le chat a-t-il dormi sur le canapé?",
+          "de": "Schlief die Katze auf dem Sofa?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "past-continuous",
+    "name": "Past Continuous",
+    "order": 5,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "I was reading a book when you called.",
+        "translations": {
+          "tr": "Seni aradığında bir kitap okuyordum.",
+          "fr": "Je lisais un livre quand tu as appelé.",
+          "de": "Ich las gerade ein Buch, als du anriefst."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "They were playing football in the park.",
+        "translations": {
+          "tr": "Parkta futbol oynuyorlardı.",
+          "fr": "Ils jouaient au football dans le parc.",
+          "de": "Sie spielten gerade Fußball im Park."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "She was cooking dinner for her family.",
+        "translations": {
+          "tr": "Ailesi için akşam yemeği pişiriyordu.",
+          "fr": "Elle cuisinait le dîner pour sa famille.",
+          "de": "Sie kochte gerade das Abendessen für ihre Familie."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "We were watching a movie last night.",
+        "translations": {
+          "tr": "Dün gece bir film izliyorduk.",
+          "fr": "Nous regardions un film hier soir.",
+          "de": "Wir schauten uns gestern Abend einen Film an."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "He was working on his project yesterday.",
+        "translations": {
+          "tr": "Dün projesi üzerinde çalışıyordu.",
+          "fr": "Il travaillait sur son projet hier.",
+          "de": "Er arbeitete gestern an seinem Projekt."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "The children were sleeping when the storm started.",
+        "translations": {
+          "tr": "Fırtına başladığında çocuklar uyuyorlardı.",
+          "fr": "Les enfants dormaient quand l'orage a commencé.",
+          "de": "Die Kinder schliefen gerade, als der Sturm begann."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "I was not listening to the teacher during the class.",
+        "translations": {
+          "tr": "Ders sırasında öğretmeni dinlemiyordum.",
+          "fr": "Je n'écoutais pas le professeur pendant le cours.",
+          "de": "Ich hörte dem Lehrer während des Unterrichts nicht zu."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "They were not working when the boss arrived.",
+        "translations": {
+          "tr": "Patron geldiğinde çalışmıyorlardı.",
+          "fr": "Ils ne travaillaient pas quand le patron est arrivé.",
+          "de": "Sie arbeiteten nicht, als der Chef ankam."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "She was not eating breakfast this morning.",
+        "translations": {
+          "tr": "Bu sabah kahvaltı etmiyordu.",
+          "fr": "Elle ne prenait pas de petit-déjeuner ce matin.",
+          "de": "Sie aß heute Morgen kein Frühstück."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "We were not waiting for him when he came home.",
+        "translations": {
+          "tr": "Evine döndüğünde onu beklemiyorduk.",
+          "fr": "Nous ne l'attendions pas quand il est rentré à la maison.",
+          "de": "Wir warteten nicht auf ihn, als er nach Hause kam."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "He was not talking to anyone during the meeting.",
+        "translations": {
+          "tr": "Toplantı sırasında kimseyle konuşmuyordu.",
+          "fr": "Il ne parlait à personne pendant la réunion.",
+          "de": "Er sprach während des Treffens mit niemandem."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "The birds were not singing at midnight.",
+        "translations": {
+          "tr": "Kuşlar gece yarısında şarkı söylemiyorlardı.",
+          "fr": "Les oiseaux ne chantaient pas à minuit.",
+          "de": "Die Vögel sangen nicht um Mitternacht."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Was I speaking too fast for you?",
+        "translations": {
+          "tr": "Sana çok hızlı mı konuşuyordum?",
+          "fr": "Est-ce que je parlais trop vite pour toi?",
+          "de": "Sprach ich zu schnell für dich?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Were they building a house last summer?",
+        "translations": {
+          "tr": "Geçen yaz bir ev inşa ediyorlar mıydı?",
+          "fr": "Est-ce qu'ils construisaient une maison l'été dernier?",
+          "de": "Bauten sie letzten Sommer ein Haus?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Was she studying when you arrived?",
+        "translations": {
+          "tr": "Sen geldiğinde ders çalışıyor muydu?",
+          "fr": "Est-ce qu'elle étudiait quand tu es arrivé?",
+          "de": "Lernte sie, als du ankamst?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Were you looking for something in the kitchen?",
+        "translations": {
+          "tr": "Mutfakta bir şey mi arıyordun?",
+          "fr": "Est-ce que tu cherchais quelque chose dans la cuisine?",
+          "de": "Suchtest du etwas in der Küche?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Was he driving to work when the accident happened?",
+        "translations": {
+          "tr": "Kaza olduğunda işe gitmek için araba mı kullanıyordu?",
+          "fr": "Est-ce qu'il conduisait pour aller travailler quand l'accident s'est produit?",
+          "de": "Fuhr er zur Arbeit, als der Unfall passierte?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Were the students paying attention during the exam?",
+        "translations": {
+          "tr": "Öğrenciler sınav sırasında dikkat mi ediyorlardı?",
+          "fr": "Est-ce que les étudiants faisaient attention pendant l'examen?",
+          "de": "Passten die Schüler während der Prüfung auf?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "past-perfect",
+    "name": "Past Perfect",
+    "order": 6,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "She had finished her homework before dinner.",
+        "translations": {
+          "tr": "Akşam yemeğinden önce ev ödevini tamamlamıştı.",
+          "fr": "Elle avait terminé ses devoirs avant le dîner.",
+          "de": "Sie hatte ihre Hausaufgaben vor dem Abendessen beendet."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "They had already left when I arrived.",
+        "translations": {
+          "tr": "Ben geldiğinde onlar zaten ayrılmışlardı.",
+          "fr": "Ils étaient déjà partis quand je suis arrivé.",
+          "de": "Sie waren bereits gegangen, als ich ankam."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "He had worked at that company for ten years before retiring.",
+        "translations": {
+          "tr": "Emekli olmadan önce o şirkette on yıl çalışmıştı.",
+          "fr": "Il avait travaillé dans cette entreprise pendant dix ans avant de prendre sa retraite.",
+          "de": "Er hatte zehn Jahre lang in diesem Unternehmen gearbeitet, bevor er in den Ruhestand ging."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "By the time we got there, the movie had started.",
+        "translations": {
+          "tr": "Oraya vardığımızda film başlamıştı.",
+          "fr": "Au moment où nous sommes arrivés, le film avait commencé.",
+          "de": "Als wir dort ankamen, hatte der Film bereits begonnen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "I had never seen such beautiful scenery before that trip.",
+        "translations": {
+          "tr": "O seyahatten önce hiç bu kadar güzel manzara görmemiştim.",
+          "fr": "Je n'avais jamais vu un paysage aussi beau avant ce voyage.",
+          "de": "Ich hatte vor dieser Reise nie so schöne Landschaften gesehen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "She had learned to cook before she moved to Paris.",
+        "translations": {
+          "tr": "Paris'e taşınmadan önce yemek pişirmeyi öğrenmişti.",
+          "fr": "Elle avait appris à cuisiner avant de déménager à Paris.",
+          "de": "Sie hatte kochen gelernt, bevor sie nach Paris zog."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "He hadn't eaten breakfast before the meeting.",
+        "translations": {
+          "tr": "Toplantıdan önce kahvaltı yapmamıştı.",
+          "fr": "Il n'avait pas mangé le petit-déjeuner avant la réunion.",
+          "de": "Er hatte vor dem Treffen kein Frühstück gegessen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "They hadn't visited that museum before last year.",
+        "translations": {
+          "tr": "Geçen seneye kadar o müzeyi ziyaret etmemişlerdi.",
+          "fr": "Ils n'avaient pas visité ce musée avant l'année dernière.",
+          "de": "Sie hatten dieses Museum vor letztem Jahr nicht besucht."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "She hadn't finished her project when her boss asked about it.",
+        "translations": {
+          "tr": "Patronu sorduğunda projesini bitirmemişti.",
+          "fr": "Elle n'avait pas terminé son projet quand son patron lui en a parlé.",
+          "de": "Sie hatte ihr Projekt nicht beendet, als ihr Chef danach fragte."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "The guests hadn't arrived by eight o'clock.",
+        "translations": {
+          "tr": "Saat sekize kadar konuklar gelmemişlerdi.",
+          "fr": "Les invités n'étaient pas arrivés à huit heures.",
+          "de": "Die Gäste waren um acht Uhr noch nicht angekommen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "I hadn't heard that song before my friend played it.",
+        "translations": {
+          "tr": "Arkadaşım çalana kadar o şarkıyı hiç duymamıştım.",
+          "fr": "Je n'avais jamais entendu cette chanson avant que mon ami ne la joue.",
+          "de": "Ich hatte diesen Song nicht gehört, bevor mein Freund ihn spielte."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "We hadn't prepared the house before the guests came.",
+        "translations": {
+          "tr": "Konuklar gelmeden önce evi hazırlamamıştık.",
+          "fr": "Nous n'avions pas préparé la maison avant l'arrivée des invités.",
+          "de": "Wir hatten das Haus nicht vorbereitet, bevor die Gäste kamen."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Had you finished your work before you left?",
+        "translations": {
+          "tr": "Gitmeden önce işini bitirmiş miydin?",
+          "fr": "Aviez-vous terminé votre travail avant de partir?",
+          "de": "Hattest du deine Arbeit beendet, bevor du gingst?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Had they visited London before that summer?",
+        "translations": {
+          "tr": "O yazdan önce Londra'yı ziyaret etmişler miydi?",
+          "fr": "Avaient-ils visité Londres avant cet été?",
+          "de": "Hatten sie London vor diesem Sommer besucht?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "What had happened before the police arrived?",
+        "translations": {
+          "tr": "Polis gelmeden önce ne olmuştu?",
+          "fr": "Qu'est-ce qui s'était passé avant l'arrivée de la police?",
+          "de": "Was war passiert, bevor die Polizei ankam?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Had she prepared the presentation before the meeting?",
+        "translations": {
+          "tr": "Toplantıdan önce sunuyu hazırlamış mıydı?",
+          "fr": "Avait-elle préparé la présentation avant la réunion?",
+          "de": "Hatte sie die Präsentation vor dem Treffen vorbereitet?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "How many countries had you visited before 2020?",
+        "translations": {
+          "tr": "2020'den önce kaç ülkeyi ziyaret etmiştin?",
+          "fr": "Combien de pays aviez-vous visités avant 2020?",
+          "de": "Wie viele Länder hattest du vor 2020 besucht?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Had the rain stopped before you went out?",
+        "translations": {
+          "tr": "Dışarı çıkmadan önce yağmur durmuş muydu?",
+          "fr": "La pluie avait-elle cessé avant que tu ne sortes?",
+          "de": "Hatte der Regen aufgehört, bevor du hinausgingst?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "future-simple-will",
+    "name": "Future Simple (will)",
+    "order": 7,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "I will go to the store tomorrow.",
+        "translations": {
+          "tr": "Yarın mağazaya gideceğim.",
+          "fr": "J'irai au magasin demain.",
+          "de": "Ich werde morgen zum Geschäft gehen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "She will finish her homework tonight.",
+        "translations": {
+          "tr": "Bugün gece ödevini bitireceği.",
+          "fr": "Elle finira ses devoirs ce soir.",
+          "de": "Sie wird heute Abend ihre Hausaufgaben fertig machen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "They will arrive at 3 o'clock.",
+        "translations": {
+          "tr": "Saat 3'te varacaklar.",
+          "fr": "Ils arriveront à 3 heures.",
+          "de": "Sie werden um 3 Uhr ankommen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "You will love this movie.",
+        "translations": {
+          "tr": "Bu filmi çok seveceksin.",
+          "fr": "Tu aimeras ce film.",
+          "de": "Du wirst diesen Film lieben."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "We will have dinner together.",
+        "translations": {
+          "tr": "Birlikte akşam yemeği yiyeceğiz.",
+          "fr": "Nous dînerons ensemble.",
+          "de": "Wir werden zusammen zu Abend essen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "He will call you later.",
+        "translations": {
+          "tr": "Seni daha sonra arayacak.",
+          "fr": "Il t'appellera plus tard.",
+          "de": "Er wird dich später anrufen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "I will not eat meat anymore.",
+        "translations": {
+          "tr": "Artık et yemeyeceğim.",
+          "fr": "Je ne mangerai plus de viande.",
+          "de": "Ich werde kein Fleisch mehr essen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "She will not forgive him easily.",
+        "translations": {
+          "tr": "Onu kolayca affetmeyecek.",
+          "fr": "Elle ne le pardonnera pas facilement.",
+          "de": "Sie wird ihm nicht leicht verzeihen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "They will not wait for us.",
+        "translations": {
+          "tr": "Bizi beklemeyecekler.",
+          "fr": "Ils n'attendront pas.",
+          "de": "Sie werden nicht auf uns warten."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "You will not regret this decision.",
+        "translations": {
+          "tr": "Bu karara pişman olmayacaksın.",
+          "fr": "Tu ne regretteras pas cette décision.",
+          "de": "Du wirst diese Entscheidung nicht bereuen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "We will not forget this moment.",
+        "translations": {
+          "tr": "Bu anı unutmayacağız.",
+          "fr": "Nous n'oublierons pas ce moment.",
+          "de": "Wir werden diesen Moment nicht vergessen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "It will not rain tomorrow.",
+        "translations": {
+          "tr": "Yarın yağmur yağmayacak.",
+          "fr": "Il ne pleuvra pas demain.",
+          "de": "Es wird morgen nicht regnen."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Will you help me with this?",
+        "translations": {
+          "tr": "Buna yardım edecek misin?",
+          "fr": "M'aideras-tu avec cela?",
+          "de": "Wirst du mir damit helfen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Will they come to the party?",
+        "translations": {
+          "tr": "Partiye gelecekler mi?",
+          "fr": "Viendront-ils à la fête?",
+          "de": "Werden sie zur Party kommen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Will she pass the exam?",
+        "translations": {
+          "tr": "Sınavı geçecek mi?",
+          "fr": "Réussira-t-elle l'examen?",
+          "de": "Wird sie die Prüfung bestehen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Will we have enough time?",
+        "translations": {
+          "tr": "Yeterli zamanımız olacak mı?",
+          "fr": "Aurons-nous assez de temps?",
+          "de": "Werden wir genug Zeit haben?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Will you call me later?",
+        "translations": {
+          "tr": "Beni daha sonra arayacak mısın?",
+          "fr": "M'appelleras-tu plus tard?",
+          "de": "Wirst du mich später anrufen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Will it be cold outside?",
+        "translations": {
+          "tr": "Dışarıda soğuk olacak mı?",
+          "fr": "Fera-t-il froid dehors?",
+          "de": "Wird es draußen kalt sein?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "future-be-going-to",
+    "name": "Future (be going to)",
+    "order": 8,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "I am going to eat lunch soon.",
+        "translations": {
+          "tr": "Birazdan öğle yemeği yemek istiyorum.",
+          "fr": "Je vais manger bientôt.",
+          "de": "Ich werde gleich zu Mittag essen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "She is going to call you tomorrow.",
+        "translations": {
+          "tr": "Yarın seni arayacak.",
+          "fr": "Elle va t'appeler demain.",
+          "de": "Sie wird dich morgen anrufen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "They are going to buy a new car.",
+        "translations": {
+          "tr": "Yeni bir araba satın alacaklar.",
+          "fr": "Ils vont acheter une nouvelle voiture.",
+          "de": "Sie werden ein neues Auto kaufen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "We are going to visit my parents this weekend.",
+        "translations": {
+          "tr": "Bu hafta sonu ailemi ziyaret edeceğiz.",
+          "fr": "Nous allons visiter mes parents ce weekend.",
+          "de": "Wir werden meine Eltern dieses Wochenende besuchen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "He is going to study for the exam tonight.",
+        "translations": {
+          "tr": "Bu akşam sınav için çalışacak.",
+          "fr": "Il va étudier pour l'examen ce soir.",
+          "de": "Er wird heute Abend für die Prüfung lernen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "You are going to love this movie.",
+        "translations": {
+          "tr": "Bu filmi çok seveceksin.",
+          "fr": "Tu vas adorer ce film.",
+          "de": "Du wirst diesen Film lieben."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "I am not going to eat meat anymore.",
+        "translations": {
+          "tr": "Artık et yemeyeceğim.",
+          "fr": "Je ne vais plus manger de viande.",
+          "de": "Ich werde kein Fleisch mehr essen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "She is not going to come to the party.",
+        "translations": {
+          "tr": "Partiye gelmeyecek.",
+          "fr": "Elle ne va pas venir à la fête.",
+          "de": "Sie wird nicht zur Party kommen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "They are not going to sell their house.",
+        "translations": {
+          "tr": "Evlerini satmayacaklar.",
+          "fr": "Ils ne vont pas vendre leur maison.",
+          "de": "Sie werden ihr Haus nicht verkaufen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "We are not going to stay late.",
+        "translations": {
+          "tr": "Geç saatlerde kalmayacağız.",
+          "fr": "Nous n'allons pas rester tard.",
+          "de": "Wir werden nicht lange bleiben."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "He is not going to watch that show.",
+        "translations": {
+          "tr": "O şovu izlemeyecek.",
+          "fr": "Il ne va pas regarder ce programme.",
+          "de": "Er wird diese Serie nicht schauen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "You are not going to believe what happened.",
+        "translations": {
+          "tr": "Ne olduğuna inanmayacaksın.",
+          "fr": "Tu ne vas pas croire ce qui s'est passé.",
+          "de": "Du wirst nicht glauben, was passiert ist."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Are you going to come with us?",
+        "translations": {
+          "tr": "Bizimle gelecek misin?",
+          "fr": "Tu vas venir avec nous?",
+          "de": "Wirst du mit uns kommen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Is she going to finish her work today?",
+        "translations": {
+          "tr": "Bugün işini bitirecek mi?",
+          "fr": "Va-t-elle finir son travail aujourd'hui?",
+          "de": "Wird sie ihre Arbeit heute fertigstellen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Are they going to travel next month?",
+        "translations": {
+          "tr": "Gelecek ay seyahat edecekler mi?",
+          "fr": "Vont-ils voyager le mois prochain?",
+          "de": "Werden sie nächsten Monat reisen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Is he going to help us move?",
+        "translations": {
+          "tr": "Bize taşınmada yardım edecek mi?",
+          "fr": "Va-t-il nous aider à déménager?",
+          "de": "Wird er uns beim Umzug helfen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "What are you going to do tomorrow?",
+        "translations": {
+          "tr": "Yarın ne yapacaksın?",
+          "fr": "Qu'est-ce que tu vas faire demain?",
+          "de": "Was wirst du morgen machen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Where are we going to meet?",
+        "translations": {
+          "tr": "Nerede buluşacağız?",
+          "fr": "Où allons-nous nous rencontrer?",
+          "de": "Wo werden wir uns treffen?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "modals-can-could",
+    "name": "Modals: can / could",
+    "order": 9,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "I can speak English fluently.",
+        "translations": {
+          "tr": "İngilizce akıcı bir şekilde konuşabiliyorum.",
+          "fr": "Je peux parler l'anglais couramment.",
+          "de": "Ich kann Englisch fließend sprechen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "She can cook delicious meals.",
+        "translations": {
+          "tr": "Lezzetli yemekler pişirebiliyor.",
+          "fr": "Elle peut préparer des repas délicieux.",
+          "de": "Sie kann köstliche Mahlzeiten kochen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "They could help us if they wanted to.",
+        "translations": {
+          "tr": "İsteselerse bize yardım edebilirlerdi.",
+          "fr": "Ils pourraient nous aider s'ils le voulaient.",
+          "de": "Sie könnten uns helfen, wenn sie wollten."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "He can run very fast.",
+        "translations": {
+          "tr": "Çok hızlı koşabiliyor.",
+          "fr": "Il peut courir très vite.",
+          "de": "Er kann sehr schnell laufen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "You can borrow my car.",
+        "translations": {
+          "tr": "Arabamı ödünç alabilirsin.",
+          "fr": "Tu peux emprunter ma voiture.",
+          "de": "Du kannst mein Auto ausleihen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "I could see the mountains from my room.",
+        "translations": {
+          "tr": "Odamdan dağları görebiliyordum.",
+          "fr": "Je pouvais voir les montagnes de ma chambre.",
+          "de": "Ich konnte die Berge von meinem Zimmer aus sehen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "I can't swim very well.",
+        "translations": {
+          "tr": "Çok iyi yüzemiyorum.",
+          "fr": "Je ne peux pas bien nager.",
+          "de": "Ich kann nicht sehr gut schwimmen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "She couldn't find her keys.",
+        "translations": {
+          "tr": "Anahtarlarını bulamadı.",
+          "fr": "Elle n'a pas pu trouver ses clés.",
+          "de": "Sie konnte ihre Schlüssel nicht finden."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "They can't attend the meeting.",
+        "translations": {
+          "tr": "Toplantıya katılamıyorlar.",
+          "fr": "Ils ne peuvent pas assister à la réunion.",
+          "de": "Sie können nicht am Treffen teilnehmen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "He can't play the guitar.",
+        "translations": {
+          "tr": "Gitar çalamıyor.",
+          "fr": "Il ne peut pas jouer de la guitare.",
+          "de": "Er kann keine Gitarre spielen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "I couldn't understand the instructions.",
+        "translations": {
+          "tr": "Talimatları anlayamadım.",
+          "fr": "Je n'ai pas pu comprendre les instructions.",
+          "de": "Ich konnte die Anweisungen nicht verstehen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "You can't park here.",
+        "translations": {
+          "tr": "Burada park edemezsin.",
+          "fr": "Tu ne peux pas te garer ici.",
+          "de": "Du kannst hier nicht parken."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Can you help me with this?",
+        "translations": {
+          "tr": "Buna yardım edebilir misin?",
+          "fr": "Peux-tu m'aider avec ça?",
+          "de": "Kannst du mir damit helfen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Could you pass the salt?",
+        "translations": {
+          "tr": "Tuzu bana uzatabilir misin?",
+          "fr": "Pourrais-tu me passer le sel?",
+          "de": "Kannst du mir das Salz reichen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Can she speak French?",
+        "translations": {
+          "tr": "Fransızca konuşabiliyor mu?",
+          "fr": "Peut-elle parler français?",
+          "de": "Kann sie Französisch sprechen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Could they have known about it?",
+        "translations": {
+          "tr": "Bunu bilmiş olabildiler mi?",
+          "fr": "Auraient-ils pu le savoir?",
+          "de": "Hätten sie es wissen können?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Can I use your phone?",
+        "translations": {
+          "tr": "Telefonunu kullanabilir miyim?",
+          "fr": "Puis-je utiliser ton téléphone?",
+          "de": "Kann ich dein Telefon benutzen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Could you see anything in the dark?",
+        "translations": {
+          "tr": "Karanlıkta bir şey görebildin mi?",
+          "fr": "Pouvais-tu voir quelque chose dans le noir?",
+          "de": "Konntest du etwas in der Dunkelheit sehen?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "modals-must-should",
+    "name": "Modals: must / should",
+    "order": 10,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "You must be on time for the meeting.",
+        "translations": {
+          "tr": "Toplantı için zamanında olmalısın.",
+          "fr": "Tu dois être à l'heure pour la réunion.",
+          "de": "Du musst pünktlich zum Treffen kommen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "I should exercise more often.",
+        "translations": {
+          "tr": "Daha sık egzersiz yapmalıyım.",
+          "fr": "Je devrais faire de l'exercice plus souvent.",
+          "de": "Ich sollte öfter trainieren."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "You must lock the door when you leave.",
+        "translations": {
+          "tr": "Ayrılırken kapıyı kilitlemek zorundasın.",
+          "fr": "Tu dois verrouiller la porte quand tu pars.",
+          "de": "Du musst die Tür abschließen, wenn du gehst."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "She should call her mother today.",
+        "translations": {
+          "tr": "Bugün annesini aramalı.",
+          "fr": "Elle devrait appeler sa mère aujourd'hui.",
+          "de": "Sie sollte ihre Mutter heute anrufen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "We must respect other people's opinions.",
+        "translations": {
+          "tr": "Başkalarının fikirlerine saygı göstermek zorundayız.",
+          "fr": "Nous devons respecter les opinions des autres.",
+          "de": "Wir müssen die Meinungen anderer Menschen respektieren."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "He should apologize for what he said.",
+        "translations": {
+          "tr": "Söylediği şey için özür dilemeli.",
+          "fr": "Il devrait s'excuser pour ce qu'il a dit.",
+          "de": "Er sollte sich für das entschuldigen, was er gesagt hat."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "You must not touch that wire.",
+        "translations": {
+          "tr": "O kabloyu dokunmamalısın.",
+          "fr": "Tu ne dois pas toucher ce fil.",
+          "de": "Du darfst diesen Draht nicht anfassen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "I shouldn't eat too much sugar.",
+        "translations": {
+          "tr": "Çok fazla şeker yememeliyim.",
+          "fr": "Je ne devrais pas manger trop de sucre.",
+          "de": "Ich sollte nicht so viel Zucker essen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "You must not park here.",
+        "translations": {
+          "tr": "Buraya park etmemelisin.",
+          "fr": "Tu ne dois pas te garer ici.",
+          "de": "Du darfst hier nicht parken."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "She shouldn't worry so much about it.",
+        "translations": {
+          "tr": "Bununla ilgili bu kadar endişelenmemeli.",
+          "fr": "Elle ne devrait pas s'inquiéter autant pour cela.",
+          "de": "Sie sollte sich deshalb nicht so viele Sorgen machen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "We must not forget to bring our documents.",
+        "translations": {
+          "tr": "Belgelerimizi getirmeyi unutmamalıyız.",
+          "fr": "Nous ne devons pas oublier d'apporter nos documents.",
+          "de": "Wir dürfen nicht vergessen, unsere Dokumente mitzubringen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "He shouldn't spend all his money on games.",
+        "translations": {
+          "tr": "Tüm parasını oyunlara harcamamalı.",
+          "fr": "Il ne devrait pas dépenser tout son argent en jeux.",
+          "de": "Er sollte sein ganzes Geld nicht für Spiele ausgeben."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Must I go to the doctor?",
+        "translations": {
+          "tr": "Doktora gitmeli miyim?",
+          "fr": "Dois-je aller chez le docteur?",
+          "de": "Muss ich zum Arzt gehen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Should I buy this book?",
+        "translations": {
+          "tr": "Bu kitabı almalı mıyım?",
+          "fr": "Dois-je acheter ce livre?",
+          "de": "Sollte ich dieses Buch kaufen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Must you finish the report today?",
+        "translations": {
+          "tr": "Raporu bugün bitirmelisin mi?",
+          "fr": "Dois-tu finir le rapport aujourd'hui?",
+          "de": "Musst du den Bericht heute fertigstellen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Should she take the medicine?",
+        "translations": {
+          "tr": "İlaçı almalı mı?",
+          "fr": "Devrait-elle prendre le médicament?",
+          "de": "Sollte sie die Medizin nehmen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Must we wear uniforms to work?",
+        "translations": {
+          "tr": "İşte üniformas giymeliyiz mi?",
+          "fr": "Devons-nous porter des uniformes au travail?",
+          "de": "Müssen wir zur Arbeit Uniformen tragen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Should they invite him to the party?",
+        "translations": {
+          "tr": "Onu partiye davet etmeli mi?",
+          "fr": "Devraient-ils l'inviter à la fête?",
+          "de": "Sollten sie ihn zur Party einladen?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "conditional-0",
+    "name": "Zero Conditional",
+    "order": 11,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "If you heat water to 100°C, it boils.",
+        "translations": {
+          "tr": "Suyu 100°C'ye ısıtırsan kaynıyor.",
+          "fr": "Si tu chauffes l'eau à 100°C, elle bout.",
+          "de": "Wenn du Wasser auf 100°C erhitzt, kocht es."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "If the sun sets, the sky gets dark.",
+        "translations": {
+          "tr": "Güneş batarsa gökyüzü karanlık olur.",
+          "fr": "Si le soleil se couche, le ciel devient noir.",
+          "de": "Wenn die Sonne untergeht, wird der Himmel dunkel."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "If you eat too much sugar, you feel sick.",
+        "translations": {
+          "tr": "Çok şeker yersen hasta hissedersin.",
+          "fr": "Si tu manges trop de sucre, tu te sens malade.",
+          "de": "Wenn du zu viel Zucker isst, fühlst du dich krank."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "If you plant seeds, they grow.",
+        "translations": {
+          "tr": "Tohum ekersen büyürler.",
+          "fr": "Si tu plantes des graines, elles poussent.",
+          "de": "Wenn du Samen pflanzt, wachsen sie."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "If you wake up early, you have time for breakfast.",
+        "translations": {
+          "tr": "Erken uyanırsan kahvaltı için zamanın olur.",
+          "fr": "Si tu te réveilles tôt, tu as le temps de prendre le petit déjeuner.",
+          "de": "Wenn du früh aufwachst, hast du Zeit zum Frühstücken."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "If you press the doorbell, it rings.",
+        "translations": {
+          "tr": "Kapı zilini çalarsan çalar.",
+          "fr": "Si tu appuies sur la sonnette, elle sonne.",
+          "de": "Wenn du auf die Türklingel drückst, klingelt sie."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "If you don't water plants, they don't grow.",
+        "translations": {
+          "tr": "Bitkileri sulamazsan büyümezler.",
+          "fr": "Si tu n'aroses pas les plantes, elles ne poussent pas.",
+          "de": "Wenn du die Pflanzen nicht gießt, wachsen sie nicht."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "If you don't study, you don't pass the exam.",
+        "translations": {
+          "tr": "Çalışmazsan sınavı geçemezsin.",
+          "fr": "Si tu n'étudies pas, tu ne réussis pas l'examen.",
+          "de": "Wenn du nicht lernst, bestehst du die Prüfung nicht."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "If you don't exercise, you don't stay fit.",
+        "translations": {
+          "tr": "Egzersiz yapmazsan fit kalmazsın.",
+          "fr": "Si tu ne fais pas d'exercice, tu ne restes pas en forme.",
+          "de": "Wenn du nicht trainierst, bleibst du nicht fit."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "If you don't listen, you don't understand.",
+        "translations": {
+          "tr": "Dinlemezsen anlamazsın.",
+          "fr": "Si tu n'écoutes pas, tu ne comprends pas.",
+          "de": "Wenn du nicht zuhörst, verstehst du nicht."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "If you don't sleep enough, you feel tired.",
+        "translations": {
+          "tr": "Yeterince uyumazsan yorgun hissedersin.",
+          "fr": "Si tu ne dors pas assez, tu te sens fatigué.",
+          "de": "Wenn du nicht genug schläfst, fühlst du dich müde."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "If ice doesn't melt, it stays cold.",
+        "translations": {
+          "tr": "Buz erimezse soğuk kalır.",
+          "fr": "Si la glace ne fond pas, elle reste froide.",
+          "de": "Wenn das Eis nicht schmilzt, bleibt es kalt."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "If you add salt to water, does it boil faster?",
+        "translations": {
+          "tr": "Suya tuz eklersin, daha hızlı kaynıyor mu?",
+          "fr": "Si tu ajoutes du sel à l'eau, bout-elle plus vite?",
+          "de": "Wenn du Salz zum Wasser hinzufügst, kocht es schneller?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "If you exercise regularly, do you stay healthy?",
+        "translations": {
+          "tr": "Düzenli egzersiz yaparsanız sağlıklı kalırsınız mı?",
+          "fr": "Si tu fais de l'exercice régulièrement, restes-tu en bonne santé?",
+          "de": "Wenn du regelmäßig trainierst, bleibst du gesund?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "If you eat healthily, do you feel better?",
+        "translations": {
+          "tr": "Sağlıklı yemek yersen kendini daha iyi mi hissedersin?",
+          "fr": "Si tu manges sainement, te sens-tu mieux?",
+          "de": "Wenn du gesund isst, fühlst du dich besser?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "If you study hard, do you get good grades?",
+        "translations": {
+          "tr": "Çok çalışırsan iyi notlar alır mısın?",
+          "fr": "Si tu étudies dur, obtiens-tu de bonnes notes?",
+          "de": "Wenn du hart lernst, bekommst du gute Noten?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "If you don't sleep well, do you feel tired?",
+        "translations": {
+          "tr": "İyi uyumazsan yorgun mu hissedersin?",
+          "fr": "Si tu ne dors pas bien, te sens-tu fatigué?",
+          "de": "Wenn du nicht gut schläfst, fühlst du dich müde?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "If you practice every day, do you get better?",
+        "translations": {
+          "tr": "Her gün pratik yaparsanız daha mı iyi olursunuz?",
+          "fr": "Si tu pratiques tous les jours, t'améliores-tu?",
+          "de": "Wenn du jeden Tag übst, wirst du besser?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "conditional-1",
+    "name": "First Conditional",
+    "order": 12,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "If you study hard, you will pass the exam.",
+        "translations": {
+          "tr": "Eğer çok çalışırsan, sınavı geçeceksin.",
+          "fr": "Si tu étudies dur, tu réussiras l'examen.",
+          "de": "Wenn du hart lernst, wirst du die Prüfung bestehen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "If it rains tomorrow, I will stay home.",
+        "translations": {
+          "tr": "Yarın yağmur yağarsa, evde kalacağım.",
+          "fr": "S'il pleut demain, je resterai à la maison.",
+          "de": "Wenn es morgen regnet, bleibe ich zu Hause."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "If you call me, I will answer immediately.",
+        "translations": {
+          "tr": "Beni araarsan, hemen cevap vereceğim.",
+          "fr": "Si tu m'appelles, je répondrai immédiatement.",
+          "de": "Wenn du mich anrufst, werde ich sofort antworten."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "If we leave now, we will arrive on time.",
+        "translations": {
+          "tr": "Şimdi çıkarsak, zamanında varacağız.",
+          "fr": "Si nous partons maintenant, nous arriverons à l'heure.",
+          "de": "Wenn wir jetzt gehen, kommen wir pünktlich an."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "If you eat vegetables, you will be healthier.",
+        "translations": {
+          "tr": "Sebze yersem, daha sağlıklı olacaksın.",
+          "fr": "Si tu manges des légumes, tu seras plus sain.",
+          "de": "Wenn du Gemüse isst, wirst du gesünder."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "If she wins the lottery, she will travel around the world.",
+        "translations": {
+          "tr": "Eğer piyangoyu kazanırsa, dünya turu yapacak.",
+          "fr": "Si elle gagne à la loterie, elle voyagera autour du monde.",
+          "de": "Wenn sie in der Lotterie gewinnt, wird sie um die Welt reisen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "If you don't eat breakfast, you will be hungry later.",
+        "translations": {
+          "tr": "Sabah kahvaltısı yapmazsan, sonra aç kalacaksın.",
+          "fr": "Si tu ne prends pas de petit-déjeuner, tu auras faim plus tard.",
+          "de": "Wenn du nicht frühstückst, wirst du später hungrig sein."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "If it doesn't snow, we won't build a snowman.",
+        "translations": {
+          "tr": "Kar yağmazsa, kar adamı yapmayacağız.",
+          "fr": "S'il ne neige pas, nous ne construirons pas de bonhomme de neige.",
+          "de": "Wenn es nicht schneit, bauen wir keinen Schneemann."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "If you don't practice, you won't improve.",
+        "translations": {
+          "tr": "Pratik yapmazsan, gelişmeyeceksin.",
+          "fr": "Si tu ne t'entraînes pas, tu ne t'amélioreras pas.",
+          "de": "Wenn du nicht übst, wirst du dich nicht verbessern."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "If he doesn't study, he won't pass the test.",
+        "translations": {
+          "tr": "Çalışmazsa, testi geçmeyecek.",
+          "fr": "S'il n'étudie pas, il ne réussira pas l'examen.",
+          "de": "Wenn er nicht lernt, wird er den Test nicht bestehen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "If you don't water the plants, they will die.",
+        "translations": {
+          "tr": "Bitkileri sulamazsan, ölecekler.",
+          "fr": "Si tu n'arroses pas les plantes, elles mourront.",
+          "de": "Wenn du die Pflanzen nicht gießt, sterben sie."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "If she doesn't call him, he won't know about the party.",
+        "translations": {
+          "tr": "Aramazsa, partiden haberdar olmayacak.",
+          "fr": "Si elle ne l'appelle pas, il ne saura pas de la fête.",
+          "de": "Wenn sie ihn nicht anruft, wird er von der Party nicht erfahren."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "If you win the lottery, will you quit your job?",
+        "translations": {
+          "tr": "Piyangoyu kazanırsan, işini bırakacak mısın?",
+          "fr": "Si tu gagnes à la loterie, vas-tu quitter ton emploi?",
+          "de": "Wenn du in der Lotterie gewinnst, wirst du deinen Job kündigen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "If it snows, will you go skiing?",
+        "translations": {
+          "tr": "Kar yağarsa, kayak yapmaya gidecek misin?",
+          "fr": "S'il neige, vas-tu faire du ski?",
+          "de": "Wenn es schneit, wirst du Ski fahren?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "If you finish early, will you help me?",
+        "translations": {
+          "tr": "Erken bitirirsen, bana yardım edecek misin?",
+          "fr": "Si tu termines tôt, m'aideras-tu?",
+          "de": "Wenn du früh fertig wirst, hilfst du mir?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "If they arrive late, will the meeting be cancelled?",
+        "translations": {
+          "tr": "Geç gelirse, toplantı iptal mi olacak?",
+          "fr": "S'ils arrivent en retard, la réunion sera-t-elle annulée?",
+          "de": "Wenn sie zu spät ankommen, wird das Treffen abgesagt?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "If you get the job, will you move to the city?",
+        "translations": {
+          "tr": "İşi alırsan, şehre taşınacak mısın?",
+          "fr": "Si tu obtiens l'emploi, vas-tu te déplacer à la ville?",
+          "de": "Wenn du den Job bekommst, ziehst du in die Stadt?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "If the weather is nice, will you go to the beach?",
+        "translations": {
+          "tr": "Hava güzel olursa, plaja gidecek misin?",
+          "fr": "Si le temps est beau, vas-tu aller à la plage?",
+          "de": "Wenn das Wetter schön ist, wirst du zum Strand gehen?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "conditional-2",
+    "name": "Second Conditional",
+    "order": 13,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "If I had more money, I would buy a house.",
+        "translations": {
+          "tr": "Daha fazla param olsaydı, bir ev satın alırdım.",
+          "fr": "Si j'avais plus d'argent, j'achèterais une maison.",
+          "de": "Wenn ich mehr Geld hätte, würde ich ein Haus kaufen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "If you studied harder, you would pass the exam.",
+        "translations": {
+          "tr": "Daha sıkı çalışsaydın, sınavı geçerdin.",
+          "fr": "Si tu étudiais davantage, tu réussirais l'examen.",
+          "de": "Wenn du fleißiger lerntest, würdest du die Prüfung bestehen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "If we moved to the coast, we would swim every day.",
+        "translations": {
+          "tr": "Sahile taşınsaydık, her gün yüzerdik.",
+          "fr": "Si nous allions à la côte, nous naguerions chaque jour.",
+          "de": "Wenn wir an die Küste ziehen würden, würden wir jeden Tag schwimmen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "If she had a car, she would drive to work.",
+        "translations": {
+          "tr": "Arabası olsaydı, işe araba ile giderdi.",
+          "fr": "Si elle avait une voiture, elle irait au travail en voiture.",
+          "de": "Wenn sie ein Auto hätte, würde sie zur Arbeit fahren."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "If they invited me, I would go to the party.",
+        "translations": {
+          "tr": "Beni davet etselerdi, partiye giderdim.",
+          "fr": "S'ils m'invitaient, j'irais à la fête.",
+          "de": "Wenn sie mich einladen würden, würde ich zur Party gehen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "If he asked her out, she would say yes.",
+        "translations": {
+          "tr": "Ona çıkmak için teklif etseydi, evet diyecekti.",
+          "fr": "S'il lui demandait de sortir, elle dirait oui.",
+          "de": "Wenn er sie fragen würde, ob sie ausgehen will, würde sie ja sagen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "If I had more money, I wouldn't worry about bills.",
+        "translations": {
+          "tr": "Daha fazla param olsaydı, faturalar hakkında endişelenmezdim.",
+          "fr": "Si j'avais plus d'argent, je ne m'inquiéterais pas pour les factures.",
+          "de": "Wenn ich mehr Geld hätte, würde ich mir keine Sorgen um Rechnungen machen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "If you didn't work so much, you wouldn't be so tired.",
+        "translations": {
+          "tr": "Bu kadar çalışmassaydın, bu kadar yorgun olmazdın.",
+          "fr": "Si tu ne travaillais pas autant, tu ne serais pas si fatigué.",
+          "de": "Wenn du nicht so viel arbeiten würdest, würdest du nicht so müde sein."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "If we lived in the city, we wouldn't have a garden.",
+        "translations": {
+          "tr": "Şehirde yaşasaydık, bir bahçemiz olmazdı.",
+          "fr": "Si nous vivions en ville, nous n'aurions pas de jardin.",
+          "de": "Wenn wir in der Stadt leben würden, würden wir keinen Garten haben."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "If she didn't like him, she wouldn't spend time with him.",
+        "translations": {
+          "tr": "Onu beğenmeseydi, onunla zaman geçirmezdi.",
+          "fr": "Si elle ne l'aimait pas, elle ne passerait pas du temps avec lui.",
+          "de": "Wenn sie ihn nicht mochte, würde sie nicht mit ihm Zeit verbringen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "If they knew the truth, they wouldn't be angry.",
+        "translations": {
+          "tr": "Gerçeği bilselerdi, kızmazdılar.",
+          "fr": "S'ils connaissaient la vérité, ils ne seraient pas en colère.",
+          "de": "Wenn sie die Wahrheit wüssten, würden sie nicht wütend sein."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "If he didn't love his job, he wouldn't do it so well.",
+        "translations": {
+          "tr": "İşini sevmeseydi, bunu bu kadar iyi yapmazdı.",
+          "fr": "S'il n'aimait pas son travail, il ne le ferait pas si bien.",
+          "de": "Wenn er seinen Job nicht lieben würde, würde er ihn nicht so gut machen."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Would you travel more if you had the time?",
+        "translations": {
+          "tr": "Zamanın olsaydı, daha fazla seyahat eder miydin?",
+          "fr": "Voyagerais-tu plus si tu avais le temps?",
+          "de": "Würdest du mehr reisen, wenn du die Zeit hättest?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Would she take the job if it paid better?",
+        "translations": {
+          "tr": "İş daha iyi ödeme yapsaydı, işi kabul eder miydi?",
+          "fr": "Accepterait-elle l'emploi s'il payait mieux?",
+          "de": "Würde sie den Job annehmen, wenn er besser bezahlt wäre?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Would they move away if they found a better place?",
+        "translations": {
+          "tr": "Daha iyi bir yer bulsaydılar, uzaklaşırlar mıydı?",
+          "fr": "S'ils trouvaient un meilleur endroit, partiraient-ils?",
+          "de": "Würden sie umziehen, wenn sie einen besseren Ort finden würden?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Would you feel better if you exercised more?",
+        "translations": {
+          "tr": "Daha fazla egzersiz yapsaydın, kendini daha iyi hisseder misin?",
+          "fr": "Te sentirais-tu mieux si tu faisais plus d'exercice?",
+          "de": "Würdest du dich besser fühlen, wenn du mehr trainieren würdest?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Would he help us if we asked him?",
+        "translations": {
+          "tr": "Ona sorsaydık, bize yardım eder miydi?",
+          "fr": "Nous aiderait-il si nous lui demandions?",
+          "de": "Würde er uns helfen, wenn wir ihn fragten?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Would they come if we invited them?",
+        "translations": {
+          "tr": "Onları davet etseydig, gelirler miydi?",
+          "fr": "Viendraient-ils si nous les invitions?",
+          "de": "Würden sie kommen, wenn wir sie einladen würden?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "conditional-3",
+    "name": "Third Conditional",
+    "order": 14,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "If I had studied harder, I would have passed the exam.",
+        "translations": {
+          "tr": "Eğer daha sıkı çalışmış olsaydım, sınavı geçmiş olurdum.",
+          "fr": "Si j'avais étudié plus dur, j'aurais réussi l'examen.",
+          "de": "Wenn ich fleißiger gelernt hätte, hätte ich die Prüfung bestanden."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "If she had left earlier, she would have caught the train.",
+        "translations": {
+          "tr": "Eğer daha erken ayrılmış olsaydı, treni tutmuş olurdu.",
+          "fr": "Si elle était partie plus tôt, elle aurait attrapé le train.",
+          "de": "Wenn sie früher gegangen wäre, hätte sie den Zug erreicht."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "If we had booked in advance, we would have got a better price.",
+        "translations": {
+          "tr": "Eğer önceden rezervasyon yaptırmış olsaydık, daha iyi bir fiyat almış olacaktık.",
+          "fr": "Si nous avions réservé à l'avance, nous aurions eu un meilleur prix.",
+          "de": "Wenn wir im Voraus gebucht hätten, hätten wir einen besseren Preis bekommen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "If he had listened to me, he would have avoided the problem.",
+        "translations": {
+          "tr": "Eğer beni dinlemiş olsaydı, sorunu önlemiş olurdu.",
+          "fr": "S'il m'avait écouté, il aurait évité le problème.",
+          "de": "Wenn er mir zugehört hätte, hätte er das Problem vermieden."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "If you had watered the plants, they would have survived.",
+        "translations": {
+          "tr": "Eğer bitkileri sulamış olsaydın, hayatta kalmış olurdu.",
+          "fr": "Si tu avais arrosé les plantes, elles auraient survécu.",
+          "de": "Wenn du die Pflanzen gegossen hättest, wären sie am Leben geblieben."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "If they had checked the weather, they would have taken an umbrella.",
+        "translations": {
+          "tr": "Eğer hava durumunu kontrol etmiş olsaydılar, bir şemsiye almış olacaklardı.",
+          "fr": "S'ils avaient vérifié la météo, ils auraient pris un parapluie.",
+          "de": "Wenn sie das Wetter überprüft hätten, hätten sie einen Regenschirm mitgenommen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "If I hadn't been late, I wouldn't have missed the meeting.",
+        "translations": {
+          "tr": "Eğer geç kalmamış olsaydım, toplantıyı kaçırmamış olurdum.",
+          "fr": "Si je n'avais pas été en retard, je n'aurais pas manqué la réunion.",
+          "de": "Wenn ich nicht zu spät gekommen wäre, hätte ich die Besprechung nicht verpasst."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "If she hadn't forgotten her keys, she wouldn't have gone back home.",
+        "translations": {
+          "tr": "Eğer anahtarlarını unutmamış olsaydı, eve geri dönmemiş olurdu.",
+          "fr": "Si elle n'avait pas oublié ses clés, elle ne serait pas retournée à la maison.",
+          "de": "Wenn sie ihre Schlüssel nicht vergessen hätte, wäre sie nicht nach Hause zurückgegangen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "If we hadn't taken the wrong turn, we wouldn't have gotten lost.",
+        "translations": {
+          "tr": "Eğer yanlış yönü tutmamış olsaydık, kaybolmamış olacaktık.",
+          "fr": "Si nous n'avions pas pris la mauvaise direction, nous ne nous serions pas perdus.",
+          "de": "Wenn wir nicht die falsche Richtung genommen hätten, wären wir nicht verloren gegangen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "If he hadn't been injured, he wouldn't have missed the game.",
+        "translations": {
+          "tr": "Eğer yaralanmamış olsaydı, oyunu kaçırmamış olurdu.",
+          "fr": "S'il n'avait pas été blessé, il n'aurait pas manqué le match.",
+          "de": "Wenn er nicht verletzt worden wäre, hätte er das Spiel nicht verpasst."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "If they hadn't argued, they wouldn't have stopped talking.",
+        "translations": {
+          "tr": "Eğer tartışmamış olsaydılar, konuşmayı bırakmamış olacaklardı.",
+          "fr": "S'ils n'avaient pas eu de dispute, ils n'auraient pas arrêté de parler.",
+          "de": "Wenn sie sich nicht gestritten hätten, hätten sie nicht aufgehört zu reden."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "If I hadn't checked my phone, I wouldn't have seen the message.",
+        "translations": {
+          "tr": "Eğer telefonumu kontrol etmemiş olsaydım, mesajı görmemiş olurdum.",
+          "fr": "Si je n'avais pas vérifié mon téléphone, je n'aurais pas vu le message.",
+          "de": "Wenn ich mein Telefon nicht überprüft hätte, hätte ich die Nachricht nicht gesehen."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Would you have bought the car if you had known about the problem?",
+        "translations": {
+          "tr": "Eğer sorundan haberdar olmuş olsaydın, arabayı satın almış olur muydun?",
+          "fr": "Aurais-tu acheté la voiture si tu avais connu le problème?",
+          "de": "Hättest du das Auto gekauft, wenn du das Problem gewusst hättest?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Would she have accepted the job if she had known the salary?",
+        "translations": {
+          "tr": "Eğer maaşı bilmiş olsaydı, işi kabul etmiş olur muydu?",
+          "fr": "Aurait-elle accepté l'emploi si elle avait connu le salaire?",
+          "de": "Hätte sie den Job angenommen, wenn sie das Gehalt gewusst hätte?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Would they have come to the party if they had received the invitation?",
+        "translations": {
+          "tr": "Eğer daveti almış olsaydılar, partiye gelmiş olacaklar mıydı?",
+          "fr": "Seraient-ils venus à la fête s'ils avaient reçu l'invitation?",
+          "de": "Wären sie zur Party gekommen, wenn sie die Einladung bekommen hätten?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Would he have stayed if you had asked him?",
+        "translations": {
+          "tr": "Eğer ona sormuş olsaydın, kalmış olur muydu?",
+          "fr": "Serait-il resté si tu lui avais demandé?",
+          "de": "Wäre er geblieben, wenn du ihn gefragt hättest?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Would you have helped if I had called you?",
+        "translations": {
+          "tr": "Eğer seni aramış olsaydım, bana yardım etmiş olur muydun?",
+          "fr": "M'aurais-tu aidé si je t'avais appelé?",
+          "de": "Hättest du mir geholfen, wenn ich dich angerufen hätte?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Would they have understood if you had explained better?",
+        "translations": {
+          "tr": "Eğer daha iyi açıklamış olsaydın, anlamış olacaklar mıydı?",
+          "fr": "Auraient-ils compris si tu avais mieux expliqué?",
+          "de": "Hätten sie verstanden, wenn du es besser erklärt hättest?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "passive-voice",
+    "name": "Passive Voice",
+    "order": 15,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "The phone was charged overnight.",
+        "translations": {
+          "tr": "Telefon gece boyunca şarj edildi.",
+          "fr": "Le téléphone a été chargé toute la nuit.",
+          "de": "Das Telefon wurde über Nacht aufgeladen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "The room is being cleaned right now.",
+        "translations": {
+          "tr": "Oda şu anda temizleniyor.",
+          "fr": "La pièce est en train d'être nettoyée en ce moment.",
+          "de": "Das Zimmer wird gerade gereinigt."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "The breakfast has been prepared.",
+        "translations": {
+          "tr": "Kahvaltı hazırlanmış.",
+          "fr": "Le petit-déjeuner a été préparé.",
+          "de": "Das Frühstück wurde zubereitet."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "The dishes were washed by my sister.",
+        "translations": {
+          "tr": "Tabaklar kız kardeşim tarafından yıkandı.",
+          "fr": "La vaisselle a été lavée par ma sœur.",
+          "de": "Das Geschirr wurde von meiner Schwester gewaschen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "The appointment was cancelled yesterday.",
+        "translations": {
+          "tr": "Randevu dün iptal edildi.",
+          "fr": "Le rendez-vous a été annulé hier.",
+          "de": "Der Termin wurde gestern abgesagt."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "My car is being repaired this week.",
+        "translations": {
+          "tr": "Arabam bu hafta tamir ediliyor.",
+          "fr": "Ma voiture est en train d'être réparée cette semaine.",
+          "de": "Mein Auto wird diese Woche repariert."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "The phone was not charged overnight.",
+        "translations": {
+          "tr": "Telefon gece boyunca şarj edilmedi.",
+          "fr": "Le téléphone n'a pas été chargé toute la nuit.",
+          "de": "Das Telefon wurde nicht über Nacht aufgeladen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "The room is not being cleaned right now.",
+        "translations": {
+          "tr": "Oda şu anda temizlenmiyor.",
+          "fr": "La pièce n'est pas en train d'être nettoyée en ce moment.",
+          "de": "Das Zimmer wird gerade nicht gereinigt."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "The breakfast has not been prepared.",
+        "translations": {
+          "tr": "Kahvaltı hazırlanmamış.",
+          "fr": "Le petit-déjeuner n'a pas été préparé.",
+          "de": "Das Frühstück wurde nicht zubereitet."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "The dishes were not washed by my sister.",
+        "translations": {
+          "tr": "Tabaklar kız kardeşim tarafından yıkanmadı.",
+          "fr": "La vaisselle n'a pas été lavée par ma sœur.",
+          "de": "Das Geschirr wurde nicht von meiner Schwester gewaschen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "The appointment was not cancelled yesterday.",
+        "translations": {
+          "tr": "Randevu dün iptal edilmedi.",
+          "fr": "Le rendez-vous n'a pas été annulé hier.",
+          "de": "Der Termin wurde gestern nicht abgesagt."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "My car is not being repaired this week.",
+        "translations": {
+          "tr": "Arabam bu hafta tamir edilmiyor.",
+          "fr": "Ma voiture n'est pas en train d'être réparée cette semaine.",
+          "de": "Mein Auto wird diese Woche nicht repariert."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Was the phone charged overnight?",
+        "translations": {
+          "tr": "Telefon gece boyunca şarj edildi mi?",
+          "fr": "Le téléphone a-t-il été chargé toute la nuit?",
+          "de": "Wurde das Telefon über Nacht aufgeladen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Is the room being cleaned right now?",
+        "translations": {
+          "tr": "Oda şu anda temizleniyor mu?",
+          "fr": "La pièce est-elle en train d'être nettoyée en ce moment?",
+          "de": "Wird das Zimmer gerade gereinigt?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Has the breakfast been prepared?",
+        "translations": {
+          "tr": "Kahvaltı hazırlandı mı?",
+          "fr": "Le petit-déjeuner a-t-il été préparé?",
+          "de": "Wurde das Frühstück zubereitet?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Were the dishes washed by your sister?",
+        "translations": {
+          "tr": "Tabaklar senin kız kardeşin tarafından yıkandı mı?",
+          "fr": "La vaisselle a-t-elle été lavée par ta sœur?",
+          "de": "Wurde das Geschirr von deiner Schwester gewaschen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Was the appointment cancelled yesterday?",
+        "translations": {
+          "tr": "Randevu dün iptal edildi mi?",
+          "fr": "Le rendez-vous a-t-il été annulé hier?",
+          "de": "Wurde der Termin gestern abgesagt?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Is your car being repaired this week?",
+        "translations": {
+          "tr": "Arabanız bu hafta tamir ediliyor mu?",
+          "fr": "Votre voiture est-elle en train d'être réparée cette semaine?",
+          "de": "Wird dein Auto diese Woche repariert?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "reported-speech",
+    "name": "Reported Speech",
+    "order": 16,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "She said she was tired.",
+        "translations": {
+          "tr": "O, yorgun olduğunu söyledi.",
+          "fr": "Elle a dit qu'elle était fatiguée.",
+          "de": "Sie sagte, dass sie müde war."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "He told me he loved this song.",
+        "translations": {
+          "tr": "Bana bu şarkıyı sevdiğini söyledi.",
+          "fr": "Il m'a dit qu'il aimait cette chanson.",
+          "de": "Er sagte mir, dass er diesen Song liebte."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "They reported that the meeting was cancelled.",
+        "translations": {
+          "tr": "Toplantının iptal edildiğini bildirdiler.",
+          "fr": "Ils ont rapporté que la réunion était annulée.",
+          "de": "Sie berichteten, dass das Treffen abgesagt wurde."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "My friend mentioned she was moving to Paris.",
+        "translations": {
+          "tr": "Arkadaşım Paris'e taşındığını söyledi.",
+          "fr": "Mon ami a mentionné qu'elle déménageait à Paris.",
+          "de": "Mein Freund erwähnte, dass sie nach Paris zog."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "The teacher explained that photosynthesis is important.",
+        "translations": {
+          "tr": "Öğretmen, fotosentezin önemli olduğunu açıkladı.",
+          "fr": "Le professeur a expliqué que la photosynthèse était importante.",
+          "de": "Der Lehrer erklärte, dass die Photosynthese wichtig ist."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "He assured me everything would be fine.",
+        "translations": {
+          "tr": "Bana her şeyin iyi olacağını güvence verdi.",
+          "fr": "Il m'a assuré que tout irait bien.",
+          "de": "Er versicherte mir, dass alles gut gehen würde."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "He said he wasn't coming to the party.",
+        "translations": {
+          "tr": "Partiye gelmeyeceğini söyledi.",
+          "fr": "Il a dit qu'il ne viendrait pas à la fête.",
+          "de": "Er sagte, dass er nicht zur Party kommen würde."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "She told me she didn't like coffee.",
+        "translations": {
+          "tr": "Bana kahveyi sevmediğini söyledi.",
+          "fr": "Elle m'a dit qu'elle n'aimait pas le café.",
+          "de": "Sie sagte mir, dass sie Kaffee nicht mochte."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "They claimed they hadn't seen the movie.",
+        "translations": {
+          "tr": "Filmi izlemediklerini iddia ettiler.",
+          "fr": "Ils ont prétendu qu'ils n'avaient pas vu le film.",
+          "de": "Sie behaupteten, dass sie den Film nicht gesehen hatten."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "My brother said he wouldn't help me.",
+        "translations": {
+          "tr": "Kardeşim bana yardımcı olmayacağını söyledi.",
+          "fr": "Mon frère a dit qu'il ne m'aiderait pas.",
+          "de": "Mein Bruder sagte, dass er mir nicht helfen würde."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "The doctor explained that the patient wouldn't recover quickly.",
+        "translations": {
+          "tr": "Doktor, hastanın çabuk iyileşmeyeceğini açıkladı.",
+          "fr": "Le docteur a expliqué que le patient ne se rétablirait pas rapidement.",
+          "de": "Der Arzt erklärte, dass der Patient sich nicht schnell erholen würde."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "She mentioned she didn't remember the password.",
+        "translations": {
+          "tr": "Şifreyi hatırlamadığını söyledi.",
+          "fr": "Elle a mentionné qu'elle ne se souvenait pas du mot de passe.",
+          "de": "Sie erwähnte, dass sie sich das Passwort nicht merken konnte."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "He asked if she was coming tomorrow.",
+        "translations": {
+          "tr": "Yarın gelip gelmeyeceğini sordu.",
+          "fr": "Il a demandé si elle venait demain.",
+          "de": "Er fragte, ob sie morgen kommen würde."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "She wanted to know whether he had finished his homework.",
+        "translations": {
+          "tr": "Ödevini bitirip bitirmediğini bilmek istedi.",
+          "fr": "Elle voulait savoir s'il avait terminé ses devoirs.",
+          "de": "Sie wollte wissen, ob er seine Hausaufgaben fertig gemacht hatte."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "They inquired where the nearest hospital was.",
+        "translations": {
+          "tr": "En yakın hastanenin nerede olduğunu sormuşlar.",
+          "fr": "Ils ont demandé où se trouvait l'hôpital le plus proche.",
+          "de": "Sie erkundigten sich, wo das nächste Krankenhaus war."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "My mother asked what time I would be home.",
+        "translations": {
+          "tr": "Annem ne zaman eve döneceğimi sordu.",
+          "fr": "Ma mère a demandé à quelle heure je serais à la maison.",
+          "de": "Meine Mutter fragte, um wie viel Uhr ich nach Hause kommen würde."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "He wondered if she was interested in the job.",
+        "translations": {
+          "tr": "İşle ilgilenip ilgilenmediğini merak etti.",
+          "fr": "Il se demandait si elle était intéressée par l'emploi.",
+          "de": "Er fragte sich, ob sie an der Stelle interessiert war."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "She asked me who had taken the last cookie.",
+        "translations": {
+          "tr": "Bana son kurabiyeyi kimin aldığını sordu.",
+          "fr": "Elle m'a demandé qui avait pris le dernier biscuit.",
+          "de": "Sie fragte mich, wer den letzten Keks genommen hatte."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "comparatives-superlatives",
+    "name": "Comparatives & Superlatives",
+    "order": 17,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "This coffee is hotter than the one I had yesterday.",
+        "translations": {
+          "tr": "Bu kahve dün içtiğim olandan daha sıcak.",
+          "fr": "Ce café est plus chaud que celui que j'ai bu hier.",
+          "de": "Dieser Kaffee ist heißer als der, den ich gestern getrunken habe."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "She is the smartest person in our class.",
+        "translations": {
+          "tr": "O, sınıfımızın en akıllı kişisidir.",
+          "fr": "Elle est la personne la plus intelligente de notre classe.",
+          "de": "Sie ist die intelligenteste Person in unserer Klasse."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "My phone is more expensive than yours.",
+        "translations": {
+          "tr": "Benim telefonum senininkinden daha pahalı.",
+          "fr": "Mon téléphone est plus cher que le tien.",
+          "de": "Mein Handy ist teurer als deins."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "That's the best movie I've ever seen.",
+        "translations": {
+          "tr": "Bu, şimdiye kadar gördüğüm en iyi film.",
+          "fr": "C'est le meilleur film que j'ai jamais vu.",
+          "de": "Das ist der beste Film, den ich je gesehen habe."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "Winter is colder than autumn.",
+        "translations": {
+          "tr": "Kış, sonbahardan daha soğuk.",
+          "fr": "L'hiver est plus froid que l'automne.",
+          "de": "Der Winter ist kälter als der Herbst."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "He's the tallest player on the team.",
+        "translations": {
+          "tr": "O, takımdaki en uzun boylu oyuncu.",
+          "fr": "Il est le joueur le plus grand de l'équipe.",
+          "de": "Er ist der größte Spieler im Team."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "This coffee isn't as hot as I expected.",
+        "translations": {
+          "tr": "Bu kahve beklendiği kadar sıcak değil.",
+          "fr": "Ce café n'est pas aussi chaud que je m'y attendais.",
+          "de": "Dieser Kaffee ist nicht so heiß wie ich erwartet habe."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "She isn't the smartest person in the room.",
+        "translations": {
+          "tr": "O, odadaki en akıllı kişi değil.",
+          "fr": "Elle n'est pas la personne la plus intelligente de la pièce.",
+          "de": "Sie ist nicht die intelligenteste Person im Raum."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "My phone isn't more expensive than yours.",
+        "translations": {
+          "tr": "Benim telefonum senininkinden daha pahalı değil.",
+          "fr": "Mon téléphone n'est pas plus cher que le tien.",
+          "de": "Mein Handy ist nicht teurer als deins."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "That's not the best movie I've ever seen.",
+        "translations": {
+          "tr": "Bu, şimdiye kadar gördüğüm en iyi film değil.",
+          "fr": "Ce n'est pas le meilleur film que j'ai jamais vu.",
+          "de": "Das ist nicht der beste Film, den ich je gesehen habe."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "Winter isn't warmer than summer.",
+        "translations": {
+          "tr": "Kış, yazdan daha sıcak değil.",
+          "fr": "L'hiver n'est pas plus chaud que l'été.",
+          "de": "Der Winter ist nicht wärmer als der Sommer."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "He's not the tallest player on the team.",
+        "translations": {
+          "tr": "O, takımdaki en uzun boylu oyuncu değil.",
+          "fr": "Il n'est pas le joueur le plus grand de l'équipe.",
+          "de": "Er ist nicht der größte Spieler im Team."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Is this coffee hotter than the one you had yesterday?",
+        "translations": {
+          "tr": "Bu kahve dün içtiğin olandan daha sıcak mı?",
+          "fr": "Ce café est-il plus chaud que celui que tu as bu hier?",
+          "de": "Ist dieser Kaffee heißer als der, den du gestern getrunken hast?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Is she the smartest person in our class?",
+        "translations": {
+          "tr": "O, sınıfımızın en akıllı kişisi mi?",
+          "fr": "Est-elle la personne la plus intelligente de notre classe?",
+          "de": "Ist sie die intelligenteste Person in unserer Klasse?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Is my phone more expensive than yours?",
+        "translations": {
+          "tr": "Benim telefonum senininkinden daha pahalı mı?",
+          "fr": "Mon téléphone est-il plus cher que le tien?",
+          "de": "Ist mein Handy teurer als deins?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Isn't that the best movie you've ever seen?",
+        "translations": {
+          "tr": "Bu, şimdiye kadar gördüğün en iyi film değil mi?",
+          "fr": "N'est-ce pas le meilleur film que tu aies jamais vu?",
+          "de": "Ist das nicht der beste Film, den du je gesehen hast?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Isn't winter colder than autumn?",
+        "translations": {
+          "tr": "Kış, sonbahardan daha soğuk değil mi?",
+          "fr": "L'hiver n'est-il pas plus froid que l'automne?",
+          "de": "Ist der Winter nicht kälter als der Herbst?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Is he the tallest player on the team?",
+        "translations": {
+          "tr": "O, takımdaki en uzun boylu oyuncu mu?",
+          "fr": "Est-il le joueur le plus grand de l'équipe?",
+          "de": "Ist er der größte Spieler im Team?"
+        }
+      }
+    ]
+  }
+]

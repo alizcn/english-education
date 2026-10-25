@@ -1,0 +1,3368 @@
+[
+  {
+    "slug": "present-indicatif",
+    "name": "Présent de l'indicatif",
+    "order": 0,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "Je parle français.",
+        "translations": {
+          "tr": "Fransızca konuşuyorum.",
+          "en": "I speak French.",
+          "de": "Ich spreche Französisch."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "Elle mange une pomme.",
+        "translations": {
+          "tr": "Bir elma yiyor.",
+          "en": "She eats an apple.",
+          "de": "Sie isst einen Apfel."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "Nous habitons à Paris.",
+        "translations": {
+          "tr": "Paris'te yaşıyoruz.",
+          "en": "We live in Paris.",
+          "de": "Wir wohnen in Paris."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "Tu travailles beaucoup.",
+        "translations": {
+          "tr": "Çok çalışıyorsun.",
+          "en": "You work a lot.",
+          "de": "Du arbeitest viel."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "Ils écoutent de la musique.",
+        "translations": {
+          "tr": "Müzik dinliyorlar.",
+          "en": "They listen to music.",
+          "de": "Sie hören Musik."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "Je bois un café.",
+        "translations": {
+          "tr": "Bir kahve içiyorum.",
+          "en": "I drink a coffee.",
+          "de": "Ich trinke einen Kaffee."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "Je ne parle pas anglais.",
+        "translations": {
+          "tr": "İngilizce konuşmuyorum.",
+          "en": "I don't speak English.",
+          "de": "Ich spreche kein Englisch."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "Elle ne mange pas de viande.",
+        "translations": {
+          "tr": "Et yemiyor.",
+          "en": "She doesn't eat meat.",
+          "de": "Sie isst kein Fleisch."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "Nous n'habitons pas à Lyon.",
+        "translations": {
+          "tr": "Lyon'da yaşamıyoruz.",
+          "en": "We don't live in Lyon.",
+          "de": "Wir wohnen nicht in Lyon."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "Tu ne travailles pas aujourd'hui.",
+        "translations": {
+          "tr": "Bugün çalışmıyorsun.",
+          "en": "You don't work today.",
+          "de": "Du arbeitest heute nicht."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "Ils n'écoutent pas la radio.",
+        "translations": {
+          "tr": "Radyo dinlemiyorlar.",
+          "en": "They don't listen to the radio.",
+          "de": "Sie hören nicht Radio."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "Je ne bois pas d'alcool.",
+        "translations": {
+          "tr": "Alkol içmiyorum.",
+          "en": "I don't drink alcohol.",
+          "de": "Ich trinke keinen Alkohol."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Parles-tu français?",
+        "translations": {
+          "tr": "Fransızca konuşuyor musun?",
+          "en": "Do you speak French?",
+          "de": "Sprichst du Französisch?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Mangent-elles une salade?",
+        "translations": {
+          "tr": "Salata yiyorlar mı?",
+          "en": "Do they eat a salad?",
+          "de": "Essen sie einen Salat?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Habitez-vous en France?",
+        "translations": {
+          "tr": "Fransa'da yaşıyor musunuz?",
+          "en": "Do you live in France?",
+          "de": "Wohnen Sie in Frankreich?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Travaille-t-il ce soir?",
+        "translations": {
+          "tr": "Bu akşam çalışıyor mu?",
+          "en": "Does he work tonight?",
+          "de": "Arbeitet er heute Abend?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Écoutez-vous cette chanson?",
+        "translations": {
+          "tr": "Bu şarkıyı dinliyorsunuz mu?",
+          "en": "Do you listen to this song?",
+          "de": "Hören Sie dieses Lied?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Buvez-vous du café?",
+        "translations": {
+          "tr": "Kahve içiyorsunuz mu?",
+          "en": "Do you drink coffee?",
+          "de": "Trinken Sie Kaffee?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "passe-compose",
+    "name": "Passé composé",
+    "order": 1,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "J'ai mangé une pomme ce matin.",
+        "translations": {
+          "tr": "Sabah bir elma yedim.",
+          "en": "I ate an apple this morning.",
+          "de": "Ich habe heute Morgen einen Apfel gegessen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "Elle a terminé son travail.",
+        "translations": {
+          "tr": "İşini bitirdi.",
+          "en": "She finished her work.",
+          "de": "Sie hat ihre Arbeit beendet."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "Nous avons regardé un film hier.",
+        "translations": {
+          "tr": "Dün bir film izledik.",
+          "en": "We watched a movie yesterday.",
+          "de": "Wir haben gestern einen Film angeschaut."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "Ils ont visité Paris l'année dernière.",
+        "translations": {
+          "tr": "Geçen yıl Paris'i ziyaret ettiler.",
+          "en": "They visited Paris last year.",
+          "de": "Sie haben Paris letztes Jahr besucht."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "Tu as acheté du lait.",
+        "translations": {
+          "tr": "Süt aldın.",
+          "en": "You bought milk.",
+          "de": "Du hast Milch gekauft."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "Je suis allé à l'école.",
+        "translations": {
+          "tr": "Okula gittim.",
+          "en": "I went to school.",
+          "de": "Ich bin zur Schule gegangen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "Je n'ai pas mangé.",
+        "translations": {
+          "tr": "Yemek yemedim.",
+          "en": "I didn't eat.",
+          "de": "Ich habe nicht gegessen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "Elle n'a pas terminé.",
+        "translations": {
+          "tr": "Bitirmedi.",
+          "en": "She didn't finish.",
+          "de": "Sie hat nicht beendet."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "Nous n'avons pas regardé.",
+        "translations": {
+          "tr": "İzlemedik.",
+          "en": "We didn't watch.",
+          "de": "Wir haben nicht angeschaut."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "Ils n'ont pas visité.",
+        "translations": {
+          "tr": "Ziyaret etmediler.",
+          "en": "They didn't visit.",
+          "de": "Sie haben nicht besucht."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "Tu n'as pas acheté.",
+        "translations": {
+          "tr": "Almadın.",
+          "en": "You didn't buy.",
+          "de": "Du hast nicht gekauft."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "Je ne suis pas allé.",
+        "translations": {
+          "tr": "Gitmedim.",
+          "en": "I didn't go.",
+          "de": "Ich bin nicht gegangen."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "As-tu mangé?",
+        "translations": {
+          "tr": "Yemek yedin mi?",
+          "en": "Did you eat?",
+          "de": "Hast du gegessen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "A-t-elle terminé?",
+        "translations": {
+          "tr": "Bitirdi mi?",
+          "en": "Did she finish?",
+          "de": "Hat sie beendet?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Avez-vous regardé?",
+        "translations": {
+          "tr": "İzlediniz mi?",
+          "en": "Did you watch?",
+          "de": "Habt ihr angeschaut?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Ont-ils visité?",
+        "translations": {
+          "tr": "Ziyaret ettiler mi?",
+          "en": "Did they visit?",
+          "de": "Haben sie besucht?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "As-tu acheté?",
+        "translations": {
+          "tr": "Aldın mı?",
+          "en": "Did you buy?",
+          "de": "Hast du gekauft?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Es-tu allé?",
+        "translations": {
+          "tr": "Gittin mi?",
+          "en": "Did you go?",
+          "de": "Bist du gegangen?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "imparfait",
+    "name": "Imparfait",
+    "order": 2,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "Je parlais avec mon ami.",
+        "translations": {
+          "tr": "Arkadaşımla konuşuyordum.",
+          "en": "I was speaking with my friend.",
+          "de": "Ich sprach mit meinem Freund."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "Elle mangeait une pomme.",
+        "translations": {
+          "tr": "Bir elma yiyordu.",
+          "en": "She was eating an apple.",
+          "de": "Sie aß einen Apfel."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "Nous jouions dans le parc.",
+        "translations": {
+          "tr": "Parkta oynuyorduk.",
+          "en": "We were playing in the park.",
+          "de": "Wir spielten im Park."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "Tu lisais un livre.",
+        "translations": {
+          "tr": "Bir kitap okuyordun.",
+          "en": "You were reading a book.",
+          "de": "Du lasest ein Buch."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "Ils regardaient la télévision.",
+        "translations": {
+          "tr": "Televizyon izliyorlardı.",
+          "en": "They were watching television.",
+          "de": "Sie sahen fern."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "Il pleuvait ce jour-là.",
+        "translations": {
+          "tr": "O gün yağmur yağıyordu.",
+          "en": "It was raining that day.",
+          "de": "Es regnete an jenem Tag."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "Je ne dormais pas bien.",
+        "translations": {
+          "tr": "İyi uyuyamıyordum.",
+          "en": "I was not sleeping well.",
+          "de": "Ich schlief nicht gut."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "Elle n'aimait pas le café.",
+        "translations": {
+          "tr": "Kahveyi sevmiyordu.",
+          "en": "She did not like coffee.",
+          "de": "Sie mochte keinen Kaffee."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "Nous ne travaillions pas le dimanche.",
+        "translations": {
+          "tr": "Pazar günü çalışmıyorduk.",
+          "en": "We were not working on Sunday.",
+          "de": "Wir arbeiteten nicht am Sonntag."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "Tu ne comprenais pas le français.",
+        "translations": {
+          "tr": "Fransızcayı anlamıyordun.",
+          "en": "You did not understand French.",
+          "de": "Du verstandst kein Französisch."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "Ils n'avaient pas d'argent.",
+        "translations": {
+          "tr": "Parası yoktu.",
+          "en": "They did not have money.",
+          "de": "Sie hatten kein Geld."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "Il ne faisait pas beau.",
+        "translations": {
+          "tr": "Hava güzel değildi.",
+          "en": "It was not nice weather.",
+          "de": "Das Wetter war nicht schön."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Parlais-tu souvent avec tes parents?",
+        "translations": {
+          "tr": "Ebeveynlerinle sık sık konuşuyor muydun?",
+          "en": "Did you speak often with your parents?",
+          "de": "Sprachst du oft mit deinen Eltern?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Qu'est-ce qu'elle faisait?",
+        "translations": {
+          "tr": "O ne yapıyordu?",
+          "en": "What was she doing?",
+          "de": "Was machte sie?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Où habitiez-vous?",
+        "translations": {
+          "tr": "Nerede oturuyordunuz?",
+          "en": "Where were you living?",
+          "de": "Wo wohntet ihr?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Pourquoi ne venait-il pas?",
+        "translations": {
+          "tr": "Neden gelmiyordu?",
+          "en": "Why was he not coming?",
+          "de": "Warum kam er nicht?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Est-ce que tu aimais cette musique?",
+        "translations": {
+          "tr": "Bu müziği seviyor muydun?",
+          "en": "Did you like that music?",
+          "de": "Mochtest du diese Musik?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Combien de temps travailliez-vous?",
+        "translations": {
+          "tr": "Ne kadar süre çalışıyordunuz?",
+          "en": "How long were you working?",
+          "de": "Wie lange arbeitetet ihr?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "plus-que-parfait",
+    "name": "Plus-que-parfait",
+    "order": 3,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "J'avais préparé le dîner avant qu'ils arrivent.",
+        "translations": {
+          "tr": "Onlar gelmeden önce akşam yemeğini hazırlamıştım.",
+          "en": "I had prepared dinner before they arrived.",
+          "de": "Ich hatte das Abendessen vorbereitet, bevor sie ankamen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "Elle était allée à l'école avant midi.",
+        "translations": {
+          "tr": "Öğleden önce okula gitmişti.",
+          "en": "She had gone to school before noon.",
+          "de": "Sie war vor Mittag zur Schule gegangen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "Nous avions fermé la porte avant de partir.",
+        "translations": {
+          "tr": "Ayrılmadan önce kapıyı kapatmıştık.",
+          "en": "We had closed the door before leaving.",
+          "de": "Wir hatten die Tür geschlossen, bevor wir gingen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "Il avait lu le journal le matin.",
+        "translations": {
+          "tr": "O sabah gazeteyi okumuştu.",
+          "en": "He had read the newspaper in the morning.",
+          "de": "Er hatte morgens die Zeitung gelesen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "Tu avais fini ton café avant de sortir.",
+        "translations": {
+          "tr": "Dışarı çıkmadan önce kahveni bitirmiştin.",
+          "en": "You had finished your coffee before going out.",
+          "de": "Du hattest deinen Kaffee getrunken, bevor du hinausgingst."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "Elles avaient rangé leur chambre avant les vacances.",
+        "translations": {
+          "tr": "Tatiller öncesinde odalarını düzenlemişlerdi.",
+          "en": "They had tidied their room before the holidays.",
+          "de": "Sie hatten ihr Zimmer vor den Ferien aufgeräumt."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "Je n'avais pas mangé ce matin-là.",
+        "translations": {
+          "tr": "O sabah yemek yememişim.",
+          "en": "I had not eaten that morning.",
+          "de": "Ich hatte an jenem Morgen nicht gegessen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "Elle n'était pas venue à la réunion.",
+        "translations": {
+          "tr": "Toplantıya gelmemişti.",
+          "en": "She had not come to the meeting.",
+          "de": "Sie war zum Treffen nicht gekommen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "Nous n'avions pas compris l'exercice.",
+        "translations": {
+          "tr": "Alıştırmayı anlamamıştık.",
+          "en": "We had not understood the exercise.",
+          "de": "Wir hatten die Aufgabe nicht verstanden."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "Il n'avait pas appelé ses parents.",
+        "translations": {
+          "tr": "Ebeveynlerini çağırmamıştı.",
+          "en": "He had not called his parents.",
+          "de": "Er hatte seine Eltern nicht angerufen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "Tu n'avais pas vu le match.",
+        "translations": {
+          "tr": "Maçı görmemiştin.",
+          "en": "You had not seen the match.",
+          "de": "Du hattest das Spiel nicht gesehen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "Elles n'avaient pas trouvé leurs clés.",
+        "translations": {
+          "tr": "Anahtarlarını bulamamışlardı.",
+          "en": "They had not found their keys.",
+          "de": "Sie hatten ihre Schlüssel nicht gefunden."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Aviez-vous terminé vos achats?",
+        "translations": {
+          "tr": "Alışverişinizi bitirmiş miydiniz?",
+          "en": "Had you finished your shopping?",
+          "de": "Hattet ihr eure Einkäufe beendet?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Était-elle arrivée à l'heure?",
+        "translations": {
+          "tr": "Zamanında gelmiş miydi?",
+          "en": "Had she arrived on time?",
+          "de": "War sie pünktlich angekommen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Avions-nous oublié quelque chose?",
+        "translations": {
+          "tr": "Bir şeyi unutmuş muyduk?",
+          "en": "Had we forgotten something?",
+          "de": "Hatten wir etwas vergessen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Avait-il fini son projet?",
+        "translations": {
+          "tr": "Projesini bitirmiş miydi?",
+          "en": "Had he finished his project?",
+          "de": "Hatte er sein Projekt beendet?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Avais-tu vu ta mère avant de partir?",
+        "translations": {
+          "tr": "Ayrılmadan önce annen görmüş müydün?",
+          "en": "Had you seen your mother before leaving?",
+          "de": "Hattest du deine Mutter gesehen, bevor du gingst?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Avaient-elles réservé la table?",
+        "translations": {
+          "tr": "Masayı ayırtmışlardı mı?",
+          "en": "Had they reserved the table?",
+          "de": "Hatten sie den Tisch reserviert?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "futur-simple",
+    "name": "Futur simple",
+    "order": 4,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "Je parlerai avec mon ami ce soir.",
+        "translations": {
+          "tr": "Bu akşam arkadaşımla konuşacağım.",
+          "en": "I will speak with my friend this evening.",
+          "de": "Ich werde heute Abend mit meinem Freund sprechen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "Nous irons au cinéma demain.",
+        "translations": {
+          "tr": "Yarın sinemaya gideceğiz.",
+          "en": "We will go to the cinema tomorrow.",
+          "de": "Wir werden morgen ins Kino gehen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "Tu mangeras une pomme.",
+        "translations": {
+          "tr": "Bir elma yiyeceksin.",
+          "en": "You will eat an apple.",
+          "de": "Du wirst einen Apfel essen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "Elle finira son projet avant midi.",
+        "translations": {
+          "tr": "Projesini öğleden önce tamamlayacak.",
+          "en": "She will finish her project before noon.",
+          "de": "Sie wird ihr Projekt vor Mittag fertigstellen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "Il arrivera demain matin.",
+        "translations": {
+          "tr": "Yarın sabah gelecek.",
+          "en": "He will arrive tomorrow morning.",
+          "de": "Er wird morgen früh ankommen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "Vous aurez un nouveau chat.",
+        "translations": {
+          "tr": "Yeni bir kediniz olacak.",
+          "en": "You will have a new cat.",
+          "de": "Sie werden eine neue Katze haben."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "Je ne parlerai pas à mon professeur.",
+        "translations": {
+          "tr": "Öğretmenime konuşmayacağım.",
+          "en": "I will not speak to my teacher.",
+          "de": "Ich werde nicht mit meinem Lehrer sprechen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "Nous n'irons pas à la plage.",
+        "translations": {
+          "tr": "Plaja gitmeyeceğiz.",
+          "en": "We will not go to the beach.",
+          "de": "Wir werden nicht zum Strand gehen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "Tu ne mangeras pas de chocolat.",
+        "translations": {
+          "tr": "Çikolata yemeyeceksin.",
+          "en": "You will not eat chocolate.",
+          "de": "Du wirst keine Schokolade essen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "Elle ne finira pas son travail.",
+        "translations": {
+          "tr": "İşini bitirmeyecek.",
+          "en": "She will not finish her work.",
+          "de": "Sie wird ihre Arbeit nicht beenden."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "Il ne fera pas ses devoirs.",
+        "translations": {
+          "tr": "Ödevlerini yapmayacak.",
+          "en": "He will not do his homework.",
+          "de": "Er wird seine Hausaufgaben nicht machen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "Vous ne verrez pas ce film.",
+        "translations": {
+          "tr": "Bu filmi görmeyeceksiniz.",
+          "en": "You will not see this film.",
+          "de": "Sie werden diesen Film nicht sehen."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Est-ce que je parlerai en français?",
+        "translations": {
+          "tr": "Fransızca konuşacak mıyım?",
+          "en": "Will I speak in French?",
+          "de": "Werde ich auf Französisch sprechen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Irez-vous à l'école?",
+        "translations": {
+          "tr": "Okula gidecek misiniz?",
+          "en": "Will you go to school?",
+          "de": "Werden Sie zur Schule gehen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Tu viendras à la fête?",
+        "translations": {
+          "tr": "Partiye gelecek misin?",
+          "en": "Will you come to the party?",
+          "de": "Wirst du zur Party kommen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Qu'est-ce qu'elle fera ce weekend?",
+        "translations": {
+          "tr": "Bu hafta sonu ne yapacak?",
+          "en": "What will she do this weekend?",
+          "de": "Was wird sie dieses Wochenende tun?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Quand commencerez-vous le projet?",
+        "translations": {
+          "tr": "Projeyi ne zaman başlayacaksınız?",
+          "en": "When will you start the project?",
+          "de": "Wann werden Sie das Projekt beginnen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Auront-ils besoin d'aide?",
+        "translations": {
+          "tr": "Yardıma ihtiyaçları olacak mı?",
+          "en": "Will they need help?",
+          "de": "Werden sie Hilfe brauchen?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "futur-proche",
+    "name": "Futur proche",
+    "order": 5,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "Je vais manger une pomme.",
+        "translations": {
+          "tr": "Bir elma yemeğe gidiyorum.",
+          "en": "I'm going to eat an apple.",
+          "de": "Ich werde einen Apfel essen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "Tu vas regarder la télévision.",
+        "translations": {
+          "tr": "Televizyon izleyeceksin.",
+          "en": "You're going to watch television.",
+          "de": "Du wirst fernsehen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "Il va prendre un café.",
+        "translations": {
+          "tr": "Bir kahve içecek.",
+          "en": "He's going to have a coffee.",
+          "de": "Er wird einen Kaffee nehmen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "Elle va faire les courses.",
+        "translations": {
+          "tr": "Alışveriş yapacak.",
+          "en": "She's going to go shopping.",
+          "de": "Sie wird einkaufen gehen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "Nous allons manger une pizza demain.",
+        "translations": {
+          "tr": "Yarın bir pizza yiyeceğiz.",
+          "en": "We're going to eat a pizza tomorrow.",
+          "de": "Wir werden morgen eine Pizza essen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "Elles vont regarder un film ce soir.",
+        "translations": {
+          "tr": "Bu akşam bir film izleyecekler.",
+          "en": "They're going to watch a movie tonight.",
+          "de": "Sie werden heute Abend einen Film anschauen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "Je ne vais pas manger de sucre.",
+        "translations": {
+          "tr": "Şeker yemeyeceğim.",
+          "en": "I'm not going to eat sugar.",
+          "de": "Ich werde keinen Zucker essen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "Tu ne vas pas venir à la réunion.",
+        "translations": {
+          "tr": "Toplantıya gelmeyeceksin.",
+          "en": "You're not going to come to the meeting.",
+          "de": "Du wirst zum Treffen nicht kommen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "Il ne va pas travailler ce week-end.",
+        "translations": {
+          "tr": "Bu hafta sonunda çalışmayacak.",
+          "en": "He's not going to work this weekend.",
+          "de": "Er wird dieses Wochenende nicht arbeiten."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "Elle ne va pas sortir ce soir.",
+        "translations": {
+          "tr": "Bu akşam çıkmayacak.",
+          "en": "She's not going to go out tonight.",
+          "de": "Sie wird heute Abend nicht ausgehen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "Nous n'allons pas rester à l'hôtel.",
+        "translations": {
+          "tr": "Otelde kalmayacağız.",
+          "en": "We're not going to stay at the hotel.",
+          "de": "Wir werden im Hotel nicht bleiben."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "Elles ne vont pas arriver à l'heure.",
+        "translations": {
+          "tr": "Zamanında ulaşmayacaklar.",
+          "en": "They're not going to arrive on time.",
+          "de": "Sie werden nicht pünktlich ankommen."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Vais-je acheter du pain?",
+        "translations": {
+          "tr": "Ekmek alacak mıyım?",
+          "en": "Am I going to buy bread?",
+          "de": "Werde ich Brot kaufen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Vas-tu venir à la fête?",
+        "translations": {
+          "tr": "Partiye gelecek misin?",
+          "en": "Are you going to come to the party?",
+          "de": "Wirst du zur Party kommen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Va-t-il réussir l'examen?",
+        "translations": {
+          "tr": "Sınavı başaracak mı?",
+          "en": "Is he going to pass the exam?",
+          "de": "Wird er die Prüfung bestehen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Va-t-elle appeler sa mère?",
+        "translations": {
+          "tr": "Annesini arayacak mı?",
+          "en": "Is she going to call her mother?",
+          "de": "Wird sie ihre Mutter anrufen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Allons-nous danser ce soir?",
+        "translations": {
+          "tr": "Bu akşam dans edeceğiz mi?",
+          "en": "Are we going to dance tonight?",
+          "de": "Werden wir heute Abend tanzen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Vont-elles visiter le musée?",
+        "translations": {
+          "tr": "Müzeyi ziyaret edecekler mi?",
+          "en": "Are they going to visit the museum?",
+          "de": "Werden sie das Museum besuchen?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "conditionnel",
+    "name": "Conditionnel présent",
+    "order": 6,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "Je serais heureux de vous aider.",
+        "translations": {
+          "tr": "Sana yardım etmekten mutlu olurdum.",
+          "en": "I would be happy to help you.",
+          "de": "Ich würde glücklich sein, dir zu helfen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "Tu pourrais m'appeler demain.",
+        "translations": {
+          "tr": "Yarın beni arayabilirdin.",
+          "en": "You could call me tomorrow.",
+          "de": "Du könntest mich morgen anrufen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "Il mangerait une pomme s'il en avait une.",
+        "translations": {
+          "tr": "Eğer bir elması olsaydı, onu yiyecekti.",
+          "en": "He would eat an apple if he had one.",
+          "de": "Er würde einen Apfel essen, wenn er einen hätte."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "Nous voyagerions en Europe l'année prochaine.",
+        "translations": {
+          "tr": "Gelecek yıl Avrupa'ya seyahat etmek isterdik.",
+          "en": "We would travel to Europe next year.",
+          "de": "Wir würden nächstes Jahr nach Europa reisen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "Vous devriez essayer ce restaurant.",
+        "translations": {
+          "tr": "Bu restoranı denemelisiniz.",
+          "en": "You should try this restaurant.",
+          "de": "Ihr solltet dieses Restaurant ausprobieren."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "Ils iraient à la plage ce weekend.",
+        "translations": {
+          "tr": "Bu hafta sonu sahile gitmek isteyeceklerdi.",
+          "en": "They would go to the beach this weekend.",
+          "de": "Sie würden dieses Wochenende zum Strand gehen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "Je ne serais pas d'accord avec toi.",
+        "translations": {
+          "tr": "Seninle aynı fikirde olmayacaktım.",
+          "en": "I would not agree with you.",
+          "de": "Ich würde dir nicht zustimmen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "Tu ne pourrais pas venir ce soir.",
+        "translations": {
+          "tr": "Bu gece gelemezdin.",
+          "en": "You couldn't come tonight.",
+          "de": "Du könntest heute Abend nicht kommen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "Il ne mangerait pas de viande.",
+        "translations": {
+          "tr": "Et yemek istemezdi.",
+          "en": "He wouldn't eat meat.",
+          "de": "Er würde kein Fleisch essen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "Nous ne voyagerions jamais sans réservation.",
+        "translations": {
+          "tr": "Hiçbir zaman rezervasyon olmadan seyahat etmezdik.",
+          "en": "We would never travel without a reservation.",
+          "de": "Wir würden niemals ohne Reservierung reisen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "Vous ne devriez pas conduire aussi vite.",
+        "translations": {
+          "tr": "Bu kadar hızlı araba kullanmamalısınız.",
+          "en": "You shouldn't drive so fast.",
+          "de": "Ihr solltet nicht so schnell fahren."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "Ils n'iraient pas à la piscine en hiver.",
+        "translations": {
+          "tr": "Kışta yüzme havuzuna gitmezlerdi.",
+          "en": "They wouldn't go to the pool in winter.",
+          "de": "Sie würden im Winter nicht zum Schwimmbad gehen."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Serais-je assez rapide?",
+        "translations": {
+          "tr": "Yeterince hızlı olur muydum?",
+          "en": "Would I be fast enough?",
+          "de": "Würde ich schnell genug sein?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Pourrais-tu m'aider?",
+        "translations": {
+          "tr": "Bana yardım edebilir misin?",
+          "en": "Could you help me?",
+          "de": "Könntest du mir helfen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Mangerait-il du gâteau?",
+        "translations": {
+          "tr": "Kek yer miydi?",
+          "en": "Would he eat cake?",
+          "de": "Würde er Kuchen essen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Voyagerions-nous ensemble?",
+        "translations": {
+          "tr": "Birlikte seyahat eder miydik?",
+          "en": "Would we travel together?",
+          "de": "Würden wir zusammen reisen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Devriez-vous partir maintenant?",
+        "translations": {
+          "tr": "Şimdi gitmeli misiniz?",
+          "en": "Should you leave now?",
+          "de": "Solltet ihr jetzt gehen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Iraient-ils à la montagne?",
+        "translations": {
+          "tr": "Dağlara gitmek isteyecekler miydi?",
+          "en": "Would they go to the mountains?",
+          "de": "Würden sie in die Berge gehen?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "subjonctif",
+    "name": "Subjonctif présent",
+    "order": 7,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "Il faut que tu fasses tes devoirs.",
+        "translations": {
+          "tr": "Ödevini yapmalısın.",
+          "en": "You must do your homework.",
+          "de": "Du musst deine Hausaufgaben machen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "Je veux que tu sois heureux.",
+        "translations": {
+          "tr": "Seninle mutlu olmanı istiyorum.",
+          "en": "I want you to be happy.",
+          "de": "Ich möchte, dass du glücklich bist."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "Il est important que nous partions bientôt.",
+        "translations": {
+          "tr": "Yakında ayrılmamız önemlidir.",
+          "en": "It is important that we leave soon.",
+          "de": "Es ist wichtig, dass wir bald abreisen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "Elle souhaite que son fils réussisse.",
+        "translations": {
+          "tr": "Oğlunun başarılı olmasını umuyor.",
+          "en": "She hopes that her son succeeds.",
+          "de": "Sie hofft, dass ihr Sohn erfolgreich ist."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "J'ai peur que tu ne viennes pas.",
+        "translations": {
+          "tr": "Gelmeyeceğinden korkuyorum.",
+          "en": "I'm afraid you won't come.",
+          "de": "Ich fürchte, du wirst nicht kommen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "Pourvu qu'il pleuve demain.",
+        "translations": {
+          "tr": "Umarım yarın yağmur yağar.",
+          "en": "I hope it rains tomorrow.",
+          "de": "Hoffentlich regnet es morgen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "Il ne faut pas que tu parles.",
+        "translations": {
+          "tr": "Konuşmamalısın.",
+          "en": "You must not speak.",
+          "de": "Du darfst nicht sprechen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "Je ne veux pas que tu partes.",
+        "translations": {
+          "tr": "Ayrılmanı istemiyorum.",
+          "en": "I don't want you to leave.",
+          "de": "Ich möchte nicht, dass du gehst."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "Il n'est pas nécessaire que vous veniez.",
+        "translations": {
+          "tr": "Gelmeniz gerekli değil.",
+          "en": "It's not necessary that you come.",
+          "de": "Es ist nicht notwendig, dass ihr kommt."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "Elle ne souhaite pas que je fasse du bruit.",
+        "translations": {
+          "tr": "Gürültü yapmamı istemiyor.",
+          "en": "She doesn't wish that I make noise.",
+          "de": "Sie wünscht nicht, dass ich Lärm mache."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "Je ne pense pas qu'il soit possible.",
+        "translations": {
+          "tr": "Bunun mümkün olduğunu düşünmüyorum.",
+          "en": "I don't think it's possible.",
+          "de": "Ich glaube nicht, dass es möglich ist."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "Il est impossible que tu aies raison.",
+        "translations": {
+          "tr": "Haklı olman imkansız.",
+          "en": "It's impossible that you're right.",
+          "de": "Es ist unmöglich, dass du recht hast."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Veux-tu que je t'aide?",
+        "translations": {
+          "tr": "Sana yardım etmemi ister misin?",
+          "en": "Do you want me to help you?",
+          "de": "Möchtest du, dass ich dir helfe?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Crois-tu qu'il soit possible?",
+        "translations": {
+          "tr": "Bunun mümkün olduğunu düşünüyor musun?",
+          "en": "Do you think it's possible?",
+          "de": "Glaubst du, dass es möglich ist?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Faut-il que tu partes maintenant?",
+        "translations": {
+          "tr": "Şimdi ayrılman gerekiyor mu?",
+          "en": "Must you leave now?",
+          "de": "Musst du jetzt gehen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Souhaites-tu que je vienne?",
+        "translations": {
+          "tr": "Gelmemi istiyor musun?",
+          "en": "Do you wish that I come?",
+          "de": "Wünschst du, dass ich komme?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Est-il nécessaire que nous attendions?",
+        "translations": {
+          "tr": "Beklememiz gerekli mi?",
+          "en": "Is it necessary that we wait?",
+          "de": "Ist es notwendig, dass wir warten?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Penses-tu que ce soit vrai?",
+        "translations": {
+          "tr": "Bunun doğru olduğunu düşünüyor musun?",
+          "en": "Do you think it's true?",
+          "de": "Denkst du, dass es wahr ist?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "imperatif",
+    "name": "Impératif",
+    "order": 8,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "Parle plus lentement.",
+        "translations": {
+          "tr": "Daha yavaş konuş.",
+          "en": "Speak more slowly.",
+          "de": "Sprich langsamer."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "Fermez la porte.",
+        "translations": {
+          "tr": "Kapıyı kapatın.",
+          "en": "Close the door.",
+          "de": "Schließen Sie die Tür."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "Prends un café.",
+        "translations": {
+          "tr": "Bir kahve al.",
+          "en": "Have a coffee.",
+          "de": "Nimm einen Kaffee."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "Venez ici maintenant.",
+        "translations": {
+          "tr": "Şimdi buraya gelin.",
+          "en": "Come here now.",
+          "de": "Kommen Sie jetzt hierher."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "Aidons notre ami.",
+        "translations": {
+          "tr": "Arkadaşımıza yardım edelim.",
+          "en": "Let's help our friend.",
+          "de": "Helfen wir unserem Freund."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "Écoutez-moi.",
+        "translations": {
+          "tr": "Beni dinleyin.",
+          "en": "Listen to me.",
+          "de": "Hören Sie mir zu."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "Ne parle pas si fort.",
+        "translations": {
+          "tr": "Bu kadar yüksek konuşma.",
+          "en": "Don't speak so loud.",
+          "de": "Sprich nicht so laut."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "Ne fermez pas la fenêtre.",
+        "translations": {
+          "tr": "Pencereyi kapatma.",
+          "en": "Don't close the window.",
+          "de": "Schließen Sie das Fenster nicht."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "N'oublie pas ton passeport.",
+        "translations": {
+          "tr": "Pasaportunu unutma.",
+          "en": "Don't forget your passport.",
+          "de": "Vergiss deinen Pass nicht."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "Ne soyons pas en retard.",
+        "translations": {
+          "tr": "Geç kalmayalım.",
+          "en": "Let's not be late.",
+          "de": "Seien wir nicht zu spät."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "Ne mangez pas trop vite.",
+        "translations": {
+          "tr": "Çok hızlı yeme.",
+          "en": "Don't eat too fast.",
+          "de": "Essen Sie nicht zu schnell."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "Ne touche pas à ça.",
+        "translations": {
+          "tr": "Buna dokunma.",
+          "en": "Don't touch that.",
+          "de": "Fass das nicht an."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Peux-tu m'aider?",
+        "translations": {
+          "tr": "Bana yardım edebilir misin?",
+          "en": "Can you help me?",
+          "de": "Kannst du mir helfen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Pourriez-vous appeler un taxi?",
+        "translations": {
+          "tr": "Bir taksi çağırabilir misiniz?",
+          "en": "Could you call a taxi?",
+          "de": "Könnten Sie ein Taxi rufen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Veux-tu venir?",
+        "translations": {
+          "tr": "Gelmek ister misin?",
+          "en": "Do you want to come?",
+          "de": "Willst du kommen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Peux-tu fermer la porte?",
+        "translations": {
+          "tr": "Kapıyı kapatabilir misin?",
+          "en": "Can you close the door?",
+          "de": "Kannst du die Tür schließen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Voulez-vous vous taire?",
+        "translations": {
+          "tr": "Susacak mısınız?",
+          "en": "Will you be quiet?",
+          "de": "Werden Sie still sein?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Peux-tu me donner l'addition?",
+        "translations": {
+          "tr": "Bana hesabı verebilir misin?",
+          "en": "Can you give me the bill?",
+          "de": "Kannst du mir die Rechnung geben?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "articles",
+    "name": "Articles : défini, indéfini, partitif",
+    "order": 9,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "Je prends le café.",
+        "translations": {
+          "tr": "Kahveyi alıyorum.",
+          "en": "I take the coffee.",
+          "de": "Ich nehme den Kaffee."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "J'achète une maison.",
+        "translations": {
+          "tr": "Bir ev satın alıyorum.",
+          "en": "I buy a house.",
+          "de": "Ich kaufe ein Haus."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "Je bois du lait.",
+        "translations": {
+          "tr": "Süt içiyorum.",
+          "en": "I drink some milk.",
+          "de": "Ich trinke Milch."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "Les enfants jouent dans le parc.",
+        "translations": {
+          "tr": "Çocuklar parkta oynuyorlar.",
+          "en": "The children play in the park.",
+          "de": "Die Kinder spielen im Park."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "Il a des frères.",
+        "translations": {
+          "tr": "Erkek kardeşleri var.",
+          "en": "He has brothers.",
+          "de": "Er hat Brüder."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "Elle mange de la salade.",
+        "translations": {
+          "tr": "Salata yiyor.",
+          "en": "She eats some salad.",
+          "de": "Sie isst Salat."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "Je n'aime pas le chocolat.",
+        "translations": {
+          "tr": "Çikolatayı sevmem.",
+          "en": "I don't like the chocolate.",
+          "de": "Ich mag die Schokolade nicht."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "Il n'a pas un chien.",
+        "translations": {
+          "tr": "Bir köpeği yok.",
+          "en": "He doesn't have a dog.",
+          "de": "Er hat keinen Hund."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "Je ne bois pas de café.",
+        "translations": {
+          "tr": "Kahve içmem.",
+          "en": "I don't drink coffee.",
+          "de": "Ich trinke keinen Kaffee."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "Les étudiants ne comprennent pas la leçon.",
+        "translations": {
+          "tr": "Öğrenciler dersi anlamıyorlar.",
+          "en": "The students don't understand the lesson.",
+          "de": "Die Schüler verstehen die Lektion nicht."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "Elle ne boit pas d'eau.",
+        "translations": {
+          "tr": "Su içmiyor.",
+          "en": "She doesn't drink water.",
+          "de": "Sie trinkt kein Wasser."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "Nous ne mangeons pas de pain.",
+        "translations": {
+          "tr": "Ekmek yemiyoruz.",
+          "en": "We don't eat bread.",
+          "de": "Wir essen kein Brot."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Aimes-tu le film?",
+        "translations": {
+          "tr": "Filmi sever misin?",
+          "en": "Do you like the film?",
+          "de": "Magst du den Film?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "As-tu une voiture?",
+        "translations": {
+          "tr": "Bir araban var mı?",
+          "en": "Do you have a car?",
+          "de": "Hast du ein Auto?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Veux-tu du thé?",
+        "translations": {
+          "tr": "Çay ister misin?",
+          "en": "Do you want some tea?",
+          "de": "Möchtest du Tee?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Les garçons regardent-ils la télévision?",
+        "translations": {
+          "tr": "Erkek çocuklar televizyon izliyorlar mı?",
+          "en": "Are the boys watching television?",
+          "de": "Schauen die Jungen fern?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Voulez-vous des gâteaux?",
+        "translations": {
+          "tr": "Kekler ister misiniz?",
+          "en": "Do you want cakes?",
+          "de": "Möchten Sie Kuchen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Prends-tu de l'eau?",
+        "translations": {
+          "tr": "Su içer misin?",
+          "en": "Do you drink water?",
+          "de": "Trinkst du Wasser?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "genre-nombre",
+    "name": "Genre et nombre des noms",
+    "order": 10,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "Le chat noir est mignon.",
+        "translations": {
+          "tr": "Siyah kedi sevimli.",
+          "en": "The black cat is cute.",
+          "de": "Die schwarze Katze ist niedlich."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "La fille intelligente parle français.",
+        "translations": {
+          "tr": "Zeki kız Fransızca konuşuyor.",
+          "en": "The intelligent girl speaks French.",
+          "de": "Das intelligente Mädchen spricht Französisch."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "Les chiens joyeux jouent dans le parc.",
+        "translations": {
+          "tr": "Mutlu köpekler parkta oynuyorlar.",
+          "en": "The happy dogs play in the park.",
+          "de": "Die glücklichen Hunde spielen im Park."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "Les maisons blanches sont grandes.",
+        "translations": {
+          "tr": "Beyaz evler büyük.",
+          "en": "The white houses are big.",
+          "de": "Die weißen Häuser sind groß."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "Un livre intéressant est sur la table.",
+        "translations": {
+          "tr": "İlginç bir kitap masanın üzerinde.",
+          "en": "An interesting book is on the table.",
+          "de": "Ein interessantes Buch liegt auf dem Tisch."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "Une pomme rouge est délicieuse.",
+        "translations": {
+          "tr": "Kırmızı bir elma lezzetli.",
+          "en": "A red apple is delicious.",
+          "de": "Ein roter Apfel ist köstlich."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "Le chat n'est pas noir.",
+        "translations": {
+          "tr": "Kedi siyah değil.",
+          "en": "The cat is not black.",
+          "de": "Die Katze ist nicht schwarz."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "La fille ne parle pas français.",
+        "translations": {
+          "tr": "Kız Fransızca konuşmuyor.",
+          "en": "The girl does not speak French.",
+          "de": "Das Mädchen spricht nicht Französisch."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "Les chiens ne jouent pas dans le parc.",
+        "translations": {
+          "tr": "Köpekler parkta oynamıyorlar.",
+          "en": "The dogs do not play in the park.",
+          "de": "Die Hunde spielen nicht im Park."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "Les maisons ne sont pas blanches.",
+        "translations": {
+          "tr": "Evler beyaz değil.",
+          "en": "The houses are not white.",
+          "de": "Die Häuser sind nicht weiß."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "Un livre n'est pas sur la table.",
+        "translations": {
+          "tr": "Bir kitap masanın üzerinde değil.",
+          "en": "A book is not on the table.",
+          "de": "Ein Buch liegt nicht auf dem Tisch."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "Une pomme n'est pas rouge.",
+        "translations": {
+          "tr": "Bir elma kırmızı değil.",
+          "en": "An apple is not red.",
+          "de": "Ein Apfel ist nicht rot."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Est-ce que le chat est noir?",
+        "translations": {
+          "tr": "Kedi siyah mı?",
+          "en": "Is the cat black?",
+          "de": "Ist die Katze schwarz?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Est-ce que la fille parle français?",
+        "translations": {
+          "tr": "Kız Fransızca konuşuyor mu?",
+          "en": "Does the girl speak French?",
+          "de": "Spricht das Mädchen Französisch?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Est-ce que les chiens jouent dans le parc?",
+        "translations": {
+          "tr": "Köpekler parkta oynuyorlar mı?",
+          "en": "Do the dogs play in the park?",
+          "de": "Spielen die Hunde im Park?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Est-ce que les maisons sont blanches?",
+        "translations": {
+          "tr": "Evler beyaz mı?",
+          "en": "Are the houses white?",
+          "de": "Sind die Häuser weiß?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Est-ce qu'un livre est sur la table?",
+        "translations": {
+          "tr": "Bir kitap masanın üzerinde mi?",
+          "en": "Is a book on the table?",
+          "de": "Liegt ein Buch auf dem Tisch?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Est-ce qu'une pomme est rouge?",
+        "translations": {
+          "tr": "Bir elma kırmızı mı?",
+          "en": "Is an apple red?",
+          "de": "Ist ein Apfel rot?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "adjectifs",
+    "name": "Adjectifs : accord et place",
+    "order": 11,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "La robe rouge est belle.",
+        "translations": {
+          "tr": "Kırmızı elbise güzeldir.",
+          "en": "The red dress is beautiful.",
+          "de": "Das rote Kleid ist schön."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "Les petits enfants jouent dehors.",
+        "translations": {
+          "tr": "Küçük çocuklar dışarıda oynarlar.",
+          "en": "The small children play outside.",
+          "de": "Die kleinen Kinder spielen draußen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "J'ai acheté une nouvelle maison.",
+        "translations": {
+          "tr": "Yeni bir ev aldım.",
+          "en": "I bought a new house.",
+          "de": "Ich habe ein neues Haus gekauft."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "C'est un grand jardin magnifique.",
+        "translations": {
+          "tr": "Bu büyük muhteşem bir bahçedir.",
+          "en": "It's a large magnificent garden.",
+          "de": "Es ist ein großer herrlicher Garten."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "Les fleurs jaunes sont dans le vase blanc.",
+        "translations": {
+          "tr": "Sarı çiçekler beyaz vazoda.",
+          "en": "The yellow flowers are in the white vase.",
+          "de": "Die gelben Blumen sind in der weißen Vase."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "Voici ma vieille amie chère.",
+        "translations": {
+          "tr": "İşte benim eski sevgili arkadaşım.",
+          "en": "Here is my old dear friend.",
+          "de": "Hier ist meine alte liebe Freundin."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "Ce n'est pas un beau jour.",
+        "translations": {
+          "tr": "Güzel bir gün değil.",
+          "en": "It's not a beautiful day.",
+          "de": "Das ist kein schöner Tag."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "Je n'aime pas les couleurs sombres.",
+        "translations": {
+          "tr": "Koyu renkleri sevmiyorum.",
+          "en": "I don't like dark colors.",
+          "de": "Ich mag dunkle Farben nicht."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "Ce n'est pas une grande maison.",
+        "translations": {
+          "tr": "Bu büyük bir ev değil.",
+          "en": "It's not a big house.",
+          "de": "Das ist kein großes Haus."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "Les enfants ne sont pas sages.",
+        "translations": {
+          "tr": "Çocuklar iyi davranmıyorlar.",
+          "en": "The children are not well-behaved.",
+          "de": "Die Kinder sind nicht brave."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "Ce n'est pas du bon café.",
+        "translations": {
+          "tr": "Bu iyi kahve değil.",
+          "en": "It's not good coffee.",
+          "de": "Das ist kein guter Kaffee."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "Je ne trouve pas ce restaurant bon.",
+        "translations": {
+          "tr": "Bu restoranı iyi bulmuyorum.",
+          "en": "I don't find this restaurant good.",
+          "de": "Ich finde dieses Restaurant nicht gut."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Est-ce une belle journée?",
+        "translations": {
+          "tr": "Güzel bir gün mü?",
+          "en": "Is it a beautiful day?",
+          "de": "Ist es ein schöner Tag?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Sont-elles les grandes maisons?",
+        "translations": {
+          "tr": "Bunlar büyük evler mi?",
+          "en": "Are they the big houses?",
+          "de": "Sind das die großen Häuser?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Quel est ce petit animal?",
+        "translations": {
+          "tr": "Bu küçük hayvan nedir?",
+          "en": "What is this small animal?",
+          "de": "Was ist dieses kleine Tier?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Quelle couleur préfères-tu, la rouge ou la bleue?",
+        "translations": {
+          "tr": "Hangi rengi daha çok seversin, kırmızı mı yoksa mavi mi?",
+          "en": "Which color do you prefer, the red one or the blue one?",
+          "de": "Welche Farbe magst du lieber, die rote oder die blaue?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Avez-vous une petite voiture noire?",
+        "translations": {
+          "tr": "Küçük siyah bir araban var mı?",
+          "en": "Do you have a small black car?",
+          "de": "Haben Sie ein kleines schwarzes Auto?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Sont-ce les vieux livres intéressants?",
+        "translations": {
+          "tr": "Bunlar eski ilginç kitaplar mı?",
+          "en": "Are these the old interesting books?",
+          "de": "Sind das die alten interessanten Bücher?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "pronoms-complements",
+    "name": "Pronoms compléments (COD / COI)",
+    "order": 12,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "Je le vois chaque jour.",
+        "translations": {
+          "tr": "Onu her gün görüyorum.",
+          "en": "I see him every day.",
+          "de": "Ich sehe ihn jeden Tag."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "Elle m'aime beaucoup.",
+        "translations": {
+          "tr": "Beni çok seviyor.",
+          "en": "She loves me a lot.",
+          "de": "Sie liebt mich sehr."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "Tu les connais bien.",
+        "translations": {
+          "tr": "Onları iyi tanıyorsun.",
+          "en": "You know them well.",
+          "de": "Du kennst sie gut."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "Je lui donne un livre.",
+        "translations": {
+          "tr": "Ona bir kitap veriyorum.",
+          "en": "I give him/her a book.",
+          "de": "Ich gebe ihm/ihr ein Buch."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "Nous leur montrons les photos.",
+        "translations": {
+          "tr": "Onlara fotoğrafları gösteriyoruz.",
+          "en": "We show them the pictures.",
+          "de": "Wir zeigen ihnen die Fotos."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "Vous me comprenez maintenant.",
+        "translations": {
+          "tr": "Beni şimdi anlıyorsunuz.",
+          "en": "You understand me now.",
+          "de": "Ihr versteht mich jetzt."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "Je ne le vois pas chaque jour.",
+        "translations": {
+          "tr": "Onu her gün görmüyorum.",
+          "en": "I don't see him every day.",
+          "de": "Ich sehe ihn nicht jeden Tag."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "Elle ne m'aime pas beaucoup.",
+        "translations": {
+          "tr": "Beni çok sevmiyor.",
+          "en": "She doesn't love me much.",
+          "de": "Sie liebt mich nicht sehr."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "Tu ne les connais pas bien.",
+        "translations": {
+          "tr": "Onları iyi tanımıyorsun.",
+          "en": "You don't know them well.",
+          "de": "Du kennst sie nicht gut."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "Je ne lui donne pas de livre.",
+        "translations": {
+          "tr": "Ona kitap vermiyorum.",
+          "en": "I don't give him/her a book.",
+          "de": "Ich gebe ihm/ihr kein Buch."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "Nous ne leur montrons pas les photos.",
+        "translations": {
+          "tr": "Onlara fotoğrafları göstermiyoruz.",
+          "en": "We don't show them the pictures.",
+          "de": "Wir zeigen ihnen die Fotos nicht."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "Vous ne me comprenez pas.",
+        "translations": {
+          "tr": "Beni anlamıyorsunuz.",
+          "en": "You don't understand me.",
+          "de": "Ihr versteht mich nicht."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Le vois-tu chaque jour?",
+        "translations": {
+          "tr": "Onu her gün görüyor musun?",
+          "en": "Do you see him every day?",
+          "de": "Siehst du ihn jeden Tag?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "M'aime-t-elle beaucoup?",
+        "translations": {
+          "tr": "Beni çok seviyor mu?",
+          "en": "Does she love me a lot?",
+          "de": "Liebt sie mich sehr?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Les connais-tu bien?",
+        "translations": {
+          "tr": "Onları iyi tanıyor musun?",
+          "en": "Do you know them well?",
+          "de": "Kennst du sie gut?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Lui donnes-tu un livre?",
+        "translations": {
+          "tr": "Ona kitap veriyor musun?",
+          "en": "Do you give him/her a book?",
+          "de": "Gibst du ihm/ihr ein Buch?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Leur montrez-vous les photos?",
+        "translations": {
+          "tr": "Onlara fotoğrafları gösteriyor musunuz?",
+          "en": "Do you show them the pictures?",
+          "de": "Zeigt ihr ihnen die Fotos?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Me comprenez-vous?",
+        "translations": {
+          "tr": "Beni anlıyor musunuz?",
+          "en": "Do you understand me?",
+          "de": "Versteht ihr mich?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "pronoms-relatifs",
+    "name": "Pronoms relatifs (qui, que, dont, où)",
+    "order": 13,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "La femme qui habite ici est très gentille.",
+        "translations": {
+          "tr": "Burada oturan kadın çok kibar.",
+          "en": "The woman who lives here is very kind.",
+          "de": "Die Frau, die hier wohnt, ist sehr nett."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "Le livre que j'ai lu hier était magnifique.",
+        "translations": {
+          "tr": "Dün okuduğum kitap harika idi.",
+          "en": "The book that I read yesterday was beautiful.",
+          "de": "Das Buch, das ich gestern gelesen habe, war wunderbar."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "L'ami dont je t'ai parlé vient demain.",
+        "translations": {
+          "tr": "Sana bahsettiğim arkadaş yarın geliyor.",
+          "en": "The friend I told you about is coming tomorrow.",
+          "de": "Der Freund, von dem ich dir erzählt habe, kommt morgen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "Le café où je travaille est très accueillant.",
+        "translations": {
+          "tr": "Çalıştığım kafe çok misafirperver.",
+          "en": "The café where I work is very welcoming.",
+          "de": "Das Café, wo ich arbeite, ist sehr einladend."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "Les enfants qui jouent dehors sont heureux.",
+        "translations": {
+          "tr": "Dışarıda oynayan çocuklar mutlu.",
+          "en": "The children who are playing outside are happy.",
+          "de": "Die Kinder, die draußen spielen, sind glücklich."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "La clé que tu cherches est sur la table.",
+        "translations": {
+          "tr": "Aradığın anahtar masada.",
+          "en": "The key that you are looking for is on the table.",
+          "de": "Der Schlüssel, den du suchst, ist auf dem Tisch."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "L'homme qui ne parle pas français vient d'Asie.",
+        "translations": {
+          "tr": "Fransızca konuşmayan adam Asya'dan geliyor.",
+          "en": "The man who doesn't speak French comes from Asia.",
+          "de": "Der Mann, der kein Französisch spricht, kommt aus Asien."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "Le film que je n'aime pas est trop long.",
+        "translations": {
+          "tr": "Sevmediğim film çok uzun.",
+          "en": "The film that I don't like is too long.",
+          "de": "Der Film, der mir nicht gefällt, ist zu lang."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "La voiture dont personne ne parle plus est à vendre.",
+        "translations": {
+          "tr": "Artık kimsenin bahsetmediği araba satılık.",
+          "en": "The car that nobody talks about anymore is for sale.",
+          "de": "Das Auto, von dem niemand mehr spricht, ist zum Verkauf."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "Le parc où je ne vais jamais est loin d'ici.",
+        "translations": {
+          "tr": "Hiç gitmediğim park buradan uzak.",
+          "en": "The park where I never go is far from here.",
+          "de": "Der Park, wo ich nie hingehe, ist weit weg."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "Les gens qui ne travaillent pas sont chez eux.",
+        "translations": {
+          "tr": "Çalışmayan insanlar evdeler.",
+          "en": "The people who don't work are at home.",
+          "de": "Die Leute, die nicht arbeiten, sind zu Hause."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "La chanson que tu n'aimes pas plaît à tout le monde.",
+        "translations": {
+          "tr": "Sevmediğin şarkı herkese hoşlanır.",
+          "en": "The song that you don't like is liked by everyone.",
+          "de": "Das Lied, das dir nicht gefällt, gefällt jedem."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Qui est l'enfant qui crie?",
+        "translations": {
+          "tr": "Ağlayan çocuk kimdir?",
+          "en": "Who is the child who is crying?",
+          "de": "Wer ist das Kind, das weint?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Que penses-tu de la maison que tu as visitée?",
+        "translations": {
+          "tr": "Ziyaret ettiğin evden ne düşünüyorsun?",
+          "en": "What do you think of the house that you visited?",
+          "de": "Was hältst du von dem Haus, das du besucht hast?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "De qui parles-tu?",
+        "translations": {
+          "tr": "Kimden bahsediyorsun?",
+          "en": "About whom are you speaking?",
+          "de": "Von wem sprichst du?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Où est le magasin où tu as acheté ce pull?",
+        "translations": {
+          "tr": "Bu kazağı satın aldığın mağaza nerede?",
+          "en": "Where is the store where you bought this sweater?",
+          "de": "Wo ist der Laden, wo du diesen Pullover gekauft hast?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Laquelle est la personne dont tu m'as parlé?",
+        "translations": {
+          "tr": "Bana bahsedilen kişi hangisi?",
+          "en": "Which one is the person you told me about?",
+          "de": "Welche Person ist diejenige, von der du mir erzählt hast?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Pourquoi n'aimes-tu pas le film que tu as regardé?",
+        "translations": {
+          "tr": "İzlediğin filmi neden sevmiyorsun?",
+          "en": "Why don't you like the film that you watched?",
+          "de": "Warum magst du den Film nicht, den du angesehen hast?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "negation",
+    "name": "Négation",
+    "order": 14,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "Je prends un café.",
+        "translations": {
+          "tr": "Bir kahve alıyorum.",
+          "en": "I have a coffee.",
+          "de": "Ich nehme einen Kaffee."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "Tu as un stylo.",
+        "translations": {
+          "tr": "Bir kalemin var.",
+          "en": "You have a pen.",
+          "de": "Du hast einen Stift."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "Il sort ce soir.",
+        "translations": {
+          "tr": "Bu akşam çıkıyor.",
+          "en": "He goes out tonight.",
+          "de": "Er geht heute Abend aus."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "Elle mange une pomme.",
+        "translations": {
+          "tr": "Bir elma yiyor.",
+          "en": "She eats an apple.",
+          "de": "Sie isst einen Apfel."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "Nous avons une maison.",
+        "translations": {
+          "tr": "Bir evimiz var.",
+          "en": "We have a house.",
+          "de": "Wir haben ein Haus."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "Ils vont à l'école.",
+        "translations": {
+          "tr": "Okula gidiyorlar.",
+          "en": "They go to school.",
+          "de": "Sie gehen zur Schule."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "Je ne prends pas de café.",
+        "translations": {
+          "tr": "Kahve almıyorum.",
+          "en": "I don't take coffee.",
+          "de": "Ich nehme keinen Kaffee."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "Tu n'as aucun stylo.",
+        "translations": {
+          "tr": "Hiçbir kalemin yok.",
+          "en": "You have no pen.",
+          "de": "Du hast keinen Stift."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "Il ne sort jamais le soir.",
+        "translations": {
+          "tr": "Hiç akşam çıkmıyor.",
+          "en": "He never goes out in the evening.",
+          "de": "Er geht nie am Abend aus."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "Elle ne mange ni pomme ni orange.",
+        "translations": {
+          "tr": "Ne elma ne de portakal yiyor.",
+          "en": "She eats neither apples nor oranges.",
+          "de": "Sie isst weder Äpfel noch Orangen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "Nous n'avons plus de maison.",
+        "translations": {
+          "tr": "Artık bir evimiz yok.",
+          "en": "We don't have a house anymore.",
+          "de": "Wir haben kein Haus mehr."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "Ils ne vont plus à l'école.",
+        "translations": {
+          "tr": "Artık okula gitmiyorlar.",
+          "en": "They don't go to school anymore.",
+          "de": "Sie gehen nicht mehr zur Schule."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Ne prends-tu pas un café?",
+        "translations": {
+          "tr": "Bir kahve almıyor musun?",
+          "en": "Don't you have a coffee?",
+          "de": "Nimmst du keinen Kaffee?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "N'as-tu aucun stylo?",
+        "translations": {
+          "tr": "Hiçbir kalemin yok mu?",
+          "en": "Don't you have a pen?",
+          "de": "Hast du keinen Stift?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Ne sort-il jamais le soir?",
+        "translations": {
+          "tr": "Hiç akşam çıkmıyor mu?",
+          "en": "Does he never go out in the evening?",
+          "de": "Geht er nie am Abend aus?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "N'aime-t-elle pas les pommes?",
+        "translations": {
+          "tr": "Elmaları sevmiyor mu?",
+          "en": "Doesn't she like apples?",
+          "de": "Mag sie keine Äpfel?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "N'avez-vous pas de maison?",
+        "translations": {
+          "tr": "Bir eviniz yok mu?",
+          "en": "Don't you have a house?",
+          "de": "Haben Sie kein Haus?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Ne vont-ils jamais à l'école?",
+        "translations": {
+          "tr": "Hiç okula gitmiyorlar mı?",
+          "en": "Do they never go to school?",
+          "de": "Gehen sie nie zur Schule?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "verbes-pronominaux",
+    "name": "Verbes pronominaux",
+    "order": 15,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "Je me réveille à 7 heures chaque matin.",
+        "translations": {
+          "tr": "Her sabah saat 7'de uyanıyorum.",
+          "en": "I wake up at 7 o'clock every morning.",
+          "de": "Ich wache jeden Morgen um 7 Uhr auf."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "Elle s'habille rapidement ce matin.",
+        "translations": {
+          "tr": "Bu sabah hızlı giyiniyor.",
+          "en": "She gets dressed quickly this morning.",
+          "de": "Sie zieht sich heute Morgen schnell an."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "Ils se promènent dans le parc le dimanche.",
+        "translations": {
+          "tr": "Pazar günü parkta gezinti yapıyorlar.",
+          "en": "They take a walk in the park on Sunday.",
+          "de": "Sie spazieren sonntags im Park."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "Nous nous amusons ensemble à la maison.",
+        "translations": {
+          "tr": "Evde birlikte eğleniyoruz.",
+          "en": "We have fun together at home.",
+          "de": "Wir haben Spaß zusammen zu Hause."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "Tu te dépêches pour arriver à l'école.",
+        "translations": {
+          "tr": "Okula gitmek için acele ediyorsun.",
+          "en": "You hurry to get to school.",
+          "de": "Du beeilst dich, um zur Schule zu kommen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "Il s'appelle Jean.",
+        "translations": {
+          "tr": "Adı Jean'dir.",
+          "en": "His name is Jean.",
+          "de": "Er heißt Jean."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "Je ne me réveille pas à 6 heures.",
+        "translations": {
+          "tr": "Saat 6'da uyanmıyorum.",
+          "en": "I don't wake up at 6 o'clock.",
+          "de": "Ich wache nicht um 6 Uhr auf."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "Elle ne s'habille pas en noir.",
+        "translations": {
+          "tr": "Siyah giyinmiyor.",
+          "en": "She doesn't get dressed in black.",
+          "de": "Sie zieht sich nicht schwarz an."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "Ils ne se promènent pas en hiver.",
+        "translations": {
+          "tr": "Kışta gezinti yapmıyorlar.",
+          "en": "They don't take walks in winter.",
+          "de": "Sie spazieren nicht im Winter."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "Nous ne nous amusons pas au cinéma.",
+        "translations": {
+          "tr": "Sinemada eğlenmiyoruz.",
+          "en": "We don't have fun at the cinema.",
+          "de": "Wir amüsieren uns nicht im Kino."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "Tu ne te dépêches pas le matin.",
+        "translations": {
+          "tr": "Sabah acele etmiyor.",
+          "en": "You don't hurry in the morning.",
+          "de": "Du beeilst dich nicht morgens."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "Il ne s'appelle pas Pierre.",
+        "translations": {
+          "tr": "Adı Pierre değil.",
+          "en": "His name is not Pierre.",
+          "de": "Er heißt nicht Pierre."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "À quelle heure te réveilles-tu?",
+        "translations": {
+          "tr": "Saat kaçta uyanıyorsun?",
+          "en": "What time do you wake up?",
+          "de": "Um wie viel Uhr wachst du auf?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "S'habille-t-elle rapidement?",
+        "translations": {
+          "tr": "Hızlı bir şekilde giyiniyor mu?",
+          "en": "Does she get dressed quickly?",
+          "de": "Zieht sie sich schnell an?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Se promènent-ils dans le parc?",
+        "translations": {
+          "tr": "Parkta gezinti yapıyorlar mı?",
+          "en": "Do they take a walk in the park?",
+          "de": "Spazieren sie im Park?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "Vous amusez-vous ensemble?",
+        "translations": {
+          "tr": "Birlikte eğleniyor musunuz?",
+          "en": "Do you have fun together?",
+          "de": "Amüsiert ihr euch zusammen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Te dépêches-tu pour l'école?",
+        "translations": {
+          "tr": "Okul için acele ediyor musun?",
+          "en": "Do you hurry for school?",
+          "de": "Beeilst du dich für die Schule?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "S'appelle-t-il Jean?",
+        "translations": {
+          "tr": "Adı Jean mi?",
+          "en": "Is he called Jean?",
+          "de": "Heißt er Jean?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "voix-passive",
+    "name": "Voix passive",
+    "order": 16,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "La lettre est écrite par ma mère.",
+        "translations": {
+          "tr": "Mektup annem tarafından yazılıyor.",
+          "en": "The letter is being written by my mother.",
+          "de": "Der Brief wird von meiner Mutter geschrieben."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "Le rapport a été complété par l'équipe.",
+        "translations": {
+          "tr": "Rapor ekip tarafından tamamlandı.",
+          "en": "The report was completed by the team.",
+          "de": "Der Bericht wurde vom Team abgeschlossen."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "Les fleurs sont plantées dans le jardin.",
+        "translations": {
+          "tr": "Çiçekler bahçeye dikildi.",
+          "en": "The flowers were planted in the garden.",
+          "de": "Die Blumen wurden im Garten gepflanzt."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "La maison a été construite en 1950.",
+        "translations": {
+          "tr": "Ev 1950'de inşa edildi.",
+          "en": "The house was built in 1950.",
+          "de": "Das Haus wurde 1950 gebaut."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "Les gâteaux sont faits par le boulanger.",
+        "translations": {
+          "tr": "Pastalar fırıncı tarafından yapılıyor.",
+          "en": "The cakes are made by the baker.",
+          "de": "Die Kuchen werden vom Bäcker gemacht."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "La présentation est préparée pour demain.",
+        "translations": {
+          "tr": "Sunum yarın için hazırlanıyor.",
+          "en": "The presentation is being prepared for tomorrow.",
+          "de": "Die Präsentation wird für morgen vorbereitet."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "La lettre n'est pas écrite par ma mère.",
+        "translations": {
+          "tr": "Mektup annem tarafından yazılmıyor.",
+          "en": "The letter is not being written by my mother.",
+          "de": "Der Brief wird nicht von meiner Mutter geschrieben."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "Le rapport n'a pas été complété par l'équipe.",
+        "translations": {
+          "tr": "Rapor ekip tarafından tamamlanmadı.",
+          "en": "The report was not completed by the team.",
+          "de": "Der Bericht wurde nicht vom Team abgeschlossen."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "Les fleurs ne sont pas plantées dans le jardin.",
+        "translations": {
+          "tr": "Çiçekler bahçeye dikilmedi.",
+          "en": "The flowers were not planted in the garden.",
+          "de": "Die Blumen wurden nicht im Garten gepflanzt."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "La maison n'a pas été construite en 1950.",
+        "translations": {
+          "tr": "Ev 1950'de inşa edilmedi.",
+          "en": "The house was not built in 1950.",
+          "de": "Das Haus wurde 1950 nicht gebaut."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "Les gâteaux ne sont pas faits par le boulanger.",
+        "translations": {
+          "tr": "Pastalar fırıncı tarafından yapılmıyor.",
+          "en": "The cakes are not made by the baker.",
+          "de": "Die Kuchen werden nicht vom Bäcker gemacht."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "La présentation n'est pas préparée pour demain.",
+        "translations": {
+          "tr": "Sunum yarın için hazırlanmıyor.",
+          "en": "The presentation is not being prepared for tomorrow.",
+          "de": "Die Präsentation wird nicht für morgen vorbereitet."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "La lettre est-elle écrite par ma mère?",
+        "translations": {
+          "tr": "Mektup annem tarafından yazılıyor mu?",
+          "en": "Is the letter being written by my mother?",
+          "de": "Wird der Brief von meiner Mutter geschrieben?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Le rapport a-t-il été complété par l'équipe?",
+        "translations": {
+          "tr": "Rapor ekip tarafından tamamlandı mı?",
+          "en": "Was the report completed by the team?",
+          "de": "Wurde der Bericht vom Team abgeschlossen?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Les fleurs sont-elles plantées dans le jardin?",
+        "translations": {
+          "tr": "Çiçekler bahçeye dikildi mi?",
+          "en": "Were the flowers planted in the garden?",
+          "de": "Wurden die Blumen im Garten gepflanzt?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "La maison a-t-elle été construite en 1950?",
+        "translations": {
+          "tr": "Ev 1950'de inşa edildi mi?",
+          "en": "Was the house built in 1950?",
+          "de": "Wurde das Haus 1950 gebaut?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Les gâteaux sont-ils faits par le boulanger?",
+        "translations": {
+          "tr": "Pastalar fırıncı tarafından yapılıyor mu?",
+          "en": "Are the cakes made by the baker?",
+          "de": "Werden die Kuchen vom Bäcker gemacht?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "La présentation est-elle préparée pour demain?",
+        "translations": {
+          "tr": "Sunum yarın için hazırlanıyor mu?",
+          "en": "Is the presentation being prepared for tomorrow?",
+          "de": "Wird die Präsentation für morgen vorbereitet?"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "comparatif-superlatif",
+    "name": "Comparatif et superlatif",
+    "order": 17,
+    "examples": [
+      {
+        "kind": "positive",
+        "order": 0,
+        "sentence": "Cette maison est plus grande que l'autre.",
+        "translations": {
+          "tr": "Bu ev diğerinden daha büyüktür.",
+          "en": "This house is bigger than the other one.",
+          "de": "Dieses Haus ist größer als das andere."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 1,
+        "sentence": "Marie est la plus intelligente de sa classe.",
+        "translations": {
+          "tr": "Marie sınıfında en zekidir.",
+          "en": "Marie is the most intelligent in her class.",
+          "de": "Marie ist die intelligenteste in ihrer Klasse."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 2,
+        "sentence": "Le café est moins cher que le thé ici.",
+        "translations": {
+          "tr": "Burada kahve çaydan daha ucuzdur.",
+          "en": "Coffee is less expensive than tea here.",
+          "de": "Kaffee ist hier günstiger als Tee."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 3,
+        "sentence": "C'est le meilleur restaurant de la ville.",
+        "translations": {
+          "tr": "Bu şehrin en iyi restoranıdır.",
+          "en": "It's the best restaurant in the city.",
+          "de": "Es ist das beste Restaurant in der Stadt."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 4,
+        "sentence": "Jean est aussi rapide que son frère.",
+        "translations": {
+          "tr": "Jean kardeşi kadar hızlıdır.",
+          "en": "John is as fast as his brother.",
+          "de": "John ist so schnell wie sein Bruder."
+        }
+      },
+      {
+        "kind": "positive",
+        "order": 5,
+        "sentence": "Elle a les plus beaux yeux que j'ai jamais vus.",
+        "translations": {
+          "tr": "Hiç gördüğüm en güzel gözlere sahiptir.",
+          "en": "She has the most beautiful eyes I've ever seen.",
+          "de": "Sie hat die schönsten Augen, die ich je gesehen habe."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 0,
+        "sentence": "Cette voiture n'est pas plus rapide que la mienne.",
+        "translations": {
+          "tr": "Bu araba benimkinden daha hızlı değildir.",
+          "en": "This car is not faster than mine.",
+          "de": "Dieses Auto ist nicht schneller als meins."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 1,
+        "sentence": "Il n'est pas le plus fort de l'équipe.",
+        "translations": {
+          "tr": "O takımda en güçlü değildir.",
+          "en": "He is not the strongest on the team.",
+          "de": "Er ist nicht der Stärkste im Team."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 2,
+        "sentence": "Ce livre n'est pas moins intéressant que celui-là.",
+        "translations": {
+          "tr": "Bu kitap o kitaptan daha az ilginç değildir.",
+          "en": "This book is not less interesting than that one.",
+          "de": "Dieses Buch ist nicht weniger interessant als jenes."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 3,
+        "sentence": "Ce n'est pas le pire film que j'ai vu.",
+        "translations": {
+          "tr": "Gördüğüm en kötü film değildir.",
+          "en": "It's not the worst film I've seen.",
+          "de": "Es ist nicht der schlechteste Film, den ich gesehen habe."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 4,
+        "sentence": "Elle n'est pas aussi grande que sa mère.",
+        "translations": {
+          "tr": "Annesi kadar uzun değildir.",
+          "en": "She is not as tall as her mother.",
+          "de": "Sie ist nicht so groß wie ihre Mutter."
+        }
+      },
+      {
+        "kind": "negative",
+        "order": 5,
+        "sentence": "Ce ne sont pas les plus petits problèmes du monde.",
+        "translations": {
+          "tr": "Bunlar dünyadaki en küçük sorunlar değildir.",
+          "en": "These are not the smallest problems in the world.",
+          "de": "Das sind nicht die kleinsten Probleme der Welt."
+        }
+      },
+      {
+        "kind": "question",
+        "order": 0,
+        "sentence": "Qui est le plus rapide de vous deux?",
+        "translations": {
+          "tr": "İkiniz içinde en hızlı olan kimdir?",
+          "en": "Who is the fastest between you two?",
+          "de": "Wer ist der Schnellste von euch beiden?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 1,
+        "sentence": "Est-ce que cette pizza est meilleure que celle-là?",
+        "translations": {
+          "tr": "Bu pizza o pizzadan daha mı iyidir?",
+          "en": "Is this pizza better than that one?",
+          "de": "Ist diese Pizza besser als jene?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 2,
+        "sentence": "Laquelle est la plus chère, la robe rouge ou la bleue?",
+        "translations": {
+          "tr": "Hangisi daha pahalıdır, kırmızı elbise mi yoksa mavi elbise mi?",
+          "en": "Which one is the most expensive, the red dress or the blue one?",
+          "de": "Welches ist das teuerste, das rote Kleid oder das blaue?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 3,
+        "sentence": "N'est-il pas plus intelligent que son cousin?",
+        "translations": {
+          "tr": "O, kuzeninden daha zeki değil midir?",
+          "en": "Isn't he more intelligent than his cousin?",
+          "de": "Ist er nicht intelligenter als sein Cousin?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 4,
+        "sentence": "Quel est le plus grand bâtiment de la ville?",
+        "translations": {
+          "tr": "Şehrin en yüksek binası hangisidir?",
+          "en": "What is the tallest building in the city?",
+          "de": "Was ist das höchste Gebäude in der Stadt?"
+        }
+      },
+      {
+        "kind": "question",
+        "order": 5,
+        "sentence": "Ces chaussures ne sont-elles pas aussi confortables que les autres?",
+        "translations": {
+          "tr": "Bu ayakkabılar diğerleri kadar rahat değil midir?",
+          "en": "Aren't these shoes as comfortable as the others?",
+          "de": "Sind diese Schuhe nicht so bequem wie die anderen?"
+        }
+      }
+    ]
+  }
+]

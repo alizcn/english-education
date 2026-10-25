@@ -1,5 +1,8 @@
 from django.conf import settings
 from django.db import models
+from django.utils.translation import gettext_lazy as _
+
+from services import languages
 
 
 class Word(models.Model):
@@ -8,10 +11,22 @@ class Word(models.Model):
         on_delete=models.CASCADE,
         related_name='words',
     )
-    english = models.CharField(max_length=120)
-    turkish = models.CharField(max_length=200)
-    example_en = models.CharField(max_length=400, blank=True)
-    example_tr = models.CharField(max_length=400, blank=True)
+    # Düz sütun, ayrı çeviri tablosu YOK: kişisel liste zaten tek bir
+    # (hedef, ana dil) çifti içinde yaşıyor — matris boyutu kurs tarafından
+    # sabitlenmiş. Paylaşılan kelime hazinesinde durum farklı, bkz.
+    # apps/wordbank/models.BankWordTranslation.
+    target_language = models.CharField(
+        max_length=5, choices=languages.LANGUAGE_CHOICES, default='en',
+        db_index=True, verbose_name=_('Öğrenilen dil'),
+    )
+    native_language = models.CharField(
+        max_length=5, choices=languages.LANGUAGE_CHOICES, default='tr',
+        verbose_name=_('Anlatım dili'),
+    )
+    term = models.CharField(max_length=120, verbose_name=_('Terim'))
+    meaning = models.CharField(max_length=200, verbose_name=_('Anlam'))
+    example = models.CharField(max_length=400, blank=True)
+    example_translation = models.CharField(max_length=400, blank=True)
     part_of_speech = models.CharField(max_length=30, blank=True)
     source = models.CharField(max_length=80, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
@@ -22,11 +37,14 @@ class Word(models.Model):
     class Meta:
         ordering = ['-created_at']
         constraints = [
-            models.UniqueConstraint(fields=['user', 'english'], name='unique_user_english'),
+            models.UniqueConstraint(
+                fields=['user', 'target_language', 'term'],
+                name='unique_user_target_term',
+            ),
         ]
 
     def __str__(self):
-        return f'{self.english} — {self.turkish}'
+        return f'[{self.target_language}] {self.term} — {self.meaning}'
 
     @property
     def accuracy(self):

@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you heat water to 100°C, it ___.",
+    "correct_answer": "boils",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If she studies hard, she ___ the exam.",
+    "correct_answer": "passes",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you do not ___ the plants, they die.",
+    "correct_answer": "water",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If the temperature drops below zero, water ___.",
+    "correct_answer": "freezes",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If they exercise every day, they ___ stronger.",
+    "correct_answer": "become",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you press the button, the door ___.",
+    "correct_answer": "opens",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If children spend too much time on screens, they often ___ bad posture.",
+    "correct_answer": "develop",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If he does not ___, he fails the test.",
+    "correct_answer": "study",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If the sun sets, the sky ___ dark.",
+    "correct_answer": "becomes",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you add salt to ice, the temperature ___.",
+    "correct_answer": "drops",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence uses zero conditional correctly?",
+    "correct_answer": "If you eat too much, you feel sick.",
+    "choices": [
+      "If you will eat too much, you feel sick.",
+      "If you eat too much, you feel sick.",
+      "If you eat too much, you will feel sick.",
+      "If you would eat too much, you would feel sick."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complete: If the alarm goes off, everyone ___",
+    "correct_answer": "wakes up",
+    "choices": [
+      "will wake up",
+      "wakes up",
+      "wake up",
+      "would wake up"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which negative form is correct?",
+    "correct_answer": "If you do not exercise, your health does not improve.",
+    "choices": [
+      "If you not exercise, your health doesn't improve.",
+      "If you do not exercise, your health does not improve.",
+      "If you do not exercise, your health won't improve.",
+      "If you don't exercise, your health won't improve."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complete the question: Do you ___ hungry if you skip breakfast?",
+    "correct_answer": "feel",
+    "choices": [
+      "will feel",
+      "felt",
+      "feel",
+      "would feel"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is a correct zero conditional sentence?",
+    "correct_answer": "If the sun shines, the snow melts.",
+    "choices": [
+      "If the sun shines, the snow will melt.",
+      "If the sun shines, the snow melts.",
+      "If the sun will shine, the snow melts.",
+      "If the sun would shine, the snow melts."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Choose the correct verb form: If she ___ on time, the meeting starts.",
+    "correct_answer": "arrives",
+    "choices": [
+      "arrives",
+      "will arrive",
+      "is arriving",
+      "would arrive"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is a correct zero conditional question?",
+    "correct_answer": "Do you feel tired if you work all day?",
+    "choices": [
+      "Will you feel tired if you work all day?",
+      "Do you feel tired if you work all day?",
+      "Did you feel tired if you work all day?",
+      "Would you feel tired if you work all day?"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complete: If you plant seeds, they ___",
+    "correct_answer": "grow",
+    "choices": [
+      "will grow",
+      "would grow",
+      "grow",
+      "have grown"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is NOT a zero conditional sentence?",
+    "correct_answer": "If it rains tomorrow, we will stay inside.",
+    "choices": [
+      "If you eat too much sugar, you feel sick.",
+      "If the sun rises, the sky becomes light.",
+      "If you mix red and blue, you get purple.",
+      "If it rains tomorrow, we will stay inside."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complete: If he does not ___, he fails the test.",
+    "correct_answer": "study",
+    "choices": [
+      "studies",
+      "study",
+      "studied",
+      "studying"
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "O her gün spor yapar.",
+    "correct_answer": "Er/Sie treibt jeden Tag Sport.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Siz çok konuşursunuz.",
+    "correct_answer": "Ihr sprecht viel.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ben et yemem.",
+    "correct_answer": "Ich esse kein Fleisch.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Onlar burada çalışırlar mı?",
+    "correct_answer": "Arbeiten sie hier?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "O her sabah erkenden kalkır.",
+    "correct_answer": "Sie/Er steht jeden Morgen früh auf.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich fahre jeden Freitag in die Stadt.",
+    "correct_answer": "Ben her cuma şehire giderim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Du spielst Tennis.",
+    "correct_answer": "Sen tenis oynarsın.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir lesen viel.",
+    "correct_answer": "Biz çok okuruz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie schlafen nicht lange.",
+    "correct_answer": "Onlar uzun uyumazlar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Spricht er Spanisch?",
+    "correct_answer": "O İspanyolca konuşur mu?",
+    "choices": null
+  }
+]

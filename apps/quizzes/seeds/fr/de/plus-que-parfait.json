@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "J'avais préparé le dîner avant leur arrivée.",
+    "correct_answer": "Ich hatte das Abendessen vor ihrer Ankunft vorbereitet.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle était venue à l'école avant neuf heures.",
+    "correct_answer": "Sie war vor neun Uhr in die Schule gekommen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous n'avions jamais vu ce film.",
+    "correct_answer": "Wir hatten diesen Film nie gesehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu avais fermé la porte?",
+    "correct_answer": "Hattest du die Tür geschlossen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ils n'étaient pas arrivés à temps.",
+    "correct_answer": "Sie waren nicht rechtzeitig angekommen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Vous aviez terminé vos devoirs?",
+    "correct_answer": "Hattet ihr eure Hausaufgaben beendet?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich hatte das Buch gelesen.",
+    "correct_answer": "J'avais lu le livre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie waren ins Museum gegangen.",
+    "correct_answer": "Elles étaient allées au musée.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir hatten nicht gesprochen.",
+    "correct_answer": "Nous n'avions pas parlé.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Hattest du dein Zimmer aufgeräumt?",
+    "correct_answer": "Avais-tu rangé ta chambre?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Er war nicht gekommen.",
+    "correct_answer": "Il n'était pas venu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie hatten alles verstanden.",
+    "correct_answer": "Elles avaient tout compris.",
+    "choices": null
+  }
+]

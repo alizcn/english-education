@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Her sabah ben kahve ___.",
+    "correct_answer": "içerim",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "O her gün ofise ___.",
+    "correct_answer": "gider",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Siz burada ___ mı?",
+    "correct_answer": "çalışırsınız",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Biz bu dili ___.",
+    "correct_answer": "konuşmayız",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Onlar her pazarı parkta ___.",
+    "correct_answer": "dolaşırlar",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "O ayakkabı ___.",
+    "correct_answer": "giymez",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ben bu oyunu ___.",
+    "correct_answer": "oynamam",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Siz pencereyi ___ mı?",
+    "correct_answer": "kaparsınız",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kediler pencereden ___.",
+    "correct_answer": "bakarlar",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "O hiç yalan ___.",
+    "correct_answer": "söylemez",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct geniş zaman form for 'ben oku-'?",
+    "correct_answer": "okurum",
+    "choices": [
+      "okurum",
+      "okuyorum",
+      "okudum",
+      "okurdum"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct negative geniş zaman form for 'o git-'?",
+    "correct_answer": "gitmez",
+    "choices": [
+      "gitmez",
+      "gitmedi",
+      "gitmiyorum",
+      "gitmeyecek"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the geniş zaman question form for 'ben çalış-'?",
+    "correct_answer": "Çalışır mıyım?",
+    "choices": [
+      "Çalışır mıyım?",
+      "Çalışmış mıyım?",
+      "Çalışıyor muyum?",
+      "Çalışacak mıyım?"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct geniş zaman form for 'onlar oku-'?",
+    "correct_answer": "okurlar",
+    "choices": [
+      "okurlar",
+      "okuyor",
+      "okudular",
+      "okuyacaklar"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What tense marker is used for 'dinle' in geniş zaman?",
+    "correct_answer": "-r",
+    "choices": [
+      "-r",
+      "-ar",
+      "-ir",
+      "-ır"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct negative geniş zaman form for 'o yaz-'?",
+    "correct_answer": "yazmaz",
+    "choices": [
+      "yazmaz",
+      "yazıyor",
+      "yazmadı",
+      "yazacak"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct geniş zaman form for 'ben aç-'?",
+    "correct_answer": "açar",
+    "choices": [
+      "açır",
+      "açar",
+      "açer",
+      "açol"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct geniş zaman form for 'biz gel-'?",
+    "correct_answer": "geliriz",
+    "choices": [
+      "gelirim",
+      "gelirler",
+      "geliriz",
+      "gelemiz"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence uses geniş zaman?",
+    "correct_answer": "Her gün sabah saat 8'de kalkar.",
+    "choices": [
+      "Şu anda ders çalışıyor.",
+      "Her gün sabah saat 8'de kalkar.",
+      "Dün sinemaya gitti.",
+      "Yarın toplantı olacak."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct question form for 'siz dinle-' in geniş zaman?",
+    "correct_answer": "Dinler misiniz?",
+    "choices": [
+      "Dinliyorsunuz mu?",
+      "Dinler misiniz?",
+      "Dinlediniz mi?",
+      "Dinleyecek misiniz?"
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je voudrais un café.",
+    "correct_answer": "Bir kahve isterdim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu pourrais venir demain?",
+    "correct_answer": "Yarın gelebilir misin?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous irions en vacances ensemble.",
+    "correct_answer": "Biz birlikte tatile giderdik.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ils n'iraient pas à la plage.",
+    "correct_answer": "Onlar plaja gitmezlerdi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Pourriez-vous m'aider, s'il vous plaît?",
+    "correct_answer": "Lütfen bana yardım edebilir misiniz?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ben çalışmak isterdim.",
+    "correct_answer": "Je voudrais travailler.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O, eve gelmezdi.",
+    "correct_answer": "Il ne viendrait pas à la maison.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer zengin olsaydın, ne yapardın?",
+    "correct_answer": "Si tu étais riche, que ferais-tu?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Siz bana yardım etmelisiniz.",
+    "correct_answer": "Vous devriez m'aider.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ben seni görmek isterdim.",
+    "correct_answer": "J'aimerais te voir.",
+    "choices": null
+  }
+]

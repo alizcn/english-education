@@ -24,13 +24,13 @@
             {% if is_retry %}<span class="retry-chip">{% trans "TEKRAR" %}</span>{% endif %}
         </div>
 
-        <div class="bank-word">{{ word.english }}</div>
+        <div class="bank-word">{{ word.term }}</div>
         {% if word.part_of_speech %}
         <div class="bank-pos">{{ word.part_of_speech }}</div>
         {% endif %}
 
-        {% if word.example_en %}
-        <div class="bank-example">"{{ word.example_en }}"</div>
+        {% if word.example %}
+        <div class="bank-example">"{{ word.example }}"</div>
         {% endif %}
 
         <form method="post" action="{% url 'vocabulary:quiz_answer' %}" class="mt-2">

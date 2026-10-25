@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Häuser sind groß.",
+    "correct_answer": "Evler büyük.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Katzen schlafen.",
+    "correct_answer": "Kediler uyuyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Äpfel sind nicht süß.",
+    "correct_answer": "Elmalar tatlı değil.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sind die Bücher interessant?",
+    "correct_answer": "Kitaplar ilginç mi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Mädchen spielen im Park.",
+    "correct_answer": "Kızlar parkta oynuyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Doğru cevaplar nelerdir?",
+    "correct_answer": "Was sind die richtigen Antworten?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Erkekler çalışıyor.",
+    "correct_answer": "Die Jungen arbeiten.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kalemler masada mı?",
+    "correct_answer": "Sind die Stifte auf dem Tisch?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Çocuklar mutlu değil.",
+    "correct_answer": "Die Kinder sind nicht glücklich.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Hangi öğretmenler sınıfta?",
+    "correct_answer": "Welche Lehrer sind im Klassenzimmer?",
+    "choices": null
+  }
+]

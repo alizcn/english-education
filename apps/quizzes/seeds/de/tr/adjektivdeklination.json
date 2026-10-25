@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der große Mann arbeitet hier.",
+    "correct_answer": "Büyük adam burada çalışıyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das kleine Kind schläft jetzt.",
+    "correct_answer": "Küçük çocuk şimdi uyuyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich kaufe einen roten Apfel.",
+    "correct_answer": "Kırmızı bir elma satın alıyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die schönen Blumen wachsen schnell.",
+    "correct_answer": "Güzel çiçekler hızlı büyüyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir fahren mit unserem alten Auto.",
+    "correct_answer": "Eski arabamızla seyahat ediyoruz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Büyük bir ev istiyorum.",
+    "correct_answer": "Ich möchte ein großes Haus.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Yeni öğretmen akıllı değil.",
+    "correct_answer": "Der neue Lehrer ist nicht intelligent.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "İyi bir doktor bulamadım.",
+    "correct_answer": "Ich habe keinen guten Arzt gefunden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Siyah kedi parkta oynuyor.",
+    "correct_answer": "Die schwarze Katze spielt im Park.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Pahalı bir arabanız var mı?",
+    "correct_answer": "Haben Sie ein teures Auto?",
+    "choices": null
+  }
+]

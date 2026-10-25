@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Masada bir kalem var.",
+    "correct_answer": "Auf dem Tisch ist ein Stift.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çantada para yok.",
+    "correct_answer": "In der Tasche ist kein Geld.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Evde kedi var mı?",
+    "correct_answer": "Gibt es eine Katze im Haus?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Bahçede çiçekler var.",
+    "correct_answer": "Im Garten gibt es Blumen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Cebimde anahtar yok.",
+    "correct_answer": "In meiner Tasche ist kein Schlüssel.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sende bir arkadaş var mı?",
+    "correct_answer": "Hast du einen Freund?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Buzdolabında yemek var.",
+    "correct_answer": "Im Kühlschrank gibt es Essen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ona kardeş yok.",
+    "correct_answer": "Er/Sie hat keine Geschwister.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Es gibt einen Hund im Garten.",
+    "correct_answer": "Bahçede bir köpek var.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "In der Küche ist kein Zucker.",
+    "correct_answer": "Mutfakta şeker yok.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Gibt es ein Fenster im Klassenzimmer?",
+    "correct_answer": "Sınıfta pencere var mı?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Im Park sind viele Bänke.",
+    "correct_answer": "Parkta çok bank var.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich habe kein Auto.",
+    "correct_answer": "Arabam yok.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Es gibt keine Lösung.",
+    "correct_answer": "Çözüm yok.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Im Schlafzimmer sind zwei Fenster.",
+    "correct_answer": "Yatak odasında iki pencere var.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Hast du einen Computer?",
+    "correct_answer": "Bilgisayarın var mı?",
+    "choices": null
+  }
+]

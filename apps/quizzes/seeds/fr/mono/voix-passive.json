@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Le rapport _____ complété par l'équipe hier.",
+    "correct_answer": "a été",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Les enfants _____ punis à l'école autrefois.",
+    "correct_answer": "étaient",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "La maison _____ rénovée quand nous sommes arrivés.",
+    "correct_answer": "n'avait pas été",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ce projet _____ approuvé par le directeur demain.",
+    "correct_answer": "sera",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Les fleurs _____ plantées dans le jardin par les enfants.",
+    "correct_answer": "ont été",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Cette lettre _____ écrite par mon ami hier.",
+    "correct_answer": "n'a pas été",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Le gâteau _____ fait par le boulanger ce matin.",
+    "correct_answer": "a été",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Les trois portes _____ fermées par le gardien chaque soir.",
+    "correct_answer": "étaient",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ce livre _____ lu par des millions de personnes dans le monde.",
+    "correct_answer": "a été",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "La présentation _____ préparée pour demain par notre équipe.",
+    "correct_answer": "sera",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle forme passive est correcte au passé composé?",
+    "correct_answer": "La maison a été construite en 1950.",
+    "choices": [
+      "La maison a été construite en 1950.",
+      "La maison est construite en 1950.",
+      "La maison a construit en 1950.",
+      "La maison était construite en 1950."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle est la forme négative correcte au présent?",
+    "correct_answer": "La porte n'est pas fermée par le gardien.",
+    "choices": [
+      "La porte n'est pas fermée par le gardien.",
+      "La porte ne fermée est pas par le gardien.",
+      "La porte pas n'est fermée par le gardien.",
+      "La porte est n'a pas fermée par le gardien."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle forme passive est au futur?",
+    "correct_answer": "La porte sera fermée par le gardien.",
+    "choices": [
+      "La porte sera fermée par le gardien.",
+      "La porte serait fermée par le gardien.",
+      "La porte est fermée par le gardien.",
+      "La porte avait été fermée par le gardien."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel participe passé s'accorde correctement?",
+    "correct_answer": "Les trois maisons ont été construites.",
+    "choices": [
+      "Les trois maisons ont été construit.",
+      "Les trois maisons ont été construites.",
+      "Les trois maisons a été construites.",
+      "Les trois maisons ont construit."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle forme passive exprime une action habituelle au passé?",
+    "correct_answer": "Les enfants étaient punis sévèrement.",
+    "choices": [
+      "Les enfants étaient punis sévèrement.",
+      "Les enfants seront punis sévèrement.",
+      "Les enfants ont été punis sévèrement.",
+      "Les enfants sont punis sévèrement."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le complément d'agent correct avec 'de'?",
+    "correct_answer": "La maison est entourée de murs.",
+    "choices": [
+      "La maison est entourée de murs.",
+      "La maison a été construite de un architecte.",
+      "La maison n'a de pas été fermée.",
+      "La maison est fermée de la porte."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle forme au plus-que-parfait est correcte?",
+    "correct_answer": "La porte avait été fermée par le gardien.",
+    "choices": [
+      "La porte avait été fermée par le gardien.",
+      "La porte avait fermée par le gardien.",
+      "La porte était fermée par le gardien.",
+      "La porte a était fermée par le gardien."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle interrogation est correcte au passé composé?",
+    "correct_answer": "Cette maison a-t-elle été construite en 1980?",
+    "choices": [
+      "Cette maison a-t-elle été construite en 1980?",
+      "Cette maison est-elle construit en 1980?",
+      "Cette maison a été construite-t-elle en 1980?",
+      "Cette maison a construit-elle été en 1980?"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle forme négative est au plus-que-parfait?",
+    "correct_answer": "La porte n'avait pas été fermée.",
+    "choices": [
+      "La porte n'avait pas été fermée.",
+      "La porte n'était pas fermée.",
+      "La porte n'a pas été fermée.",
+      "La porte ne sera pas fermée."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle est la forme correcte au conditionnel?",
+    "correct_answer": "La porte serait fermée par le gardien.",
+    "choices": [
+      "La porte serait fermée par le gardien.",
+      "La porte être fermée serait par le gardien.",
+      "La porte serait fermé par le gardien.",
+      "La porte seriez fermée par le gardien."
+    ]
+  }
+]

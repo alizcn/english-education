@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich hatte das Buch gelesen.",
+    "correct_answer": "J'avais lu le livre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle était déjà partie.",
+    "correct_answer": "Sie war bereits gegangen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie war nicht angekommen.",
+    "correct_answer": "Elle n'était pas arrivée.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Nous avions attendu longtemps.",
+    "correct_answer": "Wir hatten lange gewartet.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Hattest du dein Geld mitgenommen?",
+    "correct_answer": "Avais-tu pris ton argent?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Pourquoi n'avaient-ils pas appelé?",
+    "correct_answer": "Warum hatten sie nicht angerufen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir waren zu früh angekommen.",
+    "correct_answer": "Nous étions arrivés trop tôt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "J'avais oublié mon passeport.",
+    "correct_answer": "Ich hatte meinen Pass vergessen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wo warst du gewesen?",
+    "correct_answer": "Où avais-tu été?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Vous aviez déjà mangé quand il est arrivé.",
+    "correct_answer": "Ihr hattet bereits gegessen, als er ankam.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Kind war eingeschlafen.",
+    "correct_answer": "L'enfant s'était endormi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Tu n'avais rien dit.",
+    "correct_answer": "Du hattest nichts gesagt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Hatten die Kinder die Haustiere gefüttert?",
+    "correct_answer": "Les enfants avaient-ils nourri les animaux domestiques?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Quand étaient-elles parties?",
+    "correct_answer": "Wann waren sie gegangen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Er hatte seinen Schlüssel verloren.",
+    "correct_answer": "Il avait perdu sa clé.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ils n'étaient pas revenus à temps.",
+    "correct_answer": "Sie waren nicht rechtzeitig zurückgekommen.",
+    "choices": null
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich war gestern im Kino.",
+    "correct_answer": "Dün sinemadaydım.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie kaufte ein neues Auto.",
+    "correct_answer": "Yeni bir araba satın aldı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Junge aß einen Apfel.",
+    "correct_answer": "Oğlan bir elma yedi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich war nicht zu Hause.",
+    "correct_answer": "Evde değildim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Lehrer erklärte die Aufgabe.",
+    "correct_answer": "Öğretmen görevi açıkladı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Biz dün okula gittik.",
+    "correct_answer": "Wir gingen gestern in die Schule.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kız arkadaşına mektup yazdı.",
+    "correct_answer": "Sie schrieb ihrer Freundin einen Brief.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O dün hiç konuşmadı.",
+    "correct_answer": "Er sprach gestern nicht.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kediler sofaya atladılar.",
+    "correct_answer": "Die Katzen sprangen auf das Sofa.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Dün parkta oynadı mı?",
+    "correct_answer": "Spielte er gestern im Park?",
+    "choices": null
+  }
+]

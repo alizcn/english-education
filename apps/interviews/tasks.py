@@ -24,6 +24,8 @@ from celery import shared_task
 from django.utils.translation import gettext as _
 
 from services import claude_client as claude
+from services import languages
+
 from .models import InterviewSession
 
 logger = logging.getLogger(__name__)
@@ -55,10 +57,14 @@ def _chunk_plan(total: int) -> list[tuple[int, str]]:
 
 
 def _dedupe(items: list[dict], seen: set) -> list[dict]:
-    """Parçalar farklı odaklara rağmen aynı soruyu üretebiliyor; ingilizce soruya göre teker."""
+    """Parçalar farklı odaklara rağmen aynı soruyu üretebiliyor.
+
+    Teklik ölçütü hedef dildeki soru: ana dil çevirisi serbest ifade olduğu için
+    aynı soruyu iki farklı şekilde çevirebiliyor.
+    """
     fresh = []
     for it in items:
-        key = (it.get('question_en') or '').strip().lower()
+        key = (it.get('question_target') or '').strip().lower()
         if not key or key in seen:
             continue
         seen.add(key)
@@ -158,11 +164,40 @@ _TASK = dict(
 )
 
 
-@shared_task(**_TASK)
-def generate_from_title(session_id: int, job_title: str) -> None:
-    _run(session_id, lambda n, focus: claude.generate_interview_questions(job_title, n=n, focus=focus))
+def _pair_for(session_id, target=None, native=None):
+    """Görev parametrelerinden ya da oturumdan dil çiftini çözer.
+
+    Varsayılanlar None: deploy anında kuyrukta eski imzayla (dil parametresiz)
+    bekleyen görevler olabilir; o durumda çift oturumun alanlarından okunuyor.
+    Bir faz sonra varsayılanlar kaldırılabilir.
+    """
+    if target and native:
+        return languages.pair(target, native)
+    session = InterviewSession.objects.filter(pk=session_id).first()
+    if session is None:
+        return None
+    return languages.pair(session.target_language, session.native_language)
 
 
 @shared_task(**_TASK)
-def generate_from_cv(session_id: int, cv_text: str) -> None:
-    _run(session_id, lambda n, focus: claude.generate_interview_from_cv(cv_text, n=n, focus=focus))
+def generate_from_title(session_id: int, job_title: str,
+                        target: str = None, native: str = None) -> None:
+    pair = _pair_for(session_id, target, native)
+    if pair is None:
+        logger.warning('mülakat oturumu bulunamadı, üretim atlandı: %s', session_id)
+        return
+    _run(session_id, lambda n, focus: claude.generate_interview_questions(
+        job_title, n=n, focus=focus, pair=pair,
+    ))
+
+
+@shared_task(**_TASK)
+def generate_from_cv(session_id: int, cv_text: str,
+                     target: str = None, native: str = None) -> None:
+    pair = _pair_for(session_id, target, native)
+    if pair is None:
+        logger.warning('mülakat oturumu bulunamadı, üretim atlandı: %s', session_id)
+        return
+    _run(session_id, lambda n, focus: claude.generate_interview_from_cv(
+        cv_text, n=n, focus=focus, pair=pair,
+    ))

@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If I had known, I would have helped you.",
+    "correct_answer": "Eğer bilseydim, sana yardım etmiş olurdum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If she had called, I would have answered.",
+    "correct_answer": "Eğer o arasaydı, cevap vermiş olurdum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you hadn't called me, I wouldn't have come.",
+    "correct_answer": "Eğer beni aramasaydın, gelmemiş olurdum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If we had arrived earlier, we would have seen the show.",
+    "correct_answer": "Eğer daha erken gelseydik, şovu görmüş olurduk.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Would you have come if I had invited you?",
+    "correct_answer": "Eğer seni davet etseydin, gelmiş olur muydun?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If he hadn't made a mistake, he wouldn't have lost the game.",
+    "correct_answer": "Eğer hata yapmamış olsaydı, oyunu kaybetmemiş olurdu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If they had studied, they would have passed the exam.",
+    "correct_answer": "Eğer çalışmış olsalardı, sınavı geçmiş olacaklardı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If I hadn't missed the bus, I wouldn't have been late.",
+    "correct_answer": "Eğer otobüsü kaçırmasaydım, geç kalmamış olurdum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "What would have happened if she had told the truth?",
+    "correct_answer": "Eğer gerçeği söylemiş olsaydı, ne olurdu?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Would they have won if they had practiced more?",
+    "correct_answer": "Eğer daha çok antrenman yapmış olsalardı, kazanmış olurlar mıydı?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer doktor görmemiş olsaydın, iyileşmemiş olacaktın.",
+    "correct_answer": "If you hadn't seen a doctor, you wouldn't have recovered.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer daha çok çalışmış olsaydım, sınavı geçmiş olurdum.",
+    "correct_answer": "If I had studied more, I would have passed the exam.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer ona söylemiş olsaydın, bilmiş olurdu.",
+    "correct_answer": "If you had told him, he would have known.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer hata yapmamış olsaydı, kaybetmemiş olurdu.",
+    "correct_answer": "If he hadn't made a mistake, he wouldn't have lost.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer yağmur yağmış olsaydı, maçı iptal etmiş olacaklardı.",
+    "correct_answer": "If it had rained, they would have cancelled the match.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer erken çıkmış olsaydılar, geç kalmamış olacaklardı.",
+    "correct_answer": "If they had left early, they wouldn't have been late.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer gerçeği söylemiş olsaydı, ne olurdu?",
+    "correct_answer": "If she had told the truth, what would have happened?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer onu görmemiş olsaydım, bilmemiş olurdum.",
+    "correct_answer": "If I hadn't seen him, I wouldn't have known.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer bilmiş olsaydın, ne yapardın?",
+    "correct_answer": "If you had known, what would you have done?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer bahçeyi sulamış olsaydınız, bitkiler ölmemiş olurdu.",
+    "correct_answer": "If you had watered the garden, the plants wouldn't have died.",
+    "choices": null
+  }
+]

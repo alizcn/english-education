@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Masada bir kalem var.",
+    "correct_answer": "Il y a un stylo sur la table.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Il n'y a pas de livre dans le sac.",
+    "correct_answer": "Çantada kitap yok.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Cebimde para yok.",
+    "correct_answer": "Je n'ai pas d'argent dans ma poche.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Avez-vous un frère?",
+    "correct_answer": "Erkek kardeşin var mı?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ona bir sorunu var.",
+    "correct_answer": "Il a un problème.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Il y a trois chambres dans la maison.",
+    "correct_answer": "Evde üç yatak odası var.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Senin bir albüm var.",
+    "correct_answer": "Tu as un album.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je n'ai pas de voiture.",
+    "correct_answer": "Arabam yok.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Salonun iki penceresi var.",
+    "correct_answer": "Le salon a deux fenêtres.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Hier, je n'avais pas d'argent.",
+    "correct_answer": "Dün param yoktu.",
+    "choices": null
+  }
+]

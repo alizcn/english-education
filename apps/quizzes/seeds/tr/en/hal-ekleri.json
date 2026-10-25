@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kitabı okudum.",
+    "correct_answer": "I read the book.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The dog is at home.",
+    "correct_answer": "Köpek evde.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Okuldan geliyorum.",
+    "correct_answer": "I am coming from school.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Did you give the book to the teacher?",
+    "correct_answer": "Öğretmene kitabı verdin mi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Evde uyumadım.",
+    "correct_answer": "I didn't sleep at home.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The cat is on the table.",
+    "correct_answer": "Kedi masada.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kedimi seviyorum.",
+    "correct_answer": "I love my cat.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He came from the city.",
+    "correct_answer": "Şehirden geldi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çantayı aldı mı?",
+    "correct_answer": "Did he/she take the bag?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Do you work in the library?",
+    "correct_answer": "Kütüphanede çalışıyor musun?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Köpeği görmedim.",
+    "correct_answer": "I didn't see the dog.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They didn't go to school.",
+    "correct_answer": "Okula gitmediler.",
+    "choices": null
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich bleibe zu Hause, weil es regnet.",
+    "correct_answer": "Je reste à la maison parce qu'il pleut.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je vais au cinéma parce que j'aime les films.",
+    "correct_answer": "Ich gehe ins Kino, weil ich Filme mag.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie kommt nicht, weil sie müde ist.",
+    "correct_answer": "Elle ne vient pas parce qu'elle est fatiguée.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ils pensent que c'est difficile.",
+    "correct_answer": "Sie denken, dass es schwierig ist.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wenn das Wetter schlecht ist, bleiben wir drinnen.",
+    "correct_answer": "Si le temps est mauvais, nous restons dedans.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je sais que tu viens demain.",
+    "correct_answer": "Ich weiß, dass du morgen kommst.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Hoffst du, dass die Prüfung leicht ist?",
+    "correct_answer": "Espères-tu que l'examen soit facile?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Parce qu'il pleut, nous restons à la maison.",
+    "correct_answer": "Weil es regnet, bleiben wir zu Hause.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Kind weint, weil sein Hund nicht kommt.",
+    "correct_answer": "L'enfant pleure parce que son chien ne vient pas.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si tu m'aides, je t'aide aussi.",
+    "correct_answer": "Wenn du mir hilfst, helfe ich dir auch.",
+    "choices": null
+  }
+]

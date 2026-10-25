@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to German: This book is more interesting than that one.",
+    "correct_answer": "Dieses Buch ist interessanter als das andere.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to German: She is the happiest person I know.",
+    "correct_answer": "Sie ist die glücklichste Person, die ich kenne.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to German: My brother is taller than me.",
+    "correct_answer": "Mein Bruder ist größer als ich.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to German: That's the worst movie I've ever seen.",
+    "correct_answer": "Das ist der schlechteste Film, den ich je gesehen habe.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to German: This coffee isn't as hot as yesterday's.",
+    "correct_answer": "Dieser Kaffee ist nicht so heiß wie der von gestern.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to German: Is your apartment bigger than mine?",
+    "correct_answer": "Ist deine Wohnung größer als meine?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to German: He is not as tall as his father.",
+    "correct_answer": "Er ist nicht so groß wie sein Vater.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to German: Today is hotter than yesterday.",
+    "correct_answer": "Heute ist es heißer als gestern.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Diese Aufgabe ist schwieriger als die letzte.",
+    "correct_answer": "This task is more difficult than the last one.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Er ist der schnellste Läufer im Team.",
+    "correct_answer": "He is the fastest runner on the team.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Meine Schwester ist nicht so alt wie ich.",
+    "correct_answer": "My sister isn't as old as me.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Das ist das beste Restaurant in der Stadt.",
+    "correct_answer": "That's the best restaurant in the city.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Ist dein Auto teurer als meines?",
+    "correct_answer": "Is your car more expensive than mine?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Dieser Film ist langweiliger als der andere.",
+    "correct_answer": "This movie is more boring than the other one.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Sie hat weniger Erfahrung als ich.",
+    "correct_answer": "She has less experience than me.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Das ist die größte Stadt des Landes.",
+    "correct_answer": "That is the largest city in the country.",
+    "choices": null
+  }
+]

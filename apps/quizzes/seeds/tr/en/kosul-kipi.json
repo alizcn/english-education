@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gelirse, seni görmek isterim.",
+    "correct_answer": "If he/she comes, I want to see you.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çalışmasan, sınavı geçmezsin.",
+    "correct_answer": "If you don't study, you won't pass the exam.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yağmur yağarsa, evde kalırız.",
+    "correct_answer": "If it rains, we stay at home.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Erken uyusak, sabah yorgun olmayız.",
+    "correct_answer": "If we go to sleep early, we won't be tired in the morning.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sorarsan, sana yardım ederim.",
+    "correct_answer": "If you ask, I will help you.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "If you go, tell me.",
+    "correct_answer": "Gidersen, bana söyle.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "If it doesn't rain tomorrow, we'll go to the park.",
+    "correct_answer": "Yarın yağmur yağmazsa, parka gideriz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "If you eat that, you'll get sick.",
+    "correct_answer": "Onu yersen, hasta olursun.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "If we leave early, we can arrive on time.",
+    "correct_answer": "Erken çıkarsak, vaktinde varabiliriz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "If she doesn't come, what will you do?",
+    "correct_answer": "O gelmezse, ne yaparsın?",
+    "choices": null
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das ist das Auto meines Vaters.",
+    "correct_answer": "C'est la voiture de mon père.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "L'école de ma sœur est grande.",
+    "correct_answer": "Die Schule meiner Schwester ist groß.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Garten unserer Nachbarn ist schön.",
+    "correct_answer": "Le jardin de nos voisins est beau.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "La couleur du ciel est bleue.",
+    "correct_answer": "Die Farbe des Himmels ist blau.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das ist nicht das Buch des Professors.",
+    "correct_answer": "Ce n'est pas le livre du professeur.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Les problèmes de l'étudiant sont difficiles.",
+    "correct_answer": "Die Probleme des Studenten sind schwierig.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Schule meiner Tochter ist sehr alt.",
+    "correct_answer": "L'école de ma fille est très vieille.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "La responsabilité des parents est wichtig.",
+    "correct_answer": "Die Verantwortung der Eltern ist wichtig.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Farbe des Autos ist nicht blau.",
+    "correct_answer": "La couleur de la voiture n'est pas bleue.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Les livres de cet écrivain sont intéressant.",
+    "correct_answer": "Die Bücher dieses Schriftstellers sind interessant.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das ist die Wohnung einer jungen Familie.",
+    "correct_answer": "C'est l'appartement d'une jeune famille.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Le jardin de nos parents est très grand.",
+    "correct_answer": "Der Garten unserer Eltern ist sehr groß.",
+    "choices": null
+  }
+]

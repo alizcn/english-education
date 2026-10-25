@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich werde morgen arbeiten.",
+    "correct_answer": "Yarın çalışacağım.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Du wirst um 8 Uhr aufwachen.",
+    "correct_answer": "Saat 8'de uyanacaksın.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Er wird ein Auto kaufen.",
+    "correct_answer": "Bir araba alacak.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir werden nicht lange bleiben.",
+    "correct_answer": "Uzun kalmayacağız.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Werden Sie morgen kommen?",
+    "correct_answer": "Yarın gelecek misiniz?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sizler bu filmi izleyeceksiniz.",
+    "correct_answer": "Ihr werdet diesen Film sehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O evi satacak.",
+    "correct_answer": "Er wird das Haus verkaufen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ben sana yardım etmeyeceğim.",
+    "correct_answer": "Ich werde dir nicht helfen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Yarın toplantı başlayacak mı?",
+    "correct_answer": "Wird das Treffen morgen beginnen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Biz birlikte yemeğe gideceğiz.",
+    "correct_answer": "Wir werden zusammen essen gehen.",
+    "choices": null
+  }
+]

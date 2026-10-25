@@ -1,0 +1,6002 @@
+[
+  {
+    "rank": 1,
+    "term": "ve",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 2,
+    "term": "bir",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 3,
+    "term": "bu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 4,
+    "term": "için",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 5,
+    "term": "de",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 6,
+    "term": "da",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 7,
+    "term": "çok",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 8,
+    "term": "ile",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 9,
+    "term": "ne",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 10,
+    "term": "daha",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 11,
+    "term": "en",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 12,
+    "term": "gibi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 13,
+    "term": "olarak",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 14,
+    "term": "her",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 15,
+    "term": "kadar",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 16,
+    "term": "olan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 17,
+    "term": "ben",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 18,
+    "term": "var",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 19,
+    "term": "ama",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 20,
+    "term": "sonra",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 21,
+    "term": "ki",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 22,
+    "term": "iyi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 23,
+    "term": "yok",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 24,
+    "term": "ya",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 25,
+    "term": "değil",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 26,
+    "term": "sen",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 27,
+    "term": "büyük",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 28,
+    "term": "yeni",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 29,
+    "term": "güzel",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 30,
+    "term": "sadece",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 31,
+    "term": "zaman",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 32,
+    "term": "ilk",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 33,
+    "term": "iki",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 34,
+    "term": "mi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 35,
+    "term": "hiç",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 36,
+    "term": "ise",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 37,
+    "term": "oldu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 38,
+    "term": "bile",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 39,
+    "term": "nasıl",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 40,
+    "term": "şey",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 41,
+    "term": "benim",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 42,
+    "term": "böyle",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 43,
+    "term": "son",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 44,
+    "term": "tek",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 45,
+    "term": "gün",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 46,
+    "term": "tüm",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 47,
+    "term": "yer",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 48,
+    "term": "önce",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 49,
+    "term": "artık",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 50,
+    "term": "göre",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 51,
+    "term": "mı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 52,
+    "term": "seni",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 53,
+    "term": "beni",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 54,
+    "term": "türkiye",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 55,
+    "term": "aynı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 56,
+    "term": "bana",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 57,
+    "term": "tarafından",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 58,
+    "term": "türk",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 59,
+    "term": "doğru",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 60,
+    "term": "veya",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 61,
+    "term": "biz",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 62,
+    "term": "olduğunu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 63,
+    "term": "diye",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 64,
+    "term": "kendi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 65,
+    "term": "olduğu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 66,
+    "term": "olur",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 67,
+    "term": "şu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 68,
+    "term": "birlikte",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 69,
+    "term": "devam",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 70,
+    "term": "diğer",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 71,
+    "term": "sana",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 72,
+    "term": "fazla",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 73,
+    "term": "neden",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 74,
+    "term": "önemli",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 75,
+    "term": "yıl",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 76,
+    "term": "içinde",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 77,
+    "term": "olmak",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 78,
+    "term": "şimdi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 79,
+    "term": "çünkü",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 80,
+    "term": "ancak",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 81,
+    "term": "başka",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 82,
+    "term": "biri",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 83,
+    "term": "bunu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 84,
+    "term": "işte",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 85,
+    "term": "olsun",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 86,
+    "term": "karşı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 87,
+    "term": "arasında",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 88,
+    "term": "insanlar",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 89,
+    "term": "öyle",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 90,
+    "term": "şekilde",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 91,
+    "term": "bütün",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 92,
+    "term": "istanbul",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 93,
+    "term": "iş",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 94,
+    "term": "senin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 95,
+    "term": "dünya",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 96,
+    "term": "genel",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 97,
+    "term": "hemen",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 98,
+    "term": "yine",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 99,
+    "term": "adam",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 100,
+    "term": "siz",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 101,
+    "term": "tam",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 102,
+    "term": "uzun",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 103,
+    "term": "bizim",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 104,
+    "term": "bugün",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 105,
+    "term": "saat",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 106,
+    "term": "az",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 107,
+    "term": "bunun",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 108,
+    "term": "eden",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 109,
+    "term": "hakkında",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 110,
+    "term": "küçük",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 111,
+    "term": "size",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 112,
+    "term": "teşekkürler",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 113,
+    "term": "alan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 114,
+    "term": "bazı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 115,
+    "term": "geri",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 116,
+    "term": "olacak",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 117,
+    "term": "gelen",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 118,
+    "term": "insan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 119,
+    "term": "kadın",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 120,
+    "term": "onu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 121,
+    "term": "üç",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 122,
+    "term": "biraz",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 123,
+    "term": "gece",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 124,
+    "term": "hem",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 125,
+    "term": "kişi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 126,
+    "term": "yani",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 127,
+    "term": "ayrıca",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 128,
+    "term": "eski",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 129,
+    "term": "kabul",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 130,
+    "term": "etti",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 131,
+    "term": "hiçbir",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 132,
+    "term": "ilgili",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 133,
+    "term": "yapılan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 134,
+    "term": "özel",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 135,
+    "term": "bize",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 136,
+    "term": "evet",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 137,
+    "term": "gerçek",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 138,
+    "term": "vardır",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 139,
+    "term": "fakat",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 140,
+    "term": "kez",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 141,
+    "term": "sahip",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 142,
+    "term": "yüksek",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 143,
+    "term": "zaten",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 144,
+    "term": "üzerine",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 145,
+    "term": "geldi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 146,
+    "term": "kim",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 147,
+    "term": "mu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 148,
+    "term": "sizin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 149,
+    "term": "bulunan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 150,
+    "term": "devlet",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 151,
+    "term": "farklı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 152,
+    "term": "hep",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 153,
+    "term": "kız",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 154,
+    "term": "üzerinde",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 155,
+    "term": "eğer",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 156,
+    "term": "geliyor",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 157,
+    "term": "herkes",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 158,
+    "term": "ediyor",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 159,
+    "term": "hala",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 160,
+    "term": "lütfen",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 161,
+    "term": "çocuk",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 162,
+    "term": "burada",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 163,
+    "term": "onun",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 164,
+    "term": "para",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 165,
+    "term": "su",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 166,
+    "term": "üzere",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 167,
+    "term": "an",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 168,
+    "term": "bin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 169,
+    "term": "söz",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 170,
+    "term": "bizi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 171,
+    "term": "kimse",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 172,
+    "term": "yerine",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 173,
+    "term": "yılında",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 174,
+    "term": "el",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 175,
+    "term": "etmek",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 176,
+    "term": "günü",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 177,
+    "term": "in",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 178,
+    "term": "istiyorum",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 179,
+    "term": "hayır",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 180,
+    "term": "kötü",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 181,
+    "term": "demek",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 182,
+    "term": "erkek",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 183,
+    "term": "bak",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 184,
+    "term": "gerek",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 185,
+    "term": "ortaya",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 186,
+    "term": "sizi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 187,
+    "term": "yapan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 188,
+    "term": "zor",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 189,
+    "term": "ay",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 190,
+    "term": "belki",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 191,
+    "term": "eğitim",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 192,
+    "term": "hafta",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 193,
+    "term": "ikinci",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 194,
+    "term": "kısa",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 195,
+    "term": "olmaz",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 196,
+    "term": "oluyor",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 197,
+    "term": "ona",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 198,
+    "term": "birçok",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 199,
+    "term": "kendini",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 200,
+    "term": "olabilir",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 201,
+    "term": "tekrar",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 202,
+    "term": "ardından",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 203,
+    "term": "geçen",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 204,
+    "term": "olup",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 205,
+    "term": "süre",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 206,
+    "term": "altında",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 207,
+    "term": "başkanı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 208,
+    "term": "bence",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 209,
+    "term": "dedi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 210,
+    "term": "yerde",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 211,
+    "term": "adı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 212,
+    "term": "aslında",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 213,
+    "term": "haber",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 214,
+    "term": "hangi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 215,
+    "term": "olması",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 216,
+    "term": "pek",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 217,
+    "term": "yeniden",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 218,
+    "term": "yoksa",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 219,
+    "term": "boyunca",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 220,
+    "term": "mutlu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 221,
+    "term": "takip",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 222,
+    "term": "yol",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 223,
+    "term": "zamanda",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 224,
+    "term": "al",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 225,
+    "term": "açık",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 226,
+    "term": "ev",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 227,
+    "term": "yaptığı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 228,
+    "term": "başladı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 229,
+    "term": "buna",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 230,
+    "term": "dikkat",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 231,
+    "term": "ediyorum",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 232,
+    "term": "gerçekten",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 233,
+    "term": "lazım",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 234,
+    "term": "olsa",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 235,
+    "term": "sonunda",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 236,
+    "term": "yapmak",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 237,
+    "term": "ankara",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 238,
+    "term": "bunlar",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 239,
+    "term": "gelir",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 240,
+    "term": "gereken",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 241,
+    "term": "olmayan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 242,
+    "term": "üniversitesi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 243,
+    "term": "ali",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 244,
+    "term": "asla",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 245,
+    "term": "birkaç",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 246,
+    "term": "eder",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 247,
+    "term": "ederim",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 248,
+    "term": "genç",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 249,
+    "term": "hava",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 250,
+    "term": "karar",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 251,
+    "term": "kaç",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 252,
+    "term": "ait",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 253,
+    "term": "bağlı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 254,
+    "term": "dakika",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 255,
+    "term": "hızlı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 256,
+    "term": "il",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 257,
+    "term": "istiyor",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 258,
+    "term": "milyon",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 259,
+    "term": "onlar",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 260,
+    "term": "sosyal",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 261,
+    "term": "teşekkür",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 262,
+    "term": "yakın",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 263,
+    "term": "özellikle",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 264,
+    "term": "hadi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 265,
+    "term": "kolay",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 266,
+    "term": "tarihi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 267,
+    "term": "yanında",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 268,
+    "term": "şeyler",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 269,
+    "term": "ana",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 270,
+    "term": "destek",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 271,
+    "term": "dört",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 272,
+    "term": "oyun",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 273,
+    "term": "yarın",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 274,
+    "term": "yere",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 275,
+    "term": "anda",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 276,
+    "term": "bilgi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 277,
+    "term": "merak",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 278,
+    "term": "rağmen",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 279,
+    "term": "sabah",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 280,
+    "term": "vardı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 281,
+    "term": "yaptı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 282,
+    "term": "çıktı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 283,
+    "term": "abd",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 284,
+    "term": "beraber",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 285,
+    "term": "edilen",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 286,
+    "term": "et",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 287,
+    "term": "kontrol",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 288,
+    "term": "niye",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 289,
+    "term": "oldukça",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 290,
+    "term": "seviyorum",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 291,
+    "term": "söyledi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 292,
+    "term": "yalnız",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 293,
+    "term": "yanlış",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 294,
+    "term": "şeyi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 295,
+    "term": "akşam",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 296,
+    "term": "avrupa",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 297,
+    "term": "falan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 298,
+    "term": "güçlü",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 299,
+    "term": "iç",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 300,
+    "term": "nedir",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 301,
+    "term": "olmuş",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 302,
+    "term": "parti",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 303,
+    "term": "verdi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 304,
+    "term": "beri",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 305,
+    "term": "cevap",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 306,
+    "term": "dr",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 307,
+    "term": "dünyanın",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 308,
+    "term": "film",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 309,
+    "term": "gelecek",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 310,
+    "term": "göz",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 311,
+    "term": "merkezi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 312,
+    "term": "spor",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 313,
+    "term": "teknik",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 314,
+    "term": "türkiye'de",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 315,
+    "term": "yaz",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 316,
+    "term": "ülke",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 317,
+    "term": "bölüm",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 318,
+    "term": "değildir",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 319,
+    "term": "gel",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 320,
+    "term": "insanların",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 321,
+    "term": "ol",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 322,
+    "term": "yardımcı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 323,
+    "term": "çıkan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 324,
+    "term": "aldı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 325,
+    "term": "almak",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 326,
+    "term": "bazen",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 327,
+    "term": "dışında",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 328,
+    "term": "elde",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 329,
+    "term": "herhangi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 330,
+    "term": "kaldı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 331,
+    "term": "yaklaşık",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 332,
+    "term": "allah",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 333,
+    "term": "belli",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 334,
+    "term": "halk",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 335,
+    "term": "on",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 336,
+    "term": "polis",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 337,
+    "term": "temmuz",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 338,
+    "term": "tl",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 339,
+    "term": "uluslararası",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 340,
+    "term": "varsa",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 341,
+    "term": "yardım",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 342,
+    "term": "yemek",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 343,
+    "term": "yüzden",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 344,
+    "term": "anne",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 345,
+    "term": "hareket",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 346,
+    "term": "konusunda",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 347,
+    "term": "mehmet",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 348,
+    "term": "nedeniyle",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 349,
+    "term": "sanki",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 350,
+    "term": "tabi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 351,
+    "term": "veren",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 352,
+    "term": "beyaz",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 353,
+    "term": "bundan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 354,
+    "term": "durum",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 355,
+    "term": "eylül",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 356,
+    "term": "kan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 357,
+    "term": "savaş",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 358,
+    "term": "tamamen",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 359,
+    "term": "başına",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 360,
+    "term": "bende",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 361,
+    "term": "beş",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 362,
+    "term": "böylece",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 363,
+    "term": "dedim",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 364,
+    "term": "den",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 365,
+    "term": "dün",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 366,
+    "term": "hayat",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 367,
+    "term": "kalan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 368,
+    "term": "kitap",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 369,
+    "term": "kendine",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 370,
+    "term": "mustafa",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 371,
+    "term": "musunuz",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 372,
+    "term": "sıra",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 373,
+    "term": "yaş",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 374,
+    "term": "ye",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 375,
+    "term": "ahmet",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 376,
+    "term": "arada",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 377,
+    "term": "belediye",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 378,
+    "term": "canlı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 379,
+    "term": "deniz",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 380,
+    "term": "dolayı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 381,
+    "term": "edin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 382,
+    "term": "ele",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 383,
+    "term": "ister",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 384,
+    "term": "olursa",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 385,
+    "term": "sürekli",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 386,
+    "term": "yolu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 387,
+    "term": "üst",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 388,
+    "term": "ara",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 389,
+    "term": "at",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 390,
+    "term": "başkan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 391,
+    "term": "izmir",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 392,
+    "term": "milli",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 393,
+    "term": "olun",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 394,
+    "term": "ses",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 395,
+    "term": "sorun",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 396,
+    "term": "tane",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 397,
+    "term": "the",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 398,
+    "term": "verilen",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 399,
+    "term": "video",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 400,
+    "term": "altı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 401,
+    "term": "evde",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 402,
+    "term": "fark",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 403,
+    "term": "görev",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 404,
+    "term": "hak",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 405,
+    "term": "izin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 406,
+    "term": "müzik",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 407,
+    "term": "resmi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 408,
+    "term": "satın",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 409,
+    "term": "tarih",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 410,
+    "term": "tür",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 411,
+    "term": "uygun",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 412,
+    "term": "ayrı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 413,
+    "term": "boş",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 414,
+    "term": "günlük",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 415,
+    "term": "hatta",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 416,
+    "term": "ilçe",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 417,
+    "term": "içine",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 418,
+    "term": "kültür",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 419,
+    "term": "rahat",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 420,
+    "term": "sahibi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 421,
+    "term": "sağlık",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 422,
+    "term": "sistemi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 423,
+    "term": "türkiye'nin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 424,
+    "term": "yaşında",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 425,
+    "term": "yeter",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 426,
+    "term": "benden",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 427,
+    "term": "dolu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 428,
+    "term": "hepsi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 429,
+    "term": "işi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 430,
+    "term": "maç",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 431,
+    "term": "sonucu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 432,
+    "term": "soru",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 433,
+    "term": "te",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 434,
+    "term": "yoktur",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 435,
+    "term": "çeşitli",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 436,
+    "term": "be",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 437,
+    "term": "ciddi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 438,
+    "term": "eve",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 439,
+    "term": "hazır",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 440,
+    "term": "hizmet",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 441,
+    "term": "kendimi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 442,
+    "term": "mart",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 443,
+    "term": "sayın",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 444,
+    "term": "takım",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 445,
+    "term": "yalan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 446,
+    "term": "yeri",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 447,
+    "term": "yıllık",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 448,
+    "term": "şehir",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 449,
+    "term": "şöyle",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 450,
+    "term": "geç",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 451,
+    "term": "geçti",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 452,
+    "term": "grup",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 453,
+    "term": "görmek",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 454,
+    "term": "güvenlik",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 455,
+    "term": "harika",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 456,
+    "term": "kadınlar",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 457,
+    "term": "mücadele",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 458,
+    "term": "nisan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 459,
+    "term": "telefon",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 460,
+    "term": "yılı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 461,
+    "term": "alt",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 462,
+    "term": "ağır",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 463,
+    "term": "dahil",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 464,
+    "term": "ifade",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 465,
+    "term": "okul",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 466,
+    "term": "orta",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 467,
+    "term": "seçim",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 468,
+    "term": "süper",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 469,
+    "term": "tv",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 470,
+    "term": "web",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 471,
+    "term": "yapıyor",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 472,
+    "term": "ünlü",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 473,
+    "term": "birini",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 474,
+    "term": "dış",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 475,
+    "term": "güneş",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 476,
+    "term": "halde",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 477,
+    "term": "hayal",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 478,
+    "term": "isteyen",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 479,
+    "term": "kesin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 480,
+    "term": "mükemmel",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 481,
+    "term": "onların",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 482,
+    "term": "resim",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 483,
+    "term": "sanat",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 484,
+    "term": "sırasında",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 485,
+    "term": "tarihinde",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 486,
+    "term": "uzak",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 487,
+    "term": "yönetim",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 488,
+    "term": "adım",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 489,
+    "term": "arkadaş",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 490,
+    "term": "başarılı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 491,
+    "term": "birinci",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 492,
+    "term": "bulundu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 493,
+    "term": "defa",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 494,
+    "term": "ders",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 495,
+    "term": "değilim",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 496,
+    "term": "edildi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 497,
+    "term": "ilan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 498,
+    "term": "neler",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 499,
+    "term": "nin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 500,
+    "term": "olay",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 501,
+    "term": "onları",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 502,
+    "term": "peki",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 503,
+    "term": "senden",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 504,
+    "term": "tamam",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 505,
+    "term": "toplam",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 506,
+    "term": "çocuklar",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 507,
+    "term": "şarkı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 508,
+    "term": "durumda",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 509,
+    "term": "etme",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 510,
+    "term": "gitti",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 511,
+    "term": "güç",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 512,
+    "term": "itibaren",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 513,
+    "term": "kesinlikle",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 514,
+    "term": "konuda",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 515,
+    "term": "kızı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 516,
+    "term": "nefret",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 517,
+    "term": "ortak",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 518,
+    "term": "sonrası",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 519,
+    "term": "temel",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 520,
+    "term": "ülkenin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 521,
+    "term": "acaba",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 522,
+    "term": "aile",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 523,
+    "term": "ak",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 524,
+    "term": "anadolu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 525,
+    "term": "ağustos",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 526,
+    "term": "aşk",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 527,
+    "term": "dolar",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 528,
+    "term": "durumu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 529,
+    "term": "edecek",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 530,
+    "term": "ettiği",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 531,
+    "term": "konusu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 532,
+    "term": "normal",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 533,
+    "term": "sanırım",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 534,
+    "term": "siyasi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 535,
+    "term": "sonraki",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 536,
+    "term": "türkçe",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 537,
+    "term": "öldü",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 538,
+    "term": "bayan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 539,
+    "term": "baş",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 540,
+    "term": "bi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 541,
+    "term": "cumhurbaşkanı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 542,
+    "term": "diyor",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 543,
+    "term": "doğum",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 544,
+    "term": "dünyada",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 545,
+    "term": "elektrik",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 546,
+    "term": "erken",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 547,
+    "term": "kendisi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 548,
+    "term": "konu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 549,
+    "term": "vermek",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 550,
+    "term": "yalnızca",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 551,
+    "term": "zorunda",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 552,
+    "term": "ölüm",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 553,
+    "term": "önceki",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 554,
+    "term": "adamı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 555,
+    "term": "aldığı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 556,
+    "term": "alıp",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 557,
+    "term": "arasındaki",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 558,
+    "term": "bakanı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 559,
+    "term": "başında",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 560,
+    "term": "bunları",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 561,
+    "term": "dair",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 562,
+    "term": "değer",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 563,
+    "term": "git",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 564,
+    "term": "gol",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 565,
+    "term": "herkesin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 566,
+    "term": "islam",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 567,
+    "term": "izle",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 568,
+    "term": "merkez",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 569,
+    "term": "new",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 570,
+    "term": "neyse",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 571,
+    "term": "onlara",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 572,
+    "term": "sene",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 573,
+    "term": "sitesi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 574,
+    "term": "bey",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 575,
+    "term": "bunların",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 576,
+    "term": "dönem",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 577,
+    "term": "gerekiyor",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 578,
+    "term": "hayatta",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 579,
+    "term": "insanları",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 580,
+    "term": "işe",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 581,
+    "term": "kemal",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 582,
+    "term": "kullanılan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 583,
+    "term": "merhaba",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 584,
+    "term": "yanı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 585,
+    "term": "yap",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 586,
+    "term": "çalışan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 587,
+    "term": "çoğu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 588,
+    "term": "ön",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 589,
+    "term": "adına",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 590,
+    "term": "bakalım",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 591,
+    "term": "bakın",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 592,
+    "term": "dil",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 593,
+    "term": "haline",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 594,
+    "term": "john",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 595,
+    "term": "kasım",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 596,
+    "term": "kırmızı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 597,
+    "term": "la",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 598,
+    "term": "seninle",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 599,
+    "term": "verdiği",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 600,
+    "term": "yabancı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 601,
+    "term": "yayın",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 602,
+    "term": "yıldır",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 603,
+    "term": "zarar",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 604,
+    "term": "önünde",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 605,
+    "term": "acı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 606,
+    "term": "adını",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 607,
+    "term": "altın",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 608,
+    "term": "baba",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 609,
+    "term": "bilim",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 610,
+    "term": "geniş",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 611,
+    "term": "hayatını",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 612,
+    "term": "haziran",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 613,
+    "term": "henüz",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 614,
+    "term": "mayıs",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 615,
+    "term": "mümkün",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 616,
+    "term": "olma",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 617,
+    "term": "olmalı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 618,
+    "term": "sayısı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 619,
+    "term": "yana",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 620,
+    "term": "ücretsiz",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 621,
+    "term": "üzerinden",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 622,
+    "term": "üçüncü",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 623,
+    "term": "şubat",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 624,
+    "term": "adlı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 625,
+    "term": "araştırma",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 626,
+    "term": "bulunduğu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 627,
+    "term": "cumhuriyet",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 628,
+    "term": "dan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 629,
+    "term": "doğal",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 630,
+    "term": "erdoğan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 631,
+    "term": "futbol",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 632,
+    "term": "içerisinde",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 633,
+    "term": "kere",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 634,
+    "term": "mesaj",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 635,
+    "term": "oldum",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 636,
+    "term": "oluşan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 637,
+    "term": "orada",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 638,
+    "term": "serbest",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 639,
+    "term": "sırada",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 640,
+    "term": "yüz",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 641,
+    "term": "acil",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 642,
+    "term": "can",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 643,
+    "term": "ekim",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 644,
+    "term": "internet",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 645,
+    "term": "kara",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 646,
+    "term": "kurulu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 647,
+    "term": "of",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 648,
+    "term": "olmadığını",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 649,
+    "term": "seks",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 650,
+    "term": "sık",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 651,
+    "term": "tatlı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 652,
+    "term": "türlü",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 653,
+    "term": "yaşam",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 654,
+    "term": "yaşayan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 655,
+    "term": "ziyaret",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 656,
+    "term": "asıl",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 657,
+    "term": "barış",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 658,
+    "term": "başlayan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 659,
+    "term": "birisi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 660,
+    "term": "birliği",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 661,
+    "term": "canım",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 662,
+    "term": "hale",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 663,
+    "term": "insanın",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 664,
+    "term": "kardeşim",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 665,
+    "term": "milletvekili",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 666,
+    "term": "ondan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 667,
+    "term": "oyunu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 668,
+    "term": "sağ",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 669,
+    "term": "sezon",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 670,
+    "term": "sona",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 671,
+    "term": "sıcak",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 672,
+    "term": "yapar",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 673,
+    "term": "yüzünden",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 674,
+    "term": "çocuğu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 675,
+    "term": "çıkar",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 676,
+    "term": "askeri",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 677,
+    "term": "der",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 678,
+    "term": "din",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 679,
+    "term": "dizi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 680,
+    "term": "hayatı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 681,
+    "term": "ileri",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 682,
+    "term": "kişinin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 683,
+    "term": "maçı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 684,
+    "term": "millet",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 685,
+    "term": "oy",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 686,
+    "term": "selam",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 687,
+    "term": "site",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 688,
+    "term": "sonu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 689,
+    "term": "ver",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 690,
+    "term": "yapmış",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 691,
+    "term": "aday",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 692,
+    "term": "altına",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 693,
+    "term": "atatürk",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 694,
+    "term": "bebek",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 695,
+    "term": "bölge",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 696,
+    "term": "dünyaya",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 697,
+    "term": "düzenlenen",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 698,
+    "term": "ederek",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 699,
+    "term": "emin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 700,
+    "term": "gerektiğini",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 701,
+    "term": "gizli",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 702,
+    "term": "hakkı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 703,
+    "term": "olmaya",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 704,
+    "term": "osmanlı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 705,
+    "term": "sende",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 706,
+    "term": "tespit",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 707,
+    "term": "verir",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 708,
+    "term": "yapma",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 709,
+    "term": "zamanı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 710,
+    "term": "öncesi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 711,
+    "term": "aktif",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 712,
+    "term": "alır",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 713,
+    "term": "ayında",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 714,
+    "term": "bilmiyorum",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 715,
+    "term": "bununla",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 716,
+    "term": "dönemde",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 717,
+    "term": "ediyoruz",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 718,
+    "term": "ettim",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 719,
+    "term": "hoş",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 720,
+    "term": "kapalı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 721,
+    "term": "muhteşem",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 722,
+    "term": "siyah",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 723,
+    "term": "ulusal",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 724,
+    "term": "yada",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 725,
+    "term": "yerinde",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 726,
+    "term": "çalışma",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 727,
+    "term": "üstüne",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 728,
+    "term": "üyesi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 729,
+    "term": "arası",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 730,
+    "term": "edilir",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 731,
+    "term": "edip",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 732,
+    "term": "ek",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 733,
+    "term": "ekonomik",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 734,
+    "term": "enerji",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 735,
+    "term": "etmeye",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 736,
+    "term": "fenerbahçe",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 737,
+    "term": "hasta",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 738,
+    "term": "http",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 739,
+    "term": "ingilizce",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 740,
+    "term": "karşısında",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 741,
+    "term": "ocak",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 742,
+    "term": "olmadan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 743,
+    "term": "online",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 744,
+    "term": "sonrasında",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 745,
+    "term": "tercih",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 746,
+    "term": "yerel",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 747,
+    "term": "yerini",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 748,
+    "term": "yeterli",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 749,
+    "term": "ın",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 750,
+    "term": "alanı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 751,
+    "term": "buraya",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 752,
+    "term": "bölümü",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 753,
+    "term": "escort",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 754,
+    "term": "gelmiş",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 755,
+    "term": "hukuk",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 756,
+    "term": "isim",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 757,
+    "term": "kendisine",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 758,
+    "term": "medya",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 759,
+    "term": "misin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 760,
+    "term": "oyuncu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 761,
+    "term": "verin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 762,
+    "term": "yola",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 763,
+    "term": "yıldız",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 764,
+    "term": "ölü",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 765,
+    "term": "ışık",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 766,
+    "term": "adet",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 767,
+    "term": "aralık",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 768,
+    "term": "basit",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 769,
+    "term": "başbakan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 770,
+    "term": "bulunmaktadır",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 771,
+    "term": "doğu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 772,
+    "term": "fotoğraf",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 773,
+    "term": "galatasaray",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 774,
+    "term": "galiba",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 775,
+    "term": "gidiyor",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 776,
+    "term": "iletişim",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 777,
+    "term": "işin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 778,
+    "term": "kalp",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 779,
+    "term": "kimsenin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 780,
+    "term": "puan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 781,
+    "term": "sebep",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 782,
+    "term": "sevgili",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 783,
+    "term": "soğuk",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 784,
+    "term": "tabii",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 785,
+    "term": "teslim",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 786,
+    "term": "veriyor",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 787,
+    "term": "yavaş",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 788,
+    "term": "ülkede",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 789,
+    "term": "şeyin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 790,
+    "term": "annem",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 791,
+    "term": "arka",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 792,
+    "term": "bakanlığı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 793,
+    "term": "bekliyor",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 794,
+    "term": "bitti",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 795,
+    "term": "değerli",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 796,
+    "term": "düşük",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 797,
+    "term": "etmiş",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 798,
+    "term": "gelip",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 799,
+    "term": "genellikle",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 800,
+    "term": "gidip",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 801,
+    "term": "günaydın",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 802,
+    "term": "meydana",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 803,
+    "term": "nefes",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 804,
+    "term": "neredeyse",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 805,
+    "term": "olmadı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 806,
+    "term": "suriye",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 807,
+    "term": "taş",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 808,
+    "term": "toprak",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 809,
+    "term": "yapmaya",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 810,
+    "term": "yedi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 811,
+    "term": "adalet",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 812,
+    "term": "anlamına",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 813,
+    "term": "ateş",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 814,
+    "term": "aynen",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 815,
+    "term": "bilgisayar",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 816,
+    "term": "biliyor",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 817,
+    "term": "biliyorum",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 818,
+    "term": "birinin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 819,
+    "term": "demektir",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 820,
+    "term": "diyorum",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 821,
+    "term": "giden",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 822,
+    "term": "gitmek",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 823,
+    "term": "gördüm",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 824,
+    "term": "herkese",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 825,
+    "term": "kişisel",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 826,
+    "term": "kuzey",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 827,
+    "term": "müslüman",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 828,
+    "term": "nerede",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 829,
+    "term": "olanlar",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 830,
+    "term": "olduğuna",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 831,
+    "term": "pazar",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 832,
+    "term": "sol",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 833,
+    "term": "terör",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 834,
+    "term": "yazar",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 835,
+    "term": "çift",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 836,
+    "term": "aldım",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 837,
+    "term": "aydın",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 838,
+    "term": "babası",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 839,
+    "term": "benimle",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 840,
+    "term": "benzer",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 841,
+    "term": "birine",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 842,
+    "term": "birşey",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 843,
+    "term": "dışı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 844,
+    "term": "evi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 845,
+    "term": "geceler",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 846,
+    "term": "gerekir",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 847,
+    "term": "grubu",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 848,
+    "term": "hediye",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 849,
+    "term": "ihtiyacı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 850,
+    "term": "istiyoruz",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 851,
+    "term": "kişiler",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 852,
+    "term": "mal",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 853,
+    "term": "sayesinde",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 854,
+    "term": "sayıda",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 855,
+    "term": "yapıldı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 856,
+    "term": "çalışmaları",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 857,
+    "term": "şeklinde",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 858,
+    "term": "şeye",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 859,
+    "term": "beşiktaş",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 860,
+    "term": "birden",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 861,
+    "term": "deli",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 862,
+    "term": "doğan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 863,
+    "term": "dur",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 864,
+    "term": "düşünüyorum",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 865,
+    "term": "filmi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 866,
+    "term": "gücü",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 867,
+    "term": "günde",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 868,
+    "term": "güney",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 869,
+    "term": "iddia",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 870,
+    "term": "istanbul'da",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 871,
+    "term": "nedenle",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 872,
+    "term": "oda",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 873,
+    "term": "olmasına",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 874,
+    "term": "ortalama",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 875,
+    "term": "parçası",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 876,
+    "term": "profesyonel",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 877,
+    "term": "sert",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 878,
+    "term": "umarım",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 879,
+    "term": "yapacak",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 880,
+    "term": "yıllar",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 881,
+    "term": "örneğin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 882,
+    "term": "amerikan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 883,
+    "term": "bilir",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 884,
+    "term": "derece",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 885,
+    "term": "döneminde",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 886,
+    "term": "gelin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 887,
+    "term": "gençlik",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 888,
+    "term": "gider",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 889,
+    "term": "ha",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 890,
+    "term": "insanlara",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 891,
+    "term": "ismi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 892,
+    "term": "istemiyorum",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 893,
+    "term": "işler",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 894,
+    "term": "kahve",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 895,
+    "term": "keşke",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 896,
+    "term": "mavi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 897,
+    "term": "mesela",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 898,
+    "term": "olmasını",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 899,
+    "term": "silah",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 900,
+    "term": "takımı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 901,
+    "term": "temiz",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 902,
+    "term": "ticaret",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 903,
+    "term": "yaptım",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 904,
+    "term": "yarım",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 905,
+    "term": "yılın",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 906,
+    "term": "örnek",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 907,
+    "term": "ah",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 908,
+    "term": "amacıyla",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 909,
+    "term": "aşırı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 910,
+    "term": "ceza",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 911,
+    "term": "erkekler",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 912,
+    "term": "fatih",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 913,
+    "term": "geçmiş",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 914,
+    "term": "giriş",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 915,
+    "term": "gösteren",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 916,
+    "term": "günler",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 917,
+    "term": "günün",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 918,
+    "term": "güven",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 919,
+    "term": "hasan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 920,
+    "term": "kadının",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 921,
+    "term": "kimi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 922,
+    "term": "kitabı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 923,
+    "term": "olmuştur",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 924,
+    "term": "park",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 925,
+    "term": "parça",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 926,
+    "term": "sebebi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 927,
+    "term": "suç",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 928,
+    "term": "tahmin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 929,
+    "term": "yoğun",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 930,
+    "term": "zengin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 931,
+    "term": "çocukları",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 932,
+    "term": "öğretim",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 933,
+    "term": "adamın",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 934,
+    "term": "bol",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 935,
+    "term": "bursa",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 936,
+    "term": "chp",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 937,
+    "term": "edilmiş",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 938,
+    "term": "gerekli",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 939,
+    "term": "içi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 940,
+    "term": "kararı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 941,
+    "term": "kilo",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 942,
+    "term": "kızlar",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 943,
+    "term": "net",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 944,
+    "term": "no",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 945,
+    "term": "olduğundan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 946,
+    "term": "olmadığı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 947,
+    "term": "terk",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 948,
+    "term": "yeşil",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 949,
+    "term": "yönelik",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 950,
+    "term": "yılda",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 951,
+    "term": "üniversite",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 952,
+    "term": "almış",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 953,
+    "term": "alın",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 954,
+    "term": "alındı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 955,
+    "term": "asker",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 956,
+    "term": "aç",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 957,
+    "term": "balık",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 958,
+    "term": "beyler",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 959,
+    "term": "dalga",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 960,
+    "term": "davet",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 961,
+    "term": "derin",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 962,
+    "term": "fakültesi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 963,
+    "term": "gören",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 964,
+    "term": "işleri",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 965,
+    "term": "kişilik",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 966,
+    "term": "metre",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 967,
+    "term": "modern",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 968,
+    "term": "mutlaka",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 969,
+    "term": "mü",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 970,
+    "term": "nereye",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 971,
+    "term": "olamaz",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 972,
+    "term": "rusya",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 973,
+    "term": "san",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 974,
+    "term": "sarı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 975,
+    "term": "savunma",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 976,
+    "term": "saygı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 977,
+    "term": "sistem",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 978,
+    "term": "yan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 979,
+    "term": "yapı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 980,
+    "term": "yolunda",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 981,
+    "term": "çay",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 982,
+    "term": "adana",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 983,
+    "term": "akıllı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 984,
+    "term": "alman",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 985,
+    "term": "alınan",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 986,
+    "term": "araya",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 987,
+    "term": "arkadaşlar",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 988,
+    "term": "aşağıdaki",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 989,
+    "term": "belediyesi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 990,
+    "term": "binlerce",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 991,
+    "term": "bırak",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 992,
+    "term": "doktor",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 993,
+    "term": "giren",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 994,
+    "term": "kısmı",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 995,
+    "term": "sonuna",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 996,
+    "term": "vakit",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 997,
+    "term": "yönetimi",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 998,
+    "term": "yılmaz",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 999,
+    "term": "öğrenci",
+    "part_of_speech": "",
+    "extra": {}
+  },
+  {
+    "rank": 1000,
+    "term": "şirket",
+    "part_of_speech": "",
+    "extra": {}
+  }
+]

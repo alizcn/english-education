@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich ___ Deutsch sprechen.",
+    "correct_answer": "kann",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Du ___ heute arbeiten.",
+    "correct_answer": "musst",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Er ___ ins Kino gehen.",
+    "correct_answer": "will",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Du ___ hier spielen.",
+    "correct_answer": "darfst",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich ___ nicht schwimmen.",
+    "correct_answer": "kann",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Du ___ nicht lügen.",
+    "correct_answer": "darfst",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich ___ einen Kaffee.",
+    "correct_answer": "möchte",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Wir ___ ins Kino gehen, aber wir mussten arbeiten.",
+    "correct_answer": "wollten",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sie ___ pünktlich kommen.",
+    "correct_answer": "sollen",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ du mir helfen?",
+    "correct_answer": "Kannst",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form ist korrekt? Ich ___ Deutsch sprechen.",
+    "correct_answer": "kann",
+    "choices": [
+      "kann",
+      "kanne",
+      "könne",
+      "kunn"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form ist richtig? Du ___ morgen arbeiten.",
+    "correct_answer": "musst",
+    "choices": [
+      "mustest",
+      "musst",
+      "müsst",
+      "musstest"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form ist korrekt? Er ___ ins Kino gehen.",
+    "correct_answer": "will",
+    "choices": [
+      "will",
+      "willst",
+      "wille",
+      "wollen"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form ist richtig? Ich ___ nicht kommen.",
+    "correct_answer": "kann",
+    "choices": [
+      "könne",
+      "konnte",
+      "kann",
+      "könnt"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form ist korrekt? Du ___ nicht hier spielen.",
+    "correct_answer": "darfst",
+    "choices": [
+      "darfst",
+      "darfest",
+      "dürfst",
+      "darftet"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form ist richtig? Ich ___ einen Kaffee.",
+    "correct_answer": "möchte",
+    "choices": [
+      "mag",
+      "möchte",
+      "mögen",
+      "magst"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form ist korrekt? Wir ___ Pizza essen.",
+    "correct_answer": "wollen",
+    "choices": [
+      "wollen",
+      "wollet",
+      "wollten",
+      "wollt"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form ist richtig? Sie ___ pünktlich kommen.",
+    "correct_answer": "sollen",
+    "choices": [
+      "soll",
+      "sollen",
+      "sollt",
+      "sollte"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form ist korrekt? Ich ___ ins Kino gehen, aber ich musste arbeiten.",
+    "correct_answer": "wollte",
+    "choices": [
+      "wollte",
+      "wollest",
+      "wollt",
+      "wollen"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form ist richtig? ___ du mir helfen?",
+    "correct_answer": "Kannst",
+    "choices": [
+      "Kannst",
+      "Könntest",
+      "Kan",
+      "Kanns"
+    ]
+  }
+]

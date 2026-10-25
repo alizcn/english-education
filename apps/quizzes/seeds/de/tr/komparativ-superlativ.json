@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Mein Auto ist schneller als deins.",
+    "correct_answer": "Benim arabam seninkinden daha hızlı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das ist das beste Restaurant in der Stadt.",
+    "correct_answer": "Bu, şehirdeki en iyi restoran.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Diese Jacke ist nicht teurer als jene.",
+    "correct_answer": "Bu ceket diğerinden daha pahalı değil.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je älter wir werden, desto mehr schätzen wir Ruhe.",
+    "correct_answer": "Yaşlandıkça sakinliği daha çok takdir ederiz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Meine Mutter ist älter als mein Vater.",
+    "correct_answer": "Benim annem babamdan daha yaşlı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Diese Stadt ist nicht so groß wie London.",
+    "correct_answer": "Bu şehir Londra kadar büyük değil.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Mount Everest ist der höchste Berg der Welt.",
+    "correct_answer": "Mount Everest dünyadaki en yüksek dağ.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Diese Pizza schmeckt besser als die andere.",
+    "correct_answer": "Bu pizza diğerinden daha lezzetli.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Benim arabam seninkinden daha hızlı.",
+    "correct_answer": "Mein Auto ist schneller als deins.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bu şehir daha büyük.",
+    "correct_answer": "Diese Stadt ist größer.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Matematik sanatından daha zor.",
+    "correct_answer": "Mathematik ist schwieriger als Kunst.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bu kitap o kitaptan daha kısa.",
+    "correct_answer": "Dieses Buch ist kürzer als jenes Buch.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bu pizza diğerinden daha lezzetli değil.",
+    "correct_answer": "Diese Pizza schmeckt nicht besser als die andere.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O, hepimizin arasında en akıllı.",
+    "correct_answer": "Er ist der intelligenteste von uns allen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bu ev diğerinden daha yakın mı?",
+    "correct_answer": "Ist dieses Haus näher als das andere?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Senin dişlerin benimkinden daha beyaz.",
+    "correct_answer": "Deine Zähne sind weißer als meine.",
+    "choices": null
+  }
+]

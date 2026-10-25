@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je le vois.",
+    "correct_answer": "Onu görüyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle m'aime.",
+    "correct_answer": "Beni seviyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous lui parlons.",
+    "correct_answer": "Ona konuşuyoruz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu ne les invites pas.",
+    "correct_answer": "Onları davet etmiyorsun.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Vous me comprenez?",
+    "correct_answer": "Beni anlıyor musunuz?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onu tanıyorum.",
+    "correct_answer": "Je le connais.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onlara telefon ediyorum.",
+    "correct_answer": "Je leur téléphone.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Beni görüyor musun?",
+    "correct_answer": "Tu me vois?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onu sevmiyorum.",
+    "correct_answer": "Je ne l'aime pas.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onları dün gördüm.",
+    "correct_answer": "Je les ai vus hier.",
+    "choices": null
+  }
+]

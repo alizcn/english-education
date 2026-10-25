@@ -2,6 +2,8 @@ from django.conf import settings
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
+from services import languages
+
 
 class ChatConversation(models.Model):
     user = models.ForeignKey(
@@ -10,6 +12,16 @@ class ChatConversation(models.Model):
         related_name='chats',
     )
     title = models.CharField(max_length=120, default='New chat')
+    # Sohbet bir dil çiftinde yaşıyor: öğretmen rolü hedef dile, düzeltme
+    # açıklamaları ana dile göre kuruluyor.
+    target_language = models.CharField(
+        max_length=5, choices=languages.LANGUAGE_CHOICES, default='en',
+        db_index=True, verbose_name=_('Öğrenilen dil'),
+    )
+    native_language = models.CharField(
+        max_length=5, choices=languages.LANGUAGE_CHOICES, default='tr',
+        verbose_name=_('Anlatım dili'),
+    )
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 

@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load i18n %}
+{% load i18n learn_extras %}
 {% block title %}{% trans "AI Chat" %}{% endblock %}
 
 {% block content %}
@@ -52,7 +52,7 @@
                 <div class="chat-msg {{ m.role }}">{{ m.content }}</div>
                 {% endfor %}
             {% else %}
-                <div class="chat-msg assistant">{% trans "Hey! İngilizce pratik için buradayım. İstediğin dilde yaz — örnek bir mesaj da verebilirsin." %}</div>
+                <div class="chat-msg assistant">{% target_name as tlang %}{% blocktrans with lang=tlang %}Hey! {{ lang }} pratik için buradayım. İstediğin dilde yaz — örnek bir mesaj da verebilirsin.{% endblocktrans %}</div>
             {% endif %}
         </div>
 

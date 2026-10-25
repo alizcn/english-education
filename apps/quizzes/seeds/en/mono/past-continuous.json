@@ -1,0 +1,150 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ working when you called.",
+    "correct_answer": "was",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ not listening to the class.",
+    "correct_answer": "were",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ she sleeping at midnight?",
+    "correct_answer": "Was",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ watching TV all evening.",
+    "correct_answer": "were",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "You ___ studying when the phone rang.",
+    "correct_answer": "were",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "It ___ raining all night.",
+    "correct_answer": "was",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ not cooking dinner yesterday.",
+    "correct_answer": "was",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ the children playing outside?",
+    "correct_answer": "Were",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ not playing football yesterday.",
+    "correct_answer": "were",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ he reading when the bell rang?",
+    "correct_answer": "Was",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence is in the past continuous?",
+    "correct_answer": "He was playing football.",
+    "choices": [
+      "He was playing football.",
+      "He were playing football.",
+      "He was play football.",
+      "He played football."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct form for the negative past continuous?",
+    "correct_answer": "I was not studying.",
+    "choices": [
+      "I was not studying.",
+      "I were not studying.",
+      "I am not studying.",
+      "I not was studying."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is a correct question in past continuous?",
+    "correct_answer": "Were they playing in the park?",
+    "choices": [
+      "Were they playing in the park?",
+      "They were playing in the park?",
+      "Was they playing in the park?",
+      "Were they play in the park?"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "How do you say 'Onlar uyuyorlardı' in past continuous?",
+    "correct_answer": "They were sleeping.",
+    "choices": [
+      "They were sleeping.",
+      "They was sleeping.",
+      "They are sleeping.",
+      "They sleep."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence correctly shows an interrupted action?",
+    "correct_answer": "I was reading when you called.",
+    "choices": [
+      "I was reading when you called.",
+      "I read when you called.",
+      "I will read when you call.",
+      "I am reading when you call."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which has correct subject-verb agreement?",
+    "correct_answer": "The students were doing their homework.",
+    "choices": [
+      "The students were doing their homework.",
+      "The students was doing their homework.",
+      "The student were doing their homework.",
+      "The students doing their homework."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct past continuous form for 'Saat 9'da çalışıyordun'?",
+    "correct_answer": "You were working at 9 AM.",
+    "choices": [
+      "You were working at 9 AM.",
+      "You was working at 9 AM.",
+      "You are working at 9 AM.",
+      "You work at 9 AM."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which shows the correct spelling of the -ing form?",
+    "correct_answer": "run → running",
+    "choices": [
+      "run → running",
+      "run → runing",
+      "make → makeing",
+      "stop → stoping"
+    ]
+  }
+]

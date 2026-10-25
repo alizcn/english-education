@@ -1,0 +1,110 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Mehmet gelmiş.",
+    "correct_answer": "Mehmet ist gekommen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Annesi hastalanmış.",
+    "correct_answer": "Seine Mutter ist krank geworden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Öğrenciler sınavı geçmiş.",
+    "correct_answer": "Die Schüler haben die Prüfung bestanden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Fatma evine dönmüş.",
+    "correct_answer": "Fatma ist nach Hause zurückgekehrt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Araba kırılmış.",
+    "correct_answer": "Das Auto ist kaputt gegangen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "İstanbul'da çok yağmış.",
+    "correct_answer": "In Istanbul hat es viel geregnet.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ali gelmemiş.",
+    "correct_answer": "Ali ist nicht gekommen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çocuk yememiş.",
+    "correct_answer": "Das Kind hat nicht gegessen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sınavı geçmiş misin?",
+    "correct_answer": "Hast du die Prüfung bestanden?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gelmişler mi?",
+    "correct_answer": "Sind sie gekommen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Er hat das Buch gelesen.",
+    "correct_answer": "Kitabı okumuş.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die Schüler sind zu spät gekommen.",
+    "correct_answer": "Öğrenciler geç gelmişler.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Das Fenster war offen.",
+    "correct_answer": "Pencere açık imiş.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir haben das Fest nicht besucht.",
+    "correct_answer": "Şenliğe gitmemişiz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie haben lange geschlafen.",
+    "correct_answer": "Uzun uyumuşlar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Das Wetter war schön.",
+    "correct_answer": "Hava güzel olmuş.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die Stadt war groß.",
+    "correct_answer": "Şehir büyük imiş.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Du hast den Brief geschrieben.",
+    "correct_answer": "Mektubu yazmışsın.",
+    "choices": null
+  }
+]

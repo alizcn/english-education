@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je parle français.",
+    "correct_answer": "Ich spreche Französisch.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu manges une pomme.",
+    "correct_answer": "Du isst einen Apfel.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle habite à Paris.",
+    "correct_answer": "Sie wohnt in Paris.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous travaillons beaucoup.",
+    "correct_answer": "Wir arbeiten viel.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je ne suis pas fatigué.",
+    "correct_answer": "Ich bin nicht müde.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Est-ce que tu vas bien?",
+    "correct_answer": "Geht es dir gut?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Vous ne comprenez pas.",
+    "correct_answer": "Sie verstehen nicht.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Parles-tu français?",
+    "correct_answer": "Sprichst du Französisch?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich lerne Französisch.",
+    "correct_answer": "J'apprends le français.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Du spielst Volleyball.",
+    "correct_answer": "Tu joues au volley-ball.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Er isst Brot.",
+    "correct_answer": "Il mange du pain.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir schreiben einen Brief.",
+    "correct_answer": "Nous écrivons une lettre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ihr studiert nicht.",
+    "correct_answer": "Vous n'étudiez pas.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich bin Lehrer.",
+    "correct_answer": "Je suis professeur.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Du hast ein Auto?",
+    "correct_answer": "Tu as une voiture?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Magst du Schokolade?",
+    "correct_answer": "Aimes-tu le chocolat?",
+    "choices": null
+  }
+]

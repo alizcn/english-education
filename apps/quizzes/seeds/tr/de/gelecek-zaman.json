@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yarın okulda çalışacağım.",
+    "correct_answer": "Morgen werde ich in der Schule arbeiten.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "O, gelecek hafta İstanbul'a gidecek mi?",
+    "correct_answer": "Wird er nächste Woche nach Istanbul fahren?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Biz akşam yemeği yapmayacağız.",
+    "correct_answer": "Wir werden nicht kochen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Siz bu projede çalışacak mısınız?",
+    "correct_answer": "Werden Sie an diesem Projekt arbeiten?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Onlar gelecek ay burada olmayacaklar.",
+    "correct_answer": "Sie werden nächsten Monat nicht hier sein.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir werden morgen früh aufstehen.",
+    "correct_answer": "Yarın sabah erken kalkacağız.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Du wirst dein Zimmer putzen.",
+    "correct_answer": "Odanı temizleyeceksin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie werden nicht zum Park gehen.",
+    "correct_answer": "Parka gitmeyecekler.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Werdet ihr das Essen zubereiten?",
+    "correct_answer": "Yemeği hazırlayacak mısınız?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich werde ein Buch lesen.",
+    "correct_answer": "Bir kitap okuyacağım.",
+    "choices": null
+  }
+]

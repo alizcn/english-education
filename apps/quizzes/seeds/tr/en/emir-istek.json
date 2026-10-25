@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gitme!",
+    "correct_answer": "Don't go!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Please come.",
+    "correct_answer": "Gel lütfen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Oturun lütfen.",
+    "correct_answer": "Please sit down.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Don't sleep!",
+    "correct_answer": "Uyuma!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gitmeyin!",
+    "correct_answer": "Don't go (you all)!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Let's start together.",
+    "correct_answer": "Beraber başlayalım.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yazalım!",
+    "correct_answer": "Let's write!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Listen carefully!",
+    "correct_answer": "Dikkatlice dinle!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yardım etsinler.",
+    "correct_answer": "Let them help.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Let her finish.",
+    "correct_answer": "Bitirsin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Keşke gelseydim.",
+    "correct_answer": "I wish I had come.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Don't leave immediately!",
+    "correct_answer": "Hemen gitme!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gitsin.",
+    "correct_answer": "Let him go.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Open the window, please.",
+    "correct_answer": "Lütfen pencereyi aç.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Konuşmayın!",
+    "correct_answer": "Don't speak (you all)!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Let's go together.",
+    "correct_answer": "Beraber gidelim.",
+    "choices": null
+  }
+]

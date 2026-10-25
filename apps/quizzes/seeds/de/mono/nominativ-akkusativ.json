@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich sehe ___ Mann.",
+    "correct_answer": "den",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das Kind kauft ___ Apfel.",
+    "correct_answer": "einen",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die Frau kennt ___ Arzt.",
+    "correct_answer": "den",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Er trinkt ___ Kaffee nicht.",
+    "correct_answer": "den",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Hast du ___ Hund?",
+    "correct_answer": "einen",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die Katze jagt ___ Maus.",
+    "correct_answer": "eine",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich schreibe ___ Brief.",
+    "correct_answer": "einen",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sie sieht ___ schönen Mann.",
+    "correct_answer": "den",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das Kind findet ___ roten Ball nicht.",
+    "correct_answer": "den",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kennst du ___ kleine Mädchen?",
+    "correct_answer": "das",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form ist im Akkusativ Singular Maskulin korrekt?",
+    "correct_answer": "den Mann",
+    "choices": [
+      "der Mann",
+      "den Mann",
+      "dem Mann",
+      "des Mannes"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz ist grammatikalisch korrekt?",
+    "correct_answer": "Ich sehe den Mann.",
+    "choices": [
+      "Ich sehe der Mann.",
+      "Ich sehe den Mann.",
+      "Ich sehe die Mann.",
+      "Ich sehe dem Mann."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Ich kaufe ___. Welche Akkusativform ist richtig?",
+    "correct_answer": "ein Buch",
+    "choices": [
+      "ein Buch",
+      "einem Buch",
+      "eines Buches",
+      "ein Bücher"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche ist die richtige Akkusativform eines unbestimmten maskulinen Artikels?",
+    "correct_answer": "einen",
+    "choices": [
+      "ein",
+      "einen",
+      "eine",
+      "einem"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Wen sieht der Mann? Der Mann sieht ___.",
+    "correct_answer": "die Frau",
+    "choices": [
+      "die Frau",
+      "der Frau",
+      "dem Frau",
+      "den Frauen"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz mit Adjektiv ist korrekt?",
+    "correct_answer": "Ich sehe einen alten Mann.",
+    "choices": [
+      "Ich sehe einen alten Mann.",
+      "Ich sehe einen alten Mannes.",
+      "Ich sehe ein alten Mann.",
+      "Ich sehe einen altens Mann."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Der Mann sieht ___. Welche Form ist richtig im Akkusativ?",
+    "correct_answer": "das Kind",
+    "choices": [
+      "das Kind",
+      "dem Kind",
+      "des Kindes",
+      "die Kinder"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz hat das richtige Nominativ (Subjekt) und Akkusativ (Objekt)?",
+    "correct_answer": "Der Mann liest das Buch.",
+    "choices": [
+      "Den Mann liest den Buch.",
+      "Der Mann liest das Buch.",
+      "Dem Mann liest das Buch.",
+      "Des Mannes liest das Buch."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Wer sieht die Katze? Der Hund sieht ___.",
+    "correct_answer": "die Katze",
+    "choices": [
+      "den Katze",
+      "die Katze",
+      "der Katze",
+      "dem Katze"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Sie kauft ___. Welche Akkusativform ist richtig?",
+    "correct_answer": "einen neuen Mantel",
+    "choices": [
+      "ein neue Mantel",
+      "einen neuen Mantel",
+      "ein neuen Mantel",
+      "einen neue Mantel"
+    ]
+  }
+]

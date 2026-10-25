@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to Turkish: If you heat water, it boils.",
+    "correct_answer": "Suyu ısıtırsanız, kaynar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to Turkish: If you don't study, you fail.",
+    "correct_answer": "Çalışmazsan, başarısız olursun.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to Turkish: If you eat too much, you feel sick.",
+    "correct_answer": "Çok yersen, hastalanırsın.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to Turkish: If it rains, the streets get wet.",
+    "correct_answer": "Yağmur yağarsa, sokaklar ıslanır.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to Turkish: Does the ice melt if the sun shines?",
+    "correct_answer": "Güneş parlıyorsa, buz erir mi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to Turkish: If you press the bell, it rings.",
+    "correct_answer": "Zile basarsan, çalar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Suyu kaynatırsanız, buhar oluşur.",
+    "correct_answer": "If you boil water, it becomes steam.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Yağmur yağarsa, halk evde kalır.",
+    "correct_answer": "If it rains, people stay at home.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Dişlerini fırçalamazsan, çürür.",
+    "correct_answer": "If you don't brush your teeth, they decay.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Balığa çok yem verirsen, ölür.",
+    "correct_answer": "If you feed the fish too much, it dies.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Hızlı okursan, daha çok kitap bitirirsin.",
+    "correct_answer": "If you read fast, you finish more books.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Geç kalırsan, sınıfa giremezsin.",
+    "correct_answer": "If you arrive late, you can't enter the classroom.",
+    "choices": null
+  }
+]

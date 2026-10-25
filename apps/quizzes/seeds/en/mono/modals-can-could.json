@@ -1,0 +1,127 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ speak three languages fluently.",
+    "correct_answer": "can",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "When I was younger, I ___ run five kilometers without stopping.",
+    "correct_answer": "could",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "You ___ borrow my book, but please return it by Friday.",
+    "correct_answer": "can",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ find my keys yesterday.",
+    "correct_answer": "couldn't",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ you help me with this exercise?",
+    "correct_answer": "Could",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He ___ swim when he was five years old.",
+    "correct_answer": "could",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ come to the party because they were too busy.",
+    "correct_answer": "couldn't",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Last year, we ___ visit them every weekend.",
+    "correct_answer": "could",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence is grammatically correct?",
+    "correct_answer": "She can speak French.",
+    "choices": [
+      "She can speaks French.",
+      "She can speak French.",
+      "She speaks can French.",
+      "She can to speak French."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Choose the correct sentence for the past:",
+    "correct_answer": "When I was young, I could run very fast.",
+    "choices": [
+      "When I was young, I can run very fast.",
+      "When I was young, I could run very fast.",
+      "When I was young, I could ran very fast.",
+      "When I was young, I was can run very fast."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct negative form?",
+    "correct_answer": "I cannot go to the party.",
+    "choices": [
+      "I cannot go to the party.",
+      "I can not going to the party.",
+      "I not can go to the party.",
+      "I can't to go to the party."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct form?",
+    "correct_answer": "He could swim very well.",
+    "choices": [
+      "He could to swim very well.",
+      "He could swim very well.",
+      "He could swimming very well.",
+      "He could swims very well."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence is correct?",
+    "correct_answer": "I can help you.",
+    "choices": [
+      "I can to help you.",
+      "I can help you.",
+      "I can helps you.",
+      "I can helped you."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Choose the sentence with the correct form of 'could':",
+    "correct_answer": "My grandmother could play the piano.",
+    "choices": [
+      "My grandmother could played the piano.",
+      "My grandmother could play the piano.",
+      "My grandmother could plays the piano.",
+      "My grandmother could to play the piano."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the most polite way to ask permission?",
+    "correct_answer": "Could I sit here?",
+    "choices": [
+      "Can I sit here?",
+      "Could I sit here?",
+      "Can I to sit here?",
+      "I could to sit here."
+    ]
+  }
+]

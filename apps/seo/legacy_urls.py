@@ -11,8 +11,26 @@ from django.urls import path
 from django.views.generic import RedirectView
 
 
-def _moved(pattern_name):
-    return RedirectView.as_view(pattern_name=pattern_name, permanent=True)
+class _TargetRedirectView(RedirectView):
+    """`lang` kwarg'ını enjekte eden kalıcı yönlendirme.
+
+    SEO yolları artık `<target:lang>` alıyor; eski Türkçe slug'lar hedef dil
+    taşımıyor ve hepsi İngilizce içeriğe işaret ediyor. `lang` olmadan
+    `reverse` NoReverseMatch veriyor, yani bu dokuz 301 sessizce 500'e
+    dönüşürdü.
+    """
+
+    permanent = True
+    target_language = 'en'
+
+    def get_redirect_url(self, *args, **kwargs):
+        kwargs.setdefault('lang', self.target_language)
+        return super().get_redirect_url(*args, **kwargs)
+
+
+def _moved(pattern_name, *, with_target=True):
+    view = _TargetRedirectView if with_target else RedirectView
+    return view.as_view(pattern_name=pattern_name, permanent=True)
 
 
 urlpatterns = [
@@ -21,10 +39,10 @@ urlpatterns = [
     path('ingilizce-kelimeler/', _moved('seo:words_index')),
     path('ingilizce-kelimeler/<slug:level>/', _moved('seo:words_level')),
     path('ingilizce-mulakat-sorulari/', _moved('seo:interview_index')),
-    path('site-haritasi/', _moved('seo:html_sitemap')),
-    path('uygulamayi-yukle/', _moved('dashboard:install_guide')),
-    path('accounts/profil/', _moved('accounts:profile')),
-    path('accounts/hesap-sil/', _moved('accounts:delete_account')),
+    path('site-haritasi/', _moved('seo:html_sitemap', with_target=False)),
+    path('uygulamayi-yukle/', _moved('dashboard:install_guide', with_target=False)),
+    path('accounts/profil/', _moved('accounts:profile', with_target=False)),
+    path('accounts/hesap-sil/', _moved('accounts:delete_account', with_target=False)),
 ]
 
 # İngilizce tarafta hiçbir adres değişmedi: /en/... yolları zaten bu slug'ları

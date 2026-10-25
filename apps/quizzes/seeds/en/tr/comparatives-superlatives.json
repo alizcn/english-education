@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She is taller than her brother.",
+    "correct_answer": "O, kardeşinden daha uzun.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "This book is more interesting than that one.",
+    "correct_answer": "Bu kitap şundan daha ilginç.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He is not as fast as you.",
+    "correct_answer": "O, senin kadar hızlı değil.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "That was the best meal I've had.",
+    "correct_answer": "Bu, şimdiye kadar yediğim en iyi yemekti.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Is your apartment bigger than mine?",
+    "correct_answer": "Senin dairenin benimkinden daha büyük mü?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She is the smartest person in our class.",
+    "correct_answer": "O, sınıfımızdaki en akıllı kişi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bu araba daha hızlı.",
+    "correct_answer": "This car is faster.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O daha pahalı mı?",
+    "correct_answer": "Is it more expensive?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Siz benimden daha mutlu değilsiniz.",
+    "correct_answer": "You are not happier than me.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O, en iyi doktordur.",
+    "correct_answer": "She is the best doctor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bu şarkı o şarkıdan daha güzel.",
+    "correct_answer": "This song is more beautiful than that song.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O, en uzun kişi.",
+    "correct_answer": "He is the tallest person.",
+    "choices": null
+  }
+]

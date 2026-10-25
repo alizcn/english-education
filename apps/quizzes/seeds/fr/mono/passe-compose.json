@@ -1,0 +1,138 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "J'___ mangé une pomme ce matin.",
+    "correct_answer": "ai",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle ___ allée à l'école.",
+    "correct_answer": "est",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Nous ___ compris la leçon.",
+    "correct_answer": "avons",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ils ___ venus hier soir.",
+    "correct_answer": "sont",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Tu n'___ pas acheté le livre ?",
+    "correct_answer": "as",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je me ___ levé tôt.",
+    "correct_answer": "suis",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Vous ___ pas travaillé dimanche.",
+    "correct_answer": "n'avez",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elles ___ parties pour Paris.",
+    "correct_answer": "sont",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le passé composé correct pour 'je finir' ?",
+    "correct_answer": "J'ai fini",
+    "choices": [
+      "J'ai fini",
+      "Je suis fini",
+      "J'ai finit",
+      "Je finissai"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: Elle ___ arrivée à l'heure.",
+    "correct_answer": "est",
+    "choices": [
+      "a",
+      "est",
+      "ai",
+      "avez"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel verbe utilise 'être' au passé composé ?",
+    "correct_answer": "aller",
+    "choices": [
+      "avoir",
+      "manger",
+      "aller",
+      "comprendre"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le participe passé de 'voir' ?",
+    "correct_answer": "vu",
+    "choices": [
+      "vois",
+      "vu",
+      "vue",
+      "voyé"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez au négatif: Je n'___ pas dormi.",
+    "correct_answer": "ai",
+    "choices": [
+      "ai",
+      "suis",
+      "as",
+      "avez"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le passé composé de 'elle prendre' ?",
+    "correct_answer": "Elle a pris",
+    "choices": [
+      "Elle a pris",
+      "Elle est prise",
+      "Elle a prendue",
+      "Elle a prend"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez au passé composé: Tu ___ venu ?",
+    "correct_answer": "es",
+    "choices": [
+      "as",
+      "es",
+      "avez",
+      "etes"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le participe passé de 'boire' ?",
+    "correct_answer": "bu",
+    "choices": [
+      "buvé",
+      "bu",
+      "bue",
+      "boit"
+    ]
+  }
+]

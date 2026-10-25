@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "La robe rouge est magnifique.",
+    "correct_answer": "Das rote Kleid ist herrlich.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Das ist ein neues Auto.",
+    "correct_answer": "C'est une nouvelle voiture.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ces jeunes filles sont intelligentes.",
+    "correct_answer": "Diese jungen Mädchen sind intelligent.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich habe einen guten Freund.",
+    "correct_answer": "J'ai un bon ami.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Avez-vous vu mon nouveau livre?",
+    "correct_answer": "Hast du mein neues Buch gesehen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die schönen Blumen sind im Garten.",
+    "correct_answer": "Les belles fleurs sont dans le jardin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je n'aime pas les couleurs sombres.",
+    "correct_answer": "Ich mag keine dunklen Farben.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Das kleine Mädchen hat lange schwarze Haare.",
+    "correct_answer": "La petite fille a de longs cheveux noirs.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Les nouveaux étudiants sont sérieux.",
+    "correct_answer": "Die neuen Studenten sind ernst.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Diese alten Bücher sind wertvoll.",
+    "correct_answer": "Ces vieux livres sont précieux.",
+    "choices": null
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je vais manger une pomme.",
+    "correct_answer": "I'm going to eat an apple.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu vas regarder un film ce soir?",
+    "correct_answer": "Are you going to watch a film tonight?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il ne va pas venir à la réunion.",
+    "correct_answer": "He is not going to come to the meeting.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous allons partir demain matin.",
+    "correct_answer": "We are going to leave tomorrow morning.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elles vont danser à la fête.",
+    "correct_answer": "They are going to dance at the party.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Est-ce que vous allez finir bientôt?",
+    "correct_answer": "Are you going to finish soon?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je ne vais jamais faire cela.",
+    "correct_answer": "I am never going to do that.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "On va prendre un café dans quelques minutes.",
+    "correct_answer": "We are going to have a coffee in a few minutes.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I am going to buy a new car.",
+    "correct_answer": "Je vais acheter une nouvelle voiture.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Are you going to help me?",
+    "correct_answer": "Tu vas m'aider?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They are not going to understand.",
+    "correct_answer": "Ils ne vont pas comprendre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We are going to learn French.",
+    "correct_answer": "Nous allons apprendre le français.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He is going to arrive tomorrow.",
+    "correct_answer": "Il va arriver demain.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Is she going to come?",
+    "correct_answer": "Est-ce qu'elle va venir?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "You are not going to stay long.",
+    "correct_answer": "Tu ne vas pas rester longtemps.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I am going to sleep soon.",
+    "correct_answer": "Je vais dormir bientôt.",
+    "choices": null
+  }
+]

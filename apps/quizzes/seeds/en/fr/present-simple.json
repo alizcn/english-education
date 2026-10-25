@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I work in an office.",
+    "correct_answer": "Je travaille dans un bureau.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle habite à Paris.",
+    "correct_answer": "She lives in Paris.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He doesn't like cheese.",
+    "correct_answer": "Il n'aime pas le fromage.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Vous ne mangez pas de viande.",
+    "correct_answer": "You don't eat meat.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Do you understand?",
+    "correct_answer": "Vous comprenez?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ils jouent au tennis le samedi.",
+    "correct_answer": "They play tennis on Saturday.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She speaks three languages.",
+    "correct_answer": "Elle parle trois langues.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je vais au cinéma une fois par mois.",
+    "correct_answer": "I go to the cinema once a month.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The train leaves at 3 PM.",
+    "correct_answer": "Le train part à 15 heures.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Nous ne buvons pas de café.",
+    "correct_answer": "We don't drink coffee.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Does she speak English?",
+    "correct_answer": "Parle-t-elle anglais?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Tu aimes les animaux.",
+    "correct_answer": "You like animals.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They rarely visit us.",
+    "correct_answer": "Ils nous visitent rarement.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Qu'est-ce qu'il fait?",
+    "correct_answer": "What does he do?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Water boils at 100 degrees.",
+    "correct_answer": "L'eau bout à 100 degrés.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Vous travaillez comme infirmière.",
+    "correct_answer": "You work as a nurse.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "My sister doesn't drive.",
+    "correct_answer": "Ma sœur ne conduit pas.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elles regardent la télévision chaque soir.",
+    "correct_answer": "They watch television every evening.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He always drinks tea in the morning.",
+    "correct_answer": "Il boit toujours du thé le matin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je n'aime jamais les films d'horreur.",
+    "correct_answer": "I never like horror films.",
+    "choices": null
+  }
+]

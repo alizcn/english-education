@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kitabım çok eski.",
+    "correct_answer": "Mon livre est très vieux.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Senin evinin bahçesi güzel.",
+    "correct_answer": "Le jardin de ta maison est beau.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Onun arabaları kırmızı değil.",
+    "correct_answer": "Ses voitures ne sont pas rouges.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Bizim okulumuz merkezdedir.",
+    "correct_answer": "Notre école est au centre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sizin çantanızı nerede koydunuz?",
+    "correct_answer": "Où avez-vous mis votre sac?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Mon téléphone est neuf.",
+    "correct_answer": "Telefonum yeni.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ton ami n'est pas ici.",
+    "correct_answer": "Arkadaşın burada değil.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sa maison est grande.",
+    "correct_answer": "Evi büyük.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Notre professeur est gentil.",
+    "correct_answer": "Öğretmenimiz kibar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Vos enfants vont à l'école.",
+    "correct_answer": "Çocuklarınız okula gidiyor.",
+    "choices": null
+  }
+]

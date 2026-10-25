@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich ___ gestern im Kino.",
+    "correct_answer": "war",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Er ___ ein neues Auto.",
+    "correct_answer": "kaufte",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Wir ___ im Park.",
+    "correct_answer": "spielten",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die Kinder ___ schnell.",
+    "correct_answer": "liefen",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Du ___ den Film?",
+    "correct_answer": "sahst",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sie ___ nicht zu Hause.",
+    "correct_answer": "war",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Der Arbeiter ___ den ganzen Tag.",
+    "correct_answer": "arbeitete",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich ___ einen Brief.",
+    "correct_answer": "schrieb",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ihr ___ nicht im Kino?",
+    "correct_answer": "wart",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die Katze ___ auf das Sofa.",
+    "correct_answer": "sprang",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form ist richtig im Präteritum? 'Ich ___ nach Hause.'",
+    "correct_answer": "ging",
+    "choices": [
+      "gehe",
+      "ging",
+      "gingst",
+      "gehen"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Fülle aus: 'Der Mann ___ nicht glücklich.'",
+    "correct_answer": "war",
+    "choices": [
+      "war",
+      "wäre",
+      "ist",
+      "wird"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form passt? 'Sie ___ ein neues Kleid.'",
+    "correct_answer": "kaufte",
+    "choices": [
+      "kaufte",
+      "kaufen",
+      "kauft",
+      "gekauft"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Wähle das richtige Präteritum: 'Wir ___ im Garten.'",
+    "correct_answer": "spielten",
+    "choices": [
+      "spielen",
+      "spielten",
+      "spielte",
+      "spielest"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form ist korrekt? 'Du ___ einen Brief?'",
+    "correct_answer": "schriebst",
+    "choices": [
+      "schreibst",
+      "schrieb",
+      "schriebst",
+      "schreibest"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Fülle aus: 'Ich ___ nicht zum Unterricht.'",
+    "correct_answer": "kam",
+    "choices": [
+      "komme",
+      "kam",
+      "kommte",
+      "kommt"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form ist richtig? 'Die Schülerin ___ die Prüfung.'",
+    "correct_answer": "bestand",
+    "choices": [
+      "bestand",
+      "besteht",
+      "bestanden",
+      "besteht hat"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Aussage ist grammatikalisch richtig?",
+    "correct_answer": "Der Mann war glücklich.",
+    "choices": [
+      "Der Mann ware glücklich.",
+      "Der Mann war glücklich.",
+      "Der Mann waren glücklich.",
+      "Der Mann warten."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Fülle aus: 'Das Kind ___ einen Apfel.'",
+    "correct_answer": "aß",
+    "choices": [
+      "aß",
+      "ass",
+      "aßt",
+      "esste"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form passt? 'Sie ___ nicht zum Konzert.'",
+    "correct_answer": "gingen",
+    "choices": [
+      "gingen",
+      "gingst",
+      "ging",
+      "gehen"
+    ]
+  }
+]

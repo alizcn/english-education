@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Il faut que tu _____ (faire) tes devoirs.",
+    "correct_answer": "fasses",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez : 'Je veux que tu _____ (venir)'",
+    "correct_answer": "viennes",
+    "choices": [
+      "viens",
+      "viennes",
+      "venant",
+      "viendras"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle souhaite que son fils _____ (réussir) ses études.",
+    "correct_answer": "réussisse",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le subjonctif de 'être' à la 1ère personne du singulier?",
+    "correct_answer": "que je sois",
+    "choices": [
+      "que je suis",
+      "que je sois",
+      "que je serai",
+      "que je serais"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Nous avons peur que vous _____ (arriver) trop tard.",
+    "correct_answer": "arriviez",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez : 'Il est important que vous _____ (partir)'",
+    "correct_answer": "partiez",
+    "choices": [
+      "partez",
+      "partiez",
+      "partenez",
+      "partent"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Pourvu qu'il _____ (pouvoir) venir!",
+    "correct_answer": "puisse",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez : 'Je ne crois pas qu'elle _____ (comprendre)'",
+    "correct_answer": "comprenne",
+    "choices": [
+      "comprend",
+      "comprenne",
+      "comprendra",
+      "comprendrait"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Il faut que je _____ (aller) immédiatement.",
+    "correct_answer": "aille",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez : 'Il se peut que nous _____ (être) là-bas'",
+    "correct_answer": "soyons",
+    "choices": [
+      "sommes",
+      "soyons",
+      "serions",
+      "serons"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "À moins qu'il _____ (pleuvoir), nous partons.",
+    "correct_answer": "pleuve",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le subjonctif de 'avoir' à la 1ère personne du singulier?",
+    "correct_answer": "que j'aie",
+    "choices": [
+      "que j'ai",
+      "que j'aie",
+      "que j'aurais",
+      "que j'aurai"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je souhaite que tu _____ (finir) ton travail.",
+    "correct_answer": "finisses",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez : 'Bien que tu _____ (être) jeune...'",
+    "correct_answer": "sois",
+    "choices": [
+      "es",
+      "sois",
+      "seras",
+      "étais"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Il faut que vous _____ (répondre) à la question.",
+    "correct_answer": "répondiez",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez : 'Elle a peur que nous _____ (devoir) partir'",
+    "correct_answer": "devions",
+    "choices": [
+      "devons",
+      "devions",
+      "devrions",
+      "devrons"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je veux que tu _____ (savoir) la vérité.",
+    "correct_answer": "saches",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez : 'Il faut que je _____ (boire) de l'eau'",
+    "correct_answer": "boive",
+    "choices": [
+      "bois",
+      "boive",
+      "boirai",
+      "boirais"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Il est possible que nous _____ (commencer) demain.",
+    "correct_answer": "commencions",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le subjonctif de 'faire' à la 1ère personne du singulier?",
+    "correct_answer": "que je fasse",
+    "choices": [
+      "que je fais",
+      "que je fasse",
+      "que je ferais",
+      "que je ferai"
+    ]
+  }
+]

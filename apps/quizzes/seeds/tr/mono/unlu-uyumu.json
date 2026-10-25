@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kitap ___ var.",
+    "correct_answer": "masada",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Haber ___ aldık.",
+    "correct_answer": "kızdan",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ kapısı açık.",
+    "correct_answer": "Evin",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Arı ___ vardır.",
+    "correct_answer": "gülde",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ yazıyorum.",
+    "correct_answer": "Kalemle",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ aradı.",
+    "correct_answer": "Telefondan",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ oturuyorum.",
+    "correct_answer": "Evde",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Yaralı ___.",
+    "correct_answer": "koldan",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ saçlar güzel.",
+    "correct_answer": "Kızlı",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ elbise güzel.",
+    "correct_answer": "Güllü",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence uses correct vowel harmony for 'masa' (table) with the locative suffix?",
+    "correct_answer": "Masada kitap var.",
+    "choices": [
+      "Masada kitap var.",
+      "Masade kitap var.",
+      "Masadi vardır.",
+      "Masala temiz."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence uses correct vowel harmony for 'ev' (house) with the locative suffix?",
+    "correct_answer": "Evde oturuyorum.",
+    "choices": [
+      "Evde oturuyorum.",
+      "Evda oturuyorum.",
+      "Evdi yaşıyorum.",
+      "Evdu kaldık."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence uses correct vowel harmony for 'gül' (rose) with the adjective suffix -lü?",
+    "correct_answer": "Güllü elbise güzel.",
+    "choices": [
+      "Güllü elbise güzel.",
+      "Gülla elbise güzel.",
+      "Gülli elbise güzel.",
+      "Güllu elbise güzel."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence uses correct vowel harmony for 'kız' (girl) with the adjective suffix -lı?",
+    "correct_answer": "Kızlı saçlar güzel.",
+    "choices": [
+      "Kızlı saçlar güzel.",
+      "Kızle saçlar güzel.",
+      "Kızlu saçlar güzel.",
+      "Kızli saçlar güzel."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence uses correct vowel harmony for 'kalem' (pen) with the comitative suffix -le?",
+    "correct_answer": "Kalemle yazıyorum.",
+    "choices": [
+      "Kalemle yazıyorum.",
+      "Kalemla yazıyorum.",
+      "Kalemli yazıyorum.",
+      "Kalemlo yazıyorum."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence uses correct vowel harmony for 'kız' (girl) with the possessive suffix -ın?",
+    "correct_answer": "Kızın adı Ayşe.",
+    "choices": [
+      "Kızın adı Ayşe.",
+      "Kızin adı Ayşe.",
+      "Kızun adı Ayşe.",
+      "Kızün adı Ayşe."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence uses correct vowel harmony for 'telefon' (phone) with the accusative suffix -u?",
+    "correct_answer": "Telefonu aldım.",
+    "choices": [
+      "Telefonu aldım.",
+      "Telefona aldım.",
+      "Telefonı aldım.",
+      "Telefonü aldım."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence uses correct vowel harmony for 'aile' (family) with the locative suffix -de?",
+    "correct_answer": "Ailede yaşıyorum.",
+    "choices": [
+      "Ailede yaşıyorum.",
+      "Ailada yaşıyorum.",
+      "Aileda yaşıyorum.",
+      "Ailuda yaşıyorum."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence uses correct vowel harmony for 'kol' (arm) with the ablative suffix -dan?",
+    "correct_answer": "Koldan yaralı.",
+    "choices": [
+      "Koldan yaralı.",
+      "Kolden yaralı.",
+      "Koldin yaralı.",
+      "Koldon yaralı."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence uses correct vowel harmony for 'yer' (place) with the adjective suffix -li?",
+    "correct_answer": "Yerli malı",
+    "choices": [
+      "Yerli malı",
+      "Yerle malı",
+      "Yerlu malı",
+      "Yerlü malı"
+    ]
+  }
+]

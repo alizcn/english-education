@@ -1,0 +1,110 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Dün akşam yağmur ___.",
+    "correct_answer": "yağdı",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ben kahve ___.",
+    "correct_answer": "içtim",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "O mektubu ___.",
+    "correct_answer": "yazmadı",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Siz kitabı ___ mı?",
+    "correct_answer": "okudunuz",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Onlar oyun ___.",
+    "correct_answer": "oynadılar",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sabah erkenden ___.",
+    "correct_answer": "uyandım",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Pencereyi ___ mı?",
+    "correct_answer": "açtı",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "'gelmek' fiilinin (ben) olumlu geçmiş zaman şekli hangisidir?",
+    "correct_answer": "geldim",
+    "choices": [
+      "geliyorum",
+      "geldim",
+      "geliyor",
+      "gelir"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "'yapmak' fiilinin (o) olumsuz geçmiş zaman şekli hangisidir?",
+    "correct_answer": "yapmadı",
+    "choices": [
+      "yaptı",
+      "yapmadı",
+      "yapıyor",
+      "yapacak"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "'almak' fiilinin (siz) soru hali hangisidir?",
+    "correct_answer": "aldınız mı",
+    "choices": [
+      "alıyor musunuz",
+      "aldınız mı",
+      "alır mısınız",
+      "alacak mısınız"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Hangisi 'Dün ev ___.' cümlesini tamamlar?",
+    "correct_answer": "temizledim",
+    "choices": [
+      "temizleyim",
+      "temizledim",
+      "temizliyorum",
+      "temizler"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Hangisi 'Akşam telefon ___.' cümlesini tamamlar?",
+    "correct_answer": "çaldı",
+    "choices": [
+      "çalıyor",
+      "çaldı",
+      "çalar",
+      "çalacak"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "'içmek' fiilinin (biz) geçmiş zaman şekli hangisidir?",
+    "correct_answer": "içtik",
+    "choices": [
+      "içiyoruz",
+      "içtik",
+      "içeriz",
+      "içecekiz"
+    ]
+  }
+]

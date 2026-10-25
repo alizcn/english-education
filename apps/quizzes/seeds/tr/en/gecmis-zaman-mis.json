@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Mehmet dün gelmiş.",
+    "correct_answer": "Mehmet came yesterday.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Hava çok soğuk olmuş.",
+    "correct_answer": "The weather was very cold.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Annesi hastalanmış.",
+    "correct_answer": "His mother became ill.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kapıyı açmamış.",
+    "correct_answer": "She didn't open the door.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sınavı geçmiş misin?",
+    "correct_answer": "Did you pass the exam?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The car broke down.",
+    "correct_answer": "Araba kırılmış.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The rain fell all night.",
+    "correct_answer": "Bütün gece yağmış.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Did they leave?",
+    "correct_answer": "Gitmişler mi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He didn't eat breakfast.",
+    "correct_answer": "Kahvaltı yemememiş.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They went to the beach.",
+    "correct_answer": "Plaja gitmişler.",
+    "choices": null
+  }
+]

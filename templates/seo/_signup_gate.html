@@ -1,0 +1,20 @@
+{% load i18n %}
+{% comment %}Kayıt çağrısı kartı — kısıtlı içeriğin bittiği yere konuyor.
+
+`seo-gated` sınıfı yapısal veride `hasPart`/`cssSelector` ile bildiriliyor
+(bkz. apps/seo/gating.py): gizlenen bölümü beyan etmeden "ücretsiz
+erişilebilir" demek yanlış beyan olurdu.
+
+`hidden_label` çağıran şablondan geliyor ki sayfa neyin gizlendiğini
+somut söylesin ("5 bölüm daha", "1.056 kelime daha").{% endcomment %}
+<aside class="seo-gated pub-cta" aria-label="{% trans 'Kayıt gerekli' %}">
+    <div>
+        <h2>{% trans "Devamı için ücretsiz hesap aç" %}</h2>
+        <p>
+            {% if hidden_label %}{{ hidden_label }} ·{% endif %}
+            {% trans "Kayıt olduğunda tüm içerik açılır: quiz çözersin, yanlışların tekrar havuzuna düşer, seviyen ve haftalık ilerlemen panelde görünür. Kredi kartı istenmez." %}
+        </p>
+    </div>
+    <a href="{% url 'accounts:signup' %}?next={{ request.get_full_path|urlencode }}"
+       class="btn btn-lg landing-btn-primary">{% trans "Ücretsiz Kayıt Ol" %} →</a>
+</aside>

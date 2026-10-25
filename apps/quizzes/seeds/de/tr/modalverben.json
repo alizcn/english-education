@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich kann schwimmen.",
+    "correct_answer": "Yüzebilirim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Du musst hier bleiben.",
+    "correct_answer": "Burada kalmalısın.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie darf nicht lügen.",
+    "correct_answer": "Yalan söylemeye izni yok.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir wollen Pizza essen.",
+    "correct_answer": "Pizza yemek istiyoruz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Magst du Tee?",
+    "correct_answer": "Çayı sever misin?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Yüzebilir misin?",
+    "correct_answer": "Kannst du schwimmen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Burada kalmalısın.",
+    "correct_answer": "Du musst hier bleiben.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Buraya gelmeye izin var.",
+    "correct_answer": "Du darfst hier kommen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Piyano çalmak istiyorum.",
+    "correct_answer": "Ich will Klavier spielen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Çikolatayı seviyorsunuz.",
+    "correct_answer": "Sie mögen Schokolade.",
+    "choices": null
+  }
+]

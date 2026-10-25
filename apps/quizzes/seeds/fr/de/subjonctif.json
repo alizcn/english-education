@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il faut que tu viennes.",
+    "correct_answer": "Du musst kommen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich möchte, dass du glücklich bist.",
+    "correct_answer": "Je veux que tu sois heureux.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je ne crois pas qu'il parte.",
+    "correct_answer": "Ich glaube nicht, dass er geht.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Es ist notwendig, dass wir bald gehen.",
+    "correct_answer": "Il faut que nous partions bientôt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Pourvu qu'il pleuve demain.",
+    "correct_answer": "Hoffentlich regnet es morgen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich fürchte, dass du nicht kommst.",
+    "correct_answer": "J'ai peur que tu ne viennes pas.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je n'aime pas que tu partes.",
+    "correct_answer": "Mir gefällt nicht, dass du gehst.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich bin froh, dass du hier bist.",
+    "correct_answer": "Je suis heureux que tu sois ici.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "À moins qu'il ne pleuve, nous sortirons.",
+    "correct_answer": "Wenn es nicht regnet, werden wir hinausgehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich bestehe darauf, dass Sie mich verstehen.",
+    "correct_answer": "J'insiste pour que vous me compreniez.",
+    "choices": null
+  }
+]

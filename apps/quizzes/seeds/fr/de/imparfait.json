@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je parlais avec mon ami.",
+    "correct_answer": "Ich sprach mit meinem Freund.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle mangeait une pomme.",
+    "correct_answer": "Sie aß einen Apfel.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu lisais un livre.",
+    "correct_answer": "Du last ein Buch.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous ne jouions jamais dans le parc.",
+    "correct_answer": "Wir spielten nie im Park.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Alliez-vous souvent au cinéma?",
+    "correct_answer": "Gingen Sie oft ins Kino?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich sprach mit meinem Freund.",
+    "correct_answer": "Je parlais avec mon ami.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie aß einen Apfel.",
+    "correct_answer": "Elle mangeait une pomme.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Du last ein Buch.",
+    "correct_answer": "Tu lisais un livre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir spielten nie im Park.",
+    "correct_answer": "Nous ne jouions jamais dans le parc.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Gingen Sie oft ins Kino?",
+    "correct_answer": "Alliez-vous souvent au cinéma?",
+    "choices": null
+  }
+]

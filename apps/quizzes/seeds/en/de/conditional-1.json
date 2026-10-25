@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you study hard, you will pass the exam.",
+    "correct_answer": "Wenn du hart lernst, wirst du die Prüfung bestehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If it doesn't rain, we won't cancel the picnic.",
+    "correct_answer": "Wenn es nicht regnet, werden wir das Picknick nicht absagen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Will you come to the party if I invite you?",
+    "correct_answer": "Wirst du zur Party kommen, wenn ich dich einlade?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If she calls, I will answer immediately.",
+    "correct_answer": "Wenn sie anruft, werde ich sofort antworten.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you don't eat breakfast, you will be hungry.",
+    "correct_answer": "Wenn du kein Frühstück isst, wirst du hungrig sein.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn du pünktlich kommst, können wir anfangen.",
+    "correct_answer": "If you arrive on time, we can start.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn es morgen nicht schneit, können wir nicht Ski fahren.",
+    "correct_answer": "If it doesn't snow tomorrow, we can't ski.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wird es passieren, wenn du ihn fragst?",
+    "correct_answer": "Will it happen if you ask him?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn du deine Hausaufgaben machst, darfst du spielen gehen.",
+    "correct_answer": "If you do your homework, you can play.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn er nicht aufpasst, wird er einen Fehler machen.",
+    "correct_answer": "If he doesn't pay attention, he will make a mistake.",
+    "choices": null
+  }
+]

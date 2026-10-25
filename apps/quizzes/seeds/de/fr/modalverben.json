@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich kann schnell laufen.",
+    "correct_answer": "Je peux courir vite.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Du musst heute arbeiten.",
+    "correct_answer": "Tu dois travailler aujourd'hui.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kannst du mir helfen?",
+    "correct_answer": "Peux-tu m'aider?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie darf nicht lügen.",
+    "correct_answer": "Elle n'a pas le droit de mentir.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir wollen Pizza essen.",
+    "correct_answer": "Nous voulons manger de la pizza.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Er soll pünktlich kommen.",
+    "correct_answer": "Il doit venir à l'heure.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich mag Schokolade.",
+    "correct_answer": "J'aime le chocolat.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Magst du Kaffee?",
+    "correct_answer": "Aimes-tu le café?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je dois manger.",
+    "correct_answer": "Ich muss essen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Tu veux dormir?",
+    "correct_answer": "Willst du schlafen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle ne peut pas venir.",
+    "correct_answer": "Sie kann nicht kommen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Vous devez être ponctuels.",
+    "correct_answer": "Ihr müsst pünktlich sein.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ils peuvent nager.",
+    "correct_answer": "Sie können schwimmen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je ne veux pas partir.",
+    "correct_answer": "Ich will nicht gehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Tu dois obéir.",
+    "correct_answer": "Du musst gehorchen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "On peut fumer ici?",
+    "correct_answer": "Darf man hier rauchen?",
+    "choices": null
+  }
+]

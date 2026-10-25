@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: I went to the park yesterday.",
+    "correct_answer": "Je suis allé au parc hier.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: She didn't eat breakfast this morning.",
+    "correct_answer": "Elle n'a pas mangé le petit-déjeuner ce matin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: Did you see the movie?",
+    "correct_answer": "Avez-vous vu le film?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: They visited their grandparents.",
+    "correct_answer": "Ils ont visité leurs grands-parents.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: He worked on the project.",
+    "correct_answer": "Il a travaillé sur le projet.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: J'ai vu mon ami hier.",
+    "correct_answer": "I saw my friend yesterday.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Elle a dormi longtemps.",
+    "correct_answer": "She slept a long time.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Ils n'ont pas fini le travail.",
+    "correct_answer": "They didn't finish the work.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Avez-vous visité le musée?",
+    "correct_answer": "Did you visit the museum?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Nous avons joué au tennis.",
+    "correct_answer": "We played tennis.",
+    "choices": null
+  }
+]

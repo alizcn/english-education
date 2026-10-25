@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je ___ à Paris demain.",
+    "correct_answer": "irai",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Tu ___ une pomme?",
+    "correct_answer": "mangeras",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle ___ son projet avant midi.",
+    "correct_answer": "finira",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Nous ___ à la gare à 8 heures.",
+    "correct_answer": "serons",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Vous ___ la fenêtre?",
+    "correct_answer": "fermerez",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ils ___ la maison la semaine prochaine.",
+    "correct_answer": "vendront",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je ne ___ pas à l'école demain.",
+    "correct_answer": "viendrai",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle ___ deux enfants.",
+    "correct_answer": "aura",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Tu ___ finir cet exercice?",
+    "correct_answer": "pourras",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Nous ___ notre travail à temps.",
+    "correct_answer": "ferons",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le futur simple du verbe 'être' à la 1ère personne du singulier?",
+    "correct_answer": "je serai",
+    "choices": [
+      "je suis",
+      "je serai",
+      "je serais",
+      "j'étais"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: 'Il ___ en vacances l'été prochain.'",
+    "correct_answer": "ira",
+    "choices": [
+      "va",
+      "ira",
+      "aller",
+      "allait"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le futur simple du verbe 'avoir' à la 3ème personne du pluriel?",
+    "correct_answer": "ils auront",
+    "choices": [
+      "ils ont",
+      "ils auront",
+      "ils avaient",
+      "ils auraient"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: 'Vous ne ___ pas vos clés.'",
+    "correct_answer": "oublierez",
+    "choices": [
+      "oublierez",
+      "oubliez",
+      "oublier",
+      "oublieraient"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le futur simple du verbe 'devoir' à la 2ème personne du singulier?",
+    "correct_answer": "tu devras",
+    "choices": [
+      "tu dois",
+      "tu devras",
+      "tu devais",
+      "tu devrais"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: 'Nous ___ avec vous demain.'",
+    "correct_answer": "parlerons",
+    "choices": [
+      "parlons",
+      "parleriez",
+      "parlerons",
+      "parlaient"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle phrase est au futur simple?",
+    "correct_answer": "Je dirai oui.",
+    "choices": [
+      "Je dis oui.",
+      "Je vais dire oui.",
+      "Je dirai oui.",
+      "Je disais oui."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le futur simple du verbe 'pouvoir' à la 1ère personne du pluriel?",
+    "correct_answer": "nous pourrons",
+    "choices": [
+      "nous pouvons",
+      "nous pourrons",
+      "nous pourrions",
+      "nous pouvaient"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: 'Elle ___ sa mère au marché.'",
+    "correct_answer": "verra",
+    "choices": [
+      "voir",
+      "verra",
+      "voyait",
+      "voit"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le futur simple du verbe 'vouloir' à la 3ème personne du singulier?",
+    "correct_answer": "il voudra",
+    "choices": [
+      "il veut",
+      "il voudra",
+      "il voulait",
+      "il voudrais"
+    ]
+  }
+]

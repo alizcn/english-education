@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I have been cooking since three o'clock.",
+    "correct_answer": "Je cuisine depuis trois heures.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She has been waiting for the bus for ten minutes.",
+    "correct_answer": "Elle attend le bus depuis dix minutes.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They haven't been talking to each other.",
+    "correct_answer": "Ils ne se parlent pas.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Have you been feeling tired lately?",
+    "correct_answer": "T'es-tu senti fatigué récemment?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The children have been playing in the garden all afternoon.",
+    "correct_answer": "Les enfants jouent dans le jardin toute l'après-midi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je travaille ici depuis deux ans.",
+    "correct_answer": "I have been working here for two years.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle n'a pas beaucoup mangé récemment.",
+    "correct_answer": "She hasn't been eating much recently.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ont-elles étudié toute la journée?",
+    "correct_answer": "Have they been studying all day?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Nous habitons cette ville depuis janvier.",
+    "correct_answer": "We have been living in this city since January.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Il attend depuis une heure?",
+    "correct_answer": "Has he been waiting for an hour?",
+    "choices": null
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je le vois chaque jour.",
+    "correct_answer": "Ich sehe ihn jeden Tag.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle m'aime beaucoup.",
+    "correct_answer": "Sie liebt mich sehr.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu les connais bien?",
+    "correct_answer": "Kennst du sie gut?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je ne le vois pas.",
+    "correct_answer": "Ich sehe ihn nicht.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous lui parlons souvent.",
+    "correct_answer": "Wir sprechen oft mit ihm.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Vois-le maintenant!",
+    "correct_answer": "Sieh ihn jetzt!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle ne lui écrit pas.",
+    "correct_answer": "Sie schreibt ihm nicht.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Me comprends-tu?",
+    "correct_answer": "Verstehst du mich?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je les invite ce soir.",
+    "correct_answer": "Ich lade sie heute Abend ein.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ils lui donnent un cadeau.",
+    "correct_answer": "Sie geben ihm ein Geschenk.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich kaufe es morgen.",
+    "correct_answer": "Je l'achète demain.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Magst du mich?",
+    "correct_answer": "Tu m'aimes?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich sehe sie nicht.",
+    "correct_answer": "Je ne les vois pas.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir schreiben ihnen oft.",
+    "correct_answer": "Nous leur écrivons souvent.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Zeigt ihr mir die Fotos?",
+    "correct_answer": "Vous me montrez les photos?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Lass ihn in Ruhe!",
+    "correct_answer": "Laisse-le tranquille!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich höre dich nicht.",
+    "correct_answer": "Je ne t'entends pas.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie besuchen uns morgen.",
+    "correct_answer": "Elles nous rendent visite demain.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Gibst du uns das Buch?",
+    "correct_answer": "Tu nous donnes le livre?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sag mir die Wahrheit!",
+    "correct_answer": "Dis-moi la vérité!",
+    "choices": null
+  }
+]

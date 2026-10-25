@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I have finished my work.",
+    "correct_answer": "Ich habe meine Arbeit fertig gemacht.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She has lived in London for five years.",
+    "correct_answer": "Sie wohnt seit fünf Jahren in London.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They have never seen a giraffe.",
+    "correct_answer": "Sie haben noch nie eine Giraffe gesehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Have you ever eaten ice cream?",
+    "correct_answer": "Hast du jemals Eis gegessen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He has just left the office.",
+    "correct_answer": "Er ist gerade aus dem Büro gegangen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I have not seen him.",
+    "correct_answer": "Ich habe ihn nicht gesehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich bin gerade aufgewacht.",
+    "correct_answer": "I have just woken up.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie haben schon zu Abend gegessen.",
+    "correct_answer": "They have already eaten dinner.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Hast du das Buch gelesen?",
+    "correct_answer": "Have you read the book?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir haben hier seit 2015 gelebt.",
+    "correct_answer": "We have lived here since 2015.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Er hat 20 Jahre hier gearbeitet.",
+    "correct_answer": "He has worked here for 20 years.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich habe ihn noch nicht gesehen.",
+    "correct_answer": "I have not seen him yet.",
+    "choices": null
+  }
+]

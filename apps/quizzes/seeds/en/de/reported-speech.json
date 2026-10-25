@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He said he was tired.",
+    "correct_answer": "Er sagte, dass er müde war.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She told me she didn't like the film.",
+    "correct_answer": "Sie sagte mir, dass sie den Film nicht mochte.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They asked if we could help them.",
+    "correct_answer": "Sie fragten, ob wir ihnen helfen konnten.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "My friend mentioned she was moving to Paris.",
+    "correct_answer": "Meine Freundin erwähnte, dass sie nach Paris umzog.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He assured me that everything would be fine.",
+    "correct_answer": "Er versicherte mir, dass alles in Ordnung sein würde.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She said she wouldn't come to the party.",
+    "correct_answer": "Sie sagte, dass sie nicht zur Party kommen würde.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The teacher explained that the exam was the next day.",
+    "correct_answer": "Der Lehrer erklärte, dass die Prüfung am nächsten Tag war.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He told me he had already eaten.",
+    "correct_answer": "Er sagte mir, dass er bereits gegessen hatte.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She asked where I was going.",
+    "correct_answer": "Sie fragte, wohin ich ging.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They said they hadn't seen her yesterday.",
+    "correct_answer": "Sie sagten, dass sie sie gestern nicht gesehen hatten.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Er sagte, dass er krank war.",
+    "correct_answer": "He said he was sick.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie sagte mir, dass sie nicht kommen konnte.",
+    "correct_answer": "She told me she couldn't come.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie fragten, ob ich Deutsch sprach.",
+    "correct_answer": "They asked if I spoke German.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Mein Bruder erwähnte, dass er einen neuen Job hatte.",
+    "correct_answer": "My brother mentioned he had a new job.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Der Arzt versicherte mir, dass ich gesund war.",
+    "correct_answer": "The doctor assured me I was healthy.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Er sagte, dass er das Konzert nicht besuchen würde.",
+    "correct_answer": "He said he wouldn't attend the concert.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die Lehrerin erklärte, dass die Prüfung morgen sein würde.",
+    "correct_answer": "The teacher explained that the exam would be tomorrow.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie fragten mich, wo ich wohnte.",
+    "correct_answer": "They asked me where I lived.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Er sagte, dass er den Film bereits gesehen hatte.",
+    "correct_answer": "He said he had already seen the film.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Meine Mutter fragte, ob ich meine Hausaufgaben gemacht hatte.",
+    "correct_answer": "My mother asked if I had done my homework.",
+    "choices": null
+  }
+]

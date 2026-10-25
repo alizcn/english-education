@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich gehe ins Kino, weil ich einen Film sehen ___.",
+    "correct_answer": "möchte",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz ist grammatikalisch korrekt?",
+    "correct_answer": "Ich weiß, dass du recht hast.",
+    "choices": [
+      "Ich weiß, dass du recht hast.",
+      "Ich weiß, dass du hast recht.",
+      "Ich weiß dass du recht hast.",
+      "Ich weiß, dass hast du recht."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Wenn es regnet, bleibe ich zu ___.",
+    "correct_answer": "Hause",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz hat die richtige Verbstellung im Nebensatz?",
+    "correct_answer": "Weil ich müde bin, gehe ich schlafen.",
+    "choices": [
+      "Weil ich müde bin, gehe ich schlafen.",
+      "Weil ich bin müde, gehe ich schlafen.",
+      "Weil ich gehe schlafen, bin ich müde.",
+      "Weil gehe ich schlafen, bin ich müde."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich fahre nicht in den Urlaub, weil ich kein Geld ___.",
+    "correct_answer": "habe",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welches Verb kann einen 'dass'-Nebensatz leiten?",
+    "correct_answer": "glauben",
+    "choices": [
+      "laufen",
+      "glauben",
+      "spazieren",
+      "tanzen"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Immer wenn meine Mutter _____, bin ich beschäftigt.",
+    "correct_answer": "anruft",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz ist richtig geschrieben?",
+    "correct_answer": "Ich bleibe zu Hause, weil es regnet.",
+    "choices": [
+      "Ich bleibe zu Hause, weil regnet es.",
+      "Ich bleibe zu Hause, weil es regnet.",
+      "Ich bleibe zu Hause weil es regnet.",
+      "Ich bleibe zu Hause, weil es regnet es."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die Lehrerin sagte, dass die Prüfung morgen ___.",
+    "correct_answer": "ist",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz mit 'wenn' ist hypothetisch?",
+    "correct_answer": "Wenn ich reich wäre, würde ich ein Auto kaufen.",
+    "choices": [
+      "Wenn ich Zeit habe, rufe ich dich an.",
+      "Wenn ich reich wäre, würde ich ein Auto kaufen.",
+      "Wenn das Wetter gut ist, gehen wir spazieren.",
+      "Wenn der Bus kommt, fahren wir weg."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich weiß, dass er dich morgen ___.",
+    "correct_answer": "anruft",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Verben leiten einen 'dass'-Nebensatz?",
+    "correct_answer": "sagen und glauben",
+    "choices": [
+      "schlafen und essen",
+      "sagen und glauben",
+      "laufen und springen",
+      "tanzen und singen"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Wenn ich keine Zeit _____, kann ich nicht mitkommen.",
+    "correct_answer": "habe",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz ist korrekt geschrieben?",
+    "correct_answer": "Ich glaube, dass du recht hast.",
+    "choices": [
+      "Ich glaube dass du recht hast.",
+      "Ich glaube, dass du recht hast.",
+      "Ich glaube, dass du hast recht.",
+      "Ich glaube, dass hast du recht."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Weil das Wetter nicht schön ist, bleibe ich zu _____.",
+    "correct_answer": "Hause",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz drückt einen Grund aus?",
+    "correct_answer": "Weil es regnet, bleibe ich zu Hause.",
+    "choices": [
+      "Wenn es regnet, bleibe ich zu Hause.",
+      "Weil es regnet, bleibe ich zu Hause.",
+      "Obwohl es regnet, gehe ich raus.",
+      "Es regnet sehr."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich glaube, dass er morgen _____.",
+    "correct_answer": "ankommt",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Wo kann der 'weil'-Nebensatz stehen?",
+    "correct_answer": "Am Anfang oder am Ende",
+    "choices": [
+      "Nur am Anfang",
+      "Nur am Ende",
+      "Am Anfang oder am Ende",
+      "Nur in der Mitte"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Wenn ich Zeit _____, würde ich dich besuchen.",
+    "correct_answer": "hätte",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "In welchem Satz ist die Verbstellung im Nebensatz richtig?",
+    "correct_answer": "Ich weiß, dass ich müde bin.",
+    "choices": [
+      "Ich weiß, dass ich bin müde.",
+      "Ich weiß, dass ich müde bin.",
+      "Ich weiß, dass müde ich bin.",
+      "Ich weiß, dass ich bin sehr müde."
+    ]
+  }
+]

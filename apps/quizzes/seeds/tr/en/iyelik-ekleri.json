@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Benim kitabım çok iyidir.",
+    "correct_answer": "My book is very good.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Senin ödevin bitmedi.",
+    "correct_answer": "Your homework is not finished.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Onun evi büyük.",
+    "correct_answer": "His house is big.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Bizim öğretmenimizi severiz.",
+    "correct_answer": "We like our teacher.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sizin kediniz beyaz mı?",
+    "correct_answer": "Is your cat white?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I don't have my phone.",
+    "correct_answer": "Telefonum yok.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She likes her job.",
+    "correct_answer": "İşini seviyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Do we have our keys?",
+    "correct_answer": "Bizim anahtarlarımız var mı?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They don't like their house.",
+    "correct_answer": "Evlerini sevmiyorlar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Your brother is smart.",
+    "correct_answer": "Senin kardeşin zeki.",
+    "choices": null
+  }
+]

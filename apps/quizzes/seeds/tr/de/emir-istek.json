@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Git!",
+    "correct_answer": "Geh!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gitme!",
+    "correct_answer": "Geh nicht!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kapıyı aç!",
+    "correct_answer": "Öffne die Tür!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Lütfen bana yardım et!",
+    "correct_answer": "Bitte hilf mir!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Konuşmayın!",
+    "correct_answer": "Sprecht nicht!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Komm hier!",
+    "correct_answer": "Gel buraya!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Mach das Fenster zu!",
+    "correct_answer": "Pencereyi kapat!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Schreib deine Hausaufgaben!",
+    "correct_answer": "Ödevlerini yaz!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Höre mir zu!",
+    "correct_answer": "Bana dinle!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Seid nicht traurig!",
+    "correct_answer": "Üzülmeyin!",
+    "choices": null
+  }
+]

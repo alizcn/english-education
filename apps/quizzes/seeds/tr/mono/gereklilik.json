@@ -1,0 +1,121 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Saat sekizde orada bulunmalı___.",
+    "correct_answer": "yım",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct negative form of 'you should not speak' (konuşmak)?",
+    "correct_answer": "Konuşmamalısın",
+    "choices": [
+      "Konuşmalısın",
+      "Konuşmamalısın",
+      "Konuşmali değilsin",
+      "Konuşmalı mısın"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Doktor'a gitmelisin ___?",
+    "correct_answer": "mi",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct form for 'you all should work harder'?",
+    "correct_answer": "Daha çok çalışmalısınız",
+    "choices": [
+      "Daha çok çalışmalısınız",
+      "Daha çok çalışmalıyız",
+      "Daha çok çalışmeli",
+      "Daha çok çalışmalılar"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Hemen hazırlanmalı___, yoksa geç kalacağız.",
+    "correct_answer": "yız",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which form correctly means 'they should leave now'?",
+    "correct_answer": "Şimdi ayrılmalı",
+    "choices": [
+      "Şimdi ayrılmalıdırlar",
+      "Şimdi ayrılmalılar",
+      "Şimdi ayrılmalı",
+      "Şimdi ayrılmeli"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Gece yarısından sonra müzik dinlememeli___.",
+    "correct_answer": "yiz",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Choose the correct form for 'I must go now':",
+    "correct_answer": "Şimdi gitmeliyim",
+    "choices": [
+      "Şimdi gitmeliyim",
+      "Şimdi gitmeli yim",
+      "Şimdi gitmeliyiz",
+      "Şimdi gitmeli misin"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sabahtan tüm hazırlıkları yapmalı___.",
+    "correct_answer": "yız",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Select the correct negative form for 'should you cry' (ağlamak)?",
+    "correct_answer": "Ağlamamalısın",
+    "choices": [
+      "Ağlamalısın",
+      "Ağlamemelisin",
+      "Ağlamamalısın",
+      "Ağlamalı değilsin"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sağlığın için her gün spor yapmalı___.",
+    "correct_answer": "sın",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct form for 'you should listen' (dinlemek)?",
+    "correct_answer": "Dinlemelisin",
+    "choices": [
+      "Dinlemeliyim",
+      "Dinlemelisin",
+      "Dinlemali misin",
+      "Dinlemelesin"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Bu meseleden daha fazla bahsetmeme___ , çünkü sonuç çıkamayız.",
+    "correct_answer": "meliyiz",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Select the sentence that correctly uses the necessity mood with 'siz' (you formal/plural):",
+    "correct_answer": "Siz bu dosyayı açmalısınız",
+    "choices": [
+      "Siz bu dosyayı açmalısınız",
+      "Siz bu dosyayı açmalıyız",
+      "Siz bu dosyayı açmalı",
+      "Siz bu dosyayı açmalılar"
+    ]
+  }
+]

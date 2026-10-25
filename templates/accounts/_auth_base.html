@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
-{% load i18n %}
+{% load i18n learn_extras %}
 
 {# Giriş/kayıt sayfaları: base.html'in SEO başlığını devralır, gövdesi sade. #}
 
@@ -10,25 +10,20 @@
 
 {% block body %}
 <div class="auth-shell">
-    <div style="display:flex; justify-content:flex-end; align-items:center; gap:0.35rem; margin-bottom:0.5rem;">
-        {% include '_theme_toggle.html' %}
-        <form method="post" action="{% url 'set_language' %}" class="lang-switcher">
-            {% csrf_token %}
-            <input type="hidden" name="next" value="{{ request.path }}">
-            {% get_current_language as LANG %}
-            {% if LANG == 'tr' %}
-            <button type="submit" name="language" value="en" class="lang-btn" title="English">EN</button>
-            {% else %}
-            <button type="submit" name="language" value="tr" class="lang-btn" title="Türkçe">TR</button>
-            {% endif %}
-        </form>
-    </div>
+    {% comment %}Tema ve dil düğmeleri BİLEREK kaldırıldı: giriş ve kayıt
+    sayfaları yalnızca hesap işine odaklanıyor. Not: arayüz dili henüz
+    seçilmemiş bir ziyaretçi bu sayfalarda dili değiştiremiyor; dil
+    değiştirici landing, halka açık sayfalar ve uygulama içinde duruyor.
+    {% endcomment %}
     <div style="text-align:center; margin-bottom:1.5rem;">
         <a href="{% url 'dashboard:home' %}" style="display:flex; justify-content:center; margin-bottom:0.4rem; text-decoration:none;">
             {% include '_levelenai_logo.html' with logo_height="72px" %}
         </a>
-        <div style="font-size:0.88rem; color:var(--text-muted); margin-top:0.3rem;">{% trans "Level up your English. Land the interview." %}</div>
-        <div style="font-size:0.78rem; color:var(--text-soft); margin-top:0.15rem;">{% trans "İngilizceni seviye atlat. Mülakatı kap." %}</div>
+        {% comment %}Giriş yapılmadığı için kurs yok: slogan dil-NÖTR ve
+        platformun dört dilli olduğunu söylüyor. Eskiden sabit "Level up your
+        English" yazıyordu, yani ürünü İngilizce platformu gibi gösteriyordu.
+        {% endcomment %}
+        <div style="font-size:0.88rem; color:var(--text-muted); margin-top:0.3rem;">{% trans "İngilizce, Almanca, Fransızca ve Türkçe — kelime, gramer ve AI destekli pratik." %}</div>
     </div>
 
     <div class="auth-card">
@@ -43,10 +38,8 @@
         {% block auth_content %}{% endblock %}
     </div>
 
-    <nav class="footer-links" style="margin-top:1.5rem;" aria-label="{% trans 'Alt bağlantılar' %}">
-        <a href="{% url 'seo:grammar_index' %}" class="footer-link">{% trans "İngilizce Gramer" %}</a>
-        <a href="{% url 'seo:words_index' %}" class="footer-link">{% trans "Kelime Listeleri" %}</a>
-        <a href="{% url 'seo:interview_index' %}" class="footer-link">{% trans "Mülakat Soruları" %}</a>
-    </nav>
+    {% comment %}İçerik bağlantıları (gramer / kelime listeleri / mülakat
+    soruları) BİLEREK kaldırıldı: giriş ve kayıt sayfaları yalnızca hesap
+    işine odaklanıyor, kullanıcıyı içeriğe yönlendirmiyor.{% endcomment %}
 </div>
 {% endblock %}

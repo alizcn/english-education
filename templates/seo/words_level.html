@@ -1,9 +1,9 @@
 {% extends 'seo/_public_base.html' %}
-{% load i18n %}
+{% load i18n learn_extras %}
 
-{% block full_title %}{% blocktrans with code=level %}{{ code }} Seviyesi İngilizce Kelimeler ve Türkçe Anlamları{% endblocktrans %}{% if page_obj.number > 1 %} — {% blocktrans with n=page_obj.number %}Sayfa {{ n }}{% endblocktrans %}{% endif %} | LevelEnAI{% endblock %}
-{% block meta_description %}{% blocktrans with code=level n=total %}{{ code }} seviyesi İngilizce kelimeler: {{ n }} kelimenin Türkçe anlamı, sözcük türü ve örnek cümlesi. Sıklık sırasına göre dizili, ücretsiz liste.{% endblocktrans %}{% if page_obj.number > 1 %} {% blocktrans with a=page_obj.number b=paginator.num_pages %}Sayfa {{ a }}/{{ b }}.{% endblocktrans %}{% endif %}{% endblock %}
-{% block og_title %}{% blocktrans with code=level %}{{ code }} Seviyesi İngilizce Kelimeler{% endblocktrans %} — LevelEnAI{% endblock %}
+{% block full_title %}{% lang_name target_language as tlang %}{% lang_name native_language as nlang %}{% blocktrans with code=level lang=tlang nlang=nlang %}{{ code }} Seviyesi {{ lang }} Kelimeler ve {{ nlang }} Anlamları{% endblocktrans %}{% if page_obj.number > 1 %} — {% blocktrans with n=page_obj.number %}Sayfa {{ n }}{% endblocktrans %}{% endif %} | LevelEnAI{% endblock %}
+{% block meta_description %}{% lang_name target_language as tlang %}{% lang_name native_language as nlang %}{% blocktrans with code=level n=total lang=tlang nlang=nlang %}{{ code }} seviyesi {{ lang }} kelimeler: {{ n }} kelimenin {{ nlang }} anlamı, sözcük türü ve örnek cümlesi. Sıklık sırasına göre dizili, ücretsiz liste.{% endblocktrans %}{% if page_obj.number > 1 %} {% blocktrans with a=page_obj.number b=paginator.num_pages %}Sayfa {{ a }}/{{ b }}.{% endblocktrans %}{% endif %}{% endblock %}
+{% block og_title %}{% lang_name target_language as tlang %}{% blocktrans with code=level lang=tlang %}{{ code }} Seviyesi {{ lang }} Kelimeler{% endblocktrans %} — LevelEnAI{% endblock %}
 {% block og_description %}{{ blurb }}{% endblock %}
 
 {% block pagination_links %}
@@ -11,9 +11,9 @@
 {% if page_obj.has_next %}<link rel="next" href="{{ seo.site_url }}{{ request.path }}?page={{ page_obj.next_page_number }}">{% endif %}
 {% endblock %}
 
-{% block breadcrumb %}<span>›</span> <a href="{% url 'seo:words_index' %}">{% trans "İngilizce Kelimeler" %}</a> <span>›</span> <span aria-current="page">{{ level }}</span>{% endblock %}
+{% block breadcrumb %}{% lang_name target_language as tlang %}<span>›</span> <a href="{% url 'seo:words_index' lang=target_language|default:'en' %}">{% blocktrans with lang=tlang %}{{ lang }} Kelimeler{% endblocktrans %}</a> <span>›</span> <span aria-current="page">{{ level }}</span>{% endblock %}
 
-{% block json_ld %}
+{% block json_ld %}{% lang_name target_language as tlang %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -22,27 +22,36 @@
       "@type": "BreadcrumbList",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "{% trans 'Ana Sayfa' %}", "item": "{{ seo.site_url }}/"},
-        {"@type": "ListItem", "position": 2, "name": "{% trans 'İngilizce Kelimeler' %}", "item": "{{ seo.site_url }}{% url 'seo:words_index' %}"},
+        {"@type": "ListItem", "position": 2, "name": "{% blocktrans with lang=tlang %}{{ lang }} Kelimeler{% endblocktrans %}", "item": "{{ seo.site_url }}{% url 'seo:words_index' lang=target_language|default:'en' %}"},
         {"@type": "ListItem", "position": 3, "name": "{{ level }}", "item": "{{ seo.canonical }}"}
       ]
     },
     {
       "@type": "CollectionPage",
-      "name": "{% blocktrans with code=level %}{{ code }} Seviyesi İngilizce Kelimeler{% endblocktrans %}",
+      "name": "{% blocktrans with code=level lang=tlang %}{{ code }} Seviyesi {{ lang }} Kelimeler{% endblocktrans %}",
       "url": "{{ seo.canonical }}",
       "inLanguage": "{{ LANGUAGE_CODE }}",
-      "isAccessibleForFree": true,
-      "isPartOf": {"@id": "{{ seo.site_url }}/#website"}
+      "isAccessibleForFree": {% if gated %}false{% else %}true{% endif %},
+      {% if gated %}{% comment %}Gizlenen bölüm Google'ın belgelediği biçimde
+      bildiriliyor. Tarayıcıya tam metni verip kullanıcıdan saklamak
+      "cloaking"tir; burada tarayıcı da ziyaretçinin gördüğünü görüyor ve
+      gizlenen kısım açıkça beyan ediliyor.{% endcomment %}
+      "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": false,
+        "cssSelector": "{{ gated_selector }}"
+      },
+      {% endif %}      "isPartOf": {"@id": "{{ seo.site_url }}/#website"}
     }
   ]
 }
 </script>
 {% endblock %}
 
-{% block public_content %}
+{% block public_content %}{% lang_name target_language as tlang %}{% lang_name native_language as nlang %}
 <header class="pub-head">
     <span class="pub-level-badge pub-level-badge-lg">{{ level }}</span>
-    <h1>{% blocktrans with code=level %}{{ code }} Seviyesi İngilizce Kelimeler{% endblocktrans %}</h1>
+    <h1>{% blocktrans with code=level lang=tlang %}{{ code }} Seviyesi {{ lang }} Kelimeler{% endblocktrans %}</h1>
     <p class="pub-lead">{{ blurb }}</p>
     <p class="pub-meta">{% blocktrans with n=total %}{{ n }} kelime{% endblocktrans %} · {% blocktrans with a=page_obj.number b=paginator.num_pages %}sayfa {{ a }}/{{ b }}{% endblocktrans %}</p>
 </header>
@@ -53,8 +62,8 @@
         <thead>
             <tr>
                 <th scope="col">#</th>
-                <th scope="col">English</th>
-                <th scope="col">{% trans "Türkçe" %}</th>
+                <th scope="col">{% lang_name target_language %}</th>
+                <th scope="col">{% lang_name native_language %}</th>
                 <th scope="col">{% trans "Örnek cümle" %}</th>
             </tr>
         </thead>
@@ -62,13 +71,13 @@
         {% for w in page_obj %}
             <tr>
                 <td class="pub-rank">{{ forloop.counter0|add:offset }}</td>
-                <td lang="en">
-                    <strong>{{ w.english }}</strong>
+                <td lang="{{ w.language }}">
+                    <strong>{{ w.term }}</strong>
                     {% if w.part_of_speech %}<span class="pub-pos">{{ w.part_of_speech }}</span>{% endif %}
                 </td>
-                <td lang="tr">{{ w.turkish }}</td>
+                <td lang="{{ native_language }}">{{ w.display_meaning }}</td>
                 <td class="pub-example">
-                    {% if w.example_en %}<span lang="en">{{ w.example_en }}</span>{% if w.example_tr %}<small lang="tr">{{ w.example_tr }}</small>{% endif %}{% else %}—{% endif %}
+                    {% if w.example %}<span lang="{{ w.language }}">{{ w.example }}</span>{% if w.display_example_translation %}<small lang="{{ native_language }}">{{ w.display_example_translation }}</small>{% endif %}{% else %}—{% endif %}
                 </td>
             </tr>
         {% endfor %}
@@ -76,7 +85,15 @@
     </table>
 </section>
 
-{% if paginator.num_pages > 1 %}
+{% if gated %}
+{% blocktrans asvar hidden_label with n=hidden_words %}{{ n }} kelime daha{% endblocktrans %}
+{% include 'seo/_signup_gate.html' with hidden_label=hidden_label %}
+{% endif %}
+
+{% comment %}Sayfalama kapı açıkken gizleniyor: "sonraki" tuşu dursaydı
+ziyaretçi kayıt olmadan bütün listeyi gezebilirdi (view da zaten 1. sayfaya
+sabitliyor).{% endcomment %}
+{% if not gated and paginator.num_pages > 1 %}
 <nav class="pub-pagination" aria-label="{% trans 'Sayfalama' %}">
     {% if page_obj.has_previous %}
     <a href="?page={{ page_obj.previous_page_number }}" class="pub-page-link">← {% trans "Önceki" %}</a>
@@ -92,7 +109,7 @@
     <h2 id="diger-seviyeler" class="pub-h2">{% trans "Diğer seviyeler" %}</h2>
     <div class="pub-chips">
         {% for l in levels %}
-        <a href="{% url 'seo:words_level' level=l.code|lower %}" class="pub-chip {% if l.code == level %}pub-chip-active{% endif %}">
+        <a href="{% url 'seo:words_level' lang=target_language|default:'en' level=l.code|lower %}" class="pub-chip {% if l.code == level %}pub-chip-active{% endif %}">
             {{ l.code }} <small>({{ l.total }})</small>
         </a>
         {% endfor %}

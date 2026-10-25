@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je me réveille à 7 heures chaque matin.",
+    "correct_answer": "Her sabah saat yedide uyanırım.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle s'habille avant de partir au travail.",
+    "correct_answer": "İşe gitmeden önce giyinir.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous nous amusons à la plage le weekend.",
+    "correct_answer": "Hafta sonu plajda eğleniyoruz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Vous ne vous couchez pas avant minuit?",
+    "correct_answer": "Gece yarısından önce yatmıyorsunuz mu?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il s'appelle Michel.",
+    "correct_answer": "Adı Michel'dir.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ils se promènent dans le parc dimanche.",
+    "correct_answer": "Pazar günü parkta dolaşıyorlar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je ne me souviens pas de cet endroit.",
+    "correct_answer": "Bu yeri hatırlamıyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu t'endors vite après l'école.",
+    "correct_answer": "Okuldan sonra çabuk uyuyorsun.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sabahları erken uyanırım.",
+    "correct_answer": "Je me réveille tôt le matin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O çok hızlı giyinir.",
+    "correct_answer": "Elle s'habille très vite.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Hiçbir zaman sıkılmıyorum.",
+    "correct_answer": "Je ne m'ennuie jamais.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Birbirlerini severler.",
+    "correct_answer": "Ils s'aiment.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Dün geç yatmadık.",
+    "correct_answer": "Hier, nous ne nous sommes pas couchés tard.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bütün gün endişeleniyorum.",
+    "correct_answer": "Je m'inquiète toute la journée.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Siz birbirinizi iyi tanıyorsunuz mu?",
+    "correct_answer": "Vous vous connaissez bien?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Çocuklar birbirlerine gülüyorlar.",
+    "correct_answer": "Les enfants se sourient.",
+    "choices": null
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I will study French tomorrow.",
+    "correct_answer": "J'étudierai le français demain.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She will not come to the party.",
+    "correct_answer": "Elle ne viendra pas à la fête.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Will they arrive at 8 o'clock?",
+    "correct_answer": "Arriveront-ils à 8 heures?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He will probably be late again.",
+    "correct_answer": "Il sera probablement en retard encore une fois.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "You will love this restaurant.",
+    "correct_answer": "Vous aimerez ce restaurant.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "We won't stay there long.",
+    "correct_answer": "Nous ne resterons pas longtemps là-bas.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Will you call me later?",
+    "correct_answer": "M'appelleras-tu plus tard?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She will definitely pass the exam.",
+    "correct_answer": "Elle réussira définitivement l'examen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je vais préparer le dîner demain.",
+    "correct_answer": "I will prepare dinner tomorrow.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Il ne viendra pas à la réunion.",
+    "correct_answer": "He won't come to the meeting.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Allez-vous arriver à 6 heures?",
+    "correct_answer": "Will you arrive at 6 o'clock?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle sera très heureuse de te voir.",
+    "correct_answer": "She will be very happy to see you.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Nous ne partirons pas en vacances cet été.",
+    "correct_answer": "We won't go on vacation this summer.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Vont-ils jouer au football dimanche?",
+    "correct_answer": "Will they play football on Sunday?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Tu mangeras avec nous ce soir.",
+    "correct_answer": "You will eat with us tonight.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Vous ne comprendrez pas ce film.",
+    "correct_answer": "You won't understand this film.",
+    "choices": null
+  }
+]

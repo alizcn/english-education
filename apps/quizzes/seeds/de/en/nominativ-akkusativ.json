@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Mann sieht den Hund.",
+    "correct_answer": "The man sees the dog.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The woman buys a book.",
+    "correct_answer": "Die Frau kauft ein Buch.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Kind kauft keinen Apfel.",
+    "correct_answer": "The child does not buy an apple.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She loves the music.",
+    "correct_answer": "Sie liebt die Musik.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kennst du den Lehrer nicht?",
+    "correct_answer": "Don't you know the teacher?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I am writing a letter.",
+    "correct_answer": "Ich schreibe einen Brief.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Er fragt einen Freund.",
+    "correct_answer": "He asks a friend.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The student does not read the book.",
+    "correct_answer": "Der Student liest das Buch nicht.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wer kauft einen neuen Mantel?",
+    "correct_answer": "Who buys a new coat?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The mother hugs the child.",
+    "correct_answer": "Die Mutter umarmt das Kind.",
+    "choices": null
+  }
+]

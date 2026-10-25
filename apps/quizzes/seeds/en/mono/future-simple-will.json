@@ -1,0 +1,137 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ go to the cinema tomorrow.",
+    "correct_answer": "will",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ not arrive on time.",
+    "correct_answer": "will",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ finish the project next week.",
+    "correct_answer": "will",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He ___ visit his grandparents tomorrow.",
+    "correct_answer": "will",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "You ___ love this book.",
+    "correct_answer": "will",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ you come to the party?",
+    "correct_answer": "Will",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence is correct?",
+    "correct_answer": "I will go to school tomorrow.",
+    "choices": [
+      "I will go to school tomorrow.",
+      "I will goes to school tomorrow.",
+      "I go will to school tomorrow.",
+      "I will to go to school tomorrow."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct negative form?",
+    "correct_answer": "She will not study tonight.",
+    "choices": [
+      "She will not study tonight.",
+      "She will study not tonight.",
+      "She not will study tonight.",
+      "She will to not study tonight."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct question?",
+    "correct_answer": "Will you come to the party?",
+    "choices": [
+      "Will you come to the party?",
+      "You will come to the party?",
+      "Will come you to the party?",
+      "Do you will come to the party?"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Choose the sentence with the correct contraction.",
+    "correct_answer": "He won't listen to me.",
+    "choices": [
+      "He won't listen to me.",
+      "He willn't listen to me.",
+      "He willon't listen to me.",
+      "He will'nt listen to me."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence uses 'will' for a spontaneous decision?",
+    "correct_answer": "I will help you with that.",
+    "choices": [
+      "I will help you with that.",
+      "I help you with that.",
+      "I helped you with that.",
+      "I am helping you with that."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct word order?",
+    "correct_answer": "Where will they play tomorrow?",
+    "choices": [
+      "Where will they play tomorrow?",
+      "Where they will play tomorrow?",
+      "Will where they play tomorrow?",
+      "They will play where tomorrow?"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence shows refusal or unwillingness?",
+    "correct_answer": "The car won't start.",
+    "choices": [
+      "The car will start.",
+      "The car won't start.",
+      "The car will be starting.",
+      "The car starts."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which verb form is correct after 'will'?",
+    "correct_answer": "She will study hard for the exam.",
+    "choices": [
+      "She will study hard for the exam.",
+      "She will studies hard for the exam.",
+      "She will studied hard for the exam.",
+      "She will studying hard for the exam."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complete the sentence: 'I will ___'",
+    "correct_answer": "call you later.",
+    "choices": [
+      "call you later.",
+      "calling you later.",
+      "called you later.",
+      "calls you later."
+    ]
+  }
+]

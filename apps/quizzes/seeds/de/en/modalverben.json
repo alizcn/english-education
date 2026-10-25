@@ -1,0 +1,86 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich kann Deutsch sprechen.",
+    "correct_answer": "I can speak German.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Du musst heute arbeiten.",
+    "correct_answer": "You must work today.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie will Arzt werden.",
+    "correct_answer": "She wants to become a doctor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir dürfen hier nicht rauchen.",
+    "correct_answer": "We are not allowed to smoke here.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Magst du Kaffee?",
+    "correct_answer": "Do you like coffee?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Er soll pünktlich kommen.",
+    "correct_answer": "He should come on time.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich kann nicht schwimmen.",
+    "correct_answer": "I cannot swim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He must learn.",
+    "correct_answer": "Er muss lernen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Can you help me?",
+    "correct_answer": "Kannst du mir helfen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We want to go to the cinema.",
+    "correct_answer": "Wir wollen ins Kino gehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She is allowed to play here.",
+    "correct_answer": "Sie darf hier spielen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I would like tea.",
+    "correct_answer": "Ich möchte einen Tee.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They should listen.",
+    "correct_answer": "Sie sollen zuhören.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "You (informal) cannot do that.",
+    "correct_answer": "Du kannst das nicht tun.",
+    "choices": null
+  }
+]

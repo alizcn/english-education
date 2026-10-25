@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Masada kitap var.",
+    "correct_answer": "Es gibt ein Buch auf dem Tisch.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kalemle yazıyorum.",
+    "correct_answer": "Ich schreibe mit einem Stift.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Evde oturuyorum.",
+    "correct_answer": "Ich wohne im Haus.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kapıdan çıkıyor.",
+    "correct_answer": "Er geht aus der Tür hinaus.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gülün kokusu güzel.",
+    "correct_answer": "Der Duft der Rose ist schön.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Das Buch ist auf dem Tisch.",
+    "correct_answer": "Kitap masada.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich schreibe mit einem Stift.",
+    "correct_answer": "Kalemle yazıyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Er wartet an der Tür.",
+    "correct_answer": "Kapıda bekliyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie liest nicht im Haus.",
+    "correct_answer": "Evde okumuyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kommst du von der Schule?",
+    "correct_answer": "Okuldan mı geliyorsun?",
+    "choices": null
+  }
+]

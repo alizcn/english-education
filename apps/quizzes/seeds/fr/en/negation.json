@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je ne vois pas le chat.",
+    "correct_answer": "I don't see the cat.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle n'a jamais visité Paris.",
+    "correct_answer": "She has never visited Paris.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu ne fais rien aujourd'hui?",
+    "correct_answer": "Aren't you doing anything today?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Personne ne m'a appelé.",
+    "correct_answer": "No one called me.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il ne travaille plus ici.",
+    "correct_answer": "He doesn't work here anymore.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I don't have any doubts.",
+    "correct_answer": "Je n'ai aucun doute.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We never eat meat on Fridays.",
+    "correct_answer": "Nous ne mangeons jamais de viande le vendredi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She sees nothing.",
+    "correct_answer": "Elle ne voit rien.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I don't like cats or dogs.",
+    "correct_answer": "Je n'aime ni les chats ni les chiens.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "You haven't finished yet.",
+    "correct_answer": "Tu n'as pas fini.",
+    "choices": null
+  }
+]

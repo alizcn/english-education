@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kahve içiyorum",
+    "correct_answer": "Je bois du café",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je lis un livre",
+    "correct_answer": "Bir kitap okuyorum",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "O kitap okuyor",
+    "correct_answer": "Il/Elle lit un livre",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Nous parlons",
+    "correct_answer": "Konuşuyoruz",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çocuklar oyun oynuyorlar",
+    "correct_answer": "Les enfants jouent",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle arrive",
+    "correct_answer": "Geliyor",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gelmiyor",
+    "correct_answer": "Il/Elle ne vient pas",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je ne travaille pas",
+    "correct_answer": "Çalışmıyorum",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Siz nerede oturuyorsunuz",
+    "correct_answer": "Où habitez-vous?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Qu'est-ce que tu fais?",
+    "correct_answer": "Ne yapıyorsun?",
+    "choices": null
+  }
+]

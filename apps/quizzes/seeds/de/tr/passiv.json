@@ -1,0 +1,86 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Haus wird gebaut.",
+    "correct_answer": "Ev inşa ediliyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Brief wird geschrieben.",
+    "correct_answer": "Mektup yazılıyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Fenster wird nicht geöffnet.",
+    "correct_answer": "Pencere açılmıyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Pizza wurde gegessen.",
+    "correct_answer": "Pizza yenildi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wird das Auto repariert?",
+    "correct_answer": "Araba onarılıyor mu?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Lied wird von Maria gesungen.",
+    "correct_answer": "Şarkı Maria tarafından söyleniyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Tisch ist gedeckt.",
+    "correct_answer": "Masa hazırlanmış.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Araba tamir ediliyor.",
+    "correct_answer": "Das Auto wird repariert.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kapı açılmamıştır.",
+    "correct_answer": "Die Tür ist nicht geöffnet worden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Görev tamamlanmıştır.",
+    "correct_answer": "Die Aufgabe ist abgeschlossen worden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Resim çizilecek mi?",
+    "correct_answer": "Wird das Bild gezeichnet?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Pencere temizlendi.",
+    "correct_answer": "Das Fenster wurde gereinigt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sunum yapılmıştır.",
+    "correct_answer": "Die Präsentation ist gehalten worden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Rapor yazılmalıdır.",
+    "correct_answer": "Der Bericht muss geschrieben werden.",
+    "choices": null
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I will go to the park tomorrow.",
+    "correct_answer": "Ich werde morgen in den Park gehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Du wirst mich heute abend anrufen.",
+    "correct_answer": "You will call me this evening.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They won't arrive on time.",
+    "correct_answer": "Sie werden nicht rechtzeitig ankommen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Er wird das Projekt beenden.",
+    "correct_answer": "He will finish the project.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "You will love this film.",
+    "correct_answer": "Du wirst diesen Film lieben.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir werden morgen zusammen essen.",
+    "correct_answer": "We will eat together tomorrow.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She will not finish her work today.",
+    "correct_answer": "Sie wird heute ihre Arbeit nicht beenden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Es wird morgen regnen.",
+    "correct_answer": "It will rain tomorrow.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "We will meet at 6 PM.",
+    "correct_answer": "Wir werden uns um 18 Uhr treffen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die Sonne wird morgen aufgehen.",
+    "correct_answer": "The sun will rise tomorrow.",
+    "choices": null
+  }
+]

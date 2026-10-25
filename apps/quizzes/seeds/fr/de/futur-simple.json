@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je parlerai avec mon ami ce soir.",
+    "correct_answer": "Ich werde heute Abend mit meinem Freund sprechen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle ne viendra pas demain.",
+    "correct_answer": "Sie wird morgen nicht kommen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous irons au cinéma.",
+    "correct_answer": "Wir werden ins Kino gehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu mangeras une pomme?",
+    "correct_answer": "Wirst du einen Apfel essen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ils auront un nouveau chat.",
+    "correct_answer": "Sie werden eine neue Katze haben.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich werde dich morgen sehen.",
+    "correct_answer": "Je te verrai demain.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Er wird nicht kommen.",
+    "correct_answer": "Il ne viendra pas.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Werden Sie bereit sein?",
+    "correct_answer": "Serez-vous prêt?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir werden nach Hause gehen.",
+    "correct_answer": "Nous irons à la maison.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie werden Französisch sprechen.",
+    "correct_answer": "Elles parleront français.",
+    "choices": null
+  }
+]

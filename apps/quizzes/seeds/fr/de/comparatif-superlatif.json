@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Marie est plus grande que Jean.",
+    "correct_answer": "Marie ist größer als Jean.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ce café est moins cher que le thé.",
+    "correct_answer": "Dieser Kaffee ist billiger als der Tee.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ils sont aussi rapides que nous.",
+    "correct_answer": "Sie sind genauso schnell wie wir.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "C'est le meilleur restaurant de la ville.",
+    "correct_answer": "Es ist das beste Restaurant der Stadt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle n'est pas plus forte que moi.",
+    "correct_answer": "Sie ist nicht stärker als ich.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Das ist teurer als ich dachte.",
+    "correct_answer": "C'est plus cher que je l'ai pensé.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie sprechen am besten von allen.",
+    "correct_answer": "Vous parlez le mieux de tous.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Das ist weniger wichtig als das andere.",
+    "correct_answer": "C'est moins important que l'autre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Das Wetter ist heute genauso schön wie gestern.",
+    "correct_answer": "Le temps est aujourd'hui aussi beau qu'hier.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wer ist der größte in deiner Familie?",
+    "correct_answer": "Qui est le plus grand dans ta famille?",
+    "choices": null
+  }
+]

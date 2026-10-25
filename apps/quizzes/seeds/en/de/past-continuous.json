@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I was cooking dinner.",
+    "correct_answer": "Ich kochte gerade Abendessen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich war gerade am Arbeiten.",
+    "correct_answer": "I was working.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She was reading a book.",
+    "correct_answer": "Sie las gerade ein Buch.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie spielten gerade Fußball.",
+    "correct_answer": "They were playing football.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They were watching TV.",
+    "correct_answer": "Sie sahen gerade fern.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Er war nicht gerade am Schlafen.",
+    "correct_answer": "He wasn't sleeping.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He was not studying.",
+    "correct_answer": "Er lernte nicht gerade.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir waren gerade am Essen.",
+    "correct_answer": "We were eating.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Was she listening?",
+    "correct_answer": "Hörte sie gerade zu?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Hörte er gerade zu?",
+    "correct_answer": "Was he listening?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Were they playing outside?",
+    "correct_answer": "Spielten sie gerade draußen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir arbeiteten nicht gerade.",
+    "correct_answer": "We weren't working.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The children were sleeping.",
+    "correct_answer": "Die Kinder schliefen gerade.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich war gerade am Schreiben eines Briefes.",
+    "correct_answer": "I was writing a letter.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "You were not paying attention.",
+    "correct_answer": "Du warst nicht gerade am Zuhören.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Regnete es gerade?",
+    "correct_answer": "Was it raining?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Was he making coffee?",
+    "correct_answer": "Machte er gerade Kaffee?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie war gerade am Tanzen.",
+    "correct_answer": "She was dancing.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I wasn't watching the game.",
+    "correct_answer": "Ich sah das Spiel nicht gerade an.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kauften sie gerade ein?",
+    "correct_answer": "Were they shopping?",
+    "choices": null
+  }
+]

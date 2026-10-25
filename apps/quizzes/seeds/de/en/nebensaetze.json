@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich bleibe zu Hause, weil das Wetter nicht schön ist.",
+    "correct_answer": "I stay at home because the weather is not nice.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Er sagt, dass er nicht kommen kann.",
+    "correct_answer": "He says that he cannot come.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wenn du mich anrufst, bin ich glücklich.",
+    "correct_answer": "If you call me, I am happy.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich glaube nicht, dass das richtig ist.",
+    "correct_answer": "I don't believe that is correct.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Weil ich kein Geld habe, fahre ich nicht in den Urlaub.",
+    "correct_answer": "Because I don't have money, I'm not going on vacation.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We go for a walk when the weather is good.",
+    "correct_answer": "Wir gehen spazieren, wenn das Wetter schön ist.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Do you believe that I understand German?",
+    "correct_answer": "Glaubst du, dass ich Deutsch verstehe?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I think that he is right.",
+    "correct_answer": "Ich denke, dass er recht hat.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "When it rains, we stay inside.",
+    "correct_answer": "Wenn es regnet, bleiben wir drinnen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He knows that we are coming tomorrow.",
+    "correct_answer": "Er weiß, dass wir morgen kommen.",
+    "choices": null
+  }
+]

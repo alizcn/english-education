@@ -1,0 +1,86 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ferme la porte!",
+    "correct_answer": "Close the door!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Listen to me!",
+    "correct_answer": "Écoute-moi!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ne sois pas nerveux!",
+    "correct_answer": "Don't be nervous!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sit down!",
+    "correct_answer": "Assieds-toi!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Donne-le-moi!",
+    "correct_answer": "Give it to me!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Don't close the window!",
+    "correct_answer": "Ne ferme pas la fenêtre!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Attendez une minute!",
+    "correct_answer": "Wait a minute!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sleep well!",
+    "correct_answer": "Dors bien!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Mangeons ensemble!",
+    "correct_answer": "Let's eat together!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "N'oublie rien!",
+    "correct_answer": "Don't forget anything!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Help her!",
+    "correct_answer": "Aide-la!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Parlez-lui!",
+    "correct_answer": "Talk to him!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Soyez ponctuels!",
+    "correct_answer": "Be on time!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Let's go!",
+    "correct_answer": "Allons-y!",
+    "choices": null
+  }
+]

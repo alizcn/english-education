@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Katzen schlafen.",
+    "correct_answer": "The cats sleep.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The children are playing.",
+    "correct_answer": "Die Kinder spielen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Häuser sind groß.",
+    "correct_answer": "The houses are big.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I have many friends.",
+    "correct_answer": "Ich habe viele Freunde.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Studenten lernen Deutsch.",
+    "correct_answer": "The students learn German.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Where are the books?",
+    "correct_answer": "Wo sind die Bücher?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Mädchen spielen nicht.",
+    "correct_answer": "The girls do not play.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The dogs are barking.",
+    "correct_answer": "Die Hunde bellen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Blumen sind wunderschön.",
+    "correct_answer": "The flowers are beautiful.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Do you like the windows?",
+    "correct_answer": "Magst du die Fenster?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wo sind die Schlüssel?",
+    "correct_answer": "Where are the keys?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The nights are long.",
+    "correct_answer": "Die Nächte sind lang.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Fotos sind nicht alt.",
+    "correct_answer": "The photographs are not old.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He eats the apples.",
+    "correct_answer": "Er isst die Äpfel.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Schulen sind schön.",
+    "correct_answer": "The schools are beautiful.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The students do not understand.",
+    "correct_answer": "Die Studenten verstehen nicht.",
+    "choices": null
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kitap Ahmet tarafından ___.",
+    "correct_answer": "yazıldı",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kapı saat 3'te ___.",
+    "correct_answer": "açıldı",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kahve her sabah ___.",
+    "correct_answer": "yapılır",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Mektep yarın ___.",
+    "correct_answer": "kapatılacak",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Pencereler ___.",
+    "correct_answer": "kırıldı",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Yemek dün ___.",
+    "correct_answer": "yenildi",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kapı ___.",
+    "correct_answer": "açılmıyor",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Yemek ___.",
+    "correct_answer": "yenilmedi",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Anahtarı çevirince kapı ___.",
+    "correct_answer": "açılıyor",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Dersler ___.",
+    "correct_answer": "iptal edildi",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Evi ___.",
+    "correct_answer": "yağma edildi",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Aşağıdakilerden hangisinde edilgen çatı kullanılmıştır?",
+    "correct_answer": "Kapı açıldı.",
+    "choices": [
+      "Ahmet kapıyı açtı.",
+      "Kapı açıldı.",
+      "Kapı açmak istiyorum.",
+      "Kapı açıktır."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "\"Yazıldı\" sözcüğü hangi kökten oluşmuştur?",
+    "correct_answer": "yaz",
+    "choices": [
+      "yaz",
+      "yazı",
+      "yazdı",
+      "yazıl"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "\"Kapatıldı\" sözcüğünde edilgen ek hangisidir?",
+    "correct_answer": "-ıl",
+    "choices": [
+      "-ıl",
+      "-dı",
+      "-ıldı",
+      "-til"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "\"Yemek yenilmedi.\" cümlesinde negatif ek hangisidir?",
+    "correct_answer": "-me",
+    "choices": [
+      "-me",
+      "-ma",
+      "-mi",
+      "-mı"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "\"Kapı açılıyor mu?\" cümlesinde soru eki hangisidir?",
+    "correct_answer": "-mu",
+    "choices": [
+      "-mı",
+      "-mi",
+      "-mu",
+      "-mü"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "\"Kitap okunacak.\" cümlesinde hangi zaman kullanılmıştır?",
+    "correct_answer": "Gelecek zaman",
+    "choices": [
+      "Geçmiş zaman",
+      "Şimdiki zaman",
+      "Gelecek zaman",
+      "Geniş zaman"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "\"Dersler iptal edildi.\" cümlesinde özne kimdir?",
+    "correct_answer": "Dersler",
+    "choices": [
+      "Dersler",
+      "İptal",
+      "Bir kişi",
+      "Belirtilmiş değil"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "\"Bu bina inşa edilecek mi?\" cümlesinde hangi yapılar vardır?",
+    "correct_answer": "Edilgen ve gelecek",
+    "choices": [
+      "Edilgen ve gelecek",
+      "Edilgen ve geçmiş",
+      "Negatif ve gelecek",
+      "Sadece gelecek"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "\"Anlaşıldı mı?\" cümlesinde eklerin sırası hangisidir?",
+    "correct_answer": "Edilgen-geçmiş-soru",
+    "choices": [
+      "Edilgen-geçmiş-soru",
+      "Geçmiş-edilgen-soru",
+      "Soru-edilgen-geçmiş",
+      "Negatif-edilgen-geçmiş"
+    ]
+  }
+]

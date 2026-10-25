@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kitap yazıldı.",
+    "correct_answer": "Le livre a été écrit.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ev satıldı.",
+    "correct_answer": "La maison a été vendue.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yemek yapılmadı.",
+    "correct_answer": "Le repas n'a pas été préparé.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kahve her sabah yapılır.",
+    "correct_answer": "Le café est préparé chaque matin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Pencereler kırılmıştır.",
+    "correct_answer": "Les vitres ont été cassées.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "La porte est fermée.",
+    "correct_answer": "Kapı kapatıldı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Le livre a été lu.",
+    "correct_answer": "Kitap okundu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Le gâteau n'a pas été mangé.",
+    "correct_answer": "Pasta yenilmedi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "La fenêtre sera ouverte demain.",
+    "correct_answer": "Pencere yarın açılacak.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Les fleurs ont été cueillies.",
+    "correct_answer": "Çiçekler toplandı.",
+    "choices": null
+  }
+]

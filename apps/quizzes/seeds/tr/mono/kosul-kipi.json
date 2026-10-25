@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Eğer yarın (gel-) ____, sana telefon ederim.",
+    "correct_answer": "gelirse",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Eğer sen erken (başla-) ____, vaktinde biter.",
+    "correct_answer": "başlarsan",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Eğer biz tatile (git-) ____, çok eğleniriz.",
+    "correct_answer": "gidersek",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Eğer o (çalış-) ____, başarılı olur.",
+    "correct_answer": "çalışırsa",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Eğer biz (uy-) ____, sabah yorgun oluruz.",
+    "correct_answer": "uyusak",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Eğer o (dön-) ____, evine gidecek.",
+    "correct_answer": "dönerse",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Eğer sen (gül-) ____, ben de gülerim.",
+    "correct_answer": "gülersen",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Eğer o (sor-) ____, söylerim.",
+    "correct_answer": "sorarsa",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Eğer biz (gel-me-) ____, etkinlik iptal olur.",
+    "correct_answer": "gelmezse",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Eğer sen (oku-) ____, anlamışsın demektir.",
+    "correct_answer": "okursan",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Hangisi doğru koşul kipili cümledir?",
+    "correct_answer": "Eğer o gelirse, bana telefon eder.",
+    "choices": [
+      "Eğer o gelirse, bana telefon eder.",
+      "Eğer o geldi, bana telefon eder.",
+      "Eğer o gelirdi, bana telefon eder.",
+      "Eğer o geliyor, bana telefon eder."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Aşağıdakilerden hangisinde koşul kipi doğru kullanılmış?",
+    "correct_answer": "Çalışırsa, başarılı olur.",
+    "choices": [
+      "Çalışmazsa, başarılı olur.",
+      "Çalışırsa, başarılı olur.",
+      "Çalışarsa, başarılı olur.",
+      "Çalışmaksa, başarılı olur."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Olumsuz koşul kipinin doğru şekli hangisidir?",
+    "correct_answer": "Eğer gelmezse, başlayabiliriz.",
+    "choices": [
+      "Eğer gelmese, başlayabiliriz.",
+      "Eğer gelirse, başlayabiliriz.",
+      "Eğer gelmiş, başlayabiliriz.",
+      "Eğer gelmezse, başlayabiliriz."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "İnce ünlüyle biten kökler için koşul eki hangisidir?",
+    "correct_answer": "-se",
+    "choices": [
+      "-sa",
+      "-se",
+      "-ısa",
+      "-ise"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Ünlü uyumu açısından aşağıdakilerden hangisi yanlıştır?",
+    "correct_answer": "Kalmak → kalmesa",
+    "choices": [
+      "Almak → alsa",
+      "Gelmek → gelmese",
+      "Kalmak → kalmesa",
+      "Uyumak → uyusa"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Kalın ünlüyle biten kökler için koşul eki hangisidir?",
+    "correct_answer": "-sa",
+    "choices": [
+      "-se",
+      "-sa",
+      "-se veya -sa",
+      "-ise"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Aşağıdakilerden hangisi koşul kipi formunu yanlış gösterir?",
+    "correct_answer": "Dursasa",
+    "choices": [
+      "Dursa",
+      "Durmasa",
+      "Dursasa",
+      "Durmazsa"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Koşul kipisiyle ilgili hangisi doğrudur?",
+    "correct_answer": "Koşul kipi -sa ve -se ekleriyle oluşturulur.",
+    "choices": [
+      "Eğer kelimesi koşul kipinin zorunlu bileşenidir.",
+      "Koşul kipi sadece gelecek zamanı ifade eder.",
+      "Koşul kipi -sa ve -se ekleriyle oluşturulur.",
+      "Olumsuz koşul kipinde ek sırası değişir."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "'Başlarsan, vaktinde biter.' cümlesinde kişi eki hangisidir?",
+    "correct_answer": "-n",
+    "choices": [
+      "-r",
+      "-n",
+      "-k",
+      "-m"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Olumsuz koşul kipinde eki sırası hangisidir?",
+    "correct_answer": "Fiil kökü + -ma/-me + -sa/-se",
+    "choices": [
+      "Fiil kökü + -sa/-se + -ma/-me",
+      "Fiil kökü + -ma/-me + -sa/-se",
+      "Fiil kökü + -ma/-me + kişi eki",
+      "Fiil kökü + -sa/-se"
+    ]
+  }
+]

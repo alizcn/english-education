@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kahvede ___ adamlar gazete okuyor.",
+    "correct_answer": "oturan",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Dün satın ___ çanta çok güzel.",
+    "correct_answer": "aldığım",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Yarın ___ işim çok zor olacak.",
+    "correct_answer": "yapacağım",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ders ___ öğrenciler başarısız olur.",
+    "correct_answer": "çalışmayan",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Geçen hafta ___ kız güzeldi.",
+    "correct_answer": "gördüğün",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Gelecek ay ___ iş çok stresli.",
+    "correct_answer": "başlayacak",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sahilde ___ çocuklar eğlendi.",
+    "correct_answer": "oynayan",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Seçimi ___ aday mutluydu.",
+    "correct_answer": "kazanan",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kitap ___ kız çok akıllıydı.",
+    "correct_answer": "okuyan",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Gece ___ yağmurda ıslanan çocuk hastalandı.",
+    "correct_answer": "yağan",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Kahvaltı ___ kız mutlu görünüyor.",
+    "correct_answer": "yapan",
+    "choices": [
+      "yapan",
+      "yapacak",
+      "yaptığı",
+      "yapmayan"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Dün ___ kitap çok ilginçti.",
+    "correct_answer": "okuduğum",
+    "choices": [
+      "okuduğum",
+      "okuyacağım",
+      "okuyan",
+      "okumadığım"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Gelecek hafta ___ plan sana hoşuna gidecek mi?",
+    "correct_answer": "yapacağımız",
+    "choices": [
+      "yapacağımız",
+      "yaptığımız",
+      "yapmayan",
+      "yapan"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Ders ___ öğrenci başarısız olur.",
+    "correct_answer": "çalışmayan",
+    "choices": [
+      "çalışmayan",
+      "çalışacak",
+      "çalışan",
+      "çalışmış"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Seçimi ___ aday konuşma yaptı.",
+    "correct_answer": "kazanan",
+    "choices": [
+      "kazanan",
+      "kazanacak",
+      "kazandığı",
+      "kazanmayan"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Araba ___ kişi nereye gidiyor?",
+    "correct_answer": "almayan",
+    "choices": [
+      "almayan",
+      "alacak",
+      "almadığı",
+      "alan"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Davetiye ___ arkadaş sen misin?",
+    "correct_answer": "gönderen",
+    "choices": [
+      "gönderen",
+      "göndereceği",
+      "gönderdiği",
+      "göndermeyen"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Bilgisayarı tamir ___ teknisyen yardımcı oldu.",
+    "correct_answer": "ettiğim",
+    "choices": [
+      "ettiğim",
+      "edecek",
+      "eden",
+      "etmeyen"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Bu yıl ___ yarışmacılar heyecanlıydı.",
+    "correct_answer": "katılacak",
+    "choices": [
+      "katılacak",
+      "katılan",
+      "katıldığı",
+      "katılmayan"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Mektup ___ kız sen mi?",
+    "correct_answer": "yazan",
+    "choices": [
+      "yazan",
+      "yazacak",
+      "yazdığı",
+      "yazmayan"
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich bleibe zu Hause, weil es regnet.",
+    "correct_answer": "Evde kalıyorum, çünkü yağmur yağıyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich glaube, dass du recht hast.",
+    "correct_answer": "Haklı olduğunu düşünüyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wenn das Wetter schön ist, gehen wir spazieren.",
+    "correct_answer": "Hava güzel olunca gezintiye çıkarız.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie kommt nicht, weil sie krank ist.",
+    "correct_answer": "Hasta olduğu için gelmiyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Weißt du, dass er morgen kommt?",
+    "correct_answer": "Yarın geleceğini biliyor musun?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ben yağmur yağdığı için dışarı çıkmıyorum.",
+    "correct_answer": "Ich gehe nicht nach draußen, weil es regnet.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Biliyorum ki sınav yarın.",
+    "correct_answer": "Ich weiß, dass die Prüfung morgen ist.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer zamanım olsa, seni ziyaret ederdim.",
+    "correct_answer": "Wenn ich Zeit hätte, würde ich dich besuchen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bunları yapamıyoruz, çünkü paramız yok.",
+    "correct_answer": "Wir können das nicht machen, weil wir kein Geld haben.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Telefon çaldığında, ben hep meşgulüm.",
+    "correct_answer": "Wenn das Telefon klingelt, bin ich immer beschäftigt.",
+    "choices": null
+  }
+]

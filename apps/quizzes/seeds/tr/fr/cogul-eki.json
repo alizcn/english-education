@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kitaplar masada.",
+    "correct_answer": "Les livres sont sur la table.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Les chats jouent dans le jardin.",
+    "correct_answer": "Kediler bahçede oynarlar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çiçekler çok güzel.",
+    "correct_answer": "Les fleurs sont très belles.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Les maisons sont grandes.",
+    "correct_answer": "Evler büyük.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kitaplar masada değil.",
+    "correct_answer": "Les livres ne sont pas sur la table.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Les écoles sont fermées.",
+    "correct_answer": "Okullar kapalı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kediler bahçede oynamıyorlar.",
+    "correct_answer": "Les chats ne jouent pas dans le jardin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Les élèves ne lisent pas.",
+    "correct_answer": "Öğrenciler okumuyorlar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çocuklar geliyorlar mı?",
+    "correct_answer": "Les enfants arrivent-ils?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Les crayons sont dans le sac.",
+    "correct_answer": "Kalemler çantada.",
+    "choices": null
+  }
+]

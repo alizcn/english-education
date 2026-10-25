@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She had finished her homework before dinner.",
+    "correct_answer": "Sie hatte ihre Hausaufgaben erledigt, bevor es Abendessen gab.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They had already left when I arrived.",
+    "correct_answer": "Sie waren bereits gegangen, als ich ankam.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He hadn't eaten breakfast before the meeting.",
+    "correct_answer": "Er hatte vor dem Treffen nicht gefrühstückt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Had you seen that film before?",
+    "correct_answer": "Hattest du diesen Film schon mal gesehen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "By the time we got there, the movie had started.",
+    "correct_answer": "Bis wir dort ankamen, hatte der Film schon angefangen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I had never seen such beautiful scenery before.",
+    "correct_answer": "Ich hatte noch nie so eine schöne Landschaft gesehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The students hadn't arrived yet when class started.",
+    "correct_answer": "Die Schüler waren noch nicht angekommen, als der Unterricht anfing.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Had they completed the assignment?",
+    "correct_answer": "Hatten sie die Aufgabe erledigt?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He had already called before she arrived.",
+    "correct_answer": "Er hatte bereits angerufen, bevor sie ankam.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "We had visited that city three times before.",
+    "correct_answer": "Wir hatten diese Stadt dreimal besucht.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie hatte ihre Hausaufgaben erledigt, bevor es Abendessen gab.",
+    "correct_answer": "She had finished her homework before dinner.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Hatten Sie jemals London besucht?",
+    "correct_answer": "Had you ever visited London?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Er war nicht ins Kino gegangen, bevor er zur Arbeit ging.",
+    "correct_answer": "He hadn't gone to the cinema before he went to work.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie hatten das Essen zubereitet, bevor die Gäste kamen.",
+    "correct_answer": "They had prepared the food before the guests arrived.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich hatte die E-Mail nicht geschickt, als du anrief.",
+    "correct_answer": "I hadn't sent the email when you called.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "War sie bereits gegangen?",
+    "correct_answer": "Had she already left?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir hatten solch einen Fehler noch nie gemacht.",
+    "correct_answer": "We had never made such a mistake.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Hattest du das Auto repariert?",
+    "correct_answer": "Had you repaired the car?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie waren schon ins Bett gegangen, als der Anruf kam.",
+    "correct_answer": "They had already gone to bed when the call came.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich hatte das noch nie erlebt.",
+    "correct_answer": "I had never experienced that before.",
+    "choices": null
+  }
+]

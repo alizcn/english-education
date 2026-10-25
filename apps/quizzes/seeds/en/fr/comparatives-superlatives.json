@@ -1,0 +1,110 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: Paris is bigger than Lyon.",
+    "correct_answer": "Paris est plus grande que Lyon.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: She is the smartest student in the class.",
+    "correct_answer": "Elle est l'élève la plus intelligente de la classe.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: This book is not as interesting as that one.",
+    "correct_answer": "Ce livre n'est pas aussi intéressant que celui-là.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: He runs faster than his friend.",
+    "correct_answer": "Il court plus vite que son ami.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: Is your sister younger than you?",
+    "correct_answer": "Ta sœur est-elle plus jeune que toi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: The weather today is worse than yesterday.",
+    "correct_answer": "Le temps aujourd'hui est pire qu'hier.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: She is the happiest person I know.",
+    "correct_answer": "C'est la personne la plus heureuse que je connaisse.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: Your coffee is less hot than mine.",
+    "correct_answer": "Ton café est moins chaud que le mien.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: This car is more expensive than that one.",
+    "correct_answer": "Cette voiture est plus chère que celle-là.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: That's the best pizza I've ever eaten.",
+    "correct_answer": "C'est la meilleure pizza que j'ai jamais mangée.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Il est plus grand que moi.",
+    "correct_answer": "He is taller than me.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: C'est le film le plus intéressant que j'ai vu.",
+    "correct_answer": "It's the most interesting film I've seen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Elle n'est pas aussi occupée que lui.",
+    "correct_answer": "She is not as busy as him.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Les roses rouges sont plus belles que les roses blanches.",
+    "correct_answer": "Red roses are more beautiful than white roses.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: C'est la pire journée de ma vie.",
+    "correct_answer": "It's the worst day of my life.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Qui est le plus rapide?",
+    "correct_answer": "Who is the fastest?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Mon quartier est moins bruyant que le sien.",
+    "correct_answer": "My neighborhood is less noisy than his.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Elle est l'élève la plus intelligente de l'école.",
+    "correct_answer": "She is the most intelligent student in the school.",
+    "choices": null
+  }
+]

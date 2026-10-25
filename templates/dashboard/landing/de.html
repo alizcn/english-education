@@ -1,0 +1,73 @@
+{% extends 'dashboard/landing/_base.html' %}
+{% load i18n %}
+
+{# ALMANCA hedefin pazarlama metni — `/learn-german/`.
+   İngilizce metnin çevirisi DEĞİL. Almanca öğrenen kitlenin derdi iş
+   görüşmesi değil: Ausbildung başvurusu, aile birleşimi için A1 sertifikası,
+   sağlık meslekleri için B2 ve Goethe/ÖSD sınavları. Metin oraya konuşuyor,
+   yoksa "Almanca mülakatı kap" diye kimsenin aramadığı bir sayfa olurdu. #}
+
+{% block full_title %}{% trans "Ücretsiz Almanca Öğrenme Platformu — Goethe ve Ausbildung Hazırlığı" %} | LevelEnAI{% endblock %}
+{% block meta_description %}{% trans "8.300+ Almanca kelime artikel ve çoğullarıyla, 18 gramer konusu ve her kelimede Türkçe karşılık. A1'den C1'e seviye takibi — tamamen ücretsiz." %}{% endblock %}
+{% block og_title %}{% trans "LevelEnAI — Ücretsiz Almanca öğrenme ve sınav hazırlığı" %}{% endblock %}
+{% block og_description %}{% trans "Artikelli kelime listeleri, Almanca gramer konuları ve AI pratik. Kayıt ol, ücretsiz kullan." %}{% endblock %}
+
+{% block l_hero_title %}{% trans "Almancayı sıfırdan kur." %}
+                <span class="l-highlight">{% trans "Sınavı geç." %}</span>{% endblock %}
+
+{% block l_hero_desc %}{% trans "A1'den C1'e 8.300+ kelime — her biri artikeli ve çoğuluyla. 18 Almanca gramer konusu, Türkçe anlatımlı. Goethe, ÖSD ve Ausbildung hazırlığı için tek platformda." %}{% endblock %}
+
+{% block l_hero_image_alt %}{% trans 'LevelEnAI paneli: Almanca seviye takibi, kelime hazinesi ilerlemesi ve haftalık çalışma grafiği' %}{% endblock %}
+
+{% block l_capability_1_title %}{% trans "Artikel ve çoğul" %}{% endblock %}
+{% block l_capability_1_text %}{% trans "Her isim der/die/das ve çoğuluyla" %}{% endblock %}
+{% block l_capability_2_title %}{% trans "8.300+ kelime" %}{% endblock %}
+
+{% block l_problem_title %}{% trans "Almanca ezberle ilerlemiyor" %}{% endblock %}
+{% block l_problem_lead %}{% trans "Artikelleri kelimeden ayrı öğrenmek, der/die/das'ı her cümlede yeniden tahmin etmek demek. Sınav tarihine kadar hangi kelimeyi bildiğini de ölçemiyorsun." %}{% endblock %}
+{% block l_problem_item_3 %}{% trans "Artikeli ve çoğulu kelimeden ayrı düşüyor, ikisini bir arada ezberlemiyorsun" %}{% endblock %}
+
+{% block l_solution_item_1 %}{% trans "8.300+ kelime seviyelere ayrılmış, artikeli ve çoğulu kelimeyle birlikte" %}{% endblock %}
+{% block l_solution_item_3 %}{% trans "Fiillerde yardımcı fiil ve Partizip II kayıtlı; Perfekt'i tahminle kurmuyorsun" %}{% endblock %}
+
+{% block l_audience_lead %}{% trans "Almanya'da çalışmak, okumak ya da aileye katılmak için bir sertifika gerekiyorsa buradasın." %}{% endblock %}
+
+{% block l_audience_cards %}
+            <div class="audience-card">
+                <span class="audience-icon icon-purple"><svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></span>
+                <h3>{% trans "Ausbildung başvuranlar" %}</h3>
+                <p>{% trans "Başvuru için B1 isteniyor. A1'den sırayla ilerle, gramer konularını Türkçe anlatımla çalış." %}</p>
+            </div>
+            <div class="audience-card">
+                <span class="audience-icon icon-green"><svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
+                <h3>{% trans "Aile birleşimi bekleyenler" %}</h3>
+                <p>{% trans "Vize için A1 sertifikası şart. Gündelik kelimelerden başla, günde 20 dakikayla ilerle." %}</p>
+            </div>
+            <div class="audience-card">
+                <span class="audience-icon icon-blue"><svg viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7z"/></svg></span>
+                <h3>{% trans "Sağlık çalışanları" %}</h3>
+                <p>{% trans "Denklik için B2 gerekiyor. Mesleki kelimelerin yanında gramer ve AI pratiğiyle akıcılığı da çalış." %}</p>
+            </div>
+            <div class="audience-card">
+                <span class="audience-icon icon-orange"><svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
+                <h3>{% trans "Üniversite adayları" %}</h3>
+                <p>{% trans "TestDaF ya da DSH yolundaysan C1 kelimelerine kadar aynı sistemle devam et." %}</p>
+            </div>
+{% endblock %}
+
+{% block l_metric_words %}8300{% endblock %}
+{% block l_metric_levels %}A1–C1{% endblock %}
+
+{% block l_features_title %}{% trans "Almancaya sistemli başlangıç" %}{% endblock %}
+{% block l_feature_1_title %}{% trans "Mülakat Hazırlık" %}{% endblock %}
+{% block l_feature_1_text %}{% trans "Almanca iş görüşmesine hazırlan: pozisyonunu yaz, soru ve cevaplar Almanca-Türkçe üretilsin." %}{% endblock %}
+{% block l_feature_2_text %}{% trans "A1'den C1'e 8.300'den fazla kelime. Her isimde artikel ve çoğul, her fiilde yardımcı fiil ve Partizip II." %}{% endblock %}
+{% block l_feature_4_text %}{% trans "Perfekt, Dativ, Akkusativ, Konjunktiv II — her konuda olumlu, olumsuz, soru örnekleri." %}{% endblock %}
+{% block l_feature_5_text %}{% trans "AI asistanla Almanca konuş, hatalarını görsün, doğrusunu öğren." %}{% endblock %}
+
+{% block l_steps_title %}{% trans "3 adımda Almanca pratiğine başla" %}{% endblock %}
+
+{% block l_why_free_text %}{% trans "LevelEnAI bir yan ürün olarak geliştirildi. Amacı dil sertifikasının kimsenin önünde engel olmaması; abonelik satmak değil." %}{% endblock %}
+
+{% block l_footer_tagline %}{% trans "Ücretsiz Almanca öğrenme ve sınav hazırlığı." %}{% endblock %}
+{% block l_footer_grammar_label %}{% trans "Almanca Gramer" %}{% endblock %}

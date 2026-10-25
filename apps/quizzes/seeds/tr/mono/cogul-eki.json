@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kız___ çok güzel.",
+    "correct_answer": "lar",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ev___ bahçede.",
+    "correct_answer": "ler",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elma___ kırmızı.",
+    "correct_answer": "lar",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Köpek___ çok sevimli.",
+    "correct_answer": "ler",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Tabak___ yıkadı.",
+    "correct_answer": "ları",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Pencere___ açık mı?",
+    "correct_answer": "ler",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Çocuk___ oynarlar.",
+    "correct_answer": "lar",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kitap___ okudu.",
+    "correct_answer": "ları",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kalem___ masada.",
+    "correct_answer": "ler",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Bahçede çiçek___ açtı.",
+    "correct_answer": "ler",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "'Kalem' sözcüğünün çoğul hali hangisidir?",
+    "correct_answer": "kalemler",
+    "choices": [
+      "kalemlar",
+      "kalemler",
+      "kalemlik",
+      "kaleme"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "'Kız' sözcüğünün çoğul hali hangisidir?",
+    "correct_answer": "kızlar",
+    "choices": [
+      "kızlar",
+      "kızleri",
+      "kızda",
+      "kızı"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "'Köpek' sözcüğünün çoğul hali hangisidir?",
+    "correct_answer": "köpekler",
+    "choices": [
+      "köpekler",
+      "köpeklar",
+      "köpeği",
+      "köpeğe"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "'Ağaç' sözcüğünün çoğul hali hangisidir?",
+    "correct_answer": "ağaçlar",
+    "choices": [
+      "ağaçlar",
+      "ağaçler",
+      "ağacını",
+      "ağaçta"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "'Pencere' sözcüğünün çoğul hali hangisidir?",
+    "correct_answer": "pencereler",
+    "choices": [
+      "pencerelar",
+      "pencereler",
+      "pencereleri",
+      "pencereta"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Aşağıdakilerden hangisi doğru çoğul halidir?",
+    "correct_answer": "kitaplar",
+    "choices": [
+      "kitaplar",
+      "kitapller",
+      "kitapı",
+      "kitapta"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "'Masa' sözcüğünün çoğul hali hangisidir?",
+    "correct_answer": "masalar",
+    "choices": [
+      "masalar",
+      "masaler",
+      "masada",
+      "masaya"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Bu cümleyi tamamlayın: 'Bahçede ___ çok güzel.'",
+    "correct_answer": "çiçekler",
+    "choices": [
+      "çiçek",
+      "çiçekler",
+      "çiçekte",
+      "çiçekli"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "'Öğrenci' sözcüğünün çoğul hali hangisidir?",
+    "correct_answer": "öğrenciler",
+    "choices": [
+      "öğrenciler",
+      "öğrencileri",
+      "öğrencide",
+      "öğrenciye"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "'Bardak' sözcüğünün çoğul hali hangisidir?",
+    "correct_answer": "bardaklar",
+    "choices": [
+      "bardaklar",
+      "bardakler",
+      "bardakta",
+      "bardağa"
+    ]
+  }
+]

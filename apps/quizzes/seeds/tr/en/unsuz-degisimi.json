@@ -1,0 +1,86 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kitabı okudum.",
+    "correct_answer": "I read the book.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I ate the bread.",
+    "correct_answer": "Ekmeği yedim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çoğunu istedim.",
+    "correct_answer": "I asked for most of it.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I wore the sock.",
+    "correct_answer": "Çorabı giydim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kılığını sevdim.",
+    "correct_answer": "I loved his appearance.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She didn't read the book.",
+    "correct_answer": "Kitabı okumadı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Batığı kurtardım.",
+    "correct_answer": "I rescued the sinking one.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He read that book.",
+    "correct_answer": "O kitabı okudu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sokağında oturuyorum.",
+    "correct_answer": "I live on its street.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Which book did you read?",
+    "correct_answer": "Hangi kitabı okudunuz?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çorabı giydin.",
+    "correct_answer": "You wore the sock.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Where did you put the book?",
+    "correct_answer": "Kitabı nereye koydun?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sokağı tanıyorum.",
+    "correct_answer": "I know the street.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "You didn't rescue the sinking one.",
+    "correct_answer": "Batığı kurtarmadınız.",
+    "choices": null
+  }
+]

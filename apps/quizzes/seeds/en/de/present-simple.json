@@ -1,0 +1,92 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I work in an office.",
+    "correct_answer": "Ich arbeite in einem Büro.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She plays tennis every week.",
+    "correct_answer": "Sie spielt jede Woche Tennis.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They don't live in Paris.",
+    "correct_answer": "Sie leben nicht in Paris.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The train leaves at noon.",
+    "correct_answer": "Der Zug fährt um 12 Uhr ab.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I always drink tea in the morning.",
+    "correct_answer": "Ich trinke immer Tee am Morgen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "We have breakfast at 8 AM.",
+    "correct_answer": "Wir frühstücken um 8 Uhr.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He doesn't speak Spanish.",
+    "correct_answer": "Er spricht kein Spanisch.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Do you like this music?",
+    "correct_answer": "Magst du diese Musik?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Du spielst Gitarre.",
+    "correct_answer": "You play guitar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich mag keinen Spinat.",
+    "correct_answer": "I don't like spinach.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie arbeitet als Krankenschwester.",
+    "correct_answer": "She works as a nurse.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Meine Schwester spricht drei Sprachen.",
+    "correct_answer": "My sister speaks three languages.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Er fährt mit dem Auto zur Arbeit.",
+    "correct_answer": "He drives to work by car.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich verstehe englische Grammatik nicht.",
+    "correct_answer": "I don't understand English grammar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Spielst du Tennis?",
+    "correct_answer": "Do you play tennis?",
+    "choices": null
+  }
+]

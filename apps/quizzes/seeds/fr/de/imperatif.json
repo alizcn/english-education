@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ouvre la porte.",
+    "correct_answer": "Öffne die Tür.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Venez ici tout de suite.",
+    "correct_answer": "Kommen Sie sofort hierher.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ne parle pas si fort.",
+    "correct_answer": "Sprich nicht so laut.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Aidons notre ami.",
+    "correct_answer": "Helfen wir unserem Freund.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Fermez les fenêtres.",
+    "correct_answer": "Schließen Sie die Fenster.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Assieds-toi ici.",
+    "correct_answer": "Setz dich hier hin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Écoute-moi bien.",
+    "correct_answer": "Höre mir gut zu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ne soyez pas en retard.",
+    "correct_answer": "Seien Sie nicht zu spät.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Gib mir das Buch.",
+    "correct_answer": "Donne-moi le livre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Vergesst eure Hausaufgaben nicht.",
+    "correct_answer": "N'oubliez pas vos devoirs.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Iss langsam.",
+    "correct_answer": "Mange lentement.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wartet hier.",
+    "correct_answer": "Attendez ici.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sei vorsichtig.",
+    "correct_answer": "Sois prudent.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Gehen wir spazieren.",
+    "correct_answer": "Allons nous promener.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sagen Sie mir die Wahrheit.",
+    "correct_answer": "Dites-moi la vérité.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Denk nicht an das Problem.",
+    "correct_answer": "Ne pense pas au problème.",
+    "choices": null
+  }
+]

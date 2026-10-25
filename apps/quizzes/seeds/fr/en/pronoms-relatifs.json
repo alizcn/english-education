@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Le film qui commence à huit heures est excellent.",
+    "correct_answer": "The film that starts at eight o'clock is excellent.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The person whom I met yesterday is a doctor.",
+    "correct_answer": "La personne que j'ai rencontrée hier est médecin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "L'ami dont tu m'as parlé arrive demain.",
+    "correct_answer": "The friend you told me about is arriving tomorrow.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The teacher who explains well is very popular.",
+    "correct_answer": "Le professeur qui explique bien est très populaire.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Le livre que je n'aime pas est trop long.",
+    "correct_answer": "The book that I don't like is too long.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The documents which you need are on my desk.",
+    "correct_answer": "Les documents dont vous avez besoin sont sur mon bureau.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Les films qui me plaisent sont des comédies.",
+    "correct_answer": "The films that I like are comedies.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The year when you were born, I was in Italy.",
+    "correct_answer": "L'année où tu es né, j'étais en Italie.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "C'est une idée dont je suis très fier.",
+    "correct_answer": "It's an idea I'm very proud of.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The city where they live is near the sea.",
+    "correct_answer": "La ville où ils habitent est près de la mer.",
+    "choices": null
+  }
+]

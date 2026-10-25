@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load i18n %}
+{% load i18n learn_extras %}
 {% block title %}{% trans "Mülakat Hazırlık" %}{% endblock %}
 
 {% block content %}
@@ -8,7 +8,7 @@
         <div class="feature-hero-icon">🎤</div>
         <div style="flex:1; min-width:200px;">
             <h2 class="feature-hero-title">{% trans "Mülakat Hazırlık" %}</h2>
-            <p class="feature-hero-sub">{% trans "Pozisyona özel veya CV'ne göre İngilizce-Türkçe mülakat soruları" %}</p>
+            <p class="feature-hero-sub">{% target_name as tlang %}{% native_name as nlang %}{% blocktrans with lang=tlang nlang=nlang %}Pozisyona özel veya CV'ne göre {{ lang }}-{{ nlang }} mülakat soruları{% endblocktrans %}</p>
         </div>
         <div class="feature-hero-meta">✨ AI</div>
     </div>

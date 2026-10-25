@@ -1,0 +1,3312 @@
+[
+  {
+    "term": "tuer",
+    "part_of_speech": "verb",
+    "rank": 1
+  },
+  {
+    "term": "robe",
+    "part_of_speech": "noun",
+    "rank": 2
+  },
+  {
+    "term": "or",
+    "part_of_speech": "noun",
+    "rank": 3
+  },
+  {
+    "term": "parole",
+    "part_of_speech": "noun",
+    "rank": 4
+  },
+  {
+    "term": "instant",
+    "part_of_speech": "noun",
+    "rank": 5
+  },
+  {
+    "term": "maire",
+    "part_of_speech": "noun",
+    "rank": 6
+  },
+  {
+    "term": "papier",
+    "part_of_speech": "noun",
+    "rank": 7
+  },
+  {
+    "term": "point",
+    "part_of_speech": "noun",
+    "rank": 8
+  },
+  {
+    "term": "peau",
+    "part_of_speech": "noun",
+    "rank": 9
+  },
+  {
+    "term": "pousser",
+    "part_of_speech": "verb",
+    "rank": 10
+  },
+  {
+    "term": "chaîne",
+    "part_of_speech": "noun",
+    "rank": 11
+  },
+  {
+    "term": "doute",
+    "part_of_speech": "noun",
+    "rank": 12
+  },
+  {
+    "term": "malheureux",
+    "part_of_speech": "adjective",
+    "rank": 13
+  },
+  {
+    "term": "hésiter",
+    "part_of_speech": "verb",
+    "rank": 14
+  },
+  {
+    "term": "fond",
+    "part_of_speech": "noun",
+    "rank": 15
+  },
+  {
+    "term": "prisonnier",
+    "part_of_speech": "noun",
+    "rank": 16
+  },
+  {
+    "term": "épée",
+    "part_of_speech": "noun",
+    "rank": 17
+  },
+  {
+    "term": "mener",
+    "part_of_speech": "verb",
+    "rank": 18
+  },
+  {
+    "term": "lourd",
+    "part_of_speech": "adjective",
+    "rank": 19
+  },
+  {
+    "term": "bouche",
+    "part_of_speech": "noun",
+    "rank": 20
+  },
+  {
+    "term": "moquer",
+    "part_of_speech": "verb",
+    "rank": 21
+  },
+  {
+    "term": "emploi",
+    "part_of_speech": "noun",
+    "rank": 22
+  },
+  {
+    "term": "soldat",
+    "part_of_speech": "noun",
+    "rank": 23
+  },
+  {
+    "term": "haut",
+    "part_of_speech": "adjective",
+    "rank": 24
+  },
+  {
+    "term": "larme",
+    "part_of_speech": "noun",
+    "rank": 25
+  },
+  {
+    "term": "dès",
+    "part_of_speech": "preposition",
+    "rank": 26
+  },
+  {
+    "term": "impression",
+    "part_of_speech": "noun",
+    "rank": 27
+  },
+  {
+    "term": "ramener",
+    "part_of_speech": "verb",
+    "rank": 28
+  },
+  {
+    "term": "agir",
+    "part_of_speech": "verb",
+    "rank": 29
+  },
+  {
+    "term": "enquête",
+    "part_of_speech": "noun",
+    "rank": 30
+  },
+  {
+    "term": "presse",
+    "part_of_speech": "noun",
+    "rank": 31
+  },
+  {
+    "term": "étonner",
+    "part_of_speech": "verb",
+    "rank": 32
+  },
+  {
+    "term": "remplir",
+    "part_of_speech": "verb",
+    "rank": 33
+  },
+  {
+    "term": "voleur",
+    "part_of_speech": "noun",
+    "rank": 34
+  },
+  {
+    "term": "sentiment",
+    "part_of_speech": "noun",
+    "rank": 35
+  },
+  {
+    "term": "garde",
+    "part_of_speech": "noun",
+    "rank": 36
+  },
+  {
+    "term": "corps",
+    "part_of_speech": "noun",
+    "rank": 37
+  },
+  {
+    "term": "payer",
+    "part_of_speech": "verb",
+    "rank": 38
+  },
+  {
+    "term": "autant",
+    "part_of_speech": "adverb",
+    "rank": 39
+  },
+  {
+    "term": "sujet",
+    "part_of_speech": "noun",
+    "rank": 40
+  },
+  {
+    "term": "taire",
+    "part_of_speech": "verb",
+    "rank": 41
+  },
+  {
+    "term": "enlever",
+    "part_of_speech": "verb",
+    "rank": 42
+  },
+  {
+    "term": "scène",
+    "part_of_speech": "noun",
+    "rank": 43
+  },
+  {
+    "term": "suffire",
+    "part_of_speech": "verb",
+    "rank": 44
+  },
+  {
+    "term": "seul",
+    "part_of_speech": "noun",
+    "rank": 45
+  },
+  {
+    "term": "auteur",
+    "part_of_speech": "noun",
+    "rank": 46
+  },
+  {
+    "term": "doigt",
+    "part_of_speech": "noun",
+    "rank": 47
+  },
+  {
+    "term": "conversation",
+    "part_of_speech": "noun",
+    "rank": 48
+  },
+  {
+    "term": "cependant",
+    "part_of_speech": "adverb",
+    "rank": 49
+  },
+  {
+    "term": "montre",
+    "part_of_speech": "noun",
+    "rank": 50
+  },
+  {
+    "term": "réalisateur",
+    "part_of_speech": "noun",
+    "rank": 51
+  },
+  {
+    "term": "lancer",
+    "part_of_speech": "verb",
+    "rank": 52
+  },
+  {
+    "term": "casser",
+    "part_of_speech": "verb",
+    "rank": 53
+  },
+  {
+    "term": "équipe",
+    "part_of_speech": "noun",
+    "rank": 54
+  },
+  {
+    "term": "obliger",
+    "part_of_speech": "verb",
+    "rank": 55
+  },
+  {
+    "term": "développement",
+    "part_of_speech": "noun",
+    "rank": 56
+  },
+  {
+    "term": "parisien",
+    "part_of_speech": "adjective",
+    "rank": 57
+  },
+  {
+    "term": "escalier",
+    "part_of_speech": "noun",
+    "rank": 58
+  },
+  {
+    "term": "simplement",
+    "part_of_speech": "adverb",
+    "rank": 59
+  },
+  {
+    "term": "suivant",
+    "part_of_speech": "adjective",
+    "rank": 60
+  },
+  {
+    "term": "conseiller",
+    "part_of_speech": "verb",
+    "rank": 61
+  },
+  {
+    "term": "gouvernement",
+    "part_of_speech": "noun",
+    "rank": 62
+  },
+  {
+    "term": "transport",
+    "part_of_speech": "noun",
+    "rank": 63
+  },
+  {
+    "term": "force",
+    "part_of_speech": "noun",
+    "rank": 64
+  },
+  {
+    "term": "chaise",
+    "part_of_speech": "noun",
+    "rank": 65
+  },
+  {
+    "term": "abandonner",
+    "part_of_speech": "verb",
+    "rank": 66
+  },
+  {
+    "term": "rond",
+    "part_of_speech": "adjective",
+    "rank": 67
+  },
+  {
+    "term": "entraîner",
+    "part_of_speech": "verb",
+    "rank": 68
+  },
+  {
+    "term": "moitié",
+    "part_of_speech": "noun",
+    "rank": 69
+  },
+  {
+    "term": "léger",
+    "part_of_speech": "adjective",
+    "rank": 70
+  },
+  {
+    "term": "sauter",
+    "part_of_speech": "verb",
+    "rank": 71
+  },
+  {
+    "term": "valeur",
+    "part_of_speech": "noun",
+    "rank": 72
+  },
+  {
+    "term": "vérifier",
+    "part_of_speech": "verb",
+    "rank": 73
+  },
+  {
+    "term": "développer",
+    "part_of_speech": "verb",
+    "rank": 74
+  },
+  {
+    "term": "baguette",
+    "part_of_speech": "noun",
+    "rank": 75
+  },
+  {
+    "term": "échange",
+    "part_of_speech": "noun",
+    "rank": 76
+  },
+  {
+    "term": "louer",
+    "part_of_speech": "verb",
+    "rank": 77
+  },
+  {
+    "term": "inquiet",
+    "part_of_speech": "adjective",
+    "rank": 78
+  },
+  {
+    "term": "voyageur",
+    "part_of_speech": "noun",
+    "rank": 79
+  },
+  {
+    "term": "président",
+    "part_of_speech": "noun",
+    "rank": 80
+  },
+  {
+    "term": "parmi",
+    "part_of_speech": "preposition",
+    "rank": 81
+  },
+  {
+    "term": "logement",
+    "part_of_speech": "noun",
+    "rank": 82
+  },
+  {
+    "term": "environ",
+    "part_of_speech": "adverb",
+    "rank": 83
+  },
+  {
+    "term": "immense",
+    "part_of_speech": "adjective",
+    "rank": 84
+  },
+  {
+    "term": "enfermer",
+    "part_of_speech": "verb",
+    "rank": 85
+  },
+  {
+    "term": "champ",
+    "part_of_speech": "noun",
+    "rank": 86
+  },
+  {
+    "term": "album",
+    "part_of_speech": "noun",
+    "rank": 87
+  },
+  {
+    "term": "déclarer",
+    "part_of_speech": "verb",
+    "rank": 88
+  },
+  {
+    "term": "naturel",
+    "part_of_speech": "adjective",
+    "rank": 89
+  },
+  {
+    "term": "économique",
+    "part_of_speech": "adjective",
+    "rank": 90
+  },
+  {
+    "term": "brûler",
+    "part_of_speech": "verb",
+    "rank": 91
+  },
+  {
+    "term": "émission",
+    "part_of_speech": "noun",
+    "rank": 92
+  },
+  {
+    "term": "social",
+    "part_of_speech": "adjective",
+    "rank": 93
+  },
+  {
+    "term": "spectateur",
+    "part_of_speech": "noun",
+    "rank": 94
+  },
+  {
+    "term": "exprimer",
+    "part_of_speech": "verb",
+    "rank": 95
+  },
+  {
+    "term": "bêtise",
+    "part_of_speech": "noun",
+    "rank": 96
+  },
+  {
+    "term": "particulièrement",
+    "part_of_speech": "adverb",
+    "rank": 97
+  },
+  {
+    "term": "rire",
+    "part_of_speech": "noun",
+    "rank": 98
+  },
+  {
+    "term": "signe",
+    "part_of_speech": "noun",
+    "rank": 99
+  },
+  {
+    "term": "placer",
+    "part_of_speech": "verb",
+    "rank": 100
+  },
+  {
+    "term": "adapter",
+    "part_of_speech": "verb",
+    "rank": 101
+  },
+  {
+    "term": "territoire",
+    "part_of_speech": "noun",
+    "rank": 102
+  },
+  {
+    "term": "universitaire",
+    "part_of_speech": "adjective",
+    "rank": 103
+  },
+  {
+    "term": "exposer",
+    "part_of_speech": "verb",
+    "rank": 104
+  },
+  {
+    "term": "condition",
+    "part_of_speech": "noun",
+    "rank": 105
+  },
+  {
+    "term": "petit",
+    "part_of_speech": "noun",
+    "rank": 106
+  },
+  {
+    "term": "achat",
+    "part_of_speech": "noun",
+    "rank": 107
+  },
+  {
+    "term": "avant",
+    "part_of_speech": "adverb",
+    "rank": 108
+  },
+  {
+    "term": "queue",
+    "part_of_speech": "noun",
+    "rank": 109
+  },
+  {
+    "term": "personnel",
+    "part_of_speech": "adjective",
+    "rank": 110
+  },
+  {
+    "term": "occasion",
+    "part_of_speech": "noun",
+    "rank": 111
+  },
+  {
+    "term": "période",
+    "part_of_speech": "noun",
+    "rank": 112
+  },
+  {
+    "term": "sauf",
+    "part_of_speech": "preposition",
+    "rank": 113
+  },
+  {
+    "term": "adolescent",
+    "part_of_speech": "noun",
+    "rank": 114
+  },
+  {
+    "term": "sang",
+    "part_of_speech": "noun",
+    "rank": 115
+  },
+  {
+    "term": "présent",
+    "part_of_speech": "adjective",
+    "rank": 116
+  },
+  {
+    "term": "mars",
+    "part_of_speech": "noun",
+    "rank": 117
+  },
+  {
+    "term": "déposer",
+    "part_of_speech": "verb",
+    "rank": 118
+  },
+  {
+    "term": "avant",
+    "part_of_speech": "noun",
+    "rank": 119
+  },
+  {
+    "term": "entier",
+    "part_of_speech": "adjective",
+    "rank": 120
+  },
+  {
+    "term": "style",
+    "part_of_speech": "noun",
+    "rank": 121
+  },
+  {
+    "term": "actuellement",
+    "part_of_speech": "adverb",
+    "rank": 122
+  },
+  {
+    "term": "nourriture",
+    "part_of_speech": "noun",
+    "rank": 123
+  },
+  {
+    "term": "combat",
+    "part_of_speech": "noun",
+    "rank": 124
+  },
+  {
+    "term": "douche",
+    "part_of_speech": "noun",
+    "rank": 125
+  },
+  {
+    "term": "chapeau",
+    "part_of_speech": "noun",
+    "rank": 126
+  },
+  {
+    "term": "séparer",
+    "part_of_speech": "verb",
+    "rank": 127
+  },
+  {
+    "term": "juge",
+    "part_of_speech": "noun",
+    "rank": 128
+  },
+  {
+    "term": "loi",
+    "part_of_speech": "noun",
+    "rank": 129
+  },
+  {
+    "term": "ramasser",
+    "part_of_speech": "verb",
+    "rank": 130
+  },
+  {
+    "term": "jaloux",
+    "part_of_speech": "adjective",
+    "rank": 131
+  },
+  {
+    "term": "exclamer",
+    "part_of_speech": "verb",
+    "rank": 132
+  },
+  {
+    "term": "sauvage",
+    "part_of_speech": "adjective",
+    "rank": 133
+  },
+  {
+    "term": "fixer",
+    "part_of_speech": "verb",
+    "rank": 134
+  },
+  {
+    "term": "terrain",
+    "part_of_speech": "noun",
+    "rank": 135
+  },
+  {
+    "term": "attaquer",
+    "part_of_speech": "verb",
+    "rank": 136
+  },
+  {
+    "term": "véhicule",
+    "part_of_speech": "noun",
+    "rank": 137
+  },
+  {
+    "term": "nécessaire",
+    "part_of_speech": "adjective",
+    "rank": 138
+  },
+  {
+    "term": "retraite",
+    "part_of_speech": "noun",
+    "rank": 139
+  },
+  {
+    "term": "contact",
+    "part_of_speech": "noun",
+    "rank": 140
+  },
+  {
+    "term": "beauté",
+    "part_of_speech": "noun",
+    "rank": 141
+  },
+  {
+    "term": "quotidien",
+    "part_of_speech": "adjective",
+    "rank": 142
+  },
+  {
+    "term": "américain",
+    "part_of_speech": "adjective",
+    "rank": 143
+  },
+  {
+    "term": "construction",
+    "part_of_speech": "noun",
+    "rank": 144
+  },
+  {
+    "term": "difficulté",
+    "part_of_speech": "noun",
+    "rank": 145
+  },
+  {
+    "term": "galerie",
+    "part_of_speech": "noun",
+    "rank": 146
+  },
+  {
+    "term": "niveau",
+    "part_of_speech": "noun",
+    "rank": 147
+  },
+  {
+    "term": "cinquante",
+    "part_of_speech": "adjective",
+    "rank": 148
+  },
+  {
+    "term": "étroit",
+    "part_of_speech": "adjective",
+    "rank": 149
+  },
+  {
+    "term": "possibilité",
+    "part_of_speech": "noun",
+    "rank": 150
+  },
+  {
+    "term": "utile",
+    "part_of_speech": "adjective",
+    "rank": 151
+  },
+  {
+    "term": "artiste",
+    "part_of_speech": "noun",
+    "rank": 152
+  },
+  {
+    "term": "surveiller",
+    "part_of_speech": "verb",
+    "rank": 153
+  },
+  {
+    "term": "féminin",
+    "part_of_speech": "adjective",
+    "rank": 154
+  },
+  {
+    "term": "radio",
+    "part_of_speech": "noun",
+    "rank": 155
+  },
+  {
+    "term": "garage",
+    "part_of_speech": "noun",
+    "rank": 156
+  },
+  {
+    "term": "poussière",
+    "part_of_speech": "noun",
+    "rank": 157
+  },
+  {
+    "term": "allonger",
+    "part_of_speech": "verb",
+    "rank": 158
+  },
+  {
+    "term": "romain",
+    "part_of_speech": "adjective",
+    "rank": 159
+  },
+  {
+    "term": "bac",
+    "part_of_speech": "noun",
+    "rank": 160
+  },
+  {
+    "term": "rattraper",
+    "part_of_speech": "verb",
+    "rank": 161
+  },
+  {
+    "term": "convaincre",
+    "part_of_speech": "verb",
+    "rank": 162
+  },
+  {
+    "term": "lapin",
+    "part_of_speech": "noun",
+    "rank": 163
+  },
+  {
+    "term": "justice",
+    "part_of_speech": "noun",
+    "rank": 164
+  },
+  {
+    "term": "mentir",
+    "part_of_speech": "verb",
+    "rank": 165
+  },
+  {
+    "term": "coupe",
+    "part_of_speech": "noun",
+    "rank": 166
+  },
+  {
+    "term": "humour",
+    "part_of_speech": "noun",
+    "rank": 167
+  },
+  {
+    "term": "affiche",
+    "part_of_speech": "noun",
+    "rank": 168
+  },
+  {
+    "term": "applaudir",
+    "part_of_speech": "verb",
+    "rank": 169
+  },
+  {
+    "term": "soif",
+    "part_of_speech": "noun",
+    "rank": 170
+  },
+  {
+    "term": "stage",
+    "part_of_speech": "noun",
+    "rank": 171
+  },
+  {
+    "term": "inconnu",
+    "part_of_speech": "adjective",
+    "rank": 172
+  },
+  {
+    "term": "lune",
+    "part_of_speech": "noun",
+    "rank": 173
+  },
+  {
+    "term": "titre",
+    "part_of_speech": "noun",
+    "rank": 174
+  },
+  {
+    "term": "publicité",
+    "part_of_speech": "noun",
+    "rank": 175
+  },
+  {
+    "term": "camarade",
+    "part_of_speech": "noun",
+    "rank": 176
+  },
+  {
+    "term": "pratique",
+    "part_of_speech": "adjective",
+    "rank": 177
+  },
+  {
+    "term": "vif",
+    "part_of_speech": "adjective",
+    "rank": 178
+  },
+  {
+    "term": "ingénieur",
+    "part_of_speech": "noun",
+    "rank": 179
+  },
+  {
+    "term": "confirmer",
+    "part_of_speech": "verb",
+    "rank": 180
+  },
+  {
+    "term": "royaume",
+    "part_of_speech": "noun",
+    "rank": 181
+  },
+  {
+    "term": "violent",
+    "part_of_speech": "adjective",
+    "rank": 182
+  },
+  {
+    "term": "chéri",
+    "part_of_speech": "noun",
+    "rank": 183
+  },
+  {
+    "term": "organisme",
+    "part_of_speech": "noun",
+    "rank": 184
+  },
+  {
+    "term": "fac",
+    "part_of_speech": "noun",
+    "rank": 185
+  },
+  {
+    "term": "sommeil",
+    "part_of_speech": "noun",
+    "rank": 186
+  },
+  {
+    "term": "planter",
+    "part_of_speech": "verb",
+    "rank": 187
+  },
+  {
+    "term": "phrase",
+    "part_of_speech": "noun",
+    "rank": 188
+  },
+  {
+    "term": "moteur",
+    "part_of_speech": "noun",
+    "rank": 189
+  },
+  {
+    "term": "visiteur",
+    "part_of_speech": "noun",
+    "rank": 190
+  },
+  {
+    "term": "rapprocher",
+    "part_of_speech": "verb",
+    "rank": 191
+  },
+  {
+    "term": "fidèle",
+    "part_of_speech": "adjective",
+    "rank": 192
+  },
+  {
+    "term": "liste",
+    "part_of_speech": "noun",
+    "rank": 193
+  },
+  {
+    "term": "consacrer",
+    "part_of_speech": "verb",
+    "rank": 194
+  },
+  {
+    "term": "mystérieux",
+    "part_of_speech": "adjective",
+    "rank": 195
+  },
+  {
+    "term": "veste",
+    "part_of_speech": "noun",
+    "rank": 196
+  },
+  {
+    "term": "patron",
+    "part_of_speech": "noun",
+    "rank": 197
+  },
+  {
+    "term": "ballon",
+    "part_of_speech": "noun",
+    "rank": 198
+  },
+  {
+    "term": "opéra",
+    "part_of_speech": "noun",
+    "rank": 199
+  },
+  {
+    "term": "appuyer",
+    "part_of_speech": "verb",
+    "rank": 200
+  },
+  {
+    "term": "capable",
+    "part_of_speech": "adjective",
+    "rank": 201
+  },
+  {
+    "term": "traditionnel",
+    "part_of_speech": "adjective",
+    "rank": 202
+  },
+  {
+    "term": "neveu",
+    "part_of_speech": "noun",
+    "rank": 203
+  },
+  {
+    "term": "fonctionner",
+    "part_of_speech": "verb",
+    "rank": 204
+  },
+  {
+    "term": "musical",
+    "part_of_speech": "adjective",
+    "rank": 205
+  },
+  {
+    "term": "commissariat",
+    "part_of_speech": "noun",
+    "rank": 206
+  },
+  {
+    "term": "profession",
+    "part_of_speech": "noun",
+    "rank": 207
+  },
+  {
+    "term": "remporter",
+    "part_of_speech": "verb",
+    "rank": 208
+  },
+  {
+    "term": "base",
+    "part_of_speech": "noun",
+    "rank": 209
+  },
+  {
+    "term": "chiffre",
+    "part_of_speech": "noun",
+    "rank": 210
+  },
+  {
+    "term": "auberge",
+    "part_of_speech": "noun",
+    "rank": 211
+  },
+  {
+    "term": "double",
+    "part_of_speech": "adjective",
+    "rank": 212
+  },
+  {
+    "term": "naissance",
+    "part_of_speech": "noun",
+    "rank": 213
+  },
+  {
+    "term": "comédien",
+    "part_of_speech": "noun",
+    "rank": 214
+  },
+  {
+    "term": "secteur",
+    "part_of_speech": "noun",
+    "rank": 215
+  },
+  {
+    "term": "nuage",
+    "part_of_speech": "noun",
+    "rank": 216
+  },
+  {
+    "term": "cultiver",
+    "part_of_speech": "verb",
+    "rank": 217
+  },
+  {
+    "term": "insister",
+    "part_of_speech": "verb",
+    "rank": 218
+  },
+  {
+    "term": "botte",
+    "part_of_speech": "noun",
+    "rank": 219
+  },
+  {
+    "term": "concours",
+    "part_of_speech": "noun",
+    "rank": 220
+  },
+  {
+    "term": "prouver",
+    "part_of_speech": "verb",
+    "rank": 221
+  },
+  {
+    "term": "historique",
+    "part_of_speech": "adjective",
+    "rank": 222
+  },
+  {
+    "term": "pis",
+    "part_of_speech": "adverb",
+    "rank": 223
+  },
+  {
+    "term": "carrière",
+    "part_of_speech": "noun",
+    "rank": 224
+  },
+  {
+    "term": "sécurité",
+    "part_of_speech": "noun",
+    "rank": 225
+  },
+  {
+    "term": "économie",
+    "part_of_speech": "noun",
+    "rank": 226
+  },
+  {
+    "term": "richesse",
+    "part_of_speech": "noun",
+    "rank": 227
+  },
+  {
+    "term": "symbole",
+    "part_of_speech": "noun",
+    "rank": 228
+  },
+  {
+    "term": "engager",
+    "part_of_speech": "verb",
+    "rank": 229
+  },
+  {
+    "term": "électrique",
+    "part_of_speech": "adjective",
+    "rank": 230
+  },
+  {
+    "term": "ailleurs",
+    "part_of_speech": "adverb",
+    "rank": 231
+  },
+  {
+    "term": "foyer",
+    "part_of_speech": "noun",
+    "rank": 232
+  },
+  {
+    "term": "peindre",
+    "part_of_speech": "verb",
+    "rank": 233
+  },
+  {
+    "term": "diviser",
+    "part_of_speech": "verb",
+    "rank": 234
+  },
+  {
+    "term": "poulet",
+    "part_of_speech": "noun",
+    "rank": 235
+  },
+  {
+    "term": "blé",
+    "part_of_speech": "noun",
+    "rank": 236
+  },
+  {
+    "term": "relation",
+    "part_of_speech": "noun",
+    "rank": 237
+  },
+  {
+    "term": "rassurer",
+    "part_of_speech": "verb",
+    "rank": 238
+  },
+  {
+    "term": "responsabilité",
+    "part_of_speech": "noun",
+    "rank": 239
+  },
+  {
+    "term": "conducteur",
+    "part_of_speech": "noun",
+    "rank": 240
+  },
+  {
+    "term": "candidat",
+    "part_of_speech": "noun",
+    "rank": 241
+  },
+  {
+    "term": "fontaine",
+    "part_of_speech": "noun",
+    "rank": 242
+  },
+  {
+    "term": "blessure",
+    "part_of_speech": "noun",
+    "rank": 243
+  },
+  {
+    "term": "colonie",
+    "part_of_speech": "noun",
+    "rank": 244
+  },
+  {
+    "term": "progrès",
+    "part_of_speech": "noun",
+    "rank": 245
+  },
+  {
+    "term": "sculpture",
+    "part_of_speech": "noun",
+    "rank": 246
+  },
+  {
+    "term": "animation",
+    "part_of_speech": "noun",
+    "rank": 247
+  },
+  {
+    "term": "comédie",
+    "part_of_speech": "noun",
+    "rank": 248
+  },
+  {
+    "term": "ignorer",
+    "part_of_speech": "verb",
+    "rank": 249
+  },
+  {
+    "term": "constater",
+    "part_of_speech": "verb",
+    "rank": 250
+  },
+  {
+    "term": "décrire",
+    "part_of_speech": "verb",
+    "rank": 251
+  },
+  {
+    "term": "fonder",
+    "part_of_speech": "verb",
+    "rank": 252
+  },
+  {
+    "term": "alimentation",
+    "part_of_speech": "noun",
+    "rank": 253
+  },
+  {
+    "term": "sable",
+    "part_of_speech": "noun",
+    "rank": 254
+  },
+  {
+    "term": "retenir",
+    "part_of_speech": "verb",
+    "rank": 255
+  },
+  {
+    "term": "joueur",
+    "part_of_speech": "noun",
+    "rank": 256
+  },
+  {
+    "term": "dialogue",
+    "part_of_speech": "noun",
+    "rank": 257
+  },
+  {
+    "term": "proche",
+    "part_of_speech": "adjective",
+    "rank": 258
+  },
+  {
+    "term": "champion",
+    "part_of_speech": "noun",
+    "rank": 259
+  },
+  {
+    "term": "genre",
+    "part_of_speech": "noun",
+    "rank": 260
+  },
+  {
+    "term": "mignon",
+    "part_of_speech": "adjective",
+    "rank": 261
+  },
+  {
+    "term": "saison",
+    "part_of_speech": "noun",
+    "rank": 262
+  },
+  {
+    "term": "colorer",
+    "part_of_speech": "verb",
+    "rank": 263
+  },
+  {
+    "term": "malade",
+    "part_of_speech": "noun",
+    "rank": 264
+  },
+  {
+    "term": "énergie",
+    "part_of_speech": "noun",
+    "rank": 265
+  },
+  {
+    "term": "sud-ouest",
+    "part_of_speech": "noun",
+    "rank": 266
+  },
+  {
+    "term": "précis",
+    "part_of_speech": "adjective",
+    "rank": 267
+  },
+  {
+    "term": "discussion",
+    "part_of_speech": "noun",
+    "rank": 268
+  },
+  {
+    "term": "tranquillement",
+    "part_of_speech": "adverb",
+    "rank": 269
+  },
+  {
+    "term": "consommer",
+    "part_of_speech": "verb",
+    "rank": 270
+  },
+  {
+    "term": "guitare",
+    "part_of_speech": "noun",
+    "rank": 271
+  },
+  {
+    "term": "vain",
+    "part_of_speech": "adjective",
+    "rank": 272
+  },
+  {
+    "term": "malheureusement",
+    "part_of_speech": "adverb",
+    "rank": 273
+  },
+  {
+    "term": "mouton",
+    "part_of_speech": "noun",
+    "rank": 274
+  },
+  {
+    "term": "bibliothèque",
+    "part_of_speech": "noun",
+    "rank": 275
+  },
+  {
+    "term": "bouquet",
+    "part_of_speech": "noun",
+    "rank": 276
+  },
+  {
+    "term": "architecture",
+    "part_of_speech": "noun",
+    "rank": 277
+  },
+  {
+    "term": "confortable",
+    "part_of_speech": "adjective",
+    "rank": 278
+  },
+  {
+    "term": "ambiance",
+    "part_of_speech": "noun",
+    "rank": 279
+  },
+  {
+    "term": "futur",
+    "part_of_speech": "noun",
+    "rank": 280
+  },
+  {
+    "term": "amateur",
+    "part_of_speech": "noun",
+    "rank": 281
+  },
+  {
+    "term": "métal",
+    "part_of_speech": "noun",
+    "rank": 282
+  },
+  {
+    "term": "citer",
+    "part_of_speech": "verb",
+    "rank": 283
+  },
+  {
+    "term": "libérer",
+    "part_of_speech": "verb",
+    "rank": 284
+  },
+  {
+    "term": "photographe",
+    "part_of_speech": "noun",
+    "rank": 285
+  },
+  {
+    "term": "médias",
+    "part_of_speech": "noun",
+    "rank": 286
+  },
+  {
+    "term": "fer",
+    "part_of_speech": "noun",
+    "rank": 287
+  },
+  {
+    "term": "gardien",
+    "part_of_speech": "noun",
+    "rank": 288
+  },
+  {
+    "term": "classique",
+    "part_of_speech": "adjective",
+    "rank": 289
+  },
+  {
+    "term": "mystère",
+    "part_of_speech": "noun",
+    "rank": 290
+  },
+  {
+    "term": "contacter",
+    "part_of_speech": "verb",
+    "rank": 291
+  },
+  {
+    "term": "notamment",
+    "part_of_speech": "adverb",
+    "rank": 292
+  },
+  {
+    "term": "solidarité",
+    "part_of_speech": "noun",
+    "rank": 293
+  },
+  {
+    "term": "symboliser",
+    "part_of_speech": "verb",
+    "rank": 294
+  },
+  {
+    "term": "amitié",
+    "part_of_speech": "noun",
+    "rank": 295
+  },
+  {
+    "term": "précieux",
+    "part_of_speech": "adjective",
+    "rank": 296
+  },
+  {
+    "term": "écharpe",
+    "part_of_speech": "noun",
+    "rank": 297
+  },
+  {
+    "term": "industriel",
+    "part_of_speech": "adjective",
+    "rank": 298
+  },
+  {
+    "term": "sincère",
+    "part_of_speech": "adjective",
+    "rank": 299
+  },
+  {
+    "term": "rare",
+    "part_of_speech": "adjective",
+    "rank": 300
+  },
+  {
+    "term": "invention",
+    "part_of_speech": "noun",
+    "rank": 301
+  },
+  {
+    "term": "perdu",
+    "part_of_speech": "adjective",
+    "rank": 302
+  },
+  {
+    "term": "animer",
+    "part_of_speech": "verb",
+    "rank": 303
+  },
+  {
+    "term": "car",
+    "part_of_speech": "noun",
+    "rank": 304
+  },
+  {
+    "term": "loup",
+    "part_of_speech": "noun",
+    "rank": 305
+  },
+  {
+    "term": "commerçant",
+    "part_of_speech": "noun",
+    "rank": 306
+  },
+  {
+    "term": "touristique",
+    "part_of_speech": "adjective",
+    "rank": 307
+  },
+  {
+    "term": "dehors",
+    "part_of_speech": "adverb",
+    "rank": 308
+  },
+  {
+    "term": "océan",
+    "part_of_speech": "noun",
+    "rank": 309
+  },
+  {
+    "term": "évoquer",
+    "part_of_speech": "verb",
+    "rank": 310
+  },
+  {
+    "term": "domestique",
+    "part_of_speech": "adjective",
+    "rank": 311
+  },
+  {
+    "term": "fermeture",
+    "part_of_speech": "noun",
+    "rank": 312
+  },
+  {
+    "term": "infirmier",
+    "part_of_speech": "noun",
+    "rank": 313
+  },
+  {
+    "term": "décision",
+    "part_of_speech": "noun",
+    "rank": 314
+  },
+  {
+    "term": "abriter",
+    "part_of_speech": "verb",
+    "rank": 315
+  },
+  {
+    "term": "marque",
+    "part_of_speech": "noun",
+    "rank": 316
+  },
+  {
+    "term": "poète",
+    "part_of_speech": "adjective",
+    "rank": 317
+  },
+  {
+    "term": "version",
+    "part_of_speech": "noun",
+    "rank": 318
+  },
+  {
+    "term": "crème",
+    "part_of_speech": "noun",
+    "rank": 319
+  },
+  {
+    "term": "congé",
+    "part_of_speech": "noun",
+    "rank": 320
+  },
+  {
+    "term": "yaourt",
+    "part_of_speech": "noun",
+    "rank": 321
+  },
+  {
+    "term": "cérémonie",
+    "part_of_speech": "noun",
+    "rank": 322
+  },
+  {
+    "term": "outil",
+    "part_of_speech": "noun",
+    "rank": 323
+  },
+  {
+    "term": "pratique",
+    "part_of_speech": "noun",
+    "rank": 324
+  },
+  {
+    "term": "addition",
+    "part_of_speech": "noun",
+    "rank": 325
+  },
+  {
+    "term": "solaire",
+    "part_of_speech": "adjective",
+    "rank": 326
+  },
+  {
+    "term": "allemand",
+    "part_of_speech": "noun",
+    "rank": 327
+  },
+  {
+    "term": "mélanger",
+    "part_of_speech": "verb",
+    "rank": 328
+  },
+  {
+    "term": "architecte",
+    "part_of_speech": "noun",
+    "rank": 329
+  },
+  {
+    "term": "union",
+    "part_of_speech": "noun",
+    "rank": 330
+  },
+  {
+    "term": "compléter",
+    "part_of_speech": "verb",
+    "rank": 331
+  },
+  {
+    "term": "article",
+    "part_of_speech": "noun",
+    "rank": 332
+  },
+  {
+    "term": "boulangerie",
+    "part_of_speech": "noun",
+    "rank": 333
+  },
+  {
+    "term": "plaisanter",
+    "part_of_speech": "verb",
+    "rank": 334
+  },
+  {
+    "term": "centre-ville",
+    "part_of_speech": "noun",
+    "rank": 335
+  },
+  {
+    "term": "code",
+    "part_of_speech": "noun",
+    "rank": 336
+  },
+  {
+    "term": "élément",
+    "part_of_speech": "noun",
+    "rank": 337
+  },
+  {
+    "term": "resto",
+    "part_of_speech": "noun",
+    "rank": 338
+  },
+  {
+    "term": "téléviser",
+    "part_of_speech": "verb",
+    "rank": 339
+  },
+  {
+    "term": "décevoir",
+    "part_of_speech": "verb",
+    "rank": 340
+  },
+  {
+    "term": "maternel",
+    "part_of_speech": "adjective",
+    "rank": 341
+  },
+  {
+    "term": "informatique",
+    "part_of_speech": "adjective",
+    "rank": 342
+  },
+  {
+    "term": "salutation",
+    "part_of_speech": "noun",
+    "rank": 343
+  },
+  {
+    "term": "randonnée",
+    "part_of_speech": "noun",
+    "rank": 344
+  },
+  {
+    "term": "inscrire",
+    "part_of_speech": "verb",
+    "rank": 345
+  },
+  {
+    "term": "nettoyer",
+    "part_of_speech": "verb",
+    "rank": 346
+  },
+  {
+    "term": "avantage",
+    "part_of_speech": "noun",
+    "rank": 347
+  },
+  {
+    "term": "appartenir",
+    "part_of_speech": "verb",
+    "rank": 348
+  },
+  {
+    "term": "parapluie",
+    "part_of_speech": "noun",
+    "rank": 349
+  },
+  {
+    "term": "bisou",
+    "part_of_speech": "noun",
+    "rank": 350
+  },
+  {
+    "term": "chômeur",
+    "part_of_speech": "noun",
+    "rank": 351
+  },
+  {
+    "term": "danseur",
+    "part_of_speech": "noun",
+    "rank": 352
+  },
+  {
+    "term": "populaire",
+    "part_of_speech": "adjective",
+    "rank": 353
+  },
+  {
+    "term": "voeu",
+    "part_of_speech": "noun",
+    "rank": 354
+  },
+  {
+    "term": "petite-fille",
+    "part_of_speech": "noun",
+    "rank": 355
+  },
+  {
+    "term": "gamin",
+    "part_of_speech": "noun",
+    "rank": 356
+  },
+  {
+    "term": "essentiel",
+    "part_of_speech": "noun",
+    "rank": 357
+  },
+  {
+    "term": "élégant",
+    "part_of_speech": "adjective",
+    "rank": 358
+  },
+  {
+    "term": "actif",
+    "part_of_speech": "adjective",
+    "rank": 359
+  },
+  {
+    "term": "dessinateur",
+    "part_of_speech": "noun",
+    "rank": 360
+  },
+  {
+    "term": "concerner",
+    "part_of_speech": "verb",
+    "rank": 361
+  },
+  {
+    "term": "colline",
+    "part_of_speech": "noun",
+    "rank": 362
+  },
+  {
+    "term": "renaissance",
+    "part_of_speech": "noun",
+    "rank": 363
+  },
+  {
+    "term": "décor",
+    "part_of_speech": "noun",
+    "rank": 364
+  },
+  {
+    "term": "conte",
+    "part_of_speech": "noun",
+    "rank": 365
+  },
+  {
+    "term": "charme",
+    "part_of_speech": "noun",
+    "rank": 366
+  },
+  {
+    "term": "attraper",
+    "part_of_speech": "verb",
+    "rank": 367
+  },
+  {
+    "term": "japonais",
+    "part_of_speech": "adjective",
+    "rank": 368
+  },
+  {
+    "term": "horaire",
+    "part_of_speech": "noun",
+    "rank": 369
+  },
+  {
+    "term": "désespérer",
+    "part_of_speech": "verb",
+    "rank": 370
+  },
+  {
+    "term": "général",
+    "part_of_speech": "noun",
+    "rank": 371
+  },
+  {
+    "term": "luire",
+    "part_of_speech": "verb",
+    "rank": 372
+  },
+  {
+    "term": "célébrer",
+    "part_of_speech": "verb",
+    "rank": 373
+  },
+  {
+    "term": "glisser",
+    "part_of_speech": "verb",
+    "rank": 374
+  },
+  {
+    "term": "illuminer",
+    "part_of_speech": "verb",
+    "rank": 375
+  },
+  {
+    "term": "conserver",
+    "part_of_speech": "verb",
+    "rank": 376
+  },
+  {
+    "term": "autoriser",
+    "part_of_speech": "verb",
+    "rank": 377
+  },
+  {
+    "term": "dernier",
+    "part_of_speech": "noun",
+    "rank": 378
+  },
+  {
+    "term": "indien",
+    "part_of_speech": "adjective",
+    "rank": 379
+  },
+  {
+    "term": "fan",
+    "part_of_speech": "noun",
+    "rank": 380
+  },
+  {
+    "term": "cuisinier",
+    "part_of_speech": "noun",
+    "rank": 381
+  },
+  {
+    "term": "russe",
+    "part_of_speech": "adjective",
+    "rank": 382
+  },
+  {
+    "term": "souriant",
+    "part_of_speech": "adjective",
+    "rank": 383
+  },
+  {
+    "term": "montant",
+    "part_of_speech": "noun",
+    "rank": 384
+  },
+  {
+    "term": "jouet",
+    "part_of_speech": "noun",
+    "rank": 385
+  },
+  {
+    "term": "camion",
+    "part_of_speech": "noun",
+    "rank": 386
+  },
+  {
+    "term": "ennuyeux",
+    "part_of_speech": "adjective",
+    "rank": 387
+  },
+  {
+    "term": "bon",
+    "part_of_speech": "noun",
+    "rank": 388
+  },
+  {
+    "term": "dater",
+    "part_of_speech": "verb",
+    "rank": 389
+  },
+  {
+    "term": "institution",
+    "part_of_speech": "noun",
+    "rank": 390
+  },
+  {
+    "term": "monnaie",
+    "part_of_speech": "noun",
+    "rank": 391
+  },
+  {
+    "term": "bavarder",
+    "part_of_speech": "verb",
+    "rank": 392
+  },
+  {
+    "term": "inspecteur",
+    "part_of_speech": "noun",
+    "rank": 393
+  },
+  {
+    "term": "coller",
+    "part_of_speech": "verb",
+    "rank": 394
+  },
+  {
+    "term": "médiéval",
+    "part_of_speech": "adjective",
+    "rank": 395
+  },
+  {
+    "term": "vestige",
+    "part_of_speech": "noun",
+    "rank": 396
+  },
+  {
+    "term": "déménager",
+    "part_of_speech": "verb",
+    "rank": 397
+  },
+  {
+    "term": "inspirer",
+    "part_of_speech": "verb",
+    "rank": 398
+  },
+  {
+    "term": "poésie",
+    "part_of_speech": "noun",
+    "rank": 399
+  },
+  {
+    "term": "présentateur",
+    "part_of_speech": "noun",
+    "rank": 400
+  },
+  {
+    "term": "élire",
+    "part_of_speech": "verb",
+    "rank": 401
+  },
+  {
+    "term": "actualité",
+    "part_of_speech": "noun",
+    "rank": 402
+  },
+  {
+    "term": "jazz",
+    "part_of_speech": "noun",
+    "rank": 403
+  },
+  {
+    "term": "résidence",
+    "part_of_speech": "noun",
+    "rank": 404
+  },
+  {
+    "term": "avouer",
+    "part_of_speech": "verb",
+    "rank": 405
+  },
+  {
+    "term": "basket",
+    "part_of_speech": "noun",
+    "rank": 406
+  },
+  {
+    "term": "divers",
+    "part_of_speech": "adjective",
+    "rank": 407
+  },
+  {
+    "term": "privilégier",
+    "part_of_speech": "verb",
+    "rank": 408
+  },
+  {
+    "term": "production",
+    "part_of_speech": "noun",
+    "rank": 409
+  },
+  {
+    "term": "accomplir",
+    "part_of_speech": "verb",
+    "rank": 410
+  },
+  {
+    "term": "polonais",
+    "part_of_speech": "adjective",
+    "rank": 411
+  },
+  {
+    "term": "ciné",
+    "part_of_speech": "noun",
+    "rank": 412
+  },
+  {
+    "term": "cave",
+    "part_of_speech": "noun",
+    "rank": 413
+  },
+  {
+    "term": "merveille",
+    "part_of_speech": "noun",
+    "rank": 414
+  },
+  {
+    "term": "bulletin",
+    "part_of_speech": "noun",
+    "rank": 415
+  },
+  {
+    "term": "plastique",
+    "part_of_speech": "noun",
+    "rank": 416
+  },
+  {
+    "term": "assistant",
+    "part_of_speech": "noun",
+    "rank": 417
+  },
+  {
+    "term": "fatigué",
+    "part_of_speech": "adjective",
+    "rank": 418
+  },
+  {
+    "term": "ouest",
+    "part_of_speech": "noun",
+    "rank": 419
+  },
+  {
+    "term": "proximité",
+    "part_of_speech": "noun",
+    "rank": 420
+  },
+  {
+    "term": "rosier",
+    "part_of_speech": "noun",
+    "rank": 421
+  },
+  {
+    "term": "latin",
+    "part_of_speech": "adjective",
+    "rank": 422
+  },
+  {
+    "term": "diable",
+    "part_of_speech": "noun",
+    "rank": 423
+  },
+  {
+    "term": "vendeur",
+    "part_of_speech": "noun",
+    "rank": 424
+  },
+  {
+    "term": "chant",
+    "part_of_speech": "noun",
+    "rank": 425
+  },
+  {
+    "term": "nerveux",
+    "part_of_speech": "adjective",
+    "rank": 426
+  },
+  {
+    "term": "position",
+    "part_of_speech": "noun",
+    "rank": 427
+  },
+  {
+    "term": "football",
+    "part_of_speech": "noun",
+    "rank": 428
+  },
+  {
+    "term": "réserve",
+    "part_of_speech": "noun",
+    "rank": 429
+  },
+  {
+    "term": "panneau",
+    "part_of_speech": "noun",
+    "rank": 430
+  },
+  {
+    "term": "secrétariat",
+    "part_of_speech": "noun",
+    "rank": 431
+  },
+  {
+    "term": "chaleureux",
+    "part_of_speech": "adjective",
+    "rank": 432
+  },
+  {
+    "term": "micro",
+    "part_of_speech": "noun",
+    "rank": 433
+  },
+  {
+    "term": "autoroute",
+    "part_of_speech": "noun",
+    "rank": 434
+  },
+  {
+    "term": "enseignement",
+    "part_of_speech": "noun",
+    "rank": 435
+  },
+  {
+    "term": "français",
+    "part_of_speech": "noun",
+    "rank": 436
+  },
+  {
+    "term": "linguistique",
+    "part_of_speech": "adjective",
+    "rank": 437
+  },
+  {
+    "term": "cuire",
+    "part_of_speech": "verb",
+    "rank": 438
+  },
+  {
+    "term": "hygiène",
+    "part_of_speech": "noun",
+    "rank": 439
+  },
+  {
+    "term": "mesurer",
+    "part_of_speech": "verb",
+    "rank": 440
+  },
+  {
+    "term": "porc",
+    "part_of_speech": "noun",
+    "rank": 441
+  },
+  {
+    "term": "exagérer",
+    "part_of_speech": "verb",
+    "rank": 442
+  },
+  {
+    "term": "lointain",
+    "part_of_speech": "adjective",
+    "rank": 443
+  },
+  {
+    "term": "royal",
+    "part_of_speech": "adjective",
+    "rank": 444
+  },
+  {
+    "term": "oublie",
+    "part_of_speech": "noun",
+    "rank": 445
+  },
+  {
+    "term": "institut",
+    "part_of_speech": "noun",
+    "rank": 446
+  },
+  {
+    "term": "publique",
+    "part_of_speech": "adjective",
+    "rank": 447
+  },
+  {
+    "term": "froid",
+    "part_of_speech": "noun",
+    "rank": 448
+  },
+  {
+    "term": "soulier",
+    "part_of_speech": "noun",
+    "rank": 449
+  },
+  {
+    "term": "dentiste",
+    "part_of_speech": "noun",
+    "rank": 450
+  },
+  {
+    "term": "héler",
+    "part_of_speech": "verb",
+    "rank": 451
+  },
+  {
+    "term": "inoubliable",
+    "part_of_speech": "adjective",
+    "rank": 452
+  },
+  {
+    "term": "brave",
+    "part_of_speech": "adjective",
+    "rank": 453
+  },
+  {
+    "term": "plume",
+    "part_of_speech": "noun",
+    "rank": 454
+  },
+  {
+    "term": "commenter",
+    "part_of_speech": "verb",
+    "rank": 455
+  },
+  {
+    "term": "installation",
+    "part_of_speech": "noun",
+    "rank": 456
+  },
+  {
+    "term": "effondrer",
+    "part_of_speech": "verb",
+    "rank": 457
+  },
+  {
+    "term": "beaux-arts",
+    "part_of_speech": "noun",
+    "rank": 458
+  },
+  {
+    "term": "bourgeois",
+    "part_of_speech": "adjective",
+    "rank": 459
+  },
+  {
+    "term": "contemporain",
+    "part_of_speech": "adjective",
+    "rank": 460
+  },
+  {
+    "term": "héritage",
+    "part_of_speech": "noun",
+    "rank": 461
+  },
+  {
+    "term": "margot",
+    "part_of_speech": "noun",
+    "rank": 462
+  },
+  {
+    "term": "religion",
+    "part_of_speech": "noun",
+    "rank": 463
+  },
+  {
+    "term": "australien",
+    "part_of_speech": "adjective",
+    "rank": 464
+  },
+  {
+    "term": "degré",
+    "part_of_speech": "noun",
+    "rank": 465
+  },
+  {
+    "term": "illustrer",
+    "part_of_speech": "verb",
+    "rank": 466
+  },
+  {
+    "term": "traditionnellement",
+    "part_of_speech": "adverb",
+    "rank": 467
+  },
+  {
+    "term": "évoluer",
+    "part_of_speech": "verb",
+    "rank": 468
+  },
+  {
+    "term": "alcool",
+    "part_of_speech": "noun",
+    "rank": 469
+  },
+  {
+    "term": "bistrot",
+    "part_of_speech": "noun",
+    "rank": 470
+  },
+  {
+    "term": "pâtisserie",
+    "part_of_speech": "noun",
+    "rank": 471
+  },
+  {
+    "term": "beau-frère",
+    "part_of_speech": "noun",
+    "rank": 472
+  },
+  {
+    "term": "définir",
+    "part_of_speech": "verb",
+    "rank": 473
+  },
+  {
+    "term": "accord",
+    "part_of_speech": "noun",
+    "rank": 474
+  },
+  {
+    "term": "comique",
+    "part_of_speech": "adjective",
+    "rank": 475
+  },
+  {
+    "term": "crise",
+    "part_of_speech": "noun",
+    "rank": 476
+  },
+  {
+    "term": "cultivé",
+    "part_of_speech": "adjective",
+    "rank": 477
+  },
+  {
+    "term": "dépendre",
+    "part_of_speech": "verb",
+    "rank": 478
+  },
+  {
+    "term": "foie",
+    "part_of_speech": "noun",
+    "rank": 479
+  },
+  {
+    "term": "fumé",
+    "part_of_speech": "adjective",
+    "rank": 480
+  },
+  {
+    "term": "hélicoptère",
+    "part_of_speech": "noun",
+    "rank": 481
+  },
+  {
+    "term": "libération",
+    "part_of_speech": "noun",
+    "rank": 482
+  },
+  {
+    "term": "québécois",
+    "part_of_speech": "adjective",
+    "rank": 483
+  },
+  {
+    "term": "saumon",
+    "part_of_speech": "noun",
+    "rank": 484
+  },
+  {
+    "term": "tapisserie",
+    "part_of_speech": "noun",
+    "rank": 485
+  },
+  {
+    "term": "cinquante",
+    "part_of_speech": "noun",
+    "rank": 486
+  },
+  {
+    "term": "déguiser",
+    "part_of_speech": "verb",
+    "rank": 487
+  },
+  {
+    "term": "fier",
+    "part_of_speech": "verb",
+    "rank": 488
+  },
+  {
+    "term": "admirable",
+    "part_of_speech": "adjective",
+    "rank": 489
+  },
+  {
+    "term": "aliment",
+    "part_of_speech": "noun",
+    "rank": 490
+  },
+  {
+    "term": "coutume",
+    "part_of_speech": "noun",
+    "rank": 491
+  },
+  {
+    "term": "enchanter",
+    "part_of_speech": "verb",
+    "rank": 492
+  },
+  {
+    "term": "escargot",
+    "part_of_speech": "noun",
+    "rank": 493
+  },
+  {
+    "term": "faveur",
+    "part_of_speech": "noun",
+    "rank": 494
+  },
+  {
+    "term": "marrant",
+    "part_of_speech": "adjective",
+    "rank": 495
+  },
+  {
+    "term": "marre",
+    "part_of_speech": "adverb",
+    "rank": 496
+  },
+  {
+    "term": "quatre",
+    "part_of_speech": "noun",
+    "rank": 497
+  },
+  {
+    "term": "sensible",
+    "part_of_speech": "adjective",
+    "rank": 498
+  },
+  {
+    "term": "administratif",
+    "part_of_speech": "adjective",
+    "rank": 499
+  },
+  {
+    "term": "charcuterie",
+    "part_of_speech": "noun",
+    "rank": 500
+  },
+  {
+    "term": "déguster",
+    "part_of_speech": "verb",
+    "rank": 501
+  },
+  {
+    "term": "esclave",
+    "part_of_speech": "noun",
+    "rank": 502
+  },
+  {
+    "term": "fidélité",
+    "part_of_speech": "noun",
+    "rank": 503
+  },
+  {
+    "term": "maquette",
+    "part_of_speech": "noun",
+    "rank": 504
+  },
+  {
+    "term": "oignon",
+    "part_of_speech": "noun",
+    "rank": 505
+  },
+  {
+    "term": "panorama",
+    "part_of_speech": "noun",
+    "rank": 506
+  },
+  {
+    "term": "sirop",
+    "part_of_speech": "noun",
+    "rank": 507
+  },
+  {
+    "term": "évolution",
+    "part_of_speech": "noun",
+    "rank": 508
+  },
+  {
+    "term": "vexer",
+    "part_of_speech": "verb",
+    "rank": 509
+  },
+  {
+    "term": "affoler",
+    "part_of_speech": "verb",
+    "rank": 510
+  },
+  {
+    "term": "angle",
+    "part_of_speech": "noun",
+    "rank": 511
+  },
+  {
+    "term": "critiquer",
+    "part_of_speech": "verb",
+    "rank": 512
+  },
+  {
+    "term": "ensoleiller",
+    "part_of_speech": "verb",
+    "rank": 513
+  },
+  {
+    "term": "gendarmerie",
+    "part_of_speech": "noun",
+    "rank": 514
+  },
+  {
+    "term": "intense",
+    "part_of_speech": "adjective",
+    "rank": 515
+  },
+  {
+    "term": "passionnant",
+    "part_of_speech": "adjective",
+    "rank": 516
+  },
+  {
+    "term": "boulanger",
+    "part_of_speech": "noun",
+    "rank": 517
+  },
+  {
+    "term": "canadien",
+    "part_of_speech": "adjective",
+    "rank": 518
+  },
+  {
+    "term": "collectionneur",
+    "part_of_speech": "noun",
+    "rank": 519
+  },
+  {
+    "term": "contre",
+    "part_of_speech": "noun",
+    "rank": 520
+  },
+  {
+    "term": "culinaire",
+    "part_of_speech": "adjective",
+    "rank": 521
+  },
+  {
+    "term": "mathématique",
+    "part_of_speech": "noun",
+    "rank": 522
+  },
+  {
+    "term": "renseigner",
+    "part_of_speech": "verb",
+    "rank": 523
+  },
+  {
+    "term": "spectaculaire",
+    "part_of_speech": "adjective",
+    "rank": 524
+  },
+  {
+    "term": "sud-est",
+    "part_of_speech": "noun",
+    "rank": 525
+  },
+  {
+    "term": "tarte",
+    "part_of_speech": "noun",
+    "rank": 526
+  },
+  {
+    "term": "chic",
+    "part_of_speech": "adjective",
+    "rank": 527
+  },
+  {
+    "term": "commentaire",
+    "part_of_speech": "noun",
+    "rank": 528
+  },
+  {
+    "term": "corriger",
+    "part_of_speech": "verb",
+    "rank": 529
+  },
+  {
+    "term": "célibataire",
+    "part_of_speech": "adjective",
+    "rank": 530
+  },
+  {
+    "term": "discours",
+    "part_of_speech": "noun",
+    "rank": 531
+  },
+  {
+    "term": "répondeur",
+    "part_of_speech": "noun",
+    "rank": 532
+  },
+  {
+    "term": "sévère",
+    "part_of_speech": "adjective",
+    "rank": 533
+  },
+  {
+    "term": "terrifiant",
+    "part_of_speech": "adjective",
+    "rank": 534
+  },
+  {
+    "term": "réception",
+    "part_of_speech": "noun",
+    "rank": 535
+  },
+  {
+    "term": "leçon",
+    "part_of_speech": "noun",
+    "rank": 536
+  },
+  {
+    "term": "grand-chose",
+    "part_of_speech": "noun",
+    "rank": 537
+  },
+  {
+    "term": "ajoute",
+    "part_of_speech": "noun",
+    "rank": 538
+  },
+  {
+    "term": "raide",
+    "part_of_speech": "adjective",
+    "rank": 539
+  },
+  {
+    "term": "stupide",
+    "part_of_speech": "adjective",
+    "rank": 540
+  },
+  {
+    "term": "chèvre",
+    "part_of_speech": "noun",
+    "rank": 541
+  },
+  {
+    "term": "dinde",
+    "part_of_speech": "noun",
+    "rank": 542
+  },
+  {
+    "term": "grillé",
+    "part_of_speech": "adjective",
+    "rank": 543
+  },
+  {
+    "term": "minéral",
+    "part_of_speech": "adjective",
+    "rank": 544
+  },
+  {
+    "term": "radio",
+    "part_of_speech": "adjective",
+    "rank": 545
+  },
+  {
+    "term": "recomposer",
+    "part_of_speech": "verb",
+    "rank": 546
+  },
+  {
+    "term": "animal",
+    "part_of_speech": "adjective",
+    "rank": 547
+  },
+  {
+    "term": "ambassade",
+    "part_of_speech": "noun",
+    "rank": 548
+  },
+  {
+    "term": "marocain",
+    "part_of_speech": "adjective",
+    "rank": 549
+  },
+  {
+    "term": "outre-mer",
+    "part_of_speech": "adverb",
+    "rank": 550
+  },
+  {
+    "term": "balle",
+    "part_of_speech": "noun",
+    "rank": 551
+  },
+  {
+    "term": "équipement",
+    "part_of_speech": "noun",
+    "rank": 552
+  },
+  {
+    "term": "communauté",
+    "part_of_speech": "noun",
+    "rank": 553
+  },
+  {
+    "term": "recouvrir",
+    "part_of_speech": "verb",
+    "rank": 554
+  },
+  {
+    "term": "rive",
+    "part_of_speech": "noun",
+    "rank": 555
+  },
+  {
+    "term": "sage",
+    "part_of_speech": "adjective",
+    "rank": 556
+  },
+  {
+    "term": "crèche",
+    "part_of_speech": "noun",
+    "rank": 557
+  },
+  {
+    "term": "traversée",
+    "part_of_speech": "noun",
+    "rank": 558
+  },
+  {
+    "term": "abricot",
+    "part_of_speech": "noun",
+    "rank": 559
+  },
+  {
+    "term": "apprenti",
+    "part_of_speech": "noun",
+    "rank": 560
+  },
+  {
+    "term": "archéologue",
+    "part_of_speech": "noun",
+    "rank": 561
+  },
+  {
+    "term": "artifice",
+    "part_of_speech": "noun",
+    "rank": 562
+  },
+  {
+    "term": "banane",
+    "part_of_speech": "noun",
+    "rank": 563
+  },
+  {
+    "term": "bancaire",
+    "part_of_speech": "adjective",
+    "rank": 564
+  },
+  {
+    "term": "belle-mère",
+    "part_of_speech": "noun",
+    "rank": 565
+  },
+  {
+    "term": "ben",
+    "part_of_speech": "noun",
+    "rank": 566
+  },
+  {
+    "term": "bowling",
+    "part_of_speech": "noun",
+    "rank": 567
+  },
+  {
+    "term": "brésilien",
+    "part_of_speech": "adjective",
+    "rank": 568
+  },
+  {
+    "term": "cahier",
+    "part_of_speech": "noun",
+    "rank": 569
+  },
+  {
+    "term": "caissier",
+    "part_of_speech": "noun",
+    "rank": 570
+  },
+  {
+    "term": "canne",
+    "part_of_speech": "noun",
+    "rank": 571
+  },
+  {
+    "term": "carnet",
+    "part_of_speech": "noun",
+    "rank": 572
+  },
+  {
+    "term": "casque",
+    "part_of_speech": "noun",
+    "rank": 573
+  },
+  {
+    "term": "charité",
+    "part_of_speech": "noun",
+    "rank": 574
+  },
+  {
+    "term": "châtain",
+    "part_of_speech": "adjective",
+    "rank": 575
+  },
+  {
+    "term": "cidre",
+    "part_of_speech": "noun",
+    "rank": 576
+  },
+  {
+    "term": "cire",
+    "part_of_speech": "noun",
+    "rank": 577
+  },
+  {
+    "term": "coiffer",
+    "part_of_speech": "verb",
+    "rank": 578
+  },
+  {
+    "term": "collectionner",
+    "part_of_speech": "verb",
+    "rank": 579
+  },
+  {
+    "term": "comptabilité",
+    "part_of_speech": "noun",
+    "rank": 580
+  },
+  {
+    "term": "concombre",
+    "part_of_speech": "noun",
+    "rank": 581
+  },
+  {
+    "term": "console",
+    "part_of_speech": "noun",
+    "rank": 582
+  },
+  {
+    "term": "couscous",
+    "part_of_speech": "noun",
+    "rank": 583
+  },
+  {
+    "term": "croissant",
+    "part_of_speech": "noun",
+    "rank": 584
+  },
+  {
+    "term": "céréale",
+    "part_of_speech": "noun",
+    "rank": 585
+  },
+  {
+    "term": "diversité",
+    "part_of_speech": "noun",
+    "rank": 586
+  },
+  {
+    "term": "décontracter",
+    "part_of_speech": "verb",
+    "rank": 587
+  },
+  {
+    "term": "dévorer",
+    "part_of_speech": "verb",
+    "rank": 588
+  },
+  {
+    "term": "exotique",
+    "part_of_speech": "adjective",
+    "rank": 589
+  },
+  {
+    "term": "fatigant",
+    "part_of_speech": "adjective",
+    "rank": 590
+  },
+  {
+    "term": "feuilleton",
+    "part_of_speech": "noun",
+    "rank": 591
+  },
+  {
+    "term": "francophonie",
+    "part_of_speech": "noun",
+    "rank": 592
+  },
+  {
+    "term": "férié",
+    "part_of_speech": "adjective",
+    "rank": 593
+  },
+  {
+    "term": "gramme",
+    "part_of_speech": "noun",
+    "rank": 594
+  },
+  {
+    "term": "grenouille",
+    "part_of_speech": "noun",
+    "rank": 595
+  },
+  {
+    "term": "gris",
+    "part_of_speech": "noun",
+    "rank": 596
+  },
+  {
+    "term": "hors-d'oeuvre",
+    "part_of_speech": "noun",
+    "rank": 597
+  },
+  {
+    "term": "hypermarché",
+    "part_of_speech": "noun",
+    "rank": 598
+  },
+  {
+    "term": "illustration",
+    "part_of_speech": "noun",
+    "rank": 599
+  },
+  {
+    "term": "indice",
+    "part_of_speech": "noun",
+    "rank": 600
+  },
+  {
+    "term": "innocent",
+    "part_of_speech": "adjective",
+    "rank": 601
+  },
+  {
+    "term": "insupportable",
+    "part_of_speech": "adjective",
+    "rank": 602
+  },
+  {
+    "term": "invité",
+    "part_of_speech": "adjective",
+    "rank": 603
+  },
+  {
+    "term": "itinéraire",
+    "part_of_speech": "noun",
+    "rank": 604
+  },
+  {
+    "term": "jumeau",
+    "part_of_speech": "noun",
+    "rank": 605
+  },
+  {
+    "term": "laboratoire",
+    "part_of_speech": "noun",
+    "rank": 606
+  },
+  {
+    "term": "laitier",
+    "part_of_speech": "adjective",
+    "rank": 607
+  },
+  {
+    "term": "marron",
+    "part_of_speech": "adjective",
+    "rank": 608
+  },
+  {
+    "term": "masque",
+    "part_of_speech": "noun",
+    "rank": 609
+  },
+  {
+    "term": "menthe",
+    "part_of_speech": "noun",
+    "rank": 610
+  },
+  {
+    "term": "mi",
+    "part_of_speech": "noun",
+    "rank": 611
+  },
+  {
+    "term": "mistral",
+    "part_of_speech": "noun",
+    "rank": 612
+  },
+  {
+    "term": "mixte",
+    "part_of_speech": "adjective",
+    "rank": 613
+  },
+  {
+    "term": "monumental",
+    "part_of_speech": "adjective",
+    "rank": 614
+  },
+  {
+    "term": "motif",
+    "part_of_speech": "noun",
+    "rank": 615
+  },
+  {
+    "term": "mural",
+    "part_of_speech": "adjective",
+    "rank": 616
+  },
+  {
+    "term": "muser",
+    "part_of_speech": "verb",
+    "rank": 617
+  },
+  {
+    "term": "musulman",
+    "part_of_speech": "adjective",
+    "rank": 618
+  },
+  {
+    "term": "médecine",
+    "part_of_speech": "noun",
+    "rank": 619
+  },
+  {
+    "term": "métropole",
+    "part_of_speech": "noun",
+    "rank": 620
+  },
+  {
+    "term": "natation",
+    "part_of_speech": "noun",
+    "rank": 621
+  },
+  {
+    "term": "nocturne",
+    "part_of_speech": "adjective",
+    "rank": 622
+  },
+  {
+    "term": "numéroter",
+    "part_of_speech": "verb",
+    "rank": 623
+  },
+  {
+    "term": "olive",
+    "part_of_speech": "noun",
+    "rank": 624
+  },
+  {
+    "term": "pamplemousse",
+    "part_of_speech": "noun",
+    "rank": 625
+  },
+  {
+    "term": "pat",
+    "part_of_speech": "adjective",
+    "rank": 626
+  },
+  {
+    "term": "patient",
+    "part_of_speech": "adjective",
+    "rank": 627
+  },
+  {
+    "term": "perle",
+    "part_of_speech": "noun",
+    "rank": 628
+  },
+  {
+    "term": "pharmacie",
+    "part_of_speech": "noun",
+    "rank": 629
+  },
+  {
+    "term": "photocopie",
+    "part_of_speech": "noun",
+    "rank": 630
+  },
+  {
+    "term": "piéton",
+    "part_of_speech": "adjective",
+    "rank": 631
+  },
+  {
+    "term": "polluant",
+    "part_of_speech": "adjective",
+    "rank": 632
+  },
+  {
+    "term": "portugais",
+    "part_of_speech": "adjective",
+    "rank": 633
+  },
+  {
+    "term": "poupée",
+    "part_of_speech": "noun",
+    "rank": 634
+  },
+  {
+    "term": "pourboire",
+    "part_of_speech": "noun",
+    "rank": 635
+  },
+  {
+    "term": "pré",
+    "part_of_speech": "noun",
+    "rank": 636
+  },
+  {
+    "term": "pétanque",
+    "part_of_speech": "noun",
+    "rank": 637
+  },
+  {
+    "term": "pêche",
+    "part_of_speech": "noun",
+    "rank": 638
+  },
+  {
+    "term": "rabat",
+    "part_of_speech": "noun",
+    "rank": 639
+  },
+  {
+    "term": "restau",
+    "part_of_speech": "noun",
+    "rank": 640
+  },
+  {
+    "term": "restaurer",
+    "part_of_speech": "verb",
+    "rank": 641
+  },
+  {
+    "term": "rhum",
+    "part_of_speech": "noun",
+    "rank": 642
+  },
+  {
+    "term": "ré",
+    "part_of_speech": "noun",
+    "rank": 643
+  },
+  {
+    "term": "rédiger",
+    "part_of_speech": "verb",
+    "rank": 644
+  },
+  {
+    "term": "résistant",
+    "part_of_speech": "noun",
+    "rank": 645
+  },
+  {
+    "term": "sardine",
+    "part_of_speech": "noun",
+    "rank": 646
+  },
+  {
+    "term": "saucisson",
+    "part_of_speech": "noun",
+    "rank": 647
+  },
+  {
+    "term": "skier",
+    "part_of_speech": "verb",
+    "rank": 648
+  },
+  {
+    "term": "spaghetti",
+    "part_of_speech": "noun",
+    "rank": 649
+  },
+  {
+    "term": "spécialement",
+    "part_of_speech": "adverb",
+    "rank": 650
+  },
+  {
+    "term": "sympathie",
+    "part_of_speech": "noun",
+    "rank": 651
+  },
+  {
+    "term": "total",
+    "part_of_speech": "noun",
+    "rank": 652
+  },
+  {
+    "term": "trop",
+    "part_of_speech": "noun",
+    "rank": 653
+  },
+  {
+    "term": "zoo",
+    "part_of_speech": "noun",
+    "rank": 654
+  },
+  {
+    "term": "éclairage",
+    "part_of_speech": "noun",
+    "rank": 655
+  },
+  {
+    "term": "écu",
+    "part_of_speech": "noun",
+    "rank": 656
+  },
+  {
+    "term": "écurie",
+    "part_of_speech": "noun",
+    "rank": 657
+  },
+  {
+    "term": "épeler",
+    "part_of_speech": "verb",
+    "rank": 658
+  },
+  {
+    "term": "épice",
+    "part_of_speech": "noun",
+    "rank": 659
+  },
+  {
+    "term": "épicer",
+    "part_of_speech": "verb",
+    "rank": 660
+  },
+  {
+    "term": "épisode",
+    "part_of_speech": "noun",
+    "rank": 661
+  },
+  {
+    "term": "éplucher",
+    "part_of_speech": "verb",
+    "rank": 662
+  }
+]

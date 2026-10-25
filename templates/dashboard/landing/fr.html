@@ -1,0 +1,71 @@
+{% extends 'dashboard/landing/_base.html' %}
+{% load i18n %}
+
+{# FRANSIZCA hedefin pazarlama metni — `/learn-french/`.
+   Fransızca öğrenen kitlenin gerekçesi Almancadan da farklı: Fransa/Belçika'da
+   lisans-yüksek lisans, Kanada (Québec) göçmenlik puanı, Erasmus ve TCF/DELF
+   sınavları. Metin oraya konuşuyor. #}
+
+{% block full_title %}{% trans "Ücretsiz Fransızca Öğrenme Platformu — DELF ve TCF Hazırlığı" %} | LevelEnAI{% endblock %}
+{% block meta_description %}{% trans "14.000+ Fransızca kelime, 18 gramer konusu ve her kelimede Türkçe karşılık. A1'den C2'ye seviye takibi, AI sohbet pratiği — tamamen ücretsiz." %}{% endblock %}
+{% block og_title %}{% trans "LevelEnAI — Ücretsiz Fransızca öğrenme ve sınav hazırlığı" %}{% endblock %}
+{% block og_description %}{% trans "Seviyeye göre kelime listeleri, Fransızca gramer konuları ve AI pratik. Kayıt ol, ücretsiz kullan." %}{% endblock %}
+
+{% block l_hero_title %}{% trans "Fransızcayı sıfırdan kur." %}
+                <span class="l-highlight">{% trans "Sınavı geç." %}</span>{% endblock %}
+
+{% block l_hero_desc %}{% trans "A1'den C2'ye 14.000+ kelime, 18 Fransızca gramer konusu ve AI sohbet pratiği. Türkçe anlatımlı; DELF, TCF ve üniversite başvuruları için tek platformda." %}{% endblock %}
+
+{% block l_hero_image_alt %}{% trans 'LevelEnAI paneli: Fransızca seviye takibi, kelime hazinesi ilerlemesi ve haftalık çalışma grafiği' %}{% endblock %}
+
+{% block l_capability_1_title %}{% trans "Seviye garantili liste" %}{% endblock %}
+{% block l_capability_1_text %}{% trans "Kelime seviyeleri akademik korpustan" %}{% endblock %}
+{% block l_capability_2_title %}{% trans "14.000+ kelime" %}{% endblock %}
+
+{% block l_problem_title %}{% trans "Fransızca kelime listesi bulmak kolay, sıralı olanı değil" %}{% endblock %}
+{% block l_problem_lead %}{% trans "İnternetteki listeler hangi seviyeye ait olduğunu söylemiyor. C1 kelimesini A1'de ezberleyip gündelik cümleyi kuramıyorsun." %}{% endblock %}
+{% block l_problem_item_3 %}{% trans "Hangi kelimenin hangi seviyeye ait olduğu belirsiz" %}{% endblock %}
+
+{% block l_solution_item_1 %}{% trans "14.000+ kelime seviyelere ayrılmış, sırayla ilerliyorsun" %}{% endblock %}
+{% block l_solution_item_3 %}{% trans "Kesme işareti ve aksanlar cevapta esnek değerlendiriliyor, eksik aksan uyarı veriyor" %}{% endblock %}
+
+{% block l_audience_lead %}{% trans "Fransa'da okumak, Québec'e başvurmak ya da Fransızca bir sertifika almak gündemindeyse buradasın." %}{% endblock %}
+
+{% block l_audience_cards %}
+            <div class="audience-card">
+                <span class="audience-icon icon-purple"><svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
+                <h3>{% trans "Üniversite adayları" %}</h3>
+                <p>{% trans "Fransa ve Belçika başvuruları B2 istiyor. A1'den sırayla ilerle, seviyeni panelde gör." %}</p>
+            </div>
+            <div class="audience-card">
+                <span class="audience-icon icon-green"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
+                <h3>{% trans "Kanada'ya başvuranlar" %}</h3>
+                <p>{% trans "Québec ve federal programlarda Fransızca puan getiriyor. TCF kelime havuzunu sistemli çalış." %}</p>
+            </div>
+            <div class="audience-card">
+                <span class="audience-icon icon-blue"><svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></span>
+                <h3>{% trans "Erasmus öğrencileri" %}</h3>
+                <p>{% trans "Dönem başlamadan gündelik Fransızcayı kur: kelime, gramer ve AI ile konuşma pratiği." %}</p>
+            </div>
+            <div class="audience-card">
+                <span class="audience-icon icon-orange"><svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></span>
+                <h3>{% trans "Kendi listesini tutanlar" %}</h3>
+                <p>{% trans "Dersten veya kitaptan aldığın kelimeleri gir; AI anlamını ve örnek cümlesini yazsın." %}</p>
+            </div>
+{% endblock %}
+
+{% block l_metric_words %}14000{% endblock %}
+
+{% block l_features_title %}{% trans "Fransızcaya sistemli başlangıç" %}{% endblock %}
+{% block l_feature_1_title %}{% trans "Mülakat Hazırlık" %}{% endblock %}
+{% block l_feature_1_text %}{% trans "Fransızca iş görüşmesine hazırlan: pozisyonunu yaz, soru ve cevaplar Fransızca-Türkçe üretilsin." %}{% endblock %}
+{% block l_feature_2_text %}{% trans "A1'den C2'ye 14.000'den fazla kelime. Seviye seç, sırayla ilerle. Yanlışların otomatik tekrar eder." %}{% endblock %}
+{% block l_feature_4_text %}{% trans "Passé composé, imparfait, subjonctif, pronoms — her konuda olumlu, olumsuz, soru örnekleri." %}{% endblock %}
+{% block l_feature_5_text %}{% trans "AI asistanla Fransızca konuş, hatalarını görsün, doğrusunu öğren." %}{% endblock %}
+
+{% block l_steps_title %}{% trans "3 adımda Fransızca pratiğine başla" %}{% endblock %}
+
+{% block l_why_free_text %}{% trans "LevelEnAI bir yan ürün olarak geliştirildi. Amacı dil sertifikasının kimsenin önünde engel olmaması; abonelik satmak değil." %}{% endblock %}
+
+{% block l_footer_tagline %}{% trans "Ücretsiz Fransızca öğrenme ve sınav hazırlığı." %}{% endblock %}
+{% block l_footer_grammar_label %}{% trans "Fransızca Gramer" %}{% endblock %}

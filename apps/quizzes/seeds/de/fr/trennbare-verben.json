@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Er ruft seinen Freund an.",
+    "correct_answer": "Il appelle son ami.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir stehen um 7 Uhr auf.",
+    "correct_answer": "Nous nous levons à 7 heures.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie steht nicht um 7 Uhr auf.",
+    "correct_answer": "Elle ne se lève pas à 7 heures.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Lehrerin erklärte die Aufgabe.",
+    "correct_answer": "L'enseignante expliqua le devoir.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich habe meine Großmutter besucht.",
+    "correct_answer": "J'ai visité ma grand-mère.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Il appelle son ami.",
+    "correct_answer": "Er ruft seinen Freund an.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle achète au supermarché.",
+    "correct_answer": "Sie kauft im Supermarkt ein.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ils quittent la maison.",
+    "correct_answer": "Sie verlassen das Haus.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je raconte une histoire.",
+    "correct_answer": "Ich erzähle eine Geschichte.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle ne se réveille pas tôt.",
+    "correct_answer": "Sie wacht nicht früh auf.",
+    "choices": null
+  }
+]

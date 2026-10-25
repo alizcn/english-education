@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Haus wird gebaut.",
+    "correct_answer": "La maison est construite.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Brief wurde geschrieben.",
+    "correct_answer": "La lettre a été écrite.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Fenster ist geschlossen.",
+    "correct_answer": "La fenêtre est fermée.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Kuchen wird nicht gegessen.",
+    "correct_answer": "Le gâteau n'est pas mangé.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wird die Tür geöffnet?",
+    "correct_answer": "La porte est-elle ouverte?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Le repas est préparé.",
+    "correct_answer": "Das Essen wird zubereitet.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "La lettre a été envoyée.",
+    "correct_answer": "Der Brief ist versendet worden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "La porte n'est pas fermée.",
+    "correct_answer": "Die Tür wird nicht geschlossen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Est-ce que le livre est lu?",
+    "correct_answer": "Wird das Buch gelesen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Les fleurs sont cueillies par les enfants.",
+    "correct_answer": "Die Blumen werden von den Kindern gepflückt.",
+    "choices": null
+  }
+]

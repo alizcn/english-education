@@ -22,25 +22,25 @@
         {% if is_correct %}
             <div class="feedback-label">{% trans "✓ Doğru!" %}</div>
             <div style="margin-top:0.35rem;">
-                <strong>{{ word.english }}</strong> {% if word.part_of_speech %}<span class="muted">({{ word.part_of_speech }})</span>{% endif %}
-                = <strong>{{ word.turkish }}</strong>
+                <strong>{{ word.term }}</strong> {% if word.part_of_speech %}<span class="muted">({{ word.part_of_speech }})</span>{% endif %}
+                = <strong>{{ correct.meaning }}</strong>
             </div>
         {% else %}
             <div class="feedback-label">{% trans "✗ Yanlış — tekrar havuzuna eklendi" %}</div>
             <div style="margin-top:0.35rem;">
                 {% trans "Senin:" %} <em>{% if selected %}{{ selected }}{% else %}{% trans "(boş)" %}{% endif %}</em><br>
-                {% trans "Doğrusu:" %} <strong>{{ word.turkish }}</strong>
+                {% trans "Doğrusu:" %} <strong>{{ correct.meaning }}</strong>
             </div>
             <div style="margin-top:0.5rem;">
-                <strong>{{ word.english }}</strong> {% if word.part_of_speech %}<span class="muted">({{ word.part_of_speech }})</span>{% endif %}
+                <strong>{{ word.term }}</strong> {% if word.part_of_speech %}<span class="muted">({{ word.part_of_speech }})</span>{% endif %}
             </div>
         {% endif %}
 
-        {% if word.example_en %}
+        {% if word.example %}
         <div class="bank-example" style="margin-top:0.75rem; background:var(--surface);">
-            <div>"{{ word.example_en }}"</div>
-            {% if word.example_tr %}
-            <div class="muted" style="font-size:0.85rem; margin-top:0.2rem;">{{ word.example_tr }}</div>
+            <div>"{{ word.example }}"</div>
+            {% if correct.example_translation %}
+            <div class="muted" style="font-size:0.85rem; margin-top:0.2rem;">{{ correct.example_translation }}</div>
             {% endif %}
         </div>
         {% endif %}

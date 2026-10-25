@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "O dün gelmiş.",
+    "correct_answer": "Il/Elle est venu(e) hier.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "J'ai mangé du pain.",
+    "correct_answer": "Ekmek yemiş.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kimse bu filmi izlememiş.",
+    "correct_answer": "Personne n'a regardé ce film.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Les enfants n'ont pas terminé leurs devoirs.",
+    "correct_answer": "Çocuklar ödevlerini yapmamışlar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "O evi satmış mı?",
+    "correct_answer": "A-t-il/elle vendu la maison?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Es-tu allé à Istanbul?",
+    "correct_answer": "İstanbul'a gitmişsin mi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Onlar tatile gitmişler ve çok eğlenmişler.",
+    "correct_answer": "Ils sont allés en vacances et se sont beaucoup amusés.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Le train a quitté la gare.",
+    "correct_answer": "Tren istasyondan ayrılmış.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ali eve gelmiş, yemek yapmış ve yemiş.",
+    "correct_answer": "Ali est venu à la maison, a préparé à manger et a mangé.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je n'ai pas compris la leçon.",
+    "correct_answer": "Dersi anlamamışım.",
+    "choices": null
+  }
+]

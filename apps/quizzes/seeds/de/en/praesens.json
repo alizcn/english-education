@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich trinke jeden Morgen Kaffee.",
+    "correct_answer": "I drink coffee every morning.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie spielen nicht im Park.",
+    "correct_answer": "They don't play in the park.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Kind schläft jetzt.",
+    "correct_answer": "The child is sleeping now.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Arbeitest du morgen?",
+    "correct_answer": "Are you working tomorrow?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir verstehen die Frage nicht.",
+    "correct_answer": "We don't understand the question.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Zug fährt um 9 Uhr ab.",
+    "correct_answer": "The train departs at 9 o'clock.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich habe keinen Computer.",
+    "correct_answer": "I don't have a computer.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Machst du die Hausaufgaben?",
+    "correct_answer": "Are you doing your homework?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I go to school every day.",
+    "correct_answer": "Ich gehe jeden Tag zur Schule.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Do you have a car?",
+    "correct_answer": "Hast du ein Auto?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She doesn't eat meat.",
+    "correct_answer": "Sie isst kein Fleisch.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We are working now.",
+    "correct_answer": "Wir arbeiten jetzt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They don't come tomorrow.",
+    "correct_answer": "Sie kommen morgen nicht.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I understand the question.",
+    "correct_answer": "Ich verstehe die Frage.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Does he live in Berlin?",
+    "correct_answer": "Wohnt er in Berlin?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We don't play in the rain.",
+    "correct_answer": "Wir spielen nicht im Regen.",
+    "choices": null
+  }
+]

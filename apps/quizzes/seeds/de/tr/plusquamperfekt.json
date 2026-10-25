@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich hatte das Buch gelesen.",
+    "correct_answer": "Kitabı okumuştum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie waren zu spät angekommen.",
+    "correct_answer": "Çok geç gelmişlerdi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Du hattest alles vergessen.",
+    "correct_answer": "Her şeyi unuttun.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Er war nicht gegangen.",
+    "correct_answer": "Gitmemişti.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir hatten das Fenster geschlossen.",
+    "correct_answer": "Pencereyi kapatmıştık.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kitabı okumuştum.",
+    "correct_answer": "Ich hatte das Buch gelesen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ev satmışlardı.",
+    "correct_answer": "Sie hatten das Haus verkauft.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Hiç böyle bir şey görmemişti.",
+    "correct_answer": "Er hatte solch etwas noch nie gesehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Çok erken kalkmıştı.",
+    "correct_answer": "Sie war sehr früh aufgestanden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Yardım etmemişlerdi.",
+    "correct_answer": "Sie hatten nicht geholfen.",
+    "choices": null
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Masada bir kalem ___",
+    "correct_answer": "var",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Çantada para ___",
+    "correct_answer": "yok",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Buzdolabında yemek ___ mı?",
+    "correct_answer": "var",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Bahçede çiçek ___ mı?",
+    "correct_answer": "var",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Dün cüzdanında para ___",
+    "correct_answer": "vardı",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Geçen yıl şirkette insan kaynakları departmanı ___ mıydı?",
+    "correct_answer": "var",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Benim bir arabam ___",
+    "correct_answer": "var",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ona bir kardeşi ___",
+    "correct_answer": "yok",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Odada pencere ___",
+    "correct_answer": "var",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Cebimde kalem ___",
+    "correct_answer": "yok",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Evde bir kedi ___",
+    "correct_answer": "var",
+    "choices": [
+      "var",
+      "yok",
+      "vardı",
+      "olmaz"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Çocukken bahçede oyun alanı ___",
+    "correct_answer": "vardı",
+    "choices": [
+      "var",
+      "vardı",
+      "yok",
+      "yoktu"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Çantada kitap ___",
+    "correct_answer": "var",
+    "choices": [
+      "yok",
+      "var",
+      "vardı",
+      "olmayacak"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Masada iki telefon ___",
+    "correct_answer": "var",
+    "choices": [
+      "var",
+      "yok",
+      "vardı",
+      "olmaz"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Şirkette yönetici ___ mı?",
+    "correct_answer": "var",
+    "choices": [
+      "var",
+      "yok",
+      "vardı",
+      "olmaz"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Dün parkta çocuklar ___ mıydı?",
+    "correct_answer": "var",
+    "choices": [
+      "var",
+      "vardı",
+      "yok",
+      "yoktu"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Cüzdanımda hiç para ___",
+    "correct_answer": "yok",
+    "choices": [
+      "var",
+      "yok",
+      "vardı",
+      "olmaz"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Apartmanda sekiz daire ___",
+    "correct_answer": "var",
+    "choices": [
+      "var",
+      "yok",
+      "vardı",
+      "olmaz"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "İki yıl önce bu şehirde metrolar ___",
+    "correct_answer": "vardı",
+    "choices": [
+      "var",
+      "vardı",
+      "yok",
+      "yoktu"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Bahçede ağaçlar ___",
+    "correct_answer": "var",
+    "choices": [
+      "var",
+      "yok",
+      "vardı",
+      "yoktu"
+    ]
+  }
+]

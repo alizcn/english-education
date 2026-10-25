@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je bois du café chaque matin.",
+    "correct_answer": "I drink coffee every morning.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle a une clé.",
+    "correct_answer": "She has a key.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Les enfants aiment les jeux.",
+    "correct_answer": "The children like games.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il ne veut pas de sucre.",
+    "correct_answer": "He doesn't want any sugar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu as des frères et sœurs?",
+    "correct_answer": "Do you have brothers and sisters?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I eat bread.",
+    "correct_answer": "Je mange du pain.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She reads the newspaper.",
+    "correct_answer": "Elle lit le journal.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Do they have an apartment?",
+    "correct_answer": "Ont-ils un appartement?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We don't drink milk.",
+    "correct_answer": "Nous ne buvons pas de lait.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The music is beautiful.",
+    "correct_answer": "La musique est belle.",
+    "choices": null
+  }
+]

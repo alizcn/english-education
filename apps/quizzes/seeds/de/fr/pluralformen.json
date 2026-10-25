@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Katzen schlafen auf dem Sofa.",
+    "correct_answer": "Les chats dorment sur le canapé.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Les livres sont intéressants.",
+    "correct_answer": "Die Bücher sind interessant.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Studenten lernen nicht Französisch.",
+    "correct_answer": "Les étudiants n'apprennent pas le français.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Où sont les enfants?",
+    "correct_answer": "Wo sind die Kinder?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Hast du die Briefe geschrieben?",
+    "correct_answer": "As-tu écrit les lettres?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Les filles ne jouent pas dans le parc.",
+    "correct_answer": "Die Mädchen spielen nicht im Park.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Blumen sind sehr schön.",
+    "correct_answer": "Les fleurs sont très belles.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Tes amis sont ici.",
+    "correct_answer": "Deine Freunde sind hier.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir kaufen keine Autos.",
+    "correct_answer": "Nous n'achetons pas de voitures.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ils ont plusieurs maisons.",
+    "correct_answer": "Sie haben mehrere Häuser.",
+    "choices": null
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I am eating lunch.",
+    "correct_answer": "Öğle yemeği yiyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ben şu anda sınavı çözüyorum.",
+    "correct_answer": "I am doing the exam right now.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She is not watching TV.",
+    "correct_answer": "O TV izlemiyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onlar bahçede oynuyorlar.",
+    "correct_answer": "They are playing in the garden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Are you studying English?",
+    "correct_answer": "Siz İngilizce mi öğreniyorsunuz?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Şu anda yağmur yağıyor mu?",
+    "correct_answer": "Is it raining right now?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "We are preparing dinner.",
+    "correct_answer": "Akşam yemeğini hazırlıyoruz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kedi kanepeyde uyuyor.",
+    "correct_answer": "The cat is sleeping on the sofa.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Is he working today?",
+    "correct_answer": "O bugün çalışıyor mu?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ben mektup yazıyorum.",
+    "correct_answer": "I am writing a letter.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The children are not listening to the teacher.",
+    "correct_answer": "Çocuklar öğretmeni dinlemiyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Siz ne yapıyorsunuz?",
+    "correct_answer": "What are you doing?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I am not feeling well.",
+    "correct_answer": "Kendimi iyi hissetmiyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Annesi mutfakta yemek pişiriyor.",
+    "correct_answer": "His mother is cooking in the kitchen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Are they coming to the party?",
+    "correct_answer": "Onlar partiye mi geliyor?",
+    "choices": null
+  }
+]

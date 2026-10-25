@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gitmeliyim.",
+    "correct_answer": "Je dois partir.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yememeli.",
+    "correct_answer": "On ne doit pas manger.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yapmalısınız.",
+    "correct_answer": "Vous devez faire.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gitmemelisiniz mi?",
+    "correct_answer": "Ne devez-vous pas partir?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Beklememeliyim.",
+    "correct_answer": "Je ne dois pas attendre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Tu dois manger.",
+    "correct_answer": "Yemelisin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je ne dois pas dire.",
+    "correct_answer": "Söylememeliyim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Vous devez rester.",
+    "correct_answer": "Kalmalısınız.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Est-ce qu'on doit attendre?",
+    "correct_answer": "Beklemeli mi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Il ne doit pas oublier.",
+    "correct_answer": "Unutmamalı.",
+    "choices": null
+  }
+]

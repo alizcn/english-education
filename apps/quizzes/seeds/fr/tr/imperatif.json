@@ -1,0 +1,68 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Parle plus lentement.",
+    "correct_answer": "Daha yavaş konuş.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Fermez la porte, s'il vous plaît.",
+    "correct_answer": "Lütfen kapıyı kapatın.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Assieds-toi ici.",
+    "correct_answer": "Buraya otur.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Venez demain!",
+    "correct_answer": "Yarın gelin!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ne sois pas timide.",
+    "correct_answer": "Utangaç olma.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Aidez-nous.",
+    "correct_answer": "Bize yardım edin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bana yardım et.",
+    "correct_answer": "Aide-moi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bunu yeme!",
+    "correct_answer": "Ne mange pas ça!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onu dinle.",
+    "correct_answer": "Écoute-le.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Buraya gel.",
+    "correct_answer": "Viens ici.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bize göster.",
+    "correct_answer": "Montre-nous.",
+    "choices": null
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich machte die Hausaufgaben.",
+    "correct_answer": "I did the homework.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie kaufte ein neues Buch.",
+    "correct_answer": "She bought a new book.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Er war im Kino.",
+    "correct_answer": "He was at the cinema.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir spielten im Park.",
+    "correct_answer": "We played in the park.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Junge aß einen Apfel.",
+    "correct_answer": "The boy ate an apple.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Warst du im Kino?",
+    "correct_answer": "Were you at the cinema?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I went to school yesterday.",
+    "correct_answer": "Ich ging gestern zur Schule.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She did not write a letter.",
+    "correct_answer": "Sie schrieb keinen Brief.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Did they come home?",
+    "correct_answer": "Kamen sie nach Hause?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We drank coffee.",
+    "correct_answer": "Wir tranken Kaffee.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He had no time.",
+    "correct_answer": "Er hatte keine Zeit.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "You (du) learned German.",
+    "correct_answer": "Du lerntest Deutsch.",
+    "choices": null
+  }
+]

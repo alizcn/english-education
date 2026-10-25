@@ -13,7 +13,7 @@ from django.utils import timezone
 from apps.quizzes.models import QuizSession
 from apps.interviews.models import InterviewSession
 from apps.chat.models import ChatConversation
-from apps.accounts.models import UserLevel
+from apps.accounts.models import UserCourse
 
 from .decorators import superuser_required
 from .registry import REGISTRY, get_resource, grouped_resources
@@ -143,8 +143,10 @@ def dashboard(request):
         .order_by('-started_at')[:8]
     )
 
+    # Kurs başına seviye dağılımı. Kullanıcı birden çok dil öğrenebildiği
+    # için satır sayısı kullanıcı sayısından büyük olabilir.
     level_breakdown = (
-        UserLevel.objects.values('current_level')
+        UserCourse.objects.values('current_level')
         .annotate(c=Count('id'))
         .order_by('-c')
     )

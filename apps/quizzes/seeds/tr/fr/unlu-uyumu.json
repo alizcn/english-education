@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Masada kitap var.",
+    "correct_answer": "Il y a un livre sur la table.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je suis à la maison.",
+    "correct_answer": "Evdeyim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kalemle yazıyorum.",
+    "correct_answer": "J'écris avec un crayon.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Il vient de l'école.",
+    "correct_answer": "Okuldan geliyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Telefonda konuşuyor.",
+    "correct_answer": "Il/Elle parle au téléphone.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle n'habite pas ici.",
+    "correct_answer": "Burada oturmuyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Okuldan eve gidiyorum.",
+    "correct_answer": "Je vais de l'école à la maison.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Le crayon n'est pas sur la table.",
+    "correct_answer": "Kalem masada değil.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Öğretmenden haber aldık.",
+    "correct_answer": "Nous avons reçu des nouvelles du professeur.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle porte une robe à fleurs.",
+    "correct_answer": "Güllü elbise giyiyor.",
+    "choices": null
+  }
+]

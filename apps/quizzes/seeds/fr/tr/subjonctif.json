@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je veux que tu viennes.",
+    "correct_answer": "Gelmeni istiyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il faut que nous parlions.",
+    "correct_answer": "Konuşmamız gerekiyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je ne crois pas qu'elle comprenne.",
+    "correct_answer": "Anladığını düşünmüyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "J'ai peur que tu sois seul.",
+    "correct_answer": "Yalnız olmanı korkuyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle souhaite qu'il réussisse.",
+    "correct_answer": "Başarılı olmasını umuyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "C'est important que vous arriviez à l'heure.",
+    "correct_answer": "Zamanında gelmeniz önemlidir.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Okulda başarılı olmasını istiyorum.",
+    "correct_answer": "Je veux qu'il réussisse à l'école.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Temiz olması gerekiyor.",
+    "correct_answer": "Il faut que ce soit propre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Gelmediğinden endişe ediyorum.",
+    "correct_answer": "J'ai peur qu'il ne vienne pas.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Senin burada olman beni mutlu ediyor.",
+    "correct_answer": "Je suis heureux que tu sois ici.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Mümkün olması gerekiyor.",
+    "correct_answer": "Il est nécessaire que ce soit possible.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Zamanında gelmesini istiyorum.",
+    "correct_answer": "Je veux qu'il arrive à l'heure.",
+    "choices": null
+  }
+]

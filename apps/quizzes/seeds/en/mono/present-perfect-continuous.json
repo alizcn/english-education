@@ -1,0 +1,140 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "I have ___ cooking since 2 PM.",
+    "correct_answer": "been",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ been working here for five years.",
+    "correct_answer": "has",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They have been ___ in the city since January.",
+    "correct_answer": "living",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He hasn't ___ sleeping well lately.",
+    "correct_answer": "been",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ you been waiting long?",
+    "correct_answer": "Have",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We have been ___ for two hours.",
+    "correct_answer": "studying",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The kids have been ___ in the garden all morning.",
+    "correct_answer": "playing",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What form is 'I have been learning English'?",
+    "correct_answer": "Present Perfect Continuous",
+    "choices": [
+      "Present Simple",
+      "Present Continuous",
+      "Present Perfect Continuous",
+      "Past Perfect"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "She ___ been working on this project for three weeks.",
+    "correct_answer": "has",
+    "choices": [
+      "is",
+      "has",
+      "have",
+      "was"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "How long have you ___ living here?",
+    "correct_answer": "been",
+    "choices": [
+      "been",
+      "being",
+      "be",
+      "was"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "They haven't ___ playing football since last week.",
+    "correct_answer": "been",
+    "choices": [
+      "been",
+      "being",
+      "be",
+      "have"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "How long ___ she been studying for?",
+    "correct_answer": "has",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I haven't ___ sleeping well.",
+    "correct_answer": "been",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We have been ___ this book all day.",
+    "correct_answer": "reading",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence is correct?",
+    "correct_answer": "I have been working here for five years.",
+    "choices": [
+      "I am working here for five years.",
+      "I have been working here for five years.",
+      "I work here for five years.",
+      "I was working here for five years."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Have you ___ eating breakfast?",
+    "correct_answer": "been",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Choose the correct sentence:",
+    "correct_answer": "He has been working on the task.",
+    "choices": [
+      "He has working on the task.",
+      "He is working on the task.",
+      "He has been working on the task.",
+      "He work on the task."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "It hasn't ___ raining all day.",
+    "correct_answer": "been",
+    "choices": null
+  }
+]

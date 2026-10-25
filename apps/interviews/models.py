@@ -2,6 +2,8 @@ from django.conf import settings
 from django.db import models
 from django.utils.translation import gettext_lazy as _, pgettext_lazy
 
+from services import languages
+
 
 JOB_CATEGORIES = [
     # Pozisyon bazlı
@@ -67,6 +69,18 @@ class InterviewSession(models.Model):
         (FAILED, pgettext_lazy('mülakat durumu', 'Başarısız')),
     ]
 
+    # Sorular hedef ve ana dilde çift olarak üretiliyor; hangi çift olduğunu
+    # oturumun kendisi taşımak zorunda, yoksa eski kayıtlar yeniden
+    # yorumlanamaz.
+    target_language = models.CharField(
+        max_length=5, choices=languages.LANGUAGE_CHOICES, default='en',
+        db_index=True, verbose_name=_('Öğrenilen dil'),
+    )
+    native_language = models.CharField(
+        max_length=5, choices=languages.LANGUAGE_CHOICES, default='tr',
+        verbose_name=_('Anlatım dili'),
+    )
+
     source = models.CharField(max_length=10, choices=SOURCE_CHOICES, default=CATEGORY)
     job_category = models.CharField(max_length=30, choices=JOB_CATEGORIES, default='custom')
     custom_title = models.CharField(max_length=200, blank=True)
@@ -90,7 +104,11 @@ class InterviewSession(models.Model):
             return f'CV: {self.cv_filename}'
         if self.source == self.CUSTOM and self.custom_title:
             return self.custom_title
-        return dict(JOB_CATEGORIES).get(self.job_category, self.job_category)
+        # str() şart: JOB_CATEGORIES etiketleri gettext_lazy proxy'si ve bu
+        # property __str__ üzerinden auditlog'a gidiyor. Proxy döndürüldüğünde
+        # `__str__ returned non-string` ile patlıyordu — kategori seçilerek
+        # açılan her mülakat 500 veriyordu.
+        return str(dict(JOB_CATEGORIES).get(self.job_category, self.job_category))
 
     @property
     def question_count(self):

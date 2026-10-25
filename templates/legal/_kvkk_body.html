@@ -1,4 +1,4 @@
-{% load i18n %}
+{% load i18n learn_extras %}
 <p>
     <strong>{% trans "Veri Sorumlusu" %}:</strong> Levelenai ({% trans "operatör bilgisi üretim öncesi güncellenecek" %}).
 </p>
@@ -24,7 +24,7 @@
 <h4>{% trans "İşleme Amaçları" %}</h4>
 <ul>
     <li>{% trans "Hesap oluşturma, kimlik doğrulama ve oturum yönetimi." %}</li>
-    <li>{% trans "İngilizce mülakat hazırlık hizmetinin sunulması ve ilerleme takibi." %}</li>
+    <li>{% target_name as tlang %}{% blocktrans with lang=tlang %}{{ lang }} mülakat hazırlık hizmetinin sunulması ve ilerleme takibi.{% endblocktrans %}</li>
     <li>{% trans "Kullanıcı destek taleplerinin karşılanması." %}</li>
     <li>{% trans "Yasal yükümlülüklerin yerine getirilmesi ve kötüye kullanımın önlenmesi." %}</li>
 </ul>

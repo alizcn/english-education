@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "La maison a été construite en 1950.",
+    "correct_answer": "Ev 1950'de inşa edildi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Rapor ekip tarafından tamamlanmadı.",
+    "correct_answer": "Le rapport n'a pas été complété par l'équipe.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Les fleurs sont plantées dans le jardin.",
+    "correct_answer": "Çiçekler bahçeya dikiliyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Çocuk terk edildi.",
+    "correct_answer": "L'enfant a été abandonné.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "La lettre n'a pas été écrite par ma mère.",
+    "correct_answer": "Mektup annem tarafından yazılmadı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bu karar kabul edildi mi?",
+    "correct_answer": "Cette décision a-t-elle été acceptée?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "La présentation est préparée pour demain.",
+    "correct_answer": "Sunum yarın için hazırlanıyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Proje müdür tarafından onaylandı.",
+    "correct_answer": "Le projet a été approuvé par le directeur.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Les trois maisons ont été rénovées.",
+    "correct_answer": "Üç ev yenilenmiştir.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Mektup öğretmen tarafından yazıldı mı?",
+    "correct_answer": "La lettre a-t-elle été écrite par l'enseignant?",
+    "choices": null
+  }
+]

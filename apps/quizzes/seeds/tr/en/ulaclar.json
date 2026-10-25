@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kahve içerken gazete okuduk.",
+    "correct_answer": "We read the newspaper while drinking coffee.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yemek yiyince tatlı getirdiler.",
+    "correct_answer": "When we finished eating, they brought dessert.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Koşarak okula gittim.",
+    "correct_answer": "I went to school by running.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Müzik dinlerken ders çalıştı.",
+    "correct_answer": "She studied while listening to music.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yemek pişirirken telefon çaldı mı?",
+    "correct_answer": "Did the phone ring while cooking?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Arkadaş gelince sevinçten bağırışlar yaptık.",
+    "correct_answer": "When the friend arrived, we shouted with joy.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We laughed while watching the movie.",
+    "correct_answer": "Filmi izlerken gülüyorduk.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "When she finished work, she went home.",
+    "correct_answer": "İşinden gelince eve gitti.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He succeeded by studying hard.",
+    "correct_answer": "Çok çalışarak başarılı oldu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I was cooking when he called.",
+    "correct_answer": "Yemek pişirirken beni aradı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "By running, we arrived on time.",
+    "correct_answer": "Koşarak zamanında ulaştık.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Did you study while listening to music?",
+    "correct_answer": "Müzik dinlerken mi ders çalıştın?",
+    "choices": null
+  }
+]

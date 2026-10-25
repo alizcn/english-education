@@ -14,7 +14,7 @@ from .models import QuizTemplate
 
 def item(prompt='Translate: cat'):
     return {
-        'question_type': 'translate_en_tr',
+        'question_type': 'translate_to_native',
         'prompt': prompt,
         'correct_answer': 'kedi',
         'choices': None,
@@ -38,7 +38,7 @@ class GenerateViewTests(TestCase):
         tmpl = QuizTemplate.objects.get(user=self.user, kind=QuizTemplate.TOPIC)
         self.assertEqual(tmpl.status, QuizTemplate.PENDING)
         self.assertEqual(tmpl.questions_data, [])
-        delay.assert_called_once_with(tmpl.pk, self.topic.pk)
+        delay.assert_called_once_with(tmpl.pk, self.topic.pk, 'en', 'tr')
         self.assertRedirects(resp, reverse('quizzes:topic_picker', args=[self.topic.slug]))
 
     def test_second_request_does_not_queue_a_duplicate(self):
@@ -53,14 +53,15 @@ class GenerateViewTests(TestCase):
 
     def test_word_generate_queues(self):
         for i in range(12):
-            Word.objects.create(user=self.user, english=f'w{i}', turkish=f'k{i}')
+            Word.objects.create(user=self.user, term=f'w{i}', meaning=f'k{i}',
+                                target_language='en', native_language='tr')
         with mock.patch.object(tasks.generate_word_template, 'delay') as delay, \
              mock.patch('services.claude_client.generate_word_quiz_extras') as ai:
             resp = self.client.post(reverse('quizzes:generate_word'))
         ai.assert_not_called()
         tmpl = QuizTemplate.objects.get(user=self.user, kind=QuizTemplate.WORD)
         self.assertEqual(tmpl.status, QuizTemplate.PENDING)
-        delay.assert_called_once_with(tmpl.pk, self.user.pk)
+        delay.assert_called_once_with(tmpl.pk, self.user.pk, 'en', 'tr')
         self.assertRedirects(resp, reverse('quizzes:word_picker'))
 
     def test_cannot_start_a_template_that_is_not_ready(self):
@@ -114,6 +115,16 @@ class GenerateViewTests(TestCase):
         self.assertEqual(resp.status_code, 404)
 
 
+# Mock yardımcıları bilinçli olarak İMZA-TOLERANSLI (*args/**kwargs).
+#
+# Bu mock'lar üretim imzasını teste kopyalıyordu: `generate_topic_quiz`e bir
+# parametre eklendiğinde beş test birden kırılıyor ve hiçbiri gerçekten
+# imzayı doğrulamak için yazılmamış — parça planını, kısmi kaydı ve hata
+# yayılımını doğruluyorlar. Tolerans o iddiaları korurken imzayı test
+# kapsamından çıkarıyor; imza tek bir yerde (`test_produce_passes_pair`)
+# doğrulanıyor.
+
+
 class GenerateTaskTests(TestCase):
     def setUp(self):
         self.user = get_user_model().objects.create_user(username='ali', password='x')
@@ -128,7 +139,7 @@ class GenerateTaskTests(TestCase):
         return self.tmpl
 
     def test_chunks_are_collected_and_marked_ready(self):
-        def _chunk(_name, _expl, _ex, n, focus):
+        def _chunk(*_args, n=10, focus='', **_kw):
             return [item(f'{focus} {i}') for i in range(n)]
 
         with mock.patch('services.claude_client.generate_topic_quiz', side_effect=_chunk):
@@ -156,7 +167,7 @@ class GenerateTaskTests(TestCase):
             saves.append((instance.status, len(instance.questions_data or [])))
             return original_save(instance, *args, **kwargs)
 
-        def _chunk(_name, _expl, _ex, n, focus):
+        def _chunk(*_args, n=10, focus='', **_kw):
             return [item(f'{focus} {i}') for i in range(n)]
 
         with mock.patch.object(QuizTemplate, 'save', _spy), \
@@ -173,7 +184,7 @@ class GenerateTaskTests(TestCase):
     def test_one_failing_chunk_still_delivers_the_rest(self):
         calls = []
 
-        def _chunk(_name, _expl, _ex, n, focus):
+        def _chunk(*_args, n=10, focus='', **_kw):
             calls.append(focus)
             if len(calls) == 1:
                 raise ClaudeClientError('bu parça patladı')
@@ -211,12 +222,13 @@ class GenerateTaskTests(TestCase):
 
     def test_word_task_reads_the_pool_once_outside_the_threads(self):
         for i in range(12):
-            Word.objects.create(user=self.user, english=f'w{i}', turkish=f'k{i}')
+            Word.objects.create(user=self.user, term=f'w{i}', meaning=f'k{i}',
+                                target_language='en', native_language='tr')
         tmpl = QuizTemplate.objects.create(
             user=self.user, kind=QuizTemplate.WORD, name='Quiz #1', status=QuizTemplate.PENDING,
         )
 
-        def _chunk(pool, n, focus):
+        def _chunk(pool=None, n=10, focus='', **_kw):
             # Havuz ana parçacıkta okunmuş olmalı; thread'den DB'ye bakmıyoruz.
             self.assertEqual(len(pool), 12)
             return [item(f'{focus} {i}') for i in range(n)]

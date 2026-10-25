@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "La porte est fermée par le gardien.",
+    "correct_answer": "The door is closed by the guard.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The cake was made by the baker.",
+    "correct_answer": "Le gâteau a été fait par le boulanger.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Le rapport a été complété par l'équipe.",
+    "correct_answer": "The report was completed by the team.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The house was built in 1950.",
+    "correct_answer": "La maison a été construite en 1950.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Les fleurs n'ont pas été plantées.",
+    "correct_answer": "The flowers were not planted.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The project will be approved tomorrow.",
+    "correct_answer": "Le projet sera approuvé demain.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Cette lettre est écrite par ma mère.",
+    "correct_answer": "This letter is written by my mother.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The children were not punished.",
+    "correct_answer": "Les enfants n'ont pas été punis.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Le film a été regardé par des millions de personnes.",
+    "correct_answer": "The film was watched by millions of people.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She is loved by everyone.",
+    "correct_answer": "Elle est aimée de tous.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Les résultats n'ont jamais été annoncés.",
+    "correct_answer": "The results were never announced.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The city was destroyed by the fire.",
+    "correct_answer": "La ville a été détruite par l'incendie.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "La présentation sera-t-elle préparée à temps?",
+    "correct_answer": "Will the presentation be prepared on time?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The students were informed by the director.",
+    "correct_answer": "Les étudiants ont été informés par le directeur.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Les trois tableaux ont été peints par cet artiste.",
+    "correct_answer": "The three paintings were painted by this artist.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The decision had been made before the meeting.",
+    "correct_answer": "La décision avait été prise avant la réunion.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Cette maison est connue de tous les habitants.",
+    "correct_answer": "This house is known to all the inhabitants.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The letter will not be sent today.",
+    "correct_answer": "La lettre ne sera pas envoyée aujourd'hui.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "La porte n'a jamais été fermée.",
+    "correct_answer": "The door was never closed.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The child was found near the station.",
+    "correct_answer": "L'enfant a été trouvé près de la gare.",
+    "choices": null
+  }
+]

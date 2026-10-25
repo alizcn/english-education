@@ -1,0 +1,162 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ben çok hızlı ___.",
+    "correct_answer": "koşabiliyorum",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "O çok iyi İngilizce ___.",
+    "correct_answer": "konuşabiliyor",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Biz bu soruyu ___.",
+    "correct_answer": "çözebiliyoruz",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Siz yarın ___ misiniz?",
+    "correct_answer": "gelebilir",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Çocuklar burada ___.",
+    "correct_answer": "oynayabiliyor",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Bu araç çok uzağa ___.",
+    "correct_answer": "gidebiliyor",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Dün onu ___.",
+    "correct_answer": "bulamadım",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "O bunu ___.",
+    "correct_answer": "anlayabiliyor",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ben İtalyanca ___.",
+    "correct_answer": "konuşamıyorum",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Onlar spor ___.",
+    "correct_answer": "yapabiliyor",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Siz bu kitabı ___.",
+    "correct_answer": "okuyabiliyorsunuz",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Yarın erken ___ misiniz?",
+    "correct_answer": "kalkabilir",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence correctly means 'She can speak good English'?",
+    "correct_answer": "O iyi İngilizce konuşabilir.",
+    "choices": [
+      "O iyi İngilizce konuşabilir.",
+      "O iyi İngilizce konuşamıyor.",
+      "O iyi İngilizce konuşacak.",
+      "O iyi İngilizce konuşamak."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Choose the correct form for 'I cannot understand this'.",
+    "correct_answer": "Bunu anlayamıyorum.",
+    "choices": [
+      "Bunu anlayamıyorum.",
+      "Bunu anlayabilmiyorum.",
+      "Bunu anlaşamıyorum.",
+      "Bunu anlayamak."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct question form for 'Can they solve this?'",
+    "correct_answer": "Onlar bunu çözebilir mi?",
+    "choices": [
+      "Onlar bunu çözemiyor?",
+      "Onlar bunu çözebilir mi?",
+      "Onlar bunu çöze mi?",
+      "Onlar bunu çözebiliyor mu?"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence correctly means 'He cannot come'?",
+    "correct_answer": "O gelemez.",
+    "choices": [
+      "O gelemez.",
+      "O gelemiyor.",
+      "O gelebilmez.",
+      "O gelecek değil."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which form is correct for 'Can we solve this problem?'",
+    "correct_answer": "Bu problemi çözebilir miyiz?",
+    "choices": [
+      "Bu problemi çöze biliriz mi?",
+      "Bu problemi çözebilir miyiz?",
+      "Bu problemi çözebiliyor muyuz?",
+      "Bu problemi çözmek mi?"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Choose the correct form for 'Yesterday I could wake up early'.",
+    "correct_answer": "Dün erken kalkabilmiştim.",
+    "choices": [
+      "Dün erken kalkabilirim.",
+      "Dün erken kalkabiliyordum.",
+      "Dün erken kalkabilmiştim.",
+      "Dün erken kalkabildin."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct negative form?",
+    "correct_answer": "Hiçbir şey yapamaz.",
+    "choices": [
+      "Hiçbir şey yapamaaz.",
+      "Hiçbir şey yapamaz.",
+      "Hiçbir şey yapabilmiyor.",
+      "Hiçbir şey yapam."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence means 'Will you be able to come tomorrow?'",
+    "correct_answer": "Yarın gelebilir misiniz?",
+    "choices": [
+      "Yarın gelebilir misiniz?",
+      "Yarın gelemi misiniz?",
+      "Yarın gelecek misiniz?",
+      "Yarın gelebiliyor musunuz?"
+    ]
+  }
+]

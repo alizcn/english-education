@@ -8,6 +8,7 @@ from django.utils.translation import gettext as _
 from django.views.decorators.http import require_POST
 from django_ratelimit.decorators import ratelimit
 
+from apps.accounts.services import current_pair
 from services.sanitize import SanitizationError, clean_cv_text, clean_job_title
 from . import tasks
 from .models import InterviewSession, JOB_CATEGORIES
@@ -59,13 +60,17 @@ def _validate_cv_file(cv_file):
 
 @login_required
 def interview_list(request):
-    sessions = InterviewSession.objects.filter(user=request.user)
+    pair = current_pair(request)
+    sessions = InterviewSession.objects.filter(
+        user=request.user, target_language=pair.target_code,
+    )
     positions = [(k, _cat_dict[k]) for k in POSITION_KEYS if k in _cat_dict]
     fields = [(k, v) for k, v in JOB_CATEGORIES if k not in POSITION_KEYS and k != 'custom']
     return render(request, 'interviews/list.html', {
         'sessions': sessions,
         'positions': positions,
         'fields': fields,
+        'pair': pair,
     })
 
 
@@ -93,15 +98,20 @@ def interview_create(request):
     else:
         title_for_ai = dict(JOB_CATEGORIES).get(job_category, job_category)
 
+    pair = current_pair(request)
     source = InterviewSession.CUSTOM if job_category == 'custom' else InterviewSession.CATEGORY
     session = InterviewSession.objects.create(
         user=request.user,
         source=source,
+        target_language=pair.target_code,
+        native_language=pair.native_code,
         job_category=job_category if job_category in _cat_dict else 'custom',
         custom_title=custom_title if job_category == 'custom' else '',
         status=InterviewSession.PENDING,
     )
-    tasks.generate_from_title.delay(session.pk, str(title_for_ai))
+    tasks.generate_from_title.delay(
+        session.pk, str(title_for_ai), pair.target_code, pair.native_code,
+    )
 
     messages.success(request, _('Sorular hazırlanıyor. Hazır olunca bu sayfada görünecek.'))
     return redirect('interviews:detail', pk=session.pk)
@@ -138,15 +148,20 @@ def interview_create_cv(request):
         messages.error(request, _('CV içeriği çok kısa veya okunamadı.'))
         return redirect('interviews:list')
 
+    pair = current_pair(request)
     session = InterviewSession.objects.create(
         user=request.user,
         source=InterviewSession.CV,
+        target_language=pair.target_code,
+        native_language=pair.native_code,
         job_category='custom',
         cv_filename=cv_file.name,
         status=InterviewSession.PENDING,
     )
     # Kuyruk mesajını şişirmemek için kırpıyoruz; üretici zaten ilk 4000 karakteri kullanıyor.
-    tasks.generate_from_cv.delay(session.pk, cv_text[:8000])
+    tasks.generate_from_cv.delay(
+        session.pk, cv_text[:8000], pair.target_code, pair.native_code,
+    )
 
     messages.success(request, _('CV analiz ediliyor. Sorular hazır olunca bu sayfada görünecek.'))
     return redirect('interviews:detail', pk=session.pk)

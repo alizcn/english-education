@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Haus wird gebaut.",
+    "correct_answer": "The house is being built.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The cake is being eaten.",
+    "correct_answer": "Der Kuchen wird gegessen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Aufgabe wird nicht gelöst.",
+    "correct_answer": "The task is not being solved.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The letter will be written.",
+    "correct_answer": "Der Brief wird geschrieben werden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wird das Buch gelesen?",
+    "correct_answer": "Is the book being read?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The food was prepared.",
+    "correct_answer": "Das Essen wurde zubereitet.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Auto wurde repariert.",
+    "correct_answer": "The car was repaired.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The problem has been solved.",
+    "correct_answer": "Das Problem ist gelöst worden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Brief wird von Maria geschrieben.",
+    "correct_answer": "The letter is being written by Maria.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The report must be written.",
+    "correct_answer": "Der Bericht muss geschrieben werden.",
+    "choices": null
+  }
+]

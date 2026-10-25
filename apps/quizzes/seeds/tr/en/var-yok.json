@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Masada bir kalem var.",
+    "correct_answer": "There is a pen on the table.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çantamda para yok.",
+    "correct_answer": "There is no money in my bag.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Benim bir arabam var.",
+    "correct_answer": "I have a car.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Odada kimse yok.",
+    "correct_answer": "There is nobody in the room.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ona bir kardeşi var mı?",
+    "correct_answer": "Does he/she have a brother?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I have a sister.",
+    "correct_answer": "Benim bir kız kardeşim var.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "There are flowers in the garden.",
+    "correct_answer": "Bahçede çiçekler var.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "There is no food in the refrigerator.",
+    "correct_answer": "Buzdolabında yemek yok.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "My friend doesn't have a passport.",
+    "correct_answer": "Benim arkadaşımın pasaportu yok.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Do you have a house?",
+    "correct_answer": "Senin bir evin var mı?",
+    "choices": null
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der grüne Baum wächst schnell.",
+    "correct_answer": "The green tree grows quickly.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich sehe einen schönen Vogel.",
+    "correct_answer": "I see a beautiful bird.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie wohnen in einem modernen Haus.",
+    "correct_answer": "They live in a modern house.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das kleine Kind ist hungrig.",
+    "correct_answer": "The small child is hungry.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Er hat einen roten Stift.",
+    "correct_answer": "He has a red pen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die schwarze Katze schläft.",
+    "correct_answer": "The black cat is sleeping.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir fahren mit unserem alten Auto.",
+    "correct_answer": "We are driving with our old car.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das ist ein interessantes Buch.",
+    "correct_answer": "That is an interesting book.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The big house is very new.",
+    "correct_answer": "Das große Haus ist sehr neu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I like a cold drink.",
+    "correct_answer": "Ich mag ein kaltes Getränk.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She has a yellow dress.",
+    "correct_answer": "Sie hat ein gelbes Kleid.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We know the intelligent student.",
+    "correct_answer": "Wir kennen den intelligenten Schüler.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Do you see the tall boy?",
+    "correct_answer": "Siehst du den großen Jungen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He gives his sister a blue book.",
+    "correct_answer": "Er gibt seiner Schwester ein blaues Buch.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The beautiful flowers grow in the garden.",
+    "correct_answer": "Die schönen Blumen wachsen im Garten.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "That is an expensive coffee.",
+    "correct_answer": "Das ist ein teurer Kaffee.",
+    "choices": null
+  }
+]

@@ -46,7 +46,12 @@
     var label = document.getElementById('gen-progress');
     var more = document.getElementById('gen-more');
     var shown = {{ session.question_count }};
-    var tpl = "{% trans '%(done)s / %(total)s soru hazır...' %}";
+    {% comment %}Yer tutucular bilinçli olarak {done}/{total} kalıbında.
+    Çeviri etiketi içindeki literal yüzde işareti makemessages tarafından iki
+    kat olarak çıkarılıyor, oysa çalışma anında arama tek yüzde ile yapılıyor —
+    o msgid hiç eşleşmiyor ve metin İngilizce arayüzde de Türkçe kalıyordu.
+    {% endcomment %}
+    var tpl = "{% trans '{done} / {total} soru hazır...' %}";
 
     function refresh(){
         if (window.scrollY < 200) { location.reload(); }
@@ -60,8 +65,8 @@
                 if (!data) { return; }
                 if (data.ready_count > 0) {
                     label.textContent = tpl
-                        .replace('%(done)s', data.ready_count)
-                        .replace('%(total)s', data.total);
+                        .replace('{done}', data.ready_count)
+                        .replace('{total}', data.total);
                 }
                 if (data.status !== 'pending') { clearInterval(timer); refresh(); return; }
                 if (data.ready_count > shown) { shown = data.ready_count; refresh(); }
@@ -82,28 +87,28 @@
 {% endif %}
 
 {% for q in session.questions_data %}
-{% if q.question_tr and q.question_en and q.answer_tr and q.answer_en %}
+{% if q.question_target and q.question_native and q.answer_target and q.answer_native %}
 <div class="interview-card">
     <div class="interview-num">{{ forloop.counter }}</div>
     <div class="interview-body">
         <div class="interview-q">
             <div class="interview-lang-badge">TR</div>
-            <div class="interview-text">{{ q.question_tr }}</div>
+            <div class="interview-text">{{ q.question_native }}</div>
         </div>
         <div class="interview-q">
             <div class="interview-lang-badge en">EN</div>
-            <div class="interview-text">{{ q.question_en }}</div>
+            <div class="interview-text">{{ q.question_target }}</div>
         </div>
         <details class="interview-answer">
             <summary>{% trans "Cevabı Göster" %}</summary>
             <div class="interview-answer-body">
                 <div class="interview-a">
                     <div class="interview-lang-badge sm">TR</div>
-                    <div>{{ q.answer_tr }}</div>
+                    <div>{{ q.answer_native }}</div>
                 </div>
                 <div class="interview-a">
                     <div class="interview-lang-badge en sm">EN</div>
-                    <div>{{ q.answer_en }}</div>
+                    <div>{{ q.answer_target }}</div>
                 </div>
             </div>
         </details>

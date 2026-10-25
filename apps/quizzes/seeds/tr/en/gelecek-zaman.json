@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ben yarın öğleden sonra uyku yapacağım.",
+    "correct_answer": "I will take a nap tomorrow afternoon.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "O, gelecek hafta evden taşınacak.",
+    "correct_answer": "He/She will move out of the house next week.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Siz bu proje üzerinde birlikte çalışacaksınız, değil mi?",
+    "correct_answer": "You will work on this project together, won't you?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Onlar bu konuda hiçbir şey söylemeyecekler.",
+    "correct_answer": "They will not say anything about this matter.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kız kardeşiniz sizi ziyaret edecek mi?",
+    "correct_answer": "Will your sister visit you?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I will not forget this day.",
+    "correct_answer": "Bu günü unutmayacağım.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They will play tennis tomorrow.",
+    "correct_answer": "Yarın tenis oynayacaklar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Will you help us next month?",
+    "correct_answer": "Gelecek ayda bize yardım edecek misiniz?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She will cook dinner at six o'clock.",
+    "correct_answer": "O, saat altıda yemek pişirecek.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We will spend our vacation in Antalya.",
+    "correct_answer": "Tatilimizi Antalya'da geçireceğiz.",
+    "choices": null
+  }
+]

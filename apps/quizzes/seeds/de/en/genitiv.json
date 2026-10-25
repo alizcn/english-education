@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Auto meines Vaters ist schnell.",
+    "correct_answer": "My father's car is fast.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The color of the house is white.",
+    "correct_answer": "Die Farbe des Hauses ist weiß.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Bücher der Schule sind alt.",
+    "correct_answer": "The school's books are old.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "This is my friend's dog.",
+    "correct_answer": "Das ist der Hund meines Freundes.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wegen des Regens bleiben wir zu Hause.",
+    "correct_answer": "Because of the rain, we stay at home.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The children of the teacher are intelligent.",
+    "correct_answer": "Die Kinder des Lehrers sind intelligent.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das ist nicht das Fahrrad meines Bruders.",
+    "correct_answer": "This is not my brother's bicycle.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The size of the room is large.",
+    "correct_answer": "Die Größe des Zimmers ist groß.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ist das das Auto deines Vaters?",
+    "correct_answer": "Is that your father's car?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "During the night, I heard strange noises.",
+    "correct_answer": "Während der Nacht hörte ich seltsame Geräusche.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Wohnung der Familie ist klein.",
+    "correct_answer": "The family's apartment is small.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The success of the project is important.",
+    "correct_answer": "Der Erfolg des Projektes ist wichtig.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Trotz des Sturmes spielte er Fußball.",
+    "correct_answer": "Despite the storm, he played soccer.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The price of the tickets is expensive.",
+    "correct_answer": "Der Preis der Karten ist teuer.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Tochter meines Onkels ist Ärztin.",
+    "correct_answer": "My uncle's daughter is a doctor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The quality of the work is excellent.",
+    "correct_answer": "Die Qualität der Arbeit ist ausgezeichnet.",
+    "choices": null
+  }
+]

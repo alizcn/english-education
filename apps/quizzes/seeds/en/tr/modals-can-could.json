@@ -1,0 +1,116 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I can speak French.",
+    "correct_answer": "Fransızca konuşabilirim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He cannot drive.",
+    "correct_answer": "Araba kullanamaz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Can you swim?",
+    "correct_answer": "Yüzebilir misin?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She could play piano beautifully.",
+    "correct_answer": "Piyanoyu güzel çalabiliyordu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I can't find my glasses.",
+    "correct_answer": "Gözlüğümü bulamıyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Could I borrow your book?",
+    "correct_answer": "Kitabını ödünç alabilir miyim?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She can cook delicious meals.",
+    "correct_answer": "Lezzetli yemekler pişirebiliyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They couldn't find the key.",
+    "correct_answer": "Anahtarı bulamadılar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Can you speak English?",
+    "correct_answer": "İngilizce konuşabilir misin?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He can run very fast.",
+    "correct_answer": "Çok hızlı koşabiliyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Makarna yapabilirim.",
+    "correct_answer": "I can cook pasta.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onlar bize yardım edemezler.",
+    "correct_answer": "They can't help us.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Genç olduğunda çok hızlı koşabiliyordu.",
+    "correct_answer": "When he was young, he could run very fast.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Uyuyamıyorum.",
+    "correct_answer": "I can't sleep.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bana yardım edebilir misin?",
+    "correct_answer": "Can you help me?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Çocukken iyi piyano çalabiliyordu.",
+    "correct_answer": "When I was a child, I could play piano well.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bu soruyu cevaplayamadı.",
+    "correct_answer": "She couldn't answer this question.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bilgisayarı kullanabilir misiniz?",
+    "correct_answer": "Can you use the computer?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Almanca konuşamam.",
+    "correct_answer": "I can't speak German.",
+    "choices": null
+  }
+]

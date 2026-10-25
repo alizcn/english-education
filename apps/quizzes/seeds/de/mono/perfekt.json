@@ -1,0 +1,162 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich habe Kaffee ___.",
+    "correct_answer": "getrunken",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Du bist nach Hause ___.",
+    "correct_answer": "gekommen",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Wir ___ das Fenster geöffnet.",
+    "correct_answer": "haben",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Er ist zum Markt ___.",
+    "correct_answer": "gegangen",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sie haben einen Film ___.",
+    "correct_answer": "gesehen",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich habe das Buch nicht ___.",
+    "correct_answer": "gelesen",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ du schon gegessen?",
+    "correct_answer": "Hast",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Wir sind ins Museum ___.",
+    "correct_answer": "gegangen",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sie ___ ihr Auto verkauft.",
+    "correct_answer": "haben",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Du bist schnell ___.",
+    "correct_answer": "gelaufen",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich habe meine Hausaufgaben ___.",
+    "correct_answer": "gemacht",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Habt ihr den Film ___?",
+    "correct_answer": "gesehen",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz ist richtig?",
+    "correct_answer": "Ich habe das Buch gelesen.",
+    "choices": [
+      "Ich bin das Buch gelesen.",
+      "Ich habe das Buch gelesen.",
+      "Ich habe nach Berlin gefahren.",
+      "Ich bin zu Hause geschlafen."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz ist korrekt? 'Ich ___ nach Paris ___.'",
+    "correct_answer": "bin / gefahren",
+    "choices": [
+      "habe / gefahren",
+      "bin / gefahren",
+      "habe / gegangen",
+      "bin / gelaufen"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz ist negativ und richtig?",
+    "correct_answer": "Ich habe das Buch nicht gelesen.",
+    "choices": [
+      "Ich habe das Buch nicht gelesen.",
+      "Ich bin das Buch nicht gefahren.",
+      "Ich habe nicht ins Kino gegangen.",
+      "Ich bin nicht das Buch gelesen."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Das Kind ist schnell ___. — Welches Partizip II ist richtig?",
+    "correct_answer": "gelaufen",
+    "choices": [
+      "gelaufen",
+      "gelauft",
+      "gelauffen",
+      "gelauen"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz ist eine Frage und richtig?",
+    "correct_answer": "Hast du das Fenster geöffnet?",
+    "choices": [
+      "Hast du das Fenster geöffnet?",
+      "Du hast das Fenster geöffnet.",
+      "Ich habe das Fenster geöffnet.",
+      "Du bist das Fenster geöffnet."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz ist korrekt? 'Wir ___ zusammen ___.'",
+    "correct_answer": "sind / gelaufen",
+    "choices": [
+      "haben / gegangen",
+      "sind / gelaufen",
+      "haben / gefahren",
+      "sind / gelesen"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welcher Satz mit 'sein' ist richtig?",
+    "correct_answer": "Ich bin zum Park gegangen.",
+    "choices": [
+      "Ich habe zum Park gegangen.",
+      "Ich bin zum Park gegangen.",
+      "Ich habe zum Park gefahren.",
+      "Ich bin zum Park gemacht."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Hast du deine Freundin ___? — Welches Partizip II passt?",
+    "correct_answer": "besucht",
+    "choices": [
+      "besucht",
+      "besuchen",
+      "besuchte",
+      "besucher"
+    ]
+  }
+]

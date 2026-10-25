@@ -1,0 +1,167 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle ___ avec ses amis tous les jours.",
+    "correct_answer": "parlait",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: Je ___ une pomme chaque matin.",
+    "correct_answer": "mangeais",
+    "choices": [
+      "mangeais",
+      "mange",
+      "ai mangé",
+      "mangerai"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est l'imparfait d'être à la 3e personne du singulier?",
+    "correct_answer": "était",
+    "choices": [
+      "était",
+      "est",
+      "a été",
+      "serait"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je ne ___ pas bien.",
+    "correct_answer": "dormais",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Nous ___ au parc chaque semaine.",
+    "correct_answer": "allions",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: Tu ___ faim quand tu étais enfant.",
+    "correct_answer": "avais",
+    "choices": [
+      "avais",
+      "as",
+      "auras",
+      "aurais"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Vous ___ votre travail vers 18h.",
+    "correct_answer": "finissiez",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: Il ___ la journée par un café.",
+    "correct_answer": "commençait",
+    "choices": [
+      "commençait",
+      "commence",
+      "a commencé",
+      "commencera"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle n'___ jamais au cinéma.",
+    "correct_answer": "allait",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Qu'est-ce que tu ___ chaque jour?",
+    "correct_answer": "faisais",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: Avant, nous ___ partir plus tôt.",
+    "correct_answer": "pouvions",
+    "choices": [
+      "pouvions",
+      "pouvons",
+      "avons pu",
+      "pourrons"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: Je ___ souvent vous voir à cette époque.",
+    "correct_answer": "venais",
+    "choices": [
+      "venais",
+      "viens",
+      "viendrai",
+      "suis venu"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ils ___ leur maison à cette époque.",
+    "correct_answer": "vendaient",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Nous ___ ensemble tous les jours.",
+    "correct_answer": "mangions",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: Je ___ la table près de la fenêtre.",
+    "correct_answer": "plaçais",
+    "choices": [
+      "plaçais",
+      "place",
+      "ai placé",
+      "placerai"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Tu ___ toujours en cash à ce moment-là.",
+    "correct_answer": "payais",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: Pendant qu'il ___ la télévision, on a sonné.",
+    "correct_answer": "regardait",
+    "choices": [
+      "regardait",
+      "regarde",
+      "a regardé",
+      "regardera"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Autrefois, nous ___ beaucoup.",
+    "correct_answer": "lisions",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Vous ___ peur à cette époque?",
+    "correct_answer": "aviez",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle est la forme interrogative de 'tu venais'?",
+    "correct_answer": "Venais-tu?",
+    "choices": [
+      "Venais-tu?",
+      "Viens-tu?",
+      "Es-tu venu?",
+      "Viendras-tu?"
+    ]
+  }
+]

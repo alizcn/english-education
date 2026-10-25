@@ -20,6 +20,7 @@ DEFAULT_PASSWORD = 'Admin2026!'
 
 
 def create_superuser(apps, schema_editor):
+    from auditlog.context import disable_auditlog
     from django.contrib.auth import get_user_model
 
     User = get_user_model()
@@ -30,7 +31,14 @@ def create_superuser(apps, schema_editor):
     if User.objects.filter(username=username).exists():
         return
 
-    User.objects.create_superuser(username=username, email=email, password=password)
+    # auditlog User'ı izliyor (bkz. apps/accounts/apps.py). Buradaki kayıt onun
+    # post_save sinyalini tetikliyor ve sıfırdan kurulan bir veritabanında
+    # auditlog_logentry henüz oluşmamış olabiliyor — test DB'si tam olarak bu
+    # yüzden `no such table: auditlog_logentry` ile düşüyordu. Denetim kaydını
+    # kapatmak, auditlog'un migration adlarına bağımlılık kurmaktan daha
+    # dayanıklı: sürüm yükseltmesi bu dosyayı bozmaz.
+    with disable_auditlog():
+        User.objects.create_superuser(username=username, email=email, password=password)
 
 
 def remove_superuser(apps, schema_editor):

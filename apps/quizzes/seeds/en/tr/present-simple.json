@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I drink coffee every morning.",
+    "correct_answer": "Her sabah kahve içerim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She doesn't live in Paris.",
+    "correct_answer": "O Paris'te yaşamaz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Do they play football on weekends?",
+    "correct_answer": "Onlar hafta sonları futbol oynar mı?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He works as a doctor.",
+    "correct_answer": "O doktor olarak çalışır.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "We eat dinner at 7 PM.",
+    "correct_answer": "Akşam yemeğini saat 7'de yeriz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Does she speak English?",
+    "correct_answer": "O İngilizce konuşur mu?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The sun rises in the east.",
+    "correct_answer": "Güneş doğuda doğar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I don't like spicy food.",
+    "correct_answer": "Ben acı yiyecekleri sevmem.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Her gün okula giderim.",
+    "correct_answer": "I go to school every day.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ben çikolatayı sevmem.",
+    "correct_answer": "I don't like chocolate.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onlar nerede yaşarlar?",
+    "correct_answer": "Where do they live?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kız kardeşim Londra'da yaşıyor.",
+    "correct_answer": "My sister lives in London.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onu tanıyor musun?",
+    "correct_answer": "Do you know him?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Pazar günü futbol oynarım.",
+    "correct_answer": "I play football on Sunday.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sabah saat 6'da uyanırım.",
+    "correct_answer": "I wake up at 6 in the morning.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sana yardım etmez mi?",
+    "correct_answer": "Doesn't he help you?",
+    "choices": null
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Auto meines Vaters ist rot.",
+    "correct_answer": "Babamın arabası kırmızıdır.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kızının elbisesi güzel.",
+    "correct_answer": "Das Kleid seiner Tochter ist schön.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Geld der Familie reicht aus.",
+    "correct_answer": "Ailenin parası yeterlidir.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Öğretmenin kitabı kalın.",
+    "correct_answer": "Das Buch des Lehrers ist dick.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das ist nicht das Buch meines Bruders.",
+    "correct_answer": "Bu kardeşimin kitabı değil.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Öğrencinin defteri nerededir?",
+    "correct_answer": "Wo ist das Heft des Schülers?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Chef meines Mannes ist sehr streng.",
+    "correct_answer": "Eşimin müdürü çok katı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Annesinin telefonu yeni.",
+    "correct_answer": "Das Telefon seiner Mutter ist neu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Tasche der Schülerin ist schwer.",
+    "correct_answer": "Öğrencinin çantası ağır.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Müdürün kararı önemli.",
+    "correct_answer": "Die Entscheidung des Direktors ist wichtig.",
+    "choices": null
+  }
+]

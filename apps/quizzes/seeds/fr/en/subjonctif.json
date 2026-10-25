@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je veux que tu parles français",
+    "correct_answer": "I want you to speak French",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle a peur que nous partions",
+    "correct_answer": "She is afraid that we are leaving",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il faut que tu fasses attention",
+    "correct_answer": "You must pay attention",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je ne crois pas qu'il vienne",
+    "correct_answer": "I don't think he will come",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Pourvu qu'elle réussisse",
+    "correct_answer": "Provided that she succeeds",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I want you to be happy",
+    "correct_answer": "Je veux que tu sois heureux",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They want him to understand",
+    "correct_answer": "Ils veulent qu'il comprenne",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "It is important that we arrive on time",
+    "correct_answer": "Il est important que nous arrivions à l'heure",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I'm afraid he won't come",
+    "correct_answer": "J'ai peur qu'il ne vienne pas",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She wants him to go",
+    "correct_answer": "Elle veut qu'il aille",
+    "choices": null
+  }
+]

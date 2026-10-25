@@ -1,0 +1,162 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "If I ___ known the answer, I would have told you.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you had called me, I ___ you.",
+    "correct_answer": "would have helped",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "If she had left earlier, she ___ the train.",
+    "correct_answer": "would have caught",
+    "choices": [
+      "would have caught",
+      "would catch",
+      "catches",
+      "caught"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If they ___ left early, they wouldn't have been late.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "If we had known about the sale, we ___ more items.",
+    "correct_answer": "would have bought",
+    "choices": [
+      "would have bought",
+      "will buy",
+      "would buy",
+      "buys"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If I hadn't been tired, I ___ home early.",
+    "correct_answer": "wouldn't have left",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "If they hadn't forgotten their keys, they ___ back home.",
+    "correct_answer": "wouldn't have gone",
+    "choices": [
+      "wouldn't have gone",
+      "would go",
+      "didn't go",
+      "don't go"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ you have helped if I had asked?",
+    "correct_answer": "Would",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "If he had listened to advice, he ___ the problem.",
+    "correct_answer": "would have avoided",
+    "choices": [
+      "would have avoided",
+      "would avoid",
+      "avoids",
+      "avoided"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If she had studied, she ___ the test.",
+    "correct_answer": "would have passed",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If I had known the truth, I ___ differently.",
+    "correct_answer": "would have acted",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "If you had told me earlier, I ___ you.",
+    "correct_answer": "would have helped",
+    "choices": [
+      "would have helped",
+      "will help",
+      "would help",
+      "helps"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If it ___ rained, the game would have been cancelled.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What ___ happened if he had arrived on time?",
+    "correct_answer": "would have",
+    "choices": [
+      "would have",
+      "would",
+      "has",
+      "had"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If we ___ booked in advance, we would have got a better price.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "If she hadn't forgotten the meeting, she ___ late.",
+    "correct_answer": "wouldn't have been",
+    "choices": [
+      "wouldn't have been",
+      "wouldn't be",
+      "wouldn't been",
+      "wasn't"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If I had known, ___ you have come?",
+    "correct_answer": "would",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "If they had checked the weather, they ___ an umbrella.",
+    "correct_answer": "would have taken",
+    "choices": [
+      "would have taken",
+      "would take",
+      "takes",
+      "took"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If I hadn't gone out, I ___ the accident.",
+    "correct_answer": "wouldn't have seen",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If he had listened to me, he ___ the problem.",
+    "correct_answer": "would have avoided",
+    "choices": null
+  }
+]

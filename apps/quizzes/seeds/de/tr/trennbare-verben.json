@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich rufe meinen Freund an.",
+    "correct_answer": "Arkadaşımı arıyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie steht nicht um 8 Uhr auf.",
+    "correct_answer": "Saat 8'de kalkmıyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ruft er mich an?",
+    "correct_answer": "Beni mi arıyor?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir kaufen morgen Kleidung ein.",
+    "correct_answer": "Yarın elbise alışverişi yapıyoruz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Verstehst du das nicht?",
+    "correct_answer": "Bunu anlamıyor musun?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Er erklärt die Aufgabe nicht.",
+    "correct_answer": "Görevi açıklamıyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kommst du morgen zurück?",
+    "correct_answer": "Yarın geri geliyor musun?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich zog mein Hemd aus.",
+    "correct_answer": "Gömleğimi çıkardım.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sabah 7'de kalkıyorum.",
+    "correct_answer": "Ich stehe um 7 Uhr auf.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Süpermarkette alışveriş yapıyor.",
+    "correct_answer": "Sie kauft im Supermarkt ein.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Problemi açıklayabiliyor musun?",
+    "correct_answer": "Kannst du das Problem erklären?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Büyükannesini ziyaret ediyor.",
+    "correct_answer": "Sie besucht ihre Großmutter.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Arkadaşımı unutmuş.",
+    "correct_answer": "Ich habe meinen Freund vergessen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Evden ayrıldılar.",
+    "correct_answer": "Sie verließen das Haus.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Hikayeyi anlattı.",
+    "correct_answer": "Er erzählte die Geschichte.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Oğlum yarın eve taşınıyor.",
+    "correct_answer": "Mein Sohn zieht morgen ein.",
+    "choices": null
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "The report ___ prepared by the manager.",
+    "correct_answer": "is",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The house ___ built in 1995.",
+    "correct_answer": "was",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The cake ___ being baked right now.",
+    "correct_answer": "is",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The project ___ be finished next week.",
+    "correct_answer": "will",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The work ___ been completed.",
+    "correct_answer": "has",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Everything ___ been organized before the meeting.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The files ___ not saved yet.",
+    "correct_answer": "are",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The letter ___ not opened.",
+    "correct_answer": "was",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The phone ___ not being charged.",
+    "correct_answer": "is",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ the door locked?",
+    "correct_answer": "Is",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The car is being ___.",
+    "correct_answer": "repaired",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The meal was ___.",
+    "correct_answer": "prepared",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "The book ___ in 2015.",
+    "correct_answer": "was published",
+    "choices": [
+      "is published",
+      "was published",
+      "are published",
+      "were published"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "The packages ___ every morning.",
+    "correct_answer": "are delivered",
+    "choices": [
+      "is delivered",
+      "are delivered",
+      "was delivered",
+      "were delivered"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "The reports ___ by the team right now.",
+    "correct_answer": "are being reviewed",
+    "choices": [
+      "is being reviewed",
+      "are being reviewed",
+      "was being reviewed",
+      "were being reviewed"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "The invitations ___ to all guests.",
+    "correct_answer": "have been sent",
+    "choices": [
+      "have been sent",
+      "has been sent",
+      "was sent",
+      "were sent"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Will the project ___ finished by Friday?",
+    "correct_answer": "be",
+    "choices": [
+      "be",
+      "is",
+      "are",
+      "was"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "___ the documents received by you?",
+    "correct_answer": "Were",
+    "choices": [
+      "Have been",
+      "Has been",
+      "Were",
+      "Was"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "The files ___ not received yet.",
+    "correct_answer": "have been",
+    "choices": [
+      "have been",
+      "has been",
+      "are",
+      "is"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "The message ___ not being sent now.",
+    "correct_answer": "is",
+    "choices": [
+      "is",
+      "was",
+      "are",
+      "were"
+    ]
+  }
+]

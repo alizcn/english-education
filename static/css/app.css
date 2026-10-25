@@ -397,6 +397,56 @@ strong, b { color: var(--text); font-weight: 620; }
     z-index: 1;
 }
 
+/* === KURS ŞERİDİ ========================================================
+   Uygulama içinde sürekli görünen ince bant: kullanıcı birden çok dil
+   çalışabildiği için hangi kursta olduğu her sayfada görünmek zorunda.
+   Yükseklik kasıtlı olarak küçük — gezinmeyi değil, bağlamı taşıyor. */
+.course-bar {
+    background: var(--surface-tint);
+    border-bottom: 1px solid var(--border-soft);
+    font-size: 0.82rem;
+    position: relative;
+    z-index: 2;
+}
+.course-bar-inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0.4rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+}
+.course-bar-text {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--text-muted);
+    min-width: 0;
+}
+.course-bar-text svg { flex: none; color: var(--accent-ink); }
+.course-bar-meta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex: none;
+}
+.course-bar-link {
+    color: var(--accent-ink);
+    text-decoration: none;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.course-bar-link:hover { text-decoration: underline; }
+
+@media (max-width: 640px) {
+    /* Dar ekranda puan/seviye rozetleri yerine yalnızca bağlam ve
+       değiştirme bağlantısı kalıyor; şerit tek satırda taşmasın. */
+    .course-bar-inner { padding: 0.35rem 1rem; }
+    .course-bar-text { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .course-bar-meta .badge { display: none; }
+}
+
 /* === BOTTOM NAV (mobile) ================================================ */
 
 .bottomnav {
@@ -1771,8 +1821,15 @@ label input, label textarea, label select { margin-top: 0.35rem; }
 :root[data-theme="dark"] .theme-toggle .theme-toggle-moon { display: none; }
 :root[data-theme="dark"] .theme-toggle .theme-toggle-sun { display: block; }
 
-.lang-switcher { display: inline; margin: 0; }
+/* Dil seçici — açılır menü.
+   Eskiden `display: inline` bir form ve tek düğmeydi: üçüncü dil eklenince
+   düğmeler satır içi metin gibi akıyor, aralarında `gap` olmuyor ve 360-480px
+   genişlikte başlığı taşırıyordu. Açılır menü dil sayısından bağımsız. */
+.lang-switcher { position: relative; display: inline-block; margin: 0; }
 .lang-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.28rem;
     background: transparent;
     border: 1px solid var(--border);
     color: var(--text-muted);
@@ -1783,9 +1840,64 @@ label input, label textarea, label select { margin-top: 0.35rem; }
     font-weight: 660;
     font-family: inherit;
     letter-spacing: 0.06em;
+    white-space: nowrap;
     transition: border-color var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
 }
 .lang-btn:hover { border-color: var(--border-strong); color: var(--text); }
+.lang-btn-trigger svg { flex: none; opacity: 0.75; }
+
+.lang-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    min-width: 172px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-lg);
+    padding: 0.3rem;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-6px) scale(0.98);
+    transform-origin: top right;
+    transition: opacity var(--dur-fast) var(--ease), transform var(--dur-fast) var(--ease), visibility var(--dur-fast);
+}
+.lang-switcher.is-open .lang-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+}
+.lang-menu form { margin: 0; }
+.lang-menu-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0.45rem 0.55rem;
+    background: transparent;
+    border: 0;
+    border-radius: var(--radius-xs);
+    color: var(--text);
+    font-family: inherit;
+    font-size: 0.86rem;
+    text-align: left;
+    cursor: pointer;
+    transition: background var(--dur-fast) var(--ease);
+}
+.lang-menu-item:hover { background: var(--surface-2); }
+.lang-menu-item.is-current { color: var(--text-muted); cursor: default; }
+.lang-menu-item.is-current:hover { background: transparent; }
+.lang-menu-item.is-current svg { margin-left: auto; color: var(--primary); }
+.lang-menu-code {
+    flex: none;
+    min-width: 2.1em;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+}
+.lang-menu-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
 /* === ICON TILES (shared by landing + public pages) ====================== */
 

@@ -1,0 +1,133 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Marc est ___ grand que son frère.",
+    "correct_answer": "plus",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le comparatif de supériorité pour l'adjectif 'bon'?",
+    "correct_answer": "meilleur",
+    "choices": [
+      "plus bon",
+      "meilleur",
+      "plus bien",
+      "mieux"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Cette ville est aussi ___ que Marseille.",
+    "correct_answer": "belle",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel complète la phrase: Nous mangeons ___ fruits que de légumes?",
+    "correct_answer": "plus de",
+    "choices": [
+      "plus de",
+      "plus",
+      "plus que de",
+      "autant les"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "C'est ___ plus grand bâtiment de la ville.",
+    "correct_answer": "le",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle est ___ intelligente de sa classe.",
+    "correct_answer": "la plus",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le superlatif de 'mauvais'?",
+    "correct_answer": "le pire",
+    "choices": [
+      "plus mauvais",
+      "le pire",
+      "le plus mauvais",
+      "moins bon"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Il ne parle pas ___ que sa sœur.",
+    "correct_answer": "autant que",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel complète: Cette voiture n'est ___ rapide que la mienne?",
+    "correct_answer": "pas aussi",
+    "choices": [
+      "pas aussi",
+      "pas plus",
+      "pas moins",
+      "pas autant"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle a ___ patience que son collègue.",
+    "correct_answer": "autant de",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Il y a ___ bruit ici qu'au centre-ville.",
+    "correct_answer": "moins de",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le comparatif d'infériorité pour 'cher'?",
+    "correct_answer": "moins cher que",
+    "choices": [
+      "moins cher que",
+      "plus cher que",
+      "aussi cher que",
+      "moins de cher"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle joue ___ que moi.",
+    "correct_answer": "mieux",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel complète: C'est la région ___ ensoleillée de France?",
+    "correct_answer": "la plus",
+    "choices": [
+      "plus",
+      "la plus",
+      "le plus",
+      "très"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Les films ___ longs de cette année sont magnifiques.",
+    "correct_answer": "les plus",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel intensifiant utilise-t-on pour le superlatif absolu?",
+    "correct_answer": "très",
+    "choices": [
+      "très",
+      "plus",
+      "moins",
+      "aussi"
+    ]
+  }
+]

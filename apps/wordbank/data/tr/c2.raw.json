@@ -1,0 +1,2684 @@
+[
+  {
+    "rank": 1,
+    "term": "mütevazi",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 2,
+    "term": "kaçamak",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 3,
+    "term": "narkotik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 4,
+    "term": "noter",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 5,
+    "term": "tabaka",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 6,
+    "term": "sergilemek",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 7,
+    "term": "suçlama",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 8,
+    "term": "rasyonel",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 9,
+    "term": "sözcü",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 10,
+    "term": "operasyon",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 11,
+    "term": "sahipsiz",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 12,
+    "term": "oluşum",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 13,
+    "term": "sakatlık",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 14,
+    "term": "polisiye",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 15,
+    "term": "söğüt",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 16,
+    "term": "rakı",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 17,
+    "term": "tebliğ",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 18,
+    "term": "tapu",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 19,
+    "term": "şartsız",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 20,
+    "term": "yapımcılık",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 21,
+    "term": "acımasızca",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 22,
+    "term": "yokluk",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 23,
+    "term": "çağrı",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 24,
+    "term": "tanımlamak",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 25,
+    "term": "yüzey",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 26,
+    "term": "zihin",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 27,
+    "term": "önderlik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 28,
+    "term": "antibiyotik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 29,
+    "term": "arayüz",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 30,
+    "term": "bileşik",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 31,
+    "term": "darbe",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 32,
+    "term": "depresif",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 33,
+    "term": "dekan",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 34,
+    "term": "bölünme",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 35,
+    "term": "andırmak",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 36,
+    "term": "azap",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 37,
+    "term": "hükmen",
+    "part_of_speech": "adverb",
+    "extra": {}
+  },
+  {
+    "rank": 38,
+    "term": "hakimiyet",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 39,
+    "term": "gerilim",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 40,
+    "term": "han",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 41,
+    "term": "gönül",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 42,
+    "term": "elektriksel",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 43,
+    "term": "eser",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 44,
+    "term": "izlenim",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 45,
+    "term": "kargaşa",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 46,
+    "term": "kılmak",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 47,
+    "term": "mağlubiyet",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 48,
+    "term": "kolaylaştırmak",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 49,
+    "term": "kurtarıcı",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 50,
+    "term": "kibirli",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 51,
+    "term": "konfederasyon",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 52,
+    "term": "olgu",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 53,
+    "term": "parazit",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 54,
+    "term": "sedef",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 55,
+    "term": "tahsil",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 56,
+    "term": "tartışmasız",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 57,
+    "term": "zihniyet",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 58,
+    "term": "çelişki",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 59,
+    "term": "şantaj",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 60,
+    "term": "ölümlü",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 61,
+    "term": "varlıklı",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 62,
+    "term": "yükseliş",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 63,
+    "term": "yardımlaşma",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 64,
+    "term": "bedensel",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 65,
+    "term": "beceriksiz",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 66,
+    "term": "değişim",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 67,
+    "term": "finansman",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 68,
+    "term": "ithalat",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 69,
+    "term": "işlev",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 70,
+    "term": "ihtisas",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 71,
+    "term": "genişleme",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 72,
+    "term": "evren",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 73,
+    "term": "hekim",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 74,
+    "term": "itham",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 75,
+    "term": "esir",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 76,
+    "term": "ejder",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 77,
+    "term": "otoriter",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 78,
+    "term": "mütevelli",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 79,
+    "term": "müşterek",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 80,
+    "term": "müstakil",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 81,
+    "term": "muhtelif",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 82,
+    "term": "keşiş",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 83,
+    "term": "kaynaklanmak",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 84,
+    "term": "nörolojik",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 85,
+    "term": "meyilli",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 86,
+    "term": "kodlama",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 87,
+    "term": "keşfetmek",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 88,
+    "term": "kuşku",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 89,
+    "term": "temenni",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 90,
+    "term": "tasarı",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 91,
+    "term": "aydınlanma",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 92,
+    "term": "şehircilik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 93,
+    "term": "yegane",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 94,
+    "term": "diplomasi",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 95,
+    "term": "aşiret",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 96,
+    "term": "dayanıklılık",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 97,
+    "term": "biat",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 98,
+    "term": "dük",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 99,
+    "term": "birleştirme",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 100,
+    "term": "dönüm",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 101,
+    "term": "esrarengiz",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 102,
+    "term": "fitne",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 103,
+    "term": "intikam",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 104,
+    "term": "haberci",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 105,
+    "term": "hayırsever",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 106,
+    "term": "koşulsuz",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 107,
+    "term": "konsolosluk",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 108,
+    "term": "karbondioksit",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 109,
+    "term": "kaçakçılık",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 110,
+    "term": "magnezyum",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 111,
+    "term": "kubbe",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 112,
+    "term": "mecnun",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 113,
+    "term": "kelam",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 114,
+    "term": "kederli",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 115,
+    "term": "oranlı",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 116,
+    "term": "sened",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 117,
+    "term": "taarruz",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 118,
+    "term": "varis",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 119,
+    "term": "çalı",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 120,
+    "term": "çığ",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 121,
+    "term": "ümmet",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 122,
+    "term": "anlı",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 123,
+    "term": "yenilenebilir",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 124,
+    "term": "ürkütücü",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 125,
+    "term": "zararsız",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 126,
+    "term": "akarsu",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 127,
+    "term": "yamaç",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 128,
+    "term": "bombardıman",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 129,
+    "term": "değerlendirme",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 130,
+    "term": "evre",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 131,
+    "term": "ezeli",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 132,
+    "term": "faal",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 133,
+    "term": "firar",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 134,
+    "term": "gerici",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 135,
+    "term": "erzak",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 136,
+    "term": "emisyon",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 137,
+    "term": "erbaş",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 138,
+    "term": "hatun",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 139,
+    "term": "hamam",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 140,
+    "term": "imparatorluk",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 141,
+    "term": "kurban",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 142,
+    "term": "köle",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 143,
+    "term": "korkusuz",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 144,
+    "term": "lenf",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 145,
+    "term": "inme",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 146,
+    "term": "külliye",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 147,
+    "term": "maarif",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 148,
+    "term": "kamuoyu",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 149,
+    "term": "illegal",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 150,
+    "term": "söylem",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 151,
+    "term": "romantizm",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 152,
+    "term": "memnuniyet",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 153,
+    "term": "nitelik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 154,
+    "term": "muhterem",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 155,
+    "term": "sıfat",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 156,
+    "term": "menzil",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 157,
+    "term": "nail",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 158,
+    "term": "uygarlık",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 159,
+    "term": "verimlilik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 160,
+    "term": "tahkim",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 161,
+    "term": "vahiy",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 162,
+    "term": "tatbikat",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 163,
+    "term": "yenilmez",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 164,
+    "term": "yanal",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 165,
+    "term": "varolan",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 166,
+    "term": "açılım",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 167,
+    "term": "çapkın",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 168,
+    "term": "yırtıcı",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 169,
+    "term": "zamanlama",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 170,
+    "term": "özelleştirme",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 171,
+    "term": "balistik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 172,
+    "term": "ayin",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 173,
+    "term": "anestezi",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 174,
+    "term": "çalıntı",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 175,
+    "term": "yöntem",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 176,
+    "term": "baskı",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 177,
+    "term": "öğretim",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 178,
+    "term": "devrim",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 179,
+    "term": "bulgu",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 180,
+    "term": "eğilim",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 181,
+    "term": "cevher",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 182,
+    "term": "duyarlılık",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 183,
+    "term": "dolandırıcılık",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 184,
+    "term": "bildiri",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 185,
+    "term": "bitirme",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 186,
+    "term": "hırs",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 187,
+    "term": "hırslı",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 188,
+    "term": "göçer",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 189,
+    "term": "imtihan",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 190,
+    "term": "nafile",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 191,
+    "term": "mücadele",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 192,
+    "term": "samimiyet",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 193,
+    "term": "sapma",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 194,
+    "term": "sömürge",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 195,
+    "term": "serap",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 196,
+    "term": "zikir",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 197,
+    "term": "zanlı",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 198,
+    "term": "örgütlenme",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 199,
+    "term": "yetersizlik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 200,
+    "term": "yatırımcı",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 201,
+    "term": "yapım",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 202,
+    "term": "uyuz",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 203,
+    "term": "şike",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 204,
+    "term": "şaman",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 205,
+    "term": "antlaşma",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 206,
+    "term": "asılsız",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 207,
+    "term": "aktarım",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 208,
+    "term": "bağlayıcı",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 209,
+    "term": "cazibe",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 210,
+    "term": "gözlemci",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 211,
+    "term": "cemiyet",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 212,
+    "term": "huzursuzluk",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 213,
+    "term": "istihbarat",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 214,
+    "term": "kasırga",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 215,
+    "term": "hicret",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 216,
+    "term": "havan",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 217,
+    "term": "lütuf",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 218,
+    "term": "sonsuzluk",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 219,
+    "term": "minyatür",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 220,
+    "term": "sefa",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 221,
+    "term": "menajeri",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 222,
+    "term": "robotik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 223,
+    "term": "ruhlu",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 224,
+    "term": "senarist",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 225,
+    "term": "süresiz",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 226,
+    "term": "titreşim",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 227,
+    "term": "varlık",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 228,
+    "term": "veba",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 229,
+    "term": "yağma",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 230,
+    "term": "yel",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 231,
+    "term": "astronomi",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 232,
+    "term": "zulm",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 233,
+    "term": "balyoz",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 234,
+    "term": "yılki",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 235,
+    "term": "özlük",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 236,
+    "term": "birliktelik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 237,
+    "term": "bozkır",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 238,
+    "term": "dairesel",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 239,
+    "term": "dağılım",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 240,
+    "term": "diyar",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 241,
+    "term": "doz",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 242,
+    "term": "dünyevi",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 243,
+    "term": "ferman",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 244,
+    "term": "fetva",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 245,
+    "term": "istiklal",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 246,
+    "term": "işgal",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 247,
+    "term": "ilaveten",
+    "part_of_speech": "adverb",
+    "extra": {}
+  },
+  {
+    "rank": 248,
+    "term": "harem",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 249,
+    "term": "klişe",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 250,
+    "term": "mucizevi",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 251,
+    "term": "oysaki",
+    "part_of_speech": "conj",
+    "extra": {}
+  },
+  {
+    "rank": 252,
+    "term": "mahcup",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 253,
+    "term": "namuslu",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 254,
+    "term": "rant",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 255,
+    "term": "sonda",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 256,
+    "term": "takdir",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 257,
+    "term": "sitem",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 258,
+    "term": "tenli",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 259,
+    "term": "savunucu",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 260,
+    "term": "pehlivan",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 261,
+    "term": "özgül",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 262,
+    "term": "şamil",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 263,
+    "term": "derman",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 264,
+    "term": "dilsiz",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 265,
+    "term": "dönüştürmek",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 266,
+    "term": "felaket",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 267,
+    "term": "gidermek",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 268,
+    "term": "divan",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 269,
+    "term": "gereksinim",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 270,
+    "term": "elektron",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 271,
+    "term": "iade",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 272,
+    "term": "dizin",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 273,
+    "term": "eylem",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 274,
+    "term": "husus",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 275,
+    "term": "maksat",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 276,
+    "term": "kibir",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 277,
+    "term": "kurnaz",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 278,
+    "term": "koza",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 279,
+    "term": "kelepçe",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 280,
+    "term": "koz",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 281,
+    "term": "ikmal",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 282,
+    "term": "katman",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 283,
+    "term": "katlanmak",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 284,
+    "term": "manastır",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 285,
+    "term": "kesim",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 286,
+    "term": "kapsam",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 287,
+    "term": "kurul",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 288,
+    "term": "kuruluş",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 289,
+    "term": "komedyen",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 290,
+    "term": "kazanç",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 291,
+    "term": "mantıksız",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 292,
+    "term": "musallat",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 293,
+    "term": "pürüzsüz",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 294,
+    "term": "refah",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 295,
+    "term": "seferberlik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 296,
+    "term": "sermaye",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 297,
+    "term": "yargı",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 298,
+    "term": "yatkın",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 299,
+    "term": "vakit",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 300,
+    "term": "sure",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 301,
+    "term": "tabur",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 302,
+    "term": "aşikar",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 303,
+    "term": "öncü",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 304,
+    "term": "doğrusal",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 305,
+    "term": "birlik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 306,
+    "term": "eczacı",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 307,
+    "term": "istikbal",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 308,
+    "term": "hakikat",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 309,
+    "term": "gurbet",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 310,
+    "term": "faşizm",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 311,
+    "term": "fenomen",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 312,
+    "term": "gözetim",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 313,
+    "term": "geliştirici",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 314,
+    "term": "hasar",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 315,
+    "term": "kağan",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 316,
+    "term": "kuduz",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 317,
+    "term": "kuşatma",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 318,
+    "term": "kılıf",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 319,
+    "term": "tekabül",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 320,
+    "term": "müftü",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 321,
+    "term": "onbaşı",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 322,
+    "term": "tabir",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 323,
+    "term": "taşra",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 324,
+    "term": "seyrek",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 325,
+    "term": "vazife",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 326,
+    "term": "ödenek",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 327,
+    "term": "zehirlenme",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 328,
+    "term": "yeminli",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 329,
+    "term": "tutulmak",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 330,
+    "term": "uğramak",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 331,
+    "term": "yönelmek",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 332,
+    "term": "tutku",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 333,
+    "term": "türkü",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 334,
+    "term": "yonca",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 335,
+    "term": "ayaklanma",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 336,
+    "term": "atıf",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 337,
+    "term": "bildirge",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 338,
+    "term": "alaycı",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 339,
+    "term": "aralıklı",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 340,
+    "term": "aldatma",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 341,
+    "term": "avcılık",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 342,
+    "term": "dokunulmazlık",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 343,
+    "term": "bulaşma",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 344,
+    "term": "cephane",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 345,
+    "term": "cari",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 346,
+    "term": "demişken",
+    "part_of_speech": "adverb",
+    "extra": {}
+  },
+  {
+    "rank": 347,
+    "term": "iptal",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 348,
+    "term": "irade",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 349,
+    "term": "ishal",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 350,
+    "term": "inkılap",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 351,
+    "term": "gerçeklik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 352,
+    "term": "ihbar",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 353,
+    "term": "iskan",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 354,
+    "term": "hareketlilik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 355,
+    "term": "gaye",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 356,
+    "term": "hayvansal",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 357,
+    "term": "hâlen",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 358,
+    "term": "içli",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 359,
+    "term": "muvaffak",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 360,
+    "term": "lâkin",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 361,
+    "term": "kefil",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 362,
+    "term": "komünizm",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 363,
+    "term": "jeoloji",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 364,
+    "term": "köken",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 365,
+    "term": "kaymakamlık",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 366,
+    "term": "katsayı",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 367,
+    "term": "metropol",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 368,
+    "term": "kötülük",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 369,
+    "term": "kısıtlama",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 370,
+    "term": "kalınlık",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 371,
+    "term": "kusurlu",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 372,
+    "term": "nabız",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 373,
+    "term": "reform",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 374,
+    "term": "performans",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 375,
+    "term": "prototip",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 376,
+    "term": "rövanş",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 377,
+    "term": "nafaka",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 378,
+    "term": "sohbet",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 379,
+    "term": "rahmet",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 380,
+    "term": "naz",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 381,
+    "term": "uçuk",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 382,
+    "term": "yazarlık",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 383,
+    "term": "ahlâk",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 384,
+    "term": "arayış",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 385,
+    "term": "dinç",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 386,
+    "term": "darmadağın",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 387,
+    "term": "değişkenlik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 388,
+    "term": "eşkıya",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 389,
+    "term": "hain",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 390,
+    "term": "eksen",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 391,
+    "term": "hektar",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 392,
+    "term": "hibe",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 393,
+    "term": "ilah",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 394,
+    "term": "gülünç",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 395,
+    "term": "etap",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 396,
+    "term": "formasyon",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 397,
+    "term": "girişim",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 398,
+    "term": "fazlaca",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 399,
+    "term": "mekik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 400,
+    "term": "kumandan",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 401,
+    "term": "medyum",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 402,
+    "term": "karakterli",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 403,
+    "term": "nefs",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 404,
+    "term": "nasihat",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 405,
+    "term": "nakış",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 406,
+    "term": "suçluluk",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 407,
+    "term": "sıkıştırma",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 408,
+    "term": "platin",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 409,
+    "term": "portre",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 410,
+    "term": "tamamlayıcı",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 411,
+    "term": "prestij",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 412,
+    "term": "yalı",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 413,
+    "term": "yosun",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 414,
+    "term": "tetkik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 415,
+    "term": "umumi",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 416,
+    "term": "çaresizlik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 417,
+    "term": "zamansız",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 418,
+    "term": "uyarıcı",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 419,
+    "term": "vefat",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 420,
+    "term": "volkanik",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 421,
+    "term": "tropikal",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 422,
+    "term": "yandaş",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 423,
+    "term": "asayiş",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 424,
+    "term": "özgürlükçü",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 425,
+    "term": "balo",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 426,
+    "term": "çılgınlık",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 427,
+    "term": "arıtma",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 428,
+    "term": "ayyaş",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 429,
+    "term": "caiz",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 430,
+    "term": "cani",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 431,
+    "term": "bilgelik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 432,
+    "term": "döküm",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 433,
+    "term": "cinayet",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 434,
+    "term": "ezmek",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 435,
+    "term": "esinlenmek",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 436,
+    "term": "efsane",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 437,
+    "term": "denklem",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 438,
+    "term": "bileşen",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 439,
+    "term": "ithaf",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 440,
+    "term": "haksızlık",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 441,
+    "term": "ilerici",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 442,
+    "term": "gelişim",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 443,
+    "term": "kefalet",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 444,
+    "term": "kararname",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 445,
+    "term": "keşif",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 446,
+    "term": "kütle",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 447,
+    "term": "krallık",
+    "part_of_speech": "noun",
+    "extra": {}
+  }
+]

@@ -1,0 +1,4265 @@
+[
+  {
+    "term": "ab",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 1
+  },
+  {
+    "term": "aber",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 2
+  },
+  {
+    "term": "abfahren",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 3
+  },
+  {
+    "term": "abgeben",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 4
+  },
+  {
+    "term": "abholen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 5
+  },
+  {
+    "term": "Absender",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 6
+  },
+  {
+    "term": "Adresse",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "en"
+    },
+    "rank": 7
+  },
+  {
+    "term": "all-",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 8
+  },
+  {
+    "term": "allein",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 9
+  },
+  {
+    "term": "also",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 10
+  },
+  {
+    "term": "alt",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 11
+  },
+  {
+    "term": "Alter",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 12
+  },
+  {
+    "term": "an",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 13
+  },
+  {
+    "term": "anbieten",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 14
+  },
+  {
+    "term": "ander-",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 15
+  },
+  {
+    "term": "anfangen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 16
+  },
+  {
+    "term": "anklicken",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 17
+  },
+  {
+    "term": "ankommen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 18
+  },
+  {
+    "term": "Ankunft",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 19
+  },
+  {
+    "term": "ankreuzen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 20
+  },
+  {
+    "term": "anmachen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 21
+  },
+  {
+    "term": "(sich) anmelden",
+    "part_of_speech": "verb",
+    "extra": {},
+    "rank": 22
+  },
+  {
+    "term": "Anrede",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 23
+  },
+  {
+    "term": "anrufen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 24
+  },
+  {
+    "term": "Anruf",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "e"
+    },
+    "rank": 25
+  },
+  {
+    "term": "Ansage",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 26
+  },
+  {
+    "term": "Anschluss",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 27
+  },
+  {
+    "term": "antworten",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 28
+  },
+  {
+    "term": "Anzeige",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 29
+  },
+  {
+    "term": "(sich) anziehen",
+    "part_of_speech": "verb",
+    "extra": {},
+    "rank": 30
+  },
+  {
+    "term": "Apartment",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "s"
+    },
+    "rank": 31
+  },
+  {
+    "term": "Apfel",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 32
+  },
+  {
+    "term": "Appetit",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 33
+  },
+  {
+    "term": "Arbeitsplatz",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "ä,e"
+    },
+    "rank": 34
+  },
+  {
+    "term": "Arm",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "e"
+    },
+    "rank": 35
+  },
+  {
+    "term": "Arzt",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 36
+  },
+  {
+    "term": "auch",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 37
+  },
+  {
+    "term": "auf",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 38
+  },
+  {
+    "term": "Aufgabe",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 39
+  },
+  {
+    "term": "aufhören",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 40
+  },
+  {
+    "term": "aufstehen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 41
+  },
+  {
+    "term": "Aufzug",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "ü,e"
+    },
+    "rank": 42
+  },
+  {
+    "term": "Auge",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "n"
+    },
+    "rank": 43
+  },
+  {
+    "term": "aus",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 44
+  },
+  {
+    "term": "Ausflug",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 45
+  },
+  {
+    "term": "ausfüllen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 46
+  },
+  {
+    "term": "Ausgang",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 47
+  },
+  {
+    "term": "Auskunft",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "ü,e"
+    },
+    "rank": 48
+  },
+  {
+    "term": "Ausland",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 49
+  },
+  {
+    "term": "ausmachen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 50
+  },
+  {
+    "term": "Aussage",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 51
+  },
+  {
+    "term": "aussehen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 52
+  },
+  {
+    "term": "aussteigen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 53
+  },
+  {
+    "term": "Ausweis",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 54
+  },
+  {
+    "term": "(sich) ausziehen",
+    "part_of_speech": "verb",
+    "extra": {},
+    "rank": 55
+  },
+  {
+    "term": "Autobahn",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "en"
+    },
+    "rank": 56
+  },
+  {
+    "term": "Automat",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 57
+  },
+  {
+    "term": "automatisch",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 58
+  },
+  {
+    "term": "Baby",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "s"
+    },
+    "rank": 59
+  },
+  {
+    "term": "Bäckerei",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 60
+  },
+  {
+    "term": "Bad",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 61
+  },
+  {
+    "term": "baden",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 62
+  },
+  {
+    "term": "Bahn",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 63
+  },
+  {
+    "term": "Bahnhof",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 64
+  },
+  {
+    "term": "Bahnsteig",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 65
+  },
+  {
+    "term": "bald",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 66
+  },
+  {
+    "term": "Balkon",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 67
+  },
+  {
+    "term": "Banane",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 68
+  },
+  {
+    "term": "Bank",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 69
+  },
+  {
+    "term": "bar",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 70
+  },
+  {
+    "term": "Bauch",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 71
+  },
+  {
+    "term": "Baum",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "ä,e"
+    },
+    "rank": 72
+  },
+  {
+    "term": "Beamte",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "n"
+    },
+    "rank": 73
+  },
+  {
+    "term": "bedeuten",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 74
+  },
+  {
+    "term": "beginnen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 75
+  },
+  {
+    "term": "bei",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 76
+  },
+  {
+    "term": "beide",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 77
+  },
+  {
+    "term": "Bein",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "e"
+    },
+    "rank": 78
+  },
+  {
+    "term": "Beispiel",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "e"
+    },
+    "rank": 79
+  },
+  {
+    "term": "bekannt",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 80
+  },
+  {
+    "term": "der",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 81
+  },
+  {
+    "term": "bekommen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 82
+  },
+  {
+    "term": "benutzen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 83
+  },
+  {
+    "term": "Beruf",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "e"
+    },
+    "rank": 84
+  },
+  {
+    "term": "besetzt",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 85
+  },
+  {
+    "term": "besichtigen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 86
+  },
+  {
+    "term": "besser",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 87
+  },
+  {
+    "term": "best-",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 88
+  },
+  {
+    "term": "bestellen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 89
+  },
+  {
+    "term": "besuchen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 90
+  },
+  {
+    "term": "Bett",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "en"
+    },
+    "rank": 91
+  },
+  {
+    "term": "bezahlen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 92
+  },
+  {
+    "term": "Bier",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 93
+  },
+  {
+    "term": "Bild",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "er"
+    },
+    "rank": 94
+  },
+  {
+    "term": "billig",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 95
+  },
+  {
+    "term": "Birne",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 96
+  },
+  {
+    "term": "bis",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 97
+  },
+  {
+    "term": "bisschen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 98
+  },
+  {
+    "term": "bitte",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 99
+  },
+  {
+    "term": "bitter",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 100
+  },
+  {
+    "term": "bleiben",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 101
+  },
+  {
+    "term": "Bleistift",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "e"
+    },
+    "rank": 102
+  },
+  {
+    "term": "Blick",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 103
+  },
+  {
+    "term": "Blume",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 104
+  },
+  {
+    "term": "Bogen",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 105
+  },
+  {
+    "term": "böse",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 106
+  },
+  {
+    "term": "brauchen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 107
+  },
+  {
+    "term": "breit",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 108
+  },
+  {
+    "term": "Brief",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "e"
+    },
+    "rank": 109
+  },
+  {
+    "term": "Briefmarke",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 110
+  },
+  {
+    "term": "bringen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 111
+  },
+  {
+    "term": "Brot",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "e"
+    },
+    "rank": 112
+  },
+  {
+    "term": "Brötchen",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 113
+  },
+  {
+    "term": "Bruder",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "ü"
+    },
+    "rank": 114
+  },
+  {
+    "term": "Buch",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "ü,er"
+    },
+    "rank": 115
+  },
+  {
+    "term": "Buchstabe",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "n"
+    },
+    "rank": 116
+  },
+  {
+    "term": "buchstabieren",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 117
+  },
+  {
+    "term": "Bus",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "se"
+    },
+    "rank": 118
+  },
+  {
+    "term": "Butter",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 119
+  },
+  {
+    "term": "Café",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "s"
+    },
+    "rank": 120
+  },
+  {
+    "term": "CD",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "s"
+    },
+    "rank": 121
+  },
+  {
+    "term": "Chef",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 122
+  },
+  {
+    "term": "circa",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 123
+  },
+  {
+    "term": "Computer",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 124
+  },
+  {
+    "term": "da",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 125
+  },
+  {
+    "term": "Dame",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 126
+  },
+  {
+    "term": "daneben",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 127
+  },
+  {
+    "term": "danken",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 128
+  },
+  {
+    "term": "dann",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 129
+  },
+  {
+    "term": "Datum",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 130
+  },
+  {
+    "term": "dauern",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 131
+  },
+  {
+    "term": "dein-",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 132
+  },
+  {
+    "term": "denn",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 133
+  },
+  {
+    "term": "dich",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 134
+  },
+  {
+    "term": "dies-",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 135
+  },
+  {
+    "term": "dir",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 136
+  },
+  {
+    "term": "Disco",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 137
+  },
+  {
+    "term": "Doktor",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 138
+  },
+  {
+    "term": "Doppelzimmer",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 139
+  },
+  {
+    "term": "Dorf",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "ö,er"
+    },
+    "rank": 140
+  },
+  {
+    "term": "dort",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 141
+  },
+  {
+    "term": "draußen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 142
+  },
+  {
+    "term": "drucken",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 143
+  },
+  {
+    "term": "drücken",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 144
+  },
+  {
+    "term": "durch",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 145
+  },
+  {
+    "term": "Durchsage",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 146
+  },
+  {
+    "term": "dürfen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 147
+  },
+  {
+    "term": "Durst",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 148
+  },
+  {
+    "term": "(sich) duschen",
+    "part_of_speech": "verb",
+    "extra": {},
+    "rank": 149
+  },
+  {
+    "term": "Ecke",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 150
+  },
+  {
+    "term": "Ehefrau",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "en/"
+    },
+    "rank": 151
+  },
+  {
+    "term": "Ehemann",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "ä,er"
+    },
+    "rank": 152
+  },
+  {
+    "term": "Ei",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "er"
+    },
+    "rank": 153
+  },
+  {
+    "term": "eilig",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 154
+  },
+  {
+    "term": "ein-",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 155
+  },
+  {
+    "term": "einfach",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 156
+  },
+  {
+    "term": "Eingang",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 157
+  },
+  {
+    "term": "einladen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 158
+  },
+  {
+    "term": "einmal",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 159
+  },
+  {
+    "term": "einsteigen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 160
+  },
+  {
+    "term": "Eintritt",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 161
+  },
+  {
+    "term": "Einzelzimmer",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 162
+  },
+  {
+    "term": "Eltern",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 163
+  },
+  {
+    "term": "E-Mail",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "s"
+    },
+    "rank": 164
+  },
+  {
+    "term": "Empfänger",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 165
+  },
+  {
+    "term": "empfehlen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 166
+  },
+  {
+    "term": "enden",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 167
+  },
+  {
+    "term": "entschuldigen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 168
+  },
+  {
+    "term": "er",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 169
+  },
+  {
+    "term": "Ergebnis",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "se"
+    },
+    "rank": 170
+  },
+  {
+    "term": "erklären",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 171
+  },
+  {
+    "term": "erlauben",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 172
+  },
+  {
+    "term": "Erwachsene",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "n"
+    },
+    "rank": 173
+  },
+  {
+    "term": "erzählen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 174
+  },
+  {
+    "term": "es",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 175
+  },
+  {
+    "term": "euer",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 176
+  },
+  {
+    "term": "fahren",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 177
+  },
+  {
+    "term": "Fahrkarte",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 178
+  },
+  {
+    "term": "Fahrrad",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "ä,er"
+    },
+    "rank": 179
+  },
+  {
+    "term": "falsch",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 180
+  },
+  {
+    "term": "Familie",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 181
+  },
+  {
+    "term": "Farbe",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 182
+  },
+  {
+    "term": "Fax",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "e"
+    },
+    "rank": 183
+  },
+  {
+    "term": "feiern",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 184
+  },
+  {
+    "term": "fehlen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 185
+  },
+  {
+    "term": "Fehler",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 186
+  },
+  {
+    "term": "fernsehen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 187
+  },
+  {
+    "term": "fertig",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 188
+  },
+  {
+    "term": "Feuer",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 189
+  },
+  {
+    "term": "Fieber",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 190
+  },
+  {
+    "term": "Film",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "e"
+    },
+    "rank": 191
+  },
+  {
+    "term": "finden",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 192
+  },
+  {
+    "term": "Firma",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 193
+  },
+  {
+    "term": "Fisch",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "e"
+    },
+    "rank": 194
+  },
+  {
+    "term": "Flasche",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 195
+  },
+  {
+    "term": "Fleisch",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 196
+  },
+  {
+    "term": "fliegen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 197
+  },
+  {
+    "term": "Flughafen",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 198
+  },
+  {
+    "term": "Flugzeug",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 199
+  },
+  {
+    "term": "Formular",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "e"
+    },
+    "rank": 200
+  },
+  {
+    "term": "Foto",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "s"
+    },
+    "rank": 201
+  },
+  {
+    "term": "fragen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 202
+  },
+  {
+    "term": "Frau",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "en"
+    },
+    "rank": 203
+  },
+  {
+    "term": "frei",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 204
+  },
+  {
+    "term": "Freizeit",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 205
+  },
+  {
+    "term": "fremd",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 206
+  },
+  {
+    "term": "(sich) freuen",
+    "part_of_speech": "verb",
+    "extra": {},
+    "rank": 207
+  },
+  {
+    "term": "Freund",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "e"
+    },
+    "rank": 208
+  },
+  {
+    "term": "früher",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 209
+  },
+  {
+    "term": "frühstücken",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 210
+  },
+  {
+    "term": "Führung",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 211
+  },
+  {
+    "term": "für",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 212
+  },
+  {
+    "term": "Fuß",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "ü,e"
+    },
+    "rank": 213
+  },
+  {
+    "term": "Fußball",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 214
+  },
+  {
+    "term": "Garten",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 215
+  },
+  {
+    "term": "Gast",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "ä,e"
+    },
+    "rank": 216
+  },
+  {
+    "term": "geben",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 217
+  },
+  {
+    "term": "geboren",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 218
+  },
+  {
+    "term": "Geburtsjahr",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 219
+  },
+  {
+    "term": "Geburtstag",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 220
+  },
+  {
+    "term": "gefallen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 221
+  },
+  {
+    "term": "gegen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 222
+  },
+  {
+    "term": "gehen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 223
+  },
+  {
+    "term": "gehören",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 224
+  },
+  {
+    "term": "Geld",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 225
+  },
+  {
+    "term": "Gemüse",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 226
+  },
+  {
+    "term": "Gepäck",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 227
+  },
+  {
+    "term": "gerade",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 228
+  },
+  {
+    "term": "geradeaus",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 229
+  },
+  {
+    "term": "gern",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 230
+  },
+  {
+    "term": "Geschäft",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "e"
+    },
+    "rank": 231
+  },
+  {
+    "term": "Geschenk",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "e"
+    },
+    "rank": 232
+  },
+  {
+    "term": "Geschwister",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 233
+  },
+  {
+    "term": "gestern",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 234
+  },
+  {
+    "term": "gestorben",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 235
+  },
+  {
+    "term": "Getränk",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "e"
+    },
+    "rank": 236
+  },
+  {
+    "term": "Gewicht",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 237
+  },
+  {
+    "term": "gewinnen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 238
+  },
+  {
+    "term": "Glas",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "ä,er"
+    },
+    "rank": 239
+  },
+  {
+    "term": "glauben",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 240
+  },
+  {
+    "term": "gleich",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 241
+  },
+  {
+    "term": "Gleis",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "e"
+    },
+    "rank": 242
+  },
+  {
+    "term": "Glück",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 243
+  },
+  {
+    "term": "glücklich",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 244
+  },
+  {
+    "term": "Glückwunsch",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 245
+  },
+  {
+    "term": "grillen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 246
+  },
+  {
+    "term": "groß",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 247
+  },
+  {
+    "term": "Großeltern",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 248
+  },
+  {
+    "term": "Gruppe",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 249
+  },
+  {
+    "term": "Gruß",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "ü,e"
+    },
+    "rank": 250
+  },
+  {
+    "term": "gültig",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 251
+  },
+  {
+    "term": "günstig",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 252
+  },
+  {
+    "term": "gut",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 253
+  },
+  {
+    "term": "Haar",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "e"
+    },
+    "rank": 254
+  },
+  {
+    "term": "haben",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 255
+  },
+  {
+    "term": "Hähnchen",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 256
+  },
+  {
+    "term": "Halbpension",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 257
+  },
+  {
+    "term": "Halle",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 258
+  },
+  {
+    "term": "hallo",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 259
+  },
+  {
+    "term": "halten",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 260
+  },
+  {
+    "term": "Haltestelle",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 261
+  },
+  {
+    "term": "Hand",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "ä,e"
+    },
+    "rank": 262
+  },
+  {
+    "term": "Handy",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "s"
+    },
+    "rank": 263
+  },
+  {
+    "term": "Haus",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "ä,er"
+    },
+    "rank": 264
+  },
+  {
+    "term": "Hausaufgabe",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 265
+  },
+  {
+    "term": "Hausfrau",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "en/"
+    },
+    "rank": 266
+  },
+  {
+    "term": "Heimat",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 267
+  },
+  {
+    "term": "heiraten",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 268
+  },
+  {
+    "term": "heißen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 269
+  },
+  {
+    "term": "helfen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 270
+  },
+  {
+    "term": "hell",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 271
+  },
+  {
+    "term": "Herd",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 272
+  },
+  {
+    "term": "Herr",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "en"
+    },
+    "rank": 273
+  },
+  {
+    "term": "herzlich",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 274
+  },
+  {
+    "term": "heute",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 275
+  },
+  {
+    "term": "hier",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 276
+  },
+  {
+    "term": "Hilfe",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 277
+  },
+  {
+    "term": "hinten",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 278
+  },
+  {
+    "term": "Hobby",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "s"
+    },
+    "rank": 279
+  },
+  {
+    "term": "hoch",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 280
+  },
+  {
+    "term": "Hochzeit",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 281
+  },
+  {
+    "term": "holen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 282
+  },
+  {
+    "term": "hören",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 283
+  },
+  {
+    "term": "Hotel",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "s"
+    },
+    "rank": 284
+  },
+  {
+    "term": "Hund",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "e"
+    },
+    "rank": 285
+  },
+  {
+    "term": "Hunger",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 286
+  },
+  {
+    "term": "ihr",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 287
+  },
+  {
+    "term": "immer",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 288
+  },
+  {
+    "term": "in",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 289
+  },
+  {
+    "term": "Information",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "en"
+    },
+    "rank": 290
+  },
+  {
+    "term": "international",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 291
+  },
+  {
+    "term": "Internet",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 292
+  },
+  {
+    "term": "ja",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 293
+  },
+  {
+    "term": "Jacke",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 294
+  },
+  {
+    "term": "jed-",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 295
+  },
+  {
+    "term": "jetzt",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 296
+  },
+  {
+    "term": "Job",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "s"
+    },
+    "rank": 297
+  },
+  {
+    "term": "Jugendliche",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "n"
+    },
+    "rank": 298
+  },
+  {
+    "term": "jung",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 299
+  },
+  {
+    "term": "Junge",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "n"
+    },
+    "rank": 300
+  },
+  {
+    "term": "kaputt",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 301
+  },
+  {
+    "term": "Karte",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 302
+  },
+  {
+    "term": "Kartoffel",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 303
+  },
+  {
+    "term": "Kasse",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 304
+  },
+  {
+    "term": "kaufen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 305
+  },
+  {
+    "term": "kein",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 306
+  },
+  {
+    "term": "kennen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 307
+  },
+  {
+    "term": "Kind",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "er"
+    },
+    "rank": 308
+  },
+  {
+    "term": "Kindergarten",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 309
+  },
+  {
+    "term": "Kino",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "s"
+    },
+    "rank": 310
+  },
+  {
+    "term": "Kiosk",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 311
+  },
+  {
+    "term": "klar",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 312
+  },
+  {
+    "term": "Klasse",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 313
+  },
+  {
+    "term": "Kleidung",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 314
+  },
+  {
+    "term": "klein",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 315
+  },
+  {
+    "term": "kochen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 316
+  },
+  {
+    "term": "Koffer",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 317
+  },
+  {
+    "term": "Kollege",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "n"
+    },
+    "rank": 318
+  },
+  {
+    "term": "kommen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 319
+  },
+  {
+    "term": "können",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 320
+  },
+  {
+    "term": "Konto",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 321
+  },
+  {
+    "term": "Kopf",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 322
+  },
+  {
+    "term": "kosten",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 323
+  },
+  {
+    "term": "krank",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 324
+  },
+  {
+    "term": "kriegen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 325
+  },
+  {
+    "term": "Küche",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 326
+  },
+  {
+    "term": "Kuchen",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 327
+  },
+  {
+    "term": "Kugelschreiber",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 328
+  },
+  {
+    "term": "Kühlschrank",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 329
+  },
+  {
+    "term": "kulturell",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 330
+  },
+  {
+    "term": "sich",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 331
+  },
+  {
+    "term": "Kunde",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "n"
+    },
+    "rank": 332
+  },
+  {
+    "term": "Kurs",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "e"
+    },
+    "rank": 333
+  },
+  {
+    "term": "kurz",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 334
+  },
+  {
+    "term": "lachen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 335
+  },
+  {
+    "term": "Laden",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "ä"
+    },
+    "rank": 336
+  },
+  {
+    "term": "Land",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "ä,er"
+    },
+    "rank": 337
+  },
+  {
+    "term": "lang",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 338
+  },
+  {
+    "term": "lange",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 339
+  },
+  {
+    "term": "langsam",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 340
+  },
+  {
+    "term": "laufen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 341
+  },
+  {
+    "term": "laut",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 342
+  },
+  {
+    "term": "leben",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 343
+  },
+  {
+    "term": "ledig",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 344
+  },
+  {
+    "term": "legen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 345
+  },
+  {
+    "term": "Lehrer",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 346
+  },
+  {
+    "term": "leider",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 347
+  },
+  {
+    "term": "leise",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 348
+  },
+  {
+    "term": "lernen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 349
+  },
+  {
+    "term": "lesen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 350
+  },
+  {
+    "term": "letzt-",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 351
+  },
+  {
+    "term": "Leute",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 352
+  },
+  {
+    "term": "Licht",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 353
+  },
+  {
+    "term": "lieb-",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 354
+  },
+  {
+    "term": "Lied",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "er"
+    },
+    "rank": 355
+  },
+  {
+    "term": "liegen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 356
+  },
+  {
+    "term": "links",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 357
+  },
+  {
+    "term": "Lkw",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "s"
+    },
+    "rank": 358
+  },
+  {
+    "term": "Lokal",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 359
+  },
+  {
+    "term": "Lösung",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "en"
+    },
+    "rank": 360
+  },
+  {
+    "term": "lustig",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 361
+  },
+  {
+    "term": "Mädchen",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 362
+  },
+  {
+    "term": "man",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 363
+  },
+  {
+    "term": "Mann",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "ä,er"
+    },
+    "rank": 364
+  },
+  {
+    "term": "Maschine",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 365
+  },
+  {
+    "term": "Meer",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 366
+  },
+  {
+    "term": "mehr",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 367
+  },
+  {
+    "term": "mein",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 368
+  },
+  {
+    "term": "meist-",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 369
+  },
+  {
+    "term": "Mensch",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "en"
+    },
+    "rank": 370
+  },
+  {
+    "term": "mieten",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 371
+  },
+  {
+    "term": "Milch",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 372
+  },
+  {
+    "term": "mit",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 373
+  },
+  {
+    "term": "mitbringen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 374
+  },
+  {
+    "term": "mitkommen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 375
+  },
+  {
+    "term": "mitmachen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 376
+  },
+  {
+    "term": "mitnehmen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 377
+  },
+  {
+    "term": "Mitte",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 378
+  },
+  {
+    "term": "Möbel",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 379
+  },
+  {
+    "term": "möchten",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 380
+  },
+  {
+    "term": "mögen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 381
+  },
+  {
+    "term": "möglich",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 382
+  },
+  {
+    "term": "Moment",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 383
+  },
+  {
+    "term": "morgen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 384
+  },
+  {
+    "term": "müde",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 385
+  },
+  {
+    "term": "Mund",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 386
+  },
+  {
+    "term": "müssen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 387
+  },
+  {
+    "term": "Mutter",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "ü"
+    },
+    "rank": 388
+  },
+  {
+    "term": "nächst-",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 389
+  },
+  {
+    "term": "Name",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "n"
+    },
+    "rank": 390
+  },
+  {
+    "term": "nehmen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 391
+  },
+  {
+    "term": "nein",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 392
+  },
+  {
+    "term": "neu",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 393
+  },
+  {
+    "term": "nicht",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 394
+  },
+  {
+    "term": "nichts",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 395
+  },
+  {
+    "term": "nie",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 396
+  },
+  {
+    "term": "noch",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 397
+  },
+  {
+    "term": "normal",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 398
+  },
+  {
+    "term": "Nummer",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 399
+  },
+  {
+    "term": "nur",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 400
+  },
+  {
+    "term": "oben",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 401
+  },
+  {
+    "term": "Obst",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 402
+  },
+  {
+    "term": "oder",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 403
+  },
+  {
+    "term": "öffnen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 404
+  },
+  {
+    "term": "oft",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 405
+  },
+  {
+    "term": "ohne",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 406
+  },
+  {
+    "term": "Öl",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 407
+  },
+  {
+    "term": "Oma",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "s"
+    },
+    "rank": 408
+  },
+  {
+    "term": "Opa",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "s"
+    },
+    "rank": 409
+  },
+  {
+    "term": "Ordnung",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 410
+  },
+  {
+    "term": "Ort",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "e"
+    },
+    "rank": 411
+  },
+  {
+    "term": "Papiere",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 412
+  },
+  {
+    "term": "Partner",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "/"
+    },
+    "rank": 413
+  },
+  {
+    "term": "Partnerin",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "nen"
+    },
+    "rank": 414
+  },
+  {
+    "term": "Party",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 415
+  },
+  {
+    "term": "Pass",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "ä,e"
+    },
+    "rank": 416
+  },
+  {
+    "term": "Pause",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 417
+  },
+  {
+    "term": "Platz",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "ä,e"
+    },
+    "rank": 418
+  },
+  {
+    "term": "Polizei",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 419
+  },
+  {
+    "term": "Pommes",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 420
+  },
+  {
+    "term": "Post",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 421
+  },
+  {
+    "term": "Postleitzahl",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 422
+  },
+  {
+    "term": "Praktikum",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 423
+  },
+  {
+    "term": "Praxis",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 424
+  },
+  {
+    "term": "Preis",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "e"
+    },
+    "rank": 425
+  },
+  {
+    "term": "Problem",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "e"
+    },
+    "rank": 426
+  },
+  {
+    "term": "Prospekt",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "e"
+    },
+    "rank": 427
+  },
+  {
+    "term": "Prüfung",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 428
+  },
+  {
+    "term": "pünktlich",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 429
+  },
+  {
+    "term": "rauchen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 430
+  },
+  {
+    "term": "Raum",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "ä,e"
+    },
+    "rank": 431
+  },
+  {
+    "term": "Rechnung",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "en"
+    },
+    "rank": 432
+  },
+  {
+    "term": "rechts",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 433
+  },
+  {
+    "term": "regnen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 434
+  },
+  {
+    "term": "Reis",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 435
+  },
+  {
+    "term": "reparieren",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 436
+  },
+  {
+    "term": "Restaurant",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "s"
+    },
+    "rank": 437
+  },
+  {
+    "term": "Rezeption",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 438
+  },
+  {
+    "term": "richtig",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 439
+  },
+  {
+    "term": "riechen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 440
+  },
+  {
+    "term": "ruhig",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 441
+  },
+  {
+    "term": "Saft",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 442
+  },
+  {
+    "term": "sagen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 443
+  },
+  {
+    "term": "Salat",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 444
+  },
+  {
+    "term": "Salz",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 445
+  },
+  {
+    "term": "S-Bahn",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 446
+  },
+  {
+    "term": "Schalter",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 447
+  },
+  {
+    "term": "scheinen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 448
+  },
+  {
+    "term": "schicken",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 449
+  },
+  {
+    "term": "Schild",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "er"
+    },
+    "rank": 450
+  },
+  {
+    "term": "Schinken",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 451
+  },
+  {
+    "term": "schlafen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 452
+  },
+  {
+    "term": "schlecht",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 453
+  },
+  {
+    "term": "schließen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 454
+  },
+  {
+    "term": "Schluss",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 455
+  },
+  {
+    "term": "Schlüssel",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 456
+  },
+  {
+    "term": "schmecken",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 457
+  },
+  {
+    "term": "schnell",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 458
+  },
+  {
+    "term": "schon",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 459
+  },
+  {
+    "term": "schön",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 460
+  },
+  {
+    "term": "Schrank",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "ä,e"
+    },
+    "rank": 461
+  },
+  {
+    "term": "schreiben",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 462
+  },
+  {
+    "term": "Schuh",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "e"
+    },
+    "rank": 463
+  },
+  {
+    "term": "Schule",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 464
+  },
+  {
+    "term": "schwer",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 465
+  },
+  {
+    "term": "Schwester",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 466
+  },
+  {
+    "term": "schwimmen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 467
+  },
+  {
+    "term": "See",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 468
+  },
+  {
+    "term": "sehen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 469
+  },
+  {
+    "term": "Sehenswürdigkeit",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "en"
+    },
+    "rank": 470
+  },
+  {
+    "term": "sehr",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 471
+  },
+  {
+    "term": "sein",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 472
+  },
+  {
+    "term": "seit",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 473
+  },
+  {
+    "term": "selbstständig",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 474
+  },
+  {
+    "term": "sie",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 475
+  },
+  {
+    "term": "sitzen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 476
+  },
+  {
+    "term": "so",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 477
+  },
+  {
+    "term": "Sofa",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 478
+  },
+  {
+    "term": "sofort",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 479
+  },
+  {
+    "term": "Sohn",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "ö,e"
+    },
+    "rank": 480
+  },
+  {
+    "term": "sollen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 481
+  },
+  {
+    "term": "Sonne",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 482
+  },
+  {
+    "term": "spät",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 483
+  },
+  {
+    "term": "später",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 484
+  },
+  {
+    "term": "Speisekarte",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 485
+  },
+  {
+    "term": "spielen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 486
+  },
+  {
+    "term": "Sport",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 487
+  },
+  {
+    "term": "Sprache",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 488
+  },
+  {
+    "term": "sprechen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 489
+  },
+  {
+    "term": "Stadt",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "ä,e"
+    },
+    "rank": 490
+  },
+  {
+    "term": "stehen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 491
+  },
+  {
+    "term": "Stelle",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 492
+  },
+  {
+    "term": "stellen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 493
+  },
+  {
+    "term": "Stock",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 494
+  },
+  {
+    "term": "Straße",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 495
+  },
+  {
+    "term": "Straßenbahn",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 496
+  },
+  {
+    "term": "studieren",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 497
+  },
+  {
+    "term": "Studium",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 498
+  },
+  {
+    "term": "Stunde",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 499
+  },
+  {
+    "term": "suchen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 500
+  },
+  {
+    "term": "tanzen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 501
+  },
+  {
+    "term": "Tasche",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 502
+  },
+  {
+    "term": "Taxi",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "s"
+    },
+    "rank": 503
+  },
+  {
+    "term": "Tee",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 504
+  },
+  {
+    "term": "Teil",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "e"
+    },
+    "rank": 505
+  },
+  {
+    "term": "telefonieren",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 506
+  },
+  {
+    "term": "Termin",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "e"
+    },
+    "rank": 507
+  },
+  {
+    "term": "Test",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 508
+  },
+  {
+    "term": "teuer",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 509
+  },
+  {
+    "term": "Text",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "e"
+    },
+    "rank": 510
+  },
+  {
+    "term": "Thema",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 511
+  },
+  {
+    "term": "Ticket",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "s"
+    },
+    "rank": 512
+  },
+  {
+    "term": "Tisch",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "e"
+    },
+    "rank": 513
+  },
+  {
+    "term": "Tochter",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "ö"
+    },
+    "rank": 514
+  },
+  {
+    "term": "Toilette",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "en"
+    },
+    "rank": 515
+  },
+  {
+    "term": "Tomate",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 516
+  },
+  {
+    "term": "tot",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 517
+  },
+  {
+    "term": "(sich) treffen",
+    "part_of_speech": "verb",
+    "extra": {},
+    "rank": 518
+  },
+  {
+    "term": "Treppe",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 519
+  },
+  {
+    "term": "trinken",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 520
+  },
+  {
+    "term": "tschüss",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 521
+  },
+  {
+    "term": "tun",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 522
+  },
+  {
+    "term": "über",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 523
+  },
+  {
+    "term": "übernachten",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 524
+  },
+  {
+    "term": "überweisen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 525
+  },
+  {
+    "term": "Uhr",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 526
+  },
+  {
+    "term": "um",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 527
+  },
+  {
+    "term": "umziehen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 528
+  },
+  {
+    "term": "und",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 529
+  },
+  {
+    "term": "unser-",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 530
+  },
+  {
+    "term": "unten",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 531
+  },
+  {
+    "term": "unter",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 532
+  },
+  {
+    "term": "Unterricht",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 533
+  },
+  {
+    "term": "unterschreiben",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 534
+  },
+  {
+    "term": "Vater",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "ä"
+    },
+    "rank": 535
+  },
+  {
+    "term": "verboten",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 536
+  },
+  {
+    "term": "verdienen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 537
+  },
+  {
+    "term": "Verein",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 538
+  },
+  {
+    "term": "verheiratet",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 539
+  },
+  {
+    "term": "verkaufen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 540
+  },
+  {
+    "term": "vermieten",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 541
+  },
+  {
+    "term": "Verwandte",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "n"
+    },
+    "rank": 542
+  },
+  {
+    "term": "viel",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 543
+  },
+  {
+    "term": "vielleicht",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 544
+  },
+  {
+    "term": "von",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 545
+  },
+  {
+    "term": "vor",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 546
+  },
+  {
+    "term": "Vorname",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "n"
+    },
+    "rank": 547
+  },
+  {
+    "term": "Vorsicht",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 548
+  },
+  {
+    "term": "(sich) vorstellen",
+    "part_of_speech": "verb",
+    "extra": {},
+    "rank": 549
+  },
+  {
+    "term": "Vorwahl",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 550
+  },
+  {
+    "term": "wandern",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 551
+  },
+  {
+    "term": "wann",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 552
+  },
+  {
+    "term": "warten",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 553
+  },
+  {
+    "term": "warum",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 554
+  },
+  {
+    "term": "was",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 555
+  },
+  {
+    "term": "(sich) waschen",
+    "part_of_speech": "verb",
+    "extra": {},
+    "rank": 556
+  },
+  {
+    "term": "Wasser",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 557
+  },
+  {
+    "term": "weh",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 558
+  },
+  {
+    "term": "weiblich",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 559
+  },
+  {
+    "term": "Wein",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 560
+  },
+  {
+    "term": "weit",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 561
+  },
+  {
+    "term": "weiter",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 562
+  },
+  {
+    "term": "welch-",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 563
+  },
+  {
+    "term": "Welt",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 564
+  },
+  {
+    "term": "wenig",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 565
+  },
+  {
+    "term": "wer",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 566
+  },
+  {
+    "term": "werden",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 567
+  },
+  {
+    "term": "Wetter",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 568
+  },
+  {
+    "term": "wichtig",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 569
+  },
+  {
+    "term": "wie",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 570
+  },
+  {
+    "term": "wiederholen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 571
+  },
+  {
+    "term": "Wiederhören",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 572
+  },
+  {
+    "term": "Wiedersehen",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 573
+  },
+  {
+    "term": "willkommen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 574
+  },
+  {
+    "term": "Wind",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 575
+  },
+  {
+    "term": "wir",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 576
+  },
+  {
+    "term": "wissen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 577
+  },
+  {
+    "term": "wo",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 578
+  },
+  {
+    "term": "woher",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 579
+  },
+  {
+    "term": "wohin",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 580
+  },
+  {
+    "term": "wollen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 581
+  },
+  {
+    "term": "Wort",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das",
+      "plural_suffix": "ö,er/-e"
+    },
+    "rank": 582
+  },
+  {
+    "term": "Zeit",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die"
+    },
+    "rank": 583
+  },
+  {
+    "term": "Zeitung",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "en"
+    },
+    "rank": 584
+  },
+  {
+    "term": "Zigarette",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "die",
+      "plural_suffix": "n"
+    },
+    "rank": 585
+  },
+  {
+    "term": "Zimmer",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "das"
+    },
+    "rank": 586
+  },
+  {
+    "term": "Zoll",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der"
+    },
+    "rank": 587
+  },
+  {
+    "term": "zu",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 588
+  },
+  {
+    "term": "zufrieden",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 589
+  },
+  {
+    "term": "Zug",
+    "part_of_speech": "noun",
+    "extra": {
+      "gender": "der",
+      "plural_suffix": "ü,e"
+    },
+    "rank": 590
+  },
+  {
+    "term": "zurück",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 591
+  },
+  {
+    "term": "zusammen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 592
+  },
+  {
+    "term": "zwischen",
+    "part_of_speech": "",
+    "extra": {},
+    "rank": 593
+  }
+]

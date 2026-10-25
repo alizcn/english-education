@@ -1,0 +1,80 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If I had more money, I would buy a house.",
+    "correct_answer": "Si j'avais plus d'argent, j'achèterais une maison.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you studied harder, you would pass the exam.",
+    "correct_answer": "Si tu étudiais davantage, tu réussirais l'examen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If she lived closer, we would see each other more often.",
+    "correct_answer": "Si elle habitait plus près, nous nous verrions plus souvent.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If they had a car, they would drive to the beach.",
+    "correct_answer": "S'ils avaient une voiture, ils iraient à la plage.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If I were you, I would study harder.",
+    "correct_answer": "Si j'étais à ta place, j'étudierais davantage.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If he didn't work so much, he wouldn't be so tired.",
+    "correct_answer": "S'il ne travaillait pas autant, il ne serait pas aussi fatigué.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si j'avais plus de temps, je voyagerais davantage.",
+    "correct_answer": "If I had more time, I would travel more.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si tu travaillais moins, tu serais plus heureux.",
+    "correct_answer": "If you worked less, you would be happier.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si elle habitait à Paris, elle verrait ses amis plus souvent.",
+    "correct_answer": "If she lived in Paris, she would see her friends more often.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si nous avions une maison près de la mer, nous irions à la plage chaque jour.",
+    "correct_answer": "If we had a house by the sea, we would go to the beach every day.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si je ne travaillais pas, je voyagerais autour du monde.",
+    "correct_answer": "If I didn't work, I would travel around the world.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si vous aviez le temps, aideriez-vous vos amis?",
+    "correct_answer": "If you had the time, would you help your friends?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si tu n'avais pas d'argent, que ferais-tu?",
+    "correct_answer": "If you didn't have money, what would you do?",
+    "choices": null
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich würde gerne einen Kaffee trinken.",
+    "correct_answer": "Seve seve bir kahve içerdim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das wäre eine gute Lösung.",
+    "correct_answer": "Bu iyi bir çözüm olurdu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Könntest du mir helfen?",
+    "correct_answer": "Bana yardım edebilir misin?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich würde nicht gerne arbeiten.",
+    "correct_answer": "Çalışmak istemezdim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das hätte ich nicht gedacht.",
+    "correct_answer": "Bunu düşünmemiştim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Würdest du auch einen Kaffee trinken?",
+    "correct_answer": "Sen de bir kahve içer misin?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das wäre keine gute Idee.",
+    "correct_answer": "Bu iyi bir fikir olmaz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Chef würde zustimmen.",
+    "correct_answer": "Şef kabul ederdi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bana yardım edebilir misin?",
+    "correct_answer": "Könntest du mir helfen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Vaktim olsaydı, kitap okurdum.",
+    "correct_answer": "Wenn ich Zeit hätte, würde ich ein Buch lesen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bu pek iyi olmaz.",
+    "correct_answer": "Das wäre nicht gut.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bunu yapması gerekir.",
+    "correct_answer": "Das sollte er tun.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer bilseydim, söylerdim.",
+    "correct_answer": "Wenn ich es gewusst hätte, hätte ich es gesagt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Gitmek isterdim ama vaktim yok.",
+    "correct_answer": "Ich würde gerne gehen, aber ich habe keine Zeit.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O yapabilir.",
+    "correct_answer": "Das könnte er machen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bu mümkün olurdu.",
+    "correct_answer": "Das wäre möglich.",
+    "choices": null
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gelirse, bana haber ver.",
+    "correct_answer": "Wenn er kommt, gib mir Bescheid.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çalışırsa, sınavı geçer.",
+    "correct_answer": "Wenn er arbeitet, besteht er die Prüfung.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yağmur yağarsa, evde kalırız.",
+    "correct_answer": "Wenn es regnet, bleiben wir zu Hause.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gelmezse, başlayabiliriz.",
+    "correct_answer": "Wenn er nicht kommt, können wir anfangen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Uymazsa, sabah yorgun olur.",
+    "correct_answer": "Wenn er nicht schläft, wird er morgens müde.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn du früh anfängst, wirst du rechtzeitig fertig.",
+    "correct_answer": "Erken başlarsan, vaktinde bitiresin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn es morgen schön ist, gehen wir in den Park.",
+    "correct_answer": "Yarın hava güzelse, parka gideriz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn du fragst, sage ich dir die Wahrheit.",
+    "correct_answer": "Sorarsan, sana doğruyu söylerim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn wir in den Urlaub fahren, werden wir viel Spaß haben.",
+    "correct_answer": "Tatile gidersek, çok eğleniriz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn er nicht arbeitet, wird er nicht erfolgreich sein.",
+    "correct_answer": "Çalışmazsa, başarılı olmaz.",
+    "choices": null
+  }
+]

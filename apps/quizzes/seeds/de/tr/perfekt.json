@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich habe ein Buch gelesen.",
+    "correct_answer": "Bir kitap okudum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie ist zur Schule gegangen.",
+    "correct_answer": "Okula gitti.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir haben nicht lange gewartet.",
+    "correct_answer": "Uzun süre beklememedik.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Hast du den Film gesehen?",
+    "correct_answer": "Filmi izledin mi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Er ist schnell gelaufen.",
+    "correct_answer": "Hızlı koştu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich bin aufgewacht.",
+    "correct_answer": "Uyandım.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie haben Musik gehört.",
+    "correct_answer": "Müzik dinlediler.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Hat das Kind gelacht?",
+    "correct_answer": "Çocuk güldü mü?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir sind ins Kino gegangen.",
+    "correct_answer": "Sinemaya gittik.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Mädchen hat ein Kleid getragen.",
+    "correct_answer": "Kız bir elbise giydi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bir fincan çay içtim.",
+    "correct_answer": "Ich habe eine Tasse Tee getrunken.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O Berlin'den döndü.",
+    "correct_answer": "Sie ist aus Berlin zurückgekommen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Hiç Japonya'ya gitmedik.",
+    "correct_answer": "Wir sind nie nach Japan gefahren.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onları beklediniz mi?",
+    "correct_answer": "Habt ihr auf sie gewartet?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Parka gittiler.",
+    "correct_answer": "Sie sind in den Park gegangen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Pencereyi açmadı.",
+    "correct_answer": "Sie hat das Fenster nicht geöffnet.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Mektup aldı.",
+    "correct_answer": "Er hat den Brief bekommen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Evi temizlediler mi?",
+    "correct_answer": "Haben sie das Haus gereinigt?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Burada kaldık.",
+    "correct_answer": "Wir sind hier geblieben.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Şarkıyı söyledim.",
+    "correct_answer": "Ich habe ein Lied gesungen.",
+    "choices": null
+  }
+]

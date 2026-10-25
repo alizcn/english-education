@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Okuyan öğrenciler sınıfta çok sessizler",
+    "correct_answer": "Les étudiants qui étudient en classe sont très silencieux",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Satın aldığım kitap çok ilginç",
+    "correct_answer": "Le livre que j'ai acheté est très intéressant",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yarın başlayacak kurs çok zor",
+    "correct_answer": "Le cours qui commence demain est très difficile",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yağmur yağan gece uyuyamadım",
+    "correct_answer": "La nuit où il pleuvait, je n'ai pas pu dormir",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Dün gördüğün kız benim sınıf arkadaşım",
+    "correct_answer": "La fille que tu as vue hier est ma camarade de classe",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ders çalışmayan öğrenciler başarısız olur",
+    "correct_answer": "Les étudiants qui ne travaillent pas leurs cours échouent",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Davetiyeyi almayan insanlar gelemedi",
+    "correct_answer": "Les gens qui n'ont pas reçu l'invitation n'ont pas pu venir",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gelecek hafta başlayacak proje çok önemli",
+    "correct_answer": "Le projet qui commence la semaine prochaine est très important",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Les enfants qui jouent dans le parc",
+    "correct_answer": "Parkta oynayan çocuklar",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Le livre que tu as lu hier",
+    "correct_answer": "Dün okuduğun kitap",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Le film qu'on regardera demain soir",
+    "correct_answer": "Yarın akşam izleyeceğimiz film",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Les amis qui n'ont pas appelé",
+    "correct_answer": "Aramayan arkadaşlar",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Le pain que j'ai acheté ce matin",
+    "correct_answer": "Bu sabah aldığım ekmek",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Les personnes qui courent ici",
+    "correct_answer": "Burada koşan insanlar",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "L'école où tu iras",
+    "correct_answer": "Gideceğin okul",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "La lettre que nous n'avons pas écrite",
+    "correct_answer": "Yazmadığımız mektup",
+    "choices": null
+  }
+]

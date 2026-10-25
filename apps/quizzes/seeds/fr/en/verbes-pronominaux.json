@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je me couche à 10 heures.",
+    "correct_answer": "I go to bed at 10 o'clock.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elles s'habillent vite.",
+    "correct_answer": "They get dressed quickly.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il ne se souvient pas.",
+    "correct_answer": "He doesn't remember.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu t'es trompé.",
+    "correct_answer": "You made a mistake.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Vous vous amusez?",
+    "correct_answer": "Are you having fun?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I wash my hands.",
+    "correct_answer": "Je me lave les mains.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She wakes up early.",
+    "correct_answer": "Elle se réveille tôt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We are getting dressed.",
+    "correct_answer": "Nous nous habillons.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They didn't sit down.",
+    "correct_answer": "Ils ne se sont pas assis.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Do you remember?",
+    "correct_answer": "Tu te souviens?",
+    "choices": null
+  }
+]

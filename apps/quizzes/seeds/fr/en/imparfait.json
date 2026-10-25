@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je parlais avec mon ami.",
+    "correct_answer": "I was talking with my friend.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She was eating an apple.",
+    "correct_answer": "Elle mangeait une pomme.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous jouions dans le parc.",
+    "correct_answer": "We were playing in the park.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They were watching television.",
+    "correct_answer": "Ils regardaient la télévision.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il pleuvait ce jour-là.",
+    "correct_answer": "It was raining that day.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I was not sleeping well.",
+    "correct_answer": "Je ne dormais pas bien.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle n'aimait pas le café.",
+    "correct_answer": "She didn't like coffee.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "You were reading a book.",
+    "correct_answer": "Tu lisais un livre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Chaque matin, il prenait un café.",
+    "correct_answer": "Every morning, he had a coffee.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "When I was young, I played football.",
+    "correct_answer": "Quand j'étais jeune, je jouais au football.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous ne venions jamais au cinéma.",
+    "correct_answer": "We never went to the cinema.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Was he coming every day?",
+    "correct_answer": "Venait-il tous les jours?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Pendant que je dormais, quelqu'un a sonné à la porte.",
+    "correct_answer": "While I was sleeping, someone rang the doorbell.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They were not going to the beach.",
+    "correct_answer": "Ils n'allaient pas à la plage.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Autrefois, les gens écrivaient des lettres.",
+    "correct_answer": "In the past, people wrote letters.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Did you study French?",
+    "correct_answer": "Étudiais-tu le français?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il y avait un petit café ici.",
+    "correct_answer": "There was a small café here.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We were happy.",
+    "correct_answer": "Nous étions heureux.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Vous commenciez toujours à l'heure.",
+    "correct_answer": "You always started on time.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She was working when I arrived.",
+    "correct_answer": "Elle travaillait quand je suis arrivé.",
+    "choices": null
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kitaplar masa üzerinde.",
+    "correct_answer": "The books are on the table.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kediler bahçede oynarlar.",
+    "correct_answer": "The cats play in the garden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çocuklar okula gitmiyorlar.",
+    "correct_answer": "The children are not going to school.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çiçekler çok güzel.",
+    "correct_answer": "The flowers are very beautiful.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Öğretmenler sınıfta mı?",
+    "correct_answer": "Are the teachers in the classroom?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The apples are red.",
+    "correct_answer": "Elmalar kırmızı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The dogs do not like cats.",
+    "correct_answer": "Köpekler kedileri sevmiyorlar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Are the houses big?",
+    "correct_answer": "Evler büyük mü?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "My friends like pizza.",
+    "correct_answer": "Arkadaşlarım pizzayı seviyorlar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The pens are not on the desk.",
+    "correct_answer": "Kalemler masada değil.",
+    "choices": null
+  }
+]

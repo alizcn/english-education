@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je bois du café le matin.",
+    "correct_answer": "Sabah kahve içiyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Les enfants jouent dans le parc.",
+    "correct_answer": "Çocuklar parkta oynuyorlar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle a une voiture rouge.",
+    "correct_answer": "Onun kırmızı bir arabası var.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je n'aime pas le chocolat.",
+    "correct_answer": "Çikolatayı sevmiyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu manges de la soupe ?",
+    "correct_answer": "Çorba yiyor musun?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il n'a pas de frères.",
+    "correct_answer": "Onun kardeşi yok.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "L'ami arrive demain.",
+    "correct_answer": "Arkadaş yarın geliyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Mets-tu du beurre sur le pain ?",
+    "correct_answer": "Ekmek üzerine tereyağı koyuyor musun?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sabah portakal suyu içiyorum.",
+    "correct_answer": "Je bois du jus d'orange le matin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bir kitap okuyorum.",
+    "correct_answer": "Je lis un livre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Çikolatayı sevmiyorum.",
+    "correct_answer": "Je n'aime pas le chocolat.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kapıda bir adam var.",
+    "correct_answer": "Il y a un homme à la porte.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ekmek almıyorum.",
+    "correct_answer": "Je n'achète pas de pain.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onun üç çocuğu var.",
+    "correct_answer": "Il a trois enfants.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "İngilizce konuşuyor musunuz?",
+    "correct_answer": "Parlez-vous l'anglais?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Masa üzerinde su yok.",
+    "correct_answer": "Il n'y a pas d'eau sur la table.",
+    "choices": null
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich gebe meinem Freund ein Buch.",
+    "correct_answer": "Je donne un livre à mon ami.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Nous remercions notre professeur.",
+    "correct_answer": "Wir danken unserem Lehrer.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Mann dankt der Frau nicht.",
+    "correct_answer": "L'homme ne remercie pas la femme.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Il ne parle pas avec ses amis.",
+    "correct_answer": "Er spricht nicht mit seinen Freunden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Vergebt ihr mir?",
+    "correct_answer": "Me pardonnez-vous?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Pourquoi cela nuit-il à ma santé?",
+    "correct_answer": "Warum schadet das meiner Gesundheit?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie zeigt dem Mann die neue Wohnung.",
+    "correct_answer": "Elle montre le nouvel appartement à l'homme.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Nous aidons les enfants avec leurs devoirs.",
+    "correct_answer": "Wir helfen den Kindern bei ihren Hausaufgaben.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Kind folgt seiner Mutter.",
+    "correct_answer": "L'enfant suit sa mère.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je ne remercie pas mon ami.",
+    "correct_answer": "Ich danke meinem Freund nicht.",
+    "choices": null
+  }
+]

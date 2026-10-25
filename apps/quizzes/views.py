@@ -10,10 +10,12 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.utils import timezone
 from django.views.decorators.http import require_POST
 
+from apps.accounts.services import current_pair
 from apps.topics.models import Topic
 from apps.vocabulary.models import Word
 from . import services as quiz_services
 from . import tasks
+from .answers import check_answer
 from .models import QuizSession, QuizQuestion, QuizTemplate
 from .normalization import normalize_item
 
@@ -23,22 +25,9 @@ logger = logging.getLogger(__name__)
 MIN_WORDS_FOR_QUIZ = 10
 
 
-def _normalize(s: str) -> str:
-    s = (s or '').strip().lower()
-    s = re.sub(r"[^\w\sğüşıöçİĞÜŞÖÇ'-]", '', s, flags=re.UNICODE)
-    s = re.sub(r'\s+', ' ', s)
-    return s
-
-
-def _is_answer_correct(user: str, correct: str) -> bool:
-    if not user:
-        return False
-    u = _normalize(user)
-    c = _normalize(correct)
-    if u == c:
-        return True
-    alternatives = [_normalize(a) for a in re.split(r'\s*/\s*', correct)]
-    return u in alternatives
+# Cevap karşılaştırma `answers.py`ye taşındı: request'ten bağımsız ve birim
+# test edilebilir olması gerekiyordu (eskiden hiç testi yoktu) ve Türkçe harf
+# whitelist'i Fransızca/Almanca'da yanlış-negatif üretiyordu.
 
 
 def _annotate_completion(user, templates):
@@ -62,7 +51,10 @@ def _annotate_completion(user, templates):
 
 @login_required
 def word_picker(request):
-    total_words = Word.objects.filter(user=request.user).count()
+    pair = current_pair(request)
+    total_words = Word.objects.filter(
+        user=request.user, target_language=pair.target_code,
+    ).count()
     if total_words < MIN_WORDS_FOR_QUIZ:
         messages.error(
             request,
@@ -71,7 +63,10 @@ def word_picker(request):
         )
         return redirect('vocabulary:list')
 
-    templates = list(QuizTemplate.objects.filter(user=request.user, kind=QuizTemplate.WORD))
+    templates = list(QuizTemplate.objects.filter(
+        user=request.user, kind=QuizTemplate.WORD,
+        target_language=pair.target_code, native_language=pair.native_code,
+    ))
     _annotate_completion(request.user, templates)
 
     return render(request, 'quizzes/picker.html', {
@@ -81,17 +76,20 @@ def word_picker(request):
         'topic': None,
         'can_generate': True,
         'generate_url': 'quizzes:generate_word',
+        'pair': pair,
     })
 
 
 @login_required
 def topic_picker(request, slug):
-    topic = get_object_or_404(Topic, slug=slug)
+    pair = current_pair(request)
+    topic = get_object_or_404(Topic, slug=slug, language=pair.target_code)
     templates = list(
         QuizTemplate.objects.filter(
             Q(user=request.user) | Q(user__isnull=True),
             kind=QuizTemplate.TOPIC,
             topic=topic,
+            native_language=pair.native_code,
         ).order_by('user_id', 'created_at')
     )
     _annotate_completion(request.user, templates)
@@ -103,6 +101,7 @@ def topic_picker(request, slug):
         'topic': topic,
         'can_generate': True,
         'generate_url': 'quizzes:generate_topic',
+        'pair': pair,
     })
 
 
@@ -123,22 +122,30 @@ def _create_session_for_template(user, template):
             template=template,
             kind=template.kind,
             topic=template.topic,
+            target_language=template.target_language,
+            native_language=template.native_language,
             total_questions=len(items),
         )
-        words_by_en = {}
+        words_by_term = {}
         if template.kind == QuizTemplate.WORD:
-            words_by_en = {
-                w.english.lower(): w for w in Word.objects.filter(user=user)
+            words_by_term = {
+                w.term.lower(): w
+                for w in Word.objects.filter(
+                    user=user, target_language=template.target_language,
+                )
             }
         for i, it in enumerate(items):
             word = None
             if template.kind == QuizTemplate.WORD:
-                en = (it.get('english_word') or '').strip().lower()
-                word = words_by_en.get(en)
+                # `english_word` eski sözleşme; `term` yenisi. İkisini de
+                # okuyoruz çünkü repoda kayıtlı seed JSON'ları ve kullanıcıların
+                # halihazırda üretilmiş şablonları eski anahtarı taşıyor.
+                term = (it.get('term') or it.get('english_word') or '').strip().lower()
+                word = words_by_term.get(term)
             QuizQuestion.objects.create(
                 session=session,
                 order=i,
-                question_type=it.get('question_type') or QuizQuestion.TRANSLATE_EN_TR,
+                question_type=it.get('question_type') or QuizQuestion.TRANSLATE_TO_NATIVE,
                 prompt=it.get('prompt') or '',
                 correct_answer=it.get('correct_answer') or '',
                 choices=it.get('choices'),
@@ -147,9 +154,10 @@ def _create_session_for_template(user, template):
     return session
 
 
-def _has_pending(user, kind, topic=None) -> bool:
+def _has_pending(user, kind, topic=None, *, target_language) -> bool:
     return QuizTemplate.objects.filter(
-        user=user, kind=kind, topic=topic, status=QuizTemplate.PENDING,
+        user=user, kind=kind, topic=topic,
+        target_language=target_language, status=QuizTemplate.PENDING,
     ).exists()
 
 
@@ -157,8 +165,10 @@ def _has_pending(user, kind, topic=None) -> bool:
 @require_POST
 def generate_topic_quiz_view(request, slug):
     """Üretimi kuyruğa atıp hemen döner — eskiden burada ~100s bloke oluyorduk."""
-    topic = get_object_or_404(Topic, slug=slug)
-    if _has_pending(request.user, QuizTemplate.TOPIC, topic=topic):
+    pair = current_pair(request)
+    topic = get_object_or_404(Topic, slug=slug, language=pair.target_code)
+    if _has_pending(request.user, QuizTemplate.TOPIC, topic=topic,
+                    target_language=pair.target_code):
         messages.info(request, _('Zaten hazırlanan bir quiz var, birazdan görünecek.'))
         return redirect('quizzes:topic_picker', slug=slug)
 
@@ -166,10 +176,17 @@ def generate_topic_quiz_view(request, slug):
         user=request.user,
         kind=QuizTemplate.TOPIC,
         topic=topic,
-        name=quiz_services.next_template_name(request.user, QuizTemplate.TOPIC, topic=topic),
+        target_language=pair.target_code,
+        native_language=pair.native_code,
+        name=quiz_services.next_template_name(
+            request.user, QuizTemplate.TOPIC, topic=topic,
+            target_language=pair.target_code,
+        ),
         status=QuizTemplate.PENDING,
     )
-    tasks.generate_topic_template.delay(tmpl.pk, topic.pk)
+    tasks.generate_topic_template.delay(
+        tmpl.pk, topic.pk, pair.target_code, pair.native_code,
+    )
     messages.success(request, _('Quiz hazırlanıyor. Sorular hazırlandıkça burada görünecek.'))
     return redirect('quizzes:topic_picker', slug=slug)
 
@@ -177,7 +194,10 @@ def generate_topic_quiz_view(request, slug):
 @login_required
 @require_POST
 def generate_word_quiz(request):
-    total_words = Word.objects.filter(user=request.user).count()
+    pair = current_pair(request)
+    total_words = Word.objects.filter(
+        user=request.user, target_language=pair.target_code,
+    ).count()
     if total_words < MIN_WORDS_FOR_QUIZ:
         messages.error(
             request,
@@ -185,17 +205,23 @@ def generate_word_quiz(request):
             % {'min': MIN_WORDS_FOR_QUIZ, 'total': total_words}
         )
         return redirect('vocabulary:list')
-    if _has_pending(request.user, QuizTemplate.WORD):
+    if _has_pending(request.user, QuizTemplate.WORD, target_language=pair.target_code):
         messages.info(request, _('Zaten hazırlanan bir quiz var, birazdan görünecek.'))
         return redirect('quizzes:word_picker')
 
     tmpl = QuizTemplate.objects.create(
         user=request.user,
         kind=QuizTemplate.WORD,
-        name=quiz_services.next_template_name(request.user, QuizTemplate.WORD),
+        target_language=pair.target_code,
+        native_language=pair.native_code,
+        name=quiz_services.next_template_name(
+            request.user, QuizTemplate.WORD, target_language=pair.target_code,
+        ),
         status=QuizTemplate.PENDING,
     )
-    tasks.generate_word_template.delay(tmpl.pk, request.user.pk)
+    tasks.generate_word_template.delay(
+        tmpl.pk, request.user.pk, pair.target_code, pair.native_code,
+    )
     messages.success(request, _('Quiz hazırlanıyor. Sorular hazırlandıkça burada görünecek.'))
     return redirect('quizzes:word_picker')
 
@@ -263,7 +289,8 @@ def submit_answer(request, pk):
         return redirect('quizzes:run', pk=pk)
 
     user_answer = request.POST.get('answer', '').strip()
-    correct = _is_answer_correct(user_answer, question.correct_answer)
+    verdict = check_answer(user_answer, question.correct_answer)
+    correct = verdict.is_correct
 
     question.user_answer = user_answer
     question.is_correct = correct
@@ -286,6 +313,9 @@ def submit_answer(request, pk):
         'session': session,
         'question': question,
         'correct': correct,
+        # Aksan/diakritik eksikse cevap doğru sayılıyor ama ipucu gösteriliyor:
+        # Fransızca ve Almanca'da bu gerçek bir öğrenme sinyali.
+        'diacritics_hint': verdict.diacritics_only,
     })
 
 

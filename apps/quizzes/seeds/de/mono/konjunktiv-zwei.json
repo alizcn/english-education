@@ -1,0 +1,147 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Wenn ich Zeit hätte, würde ich dich ___.",
+    "correct_answer": "besuchen",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das ___ eine gute Idee.",
+    "correct_answer": "wäre",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Könntest du mir ___?",
+    "correct_answer": "helfen",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich ___ nicht gerne ins Büro gehen.",
+    "correct_answer": "würde",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Wenn das möglich ___, täten wir es.",
+    "correct_answer": "wäre",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich wünschte, er ___ morgen.",
+    "correct_answer": "käme",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das hätte keinen ___.",
+    "correct_answer": "Sinn",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Du ___ einen Kaffee trinken?",
+    "correct_answer": "würdest",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ach, wenn ich nur reicher ___!",
+    "correct_answer": "wäre",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Es ___ möglich, dass er zu spät kommt.",
+    "correct_answer": "wäre",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das hätte ich nicht ___.",
+    "correct_answer": "erwartet",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ich ___ nicht gehen.",
+    "correct_answer": "würde",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Hätte ich Zeit, ___ ich helfen.",
+    "correct_answer": "würde",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Wenn du mir helfen könntest, ___ ich sehr dankbar.",
+    "correct_answer": "wäre",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das ___ ein Problem werden.",
+    "correct_answer": "könnte",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Aussage ist im Konjunktiv II korrekt?",
+    "correct_answer": "Wenn ich könnte, würde ich kommen.",
+    "choices": [
+      "Wenn ich könnte, ich komme.",
+      "Wenn ich könnte, würde ich kommen.",
+      "Wenn ich könnte, ich würde komme.",
+      "Wenn ich komme, würde ich können."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Die Konjunktiv-II-Form von 'fahren' ist:",
+    "correct_answer": "führe",
+    "choices": [
+      "fahre",
+      "führe",
+      "fuhr",
+      "fahren würde"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Negation ist richtig im Konjunktiv II?",
+    "correct_answer": "Ich würde nicht gehen.",
+    "choices": [
+      "Ich würde nicht gehen.",
+      "Ich gehe nicht würde.",
+      "Nicht ich würde gehen.",
+      "Ich würde nicht gehn."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Die Perfekt-Form im Konjunktiv II lautet:",
+    "correct_answer": "Das hätte ich nicht gemacht.",
+    "choices": [
+      "Das hätte ich nicht gemacht.",
+      "Das habe ich nicht gemacht.",
+      "Das hätte nicht gemacht ich.",
+      "Das macht ich nicht hätte."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welche Form ist korrekt? 'Wenn ich Zeit hätte, ___ ich dich besuchen.'",
+    "correct_answer": "würde",
+    "choices": [
+      "gehe",
+      "würde",
+      "ging",
+      "gehend"
+    ]
+  }
+]

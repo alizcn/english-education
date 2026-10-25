@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kahvede oturan adamlar maç izliyor.",
+    "correct_answer": "The men sitting in the cafe are watching the match.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The book I read yesterday was interesting.",
+    "correct_answer": "Dün okuduğum kitap ilginçti.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yarın başlayacak ders çok zor.",
+    "correct_answer": "The class that will start tomorrow is very difficult.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Students who don't study fail.",
+    "correct_answer": "Ders çalışmayan öğrenciler başarısız olur.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Almadığı paketler masada kaldı.",
+    "correct_answer": "The packages he didn't take stayed on the table.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The girl who came to the party is my sister.",
+    "correct_answer": "Partiye gelen kız benim ablam.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Geçen hafta satın aldığım telefon çok pahalı.",
+    "correct_answer": "The phone I bought last week is very expensive.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The children playing in the park are happy.",
+    "correct_answer": "Parkta oynayan çocuklar mutlu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yazamadığım mektup masada duruyor.",
+    "correct_answer": "The letter I couldn't write is on the table.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Will the guests who are coming tonight stay?",
+    "correct_answer": "Bu gece gelecek misafirler kalacak mı?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Söylediği sözler beni çok etkiledi.",
+    "correct_answer": "The words he said affected me very much.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Students who don't listen can't understand.",
+    "correct_answer": "Dinlemeyen öğrenciler anlayamaz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gitmeyecek arkadaşlarım beni çağırdı.",
+    "correct_answer": "The friends who won't go called me.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Is the plan you will make good?",
+    "correct_answer": "Yapacağın plan iyi mi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Uyumayanlar sabahı çok geç kalkarlar.",
+    "correct_answer": "Those who don't sleep wake up very late in the morning.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The teacher who taught us yesterday is coming.",
+    "correct_answer": "Bize dün ders veren öğretmen geliyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yağmur yağan gece uyuyamadım.",
+    "correct_answer": "I couldn't sleep on the night it rained.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The car parked outside is ours.",
+    "correct_answer": "Dışarıda park eden araba bizim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yapacağımız işler çok fazla mı?",
+    "correct_answer": "Is the work we will do too much?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Children who play together are friends.",
+    "correct_answer": "Beraber oynayan çocuklar arkadaş.",
+    "choices": null
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je ___ vois chaque jour.",
+    "correct_answer": "le",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle ne ___ aime pas.",
+    "correct_answer": "me",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Tu ___ parles chaque jour ?",
+    "correct_answer": "lui",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Nous ___ montrons les photos.",
+    "correct_answer": "leur",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Vous ___ comprenez maintenant ?",
+    "correct_answer": "nous",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Il ___ donne un livre.",
+    "correct_answer": "lui",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je ___ invite à la fête.",
+    "correct_answer": "les",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Tu ___ connais bien.",
+    "correct_answer": "les",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Nous ne ___ voyons pas souvent.",
+    "correct_answer": "vous",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle ___ appelle tous les jours.",
+    "correct_answer": "te",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: Je ___ comprends.",
+    "correct_answer": "le",
+    "choices": [
+      "lui",
+      "le",
+      "la",
+      "leur"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: Nous ___ parlons souvent.",
+    "correct_answer": "lui",
+    "choices": [
+      "la",
+      "le",
+      "lui",
+      "les"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: Tu ___ donnes un cadeau ?",
+    "correct_answer": "leur",
+    "choices": [
+      "le",
+      "lui",
+      "leur",
+      "eux"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: Elle ne ___ voit pas.",
+    "correct_answer": "les",
+    "choices": [
+      "lui",
+      "les",
+      "leur",
+      "la"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel pronom est un COD ?",
+    "correct_answer": "le",
+    "choices": [
+      "lui",
+      "leur",
+      "le",
+      "à lui"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Dans la phrase 'Je lui parle', que remplace 'lui' ?",
+    "correct_answer": "une personne (COI)",
+    "choices": [
+      "une chose",
+      "une personne (COD)",
+      "une personne (COI)",
+      "plusieurs personnes"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: Nous ___ invitons à la soirée.",
+    "correct_answer": "vous",
+    "choices": [
+      "les",
+      "vous",
+      "leur",
+      "lui"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: Il ___ téléphone chaque jour.",
+    "correct_answer": "lui",
+    "choices": [
+      "le",
+      "la",
+      "lui",
+      "leur"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: Elle ___ aime.",
+    "correct_answer": "la",
+    "choices": [
+      "lui",
+      "la",
+      "leur",
+      "le"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: Vous ne ___ comprenez pas ?",
+    "correct_answer": "me",
+    "choices": [
+      "me",
+      "te",
+      "lui",
+      "les"
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je parle français.",
+    "correct_answer": "Ben Fransızca konuşuyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle mange une pomme.",
+    "correct_answer": "Bir elma yiyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu bois un café.",
+    "correct_answer": "Bir kahve içiyorsun.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous habitons à Paris.",
+    "correct_answer": "Paris'te oturuyoruz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ils vont à l'école.",
+    "correct_answer": "Okula gidiyorlar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je ne fais rien.",
+    "correct_answer": "Hiçbir şey yapmıyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Pourquoi tu pleures?",
+    "correct_answer": "Neden ağlıyorsun?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Vous préférez le café ou le thé?",
+    "correct_answer": "Kahveyi mi yoksa çayı mı tercih edersiniz?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle ne vient pas aujourd'hui.",
+    "correct_answer": "Bugün gelmiyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il y a beaucoup de gens ici.",
+    "correct_answer": "Burada çok insan var.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ben Fransızca öğreniyorum.",
+    "correct_answer": "J'apprends le français.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Çalışıyor musunuz?",
+    "correct_answer": "Travaillez-vous?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Siz nerede oturuyorsunuz?",
+    "correct_answer": "Où habitez-vous?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ev temizliyoruz.",
+    "correct_answer": "Nous nettoyons la maison.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onlar her gün spor yapıyorlar.",
+    "correct_answer": "Ils font du sport chaque jour.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O Almanca bilmiyor.",
+    "correct_answer": "Il ne sait pas l'allemand.",
+    "choices": null
+  }
+]

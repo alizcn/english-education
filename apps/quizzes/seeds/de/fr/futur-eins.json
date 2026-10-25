@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich werde morgen arbeiten.",
+    "correct_answer": "Je travaillerai demain.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Du wirst pünktlich ankommen.",
+    "correct_answer": "Tu arriveras à l'heure.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie werden das Haus verlassen.",
+    "correct_answer": "Ils quitteront la maison.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich werde nicht sehr lange bleiben.",
+    "correct_answer": "Je ne resterai pas très longtemps.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir werden bald Ferien haben.",
+    "correct_answer": "Nous aurons bientôt des vacances.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Er wird ein Auto kaufen.",
+    "correct_answer": "Il achètera une voiture.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Du wirst hier nicht schlafen.",
+    "correct_answer": "Tu ne dormiras pas ici.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie werden glücklich sein.",
+    "correct_answer": "Elles seront heureuses.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir werden zusammen essen.",
+    "correct_answer": "Nous mangerons ensemble.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich werde das nicht machen.",
+    "correct_answer": "Je ne ferai pas cela.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Tu travailleras demain.",
+    "correct_answer": "Du wirst morgen arbeiten.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle ne viendra pas.",
+    "correct_answer": "Sie wird nicht kommen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Vous serez heureux.",
+    "correct_answer": "Ihr werdet glücklich sein.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je vais manger à midi.",
+    "correct_answer": "Ich werde um 12 Uhr essen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Tu ne dormiras pas ici.",
+    "correct_answer": "Du wirst hier nicht schlafen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Quand arriveras-tu?",
+    "correct_answer": "Wann wirst du ankommen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je ne comprendrai pas.",
+    "correct_answer": "Ich werde nicht verstehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Nous partirons demain.",
+    "correct_answer": "Wir werden morgen abreisen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle aura peur.",
+    "correct_answer": "Sie wird Angst haben.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Vous changerez d'avis.",
+    "correct_answer": "Ihr werdet eure Meinung ändern.",
+    "choices": null
+  }
+]

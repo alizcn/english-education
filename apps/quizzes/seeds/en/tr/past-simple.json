@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I went to Paris last year.",
+    "correct_answer": "Geçen yıl Paris'e gittim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She didn't eat breakfast.",
+    "correct_answer": "Kahvaltı etmedi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Did you call me?",
+    "correct_answer": "Beni aradın mı?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They worked all day.",
+    "correct_answer": "Bütün gün çalıştılar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He was happy.",
+    "correct_answer": "Mutluydu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "We saw a beautiful sunset.",
+    "correct_answer": "Güzel bir gün batışı gördük.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I didn't understand the lesson.",
+    "correct_answer": "Dersi anlamadım.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Did they finish the project?",
+    "correct_answer": "Projeyi bitirdiler mi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The cat slept on the bed.",
+    "correct_answer": "Kedi yatakta uyudu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She didn't like the movie.",
+    "correct_answer": "Filmi beğenmedi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Dün ne yaptın?",
+    "correct_answer": "What did you do yesterday?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onlar okula gitmediler.",
+    "correct_answer": "They didn't go to school.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Şarkı söyledin mi?",
+    "correct_answer": "Did you sing?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ayakkabı giymedim.",
+    "correct_answer": "I didn't put on my shoes.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Evde kaldılar.",
+    "correct_answer": "They stayed at home.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kitap okudum.",
+    "correct_answer": "I read a book.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Erken kalktı mı?",
+    "correct_answer": "Did she wake up early?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ayakkabı satın almadı.",
+    "correct_answer": "She didn't buy shoes.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Konuşma başladı.",
+    "correct_answer": "The speech started.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Neden gelmedi?",
+    "correct_answer": "Why didn't he come?",
+    "choices": null
+  }
+]

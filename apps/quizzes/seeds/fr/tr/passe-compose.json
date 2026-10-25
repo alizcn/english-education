@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "J'ai mangé ce matin.",
+    "correct_answer": "Bu sabah yedim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Dün parkta oynadım.",
+    "correct_answer": "J'ai joué au parc hier.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Vous êtes partis tôt?",
+    "correct_answer": "Erken mi gittiniz?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Evi temizledim.",
+    "correct_answer": "J'ai nettoyé la maison.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ils n'ont pas écouté.",
+    "correct_answer": "Dinlemediler.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Gül aldı.",
+    "correct_answer": "Il a acheté une rose.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle s'est levée tard.",
+    "correct_answer": "Geç kalktı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kitapları okudu.",
+    "correct_answer": "Elle a lu les livres.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "As-tu compris la question?",
+    "correct_answer": "Soruyu anladın mı?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sinema gitmedi.",
+    "correct_answer": "Il n'est pas allé au cinéma.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous sommes arrivés hier.",
+    "correct_answer": "Dün geldik.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Mektup yazmadı.",
+    "correct_answer": "Elle n'a pas écrit de lettre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "N'avez-vous pas lu le journal?",
+    "correct_answer": "Gazeteyi okumadınız mı?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Doktor çalışmaya başladı.",
+    "correct_answer": "Le médecin a commencé à travailler.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elles ont dansé toute la nuit.",
+    "correct_answer": "Bütün gece dans ettiler.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Uyandık.",
+    "correct_answer": "Nous nous sommes réveillés.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je me suis trompé.",
+    "correct_answer": "Yanıldım.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Çocuklar oynadılar.",
+    "correct_answer": "Les enfants ont joué.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ils se sont rencontrés au café.",
+    "correct_answer": "Kafede buluştular.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Müzik dinledim.",
+    "correct_answer": "J'ai écouté de la musique.",
+    "choices": null
+  }
+]

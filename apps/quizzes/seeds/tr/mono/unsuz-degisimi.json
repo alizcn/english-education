@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kitab___ okudum.",
+    "correct_answer": "ı",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Meleğ___ gördüm.",
+    "correct_answer": "i",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ekmeğ___ yedim.",
+    "correct_answer": "i",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Çorab___ giydim.",
+    "correct_answer": "ı",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Soğağ___ koştum.",
+    "correct_answer": "a",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Başlığ___ giydi.",
+    "correct_answer": "ı",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Çocuğ___ gördüm.",
+    "correct_answer": "u",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "İlaç___ aldım.",
+    "correct_answer": "ı",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Batığ___ kurtardık.",
+    "correct_answer": "ı",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Çorab___ taşıyor.",
+    "correct_answer": "ı",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the accusative form of 'kitap' (book)?",
+    "correct_answer": "kitabı",
+    "choices": [
+      "kitapı",
+      "kitabı",
+      "kitabi",
+      "kitabu"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the accusative form of 'melek' (angel)?",
+    "correct_answer": "meleği",
+    "choices": [
+      "meleki",
+      "meleği",
+      "melegi",
+      "meleğu"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the accusative form of 'ekmek' (bread)?",
+    "correct_answer": "ekmeği",
+    "choices": [
+      "ekmeği",
+      "ekmegi",
+      "ekmeki",
+      "ekmeku"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the accusative form of 'çorap' (sock)?",
+    "correct_answer": "çorabı",
+    "choices": [
+      "çorapı",
+      "çorabı",
+      "çorapi",
+      "çorabu"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the dative form of 'sokak' (street)?",
+    "correct_answer": "soğağa",
+    "choices": [
+      "sokaka",
+      "soğağa",
+      "sokağa",
+      "soğaka"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence is correct?",
+    "correct_answer": "Kitabı okumadım.",
+    "choices": [
+      "Kitabı okumadım.",
+      "Kitapı okumadım.",
+      "Kitabi okumadım.",
+      "Kitabu okumadım."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the accusative form of 'başlık' (hat/title)?",
+    "correct_answer": "başlığı",
+    "choices": [
+      "başlıkı",
+      "başlığı",
+      "başlakı",
+      "başlaği"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the accusative form of 'çocuk' (child)?",
+    "correct_answer": "çocuğu",
+    "choices": [
+      "çocuku",
+      "çocuğu",
+      "çocuki",
+      "çocugi"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the locative form of 'sokak' (street)?",
+    "correct_answer": "soğakta",
+    "choices": [
+      "sokakta",
+      "soğakta",
+      "sokağta",
+      "soğağta"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the accusative form of 'kapı' (door)?",
+    "correct_answer": "kapıyı",
+    "choices": [
+      "kapıyı",
+      "kapıbı",
+      "kapiyi",
+      "kapibı"
+    ]
+  }
+]

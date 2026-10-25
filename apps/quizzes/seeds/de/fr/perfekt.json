@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich habe ein Buch gelesen.",
+    "correct_answer": "J'ai lu un livre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je suis allé à l'école.",
+    "correct_answer": "Ich bin zur Schule gegangen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich habe das nicht verstanden.",
+    "correct_answer": "Je n'ai pas compris cela.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle n'a pas appelé.",
+    "correct_answer": "Sie hat nicht angerufen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Hast du die Nachricht bekommen?",
+    "correct_answer": "As-tu reçu le message?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Avez-vous fini vos devoirs?",
+    "correct_answer": "Habt ihr eure Hausaufgaben beendet?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie sind aufgewacht.",
+    "correct_answer": "Ils se sont réveillés.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Nous avons travaillé toute la journée.",
+    "correct_answer": "Wir haben den ganzen Tag gearbeitet.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie haben keinen Kaffee getrunken.",
+    "correct_answer": "Elles n'ont pas bu de café.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Nous ne sommes pas restés longtemps.",
+    "correct_answer": "Wir sind nicht lange geblieben.",
+    "choices": null
+  }
+]

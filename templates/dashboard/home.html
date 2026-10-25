@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load i18n %}
+{% load i18n learn_extras %}
 {% block title %}{% trans "Ana Sayfa" %}{% endblock %}
 
 {% block content %}
@@ -9,7 +9,11 @@
         <div class="levelenai-on-dark" style="margin-bottom:0.35rem;">
             {% include '_levelenai_logo.html' with logo_height="52px" %}
         </div>
-        <p class="hero-subtitle" style="margin:0;">{% trans "Level up your English. Land the interview." %}</p>
+        {% comment %}Slogan KULLANICININ KURSUNA göre: panelde oturan kişi
+        hangi dili çalışıyorsa onu görüyor. Eskiden sabit "Level up your
+        English" yazıyordu ve Almanca çalışan kullanıcıya yanlış bilgi
+        veriyordu.{% endcomment %}
+        <p class="hero-subtitle" style="margin:0;">{% target_name 'acc' as tacc %}{% blocktrans with lang=tacc %}{{ lang }} seviye atlat. Mülakatı kap.{% endblocktrans %}</p>
     </div>
     <a href="{% url 'interviews:list' %}" class="hero-cta-pulse">
         <span class="hero-cta-icon">
@@ -25,7 +29,7 @@
 <div class="card level-card" style="margin:1rem 0;padding:1.25rem;">
     <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;">
         <div>
-            <div style="font-size:.85rem;opacity:.7;">{% trans "İngilizce Seviyen" %}</div>
+            <div style="font-size:.85rem;opacity:.7;">{% target_name 'gen' as tlang %}{% blocktrans with lang=tlang %}{{ lang }} Seviyen{% endblocktrans %}</div>
             <div style="font-size:2rem;font-weight:700;">{{ user_level.current_level }}</div>
         </div>
         <div style="text-align:right;">

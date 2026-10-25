@@ -1,0 +1,162 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ finished my homework.",
+    "correct_answer": "have",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ lived in London for five years.",
+    "correct_answer": "has",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ just arrived.",
+    "correct_answer": "have",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ been to Paris before.",
+    "correct_answer": "have",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ not finished yet.",
+    "correct_answer": "have",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "You ___ watched this film.",
+    "correct_answer": "have",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "It ___ stopped raining.",
+    "correct_answer": "has",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I have never ___ sushi.",
+    "correct_answer": "eaten",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They have already ___ dinner.",
+    "correct_answer": "eaten",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She has worked here ___ 2020.",
+    "correct_answer": "since",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ you ever been to Italy?",
+    "correct_answer": "Have",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He ___ gone to the store.",
+    "correct_answer": "has",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence is correct?",
+    "correct_answer": "She has lived in London for ten years.",
+    "choices": [
+      "She has lived in London for ten years.",
+      "She have lived in London for ten years.",
+      "She has live in London for ten years.",
+      "She is lived in London for ten years."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct negative form of 'He has finished his work'?",
+    "correct_answer": "He has not finished his work.",
+    "choices": [
+      "He has not finished his work.",
+      "He not has finished his work.",
+      "He does not finish his work.",
+      "He have not finished his work."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which question is grammatically correct?",
+    "correct_answer": "Have you ever visited Paris?",
+    "choices": [
+      "Have you ever visited Paris?",
+      "Has you ever visited Paris?",
+      "Have he ever visited Paris?",
+      "You have ever visited Paris?"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence uses present perfect correctly with a time expression?",
+    "correct_answer": "I have seen him before.",
+    "choices": [
+      "I have seen him yesterday.",
+      "I have seen him last week.",
+      "I have seen him before.",
+      "I have seen him three days ago."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct question form?",
+    "correct_answer": "Have you worked here for five years?",
+    "choices": [
+      "Has you worked here for five years?",
+      "Have you worked here for five years?",
+      "Are you working here for five years?",
+      "You have worked here for five years?"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence shows a repeated action?",
+    "correct_answer": "I have visited Paris three times.",
+    "choices": [
+      "I have been waiting for two hours.",
+      "I have visited Paris three times.",
+      "I have just finished my homework.",
+      "I have not eaten dinner yet."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence shows the most recent past action?",
+    "correct_answer": "I have just arrived.",
+    "choices": [
+      "I have lived here for ten years.",
+      "I have just arrived.",
+      "I have visited Paris many times.",
+      "I have never been here."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct form with the time word 'since'?",
+    "correct_answer": "I have worked since 2020.",
+    "choices": [
+      "I have worked for since 2020.",
+      "I have worked since 2020.",
+      "I have worked for 2020 years.",
+      "I working since 2020."
+    ]
+  }
+]

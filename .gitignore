@@ -11,5 +11,15 @@ logs/
 
 # collectstatic çıktısı — imajda build sırasında üretilir
 staticfiles/
-# çalışma zamanı verisi: canlı SQLite, redis dump, DB yedekleri
-data/
+# çalışma zamanı verisi: canlı SQLite, redis dump, DB yedekleri.
+# `data/` değil `data/*`: dizinin kendisi yoksayılırsa git içine hiç
+# inmiyor ve altındaki bir istisna çalışmıyor.
+data/*
+# Ham kelime listeleri lisansları gereği dağıtılmıyor ama NEREDEN geldikleri
+# izlenmek zorunda: atıf sayfasının kaynağı bu dosya.
+!data/sources/
+data/sources/*
+!data/sources/README.md
+
+# compilemessages çıktısı — imajda build sırasında üretilir
+*.mo

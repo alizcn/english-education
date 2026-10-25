@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der schöne Park ist sehr groß.",
+    "correct_answer": "Le beau parc est très grand.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich trinke keinen heißen Tee.",
+    "correct_answer": "Je ne bois pas de thé chaud.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sehen Sie den alten Turm?",
+    "correct_answer": "Regardez-vous la vieille tour?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die intelligenten Schüler lösen das Problem leicht.",
+    "correct_answer": "Les élèves intelligents résolvent le problème facilement.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie mag diese leckere Pizza nicht.",
+    "correct_answer": "Elle n'aime pas cette pizza délicieuse.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je vois un chat noir.",
+    "correct_answer": "Ich sehe eine schwarze Katze.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je n'aime pas les vieux livres.",
+    "correct_answer": "Ich mag die alten Bücher nicht.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "As-tu un nouveau stylo?",
+    "correct_answer": "Hast du einen neuen Stift?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle porte une robe rouge.",
+    "correct_answer": "Sie trägt ein rotes Kleid.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Avez-vous un meilleur ordinateur?",
+    "correct_answer": "Haben Sie einen besseren Computer?",
+    "choices": null
+  }
+]

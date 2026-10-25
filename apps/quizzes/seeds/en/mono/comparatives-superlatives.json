@@ -1,0 +1,128 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Tom is ___ than his brother.",
+    "correct_answer": "taller",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Today is ___ than yesterday.",
+    "correct_answer": "hotter",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She is the ___ student in the class.",
+    "correct_answer": "smartest",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "This painting is ___ than that one.",
+    "correct_answer": "more beautiful",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "My apartment is not as ___ as yours.",
+    "correct_answer": "expensive",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "My job is ___ stressful than yours.",
+    "correct_answer": "less",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I have ___ experience than you.",
+    "correct_answer": "less",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "This exercise is ___ than the previous one.",
+    "correct_answer": "more difficult",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He is the ___ person I know.",
+    "correct_answer": "kindest",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "This book is ___ than I expected.",
+    "correct_answer": "more interesting",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complete: This coffee is ___ than mine.",
+    "correct_answer": "hotter",
+    "choices": [
+      "hotter",
+      "more hot",
+      "hottest",
+      "the hotter"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complete: The ___ restaurant in the city is that one.",
+    "correct_answer": "most expensive",
+    "choices": [
+      "most expensive",
+      "more expensive",
+      "expensivest",
+      "expensive"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complete: She looks ___ than she did last week.",
+    "correct_answer": "happier",
+    "choices": [
+      "happier",
+      "happyer",
+      "more happy",
+      "the happiest"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complete: This apple is ___ than that one.",
+    "correct_answer": "better",
+    "choices": [
+      "better",
+      "gooder",
+      "more good",
+      "best"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence is correct?",
+    "correct_answer": "My car is faster than yours.",
+    "choices": [
+      "My car is faster than yours.",
+      "My car is more faster than yours.",
+      "My car is fastest than yours.",
+      "My car is the fastest than yours."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence is INCORRECT?",
+    "correct_answer": "This is a most difficult problem.",
+    "choices": [
+      "My car is faster than yours.",
+      "She is the most intelligent.",
+      "This is a most difficult problem.",
+      "He is older than his brother."
+    ]
+  }
+]

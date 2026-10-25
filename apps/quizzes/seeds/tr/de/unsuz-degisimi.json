@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kitabı okudum.",
+    "correct_answer": "Ich las das Buch.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich zog die Socke an.",
+    "correct_answer": "Çorabı giydim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ekmeği yemedim.",
+    "correct_answer": "Ich aß das Brot nicht.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich liebte den Engel nicht.",
+    "correct_answer": "Meleği sevmedim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Meleği sevdim.",
+    "correct_answer": "Ich liebte den Engel.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich rettete den Ertrinkenden.",
+    "correct_answer": "Batığı kurtardım.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çoğunu istedim.",
+    "correct_answer": "Ich wollte das meiste.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich wählte den besten Platz.",
+    "correct_answer": "En iyi yeri seçtim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich kaufte das Messer nicht.",
+    "correct_answer": "Bıçağı satın almadım.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kitapları okumadım.",
+    "correct_answer": "Ich las die Bücher nicht.",
+    "choices": null
+  }
+]

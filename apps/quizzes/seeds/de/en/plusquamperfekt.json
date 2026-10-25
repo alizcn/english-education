@@ -1,0 +1,86 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich hatte das Buch gelesen.",
+    "correct_answer": "I had read the book.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She had arrived early.",
+    "correct_answer": "Sie war früh angekommen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie war nicht angekommen.",
+    "correct_answer": "She had not arrived.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He had forgotten his keys.",
+    "correct_answer": "Er hatte seine Schlüssel vergessen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir hatten alles gepackt.",
+    "correct_answer": "We had packed everything.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They had lived in Berlin.",
+    "correct_answer": "Sie hatten in Berlin gelebt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Kind war eingeschlafen.",
+    "correct_answer": "The child had fallen asleep.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Had you taken your money?",
+    "correct_answer": "Hattest du dein Geld mitgenommen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Er hatte seinen Schlüssel verloren.",
+    "correct_answer": "He had lost his key.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We had never been there.",
+    "correct_answer": "Wir waren nie dort gewesen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Warum hattest du nicht angerufen?",
+    "correct_answer": "Why had you not called?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I had already eaten when they arrived.",
+    "correct_answer": "Ich hatte bereits gegessen, als sie ankamen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie waren bereits weggegangen, als ich ankam.",
+    "correct_answer": "She had already left when I arrived.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Had they finished the work?",
+    "correct_answer": "Hatten sie die Arbeit beendet?",
+    "choices": null
+  }
+]

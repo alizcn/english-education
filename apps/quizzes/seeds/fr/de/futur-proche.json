@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je vais manger une pomme.",
+    "correct_answer": "Ich werde einen Apfel essen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle ne va pas partir.",
+    "correct_answer": "Sie wird nicht weggehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Vas-tu venir demain?",
+    "correct_answer": "Wirst du morgen kommen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous allons danser ce soir.",
+    "correct_answer": "Wir werden heute Abend tanzen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ils ne vont pas réussir.",
+    "correct_answer": "Sie werden nicht erfolgreich sein.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Du wirst bald kommen.",
+    "correct_answer": "Tu vas bientôt venir.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir werden nächste Woche einkaufen.",
+    "correct_answer": "Nous allons faire les courses la semaine prochaine.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Werden Sie bald fertig sein?",
+    "correct_answer": "Allez-vous bientôt finir?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie werden heute Abend tanzen.",
+    "correct_answer": "Elles vont danser ce soir.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich werde mir ein Auto kaufen.",
+    "correct_answer": "Je vais m'acheter une voiture.",
+    "choices": null
+  }
+]

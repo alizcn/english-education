@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Dün pazara gittim.",
+    "correct_answer": "I went to the market yesterday.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sabah erkenden uyandım.",
+    "correct_answer": "I woke up early in the morning.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Anahtarımı bulamadım.",
+    "correct_answer": "I didn't find my key.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Telefon çaldı mı?",
+    "correct_answer": "Did the phone ring?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çocuklar bahçede oynadılar.",
+    "correct_answer": "The children played in the garden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Dün gece çok uyumadık.",
+    "correct_answer": "We didn't sleep much last night.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Mektubu yazdı mı?",
+    "correct_answer": "Did he write the letter?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Burada on yıl yaşadım.",
+    "correct_answer": "I lived here for ten years.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She wrote the email.",
+    "correct_answer": "E-postayı yazdı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We didn't sleep well.",
+    "correct_answer": "İyi uyumadık.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Did you eat the apple?",
+    "correct_answer": "Elmayı yedin mi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They came yesterday afternoon.",
+    "correct_answer": "Dün öğleden sonra geldiler.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I didn't see him.",
+    "correct_answer": "Onu görmedim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He ran in the park.",
+    "correct_answer": "Parkta koştu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Did they understand the lesson?",
+    "correct_answer": "Dersi anladılar mı?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She called me last week.",
+    "correct_answer": "Geçen hafta bana telefon etti.",
+    "choices": null
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Boşluğu doldurun: Kahve ___ gazete okuyorum.",
+    "correct_answer": "içerken",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Boşluğu doldurun: Kapı ___ herkes içeri girdi.",
+    "correct_answer": "açılınca",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Boşluğu doldurun: ___ okula gittim.",
+    "correct_answer": "Yürüyerek",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Boşluğu doldurun: Müzik ___ ders çalışıyor.",
+    "correct_answer": "dinlerken",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Boşluğu doldurun: Eve ___ hemen uyudum.",
+    "correct_answer": "gelince",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Boşluğu doldurun: Çok ___ başarılı oldu.",
+    "correct_answer": "çalışarak",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Boşluğu doldurun: Yemek ___ telefon çaldı.",
+    "correct_answer": "yerken",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Boşluğu doldurun: Okul ___ hemen oyuna gitti.",
+    "correct_answer": "bitince",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Hangi cümle -ken ekini doğru kullanıyor?",
+    "correct_answer": "Kitap okurken müzik dinledim.",
+    "choices": [
+      "Kitap okudukça müzik dinledim.",
+      "Kitap okurken müzik dinledim.",
+      "Kitap okuyunca müzik dinledim.",
+      "Kitap okuğunda müzik dinledim."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Hangi cümle -ınca ekini doğru kullanıyor?",
+    "correct_answer": "Yemek yeyince temiz çıkardık.",
+    "choices": [
+      "Yemek yerken temiz çıkardık.",
+      "Yemek yediğinde temiz çıkardık.",
+      "Yemek yeyince temiz çıkardık.",
+      "Yemek yiyerek temiz çıkardık."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Hangi cümle -arak/-erek ekini doğru kullanıyor?",
+    "correct_answer": "Hızlı koşarak trenin kaçmasını önledim.",
+    "choices": [
+      "Hızlı koşarken trenin kaçmasını önledim.",
+      "Hızlı koşunca trenin kaçmasını önledim.",
+      "Hızlı koşarak trenin kaçmasını önledim.",
+      "Hızlı koşmuş trenin kaçmasını önledim."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "\"Telefon çalınca koştum.\" cümlesinde hangi anlam vardır?",
+    "correct_answer": "Telefon çaldıktan sonra koştum.",
+    "choices": [
+      "Telefon çalarken koşuyorum.",
+      "Telefon çaldıktan sonra koştum.",
+      "Telefon çalmadan koştum.",
+      "Telefon çalarken koştum."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Cümledeki boşluğa hangi form uygun? \"Sabah _____ duş alıyorum.\"",
+    "correct_answer": "kalkınca",
+    "choices": [
+      "kalkarken",
+      "kalkınca",
+      "kalkarak",
+      "kaldıktan sonra"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Cümledeki boşluğa hangi form uygun? \"Çok _____ başarılı olur.\"",
+    "correct_answer": "çalışarak",
+    "choices": [
+      "çalışırken",
+      "çalışınca",
+      "çalışarak",
+      "çalıştıktan sonra"
+    ]
+  }
+]

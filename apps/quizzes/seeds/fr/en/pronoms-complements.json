@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je le vois chaque jour.",
+    "correct_answer": "I see him every day.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle m'aime beaucoup.",
+    "correct_answer": "She loves me a lot.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je ne leur parle pas.",
+    "correct_answer": "I don't speak to them.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Les lui montrez-vous?",
+    "correct_answer": "Do you show them to him?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous l'invitons ce soir.",
+    "correct_answer": "We're inviting her this evening.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Vous me comprenez maintenant.",
+    "correct_answer": "You understand me now.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I see him every day.",
+    "correct_answer": "Je le vois chaque jour.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She loves me a lot.",
+    "correct_answer": "Elle m'aime beaucoup.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I don't speak to them.",
+    "correct_answer": "Je ne leur parle pas.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Do you show them to him?",
+    "correct_answer": "Les lui montrez-vous?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We're inviting her this evening.",
+    "correct_answer": "Nous l'invitons ce soir.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "You understand me now.",
+    "correct_answer": "Vous me comprenez maintenant.",
+    "choices": null
+  }
+]

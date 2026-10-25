@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Der Mann, ___ in Berlin arbeitet, ist mein Freund.",
+    "correct_answer": "der",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welches Relativpronomen ist korrekt? Das Buch, ___ ich gelesen habe, ist interessant.",
+    "correct_answer": "das",
+    "choices": [
+      "das",
+      "der",
+      "den",
+      "die"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die Frau, ___ ich geholfen habe, dankt mir sehr.",
+    "correct_answer": "der",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Was ist das richtige Relativpronomen? Der Student, auf ___ die Professoren warten, ist nervös.",
+    "correct_answer": "den",
+    "choices": [
+      "den",
+      "dem",
+      "der",
+      "das"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Der Schüler, ___ Prüfung morgen ist, lernt noch.",
+    "correct_answer": "dessen",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welches ist das richtige Relativpronomen? Die Kinder, ___ im Park spielen, sind laut.",
+    "correct_answer": "die",
+    "choices": [
+      "die",
+      "deren",
+      "denen",
+      "den"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das Problem, ___ nicht existiert, braucht keine Lösung.",
+    "correct_answer": "das",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Was passt hier? Das ist der Film, mit ___ ich nicht einverstanden bin.",
+    "correct_answer": "dem",
+    "choices": [
+      "dem",
+      "den",
+      "der",
+      "das"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die Menschen, ___ hier wohnen, sind sehr freundlich.",
+    "correct_answer": "die",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Wähle das richtige Relativpronomen im Akkusativ. Die Frau, ___ ich sehe, ist meine Mutter.",
+    "correct_answer": "die",
+    "choices": [
+      "die",
+      "der",
+      "dem",
+      "deren"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Der Mann, ___ ich vertraue, ist sehr weise.",
+    "correct_answer": "dem",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Was ist korrekt? Der Lehrer, ___ ich folge, ist streng.",
+    "correct_answer": "dem",
+    "choices": [
+      "dem",
+      "den",
+      "der",
+      "das"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das Buch, ___ Autor ich nicht kenne, ist sehr gut.",
+    "correct_answer": "dessen",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welches Relativpronomen passt? Der Mann, ___ neben mir sitzt, ist alt.",
+    "correct_answer": "der",
+    "choices": [
+      "der",
+      "den",
+      "dem",
+      "das"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die Schule, in ___ ich lerne, ist sehr groß.",
+    "correct_answer": "der",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Was ist das richtige Pronomen? Das Auto, von ___ ich spreche, ist teuer.",
+    "correct_answer": "dem",
+    "choices": [
+      "dem",
+      "den",
+      "der",
+      "das"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die Mutter, ___ du kennst, ist eine Ärztin.",
+    "correct_answer": "die",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Welches ist das richtige Relativpronomen? Der Grund, für ___ ich hier bin, ist wichtig.",
+    "correct_answer": "den",
+    "choices": [
+      "den",
+      "dem",
+      "der",
+      "das"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Die Bücher, ___ du mir schenkst, sind schön.",
+    "correct_answer": "die",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Wähle das richtige Pronomen. Der Tisch, an ___ wir sitzen, ist alt.",
+    "correct_answer": "dem",
+    "choices": [
+      "dem",
+      "den",
+      "der",
+      "das"
+    ]
+  }
+]

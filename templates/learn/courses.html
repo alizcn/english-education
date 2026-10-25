@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+{% load i18n learn_extras %}
+{% block title %}{% trans "Kurslarım" %}{% endblock %}
+
+{% block content %}
+<section class="feature-hero theme-topics">
+    <div class="feature-hero-row">
+        <div class="feature-hero-icon">🌍</div>
+        <div style="flex:1; min-width:200px;">
+            <h2 class="feature-hero-title">{% trans "Kurslarım" %}</h2>
+            <p class="feature-hero-sub">{% trans "Birden çok dil öğrenebilirsin; her kurs kendi seviyesini taşır." %}</p>
+        </div>
+    </div>
+</section>
+
+<div class="topic-table-wrap">
+    <div class="topic-table" role="table" aria-label="{% trans 'Kurslar' %}">
+        <div class="topic-table-head" role="row">
+            <span role="columnheader">{% trans "Öğrenilen dil" %}</span>
+            <span role="columnheader">{% trans "Anlatım dili" %}</span>
+            <span role="columnheader">{% trans "İşlem" %}</span>
+        </div>
+
+        {% for course in courses %}
+        <div class="topic-table-row {% if course.is_active %}done{% endif %}" role="row">
+            <div class="topic-row-main" role="cell">
+                <span class="topic-row-name">{% lang_name course.target_language %}</span>
+                <span class="badge">{{ course.current_level }} · {{ course.score }}p</span>
+                {% if course.is_active %}<span class="badge badge-success">{% trans "Aktif" %}</span>{% endif %}
+            </div>
+
+            <div class="topic-status" role="cell">
+                <form method="post" action="{% url 'learn:set_native' %}" style="display:flex; gap:0.3rem;">
+                    {% csrf_token %}
+                    <input type="hidden" name="course_id" value="{{ course.pk }}">
+                    <select name="native_language" class="form-input" style="padding:0.2rem 0.4rem;">
+                        {% for spec in native_options %}
+                        {% if spec.code != course.target_language %}
+                        <option value="{{ spec.code }}" {% if spec.code == course.native_language %}selected{% endif %}>{% lang_name spec.code %}</option>
+                        {% endif %}
+                        {% endfor %}
+                    </select>
+                    <button type="submit" class="btn btn-secondary btn-sm">{% trans "Kaydet" %}</button>
+                </form>
+            </div>
+
+            <div class="topic-actions" role="cell">
+                {% if not course.is_active %}
+                <form method="post" action="{% url 'learn:switch' %}">
+                    {% csrf_token %}
+                    <input type="hidden" name="course_id" value="{{ course.pk }}">
+                    <button type="submit" class="btn btn-sm">{% trans "Bu kursa geç" %}</button>
+                </form>
+                {% endif %}
+            </div>
+        </div>
+        {% empty %}
+        <div class="topic-table-row" role="row">
+            <div class="topic-row-main" role="cell">
+                <span class="muted">{% trans "Henüz kursun yok." %}</span>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% if available %}
+<div class="section-title">{% trans "Yeni kurs ekle" %}</div>
+<div class="card">
+    <form method="post" action="{% url 'learn:add' %}" style="display:flex; gap:0.5rem; flex-wrap:wrap; align-items:end;">
+        {% csrf_token %}
+        <div>
+            <label class="form-label" for="add-target">{% trans "Öğrenilen dil" %}</label>
+            <select id="add-target" name="target_language" class="form-input">
+                {% for spec in available %}
+                <option value="{{ spec.code }}">{% lang_name spec.code %}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div>
+            <label class="form-label" for="add-native">{% trans "Anlatım dili" %}</label>
+            <select id="add-native" name="native_language" class="form-input">
+                {% for spec in native_options %}
+                <option value="{{ spec.code }}">{% lang_name spec.code %}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <button type="submit" class="btn">{% trans "Kurs ekle" %}</button>
+    </form>
+</div>
+{% endif %}
+{% endblock %}

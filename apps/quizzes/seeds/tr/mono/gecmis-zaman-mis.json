@@ -1,0 +1,152 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ahmet dün _____ . (gelmek)",
+    "correct_answer": "gelmiş",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ben bunu _____ . (duymak)",
+    "correct_answer": "duymuşum",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Öğrenciler sınavı _____ . (geçmek)",
+    "correct_answer": "geçmiş",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Araba _____ . (kırılmak)",
+    "correct_answer": "kırılmış",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Fatma evine _____ . (dönmek)",
+    "correct_answer": "dönmüş",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kapıyı _____ . (açmak)",
+    "correct_answer": "açmamış",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Hava güzel _____ . (olmak)",
+    "correct_answer": "olmuş",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Çocuk yemeği _____ . (yemek)",
+    "correct_answer": "yemiş",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "O parayı _____ . (vermek)",
+    "correct_answer": "vermemiş",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kaptan gemi _____ . (yönetmek)",
+    "correct_answer": "yönetmiş",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kız oyununu _____ . (oynamak)",
+    "correct_answer": "oynamamış",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Doktor hastayı _____ . (muayene etmek)",
+    "correct_answer": "muayene etmiş",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ali, İstanbul'da _____ . (kalmak)",
+    "correct_answer": "kalmış",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Siz çalışmayı _____ ? (bitirmek)",
+    "correct_answer": "bitirmiş misiniz",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Aşağıdakilerden hangisi 'Onlar filmi izlemek' cümlesinin Duyulan Geçmiş Zamanında doğru biçimidir?",
+    "correct_answer": "Onlar filmi izlemişler.",
+    "choices": [
+      "Onlar filmi izlemişler.",
+      "Onlar filmi izlemiş.",
+      "Onlar filmi izlediler.",
+      "Onlar filmi izlemişlerdir."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "'Köpek kaçmak' cümlesinin olumsuz Duyulan Geçmiş Zaman biçimi hangisidir?",
+    "correct_answer": "Köpek kaçmamış.",
+    "choices": [
+      "Köpek kaçmamış.",
+      "Köpek kaçmışmı.",
+      "Köpek kaçmasız.",
+      "Köpek kaçmadı."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Hangi seçenekte Duyulan Geçmiş Zaman soru formu doğru yazılmıştır?",
+    "correct_answer": "Siz bunu yapmış mısınız?",
+    "choices": [
+      "Siz bunu yaptınız mı?",
+      "Siz bunu yapacak mısınız?",
+      "Siz bunu yapmış mısınız?",
+      "Siz bunu yapıyor musunuz?"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Aşağıdaki cümlelerin hangisinde Duyulan Geçmiş Zaman doğru kullanılmıştır?",
+    "correct_answer": "Bilgisayar arızalanmış.",
+    "choices": [
+      "Bilgisayar arızalanmış.",
+      "Bilgisayar arızalanacak.",
+      "Bilgisayar arızalanır.",
+      "Bilgisayar arızalanıyor."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Hangi cümle Duyulan Geçmiş Zamanında soru ve olumsuzluk birlikte kullanmıştır?",
+    "correct_answer": "Çalışmamış mısınız?",
+    "choices": [
+      "Çalışmamış mısınız?",
+      "Çalışmış mısınız?",
+      "Çalışacak mısınız?",
+      "Çalışıyor musunuz?"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Hangi seçenekte -mış ekinin uygulanması yanlıştır?",
+    "correct_answer": "gelmek → gelmuş",
+    "choices": [
+      "yemek → yemiş",
+      "gelmek → gelmuş",
+      "almak → almış",
+      "başlamak → başlamış"
+    ]
+  }
+]

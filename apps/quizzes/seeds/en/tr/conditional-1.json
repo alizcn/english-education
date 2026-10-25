@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you study hard, you will pass the exam.",
+    "correct_answer": "Eğer çok çalışmazsan, sınavı geçeceksin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If it rains tomorrow, I will stay home.",
+    "correct_answer": "Eğer yarın yağmur yağarsa, eve kalacağım.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you don't eat breakfast, you will feel hungry.",
+    "correct_answer": "Eğer kahvaltı yemezsen, aç kalacaksın.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If she doesn't call, I will be disappointed.",
+    "correct_answer": "Eğer aramazsa, hayal kırıklığına uğrayacağım.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If we leave now, we will arrive on time.",
+    "correct_answer": "Eğer şimdi ayrılırsak, zamanında varacağız.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If he doesn't study, he will fail.",
+    "correct_answer": "Eğer çalışmazsa, başarısız olacak.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Will you come if it's sunny?",
+    "correct_answer": "Eğer güneşliyse, gelecek misin?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you eat vegetables, you will be healthier.",
+    "correct_answer": "Eğer sebze yersen, daha sağlıklı olacaksın.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If they save money, they can go on vacation.",
+    "correct_answer": "Para biriktirirlerse, tatile gidebilirler.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If it snows, will we build a snowman?",
+    "correct_answer": "Eğer kar yağarsa, kardan adam yapacak mıyız?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer sıkı çalışmazsan, sınavı geçeceksin.",
+    "correct_answer": "If you study hard, you will pass the exam.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer yarın yağmur yağarsa, eve kalacağım.",
+    "correct_answer": "If it rains tomorrow, I will stay home.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer kahvaltı yemezsen, aç kalacaksın.",
+    "correct_answer": "If you don't eat breakfast, you will feel hungry.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer aramazsa, hayal kırıklığına uğrayacağım.",
+    "correct_answer": "If she doesn't call, I will be disappointed.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Şimdi ayrılırsak, zamanında varacağız.",
+    "correct_answer": "If we leave now, we will arrive on time.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer sebze yersen, daha sağlıklı olacaksın.",
+    "correct_answer": "If you eat vegetables, you will be healthier.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eğer kar yağmazsa, kardan adam yapmayacağız.",
+    "correct_answer": "If it doesn't snow, we won't make a snowman.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Her gün pratik yapsan, gelişebilirsin.",
+    "correct_answer": "If you practice every day, you can improve.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Para biriktirirlerse, tatile gidebilirler.",
+    "correct_answer": "If they save money, they can go on vacation.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Yardım edersen, başarılı olacak mıyız?",
+    "correct_answer": "If you help us, will we succeed?",
+    "choices": null
+  }
+]

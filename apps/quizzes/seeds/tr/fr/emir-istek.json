@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kapıyı aç!",
+    "correct_answer": "Ouvre la porte!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Beni dinleyin!",
+    "correct_answer": "Écoutez-moi!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gitme!",
+    "correct_answer": "Ne va pas!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Başarılı olsun!",
+    "correct_answer": "Qu'il réussisse!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gidelim!",
+    "correct_answer": "Allons!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Aide-moi.",
+    "correct_answer": "Bana yardım et.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ne parlez pas!",
+    "correct_answer": "Konuşmayın!",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Viens ici.",
+    "correct_answer": "Buraya gel.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Qu'il parte.",
+    "correct_answer": "Gitsin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Attendez un moment.",
+    "correct_answer": "Bir dakika bekleyin.",
+    "choices": null
+  }
+]

@@ -1,6 +1,6 @@
 """Canonical/alternate URL üretimi için ortak yardımcılar."""
 from django.conf import settings
-from django.urls import translate_url
+from django.urls import Resolver404, resolve, translate_url
 
 
 def site_url() -> str:
@@ -29,16 +29,31 @@ def canonical_for(request) -> str:
 
 
 def language_alternates(request):
+    """i18n_patterns altındaki her dil için hreflang adayı üretir.
+
+    İki şeye dikkat:
+
+    * `translate_url` istisna FIRLATMIYOR — `Resolver404` ve `NoReverseMatch`'i
+      içeride yutup URL'i olduğu gibi geri veriyor. Eskiden buradaki
+      `except Exception: continue` bu yüzden hiç çalışmıyordu ve çözümlenemeyen
+      bir yolda her dil aynı (çevrilmemiş) adresi işaret eden yinelenmiş
+      hreflang üretiliyordu. Artık yolu önce kendimiz çözüyoruz ve
+      çözülemiyorsa hiç iddia basmıyoruz.
+    * Sorgu dizesi `get_full_path()` ile taşınıyor: `canonical_for` `?page=N`
+      koruduğu için alternates de korumak zorunda, yoksa sayfalı listelerde
+      hreflang kümesi canonical ile çelişiyor. `translate_url` yolu yeniden
+      kurarken `parsed.query`yi koruyor, bu yüzden tam yolu vermek yeterli.
     """
-    i18n_patterns altındaki her dil için hreflang adayı üretir.
-    Çevirisi olmayan/eşlenemeyen yollar sessizce atlanır.
-    """
+    try:
+        resolve(request.path)
+    except Resolver404:
+        return []
+
+    full_path = request.get_full_path()
     out = []
-    path = request.path
     for code, _name in settings.LANGUAGES:
-        try:
-            translated = translate_url(path, code)
-        except Exception:  # noqa: BLE001 - reverse edilemeyen yollar (admin vb.)
-            continue
-        out.append({'code': code, 'url': absolute(translated)})
+        out.append({
+            'code': code,
+            'url': absolute(translate_url(full_path, code)),
+        })
     return out

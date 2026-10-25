@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The letter was written by John.",
+    "correct_answer": "Der Brief wurde von John geschrieben.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The room is being cleaned right now.",
+    "correct_answer": "Das Zimmer wird gerade gereinigt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The food has not been prepared yet.",
+    "correct_answer": "Das Essen ist noch nicht zubereitet worden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Was the meeting cancelled yesterday?",
+    "correct_answer": "Wurde das Treffen gestern abgesagt?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The windows will be painted next week.",
+    "correct_answer": "Die Fenster werden nächste Woche gestrichen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The phone has been charged.",
+    "correct_answer": "Das Telefon ist aufgeladen worden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The dishes are being washed.",
+    "correct_answer": "Die Teller werden gerade gewaschen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The report was not sent on time.",
+    "correct_answer": "Der Bericht wurde nicht rechtzeitig versendet.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Das Auto wurde repariert.",
+    "correct_answer": "The car was repaired.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die Hausaufgaben sind gemacht worden.",
+    "correct_answer": "The homework has been done.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Das Projekt wird nicht beendet.",
+    "correct_answer": "The project will not be finished.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wird die Pizza heute geliefert?",
+    "correct_answer": "Will the pizza be delivered today?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die Tür war nicht geöffnet worden.",
+    "correct_answer": "The door had not been opened.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Der Brief wird geschrieben.",
+    "correct_answer": "The letter is being written.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Das Buch ist gelesen worden.",
+    "correct_answer": "The book has been read.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Werden die Blumen gepflanzt?",
+    "correct_answer": "Are the flowers being planted?",
+    "choices": null
+  }
+]

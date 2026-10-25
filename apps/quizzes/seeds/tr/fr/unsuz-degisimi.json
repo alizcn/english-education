@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kitabı okudum.",
+    "correct_answer": "J'ai lu le livre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ekmeği yedim.",
+    "correct_answer": "J'ai mangé le pain.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çorabı giydim.",
+    "correct_answer": "J'ai mis la chaussette.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kitabı okumadım.",
+    "correct_answer": "Je n'ai pas lu le livre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çoğunu istedim.",
+    "correct_answer": "J'ai demandé la majorité.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "J'ai lu le livre.",
+    "correct_answer": "Kitabı okudum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "J'ai mangé le pain.",
+    "correct_answer": "Ekmeği yedim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je n'ai pas mangé le pain.",
+    "correct_answer": "Ekmeği yemedim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle a mis la chaussette.",
+    "correct_answer": "Çorabı giydi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "J'aime mon livre.",
+    "correct_answer": "Kitabımı seviyorum.",
+    "choices": null
+  }
+]

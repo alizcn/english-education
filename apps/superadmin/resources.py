@@ -5,12 +5,14 @@ imports it once at startup.
 """
 from django.contrib.auth import get_user_model
 
-from apps.accounts.models import UserConsent, UserLevel
+from apps.accounts.models import UserConsent, UserCourse
 from apps.quizzes.models import QuizTemplate, QuizSession, QuizQuestion
 from apps.interviews.models import InterviewSession
-from apps.topics.models import Topic, TopicCompletion, TopicExample
+from apps.topics.models import (
+    Topic, TopicCompletion, TopicExample, TopicExplanation,
+)
 from apps.vocabulary.models import Word
-from apps.wordbank.models import BankWord, BankProgress
+from apps.wordbank.models import BankProgress, BankWord, BankWordTranslation
 from apps.chat.models import ChatConversation, ChatMessage
 
 from .registry import Resource, register
@@ -82,22 +84,30 @@ class UserConsentResource(Resource):
     order_by = ('-accepted_at',)
 
 
-@register('user-levels')
-class UserLevelResource(Resource):
-    model = UserLevel
-    label = 'Seviyeler'
-    label_singular = 'Seviye'
+@register('user-courses')
+class UserCourseResource(Resource):
+    model = UserCourse
+    label = 'Kurslar'
+    label_singular = 'Kurs'
     icon = '🎯'
     section = 'Kullanıcılar'
     list_columns = (
         ('id', '#'),
         ('user', 'Kullanıcı'),
+        ('target_language', 'Öğrenilen'),
+        ('native_language', 'Anlatım'),
         ('current_level', 'Seviye'),
         ('score', 'Skor'),
+        ('is_active', 'Aktif'),
         ('updated_at', 'Güncelleme'),
     )
     search_fields = ('user__username', 'user__email')
-    filters = (('current_level', 'Seviye'),)
+    filters = (
+        ('target_language', 'Öğrenilen dil'),
+        ('native_language', 'Anlatım dili'),
+        ('current_level', 'Seviye'),
+        ('is_active', 'Aktif'),
+    )
     select_related = ('user',)
     order_by = ('-updated_at',)
 
@@ -113,13 +123,20 @@ class TopicResource(Resource):
     section = 'İçerik'
     list_columns = (
         ('id', '#'),
+        ('language', 'Dil'),
         ('name', 'Ad'),
         ('slug', 'Slug'),
         ('order', 'Sıra'),
+        ('explanation_languages', 'Anlatım'),
         ('created_at', 'Oluşturma'),
     )
     search_fields = ('name', 'slug')
-    order_by = ('order', 'name')
+    filters = (('language', 'Hedef dil'),)
+    prefetch_related = ('explanations',)
+    order_by = ('language', 'order', 'name')
+
+    def explanation_languages(self, obj):
+        return ', '.join(sorted(e.language for e in obj.explanations.all())) or '—'
 
 
 @register('topic-examples')
@@ -133,13 +150,18 @@ class TopicExampleResource(Resource):
         ('id', '#'),
         ('topic', 'Konu'),
         ('kind', 'Tür'),
-        ('sentence_en', 'EN'),
-        ('sentence_tr', 'TR'),
+        ('order', 'Sıra'),
+        ('sentence', 'Cümle'),
+        ('translation_languages', 'Çeviriler'),
     )
-    search_fields = ('topic__name', 'sentence_en', 'sentence_tr')
+    search_fields = ('topic__name', 'sentence')
     filters = (('topic', 'Konu'), ('kind', 'Tür'))
     select_related = ('topic',)
-    order_by = ('topic', 'kind', 'id')
+    order_by = ('topic', 'kind', 'order')
+
+    def translation_languages(self, obj):
+        data = obj.translations if isinstance(obj.translations, dict) else {}
+        return ', '.join(sorted(k for k, v in data.items() if v)) or '—'
 
 
 @register('quiz-templates')
@@ -153,13 +175,18 @@ class QuizTemplateResource(Resource):
         ('id', '#'),
         ('name', 'Ad'),
         ('kind', 'Tür'),
+        ('target_language', 'Öğrenilen'),
+        ('native_language', 'Anlatım'),
         ('topic', 'Konu'),
         ('user', 'Sahip'),
         ('question_count', 'Soru'),
         ('created_at', 'Oluşturma'),
     )
     search_fields = ('name', 'user__username', 'topic__name')
-    filters = (('kind', 'Tür'), ('topic', 'Konu'))
+    filters = (
+        ('kind', 'Tür'), ('target_language', 'Öğrenilen dil'),
+        ('native_language', 'Anlatım dili'), ('topic', 'Konu'),
+    )
     select_related = ('user', 'topic')
     order_by = ('-created_at',)
 
@@ -179,15 +206,76 @@ class BankWordResource(Resource):
     section = 'İçerik'
     list_columns = (
         ('id', '#'),
+        ('language', 'Dil'),
         ('level', 'Seviye'),
         ('rank', 'Sıra'),
-        ('english', 'EN'),
-        ('turkish', 'TR'),
+        ('term', 'Terim'),
+        ('meanings', 'Anlamlar'),
         ('part_of_speech', 'PoS'),
     )
-    search_fields = ('english', 'turkish')
-    filters = (('level', 'Seviye'), ('part_of_speech', 'PoS'))
-    order_by = ('level', 'rank')
+    search_fields = ('term', 'translations__meaning')
+    filters = (
+        ('language', 'Hedef dil'), ('level', 'Seviye'),
+        ('part_of_speech', 'PoS'),
+    )
+    prefetch_related = ('translations',)
+    order_by = ('language', 'level', 'rank')
+
+    def meanings(self, obj):
+        # Hangi dillerde anlam var — içerik üretimini gözden geçirirken
+        # eksikleri görmenin en hızlı yolu.
+        parts = [
+            f'{t.language}: {t.meaning[:40]}'
+            for t in sorted(obj.translations.all(), key=lambda x: x.language)
+        ]
+        return ' | '.join(parts) or '—'
+
+
+@register('bank-word-translations')
+class BankWordTranslationResource(Resource):
+    model = BankWordTranslation
+    label = 'Kelime Çevirileri'
+    label_singular = 'Çeviri'
+    icon = '🌐'
+    section = 'İçerik'
+    list_columns = (
+        ('id', '#'),
+        ('word', 'Terim'),
+        ('language', 'Dil'),
+        ('meaning', 'Anlam'),
+        ('example_translation', 'Örnek çevirisi'),
+    )
+    search_fields = ('meaning', 'word__term')
+    filters = (
+        ('language', 'Anlatım dili'),
+        ('word__language', 'Hedef dil'),
+        ('word__level', 'Seviye'),
+    )
+    select_related = ('word',)
+    order_by = ('word__language', 'word__level', 'word__rank', 'language')
+
+
+@register('topic-explanations')
+class TopicExplanationResource(Resource):
+    model = TopicExplanation
+    label = 'Konu Anlatımları'
+    label_singular = 'Anlatım'
+    icon = '📄'
+    section = 'İçerik'
+    list_columns = (
+        ('id', '#'),
+        ('topic', 'Konu'),
+        ('language', 'Dil'),
+        ('length', 'Uzunluk'),
+        ('updated_at', 'Güncelleme'),
+    )
+    search_fields = ('body', 'topic__name', 'topic__slug')
+    filters = (('language', 'Anlatım dili'), ('topic__language', 'Hedef dil'))
+    select_related = ('topic',)
+    order_by = ('topic', 'language')
+
+    def length(self, obj):
+        return f'{len(obj.body or "")} krk'
 
 
 # ===================== Aktivite =====================
@@ -280,15 +368,20 @@ class WordResource(Resource):
     list_columns = (
         ('id', '#'),
         ('user', 'Kullanıcı'),
-        ('english', 'EN'),
-        ('turkish', 'TR'),
+        ('target_language', 'Öğrenilen'),
+        ('term', 'Terim'),
+        ('meaning', 'Anlam'),
         ('mastered', 'Öğrenildi'),
         ('times_correct', '✓'),
         ('times_asked', '?'),
         ('created_at', 'Eklenme'),
     )
-    search_fields = ('english', 'turkish', 'user__username')
-    filters = (('mastered', 'Öğrenildi'),)
+    search_fields = ('term', 'meaning', 'user__username')
+    filters = (
+        ('target_language', 'Öğrenilen dil'),
+        ('native_language', 'Anlatım dili'),
+        ('mastered', 'Öğrenildi'),
+    )
     select_related = ('user',)
     order_by = ('-created_at',)
 
@@ -309,8 +402,12 @@ class BankProgressResource(Resource):
         ('wrong_count', '✗'),
         ('last_answered_at', 'Son Cevap'),
     )
-    search_fields = ('user__username', 'word__english')
-    filters = (('mastered', 'Öğrenildi'),)
+    search_fields = ('user__username', 'word__term')
+    filters = (
+        ('mastered', 'Öğrenildi'),
+        ('word__language', 'Hedef dil'),
+        ('word__level', 'Seviye'),
+    )
     select_related = ('user', 'word')
     order_by = ('-last_answered_at',)
 

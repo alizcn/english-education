@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je ___ français.",
+    "correct_answer": "parle",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Tu ___ à Paris.",
+    "correct_answer": "habites",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle ___ une pomme.",
+    "correct_answer": "mange",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Nous ___ au cinéma.",
+    "correct_answer": "allons",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ils ___ beaucoup.",
+    "correct_answer": "travaillent",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je ne ___ pas anglais.",
+    "correct_answer": "parle",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Vous ___ un café?",
+    "correct_answer": "buvez",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Il ___ sa mère.",
+    "correct_answer": "appelle",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elles ___ les devoirs.",
+    "correct_answer": "finissent",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Nous ___ heureux.",
+    "correct_answer": "sommes",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle est la forme correcte du verbe « avoir » à la première personne du singulier?",
+    "correct_answer": "j'ai",
+    "choices": [
+      "j'ai",
+      "j'aie",
+      "j'ais",
+      "ja"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Comment conjuguez-vous « aller » à la troisième personne du singulier?",
+    "correct_answer": "il va",
+    "choices": [
+      "il va",
+      "il alle",
+      "il vais",
+      "il aller"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle est la conjugaison correcte de « commencer » à la première personne du singulier?",
+    "correct_answer": "je commence",
+    "choices": [
+      "je commence",
+      "je commance",
+      "je commencent",
+      "je commenço"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez avec la forme correcte: « Tu ___ tes devoirs. »",
+    "correct_answer": "finis",
+    "choices": [
+      "finit",
+      "finissent",
+      "finis",
+      "finies"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle est la négation correcte?",
+    "correct_answer": "je ne parle pas",
+    "choices": [
+      "je parle pas",
+      "je ne parle pas",
+      "je pas parle",
+      "je ne parlent pas"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Comment dit-on « nous » avec le verbe « faire » au présent?",
+    "correct_answer": "nous faisons",
+    "choices": [
+      "nous faisons",
+      "nous faire",
+      "nous faisent",
+      "nous fais"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle forme est correcte pour « pouvoir » à la deuxième personne du singulier?",
+    "correct_answer": "tu peux",
+    "choices": [
+      "tu pouxs",
+      "tu pouves",
+      "tu peux",
+      "tu peuvent"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle phrase contient une conjugaison correcte?",
+    "correct_answer": "ils parlent",
+    "choices": [
+      "ils parle",
+      "ils parlent",
+      "il parlent",
+      "elles parles"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez la phrase: « Elle ne ___ pas de viande. »",
+    "correct_answer": "mange",
+    "choices": [
+      "mangent",
+      "mange",
+      "mangeons",
+      "manges"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle est la forme correcte de « vendre » à la première personne du singulier?",
+    "correct_answer": "je vends",
+    "choices": [
+      "je vend",
+      "je vendre",
+      "je vends",
+      "je vendrons"
+    ]
+  }
+]

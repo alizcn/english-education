@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "You must arrive on time for the meeting.",
+    "correct_answer": "Toplantıya zamanında gelmelisin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Annememi aramalıyım.",
+    "correct_answer": "I should call my mother.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Students should study before taking a test.",
+    "correct_answer": "Öğrenciler test almadan önce çalışmalıdır.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bu odaya girmemelisin.",
+    "correct_answer": "You must not enter this room.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "We shouldn't spend all our money on one thing.",
+    "correct_answer": "Tüm paramızı bir şeye harcamamalıyız.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Başkalarına saygı göstermelisin.",
+    "correct_answer": "You must respect other people.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He must be very hungry after working all day.",
+    "correct_answer": "Bütün gün çalıştıktan sonra çok aç olmalı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Önemli bir gün öncesi çok uyku uyumalısın.",
+    "correct_answer": "You should sleep a lot before an important day.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "You must not touch that wire.",
+    "correct_answer": "O tele dokunmamalısın.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Geç saatlere kadar ayakta kalmamalıyız.",
+    "correct_answer": "We shouldn't stay up until late hours.",
+    "choices": null
+  }
+]

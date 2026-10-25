@@ -10,12 +10,15 @@ AI sometimes returns multiple-choice items in messy formats:
 This module cleans those up so UI rendering and answer matching stay sane.
 """
 import re
+import string
 
-
-LABEL_RE = re.compile(r'^\s*([A-Da-d])\s*[\.\)\:\-]\s+')
-LETTER_ONLY_RE = re.compile(r'^[A-Da-d]$')
+# Şık harfleri A-D ile SINIRLI DEĞİL: sınır çalışma anında `len(choices)`ten
+# geliyor. Eskiden `'ABCD'.index(letter)` ve `[A-Da-d]` sabitti, yani 4'ten
+# fazla (ya da az) şıklı bir soru sessizce yarım normalize ediliyordu.
+LABEL_RE = re.compile(r'^\s*([A-Za-z])\s*[\.\)\:\-]\s+')
+LETTER_ONLY_RE = re.compile(r'^[A-Za-z]$')
 INLINE_OPTIONS_RE = re.compile(
-    r'(?:^|\s)([A-Da-d])\s*[\.\)\:\-]\s*(.+?)(?=\s+[A-Da-d]\s*[\.\)\:\-]\s|\s*$)',
+    r'(?:^|\s)([A-Za-z])\s*[\.\)\:\-]\s*(.+?)(?=\s+[A-Za-z]\s*[\.\)\:\-]\s|\s*$)',
     re.DOTALL,
 )
 
@@ -84,8 +87,11 @@ def _resolve_correct(correct, choices, label_map):
     letter = correct.upper()
     if letter in label_map:
         return label_map[letter]
-    idx = 'ABCD'.index(letter)
-    if idx < len(choices):
+    # Harf -> pozisyon, şık sayısı kadar. Sabit 'ABCD' varsayımı 4'ten fazla
+    # şıkta ValueError, 4'ten azda yanlış indeks veriyordu.
+    labels = string.ascii_uppercase[:len(choices)]
+    idx = labels.find(letter)
+    if idx != -1:
         return choices[idx]
     return correct
 

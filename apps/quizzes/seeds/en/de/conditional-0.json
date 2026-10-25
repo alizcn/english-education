@@ -1,0 +1,116 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you freeze water, it becomes ice.",
+    "correct_answer": "Wenn du Wasser einfrierst, wird es zu Eis.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn es schneit, ist es kalt.",
+    "correct_answer": "If it snows, it is cold.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If the sun shines, the plants grow.",
+    "correct_answer": "Wenn die Sonne scheint, wachsen die Pflanzen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn du nicht studierst, bestehst du die Prüfung nicht.",
+    "correct_answer": "If you don't study, you don't pass the exam.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you add salt to ice, the temperature drops.",
+    "correct_answer": "Wenn du Salz zum Eis gibst, sinkt die Temperatur.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn man Zucker zu Kaffee gibt, schmeckt er süß.",
+    "correct_answer": "If you add sugar to coffee, it tastes sweet.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you press the bell, it rings.",
+    "correct_answer": "Wenn du auf die Glocke drückst, läutet sie.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn die Temperatur unter Null fällt, friert das Wasser ein.",
+    "correct_answer": "If the temperature drops below zero, the water freezes.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you practice every day, you improve.",
+    "correct_answer": "Wenn du jeden Tag übst, verbesserst du dich.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn du früh aufwachst, hast du Zeit zum Frühstücken.",
+    "correct_answer": "If you wake up early, you have time for breakfast.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you don't water the plants, they don't grow.",
+    "correct_answer": "Wenn du die Pflanzen nicht gießt, wachsen sie nicht.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn man zu viel arbeitet, wird man müde.",
+    "correct_answer": "If you work too much, you get tired.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Do you feel hungry if you skip breakfast?",
+    "correct_answer": "Bekommst du Hunger, wenn du das Frühstück auslässt?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn die Menschen zu viel Zucker essen, werden sie krank.",
+    "correct_answer": "If people eat too much sugar, they get sick.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you mix red and blue paint, you get purple.",
+    "correct_answer": "Wenn du rote und blaue Farbe mischst, bekommst du Lila.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn es regnet, gehen die Menschen nicht nach draußen.",
+    "correct_answer": "If it rains, people don't go outside.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you don't exercise, you don't stay healthy.",
+    "correct_answer": "Wenn du nicht trainierst, bleibst du nicht gesund.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Was passiert, wenn du deine Hausaufgaben nicht machst?",
+    "correct_answer": "What happens if you don't do your homework?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If the alarm goes off, everyone wakes up.",
+    "correct_answer": "Wenn der Wecker klingelt, wacht jeder auf.",
+    "choices": null
+  }
+]

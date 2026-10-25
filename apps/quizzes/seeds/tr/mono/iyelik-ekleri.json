@@ -1,0 +1,129 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Benim ___ çok eski.",
+    "correct_answer": "telefonum",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Senin ___ nerede?",
+    "correct_answer": "kitabın",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Onun ___ güzel.",
+    "correct_answer": "evi",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Bizim ___ merkezdedir.",
+    "correct_answer": "okulumuz",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sizin ___ beyaz mı?",
+    "correct_answer": "kediniz",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Onların ___ kırmızı.",
+    "correct_answer": "arabaları",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Senin ___ iyi değil.",
+    "correct_answer": "ödevin",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Onun ___ bitmedi.",
+    "correct_answer": "işi",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Bizim ___ nereye gitti?",
+    "correct_answer": "öğretmenimiz",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Benim telefon___ çok eski.",
+    "correct_answer": "um",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Senin kitab___ nerede?",
+    "correct_answer": "ın",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Onun ev___ güzel.",
+    "correct_answer": "i",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Benim ___ çok pahalı.",
+    "correct_answer": "arabam",
+    "choices": [
+      "arabam",
+      "arabası",
+      "arabaları",
+      "arabanız"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Sizin ___ güzel mi?",
+    "correct_answer": "eviniz",
+    "choices": [
+      "evim",
+      "evin",
+      "evi",
+      "eviniz"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Onların ___ nerede?",
+    "correct_answer": "evleri",
+    "choices": [
+      "evim",
+      "evi",
+      "evleri",
+      "eviniz"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Senin ___ iyi mi?",
+    "correct_answer": "öğretmenin",
+    "choices": [
+      "öğretmenim",
+      "öğretmenin",
+      "öğretmeni",
+      "öğretmenleri"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Onun ___ nerede?",
+    "correct_answer": "evi",
+    "choices": [
+      "evim",
+      "evin",
+      "evi",
+      "evimiz"
+    ]
+  }
+]

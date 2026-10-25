@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Dün sinemaya gittim.",
+    "correct_answer": "Ich bin gestern ins Kino gegangen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kahvemi içtim.",
+    "correct_answer": "Ich habe meinen Kaffee getrunken.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Dün akşam yağmur yağdı.",
+    "correct_answer": "Gestern Abend hat es geregnet.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Anahtarımı bulamadım.",
+    "correct_answer": "Ich konnte meinen Schlüssel nicht finden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Arkadaşını gördü mü?",
+    "correct_answer": "Hat sie ihre Freundin gesehen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich bin heute früh aufgewacht.",
+    "correct_answer": "Bugün sabah uyandım.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Er hat das Fenster geöffnet.",
+    "correct_answer": "O pencereyi açtı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie haben nicht gelacht.",
+    "correct_answer": "Onlar gülmediler.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Hast du das Buch gelesen?",
+    "correct_answer": "Kitabı okudun mu?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir sind eine Woche geblieben.",
+    "correct_answer": "Biz bir hafta kaldık.",
+    "choices": null
+  }
+]

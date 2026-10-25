@@ -1,0 +1,45 @@
+{% load i18n %}{% comment %}
+Tek dil değiştirici. Eskiden bu markup dört şablonda kopyalanmıştı
+(base, accounts/_auth_base, seo/_public_base, dashboard/landing) ve hepsi
+`{% if LANG == 'tr' %}…{% else %}` ikili toggle'ıydı: üçüncü bir dil
+eklendiğinde kullanıcıya yalnızca tek alternatif gösteriliyordu, yani
+FR→DE geçişi arayüzden imkânsızdı.
+
+Şimdi `seo.ui_languages` üzerinde dönüyor, dolayısıyla dil sayısından
+bağımsız. Dropdown markup'ı `.user-menu` desenini izliyor ve açma/kapama
+JS'i `[data-dropdown]` ile genel — o script `block body` DIŞINDA durmak
+zorunda, çünkü landing ve giriş sayfaları o bloğu tamamen eziyor.
+
+`next` olarak `request.get_full_path` veriliyor: `request.path` sorgu
+dizesini düşürüyordu, yani `?page=7` ya da `?q=abc` olan bir sayfada dil
+değiştirince kullanıcı birinci sayfaya/filtresiz listeye dönüyordu.
+{% endcomment %}
+<div class="lang-switcher" data-dropdown>
+    <button type="button" class="lang-btn lang-btn-trigger" data-dropdown-trigger
+            aria-haspopup="true" aria-expanded="false"
+            aria-label="{% trans 'Dil seç' %}">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        <span class="lang-btn-code">{{ seo.active_language|upper }}</span>
+    </button>
+    <div class="lang-menu" data-dropdown-panel role="menu">
+        {% for lang in seo.ui_languages %}
+        {% if lang.is_active %}
+        <span class="lang-menu-item is-current" role="menuitem" aria-current="true">
+            <span class="lang-menu-code">{{ lang.code|upper }}</span>
+            <span class="lang-menu-name">{{ lang.native_name }}</span>
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+        </span>
+        {% else %}
+        <form method="post" action="{% url 'set_language' %}">
+            {% csrf_token %}
+            <input type="hidden" name="next" value="{{ request.get_full_path }}">
+            <button type="submit" name="language" value="{{ lang.code }}"
+                    class="lang-menu-item" role="menuitem" lang="{{ lang.code }}">
+                <span class="lang-menu-code">{{ lang.code|upper }}</span>
+                <span class="lang-menu-name">{{ lang.native_name }}</span>
+            </button>
+        </form>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>

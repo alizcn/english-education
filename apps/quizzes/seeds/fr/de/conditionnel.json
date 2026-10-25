@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je serais heureux de vous aider.",
+    "correct_answer": "Ich würde mich freuen, Ihnen zu helfen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu pourrais m'appeler demain.",
+    "correct_answer": "Du könntest mich morgen anrufen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ils n'iraient pas à la plage.",
+    "correct_answer": "Sie würden nicht zum Strand gehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Pourriez-vous m'aider?",
+    "correct_answer": "Könnten Sie mir helfen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle aurait une meilleure chance.",
+    "correct_answer": "Sie hätte eine bessere Chance.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "On devrait manger plus sainement.",
+    "correct_answer": "Wir sollten gesünder essen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Que feriez-vous?",
+    "correct_answer": "Was würden Sie tun?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je ne voudrais pas te déranger.",
+    "correct_answer": "Ich würde dich nicht stören wollen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich würde einen Kaffee trinken.",
+    "correct_answer": "Je boirais un café.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Du solltest mehr schlafen.",
+    "correct_answer": "Tu devrais dormir plus.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Würde er zur Party kommen?",
+    "correct_answer": "Viendrait-il à la fête?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir würden nicht mitgehen.",
+    "correct_answer": "Nous n'irions pas.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie könnte mir helfen.",
+    "correct_answer": "Elle pourrait m'aider.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Hättest du Zeit für mich?",
+    "correct_answer": "Aurais-tu du temps pour moi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich würde nicht lügen.",
+    "correct_answer": "Je ne mentirais pas.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Würden Sie das tun?",
+    "correct_answer": "Feriez-vous cela?",
+    "choices": null
+  }
+]

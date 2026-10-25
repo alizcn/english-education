@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kitabım çok iyi.",
+    "correct_answer": "Mein Buch ist sehr gut.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Mein Telefon ist alt.",
+    "correct_answer": "Telefonum eski.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Senin kaleminin rengi nedir?",
+    "correct_answer": "Welche Farbe hat dein Stift?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Unser Haus ist groß.",
+    "correct_answer": "Evimiz büyük.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Onun evi güzel değil.",
+    "correct_answer": "Sein Haus ist nicht schön.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wo ist dein Notizbuch?",
+    "correct_answer": "Defterin nerede?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sizin arabanız kırmızı değil.",
+    "correct_answer": "Ihr Auto ist nicht rot.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ihre Schule ist alt.",
+    "correct_answer": "Okulları eski.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Onların çocukları kaç yaşında?",
+    "correct_answer": "Wie alt sind ihre Kinder?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Meine Schwester ist Lehrerin.",
+    "correct_answer": "Kız kardeşim öğretmen.",
+    "choices": null
+  }
+]

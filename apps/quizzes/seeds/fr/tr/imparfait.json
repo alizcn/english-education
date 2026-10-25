@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je parlais avec mon ami.",
+    "correct_answer": "Arkadaşımla konuşuyordum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle ne lisait jamais de romans.",
+    "correct_answer": "Hiçbir zaman roman okumuyordu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Mangeais-tu une pomme?",
+    "correct_answer": "Elma yiyor muydun?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous jouions dans le parc chaque jour.",
+    "correct_answer": "Her gün parkta oynuyorduk.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ils n'écoutaient pas la musique.",
+    "correct_answer": "Müzik dinlemiyorlardı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il pleuvait ce jour-là.",
+    "correct_answer": "O gün yağmur yağıyordu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Her sabah kahve içiyordu.",
+    "correct_answer": "Il buvait du café chaque matin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sıklıkla sinemaya giderdik.",
+    "correct_answer": "Nous allions souvent au cinéma.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O şarkıyı sevmiyordu.",
+    "correct_answer": "Elle n'aimait pas cette chanson.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Babamla balığa gidiyorduk.",
+    "correct_answer": "Nous allions pêcher avec mon père.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Yazı yazıyorduk.",
+    "correct_answer": "Nous écrivions des lettres.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Yağmur yağıyordu.",
+    "correct_answer": "Il pleuvait.",
+    "choices": null
+  }
+]

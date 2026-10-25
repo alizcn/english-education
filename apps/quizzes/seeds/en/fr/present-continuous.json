@@ -1,0 +1,86 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: I am reading a book.",
+    "correct_answer": "Je suis en train de lire un livre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: She is cooking dinner.",
+    "correct_answer": "Elle est en train de cuisiner le dîner.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: They are playing football.",
+    "correct_answer": "Ils sont en train de jouer au football.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: He is working on his laptop.",
+    "correct_answer": "Il est en train de travailler sur son ordinateur portable.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: I am not listening to music.",
+    "correct_answer": "Je ne suis pas en train d'écouter de la musique.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: Are you coming tomorrow?",
+    "correct_answer": "Est-ce que tu viens demain?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: We are watching a movie right now.",
+    "correct_answer": "Nous sommes en train de regarder un film maintenant.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: She is not wearing a hat.",
+    "correct_answer": "Elle ne porte pas de chapeau.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Elle est en train de marcher dans le parc.",
+    "correct_answer": "She is walking in the park.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Ils sont en train de manger.",
+    "correct_answer": "They are eating.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Je ne suis pas en train de dormir.",
+    "correct_answer": "I am not sleeping.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Vous dansez en ce moment.",
+    "correct_answer": "You are dancing right now.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Est-ce qu'elle est en train de travailler?",
+    "correct_answer": "Is she working?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Qu'est-ce que tu fais?",
+    "correct_answer": "What are you doing?",
+    "choices": null
+  }
+]

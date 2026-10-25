@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "O her gün spor yapar.",
+    "correct_answer": "He/She practices sports every day.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I don't like vegetables.",
+    "correct_answer": "Ben sebze sevmem.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Siz ne zaman uyursunuz?",
+    "correct_answer": "When do you sleep?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The cat sleeps at night.",
+    "correct_answer": "Kedi gece uyur.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Biz her gün parkta yürürüz.",
+    "correct_answer": "We walk in the park every day.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Does he speak English?",
+    "correct_answer": "O İngilizce konuşur mu?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "O oto sürmeyi sever.",
+    "correct_answer": "He/She loves driving.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We cook dinner in the evening.",
+    "correct_answer": "Biz akşamda yemek pişiririz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Biz hiçbir zaman yalan söylemeyiz.",
+    "correct_answer": "We never tell lies.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They don't study at home.",
+    "correct_answer": "Onlar evde çalışmazlar.",
+    "choices": null
+  }
+]

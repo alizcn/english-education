@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ben şu anda ders ___.",
+    "correct_answer": "çalışıyorum",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Siz nereye ___?",
+    "correct_answer": "gidiyorsunuz",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Çocuklar bahçede ___.",
+    "correct_answer": "oynuyorlar",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kedi ___.",
+    "correct_answer": "uyuyor",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "O kitabı ___.",
+    "correct_answer": "okumuyor",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Biz her gün spor ___.",
+    "correct_answer": "yapıyoruz",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Polis cadde ___.",
+    "correct_answer": "duruyorlar",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ben bu çay ___.",
+    "correct_answer": "içmiyorum",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Doktor ___ mı?",
+    "correct_answer": "geliyor",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Onlar Türkçe ___.",
+    "correct_answer": "konuşuyorlar",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Halil şimdi ne yapıyor?",
+    "correct_answer": "Gazete okuyor",
+    "choices": [
+      "Gazete okuyor",
+      "Gazete okudu",
+      "Gazete okuyacak",
+      "Gazete okumuş"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Siz sabah kahve içiyor musunuz?",
+    "correct_answer": "Evet, içiyoruz",
+    "choices": [
+      "Evet, içiyoruz",
+      "Evet, içtik",
+      "Evet, içeceğiz",
+      "Evet, içmiştik"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Çocuklar nerede oynuyor?",
+    "correct_answer": "Parkta oynuyorlar",
+    "choices": [
+      "Parkta oynuyorlar",
+      "Parkta oynadılar",
+      "Parkta oynayacaklar",
+      "Parkta oynamışlar"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Kedi uyuyor mu?",
+    "correct_answer": "Evet, uyuyor",
+    "choices": [
+      "Evet, uyuyor",
+      "Evet, uyudu",
+      "Evet, uyuyacak",
+      "Evet, uyumuş"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "O filmi izlemiyor mu?",
+    "correct_answer": "Evet, izlemiyor",
+    "choices": [
+      "Evet, izlemiyor",
+      "Evet, izlemedi",
+      "Evet, izlemeyecek",
+      "Evet, izlememiş"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Siz şimdi ne yapıyorsunuz?",
+    "correct_answer": "Ders çalışıyoruz",
+    "choices": [
+      "Ders çalışıyoruz",
+      "Ders çalıştık",
+      "Ders çalışacağız",
+      "Ders çalışmıştık"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Polis nerede duruyorlar?",
+    "correct_answer": "Caddede duruyorlar",
+    "choices": [
+      "Caddede duruyorlar",
+      "Caddede durdular",
+      "Caddede duracaklar",
+      "Caddede durmüşlar"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Doktor hastanede çalışıyor mu?",
+    "correct_answer": "Evet, çalışıyor",
+    "choices": [
+      "Evet, çalışıyor",
+      "Evet, çalıştı",
+      "Evet, çalışacak",
+      "Evet, çalışmış"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Nereye gidiyorsunuz?",
+    "correct_answer": "Mağazaya gidiyoruz",
+    "choices": [
+      "Mağazaya gidiyoruz",
+      "Mağazaya gittik",
+      "Mağazaya gideceğiz",
+      "Mağazaya gitmiştik"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Siz ne yapıyorsunuz?",
+    "correct_answer": "Müzik dinliyoruz",
+    "choices": [
+      "Müzik dinliyoruz",
+      "Müzik dinledik",
+      "Müzik dinleyeceğiz",
+      "Müzik dinlemişiz"
+    ]
+  }
+]

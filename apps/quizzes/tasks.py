@@ -15,6 +15,7 @@ from celery import shared_task
 from django.utils.translation import gettext as _
 
 from services import claude_client as claude
+from services import languages
 
 from . import services as quiz_services
 from .models import QuizTemplate
@@ -33,8 +34,8 @@ TOPIC_FOCUS = [
     'translation in both directions using slightly longer everyday sentences',
 ]
 WORD_FOCUS = [
-    'translate_en_tr items',
-    'translate_tr_en items',
+    'translate_to_native items',
+    'translate_to_target items',
     'multiple_choice items with close, easily-confused distractors',
     'words from the second half of the pool',
     'the least common words in the pool',
@@ -139,8 +140,25 @@ _TASK = dict(
 )
 
 
+def _pair_for(template_id, target=None, native=None):
+    """Görev parametrelerinden ya da şablondan dil çiftini çözer.
+
+    `target`/`native` varsayılan olarak None: deploy anında kuyrukta eski
+    imzayla (dil parametresiz) bekleyen görevler olabilir. O durumda çift
+    şablonun kendi alanlarından okunuyor. Bir faz sonra varsayılanlar
+    kaldırılabilir.
+    """
+    if target and native:
+        return languages.pair(target, native)
+    template = QuizTemplate.objects.filter(pk=template_id).first()
+    if template is None:
+        return None
+    return languages.pair(template.target_language, template.native_language)
+
+
 @shared_task(**_TASK)
-def generate_topic_template(template_id: int, topic_id: int) -> None:
+def generate_topic_template(template_id: int, topic_id: int,
+                            target: str = None, native: str = None) -> None:
     from apps.topics.models import Topic
 
     try:
@@ -148,15 +166,23 @@ def generate_topic_template(template_id: int, topic_id: int) -> None:
     except Topic.DoesNotExist:
         logger.warning('quiz konusu bulunamadı, üretim atlandı: %s', topic_id)
         return
+    pair = _pair_for(template_id, target, native)
+    if pair is None:
+        logger.warning('quiz şablonu bulunamadı, üretim atlandı: %s', template_id)
+        return
+    # Konu verisi bir kez okunuyor: iş parçacıkları DB'ye dokunmamalı
+    # (bkz. claude_client.parallel_map sözleşmesi ve topic_context docstring'i).
+    context = quiz_services.topic_context(topic, pair=pair)
     _run(
         template_id,
-        lambda n, focus: quiz_services.topic_items(topic, n, focus),
+        lambda n, focus: quiz_services.topic_items(context, n, focus, pair=pair),
         TOPIC_FOCUS,
     )
 
 
 @shared_task(**_TASK)
-def generate_word_template(template_id: int, user_id: int) -> None:
+def generate_word_template(template_id: int, user_id: int,
+                           target: str = None, native: str = None) -> None:
     from django.contrib.auth import get_user_model
 
     try:
@@ -164,11 +190,15 @@ def generate_word_template(template_id: int, user_id: int) -> None:
     except get_user_model().DoesNotExist:
         logger.warning('quiz kullanıcısı bulunamadı, üretim atlandı: %s', user_id)
         return
+    pair = _pair_for(template_id, target, native)
+    if pair is None:
+        logger.warning('quiz şablonu bulunamadı, üretim atlandı: %s', template_id)
+        return
     # Havuz bir kez okunuyor: her parça aynı havuzu görmeli, ayrıca iş
     # parçacıklarından DB'ye dokunmuyoruz (Django orada ayrı bağlantı açar).
-    pool = quiz_services.word_pool(user)
+    pool = quiz_services.word_pool(user, pair.target_code)
     _run(
         template_id,
-        lambda n, focus: quiz_services.word_items(pool, n, focus),
+        lambda n, focus: quiz_services.word_items(pool, n, focus, pair=pair),
         WORD_FOCUS,
     )

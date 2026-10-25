@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Oynayan çocuk çok mutlu.",
+    "correct_answer": "Das spielende Kind ist sehr glücklich.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Der Schüler, der liest.",
+    "correct_answer": "Okuyan öğrenci.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Aldığı kitap çok ilginç.",
+    "correct_answer": "Das Buch, das er kaufte, ist sehr interessant.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Der Mann, der nicht arbeitet.",
+    "correct_answer": "Çalışmayan adam.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Uyumayanlar sabahı geç kalkarlar.",
+    "correct_answer": "Die, die nicht schlafen, wachen morgens spät auf.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Das Haus, wo er wohnt.",
+    "correct_answer": "Oturduğu ev.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yağmur yağan gece uyuyamadım.",
+    "correct_answer": "In der Nacht, in der es regnete, konnte ich nicht schlafen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Der Paket, der morgen kommt.",
+    "correct_answer": "Yarın gelecek paket.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Dün gördüğüm kız benim sınıf arkadaşım.",
+    "correct_answer": "Das Mädchen, das ich gestern sah, ist meine Klassenkameradin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Der Schüler, der morgen anfängt.",
+    "correct_answer": "Yarın başlayacak öğrenci.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kahvede oturan adamlar maç izliyor.",
+    "correct_answer": "Die Männer, die im Café sitzen, schauen das Spiel an.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Das Haus, wohin er geht.",
+    "correct_answer": "Gittiği ev.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Oynamayan çocuk çok sessiz.",
+    "correct_answer": "Das Kind, das nicht spielt, ist sehr still.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Der Computer, den ich letzte Woche kaufte.",
+    "correct_answer": "Geçen hafta satın aldığım bilgisayar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gelecek ay başlayacak işim çok stresli olacak.",
+    "correct_answer": "Der Job, der nächsten Monat beginnt, wird sehr stressig sein.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die Schüler, die morgen anfangen.",
+    "correct_answer": "Yarın başlayacak öğrenciler.",
+    "choices": null
+  }
+]

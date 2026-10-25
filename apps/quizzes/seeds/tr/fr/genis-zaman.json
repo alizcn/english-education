@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Her sabah saat sekizde kalkırım.",
+    "correct_answer": "Je me lève à huit heures chaque matin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Onlar hiç yalan söylemezler.",
+    "correct_answer": "Ils ne mentent jamais.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Siz burada çalışırsınız.",
+    "correct_answer": "Vous travaillez ici.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "O asla önemli konuları söylemez.",
+    "correct_answer": "Il ne dit jamais d'affaires importantes.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ben her gün kitap okurum.",
+    "correct_answer": "Je lis un livre chaque jour.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Tu travailles ici.",
+    "correct_answer": "Burada çalışırsın.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ils ne mangent pas de viande.",
+    "correct_answer": "Et yemezler.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je lis tous les jours.",
+    "correct_answer": "Her gün okurum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Vous ne parlez pas français.",
+    "correct_answer": "Fransızca konuşmazsınız.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle chante toujours.",
+    "correct_answer": "Her zaman şarkı söyler.",
+    "choices": null
+  }
+]

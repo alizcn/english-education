@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Traduisez en turc: Le chien noir.",
+    "correct_answer": "Siyah köpek.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Traduisez en français: Kız güzel mi?",
+    "correct_answer": "La fille est-elle belle?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Traduisez en turc: La table rouge.",
+    "correct_answer": "Kırmızı masa.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Traduisez en français: Ev büyük değil.",
+    "correct_answer": "La maison n'est pas grande.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Traduisez en turc: Les crayons bleus.",
+    "correct_answer": "Mavi kalemler.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Traduisez en français: Bir yeşil oda.",
+    "correct_answer": "Une chambre verte.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Traduisez en turc: Un livre intéressant.",
+    "correct_answer": "İlginç bir kitap.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Traduisez en français: Kitaplar yeni değil.",
+    "correct_answer": "Les livres ne sont pas neufs.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Traduisez en turc: Les portes fermées.",
+    "correct_answer": "Kapalı kapılar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Traduisez en français: Yaşlı bir arkadaş.",
+    "correct_answer": "Un ami âgé.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Traduisez en turc: La fenêtre n'est pas ouverte.",
+    "correct_answer": "Pencere açık değil.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Traduisez en français: Pencereler açık.",
+    "correct_answer": "Les fenêtres sont ouvertes.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Traduisez en turc: Un professeur intelligent.",
+    "correct_answer": "Akıllı bir öğretmen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Traduisez en français: Öğretmenler akıllı değil.",
+    "correct_answer": "Les professeurs ne sont pas intelligents.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Traduisez en turc: Les fleurs rouges.",
+    "correct_answer": "Kırmızı çiçekler.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Traduisez en français: Çiçek güzel mi?",
+    "correct_answer": "Est-ce que la fleur est jolie?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Traduisez en turc: La chaise n'est pas blanche.",
+    "correct_answer": "Sandalye beyaz değil.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Traduisez en français: Sandalyeler beyaz.",
+    "correct_answer": "Les chaises sont blanches.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Traduisez en turc: Les chevaux rapides.",
+    "correct_answer": "Hızlı atlar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Traduisez en français: At hızlı değil.",
+    "correct_answer": "Le cheval n'est pas rapide.",
+    "choices": null
+  }
+]

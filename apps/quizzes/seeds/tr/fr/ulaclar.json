@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kahve içerken gazete okuyorum.",
+    "correct_answer": "Je lis le journal en buvant du café.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gelince hemen yemek pişirmişti.",
+    "correct_answer": "Quand elle est arrivée, elle avait déjà préparé à manger.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Koşarak okula gitti.",
+    "correct_answer": "Il est allé à l'école en courant.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çalışırken müzik dinleyemem.",
+    "correct_answer": "Je ne peux pas écouter de la musique en travaillant.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yürürken arkadaşımı gördüm.",
+    "correct_answer": "J'ai vu mon ami en marchant.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Quand le professeur a parlé, tout le monde l'écoutait.",
+    "correct_answer": "Öğretmen konuşurken herkes onu dinliyordu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Dès qu'elle a fini son travail, elle est partie.",
+    "correct_answer": "İşini bitirince gitti.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle a écrit la lettre rapidement.",
+    "correct_answer": "Mektubu çabuk yazarak yazdı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Pendant qu'ils jouaient, je regardais.",
+    "correct_answer": "Oynarlarken ben izliyordum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "En marchant lentement, nous avons atteint le sommet.",
+    "correct_answer": "Yavaş yavaş yürüyerek zirveye ulaştık.",
+    "choices": null
+  }
+]

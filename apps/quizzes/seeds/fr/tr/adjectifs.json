@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "La jeune fille porte une robe rouge.",
+    "correct_answer": "Genç kız kırmızı bir elbise giyiyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "C'est un beau jour ensoleillé.",
+    "correct_answer": "Bu güzel, güneşli bir gün.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je n'aime pas les couleurs sombres.",
+    "correct_answer": "Koyu renkleri sevmiyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ces petites maisons blanches sont très belles.",
+    "correct_answer": "Bu küçük beyaz evler çok güzeldir.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Avez-vous un ancien ami qui habite ici?",
+    "correct_answer": "Burada oturan eski bir arkadaşınız var mı?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ce n'est pas un bon film.",
+    "correct_answer": "Bu iyi bir film değil.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Büyük bir kırmızı kitap var.",
+    "correct_answer": "Il y a un grand livre rouge.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Güzel çiçekler vazoda vardır.",
+    "correct_answer": "Il y a de belles fleurs dans le vase.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bu modern ve pahalı evler güzeldir.",
+    "correct_answer": "Ces maisons modernes et chères sont belles.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Benim eski bir bisikletim vardı.",
+    "correct_answer": "J'avais un vieux vélo.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Yeşil ve sarı kuşlar çok güzeldir.",
+    "correct_answer": "Les oiseaux verts et jaunes sont très beaux.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Senin güzel bir evi var mı?",
+    "correct_answer": "Avez-vous une belle maison?",
+    "choices": null
+  }
+]

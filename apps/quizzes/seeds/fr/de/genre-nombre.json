@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Une petite maison",
+    "correct_answer": "Ein kleines Haus",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Les chevaux noirs",
+    "correct_answer": "Die schwarzen Pferde",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Est-ce que le problème est difficile?",
+    "correct_answer": "Ist das Problem schwierig?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Une pomme rouge",
+    "correct_answer": "Ein roter Apfel",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Les enfants ne jouent pas",
+    "correct_answer": "Die Kinder spielen nicht",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ein schwarzer Hund",
+    "correct_answer": "Un chien noir",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die Häuser sind nicht klein",
+    "correct_answer": "Les maisons ne sont pas petites",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wo ist das Auto?",
+    "correct_answer": "Où est la voiture?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Eine interessante Geschichte",
+    "correct_answer": "Une histoire intéressante",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die Schüler spielen gern",
+    "correct_answer": "Les élèves aiment jouer",
+    "choices": null
+  }
+]

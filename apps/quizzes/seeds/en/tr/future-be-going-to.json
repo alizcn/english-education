@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I am going to study English tomorrow.",
+    "correct_answer": "Yarın İngilizce çalışacağım.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She is going to call you next week.",
+    "correct_answer": "O gelecek hafta seni arayacak.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Are they going to arrive soon?",
+    "correct_answer": "Onlar yakında varacaklar mı?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "We are not going to eat meat anymore.",
+    "correct_answer": "Artık et yemeyeceğiz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He is going to buy a new car.",
+    "correct_answer": "O yeni bir araba satın alacak.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "What are you going to do tonight?",
+    "correct_answer": "Bu akşam ne yapacaksın?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The children are going to play football.",
+    "correct_answer": "Çocuklar futbol oynayacaklar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I am not going to go to work tomorrow.",
+    "correct_answer": "Yarın işe gitmeyeceğim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Yarın bahçede çalışacağız.",
+    "correct_answer": "We are going to work in the garden tomorrow.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O bu hafta sonu seyahat edecek mi?",
+    "correct_answer": "Is she going to travel this weekend?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ben evde olmayacağım.",
+    "correct_answer": "I am not going to be at home.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kız kardeşim yeni bir elbise alacak.",
+    "correct_answer": "My sister is going to buy a new dress.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Siz nerede kalacaksınız?",
+    "correct_answer": "Where are you going to stay?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onlar sabah erkenden kalkacaklar.",
+    "correct_answer": "They are going to wake up early in the morning.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bu akşam sinemaya gitmeyeceğiz.",
+    "correct_answer": "We are not going to go to the cinema tonight.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Öğretmen testleri kontrol edecek mi?",
+    "correct_answer": "Is the teacher going to check the tests?",
+    "choices": null
+  }
+]

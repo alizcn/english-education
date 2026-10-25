@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to German: 'Ahmet elmayı yedi.'",
+    "correct_answer": "Ahmet hat den Apfel gegessen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to German: 'Evde oturuyorum.'",
+    "correct_answer": "Ich sitze zu Hause.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to German: 'Okuldan geliyorum.'",
+    "correct_answer": "Ich komme von der Schule.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to German: 'Öğretmene kitap verdim.'",
+    "correct_answer": "Ich habe dem Lehrer ein Buch gegeben.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to German: 'Bu çantanın rengi kırmızı.'",
+    "correct_answer": "Die Farbe dieser Tasche ist rot.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to Turkish: 'Die Katze liegt auf dem Tisch.'",
+    "correct_answer": "Kedi masanın üstünde yatıyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to Turkish: 'Ich gehe zur Schule.'",
+    "correct_answer": "Okula gidiyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to Turkish: 'Das Buch ist im Wohnzimmer.'",
+    "correct_answer": "Kitap oturma odasındadır.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to Turkish: 'Der Schlüssel der Tür ist rot.'",
+    "correct_answer": "Kapının anahtarı kırmızıdır.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to Turkish: 'Ich trinke den Kaffee nicht.'",
+    "correct_answer": "Kahveyi içmiyorum.",
+    "choices": null
+  }
+]

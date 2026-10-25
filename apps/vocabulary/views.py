@@ -9,6 +9,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.views.decorators.http import require_POST
 from django_ratelimit.decorators import ratelimit
 
+from apps.accounts.services import current_pair
 from services import claude_client as claude
 from . import services as vocab_services
 from .models import Word
@@ -16,18 +17,17 @@ from .models import Word
 logger = logging.getLogger(__name__)
 
 
-def _user_words(user):
-    return Word.objects.filter(user=user)
-
-
 @login_required
 def word_list(request):
+    pair = current_pair(request)
     q = request.GET.get('q', '').strip()
-    words = _user_words(request.user)
+    words = vocab_services.user_words(request.user, pair.target_code)
     if q:
-        words = words.filter(Q(english__icontains=q) | Q(turkish__icontains=q))
-    stats = vocab_services.personal_stats(request.user)
-    return render(request, 'vocabulary/list.html', {'words': words, 'q': q, 'stats': stats})
+        words = words.filter(Q(term__icontains=q) | Q(meaning__icontains=q))
+    stats = vocab_services.personal_stats(request.user, pair.target_code)
+    return render(request, 'vocabulary/list.html', {
+        'words': words, 'q': q, 'stats': stats, 'pair': pair,
+    })
 
 
 def _parse_input(raw: str) -> list[str]:
@@ -58,8 +58,9 @@ def bulk_add(request):
             messages.error(request, _('Hiç kelime girmedin.'))
             return redirect('vocabulary:bulk_add')
 
+        pair = current_pair(request)
         try:
-            items = claude.translate_words(words)
+            items = claude.generate_lexicon_entries(words, pair=pair)
         except claude.ClaudeClientError as e:
             messages.error(request, str(e))
             return render(request, 'vocabulary/add.html', {'raw': raw, 'source': source})
@@ -73,18 +74,20 @@ def bulk_add(request):
             skipped = 0
             dropped = 0
             for it in items:
-                eng = (it.get('english') or '').strip().lower()
-                tr = (it.get('turkish') or '').strip()
-                if not eng or not tr:
+                term = (it.get('term') or '').strip().lower()
+                meaning = (it.get('meaning') or '').strip()
+                if not term or not meaning:
                     dropped += 1
                     continue
                 obj, was_created = Word.objects.get_or_create(
                     user=request.user,
-                    english=eng,
+                    target_language=pair.target_code,
+                    term=term,
                     defaults={
-                        'turkish': tr,
-                        'example_en': (it.get('example_en') or '').strip(),
-                        'example_tr': (it.get('example_tr') or '').strip(),
+                        'native_language': pair.native_code,
+                        'meaning': meaning,
+                        'example': (it.get('example') or '').strip(),
+                        'example_translation': (it.get('example_translation') or '').strip(),
                         'part_of_speech': (it.get('part_of_speech') or '').strip()[:30],
                         'source': source[:80],
                     },
@@ -109,20 +112,20 @@ def bulk_add(request):
 def word_edit(request, pk):
     word = get_object_or_404(Word, pk=pk, user=request.user)
     if request.method == 'POST':
-        new_english = request.POST.get('english', word.english).strip().lower()
-        new_turkish = request.POST.get('turkish', '').strip()
-        if not new_english or not new_turkish:
-            messages.error(request, _('İngilizce ve Türkçe alanları boş olamaz.'))
+        new_term = request.POST.get('term', word.term).strip().lower()
+        new_meaning = request.POST.get('meaning', '').strip()
+        if not new_term or not new_meaning:
+            messages.error(request, _('Terim ve anlam alanları boş olamaz.'))
             return render(request, 'vocabulary/edit.html', {'word': word})
-        if new_english != word.english and Word.objects.filter(
-            user=request.user, english=new_english,
+        if new_term != word.term and Word.objects.filter(
+            user=request.user, target_language=word.target_language, term=new_term,
         ).exclude(pk=word.pk).exists():
             messages.error(request, _('Bu kelime zaten kayıtlı.'))
             return render(request, 'vocabulary/edit.html', {'word': word})
-        word.english = new_english
-        word.turkish = new_turkish
-        word.example_en = request.POST.get('example_en', '').strip()
-        word.example_tr = request.POST.get('example_tr', '').strip()
+        word.term = new_term
+        word.meaning = new_meaning
+        word.example = request.POST.get('example', '').strip()
+        word.example_translation = request.POST.get('example_translation', '').strip()
         word.part_of_speech = request.POST.get('part_of_speech', '').strip()[:30]
         word.source = request.POST.get('source', '').strip()[:80]
         word.save()
@@ -142,7 +145,8 @@ def word_delete(request, pk):
 
 @login_required
 def word_quiz(request):
-    stats = vocab_services.personal_stats(request.user)
+    pair = current_pair(request)
+    stats = vocab_services.personal_stats(request.user, pair.target_code)
     if stats['total'] < vocab_services.MIN_WORDS_FOR_QUIZ:
         messages.error(
             request,
@@ -151,7 +155,7 @@ def word_quiz(request):
         )
         return redirect('vocabulary:list')
 
-    word, is_retry = vocab_services.pick_next(request.user)
+    word, is_retry = vocab_services.pick_next(request.user, pair.target_code)
 
     if word is None:
         return render(request, 'vocabulary/quiz_complete.html', {'stats': stats})
@@ -162,19 +166,21 @@ def word_quiz(request):
         'options': options,
         'is_retry': is_retry,
         'stats': stats,
+        'pair': pair,
     })
 
 
 @login_required
 @require_POST
 def word_quiz_answer(request):
+    pair = current_pair(request)
     word_id = request.POST.get('word_id')
     selected = request.POST.get('answer', '').strip()
     word = get_object_or_404(Word, pk=word_id, user=request.user)
 
-    is_correct = (selected == (word.turkish or '').strip())
+    is_correct = (selected == (word.meaning or '').strip())
     vocab_services.record_answer(word, is_correct)
-    stats = vocab_services.personal_stats(request.user)
+    stats = vocab_services.personal_stats(request.user, pair.target_code)
 
     return render(request, 'vocabulary/quiz_feedback.html', {
         'word': word,
@@ -187,6 +193,9 @@ def word_quiz_answer(request):
 @login_required
 @require_POST
 def word_quiz_reset(request):
-    Word.objects.filter(user=request.user).update(mastered=False, times_asked=0, times_correct=0)
+    pair = current_pair(request)
+    Word.objects.filter(
+        user=request.user, target_language=pair.target_code,
+    ).update(mastered=False, times_asked=0, times_correct=0)
     messages.success(request, _('Quiz ilerlemen sıfırlandı.'))
     return redirect('vocabulary:list')

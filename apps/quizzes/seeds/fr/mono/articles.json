@@ -1,0 +1,167 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je bois ___ café le matin.",
+    "correct_answer": "du",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle achète ___ pain à la boulangerie.",
+    "correct_answer": "du",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle a ___ voiture rouge.",
+    "correct_answer": "une",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Les enfants jouent dans ___ parc.",
+    "correct_answer": "le",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Vous avez ___ problèmes?",
+    "correct_answer": "des",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Il n'y a pas ___ eau dans le verre.",
+    "correct_answer": "d'",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je n'aime pas ___ sucre.",
+    "correct_answer": "le",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "C'est ___ ami de mon frère.",
+    "correct_answer": "un",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Tu manges ___ soupe?",
+    "correct_answer": "de la",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle met ___ sel dans la salade.",
+    "correct_answer": "du",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ filles sont à l'école.",
+    "correct_answer": "Les",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complète: Je bois ___ lait.",
+    "correct_answer": "du",
+    "choices": [
+      "du",
+      "le",
+      "un",
+      "de la"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel article? Elle a ___ chat.",
+    "correct_answer": "un",
+    "choices": [
+      "du",
+      "une",
+      "un",
+      "de"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Au négatif: Il n'a pas ___ voiture.",
+    "correct_answer": "de",
+    "choices": [
+      "de",
+      "du",
+      "une",
+      "la"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel article? Vous aimez ___ films.",
+    "correct_answer": "les",
+    "choices": [
+      "les",
+      "des",
+      "du",
+      "de la"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complète: Il y a ___ thé dans la tasse.",
+    "correct_answer": "du",
+    "choices": [
+      "du",
+      "de la",
+      "une",
+      "le"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Négatif: Elle ne veut pas ___ riz.",
+    "correct_answer": "de",
+    "choices": [
+      "du",
+      "de",
+      "des",
+      "un"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel article partitif? Je mets ___ sucre dans le café.",
+    "correct_answer": "du",
+    "choices": [
+      "de",
+      "du",
+      "des",
+      "un"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complète: Veux-tu ___ gâteau?",
+    "correct_answer": "un",
+    "choices": [
+      "un",
+      "une",
+      "du",
+      "le"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Au négatif: Tu n'as pas ___ frères?",
+    "correct_answer": "de",
+    "choices": [
+      "du",
+      "de",
+      "des",
+      "les"
+    ]
+  }
+]

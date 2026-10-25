@@ -1,0 +1,110 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich würde gerne helfen.",
+    "correct_answer": "J'aimerais bien aider.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das wäre schön.",
+    "correct_answer": "Ce serait beau.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Könntest du mir helfen?",
+    "correct_answer": "Pourrais-tu m'aider?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wenn ich Zeit hätte, würde ich kommen.",
+    "correct_answer": "Si j'avais du temps, je viendrais.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das hätte ich nicht gedacht.",
+    "correct_answer": "Je n'aurais pas pensé cela.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich könnte das machen.",
+    "correct_answer": "Je pourrais le faire.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Es wäre möglich.",
+    "correct_answer": "Ce serait possible.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Du solltest das versuchen.",
+    "correct_answer": "Tu devrais essayer cela.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich würde nicht bleiben wollen.",
+    "correct_answer": "Je ne voudrais pas rester.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je serais heureux si c'était vrai.",
+    "correct_answer": "Ich wäre glücklich, wenn es wahr wäre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Il faudrait que je parte maintenant.",
+    "correct_answer": "Ich müsste jetzt gehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Aurait-il pu venir?",
+    "correct_answer": "Hätte er kommen können?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je ne dirais pas cela.",
+    "correct_answer": "Das würde ich nicht sagen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Nous pourrions essayer.",
+    "correct_answer": "Wir könnten versuchen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si j'étais à ta place...",
+    "correct_answer": "Wenn ich an deiner Stelle wäre...",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ce serait bien.",
+    "correct_answer": "Das wäre gut.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle aurait dû appeler.",
+    "correct_answer": "Sie hätte anrufen sollen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Cela n'aurait pas d'importance.",
+    "correct_answer": "Das würde keine Rolle spielen.",
+    "choices": null
+  }
+]

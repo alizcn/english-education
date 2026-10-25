@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Würdest du mir helfen?",
+    "correct_answer": "Would you help me?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das wäre eine schlechte Idee.",
+    "correct_answer": "That would be a bad idea.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich hätte keine Zeit.",
+    "correct_answer": "I would have no time.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wenn ich könnte, würde ich gehen.",
+    "correct_answer": "If I could, I would go.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Du könntest mich anrufen.",
+    "correct_answer": "You could call me.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I would not do that.",
+    "correct_answer": "Ich würde das nicht tun.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "If I had time, I would sleep.",
+    "correct_answer": "Wenn ich Zeit hätte, würde ich schlafen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She should study more.",
+    "correct_answer": "Sie sollte mehr lernen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He would have known that.",
+    "correct_answer": "Er hätte das gewusst.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Would you like a coffee?",
+    "correct_answer": "Würde dir ein Kaffee gefallen?",
+    "choices": null
+  }
+]

@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load static i18n %}
+{% load static i18n learn_extras %}
 
 {# Halka açık içerik sayfalarının ortak iskeleti: uygulama chrome'u yerine #}
 {# ziyaretçiye uygun sade bir üst menü + zengin iç bağlantılı alt bilgi. #}
@@ -14,22 +14,13 @@
             {% include '_levelenai_logo.html' with logo_height="36px" %}
         </a>
         <div class="pub-nav-links">
-            <a href="{% url 'seo:grammar_index' %}" class="pub-nav-link {% if request.resolver_match.url_name == 'grammar_index' or request.resolver_match.url_name == 'grammar_detail' %}active{% endif %}">{% trans "Gramer" %}</a>
-            <a href="{% url 'seo:words_index' %}" class="pub-nav-link {% if 'words' in request.resolver_match.url_name %}active{% endif %}">{% trans "Kelimeler" %}</a>
-            <a href="{% url 'seo:interview_index' %}" class="pub-nav-link {% if request.resolver_match.url_name == 'interview_index' %}active{% endif %}">{% trans "Mülakat" %}</a>
+            <a href="{% url 'seo:grammar_index' lang=target_language|default:'en' %}" class="pub-nav-link {% if request.resolver_match.url_name == 'grammar_index' or request.resolver_match.url_name == 'grammar_detail' %}active{% endif %}">{% trans "Gramer" %}</a>
+            <a href="{% url 'seo:words_index' lang=target_language|default:'en' %}" class="pub-nav-link {% if 'words' in request.resolver_match.url_name %}active{% endif %}">{% trans "Kelimeler" %}</a>
+            <a href="{% url 'seo:interview_index' lang=target_language|default:'en' %}" class="pub-nav-link {% if request.resolver_match.url_name == 'interview_index' %}active{% endif %}">{% trans "Mülakat" %}</a>
         </div>
         <div class="landing-nav-right">
             {% include '_theme_toggle.html' %}
-            <form method="post" action="{% url 'set_language' %}" class="lang-switcher">
-                {% csrf_token %}
-                <input type="hidden" name="next" value="{{ request.path }}">
-                {% get_current_language as LANG %}
-                {% if LANG == 'tr' %}
-                <button type="submit" name="language" value="en" class="lang-btn">EN</button>
-                {% else %}
-                <button type="submit" name="language" value="tr" class="lang-btn">TR</button>
-                {% endif %}
-            </form>
+            {% include '_lang_switcher.html' %}
             {% if user.is_authenticated %}
             <a href="{% url 'dashboard:home' %}" class="btn btn-sm">{% trans "Uygulamaya git" %}</a>
             {% else %}
@@ -51,7 +42,7 @@
         <aside class="pub-cta">
             <div>
                 <h2>{% trans "Öğrendiklerini pratiğe dök" %}</h2>
-                <p>{% trans "Quiz çöz, kelimelerini takip et, AI ile İngilizce konuş. Kayıt ücretsiz, kredi kartı istenmez." %}</p>
+                <p>{% lang_name target_language 'prep' as tprep %}{% blocktrans with lang=tprep %}Quiz çöz, kelimelerini takip et, AI ile {{ lang }} konuş. Kayıt ücretsiz, kredi kartı istenmez.{% endblocktrans %}</p>
             </div>
             <a href="{% url 'accounts:signup' %}" class="btn btn-lg landing-btn-primary">{% trans "Ücretsiz Başla" %} →</a>
         </aside>
@@ -64,11 +55,24 @@
     </div>
     <nav class="footer-links" aria-label="{% trans 'Alt bağlantılar' %}">
         <a href="{% url 'dashboard:home' %}" class="footer-link">{% trans "Ana Sayfa" %}</a>
-        <a href="{% url 'seo:grammar_index' %}" class="footer-link">{% trans "İngilizce Gramer" %}</a>
-        <a href="{% url 'seo:words_index' %}" class="footer-link">{% trans "Kelime Listeleri" %}</a>
-        <a href="{% url 'seo:interview_index' %}" class="footer-link">{% trans "Mülakat Soruları" %}</a>
+        <a href="{% url 'seo:grammar_index' lang=target_language|default:'en' %}" class="footer-link">{% lang_name target_language 'gen' as tlang %}{% blocktrans with lang=tlang %}{{ lang }} Gramer{% endblocktrans %}</a>
+        <a href="{% url 'seo:words_index' lang=target_language|default:'en' %}" class="footer-link">{% trans "Kelime Listeleri" %}</a>
+        <a href="{% url 'seo:interview_index' lang=target_language|default:'en' %}" class="footer-link">{% trans "Mülakat Soruları" %}</a>
         <a href="{% url 'dashboard:install_guide' %}" class="footer-link">{% trans "Uygulamayı Yükle" %}</a>
+        <a href="{% url 'seo:licenses' %}" class="footer-link">{% trans "Kaynaklar" %}</a>
         <a href="{% url 'seo:html_sitemap' %}" class="footer-link">{% trans "Site Haritası" %}</a>
+    </nav>
+    {% comment %}Diğer hedef dillerin gramer sayfaları: menü ve üstteki
+    bağlantıların hepsi `target_language`ı kullandığı için ziyaretçi
+    İngilizce sayfalardan Almanca/Fransızca sayfalara tıklayarak
+    geçemiyordu.{% endcomment %}
+    <nav class="footer-links" aria-label="{% trans 'Diğer diller' %}">
+        {% learnable_languages as all_specs %}
+        {% for spec in all_specs %}
+        {% if spec.code != target_language %}
+        <a href="{% url 'seo:grammar_index' lang=spec.code %}" class="footer-link">{% lang_name spec.code 'gen' as olang %}{% blocktrans with lang=olang %}{{ lang }} Gramer{% endblocktrans %}</a>
+        {% endif %}
+        {% endfor %}
     </nav>
     <div class="footer-bottom">
         <small>© 2026 LevelEnAI. {% trans "Tüm hakları saklıdır." %}</small>

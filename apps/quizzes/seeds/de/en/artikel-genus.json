@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Mann ist alt.",
+    "correct_answer": "The man is old.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Frau trinkt keinen Kaffee.",
+    "correct_answer": "The woman doesn't drink coffee.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ist das Kind müde?",
+    "correct_answer": "Is the child tired?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Hund hat keine Ohren.",
+    "correct_answer": "The dog doesn't have ears.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Magst du die Tür?",
+    "correct_answer": "Do you like the door?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The man is young.",
+    "correct_answer": "Der Mann ist jung.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Does the woman have a cat?",
+    "correct_answer": "Hat die Frau eine Katze?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I don't see the child.",
+    "correct_answer": "Ich sehe das Kind nicht.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Do you like the dog?",
+    "correct_answer": "Magst du den Hund?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She doesn't love the house.",
+    "correct_answer": "Sie liebt das Haus nicht.",
+    "choices": null
+  }
+]

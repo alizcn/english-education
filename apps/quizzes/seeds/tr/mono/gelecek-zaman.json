@@ -1,0 +1,162 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Yarın ben okula _____ .",
+    "correct_answer": "gideceğim",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Hangisi 'gel-' fiilinin gelecek zaman, olumlu, 1. tekil kişi şeklidir?",
+    "correct_answer": "Geleceğim",
+    "choices": [
+      "Geleceğim",
+      "Geliyorum",
+      "Gelmek",
+      "Geldim"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "O, yarın bize _____ .",
+    "correct_answer": "gelecek",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Biz bugün akşam yemeği _____ .",
+    "correct_answer": "yapacağız",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Hangisi 'yap-' fiilinin gelecek zaman, olumlu, 3. çoğul kişi şeklidir?",
+    "correct_answer": "Yapacaklar",
+    "choices": [
+      "Yapacaklar",
+      "Yapıyorlar",
+      "Yapmak",
+      "Yaptılar"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sen bu hafta sonu neler _____ ?",
+    "correct_answer": "yapacaksın",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Onlar futbol _____ .",
+    "correct_answer": "oynayacaklar",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Hangisi 'oku-' fiilinin gelecek zaman, olumsuz, 1. çoğul kişi şeklidir?",
+    "correct_answer": "Okumayacağız",
+    "choices": [
+      "Okumayacağız",
+      "Okumuyoruz",
+      "Okumak",
+      "Okuduk"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Hava yarın _____ .",
+    "correct_answer": "güzel olacak",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Siz saat 5'te bize _____ ?",
+    "correct_answer": "geleceksiniz",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Hangisi 'git-' fiilinin gelecek zaman, olumlu, 2. çoğul kişi şeklidir?",
+    "correct_answer": "Gideceksiniz",
+    "choices": [
+      "Gideceksiniz",
+      "Gidiyorsunuz",
+      "Gitmek",
+      "Gittiniz"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kız evi _____ .",
+    "correct_answer": "temizleyecek",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Eğer erken kalkarsam, otobüsü _____ .",
+    "correct_answer": "kaçırmayacağım",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Hangisi 'oyna-' fiilinin gelecek zaman, olumlu, 3. tekil kişi şeklidir?",
+    "correct_answer": "Oynayacak",
+    "choices": [
+      "Oynayacak",
+      "Oynıyor",
+      "Oynamak",
+      "Oynadı"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ben bu kitabı yarın _____ .",
+    "correct_answer": "okuyacağım",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Doktor seni _____ .",
+    "correct_answer": "görecek",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Hangisi 'dinle-' fiilinin gelecek zaman, olumsuz, 2. tekil kişi şeklidir?",
+    "correct_answer": "Dinlemeyeceksin",
+    "choices": [
+      "Dinlemeyeceksin",
+      "Dinlemiyorsun",
+      "Dinlemek",
+      "Dinledin"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Siz bu hafta evi _____ mi?",
+    "correct_answer": "temizlemeyeceksiniz",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Hangisi 'gör-' fiilinin gelecek zaman, olumlu, 3. çoğul kişi şeklidir?",
+    "correct_answer": "Görecekler",
+    "choices": [
+      "Görecekler",
+      "Görüyorlar",
+      "Görmek",
+      "Gördüler"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Hangisi 'kal-' fiilinin gelecek zaman, olumsuz, 1. tekil kişi şeklidir?",
+    "correct_answer": "Kalmayacağım",
+    "choices": [
+      "Kalmayacağım",
+      "Kalmıyorum",
+      "Kalmak",
+      "Kaldım"
+    ]
+  }
+]

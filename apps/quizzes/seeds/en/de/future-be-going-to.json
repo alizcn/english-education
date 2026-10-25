@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I am going to eat lunch soon.",
+    "correct_answer": "Ich werde bald zu Mittag essen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She is going to call you tomorrow.",
+    "correct_answer": "Sie wird dich morgen anrufen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They are going to buy a new car.",
+    "correct_answer": "Sie werden ein neues Auto kaufen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "We are not going to wait here.",
+    "correct_answer": "Wir werden hier nicht warten.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Are you going to work today?",
+    "correct_answer": "Wirst du heute arbeiten?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich werde nächste Woche einen Arzt besuchen.",
+    "correct_answer": "I am going to visit a doctor next week.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Er wird heute Abend für die Prüfung lernen.",
+    "correct_answer": "He is going to study for the exam tonight.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Du wirst diesen Film lieben.",
+    "correct_answer": "You are going to love this movie.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie wird nicht zur Party kommen.",
+    "correct_answer": "She is not going to come to the party.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wann werden sie ankommen?",
+    "correct_answer": "When are they going to arrive?",
+    "choices": null
+  }
+]

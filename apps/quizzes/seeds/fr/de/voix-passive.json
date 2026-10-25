@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Le rapport a été complété par l'équipe.",
+    "correct_answer": "Der Bericht wurde vom Team vervollständigt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Das Haus wurde 1950 gebaut.",
+    "correct_answer": "La maison a été construite en 1950.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Les fleurs sont plantées par le jardinier.",
+    "correct_answer": "Die Blumen werden vom Gärtner gepflanzt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wurde der Brief von dir geschrieben?",
+    "correct_answer": "La lettre a-t-elle été écrite par toi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Le projet a été approuvé par le directeur.",
+    "correct_answer": "Das Projekt wurde vom Direktor genehmigt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Das Kind wurde am Bahnhof verlassen.",
+    "correct_answer": "L'enfant a été abandonné à la gare.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "La porte n'a jamais été fermée par le gardien.",
+    "correct_answer": "Die Tür wurde niemals vom Wächter geschlossen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Dieses Buch ist von vielen Menschen gelesen worden.",
+    "correct_answer": "Ce livre a été lu par beaucoup de gens.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Les enfants n'ont pas été punis.",
+    "correct_answer": "Die Kinder wurden nicht bestraft.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Das Fenster war von ihm geöffnet worden.",
+    "correct_answer": "La fenêtre avait été ouverte par lui.",
+    "choices": null
+  }
+]

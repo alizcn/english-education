@@ -1,0 +1,84 @@
+{% extends 'dashboard/landing/_base.html' %}
+{% load i18n %}
+
+{# GENEL landing — öneksiz `/`. Platformun kendisini anlatıyor, tek bir dili
+   değil. Her hedef dilin kendi sayfası ayrı: /learn-english/,
+   /learn-german/, /learn-french/, /learn-turkish/.
+
+   Sayfa başlığı hâlâ "İngilizce" kelimesini taşıyor ama artık dördünü birden
+   sayıyor: en çok arama hacmi oradayken o kelimeyi tamamen atmak gereksiz
+   bir kayıp, ürünü İngilizce platformu gibi göstermek ise yanlış. İkisi de
+   olmasın diye başlık dört dili birden listeliyor.
+
+   Derin bağlantılar (kelime listesi / gramer / mülakat) burada dil seçimi
+   bölümüne gidiyor; tek bir dile yönlendirmek "her şey İngilizce"
+   izlenimini sürdürürdü. #}
+
+{% block full_title %}{% trans "Ücretsiz Dil Öğrenme Platformu — İngilizce, Almanca, Fransızca, Türkçe" %} | LevelEnAI{% endblock %}
+{% block meta_description %}{% trans "Dört dilde ücretsiz dil öğrenme: 36.000+ kelime, her dilde 18 gramer konusu, quizler ve AI pratik. Anlatım dilini sen seç, aynı hesapla birden çok dil çalış." %}{% endblock %}
+{% block og_title %}{% trans "LevelEnAI — Dört dilde ücretsiz dil öğrenme" %}{% endblock %}
+{% block og_description %}{% trans "İngilizce, Almanca, Fransızca ve Türkçe. Kelime, gramer, quiz ve AI pratik — tamamen ücretsiz." %}{% endblock %}
+
+{% block l_hero_title %}{% trans "Yeni bir dil öğren." %}
+                <span class="l-highlight">{% trans "Kendi hızınla." %}</span>{% endblock %}
+
+{% block l_hero_desc %}{% trans "İngilizce, Almanca, Fransızca ve Türkçe. A1'den C2'ye 36.000+ kelime, her dilde 18 gramer konusu, quizler ve AI sohbet pratiği. Aynı hesapla birden çok dil çalışabilirsin; anlatım dilini de sen seçersin." %}{% endblock %}
+
+{% block l_hero_secondary_cta %}<a href="#diller" class="btn btn-lg landing-btn-ghost">{% trans "Dilleri gör" %}</a>{% endblock %}
+
+{% block l_hero_image_alt %}{% trans 'LevelEnAI paneli: dil seviyesi takibi, kelime hazinesi ilerlemesi ve haftalık çalışma grafiği' %}{% endblock %}
+
+{% block l_capability_1_title %}{% trans "Dört dil" %}{% endblock %}
+{% block l_capability_1_text %}{% trans "Tek hesapta, her biri kendi seviyesiyle" %}{% endblock %}
+{% block l_capability_2_title %}{% trans "36.000+ kelime" %}{% endblock %}
+
+{% block l_problem_title %}{% trans "Dağınık kaynakla dil öğrenilmiyor" %}{% endblock %}
+{% block l_problem_lead %}{% trans "Kelimeler defterde, gramer YouTube'da, alıştırma forumlarda. Hazırlık dağıldığında ilerlemeyi göremiyorsun." %}{% endblock %}
+{% block l_problem_item_3 %}{% trans "Hangi kelimenin hangi seviyeye ait olduğu belirsiz" %}{% endblock %}
+
+{% block l_solution_item_1 %}{% trans "36.000+ kelime dört dile ve seviyelere ayrılmış, sırayla ilerliyorsun" %}{% endblock %}
+{% block l_solution_item_3 %}{% trans "Anlatım dilini seçiyorsun: Almancayı Türkçe, İngilizce ya da Fransızca açıklamalarla çalış" %}{% endblock %}
+
+{% block l_audience_lead %}{% trans "İster sınav, ister iş, ister taşındığın ülkenin dili — dördünden biriyle başla." %}{% endblock %}
+
+{% block l_audience_cards %}
+            <div class="audience-card">
+                <span class="audience-icon icon-purple"><svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></span>
+                <h3>{% trans "İş ve mülakat" %}</h3>
+                <p>{% trans "Pozisyonunu yaz ya da CV'ni yükle; o role özel mülakat soruları ve örnek cevaplar üretilsin." %}</p>
+            </div>
+            <div class="audience-card">
+                <span class="audience-icon icon-green"><svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
+                <h3>{% trans "Sınav hazırlığı" %}</h3>
+                <p>{% trans "Goethe, DELF, TCF ya da okul sınavı — seviye seviye ilerle, eksiğini panelde gör." %}</p>
+            </div>
+            <div class="audience-card">
+                <span class="audience-icon icon-blue"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span>
+                <h3>{% trans "Yurt dışı planı" %}</h3>
+                <p>{% trans "Ausbildung, üniversite, vize ya da taşınma: gündelik dilden başla, sertifika seviyesine çık." %}</p>
+            </div>
+            <div class="audience-card">
+                <span class="audience-icon icon-orange"><svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></span>
+                <h3>{% trans "Kendi listesini tutanlar" %}</h3>
+                <p>{% trans "Dersten veya işten aldığın kelimeleri gir; AI anlamını ve örnek cümlesini yazsın, quizini üretsin." %}</p>
+            </div>
+{% endblock %}
+
+{% block l_metric_words %}36.000+{% endblock %}
+
+{% block l_features_title %}{% trans "Her dilde aynı yapı" %}{% endblock %}
+{% block l_feature_1_title %}{% trans "Mülakat Hazırlık" %} ⭐{% endblock %}
+{% block l_feature_1_text %}{% trans "Pozisyonuna özel AI mülakat soruları, öğrendiğin dilde soru ve kendi dilinde cevap." %}{% endblock %}
+{% block l_feature_1_link %}<a href="#diller" class="l-feature-link">{% trans "Dilleri gör" %} →</a>{% endblock %}
+{% block l_feature_2_text %}{% trans "Dört dilde toplam 36.000+ kelime, A1'den C2'ye seviyelere ayrılmış. Yanlışların otomatik tekrar eder." %}{% endblock %}
+{% block l_feature_2_link %}<a href="#diller" class="l-feature-link">{% trans "Dilleri gör" %} →</a>{% endblock %}
+{% block l_feature_4_text %}{% trans "Her dilde 18 gramer konusu; olumlu, olumsuz ve soru örnekleriyle, kendi dilinde anlatımla." %}{% endblock %}
+{% block l_feature_4_link %}<a href="#diller" class="l-feature-link">{% trans "Dilleri gör" %} →</a>{% endblock %}
+{% block l_feature_5_text %}{% trans "AI asistanla öğrendiğin dilde konuş, hatalarını görsün, doğrusunu öğren." %}{% endblock %}
+
+{% block l_steps_title %}{% trans "3 adımda pratiğe başla" %}{% endblock %}
+
+{% block l_why_free_text %}{% trans "LevelEnAI bir yan ürün olarak geliştirildi. Amacı dil öğrenmek isteyenin kaynak aramakla uğraşmaması; abonelik satmak değil." %}{% endblock %}
+
+{% block l_footer_tagline %}{% trans "Dört dilde ücretsiz dil öğrenme ve AI pratik." %}{% endblock %}
+{% block l_footer_grammar_label %}{% trans "Gramer Konuları" %}{% endblock %}

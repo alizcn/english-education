@@ -1,0 +1,138 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ reading a book right now.",
+    "correct_answer": "am",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ cooking dinner at the moment.",
+    "correct_answer": "is",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ not playing football.",
+    "correct_answer": "are",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He is ___ on his laptop.",
+    "correct_answer": "working",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We are ___ a movie this evening.",
+    "correct_answer": "watching",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ you listening to me?",
+    "correct_answer": "Are",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The weather is ___ colder these days.",
+    "correct_answer": "getting",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "What ___ they doing right now?",
+    "correct_answer": "are",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence is correct?",
+    "correct_answer": "He is working hard.",
+    "choices": [
+      "He are working hard.",
+      "He is working hard.",
+      "He am working hard.",
+      "He be working hard."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct negative form?",
+    "correct_answer": "I am not listening to music.",
+    "choices": [
+      "I am not listening to music.",
+      "I not am listening to music.",
+      "I am not listen to music.",
+      "I don't am listening to music."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct question form?",
+    "correct_answer": "Are you coming tomorrow?",
+    "choices": [
+      "Are you coming tomorrow?",
+      "You are coming tomorrow?",
+      "Do you are coming tomorrow?",
+      "You coming are tomorrow?"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which uses the correct -ing form?",
+    "correct_answer": "She is making a cake.",
+    "choices": [
+      "She is making a cake.",
+      "She is makeing a cake.",
+      "She is make a cake.",
+      "She making a cake."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct form for 'we'?",
+    "correct_answer": "We are studying English.",
+    "choices": [
+      "We is studying English.",
+      "We are studying English.",
+      "We am studying English.",
+      "We be studying English."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence is in Present Continuous?",
+    "correct_answer": "He is playing football now.",
+    "choices": [
+      "He plays football every day.",
+      "He is playing football now.",
+      "He plays football well.",
+      "He will play football tomorrow."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct negative question form?",
+    "correct_answer": "Isn't she working?",
+    "choices": [
+      "Isn't she working?",
+      "She isn't working?",
+      "Doesn't she is working?",
+      "Is she not is working?"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which verb form is correct for 'run'?",
+    "correct_answer": "They are running in the park.",
+    "choices": [
+      "They are runing in the park.",
+      "They are running in the park.",
+      "They are runnning in the park.",
+      "They are runin the park."
+    ]
+  }
+]

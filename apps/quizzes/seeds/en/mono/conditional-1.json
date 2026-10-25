@@ -1,0 +1,150 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you study hard, you ___ pass the exam.",
+    "correct_answer": "will",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If it rains tomorrow, I ___ stay home.",
+    "correct_answer": "will",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you don't eat breakfast, you ___ be hungry.",
+    "correct_answer": "will",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If she ___ the lottery, she will travel around the world.",
+    "correct_answer": "wins",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If we ___ now, we will arrive on time.",
+    "correct_answer": "leave",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you call me, I ___ answer immediately.",
+    "correct_answer": "will",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If it ___ snow, we won't build a snowman.",
+    "correct_answer": "doesn't",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you eat vegetables, you ___ be healthier.",
+    "correct_answer": "will",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If they don't arrive on time, we ___ wait for them.",
+    "correct_answer": "won't",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you ___ him tomorrow, tell him the news.",
+    "correct_answer": "see",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "If you study hard, ___",
+    "correct_answer": "you will pass",
+    "choices": [
+      "you will pass",
+      "you pass",
+      "you would pass",
+      "you are passing"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What will happen if you don't prepare?",
+    "correct_answer": "You will fail",
+    "choices": [
+      "You will fail",
+      "You fail",
+      "You would fail",
+      "You are failing"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "If it ___ tomorrow, the picnic will be cancelled.",
+    "correct_answer": "rains",
+    "choices": [
+      "rains",
+      "will rain",
+      "is raining",
+      "rained"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Unless you ___, you will not succeed.",
+    "correct_answer": "work hard",
+    "choices": [
+      "work hard",
+      "will work hard",
+      "are working hard",
+      "worked hard"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "If she ___ the job, she will be very happy.",
+    "correct_answer": "gets",
+    "choices": [
+      "gets",
+      "will get",
+      "is getting",
+      "got"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Will you help me if I ___ you?",
+    "correct_answer": "ask",
+    "choices": [
+      "ask",
+      "will ask",
+      "am asking",
+      "asked"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "If we leave now, ___",
+    "correct_answer": "we will arrive on time",
+    "choices": [
+      "we will arrive on time",
+      "we arrive on time",
+      "we would arrive on time",
+      "we are arriving on time"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "If you don't call him, ___",
+    "correct_answer": "he will be disappointed",
+    "choices": [
+      "he will be disappointed",
+      "he is disappointed",
+      "he would be disappointed",
+      "he is being disappointed"
+    ]
+  }
+]

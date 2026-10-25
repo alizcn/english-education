@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: You must arrive on time.",
+    "correct_answer": "Vous devez arriver à l'heure.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: You should exercise regularly.",
+    "correct_answer": "Vous devriez faire de l'exercice régulièrement.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: She must not enter this room.",
+    "correct_answer": "Elle ne doit pas entrer dans cette salle.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: They shouldn't waste water.",
+    "correct_answer": "Ils ne devraient pas gaspiller l'eau.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: I must finish my homework today.",
+    "correct_answer": "Je dois terminer mes devoirs aujourd'hui.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: You should call your mother.",
+    "correct_answer": "Vous devriez appeler votre mère.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Tu dois étudier avant l'examen.",
+    "correct_answer": "You must study before the exam.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Elle devrait parler à son professeur.",
+    "correct_answer": "She should talk to her teacher.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Vous ne devez pas oublier vos documents.",
+    "correct_answer": "You must not forget your documents.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Il ne devrait pas manger trop de sucre.",
+    "correct_answer": "He shouldn't eat too much sugar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Nous devons respecter les autres.",
+    "correct_answer": "We must respect others.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Elles devraient arriver plus tôt.",
+    "correct_answer": "They should arrive earlier.",
+    "choices": null
+  }
+]

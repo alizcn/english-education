@@ -1,0 +1,162 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je _____ préparé le dîner avant qu'ils arrivent.",
+    "correct_answer": "avais",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle _____ partie avant midi.",
+    "correct_answer": "était",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Nous _____ fermé la porte avant de partir.",
+    "correct_answer": "avions",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Il _____ lu le journal le matin.",
+    "correct_answer": "avait",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Tu _____ fini ton café avant de sortir.",
+    "correct_answer": "avais",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elles _____ rangé leur chambre avant les vacances.",
+    "correct_answer": "avaient",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je n'_____ pas mangé ce matin-là.",
+    "correct_answer": "avais",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle n'_____ pas venue à la réunion.",
+    "correct_answer": "était",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Après qu'il _____ mangé, il a décidé de faire une promenade.",
+    "correct_answer": "avait",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Vous _____ terminé avant moi?",
+    "correct_answer": "aviez",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Les enfants _____ partis avant nous.",
+    "correct_answer": "étaient",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Nous n'_____ jamais vu un tel spectacle.",
+    "correct_answer": "avions",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est l'auxiliaire correct? 'Je _____ parlé français avant.'",
+    "correct_answer": "avais",
+    "choices": [
+      "ai",
+      "avais",
+      "suis",
+      "serais"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Sélectionnez la forme correcte: 'Elle _____ allée au cinéma avant midi.'",
+    "correct_answer": "était",
+    "choices": [
+      "a",
+      "avait",
+      "était",
+      "est"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Choisissez le verbe correct: 'Nous _____ jamais vu ce spectacle.'",
+    "correct_answer": "n'avions",
+    "choices": [
+      "avons",
+      "n'avions",
+      "ne avons",
+      "n'avons"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel participe passé complète la phrase? 'Avais-tu _____ avant cela?'",
+    "correct_answer": "fini",
+    "choices": [
+      "finir",
+      "fini",
+      "finisse",
+      "finissant"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Choisissez la bonne forme: 'Les enfants _____ partis avant le soir.'",
+    "correct_answer": "étaient",
+    "choices": [
+      "avaient",
+      "étaient",
+      "ont",
+      "sont"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Sélectionnez la négation correcte: 'Tu _____ pas compris les instructions.'",
+    "correct_answer": "n'avais",
+    "choices": [
+      "n'avais",
+      "ne",
+      "pas",
+      "n'étais"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel auxiliaire convient? 'Elles _____ mises leurs robes neuves avant la fête.'",
+    "correct_answer": "étaient",
+    "choices": [
+      "avaient",
+      "étaient",
+      "ont",
+      "suis"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez avec la bonne forme: 'Après qu'il _____ mangé, il a dormi.'",
+    "correct_answer": "avait",
+    "choices": [
+      "avait",
+      "était",
+      "a",
+      "eut"
+    ]
+  }
+]

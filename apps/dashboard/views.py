@@ -7,7 +7,9 @@ from django.db.models.functions import TruncDate
 from django.shortcuts import render
 from django.utils import timezone
 
-from apps.accounts.models import UserLevel
+from apps.accounts.models import UserCourse
+from apps.accounts.services import current_pair
+from apps.dashboard import faq
 from apps.vocabulary.models import Word
 from apps.topics.models import Topic, TopicCompletion
 from apps.quizzes.models import QuizSession
@@ -16,7 +18,7 @@ from apps.wordbank.models import BankWord, BankProgress
 _LEVEL_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
 
 
-def _weekly_chart_data(user):
+def _weekly_chart_data(user, target_language):
     today = timezone.now().date()
     start = today - timedelta(days=6)
     day_labels = []
@@ -28,6 +30,7 @@ def _weekly_chart_data(user):
     bank_qs = (
         BankProgress.objects.filter(
             user=user, mastered=True,
+            word__language=target_language,
             last_answered_at__date__gte=start,
         )
         .annotate(day=TruncDate('last_answered_at'))
@@ -38,7 +41,7 @@ def _weekly_chart_data(user):
 
     personal_qs = (
         Word.objects.filter(
-            user=user, mastered=True,
+            user=user, mastered=True, target_language=target_language,
         )
         .annotate(day=TruncDate('created_at'))
         .values('day')
@@ -63,7 +66,21 @@ def _weekly_chart_data(user):
 
 def home(request):
     if not request.user.is_authenticated:
-        return render(request, 'dashboard/landing.html')
+        # Öneksiz `/` PLATFORMU anlatıyor, tek bir dili değil: ürün dört dil
+        # öğretiyor ve sayfanın yalnızca İngilizce'den söz etmesi yanlış
+        # izlenim veriyordu. Her hedef dilin kendi sayfası ayrı
+        # (`/learn-english/`, `/learn-german/`, …; apps/seo/views.py).
+        #
+        # `landing_target` yine 'en': şablondaki birkaç derin bağlantı bir
+        # hedef dil istiyor. Genel sayfa onların hepsini `#diller` bölümüne
+        # yönlendiren bloklarla eziyor, yani değer yalnızca yedek olarak
+        # duruyor.
+        return render(request, 'dashboard/landing/index.html', {
+            'landing_target': 'en',
+            'generic_landing': True,
+            'faq_items': faq.as_dicts(),
+            'faq_schema': faq.as_schema_json(),
+        })
     return _dashboard(request)
 
 
@@ -73,9 +90,12 @@ def install_guide(request):
 
 def _dashboard(request):
     user = request.user
-    total_words = Word.objects.filter(user=user).count()
+    pair = current_pair(request)
+    total_words = Word.objects.filter(
+        user=user, target_language=pair.target_code,
+    ).count()
 
-    topics = list(Topic.objects.all())
+    topics = list(Topic.objects.filter(language=pair.target_code))
     total_topics = len(topics)
     completed_ids = set(
         TopicCompletion.objects.filter(user=user).values_list('topic_id', flat=True)
@@ -86,14 +106,17 @@ def _dashboard(request):
     pending_topics = [t for t in topics if not t.is_completed_for_user][:5]
 
     recent_quizzes = QuizSession.objects.filter(
-        user=user, finished_at__isnull=False
+        user=user, target_language=pair.target_code, finished_at__isnull=False
     ).order_by('-finished_at')[:5]
 
     bank_totals = dict(
-        BankWord.objects.values_list('level').annotate(c=Count('id')).values_list('level', 'c')
+        BankWord.objects.filter(language=pair.target_code)
+        .values_list('level').annotate(c=Count('id')).values_list('level', 'c')
     )
     bank_mastered_map = dict(
-        BankProgress.objects.filter(user=user, mastered=True)
+        BankProgress.objects.filter(
+            user=user, mastered=True, word__language=pair.target_code,
+        )
         .values_list('word__level').annotate(c=Count('id')).values_list('word__level', 'c')
     )
     bank_levels = [
@@ -108,10 +131,22 @@ def _dashboard(request):
     bank_mastered_total = sum(bank_mastered_map.values())
     bank_percent = round(100 * bank_mastered_total / bank_total) if bank_total else 0
 
-    chart = _weekly_chart_data(user)
+    chart = _weekly_chart_data(user, pair.target_code)
 
-    user_level, _ = UserLevel.objects.get_or_create(user=user)
-    current_idx = _LEVEL_ORDER.index(user_level.current_level) if user_level.current_level in _LEVEL_ORDER else 0
+    # Aktif kurs; `current_pair` zaten oluşturdu, burada nesnenin kendisi
+    # gerekiyor (seviye ve puan gösterilecek).
+    user_level = UserCourse.objects.filter(
+        user=user, target_language=pair.target_code,
+    ).first()
+    if user_level is None:
+        from apps.accounts.services import ensure_active_course
+        user_level = ensure_active_course(
+            user, target=pair.target_code, native=pair.native_code,
+        )
+    current_idx = (
+        _LEVEL_ORDER.index(user_level.current_level)
+        if user_level.current_level in _LEVEL_ORDER else 0
+    )
     level_steps = [
         {
             'code': code,
@@ -120,11 +155,10 @@ def _dashboard(request):
         }
         for idx, code in enumerate(_LEVEL_ORDER)
     ]
-    level_thresholds = dict(UserLevel._THRESHOLDS)
     next_threshold = None
     for idx in range(current_idx + 1, len(_LEVEL_ORDER)):
         nxt = _LEVEL_ORDER[idx]
-        for t, lvl in UserLevel._THRESHOLDS:
+        for t, lvl in UserCourse._THRESHOLDS:
             if lvl == nxt:
                 next_threshold = {'level': nxt, 'score': t}
                 break
@@ -146,4 +180,6 @@ def _dashboard(request):
         'user_level': user_level,
         'level_steps': level_steps,
         'next_level': next_threshold,
+        'pair': pair,
+        'courses': list(UserCourse.objects.filter(user=user)),
     })

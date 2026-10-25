@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Mann, der in Berlin arbeitet, ist mein Bruder.",
+    "correct_answer": "Berlin'de çalışan adam, benim erkek kardeşim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Buch, das ich lese, ist sehr interessant.",
+    "correct_answer": "Okuduğum kitap çok ilginç.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Frau, der ich geholfen habe, dankt mir sehr.",
+    "correct_answer": "Yardım ettiğim kadın bana çok teşekkür ediyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Auto, das er gekauft hat, ist schnell.",
+    "correct_answer": "Satın aldığı araba hızlı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Kinder, deren Eltern arbeiten, spielen im Park.",
+    "correct_answer": "Ebeveynleri çalışan çocuklar parkta oynuyorlar.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Berlin'de çalışan adam, benim arkadaşım.",
+    "correct_answer": "Der Mann, der in Berlin arbeitet, ist mein Freund.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Okuduğun kitap çok güzel.",
+    "correct_answer": "Das Buch, das du liest, ist sehr schön.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bana yardım eden kız, çok nazik.",
+    "correct_answer": "Das Mädchen, das mir geholfen hat, ist sehr nett.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Satın aldığımız ev çok eski.",
+    "correct_answer": "Das Haus, das wir gekauft haben, ist sehr alt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sahibi zengin olan şirket, büyük.",
+    "correct_answer": "Das Unternehmen, dessen Besitzer reich ist, ist groß.",
+    "choices": null
+  }
+]

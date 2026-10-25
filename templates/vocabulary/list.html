@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load i18n %}
+{% load i18n learn_extras %}
 {% block title %}{% trans "Kelimelerim" %}{% endblock %}
 
 {% block content %}
@@ -39,7 +39,7 @@
 
 <form method="get" class="searchbar">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-    <input type="search" name="q" value="{{ q }}" placeholder="{% trans "İngilizce veya Türkçe ara..." %}">
+    <input type="search" name="q" value="{{ q }}" placeholder="{% target_name as tlang %}{% native_name as nlang %}{% blocktrans with lang=tlang nlang=nlang %}{{ lang }} veya {{ nlang }} ara...{% endblocktrans %}">
 </form>
 
 {% if words %}
@@ -48,15 +48,15 @@
     <div class="word-card">
         <div class="word-head">
             <div>
-                <div class="word-en">{{ w.english }}</div>
+                <div class="word-en">{{ w.term }}</div>
                 {% if w.part_of_speech %}<span class="badge">{{ w.part_of_speech }}</span>{% endif %}
             </div>
-            <div class="word-tr">{{ w.turkish }}</div>
+            <div class="word-tr">{{ w.meaning }}</div>
         </div>
-        {% if w.example_en %}
+        {% if w.example %}
         <div class="word-example">
-            <div class="en">{{ w.example_en }}</div>
-            <div class="tr">{{ w.example_tr }}</div>
+            <div class="en">{{ w.example }}</div>
+            <div class="tr">{{ w.example_translation }}</div>
         </div>
         {% else %}
         <div></div>

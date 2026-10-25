@@ -1,0 +1,92 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je ne suis pas fatigué.",
+    "correct_answer": "Ben yorgun değilim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle ne veut pas partir.",
+    "correct_answer": "O gitmeyi istemiyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je suis content.",
+    "correct_answer": "Ben mutluyum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il n'a jamais fini son travail.",
+    "correct_answer": "O hiçbir zaman işini bitirmedi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ne dis-tu rien?",
+    "correct_answer": "Hiçbir şey söylemiyor musun?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Vous aidez vos amis?",
+    "correct_answer": "Arkadaşlarınıza yardım ediyor musunuz?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous ne mangeons plus de viande.",
+    "correct_answer": "Biz artık et yemiyoruz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Rien n'a changé.",
+    "correct_answer": "Hiçbir şey değişmedi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ben okula gitmiyorum.",
+    "correct_answer": "Je ne vais pas à l'école.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O mutlu.",
+    "correct_answer": "Elle est heureuse.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O hiçbir şey yemedi.",
+    "correct_answer": "Elle n'a rien mangé.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kimse geldi mi?",
+    "correct_answer": "Personne n'est venu?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Siz ne yapıyorsunuz?",
+    "correct_answer": "Que faites-vous?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Biz hiçbir zaman burada oturmadık.",
+    "correct_answer": "Nous n'avons jamais habité ici.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Artık çalışmıyor musunuz?",
+    "correct_answer": "Vous ne travaillez plus?",
+    "choices": null
+  }
+]

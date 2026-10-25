@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Evde oturuyorum.",
+    "correct_answer": "I am sitting at home.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Gülden koku var.",
+    "correct_answer": "There is a scent from the rose.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kolun ağrısı var mı?",
+    "correct_answer": "Does your arm hurt?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Bahçede gül var.",
+    "correct_answer": "There is a rose in the garden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kalemle yazmıyorum.",
+    "correct_answer": "I am not writing with a pen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kütüphanede kitap okuyor.",
+    "correct_answer": "He/She is reading a book in the library.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I live in an apartment.",
+    "correct_answer": "Apartmanda yaşıyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I came from school.",
+    "correct_answer": "Okuldan geldim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "There is no book on the table.",
+    "correct_answer": "Masada kitap yok.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She is not talking on the phone.",
+    "correct_answer": "Telefonda konuşmuyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Where do you live?",
+    "correct_answer": "Nerede yaşıyorsun?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The girl is not beautiful.",
+    "correct_answer": "Kız güzel değil.",
+    "choices": null
+  }
+]

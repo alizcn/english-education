@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich trinke jeden Morgen Kaffee.",
+    "correct_answer": "Her sabah kahve içiyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir spielen im Park.",
+    "correct_answer": "Parkta oynuyoruz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Kind schläft jetzt.",
+    "correct_answer": "Çocuk şu anda uyuyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie arbeitet nicht heute.",
+    "correct_answer": "Bugün çalışmıyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich habe einen Bruder.",
+    "correct_answer": "Bir kardeşim var.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Her gün okula gidiyorum.",
+    "correct_answer": "Ich gehe jeden Tag zur Schule.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O bir öğretmen.",
+    "correct_answer": "Er ist ein Lehrer.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Biz kahve seviyoruz.",
+    "correct_answer": "Wir mögen Kaffee.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Annesi ev temizliyor.",
+    "correct_answer": "Seine Mutter putzt das Haus.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onlar futbol oynamıyorlar.",
+    "correct_answer": "Sie spielen nicht Fußball.",
+    "choices": null
+  }
+]

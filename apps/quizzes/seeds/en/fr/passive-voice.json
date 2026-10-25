@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The letter is written by the secretary.",
+    "correct_answer": "La lettre est écrite par la secrétaire.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Le gâteau a été préparé ce matin.",
+    "correct_answer": "The cake was prepared this morning.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The windows were not closed last night.",
+    "correct_answer": "Les fenêtres n'ont pas été fermées hier soir.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Le rapport n'a pas été signé.",
+    "correct_answer": "The report has not been signed.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Is the meeting held on Fridays?",
+    "correct_answer": "La réunion est-elle tenue le vendredi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Quand le projet sera-t-il terminé?",
+    "correct_answer": "When will the project be finished?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The document is being reviewed by the manager.",
+    "correct_answer": "Le document est en train d'être examiné par le directeur.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Le prix a été réduit de 30%.",
+    "correct_answer": "The price has been reduced by 30%.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The documents must be signed before Friday.",
+    "correct_answer": "Les documents doivent être signés avant vendredi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "L'invitation n'a pas été envoyée par Marie.",
+    "correct_answer": "The invitation was not sent by Marie.",
+    "choices": null
+  }
+]

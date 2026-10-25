@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She had finished her homework before dinner.",
+    "correct_answer": "O, akşam yemeğinden önce ödevini bitirmişti.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They had already left when I arrived.",
+    "correct_answer": "Ben geldiğinde, onlar zaten gitmiş olmuşlardı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He hadn't eaten breakfast before the meeting.",
+    "correct_answer": "Toplantıdan önce kahvaltı yapmamıştı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I had never seen such beautiful scenery before.",
+    "correct_answer": "Daha önce böyle güzel bir manzara görmemiştim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "By the time we got to the party, they had left.",
+    "correct_answer": "Partiye vardığımızda, onlar çoktan gitmişlerdi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Partiye gitmeden önce, yemeği hazırlamıştı.",
+    "correct_answer": "Before going to the party, he had prepared the meal.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sana söylemeden önce, zaten duymuştu.",
+    "correct_answer": "Before I told you, he had already heard.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Hiç böyle bir yer görmemiştim.",
+    "correct_answer": "I had never seen such a place.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Operasyondan sonra çok konuşmamıştı.",
+    "correct_answer": "After the operation, he hadn't spoken much.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onu daha önce görmüş müydün?",
+    "correct_answer": "Had you seen him before?",
+    "choices": null
+  }
+]

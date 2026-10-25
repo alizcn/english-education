@@ -1,0 +1,86 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you study hard, you will pass the exam.",
+    "correct_answer": "Si tu étudies dur, tu réussiras l'examen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If it rains tomorrow, we will stay home.",
+    "correct_answer": "S'il pleut demain, nous resterons à la maison.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you don't eat breakfast, you will be hungry.",
+    "correct_answer": "Si tu ne manges pas le petit déjeuner, tu auras faim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If she calls me, I will answer immediately.",
+    "correct_answer": "Si elle m'appelle, je répondrai immédiatement.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If it doesn't rain, we can play football.",
+    "correct_answer": "S'il ne pleut pas, nous pouvons jouer au football.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Will you help me if I ask?",
+    "correct_answer": "M'aideras-tu si je te le demande?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you arrive late, I won't be happy.",
+    "correct_answer": "Si tu arrives tard, je ne serai pas content.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si tu finis tes devoirs, tu pourras regarder la télévision.",
+    "correct_answer": "If you finish your homework, you can watch television.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "S'il neige demain, nous ne jouerons pas au football.",
+    "correct_answer": "If it snows tomorrow, we won't play football.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si elle gagne la loterie, elle voyagera autour du monde.",
+    "correct_answer": "If she wins the lottery, she will travel around the world.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si vous n'arrivez pas à l'heure, je serai déçu.",
+    "correct_answer": "If you don't arrive on time, I will be disappointed.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Que ferez-vous s'il pleut?",
+    "correct_answer": "What will you do if it rains?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si tu me dis la vérité, je te croirai.",
+    "correct_answer": "If you tell me the truth, I will believe you.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "À moins que tu n'études, tu n'auras pas une bonne note.",
+    "correct_answer": "Unless you study, you won't get a good grade.",
+    "choices": null
+  }
+]

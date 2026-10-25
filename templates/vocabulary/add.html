@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load i18n %}
+{% load i18n learn_extras %}
 {% block title %}{% trans "Kelime ekle" %}{% endblock %}
 
 {% block content %}
@@ -9,7 +9,7 @@
 </div>
 
 <div class="card">
-    <p class="muted" style="margin-top:0;">{% trans "İngilizce kelimeleri virgül veya satır başı ile ayırarak yaz. AI anlamlarını ve örnek cümleleri doldurup kaydedecek." %}</p>
+    <p class="muted" style="margin-top:0;">{% target_name 'acc' as tacc %}{% blocktrans with lang=tacc %}{{ lang }} kelimeleri virgül veya satır başı ile ayırarak yaz. AI anlamlarını ve örnek cümleleri doldurup kaydedecek.{% endblocktrans %}</p>
 
     <form method="post">
         {% csrf_token %}

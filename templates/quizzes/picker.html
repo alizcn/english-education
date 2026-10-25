@@ -101,7 +101,12 @@
     var cards = document.querySelectorAll('[data-pending-template]');
     if (!cards.length) { return; }
     var base = "{% url 'quizzes:template_status' 0 %}";
-    var tpl = "{% trans '%(done)s / %(total)s soru hazır...' %}";
+    {% comment %}Yer tutucular bilinçli olarak {done}/{total} kalıbında.
+    Çeviri etiketi içindeki literal yüzde işareti makemessages tarafından iki
+    kat olarak çıkarılıyor, oysa çalışma anında arama tek yüzde ile yapılıyor —
+    o msgid hiç eşleşmiyor ve metin İngilizce arayüzde de Türkçe kalıyordu.
+    {% endcomment %}
+    var tpl = "{% trans '{done} / {total} soru hazır...' %}";
 
     var timer = setInterval(function(){
         var pending = document.querySelectorAll('[data-pending-template]');
@@ -116,8 +121,8 @@
                     var label = card.querySelector('.quiz-progress');
                     if (label && data.ready_count > 0) {
                         label.textContent = tpl
-                            .replace('%(done)s', data.ready_count)
-                            .replace('%(total)s', data.total);
+                            .replace('{done}', data.ready_count)
+                            .replace('{total}', data.total);
                     }
                 })
                 .catch(function(){ /* geçici ağ hatası — bir sonraki turda tekrar denenir */ });

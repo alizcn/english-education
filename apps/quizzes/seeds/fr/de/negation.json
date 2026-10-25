@@ -1,0 +1,92 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je ne prends pas de café.",
+    "correct_answer": "Ich trinke keinen Kaffee.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich verstehe das nicht.",
+    "correct_answer": "Je ne comprends pas cela.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle ne va jamais à l'école.",
+    "correct_answer": "Sie geht nie zur Schule.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich habe nichts getan.",
+    "correct_answer": "Je n'ai rien fait.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu ne vois personne.",
+    "correct_answer": "Du siehst niemanden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir arbeiten nicht mehr hier.",
+    "correct_answer": "Nous ne travaillons plus ici.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je n'ai aucun doute.",
+    "correct_answer": "Ich habe keinen Zweifel.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Er mag weder Fisch noch Fleisch.",
+    "correct_answer": "Il ne mange ni poisson ni viande.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "N'aimes-tu pas le chocolat?",
+    "correct_answer": "Magst du Schokolade nicht?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Hast du nichts vergessen?",
+    "correct_answer": "N'as-tu rien oublié?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous n'avons pas vu le film.",
+    "correct_answer": "Wir haben den Film nicht gesehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Das Kind möchte nicht spielen.",
+    "correct_answer": "L'enfant ne veut pas jouer.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Rien n'a changé.",
+    "correct_answer": "Nichts hat sich geändert.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je ne suis ni docteur ni ingénieur.",
+    "correct_answer": "Ich bin weder Arzt noch Ingenieur.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die Schüler verstehen nichts.",
+    "correct_answer": "Les élèves ne comprennent rien.",
+    "choices": null
+  }
+]

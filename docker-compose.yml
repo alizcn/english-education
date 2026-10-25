@@ -49,6 +49,9 @@ services:
     environment:
       - DB_PATH=/app/data/db.sqlite3
       - REDIS_URL=redis://redis:6379/0
+      # Şema ve içerik kurulumu web container'ının işi; üç container birlikte
+      # migrate koşarsa SQLite'ta kilit çekişmesi olur.
+      - SKIP_BOOTSTRAP=1
     volumes:
       - ./data:/app/data
       - ./logs:/app/logs
@@ -70,6 +73,7 @@ services:
     environment:
       - DB_PATH=/app/data/db.sqlite3
       - REDIS_URL=redis://redis:6379/0
+      - SKIP_BOOTSTRAP=1
     volumes:
       - ./data:/app/data
       - ./logs:/app/logs

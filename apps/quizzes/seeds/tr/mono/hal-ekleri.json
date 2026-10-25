@@ -1,0 +1,152 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kitab___ okudum.",
+    "correct_answer": "ı",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ev___ gidiyorum.",
+    "correct_answer": "e",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Masa___ oturdu.",
+    "correct_answer": "da",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sofa___ geldi.",
+    "correct_answer": "dan",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kapı___ rengi kırmızı.",
+    "correct_answer": "nın",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Çanta___ rengi nedir?",
+    "correct_answer": "nın",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Çocuğ___ oyuncak verdim.",
+    "correct_answer": "a",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Öğretmen___ soru sordum.",
+    "correct_answer": "e",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Bahçe___ çiçek var.",
+    "correct_answer": "de",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sabah___ beri bekliyor.",
+    "correct_answer": "tan",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kalem___ almışım.",
+    "correct_answer": "i",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kitap raf___ değil.",
+    "correct_answer": "ta",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Şehir___ gelmişler.",
+    "correct_answer": "den",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Kedi bahçe___ koştu.",
+    "correct_answer": "ye",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Hangi cümle yanlış yazılmıştır?",
+    "correct_answer": "Okul gidiyorum.",
+    "choices": [
+      "Kahveyi içiyorum.",
+      "Evde oturuyorum.",
+      "Okul gidiyorum.",
+      "Masada kitap var."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Hangi cümle belirtme hâlini doğru kullanıyor?",
+    "correct_answer": "Kitabı okuyorum.",
+    "choices": [
+      "Kitap okuyorum.",
+      "Kitabı okuyorum.",
+      "Kitaba okuyorum.",
+      "Kitapda okuyorum."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "'Bahçe___ çiçek var.' Boşluğa ne gelmelidir?",
+    "correct_answer": "de",
+    "choices": [
+      "den",
+      "de",
+      "a",
+      "dan"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Hangi cümle yönelme hâlini yanlış kullanıyor?",
+    "correct_answer": "Öğretmenin sordum.",
+    "choices": [
+      "Okula gidiyorum.",
+      "Öğretmenin sordum.",
+      "Eve gelmişler.",
+      "Bahçeye koştum."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Aşağıdakilerden hangisinde iyelik hâli doğru gösterilmiştir?",
+    "correct_answer": "Kapının anahtarı",
+    "choices": [
+      "Kapı anahtarı",
+      "Kapının anahtarı",
+      "Kapıya anahtarı",
+      "Kapıdan anahtar"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "'Kedi___de yatıyor.' Cümlede ses kuralı (d/t) göz önüne alındığında, hangi ek doğrudur?",
+    "correct_answer": "yata",
+    "choices": [
+      "yatada",
+      "yata",
+      "yatda",
+      "yatata"
+    ]
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "You ___ arrive on time for the meeting.",
+    "correct_answer": "must",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Students ___ not use their phones during the exam.",
+    "correct_answer": "must",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "You ___ eat more vegetables. It is good for your health.",
+    "correct_answer": "should",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "You ___ stay up too late before an important exam.",
+    "correct_answer": "shouldn't",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence expresses strong obligation?",
+    "correct_answer": "You must finish your work by tomorrow.",
+    "choices": [
+      "You must finish your work by tomorrow.",
+      "You should finish your work by tomorrow.",
+      "You might finish your work by tomorrow.",
+      "You could finish your work by tomorrow."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "If you have severe pain, you ___ see a doctor.",
+    "correct_answer": "must",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What does 'must not' mean?",
+    "correct_answer": "Something is forbidden or prohibited.",
+    "choices": [
+      "Something is optional.",
+      "Something is forbidden or prohibited.",
+      "Something is recommended.",
+      "Something is possible."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I think you ___ apologize for your mistake.",
+    "correct_answer": "should",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence gives advice?",
+    "correct_answer": "You should call your mother today.",
+    "choices": [
+      "You must call your mother today.",
+      "You should call your mother today.",
+      "Your mother must call you.",
+      "You have to call your mother by law."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ we arrive exactly on time?",
+    "correct_answer": "Must",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which shows a logical conclusion about what is certainly true?",
+    "correct_answer": "She must be very hungry.",
+    "choices": [
+      "You must water the plants.",
+      "She must be very hungry.",
+      "You should water the plants.",
+      "He must go to school."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "You ___ spend all your money on one thing.",
+    "correct_answer": "shouldn't",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Choose the correct sentence.",
+    "correct_answer": "You should finish your work.",
+    "choices": [
+      "You should to finish your work.",
+      "You should finish your work.",
+      "You should finishing your work.",
+      "You should finished your work."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ protect the environment.",
+    "correct_answer": "must",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the main difference between 'You mustn't go' and 'You don't have to go'?",
+    "correct_answer": "Mustn't means forbidden; don't have to means optional.",
+    "choices": [
+      "They mean the same thing.",
+      "Mustn't means forbidden; don't have to means optional.",
+      "Mustn't is weaker than don't have to.",
+      "Both express the same obligation."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "You ___ not enter this room. It is private.",
+    "correct_answer": "must",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is correct for expressing obligation in the past?",
+    "correct_answer": "I had to leave early because I was sick.",
+    "choices": [
+      "I must leave early because I was sick.",
+      "I had to leave early because I was sick.",
+      "I should have left early because I was sick.",
+      "I must have left early because I was sick."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Parents ___ talk to their children about school.",
+    "correct_answer": "should",
+    "choices": null
+  }
+]

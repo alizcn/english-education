@@ -1,0 +1,4616 @@
+[
+  {
+    "rank": 1,
+    "term": "Kurfürst",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 2,
+    "term": "weihen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 3,
+    "term": "Manier",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 4,
+    "term": "gehörig",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 5,
+    "term": "Genesung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 6,
+    "term": "Kriegsende",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 7,
+    "term": "hervorgehen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 8,
+    "term": "kaiserlich",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 9,
+    "term": "Larve",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 10,
+    "term": "hartnäckig",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 11,
+    "term": "höchstwahrscheinlich",
+    "part_of_speech": "adverb",
+    "extra": {}
+  },
+  {
+    "rank": 12,
+    "term": "Latex",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 13,
+    "term": "Meilenstein",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 14,
+    "term": "obgleich",
+    "part_of_speech": "conjunction",
+    "extra": {}
+  },
+  {
+    "rank": 15,
+    "term": "Reue",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 16,
+    "term": "Vertreibung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 17,
+    "term": "Wegfall",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 18,
+    "term": "Verbundenheit",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 19,
+    "term": "Vorstoß",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 20,
+    "term": "Vormarsch",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 21,
+    "term": "vielerlei",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 22,
+    "term": "unterbinden",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 23,
+    "term": "Spekulation",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 24,
+    "term": "veranlassen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 25,
+    "term": "Sozialwissenschaft",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 26,
+    "term": "umstritten",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 27,
+    "term": "unregelmäßig",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 28,
+    "term": "unberührt",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 29,
+    "term": "vorzugsweise",
+    "part_of_speech": "adverb",
+    "extra": {}
+  },
+  {
+    "rank": 30,
+    "term": "ungestört",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 31,
+    "term": "umfangreich",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 32,
+    "term": "stationieren",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 33,
+    "term": "weithin",
+    "part_of_speech": "adverb",
+    "extra": {}
+  },
+  {
+    "rank": 34,
+    "term": "ultimativ",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 35,
+    "term": "stationär",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 36,
+    "term": "sozialdemokratisch",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 37,
+    "term": "Willkür",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 38,
+    "term": "Würdigung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 39,
+    "term": "Zutun",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 40,
+    "term": "Zusprechen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 41,
+    "term": "Deutung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 42,
+    "term": "Aufgebot",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 43,
+    "term": "Beihilfe",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 44,
+    "term": "Belieben",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 45,
+    "term": "beständig",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 46,
+    "term": "Fragestellung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 47,
+    "term": "Gremium",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 48,
+    "term": "Entsorgung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 49,
+    "term": "erschließen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 50,
+    "term": "erzwingen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 51,
+    "term": "Glücksspiel",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 52,
+    "term": "entspringen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 53,
+    "term": "Eignung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 54,
+    "term": "Oberlandesgericht",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 55,
+    "term": "kurzerhand",
+    "part_of_speech": "adverb",
+    "extra": {}
+  },
+  {
+    "rank": 56,
+    "term": "Privatisierung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 57,
+    "term": "Polemik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 58,
+    "term": "Methodik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 59,
+    "term": "offenkundig",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 60,
+    "term": "Liberalismus",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 61,
+    "term": "kompensieren",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 62,
+    "term": "kennzeichnen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 63,
+    "term": "Mobilfunk",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 64,
+    "term": "Mythologie",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 65,
+    "term": "prächtig",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 66,
+    "term": "Klischee",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 67,
+    "term": "Landesamt",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 68,
+    "term": "Länderspiel",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 69,
+    "term": "Provision",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 70,
+    "term": "Meditation",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 71,
+    "term": "kommerziell",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 72,
+    "term": "Kaution",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 73,
+    "term": "undenkbar",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 74,
+    "term": "veraltet",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 75,
+    "term": "ununterbrochen",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 76,
+    "term": "starr",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 77,
+    "term": "quälen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 78,
+    "term": "sehnen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 79,
+    "term": "strömen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 80,
+    "term": "Spott",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 81,
+    "term": "Unfug",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 82,
+    "term": "verweisen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 83,
+    "term": "verwerfen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 84,
+    "term": "teilhaben",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 85,
+    "term": "Selbstständigkeit",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 86,
+    "term": "Sprengstoff",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 87,
+    "term": "Treibstoff",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 88,
+    "term": "Verwertung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 89,
+    "term": "Untersuchungsausschuss",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 90,
+    "term": "Raumfahrt",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 91,
+    "term": "Schlägerei",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 92,
+    "term": "Tracht",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 93,
+    "term": "Utopie",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 94,
+    "term": "Vorratsdatenspeicherung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 95,
+    "term": "Zeitgeist",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 96,
+    "term": "Zivilgesellschaft",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 97,
+    "term": "Wiederaufnahme",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 98,
+    "term": "Aufruhr",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 99,
+    "term": "Antritt",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 100,
+    "term": "willens",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 101,
+    "term": "Apokalypse",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 102,
+    "term": "Abkommen",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 103,
+    "term": "Erpressung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 104,
+    "term": "Differenzierung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 105,
+    "term": "Fahndung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 106,
+    "term": "Einwand",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 107,
+    "term": "Einbindung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 108,
+    "term": "erleiden",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 109,
+    "term": "Exekutive",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 110,
+    "term": "gerichtlich",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 111,
+    "term": "fachlich",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 112,
+    "term": "ersticken",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 113,
+    "term": "Bruchteil",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 114,
+    "term": "grandios",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 115,
+    "term": "bezweifeln",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 116,
+    "term": "einfliessen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 117,
+    "term": "gewandt",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 118,
+    "term": "Manifest",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 119,
+    "term": "Haftstrafe",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 120,
+    "term": "Lebensgefahr",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 121,
+    "term": "Mundart",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 122,
+    "term": "Metapher",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 123,
+    "term": "Indiz",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 124,
+    "term": "hervorheben",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 125,
+    "term": "initiieren",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 126,
+    "term": "legitim",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 127,
+    "term": "grundlos",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 128,
+    "term": "Moor",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 129,
+    "term": "Landhaus",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 130,
+    "term": "Palais",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 131,
+    "term": "rings",
+    "part_of_speech": "adverb",
+    "extra": {}
+  },
+  {
+    "rank": 132,
+    "term": "Quark",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 133,
+    "term": "Ried",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 134,
+    "term": "unverschämt",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 135,
+    "term": "unterziehen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 136,
+    "term": "Universum",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 137,
+    "term": "treffend",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 138,
+    "term": "Völkerrecht",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 139,
+    "term": "Archäologie",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 140,
+    "term": "vorenthalten",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 141,
+    "term": "wacker",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 142,
+    "term": "Wahn",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 143,
+    "term": "woraufhin",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 144,
+    "term": "Wucht",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 145,
+    "term": "zurückhalten",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 146,
+    "term": "verbindlich",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 147,
+    "term": "Verabschiedung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 148,
+    "term": "verhelfen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 149,
+    "term": "Algorithmus",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 150,
+    "term": "Arroganz",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 151,
+    "term": "anhaltend",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 152,
+    "term": "Zeichner",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 153,
+    "term": "zuteilen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 154,
+    "term": "Ökonom",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 155,
+    "term": "verlagern",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 156,
+    "term": "Barock",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 157,
+    "term": "Alm",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 158,
+    "term": "bedürfen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 159,
+    "term": "Brandstiftung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 160,
+    "term": "Dividende",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 161,
+    "term": "Einlage",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 162,
+    "term": "bewilligen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 163,
+    "term": "Evangelium",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 164,
+    "term": "Funktionär",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 165,
+    "term": "Datierung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 166,
+    "term": "Beirat",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 167,
+    "term": "feindlich",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 168,
+    "term": "Förster",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 169,
+    "term": "fündig",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 170,
+    "term": "hold",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 171,
+    "term": "hausen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 172,
+    "term": "magistrat",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 173,
+    "term": "lebensfreude",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 174,
+    "term": "lehrstuhl",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 175,
+    "term": "jahrzehntelang",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 176,
+    "term": "Pracht",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 177,
+    "term": "Prosa",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 178,
+    "term": "Rebellion",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 179,
+    "term": "Ohnmacht",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 180,
+    "term": "Pandemie",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 181,
+    "term": "Nachkriegszeit",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 182,
+    "term": "Schlussfolgerung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 183,
+    "term": "Mietvertrag",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 184,
+    "term": "Räumung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 185,
+    "term": "Rückgabe",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 186,
+    "term": "Prototyp",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 187,
+    "term": "Pendant",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 188,
+    "term": "Objektiv",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 189,
+    "term": "rechtswidrig",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 190,
+    "term": "niedergeschlagen",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 191,
+    "term": "Reserve",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 192,
+    "term": "rächen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 193,
+    "term": "Sockel",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 194,
+    "term": "sinnen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 195,
+    "term": "Siedler",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 196,
+    "term": "mangeln",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 197,
+    "term": "Theologe",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 198,
+    "term": "Trasse",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 199,
+    "term": "unterstellen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 200,
+    "term": "vertraglich",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 201,
+    "term": "Abweichung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 202,
+    "term": "vorweisen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 203,
+    "term": "Arbeitsweise",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 204,
+    "term": "versterben",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 205,
+    "term": "zuordnen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 206,
+    "term": "Tugend",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 207,
+    "term": "umdenken",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 208,
+    "term": "Verhinderung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 209,
+    "term": "bezeugen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 210,
+    "term": "Ausprägung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 211,
+    "term": "aufbrechen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 212,
+    "term": "Disposition",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 213,
+    "term": "eindringen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 214,
+    "term": "einberufen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 215,
+    "term": "einstecken",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 216,
+    "term": "deaktivieren",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 217,
+    "term": "fortführen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 218,
+    "term": "Ausschau",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 219,
+    "term": "Delegierte",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 220,
+    "term": "dreifach",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 221,
+    "term": "einleiten",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 222,
+    "term": "Druckerei",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 223,
+    "term": "Auszahlung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 224,
+    "term": "fortsetzen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 225,
+    "term": "Gelassenheit",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 226,
+    "term": "Fälschung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 227,
+    "term": "Karikatur",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 228,
+    "term": "Markenzeichen",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 229,
+    "term": "Geisel",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 230,
+    "term": "sodann",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 231,
+    "term": "promille",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 232,
+    "term": "Strophe",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 233,
+    "term": "Symbolik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 234,
+    "term": "Prägung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 235,
+    "term": "Parole",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 236,
+    "term": "Todesopfer",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 237,
+    "term": "münden",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 238,
+    "term": "Stellungnahme",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 239,
+    "term": "sprachlich",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 240,
+    "term": "orthodox",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 241,
+    "term": "nachfolgend",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 242,
+    "term": "Vakuum",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 243,
+    "term": "Verachtung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 244,
+    "term": "Vergrößerung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 245,
+    "term": "Verordnung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 246,
+    "term": "Wirtschaftlichkeit",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 247,
+    "term": "Wirtschaftswachstum",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 248,
+    "term": "Zuspruch",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 249,
+    "term": "Zerfall",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 250,
+    "term": "Wohlbefinden",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 251,
+    "term": "überwiegen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 252,
+    "term": "absehen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 253,
+    "term": "vorliegend",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 254,
+    "term": "verdanken",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 255,
+    "term": "abschließend",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 256,
+    "term": "Ableger",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 257,
+    "term": "Wiederwahl",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 258,
+    "term": "Volksrepublik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 259,
+    "term": "Weiler",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 260,
+    "term": "westfälisch",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 261,
+    "term": "beispielhaft",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 262,
+    "term": "bemerkenswert",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 263,
+    "term": "empirisch",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 264,
+    "term": "Ausgrenzung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 265,
+    "term": "Errungenschaft",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 266,
+    "term": "Bewältigung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 267,
+    "term": "anknüpfen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 268,
+    "term": "Anreiz",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 269,
+    "term": "Ausstoß",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 270,
+    "term": "diagnostizieren",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 271,
+    "term": "Klausel",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 272,
+    "term": "freisprechen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 273,
+    "term": "Gemahlin",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 274,
+    "term": "Fiktion",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 275,
+    "term": "Inschrift",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 276,
+    "term": "Inkrafttreten",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 277,
+    "term": "fragwürdig",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 278,
+    "term": "kapitalistisch",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 279,
+    "term": "Geselle",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 280,
+    "term": "Facette",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 281,
+    "term": "krönen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 282,
+    "term": "Fachgebiet",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 283,
+    "term": "Indikator",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 284,
+    "term": "Informatiker",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 285,
+    "term": "Inspektion",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 286,
+    "term": "Lebenswerk",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 287,
+    "term": "mutmaßlich",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 288,
+    "term": "nennenswert",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 289,
+    "term": "Obhut",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 290,
+    "term": "Legitimation",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 291,
+    "term": "Paradox",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 292,
+    "term": "lau",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 293,
+    "term": "kontrovers",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 294,
+    "term": "merklich",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 295,
+    "term": "Phänomen",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 296,
+    "term": "planmäßig",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 297,
+    "term": "lautstark",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 298,
+    "term": "Selbstverständnis",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 299,
+    "term": "Spektakel",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 300,
+    "term": "verschweigen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 301,
+    "term": "Verständigung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 302,
+    "term": "unbegründet",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 303,
+    "term": "Versager",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 304,
+    "term": "trauern",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 305,
+    "term": "Sozialpolitik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 306,
+    "term": "Rückhalt",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 307,
+    "term": "Schleuse",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 308,
+    "term": "Volksabstimmung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 309,
+    "term": "trösten",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 310,
+    "term": "unterlegen",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 311,
+    "term": "verzichten",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 312,
+    "term": "Vorschein",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 313,
+    "term": "Sozialhilfe",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 314,
+    "term": "Sozialleistung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 315,
+    "term": "schwanken",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 316,
+    "term": "Zeitgeschichte",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 317,
+    "term": "Außenwelt",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 318,
+    "term": "absehbar",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 319,
+    "term": "anspruchsvoll",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 320,
+    "term": "diskret",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 321,
+    "term": "Freihandelsabkommen",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 322,
+    "term": "Ermessen",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 323,
+    "term": "Fachwissen",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 324,
+    "term": "Fungieren",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 325,
+    "term": "Gleichgültig",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 326,
+    "term": "Förderer",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 327,
+    "term": "Forstwirtschaft",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 328,
+    "term": "Edelstahl",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 329,
+    "term": "Hierarchie",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 330,
+    "term": "Erkennung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 331,
+    "term": "eilen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 332,
+    "term": "Energieversorgung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 333,
+    "term": "Einwohnerzahl",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 334,
+    "term": "Endrunde",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 335,
+    "term": "fürchterlich",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 336,
+    "term": "Prädikat",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 337,
+    "term": "Konjunktur",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 338,
+    "term": "Mandat",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 339,
+    "term": "obig",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 340,
+    "term": "Knecht",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 341,
+    "term": "Individualität",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 342,
+    "term": "Nennung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 343,
+    "term": "Konsistenz",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 344,
+    "term": "linear",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 345,
+    "term": "massenhaft",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 346,
+    "term": "Rechtsstreit",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 347,
+    "term": "Strafverfahren",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 348,
+    "term": "Stabilisierung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 349,
+    "term": "Verbrennung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 350,
+    "term": "Rehabilitation",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 351,
+    "term": "Regelfall",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 352,
+    "term": "Transaktion",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 353,
+    "term": "Verehrung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 354,
+    "term": "Vergebung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 355,
+    "term": "Verkehrsteilnehmer",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 356,
+    "term": "Seuche",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 357,
+    "term": "spurlos",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 358,
+    "term": "Sicherheitsgrund",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 359,
+    "term": "Sanitäter",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 360,
+    "term": "Steuererklärung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 361,
+    "term": "verkraften",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 362,
+    "term": "Rivale",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 363,
+    "term": "Triathlon",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 364,
+    "term": "Volksverhetzung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 365,
+    "term": "Weltall",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 366,
+    "term": "Werdegang",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 367,
+    "term": "behilflich",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 368,
+    "term": "Befürchtung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 369,
+    "term": "Astronomie",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 370,
+    "term": "Arbeitskraft",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 371,
+    "term": "verunsichern",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 372,
+    "term": "überlassen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 373,
+    "term": "aufwändig",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 374,
+    "term": "anregen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 375,
+    "term": "Verzögerung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 376,
+    "term": "übertreffen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 377,
+    "term": "Wendung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 378,
+    "term": "vorteilhaft",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 379,
+    "term": "vertraulich",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 380,
+    "term": "darauffolgend",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 381,
+    "term": "entsetzen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 382,
+    "term": "bezeichnend",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 383,
+    "term": "faschistisch",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 384,
+    "term": "erfahrungsgemäß",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 385,
+    "term": "Bußgeld",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 386,
+    "term": "gleichsam",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 387,
+    "term": "Gottheit",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 388,
+    "term": "Landsmann",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 389,
+    "term": "Industrialisierung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 390,
+    "term": "knüpfen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 391,
+    "term": "fälschen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 392,
+    "term": "Gestein",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 393,
+    "term": "kaufmännisch",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 394,
+    "term": "koppeln",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 395,
+    "term": "kompatibel",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 396,
+    "term": "Nachweis",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 397,
+    "term": "Nationalist",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 398,
+    "term": "Parallele",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 399,
+    "term": "medial",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 400,
+    "term": "rasant",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 401,
+    "term": "Masche",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 402,
+    "term": "Stoffwechsel",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 403,
+    "term": "Umbruch",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 404,
+    "term": "Uraufführung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 405,
+    "term": "Verfilmung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 406,
+    "term": "uneingeschränkt",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 407,
+    "term": "vollends",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 408,
+    "term": "vergebens",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 409,
+    "term": "Stadtentwicklung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 410,
+    "term": "stellvertretend",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 411,
+    "term": "Symposium",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 412,
+    "term": "Zuschuss",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 413,
+    "term": "Zähler",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 414,
+    "term": "verkehren",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 415,
+    "term": "verleihen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 416,
+    "term": "Städtchen",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 417,
+    "term": "verführen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 418,
+    "term": "versenden",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 419,
+    "term": "Straftäter",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 420,
+    "term": "Beschuss",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 421,
+    "term": "demgegenüber",
+    "part_of_speech": "adverb",
+    "extra": {}
+  },
+  {
+    "rank": 422,
+    "term": "Befund",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 423,
+    "term": "Aufenthaltsort",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 424,
+    "term": "Anlaufstelle",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 425,
+    "term": "Grundrecht",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 426,
+    "term": "Eigenkapital",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 427,
+    "term": "Enteignung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 428,
+    "term": "Einflussnahme",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 429,
+    "term": "glaubhaft",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 430,
+    "term": "dulden",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 431,
+    "term": "Geschlechtsverkehr",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 432,
+    "term": "gewähren",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 433,
+    "term": "Festspiel",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 434,
+    "term": "Doktorarbeit",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 435,
+    "term": "Maßgabe",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 436,
+    "term": "insgeheim",
+    "part_of_speech": "adverb",
+    "extra": {}
+  },
+  {
+    "rank": 437,
+    "term": "Kaiserreich",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 438,
+    "term": "Kriegsverbrechen",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 439,
+    "term": "plausibel",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 440,
+    "term": "räumlich",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 441,
+    "term": "Speicherung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 442,
+    "term": "Photovoltaik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 443,
+    "term": "Schärfe",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 444,
+    "term": "Parlamentarier",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 445,
+    "term": "ratlos",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 446,
+    "term": "schnellstmöglich",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 447,
+    "term": "pervers",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 448,
+    "term": "Portemonnaie",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 449,
+    "term": "sonnen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 450,
+    "term": "Söldner",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 451,
+    "term": "Untertan",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 452,
+    "term": "Unterwelt",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 453,
+    "term": "Unwissenheit",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 454,
+    "term": "Abspaltung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 455,
+    "term": "Verschärfung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 456,
+    "term": "Waffenruhe",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 457,
+    "term": "Wahlperiode",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 458,
+    "term": "Vorläufer",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 459,
+    "term": "vernachlässigen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 460,
+    "term": "vorbeugen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 461,
+    "term": "authentizität",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 462,
+    "term": "beeinträchtigung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 463,
+    "term": "bürgerlich",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 464,
+    "term": "beladen",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 465,
+    "term": "erahnen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 466,
+    "term": "entziehen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 467,
+    "term": "ergehen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 468,
+    "term": "Gefolge",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 469,
+    "term": "hervorrufen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 470,
+    "term": "erlangen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 471,
+    "term": "Hommage",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 472,
+    "term": "erregen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 473,
+    "term": "großteils",
+    "part_of_speech": "adverb",
+    "extra": {}
+  },
+  {
+    "rank": 474,
+    "term": "gemeinnützig",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 475,
+    "term": "Notwehr",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 476,
+    "term": "rechtskräftig",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 477,
+    "term": "Muskulatur",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 478,
+    "term": "Nachschub",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 479,
+    "term": "misshandeln",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 480,
+    "term": "Kommandant",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 481,
+    "term": "obliegen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 482,
+    "term": "naturgemäß",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 483,
+    "term": "rechtlich",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 484,
+    "term": "Notarzt",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 485,
+    "term": "mitwirken",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 486,
+    "term": "lebenslang",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 487,
+    "term": "Neuling",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 488,
+    "term": "Jahrgang",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 489,
+    "term": "materiell",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 490,
+    "term": "landesweit",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 491,
+    "term": "königlich",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 492,
+    "term": "respektlos",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 493,
+    "term": "Kommunalwahl",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 494,
+    "term": "Ortsteil",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 495,
+    "term": "unerlässlich",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 496,
+    "term": "Unterzeichnung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 497,
+    "term": "Verzehr",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 498,
+    "term": "Verwirklichung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 499,
+    "term": "Steuerhinterziehung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 500,
+    "term": "Wortwahl",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 501,
+    "term": "Ausweisung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 502,
+    "term": "vorsätzlich",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 503,
+    "term": "Abkehr",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 504,
+    "term": "abrufbar",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 505,
+    "term": "Aufständischer",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 506,
+    "term": "augenscheinlich",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 507,
+    "term": "Überarbeitung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 508,
+    "term": "Vorzeichen",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 509,
+    "term": "Wegweiser",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 510,
+    "term": "ausgeprägt",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 511,
+    "term": "besagt",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 512,
+    "term": "befolgen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 513,
+    "term": "beschuldigen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 514,
+    "term": "dastehen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 515,
+    "term": "belangen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 516,
+    "term": "baulich",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 517,
+    "term": "hinterfragen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 518,
+    "term": "Gefährte",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 519,
+    "term": "Gespür",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 520,
+    "term": "prägen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 521,
+    "term": "Häftling",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 522,
+    "term": "Plädoyer",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 523,
+    "term": "Plenum",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 524,
+    "term": "restlos",
+    "part_of_speech": "adverb",
+    "extra": {}
+  },
+  {
+    "rank": 525,
+    "term": "nächtlich",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 526,
+    "term": "Schadensersatz",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 527,
+    "term": "Verwaltungsgericht",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 528,
+    "term": "Strafverfolgung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 529,
+    "term": "Vollbringen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 530,
+    "term": "Verschleppen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 531,
+    "term": "Vermächtnis",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 532,
+    "term": "Schlagartig",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 533,
+    "term": "Tribut",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 534,
+    "term": "Verschlechterung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 535,
+    "term": "Tribüne",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 536,
+    "term": "Ungewohnt",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 537,
+    "term": "Selig",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 538,
+    "term": "Wirkstoff",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 539,
+    "term": "zweierlei",
+    "part_of_speech": "pronoun",
+    "extra": {}
+  },
+  {
+    "rank": 540,
+    "term": "allerhand",
+    "part_of_speech": "pronoun",
+    "extra": {}
+  },
+  {
+    "rank": 541,
+    "term": "auseinandersetzen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 542,
+    "term": "Aufschluss",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 543,
+    "term": "Antragsteller",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 544,
+    "term": "amtierend",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 545,
+    "term": "ausgehend",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 546,
+    "term": "darlegen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 547,
+    "term": "Einvernehmen",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 548,
+    "term": "ereignen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 549,
+    "term": "Erlös",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 550,
+    "term": "Feinstaub",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 551,
+    "term": "flächendeckend",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 552,
+    "term": "Fortführung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 553,
+    "term": "Demut",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 554,
+    "term": "fristen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 555,
+    "term": "getrost",
+    "part_of_speech": "adverb",
+    "extra": {}
+  },
+  {
+    "rank": 556,
+    "term": "Geschehen",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 557,
+    "term": "Grenzwert",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 558,
+    "term": "Hebamme",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 559,
+    "term": "Hinterland",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 560,
+    "term": "Fortpflanzung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 561,
+    "term": "Frauenquote",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 562,
+    "term": "inakzeptabel",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 563,
+    "term": "Fürsorge",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 564,
+    "term": "harmonisch",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 565,
+    "term": "Kanton",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 566,
+    "term": "gliedern",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 567,
+    "term": "Klientel",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 568,
+    "term": "Nächstenliebe",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 569,
+    "term": "kognitiv",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 570,
+    "term": "Neugestaltung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 571,
+    "term": "Näheres",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 572,
+    "term": "ordnungsgemäß",
+    "part_of_speech": "adverb",
+    "extra": {}
+  },
+  {
+    "rank": 573,
+    "term": "Kollektiv",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 574,
+    "term": "mildern",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 575,
+    "term": "Sarkasmus",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 576,
+    "term": "Sachverständiger",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 577,
+    "term": "Sachbeschädigung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 578,
+    "term": "Stichwahl",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 579,
+    "term": "Religionsfreiheit",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 580,
+    "term": "Reportage",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 581,
+    "term": "Pächter",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 582,
+    "term": "Sequenz",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 583,
+    "term": "Stifter",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 584,
+    "term": "reibungslos",
+    "part_of_speech": "adverb",
+    "extra": {}
+  },
+  {
+    "rank": 585,
+    "term": "sinngemäß",
+    "part_of_speech": "adverb",
+    "extra": {}
+  },
+  {
+    "rank": 586,
+    "term": "stabilisieren",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 587,
+    "term": "Phrase",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 588,
+    "term": "abwenden",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 589,
+    "term": "unvorstellbar",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 590,
+    "term": "verborgen",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 591,
+    "term": "wandeln",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 592,
+    "term": "zeitweilig",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 593,
+    "term": "vielerorts",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 594,
+    "term": "zustehen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 595,
+    "term": "unerheblich",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 596,
+    "term": "unbrauchbar",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 597,
+    "term": "Abhandlung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 598,
+    "term": "Unheil",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 599,
+    "term": "tierisch",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 600,
+    "term": "Anklang",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 601,
+    "term": "ausklingen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 602,
+    "term": "anvertrauen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 603,
+    "term": "begnügen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 604,
+    "term": "ahnen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 605,
+    "term": "asozial",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 606,
+    "term": "anfallen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 607,
+    "term": "Ausarbeitung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 608,
+    "term": "anfertigen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 609,
+    "term": "ausgedehnt",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 610,
+    "term": "Gerichtsbarkeit",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 611,
+    "term": "Gedankengut",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 612,
+    "term": "Elektron",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 613,
+    "term": "Gegenstück",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 614,
+    "term": "fundiert",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 615,
+    "term": "Einfachheit",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 616,
+    "term": "entwenden",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 617,
+    "term": "Einmündung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 618,
+    "term": "Dolmetscher",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 619,
+    "term": "Drehung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 620,
+    "term": "fehlerhaft",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 621,
+    "term": "gewillt",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 622,
+    "term": "Gutmensch",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 623,
+    "term": "löchern",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 624,
+    "term": "Landtagswahl",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 625,
+    "term": "lauschen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 626,
+    "term": "Korrespondenz",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 627,
+    "term": "Messias",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 628,
+    "term": "ideologisch",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 629,
+    "term": "Homophobie",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 630,
+    "term": "Sachverhalt",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 631,
+    "term": "Rückschluss",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 632,
+    "term": "Sterbehilfe",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 633,
+    "term": "Rückzahlung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 634,
+    "term": "rechtmäßig",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 635,
+    "term": "Pauschale",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 636,
+    "term": "scheuen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 637,
+    "term": "offenbaren",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 638,
+    "term": "missachten",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 639,
+    "term": "seelisch",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 640,
+    "term": "Staatspräsident",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 641,
+    "term": "psychiatrisch",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 642,
+    "term": "Pseudonym",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 643,
+    "term": "Miliz",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 644,
+    "term": "Nachspielzeit",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 645,
+    "term": "Narr",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 646,
+    "term": "Reh",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 647,
+    "term": "vormals",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 648,
+    "term": "wohingegen",
+    "part_of_speech": "conj",
+    "extra": {}
+  },
+  {
+    "rank": 649,
+    "term": "Vergeltung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 650,
+    "term": "widerlegen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 651,
+    "term": "verfassungswidrig",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 652,
+    "term": "Strafanzeige",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 653,
+    "term": "Wehrpflicht",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 654,
+    "term": "Votum",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 655,
+    "term": "wählbar",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 656,
+    "term": "Befugnis",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 657,
+    "term": "Bekanntgabe",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 658,
+    "term": "befallen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 659,
+    "term": "Alleingang",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 660,
+    "term": "Ausbeute",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 661,
+    "term": "Analogie",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 662,
+    "term": "Ehrenamt",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 663,
+    "term": "Akustik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 664,
+    "term": "Bauart",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 665,
+    "term": "Gatte",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 666,
+    "term": "Feldzug",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 667,
+    "term": "Entfaltung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 668,
+    "term": "fahrlässig",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 669,
+    "term": "geneigt",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 670,
+    "term": "Heiligkeit",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 671,
+    "term": "fälschlicherweise",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 672,
+    "term": "Extremismus",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 673,
+    "term": "idealerweise",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 674,
+    "term": "implizieren",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 675,
+    "term": "Implementierung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 676,
+    "term": "einschätzen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 677,
+    "term": "geologisch",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 678,
+    "term": "Gegenspieler",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 679,
+    "term": "genötigt",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 680,
+    "term": "Intendant",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 681,
+    "term": "Kapitulation",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 682,
+    "term": "Nachruf",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 683,
+    "term": "Konzil",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 684,
+    "term": "Korps",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 685,
+    "term": "namhaft",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 686,
+    "term": "Neuerung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 687,
+    "term": "Krämer",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 688,
+    "term": "Konversation",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 689,
+    "term": "Philologie",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 690,
+    "term": "Reinheit",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 691,
+    "term": "Scharia",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 692,
+    "term": "Schuldner",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 693,
+    "term": "Selektion",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 694,
+    "term": "Salafist",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 695,
+    "term": "Rohstoff",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 696,
+    "term": "Sozialversicherung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 697,
+    "term": "Pfennig",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 698,
+    "term": "Unweigerlich",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 699,
+    "term": "Tatbestand",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 700,
+    "term": "Systematik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 701,
+    "term": "Uran",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 702,
+    "term": "Unterwerfen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 703,
+    "term": "Verordnen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 704,
+    "term": "Verhütung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 705,
+    "term": "Verrichten",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 706,
+    "term": "Urne",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 707,
+    "term": "Starre",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 708,
+    "term": "Vorreiter",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 709,
+    "term": "Verlässlich",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 710,
+    "term": "Unterirdisch",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 711,
+    "term": "Vertiefen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 712,
+    "term": "Vertauschen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 713,
+    "term": "Sympathie",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 714,
+    "term": "Weigern",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 715,
+    "term": "Winzer",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 716,
+    "term": "Antikörper",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 717,
+    "term": "Barmherzigkeit",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 718,
+    "term": "begehren",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 719,
+    "term": "behutsam",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 720,
+    "term": "Überfluss",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 721,
+    "term": "Übergriff",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 722,
+    "term": "Arbeiterbewegung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 723,
+    "term": "Assoziation",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 724,
+    "term": "Abwasser",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 725,
+    "term": "Beistand",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 726,
+    "term": "Begabung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 727,
+    "term": "zäh",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 728,
+    "term": "öde",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 729,
+    "term": "anführen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 730,
+    "term": "überregional",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 731,
+    "term": "abweichend",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 732,
+    "term": "Alge",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 733,
+    "term": "andauernd",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 734,
+    "term": "Zulieferer",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 735,
+    "term": "dekret",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 736,
+    "term": "devise",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 737,
+    "term": "einräumen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 738,
+    "term": "emanzipation",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 739,
+    "term": "erläuterung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 740,
+    "term": "belohnen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 741,
+    "term": "berufen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 742,
+    "term": "betrauen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 743,
+    "term": "ernstfall",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 744,
+    "term": "freiraum",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 745,
+    "term": "einstig",
+    "part_of_speech": "adjective",
+    "extra": {}
+  },
+  {
+    "rank": 746,
+    "term": "foyer",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 747,
+    "term": "erdboden",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 748,
+    "term": "gebühren",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 749,
+    "term": "fackeln",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 750,
+    "term": "Hain",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 751,
+    "term": "Knabe",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 752,
+    "term": "Kelch",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 753,
+    "term": "hierauf",
+    "part_of_speech": "adv",
+    "extra": {}
+  },
+  {
+    "rank": 754,
+    "term": "Geschütz",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 755,
+    "term": "Gewahrsam",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 756,
+    "term": "Gentechnik",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 757,
+    "term": "hinterlegen",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 758,
+    "term": "Heuchler",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 759,
+    "term": "Komplize",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 760,
+    "term": "Instanz",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 761,
+    "term": "handhaben",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 762,
+    "term": "Gesichtspunkt",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 763,
+    "term": "hungern",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 764,
+    "term": "maßgeblich",
+    "part_of_speech": "adj",
+    "extra": {}
+  },
+  {
+    "rank": 765,
+    "term": "Konstante",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 766,
+    "term": "Meinungsäußerung",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 767,
+    "term": "Kulturgeschichte",
+    "part_of_speech": "noun",
+    "extra": {}
+  },
+  {
+    "rank": 768,
+    "term": "lindern",
+    "part_of_speech": "verb",
+    "extra": {}
+  },
+  {
+    "rank": 769,
+    "term": "Obmann",
+    "part_of_speech": "noun",
+    "extra": {}
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Cette maison est plus grande que l'autre.",
+    "correct_answer": "Bu ev diğerinden daha büyük.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "C'est le plus grand bâtiment de la ville.",
+    "correct_answer": "Bu şehirdeki en büyük bina.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Marie est moins rapide que Jean.",
+    "correct_answer": "Marie Jean'den daha yavaş.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il parle aussi couramment que sa sœur.",
+    "correct_answer": "O kız kardeşi kadar akıcı konuşuyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ce café est meilleur que l'autre.",
+    "correct_answer": "Bu kahve diğerinden daha iyi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "C'est le pire résultat de l'année.",
+    "correct_answer": "Bu yılın en kötü sonucu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle n'est pas aussi intelligente que son frère.",
+    "correct_answer": "O erkek kardeşi kadar akıllı değil.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Les films les plus longs de cette année.",
+    "correct_answer": "Bu yılın en uzun filmleri.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bu araba benimkinden daha hızlı.",
+    "correct_answer": "Cette voiture est plus rapide que la mienne.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O şehirdeki en iyi restoran.",
+    "correct_answer": "C'est le meilleur restaurant de la ville.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bu kitap diğerinden daha ilginç.",
+    "correct_answer": "Ce livre est plus intéressant que l'autre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O benim kadar zeki değil.",
+    "correct_answer": "Il n'est pas aussi intelligent que moi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Dün bugünden daha soğuktu.",
+    "correct_answer": "Hier, il faisait plus froid qu'aujourd'hui.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Burada daha az gürültü var.",
+    "correct_answer": "Il y a moins de bruit ici.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O sınıfında en başarılı öğrenci.",
+    "correct_answer": "C'est l'étudiant le plus réussi de la classe.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bu meyve daha tatlı.",
+    "correct_answer": "Ce fruit est plus sucré.",
+    "choices": null
+  }
+]

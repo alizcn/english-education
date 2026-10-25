@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The house was built in 1995.",
+    "correct_answer": "Ev 1995'te inşa edildi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The report is being written by the manager.",
+    "correct_answer": "Rapor müdür tarafından yazılıyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Was the appointment cancelled yesterday?",
+    "correct_answer": "Randevu dün iptal edildi mi?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The car was not stolen.",
+    "correct_answer": "Araba çalınmadı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The building will be completed by Friday.",
+    "correct_answer": "Bina cuma günü tamamlanacak.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Is the work being done correctly?",
+    "correct_answer": "İş doğru yapılıyor mu?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The breakfast has been prepared.",
+    "correct_answer": "Kahvaltı hazırlanmıştır.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The room is being cleaned right now.",
+    "correct_answer": "Oda şu anda temizleniyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Mektup dün gönderildi.",
+    "correct_answer": "The letter was sent yesterday.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kahve sabah dokuzdan sonra sunulmaz.",
+    "correct_answer": "Coffee is not served after 9 am.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Yemek hazırlandı mı?",
+    "correct_answer": "Was the meal prepared?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Proje daha önce tamamlanmıştı.",
+    "correct_answer": "The project had been completed earlier.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kitap Jane Austen tarafından yazıldı.",
+    "correct_answer": "The book was written by Jane Austen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Deneyler üç ay boyunca yürütüldü.",
+    "correct_answer": "The experiments were conducted for three months.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bina inşa ediliyor mu?",
+    "correct_answer": "Is the building being built?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Oda temizlenmedi.",
+    "correct_answer": "The room was not cleaned.",
+    "choices": null
+  }
+]

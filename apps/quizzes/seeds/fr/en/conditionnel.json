@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je voudrais un café",
+    "correct_answer": "I would like a coffee",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Pourriez-vous m'aider?",
+    "correct_answer": "Could you help me?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il ne viendrait pas s'il était malade",
+    "correct_answer": "He would not come if he were sick",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous irions à la plage demain",
+    "correct_answer": "We would go to the beach tomorrow",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu devrais manger plus de légumes",
+    "correct_answer": "You should eat more vegetables",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle serait très heureuse",
+    "correct_answer": "She would be very happy",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Seriez-vous d'accord?",
+    "correct_answer": "Would you agree?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elles ne pourraient pas arriver à l'heure",
+    "correct_answer": "They would not be able to arrive on time",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I would do it if I had time",
+    "correct_answer": "Je le ferais si j'avais le temps",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They would not want to stay",
+    "correct_answer": "Ils ne voudraient pas rester",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Would you be able to come?",
+    "correct_answer": "Pourrais-tu venir?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She would travel around the world",
+    "correct_answer": "Elle voyagerait autour du monde",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "You should try this restaurant",
+    "correct_answer": "Tu devrais essayer ce restaurant",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "We would be happy to help you",
+    "correct_answer": "Nous serions heureux de vous aider",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They would arrive tomorrow",
+    "correct_answer": "Ils arriveraient demain",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I would not agree with you",
+    "correct_answer": "Je ne serais pas d'accord avec toi",
+    "choices": null
+  }
+]

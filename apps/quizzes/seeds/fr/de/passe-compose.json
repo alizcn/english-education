@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "J'ai acheté du pain.",
+    "correct_answer": "Ich habe Brot gekauft.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle est venue hier.",
+    "correct_answer": "Sie ist gestern gekommen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous avons terminé notre travail.",
+    "correct_answer": "Wir haben unsere Arbeit beendet.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il n'a pas compris.",
+    "correct_answer": "Er hat nicht verstanden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je me suis levé tôt.",
+    "correct_answer": "Ich bin früh aufgestanden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich habe ein Buch gelesen.",
+    "correct_answer": "J'ai lu un livre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie ist zum Markt gegangen.",
+    "correct_answer": "Elle est allée au marché.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir haben nicht geschlafen.",
+    "correct_answer": "Nous n'avons pas dormi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Hast du den Film gesehen?",
+    "correct_answer": "As-tu vu le film?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Er ist angekommen.",
+    "correct_answer": "Il est arrivé.",
+    "choices": null
+  }
+]

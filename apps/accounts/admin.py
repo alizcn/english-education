@@ -2,12 +2,16 @@ from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.contrib.auth.models import User
 
-from .models import UserConsent, UserLevel
+from .models import UserConsent, UserCourse
 
 
-class UserLevelInline(admin.StackedInline):
-    model = UserLevel
+class UserCourseInline(admin.TabularInline):
+    # TabularInline, StackedInline değil: kullanıcının artık birden çok kursu
+    # olabiliyor ve yığılmış form her kurs için bir ekran yer kaplıyordu.
+    model = UserCourse
     extra = 0
+    fields = ('target_language', 'native_language', 'current_level', 'score',
+              'is_active', 'updated_at')
     readonly_fields = ('updated_at',)
 
 
@@ -19,7 +23,7 @@ class UserConsentInline(admin.TabularInline):
 
 
 class CustomUserAdmin(BaseUserAdmin):
-    inlines = [UserLevelInline, UserConsentInline]
+    inlines = [UserCourseInline, UserConsentInline]
     list_display = ('username', 'email', 'is_superuser', 'is_active', 'date_joined', 'last_login')
     list_filter = ('is_superuser', 'is_staff', 'is_active')
     search_fields = ('username', 'email')
@@ -30,12 +34,14 @@ admin.site.unregister(User)
 admin.site.register(User, CustomUserAdmin)
 
 
-@admin.register(UserLevel)
-class UserLevelAdmin(admin.ModelAdmin):
-    list_display = ('user', 'current_level', 'score', 'updated_at')
-    list_filter = ('current_level',)
+@admin.register(UserCourse)
+class UserCourseAdmin(admin.ModelAdmin):
+    list_display = ('user', 'target_language', 'native_language',
+                    'current_level', 'score', 'is_active', 'updated_at')
+    list_filter = ('target_language', 'native_language', 'current_level', 'is_active')
     search_fields = ('user__username', 'user__email')
-    readonly_fields = ('updated_at',)
+    readonly_fields = ('created_at', 'updated_at')
+    list_select_related = ('user',)
 
 
 @admin.register(UserConsent)

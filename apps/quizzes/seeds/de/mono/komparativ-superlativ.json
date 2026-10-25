@@ -1,0 +1,157 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Mein Bruder ist ___ als ich.",
+    "correct_answer": "älter",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Dieser Film ist ___ als jener.",
+    "correct_answer": "interessanter",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Das neue Auto ist ___ als das alte.",
+    "correct_answer": "schneller",
+    "choices": [
+      "schneller",
+      "schnellere",
+      "das schnellere",
+      "schnell"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das ist das ___ Restaurant in der Stadt.",
+    "correct_answer": "beste",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das ist die ___ Stadt der Welt.",
+    "correct_answer": "schönste",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Dieses Essen ist ___ als gestern.",
+    "correct_answer": "besser",
+    "choices": [
+      "besser",
+      "guter",
+      "mehr gut",
+      "bessere"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Dieses Lied klingt ___.",
+    "correct_answer": "am schönsten",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Mathe ist nicht ___ als Deutsch.",
+    "correct_answer": "schwieriger",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Das ist ___ Buch in der Bibliothek.",
+    "correct_answer": "das beste",
+    "choices": [
+      "das beste",
+      "den besten",
+      "die beste",
+      "das besten"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Der Mount Everest ist der ___ Berg der Welt.",
+    "correct_answer": "höchste",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Diese Straße ist ___ als jene.",
+    "correct_answer": "breiter",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Dein Bruder ist ___ als deine Schwester.",
+    "correct_answer": "älter",
+    "choices": [
+      "älter",
+      "alt",
+      "altere",
+      "das Ältere"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Du hast ___ Bücher als ich.",
+    "correct_answer": "mehr",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das ist die ___ Stadt in Deutschland.",
+    "correct_answer": "schönste",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Wer singt am ___?",
+    "correct_answer": "schönsten",
+    "choices": [
+      "schönsten",
+      "schöner",
+      "schön",
+      "schöne"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Welches Auto ist ___ als meins?",
+    "correct_answer": "schneller",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das Haus ist am ___ zum Park.",
+    "correct_answer": "nächsten",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Er ist der ___ Spieler unserer Mannschaft.",
+    "correct_answer": "beste",
+    "choices": [
+      "beste",
+      "besten",
+      "gute",
+      "bessere"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Das ist das ___ Kleid im Laden.",
+    "correct_answer": "teuerste",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Mein Buch ist ___ als deins.",
+    "correct_answer": "spannender",
+    "choices": [
+      "spannender",
+      "spannend",
+      "spannendere",
+      "das spannendere"
+    ]
+  }
+]

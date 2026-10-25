@@ -1,0 +1,122 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If I had known, I would have helped.",
+    "correct_answer": "Wenn ich es gewusst hätte, hätte ich geholfen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn er angerufen hätte, hätte ich gewusst, dass er kommt.",
+    "correct_answer": "If he had called, I would have known he was coming.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you had studied, you would have passed.",
+    "correct_answer": "Wenn du gelernt hättest, hättest du bestanden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn sie früher aufgewacht wäre, hätte sie pünktlich sein können.",
+    "correct_answer": "If she had woken up earlier, she could have been on time.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Would you have stayed if I had asked?",
+    "correct_answer": "Wärst du geblieben, wenn ich dich gefragt hätte?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Hätte ich das Geld gehabt, hätte ich ein Haus gekauft.",
+    "correct_answer": "If I had had the money, I would have bought a house.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If it hadn't rained, we would have gone for a walk.",
+    "correct_answer": "Wenn es nicht geregnet hätte, wären wir spazieren gegangen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn du nicht verletzt worden wärst, hättest du das Spiel spielen können.",
+    "correct_answer": "If you hadn't been injured, you could have played the game.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If she had seen the sign, she wouldn't have gone there.",
+    "correct_answer": "Wenn sie das Schild gesehen hätte, wäre sie nicht dorthin gegangen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn wir schneller gefahren wären, hätten wir den Flug erreicht.",
+    "correct_answer": "If we had driven faster, we would have made the flight.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If they had told me the truth, I would have trusted them.",
+    "correct_answer": "Wenn sie mir die Wahrheit gesagt hätten, hätte ich ihnen vertraut.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn er mehr trainiert hätte, hätte er das Rennen gewonnen.",
+    "correct_answer": "If he had trained more, he would have won the race.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you hadn't reminded me, I would have forgotten the appointment.",
+    "correct_answer": "Wenn du mich nicht erinnert hättest, hätte ich den Termin vergessen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn sie angerufen hätte, hätte ich gewusst, dass etwas nicht stimmt.",
+    "correct_answer": "If she had called, I would have known something was wrong.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Would they have succeeded if they had worked together?",
+    "correct_answer": "Hätten sie Erfolg gehabt, wenn sie zusammen gearbeitet hätten?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn du die Anleitung gelesen hättest, hättest du gewusst, wie es geht.",
+    "correct_answer": "If you had read the instructions, you would have known how to do it.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If I hadn't been there, something bad would have happened.",
+    "correct_answer": "Wenn ich nicht dort gewesen wäre, wäre etwas Schlimmes passiert.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn sie länger geschlafen hätte, hätte sie sich besser gefühlt.",
+    "correct_answer": "If she had slept longer, she would have felt better.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If he had arrived on time, he wouldn't have missed the announcement.",
+    "correct_answer": "Wenn er pünktlich angekommen wäre, hätte er die Ankündigung nicht verpasst.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wenn wir den Termin verschoben hätten, hätten alle teilnehmen können.",
+    "correct_answer": "If we had postponed the appointment, everyone could have attended.",
+    "choices": null
+  }
+]

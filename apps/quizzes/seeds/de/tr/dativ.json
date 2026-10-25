@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich gebe meinem Bruder ein Buch.",
+    "correct_answer": "Kardeşime bir kitap veriyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Lehrer hilft dem Schüler nicht mit der Aufgabe.",
+    "correct_answer": "Öğretmen öğrenciye ödevle yardım etmiyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Geschenk gefällt meiner Schwester sehr.",
+    "correct_answer": "Hediye kız kardeşime çok hoşa gidiyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wem schreibst du einen Brief?",
+    "correct_answer": "Kime mektup yazıyorsun?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir danken unserem Freund für die Hilfe.",
+    "correct_answer": "Arkadaşımıza yardımı için teşekkür ederiz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Babama bir saat hediye ettim.",
+    "correct_answer": "Ich habe meinem Vater eine Uhr geschenkt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Öğretmen bize konuyu açıklamadı.",
+    "correct_answer": "Der Lehrer erklärte uns das Thema nicht.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bu elbise bana çok güzel geliyor.",
+    "correct_answer": "Dieses Kleid gefällt mir sehr gut.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Arkadaşıma yardım etmeliyim.",
+    "correct_answer": "Ich muss meinem Freund helfen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ona hiç yardım etmiyorum.",
+    "correct_answer": "Ich helfe ihm nicht.",
+    "choices": null
+  }
+]

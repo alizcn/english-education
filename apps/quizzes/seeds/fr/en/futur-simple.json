@@ -1,0 +1,86 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je parlerai avec mon ami demain.",
+    "correct_answer": "I will speak with my friend tomorrow.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "You will finish your homework.",
+    "correct_answer": "Tu finiras tes devoirs.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Nous irons à Paris l'été prochain.",
+    "correct_answer": "We will go to Paris next summer.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She will not come to the party.",
+    "correct_answer": "Elle ne viendra pas à la fête.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ils arriveront demain matin.",
+    "correct_answer": "They will arrive tomorrow morning.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "He will do his exercises.",
+    "correct_answer": "Il fera ses exercices.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Vous aurez un nouveau chat.",
+    "correct_answer": "You will have a new cat.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Will you eat an apple?",
+    "correct_answer": "Mangeras-tu une pomme?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle ne finira pas son projet avant midi.",
+    "correct_answer": "She will not finish her project before noon.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "I will see you tomorrow.",
+    "correct_answer": "Je te verrai demain.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Tu réussiras cet examen.",
+    "correct_answer": "You will pass this exam.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Will they come next week?",
+    "correct_answer": "Viendront-ils la semaine prochaine?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je ne serai pas à la maison.",
+    "correct_answer": "I will not be at home.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "They will work all day.",
+    "correct_answer": "Ils travailleront toute la journée.",
+    "choices": null
+  }
+]

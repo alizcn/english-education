@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "L'homme qui parle est mon professeur.",
+    "correct_answer": "Konuşan adam benim öğretmenim.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Konuşmayan öğrenci burada mı?",
+    "correct_answer": "L'étudiant qui ne parle pas est-il ici?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Le livre que j'ai lu hier était merveilleux.",
+    "correct_answer": "Dün okuduğum kitap harika idi.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sevdiğim film burada değil.",
+    "correct_answer": "Le film que j'aime n'est pas ici.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Le professeur dont j'aime le cours est absent aujourd'hui.",
+    "correct_answer": "Dersini sevdiğim öğretmen bugün yoktur.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "İhtiyaç duyduğum şey ne olduğunu biliyorsun.",
+    "correct_answer": "Tu sais ce dont j'ai besoin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "C'est l'endroit où nous avons grandi.",
+    "correct_answer": "Büyüdüğümüz yer burası.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Yaşamak istediğim şehir Paris.",
+    "correct_answer": "La ville où je veux habiter est Paris.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "L'homme qui arrive demain, tu le connais?",
+    "correct_answer": "Yarın gelen adam, onu tanıyor musun?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Bize anlattığın hikaye gerçek değildi.",
+    "correct_answer": "L'histoire que tu nous as racontée n'était pas vraie.",
+    "choices": null
+  }
+]

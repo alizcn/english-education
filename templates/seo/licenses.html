@@ -1,0 +1,78 @@
+{% extends 'seo/_public_base.html' %}
+{% load i18n learn_extras %}
+
+{# Kaynak atıf sayfası. Kelime listelerinin seviye omurgası dış kaynaklardan
+   geliyor (FLELex CC BY-NC, Goethe Wortliste, wordfreq CC BY-SA, Oxford) ve
+   üçünün lisansı atıf istiyor. Sayfanın tablosu `services/languages.py`
+   sicilinden doluyor: atıf metnini şablona kopyalamak, yeni dil eklendiğinde
+   sessizce eksik atıfa düşmek demekti. #}
+
+{% block full_title %}{% trans "Kaynaklar ve Lisanslar" %} | LevelEnAI{% endblock %}
+{% block meta_description %}{% trans "LevelEnAI'deki kelime listelerinin seviye omurgası hangi kaynaklardan geliyor, hangi lisansla kullanılıyor ve içeriğin hangi kısmı bize ait." %}{% endblock %}
+{% block og_title %}{% trans "Kaynaklar ve Lisanslar" %} — LevelEnAI{% endblock %}
+{% block og_description %}{% trans "Kelime listesi kaynakları, lisansları ve atıfları." %}{% endblock %}
+
+{% block breadcrumb %}<span>›</span> <span aria-current="page">{% trans "Kaynaklar ve Lisanslar" %}</span>{% endblock %}
+
+{% block json_ld %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "{% trans 'Ana Sayfa' %}", "item": "{{ seo.site_url }}/"},
+    {"@type": "ListItem", "position": 2, "name": "{% trans 'Kaynaklar ve Lisanslar' %}", "item": "{{ seo.canonical }}"}
+  ]
+}
+</script>
+{% endblock %}
+
+{% block public_content %}
+<header class="pub-head">
+    <h1>{% trans "Kaynaklar ve Lisanslar" %}</h1>
+    <p class="pub-lead">{% trans "Her dilin kelime listesinde seviye omurgası (hangi kelime hangi CEFR seviyesinde) dış bir kaynaktan geliyor. Anlamlar, örnek cümleler ve çeviriler bu platformda üretildi." %}</p>
+</header>
+
+<section class="pub-section">
+    <h2>{% trans "Kelime listesi kaynakları" %}</h2>
+    <div class="pub-table-wrap">
+        <table class="pub-table">
+            <thead>
+                <tr>
+                    <th scope="col">{% trans "Dil" %}</th>
+                    <th scope="col">{% trans "Seviye omurgası" %}</th>
+                    <th scope="col">{% trans "Lisans ve atıf" %}</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% comment %}`learnable_languages` bir simple_tag; `as` olmadan döngü değişkeni sanılır ve tablo SESSİZCE boş çıkar.{% endcomment %}
+                {% learnable_languages as specs %}
+                {% for spec in specs %}
+                <tr>
+                    <th scope="row">{% lang_name spec.code %}</th>
+                    <td>{{ spec.wordlist_source }}</td>
+                    <td>{{ spec.license_note }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section class="pub-section">
+    <h2>{% trans "Kaynaklardan ne alındı?" %}</h2>
+    <p>{% trans "Dış kaynaklardan yalnızca şu alanlar alındı: başlık kelime (lemma), CEFR seviyesi, sözcük türü ve Almanca isimlerde artikel ile çoğul biçim. Kaynak metinlerin tanımları, örnek cümleleri veya açıklamaları kopyalanmadı." %}</p>
+    <p>{% trans "Kelimelerin anlamları, hedef dildeki örnek cümleler, bu cümlelerin çevirileri, gramer anlatımları ve quiz soruları platformda yapay zekâ ile üretildi; hatalı gördüğünüz bir kaydı bildirirseniz düzeltilir." %}</p>
+</section>
+
+<section class="pub-section">
+    <h2>{% trans "Lisans notu" %}</h2>
+    <p>{% trans "FLELex, CC BY-NC lisansıyla araştırma ve öğretim amaçlı kullanıma açıktır; bu platform ücretsizdir ve içerikten gelir elde edilmez. wordfreq verisi CC BY-SA 4.0'dır ve yukarıdaki atıfla kullanılır. Goethe-Institut Wortliste telifli bir yayındır; listeden yalnızca başlık kelime, artikel ve çoğul biçim alınmıştır. Oxford listeleri de Oxford University Press telifindedir ve aynı kapsamda kullanılmıştır." %}</p>
+    <p>{% trans "Bu sayfa hukuki bir görüş değildir. Bir kaynağın sahibi olarak kullanımın kapsamıyla ilgili bir itirazınız varsa iletişime geçtiğinizde ilgili veri kaldırılır." %}</p>
+</section>
+
+<section class="pub-section">
+    <h2>{% trans "Açık kaynak bileşenler" %}</h2>
+    <p>{% trans "Platform Django ile geliştirildi; kelime frekansları için wordfreq, PDF okuma için PyPDF2, katalog işlemleri için polib kullanılıyor. Hepsi kendi açık kaynak lisanslarıyla dağıtılmaktadır." %}</p>
+</section>
+{% endblock %}

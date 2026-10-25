@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Şimdi ne yapıyorsun?",
+    "correct_answer": "Was machst du gerade?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ben kitap okuyorum.",
+    "correct_answer": "Ich lese gerade ein Buch.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Siz nereye gidiyorsunuz?",
+    "correct_answer": "Wohin gehen Sie?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "O uyumuyor.",
+    "correct_answer": "Er/Sie schläft nicht.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çocuklar oyun oynuyorlar.",
+    "correct_answer": "Die Kinder spielen gerade.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich trinke gerade Kaffee.",
+    "correct_answer": "Ben kahve içiyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Du sprichst mit deinem Freund.",
+    "correct_answer": "Sen arkadaşınla konuşuyorsun.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir arbeiten jetzt.",
+    "correct_answer": "Biz şimdi çalışıyoruz.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die Katze schläft.",
+    "correct_answer": "Kedi uyuyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Schaut ihr einen Film?",
+    "correct_answer": "Siz film izliyor musunuz?",
+    "choices": null
+  }
+]

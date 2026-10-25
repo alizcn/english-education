@@ -1,0 +1,162 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je ___ heureux de vous aider.",
+    "correct_answer": "serais",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Tu ___ une tasse de café, s'il te plaît?",
+    "correct_answer": "prendrais",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Il ne ___ pas venir ce soir.",
+    "correct_answer": "pourrait",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Nous ___ en Europe l'année prochaine.",
+    "correct_answer": "voyagerions",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Vous ___ essayer ce restaurant.",
+    "correct_answer": "devriez",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ils ___ à la plage ce weekend.",
+    "correct_answer": "iraient",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Si tu m'aidais, je ___ mon travail plus vite.",
+    "correct_answer": "terminerais",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Au cas où il ___, je prendrais un parapluie.",
+    "correct_answer": "pleuvrait",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je ___ un peu d'eau, s'il vous plaît.",
+    "correct_answer": "voudrais",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle ___ plus de légumes.",
+    "correct_answer": "mangerait",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elles ___ avec nous si elles avaient le temps.",
+    "correct_answer": "viendraient",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Tu ne ___ pas faire cela.",
+    "correct_answer": "devrais",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle est la forme conditionnelle de 'avoir' (première personne singulier)?",
+    "correct_answer": "j'aurais",
+    "choices": [
+      "j'ai",
+      "j'aurais",
+      "j'aurai",
+      "j'avais"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel verbe complète correctement la phrase? 'Nous ___ en vacances demain.'",
+    "correct_answer": "partirions",
+    "choices": [
+      "partons",
+      "partions",
+      "partirions",
+      "partirons"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel verbe complète correctement la phrase conditionnelle? 'Si tu travaillais davantage, tu ___'",
+    "correct_answer": "réussirais",
+    "choices": [
+      "réussis",
+      "réussiras",
+      "réussirais",
+      "réussissais"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle est la forme conditionnelle de 'pouvoir' (troisième personne singulier)?",
+    "correct_answer": "il pourrait",
+    "choices": [
+      "il peut",
+      "il pourrait",
+      "il pouvait",
+      "il pourra"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel verbe complète la phrase négative? 'Je ne ___ pas d'accord avec toi.'",
+    "correct_answer": "serais",
+    "choices": [
+      "suis",
+      "serais",
+      "serai",
+      "étais"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle est la forme conditionnelle de 'aller' (deuxième personne singulier)?",
+    "correct_answer": "tu irais",
+    "choices": [
+      "tu vas",
+      "tu allais",
+      "tu irais",
+      "tu iras"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel verbe complète la phrase? 'Elles ___ avec nous si elles avaient le temps.'",
+    "correct_answer": "viendraient",
+    "choices": [
+      "viendraient",
+      "viennent",
+      "venaient",
+      "viendront"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle est la forme conditionnelle de 'devoir' (deuxième personne singulier)?",
+    "correct_answer": "tu devrais",
+    "choices": [
+      "tu dois",
+      "tu devais",
+      "tu devrais",
+      "tu devras"
+    ]
+  }
+]

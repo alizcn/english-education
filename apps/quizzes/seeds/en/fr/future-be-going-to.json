@@ -1,0 +1,110 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I am going to eat lunch soon.",
+    "correct_answer": "Je vais manger bientôt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She is going to call you tomorrow.",
+    "correct_answer": "Elle va t'appeler demain.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They are going to buy a new car.",
+    "correct_answer": "Ils vont acheter une nouvelle voiture.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "We are going to visit my parents this weekend.",
+    "correct_answer": "Nous allons visiter mes parents ce week-end.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I am not going to eat meat anymore.",
+    "correct_answer": "Je ne vais plus manger de viande.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She is not going to come to the party.",
+    "correct_answer": "Elle ne va pas venir à la fête.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Are you going to work today?",
+    "correct_answer": "Vas-tu travailler aujourd'hui?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "What is he going to do tomorrow?",
+    "correct_answer": "Qu'est-ce qu'il va faire demain?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "It is going to rain.",
+    "correct_answer": "Il va pleuvoir.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je vais visiter ma grand-mère le week-end prochain.",
+    "correct_answer": "I am going to visit my grandmother next weekend.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Il va pleuvoir demain.",
+    "correct_answer": "It is going to rain tomorrow.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Nous n'allons pas attendre ici.",
+    "correct_answer": "We are not going to wait here.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Allez-vous arriver à l'heure?",
+    "correct_answer": "Are you going to arrive on time?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle va faire ses devoirs ce soir.",
+    "correct_answer": "She is going to do her homework tonight.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ils vont jouer au football.",
+    "correct_answer": "They are going to play football.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je vais appeler mon ami.",
+    "correct_answer": "I am going to call my friend.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Vous allez adorer ce restaurant.",
+    "correct_answer": "You are going to love this restaurant.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Tu ne vas pas oublier.",
+    "correct_answer": "You are not going to forget.",
+    "choices": null
+  }
+]

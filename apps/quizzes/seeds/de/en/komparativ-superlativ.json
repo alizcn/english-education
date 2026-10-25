@@ -1,0 +1,92 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Mein Bruder ist älter als meine Schwester.",
+    "correct_answer": "My brother is older than my sister.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "This house is bigger than mine.",
+    "correct_answer": "Dieses Haus ist größer als meins.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das war die beste Leistung des Jahres.",
+    "correct_answer": "That was the best performance of the year.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She runs faster than him.",
+    "correct_answer": "Sie läuft schneller als er.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Diese Jacke ist nicht teurer als jene.",
+    "correct_answer": "This jacket is not more expensive than that one.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Berlin is larger than Vienna.",
+    "correct_answer": "Berlin ist größer als Wien.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wer hat die längsten Haare?",
+    "correct_answer": "Who has the longest hair?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Your solution is better than mine.",
+    "correct_answer": "Deine Lösung ist besser als meine.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das ist das beste Restaurant in der Gegend.",
+    "correct_answer": "That is the best restaurant in the area.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "This book is not as interesting as that one.",
+    "correct_answer": "Dieses Buch ist nicht so interessant wie jenes.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Mein Kaffee ist besser als deiner.",
+    "correct_answer": "My coffee is better than yours.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "She sings the best of all.",
+    "correct_answer": "Sie singt am besten von allen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Berlin ist größer als München.",
+    "correct_answer": "Berlin is bigger than Munich.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "The Mount Everest is the highest mountain in the world.",
+    "correct_answer": "Der Mount Everest ist der höchste Berg der Welt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Sie isst mehr Obst als ich.",
+    "correct_answer": "She eats more fruit than I do.",
+    "choices": null
+  }
+]

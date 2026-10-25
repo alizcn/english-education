@@ -1,18 +1,7 @@
 import asyncio
-import os
-import sys
 import time
 import unittest
-from pathlib import Path
 from unittest import mock
-
-ROOT = Path('/root/apps/english-education')
-sys.path.insert(0, str(ROOT))
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
-
-import django
-
-django.setup()
 
 from django.test import override_settings
 
@@ -295,7 +284,3 @@ class ApiTransportTests(unittest.TestCase):
         self.assertNotIn('temperature', kwargs)
         self.assertEqual(kwargs['thinking'], {'type': 'adaptive'})
         self.assertEqual(kwargs['output_config'], {'effort': 'medium'})
-
-
-if __name__ == '__main__':
-    unittest.main()

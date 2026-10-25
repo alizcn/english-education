@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yemek yerken televizyon izliyorum.",
+    "correct_answer": "Ich schaue Fernsehen, während ich esse.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kitap okurken uyuya kaldım.",
+    "correct_answer": "Während ich las, bin ich eingeschlafen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Arkadaş gelince sevinçten bağırdık.",
+    "correct_answer": "Als mein Freund kam, schrien wir vor Freude.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Yürüyerek okula gittim.",
+    "correct_answer": "Ich bin zu Fuß zur Schule gegangen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Müzik dinlemeden ders çalışamam.",
+    "correct_answer": "Ich kann nicht studieren ohne Musik zu hören.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Während ich arbeite, klingelt das Telefon.",
+    "correct_answer": "Çalışırken telefon çalıyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Nachdem der Unterricht zu Ende geht, spielen wir Fußball.",
+    "correct_answer": "Ders bitince futbol oynadık.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Indem ich schnell laufe, erreiche ich noch den Zug.",
+    "correct_answer": "Hızlı koşarak treni yakalıyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ohne hart zu arbeiten, wirst du nicht erfolgreich sein.",
+    "correct_answer": "Çalışmadan başarılı olamazsın.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Während du schläfst, studiere ich.",
+    "correct_answer": "Uyarken ders çalışıyorum.",
+    "choices": null
+  }
+]

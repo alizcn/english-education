@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ to the market yesterday.",
+    "correct_answer": "went",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ breakfast this morning.",
+    "correct_answer": "ate",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ a movie last night.",
+    "correct_answer": "watched",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He ___ on the project all day.",
+    "correct_answer": "worked",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "We ___ our grandparents last weekend.",
+    "correct_answer": "visited",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "The cat ___ on the couch.",
+    "correct_answer": "slept",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ go to the store.",
+    "correct_answer": "didn't",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ understand the lesson.",
+    "correct_answer": "didn't",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ you see the movie?",
+    "correct_answer": "Did",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Tom ___ his keys.",
+    "correct_answer": "found",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the past simple of 'eat'?",
+    "correct_answer": "ate",
+    "choices": [
+      "eated",
+      "ate",
+      "eating",
+      "eat"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the past simple of 'go'?",
+    "correct_answer": "went",
+    "choices": [
+      "goed",
+      "gone",
+      "went",
+      "going"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the past simple of 'have'?",
+    "correct_answer": "had",
+    "choices": [
+      "haved",
+      "had",
+      "having",
+      "has"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the past simple of 'see'?",
+    "correct_answer": "saw",
+    "choices": [
+      "sawed",
+      "saw",
+      "seen",
+      "seeing"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the past simple of 'make'?",
+    "correct_answer": "made",
+    "choices": [
+      "maked",
+      "made",
+      "making",
+      "makes"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which sentence is correct?",
+    "correct_answer": "I went to the store yesterday.",
+    "choices": [
+      "I went to the store yesterday.",
+      "I go to the store yesterday.",
+      "I goes to the store yesterday.",
+      "I going to the store yesterday."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complete: He ___ a new car last month.",
+    "correct_answer": "bought",
+    "choices": [
+      "buys",
+      "bought",
+      "buying",
+      "buy"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complete: They ___ in the park yesterday.",
+    "correct_answer": "played",
+    "choices": [
+      "plays",
+      "played",
+      "playing",
+      "play"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct negative sentence?",
+    "correct_answer": "I didn't go to school yesterday.",
+    "choices": [
+      "I didn't go to school yesterday.",
+      "I didn't went to school yesterday.",
+      "I don't go to school yesterday.",
+      "I not went to school yesterday."
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct question?",
+    "correct_answer": "Did you see the movie?",
+    "choices": [
+      "Did you see the movie?",
+      "Do you see the movie?",
+      "You saw the movie?",
+      "Saw you the movie?"
+    ]
+  }
+]

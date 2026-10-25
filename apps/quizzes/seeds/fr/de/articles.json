@@ -1,0 +1,68 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je prends du café le matin.",
+    "correct_answer": "Ich nehme morgens Kaffee.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Der Junge spielt Fußball.",
+    "correct_answer": "Le garçon joue au football.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Elle lit un livre intéressant.",
+    "correct_answer": "Sie liest ein interessantes Buch.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich trinke Milch jeden Morgen.",
+    "correct_answer": "Je bois du lait chaque matin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Il n'y a pas de pain.",
+    "correct_answer": "Es gibt kein Brot.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Veux-tu une tasse de café?",
+    "correct_answer": "Möchtest du eine Tasse Kaffee?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir haben einen Freund in Italien.",
+    "correct_answer": "Nous avons un ami en Italie.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Je n'aime pas le football.",
+    "correct_answer": "Ich mag keinen Fußball.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich esse Suppe zum Mittagessen.",
+    "correct_answer": "Je mange de la soupe au déjeuner.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Mettez du sucre dans le café.",
+    "correct_answer": "Geben Sie Zucker in den Kaffee.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Es gibt Wasser im Glas.",
+    "correct_answer": "Il y a de l'eau dans le verre.",
+    "choices": null
+  }
+]

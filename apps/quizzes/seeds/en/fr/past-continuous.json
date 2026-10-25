@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: I was reading a book.",
+    "correct_answer": "Je lisais un livre.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: They were not playing outside.",
+    "correct_answer": "Ils ne jouaient pas dehors.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: Was she cooking dinner?",
+    "correct_answer": "Préparait-elle le dîner?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: We were watching the sunset.",
+    "correct_answer": "Nous regardions le coucher du soleil.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: The children were sleeping peacefully.",
+    "correct_answer": "Les enfants dormaient paisiblement.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: He wasn't listening to me.",
+    "correct_answer": "Il ne m'écoutait pas.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: Were you working late?",
+    "correct_answer": "Travailliez-vous tard?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Translate to French: She was dancing with joy.",
+    "correct_answer": "Elle dansait de joie.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Je lisais un journal.",
+    "correct_answer": "I was reading a newspaper.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Ils ne jouaient pas au football.",
+    "correct_answer": "They were not playing football.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Préparait-elle le repas?",
+    "correct_answer": "Was she preparing the meal?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Vous regardiez les enfants.",
+    "correct_answer": "You were watching the children.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: L'enfant dormait profondément.",
+    "correct_answer": "The child was sleeping deeply.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Il n'écoutait pas attentivement.",
+    "correct_answer": "He was not listening carefully.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Dansiez-vous à la fête?",
+    "correct_answer": "Were you dancing at the party?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Translate to English: Elle courait dans le parc.",
+    "correct_answer": "She was running in the park.",
+    "choices": null
+  }
+]

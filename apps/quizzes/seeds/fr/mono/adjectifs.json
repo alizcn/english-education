@@ -1,0 +1,162 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "Elle porte une robe ___.",
+    "correct_answer": "rouge",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Les garçons sont très ___.",
+    "correct_answer": "heureux",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "C'est un ___ enfant.",
+    "correct_answer": "petit",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Ce n'est pas un ___ jour.",
+    "correct_answer": "bon",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Il y a une ___ maison au bout de la rue.",
+    "correct_answer": "vieille",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Voici mes ___ amies.",
+    "correct_answer": "meilleures",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Je n'aime pas les couleurs ___.",
+    "correct_answer": "sombres",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Les filles sont ___.",
+    "correct_answer": "heureuses",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Sont-elles ___?",
+    "correct_answer": "heureuses",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Nous avons une ___ question.",
+    "correct_answer": "importante",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Les yeux ___ sont beaux.",
+    "correct_answer": "bleus",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "C'est une ___ journée.",
+    "correct_answer": "magnifique",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est l'accord correct pour 'heureux' avec 'les filles'?",
+    "correct_answer": "heureuses",
+    "choices": [
+      "heureuses",
+      "heureux",
+      "heureuse",
+      "heureus"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Où place-t-on normalement l'adjectif 'bleu'?",
+    "correct_answer": "après le nom",
+    "choices": [
+      "avant le nom",
+      "après le nom",
+      "avant et après",
+      "à la fin de la phrase"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le féminin de 'nouveau'?",
+    "correct_answer": "nouvelle",
+    "choices": [
+      "nouvel",
+      "nouvele",
+      "nouvelle",
+      "nouveaue"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Comment accordez-vous 'merveilleux' avec 'une journée'?",
+    "correct_answer": "merveilleuse",
+    "choices": [
+      "merveilleuse",
+      "merveilleux",
+      "merveilleuses",
+      "merveilleaux"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel adjectif court peut se placer avant le nom?",
+    "correct_answer": "petit",
+    "choices": [
+      "intelligent",
+      "petit",
+      "français",
+      "délicieux"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel est le pluriel de 'un royal ami'?",
+    "correct_answer": "des royaux amis",
+    "choices": [
+      "des royals amis",
+      "des royaux amis",
+      "des royales amis",
+      "des royal amis"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel accord est correct pour 'ancien' au singulier féminin?",
+    "correct_answer": "une ancienne amie",
+    "choices": [
+      "une ancien amie",
+      "une ancienne amie",
+      "une anciennes amie",
+      "une ancien ami"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quelle phrase montre le bon ordre des adjectifs?",
+    "correct_answer": "une vieille maison blanche",
+    "choices": [
+      "une maison blanche vieille",
+      "une vieille maison blanche",
+      "une maison vieille blanche",
+      "une blanc vieille maison"
+    ]
+  }
+]

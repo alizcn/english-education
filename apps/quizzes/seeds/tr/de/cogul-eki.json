@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çocuklar okula giderler",
+    "correct_answer": "Die Kinder gehen zur Schule",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kediler bahçede oynamıyorlar",
+    "correct_answer": "Die Katzen spielen nicht im Garten",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Çiçekler çok güzel",
+    "correct_answer": "Die Blumen sind sehr schön",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kitaplar masada mı?",
+    "correct_answer": "Sind die Bücher auf dem Tisch?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Öğretmenler sınıfta ders anlatırlar",
+    "correct_answer": "Die Lehrer unterrichten im Klassenzimmer",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Kütüphaneler kapalı değil",
+    "correct_answer": "Die Bibliotheken sind nicht geschlossen",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die Hunde schlafen im Haus",
+    "correct_answer": "Köpekler evde uyuyorlar",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die Äpfel sind rot",
+    "correct_answer": "Elmalar kırmızı",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die Fenster sind groß",
+    "correct_answer": "Pencereler büyük",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die Lehrer kommen nicht",
+    "correct_answer": "Öğretmenler gelmiyor",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sind die Schulen offen?",
+    "correct_answer": "Okullar açık mı?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Die Blumen blühen schön",
+    "correct_answer": "Çiçekler güzel açıyor",
+    "choices": null
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I was reading a book.",
+    "correct_answer": "Bir kitap okuyordum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Were you sleeping?",
+    "correct_answer": "Uyuyordun mu?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "The children were playing in the park.",
+    "correct_answer": "Çocuklar parkta oynuyorlardı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She was not cooking dinner.",
+    "correct_answer": "Yemek pişirmiyordu.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "What were you doing at 5 PM?",
+    "correct_answer": "Saat 5'te ne yapıyordun?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They were not talking to each other.",
+    "correct_answer": "Birbirlerine konuşmuyorlardı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Was he working when you arrived?",
+    "correct_answer": "Sen geldiğinde o çalışıyordu mu?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "We were watching a movie last night.",
+    "correct_answer": "Dün gece film izliyorduk.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O, parka gidiyordu.",
+    "correct_answer": "He was going to the park.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onlar bahçede çalışıyorlardı.",
+    "correct_answer": "They were working in the garden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Yazı yazıyordunuz mu?",
+    "correct_answer": "Were you writing a letter?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Yağmur yağıyorken, biz evde oturuyorduk.",
+    "correct_answer": "While it was raining, we were sitting at home.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Müzik dinlemiyorduk.",
+    "correct_answer": "We were not listening to music.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O gün bütün gün yağmur yağıyordu.",
+    "correct_answer": "It was raining all day.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ders sırasında uyuyordum.",
+    "correct_answer": "I was sleeping during the lesson.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Onlar ne yapıyorlardı?",
+    "correct_answer": "What were they doing?",
+    "choices": null
+  }
+]

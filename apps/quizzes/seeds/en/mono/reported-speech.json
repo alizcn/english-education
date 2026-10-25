@@ -1,0 +1,172 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "She said _____ was tired.",
+    "correct_answer": "she",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He said he _____ know the answer.",
+    "correct_answer": "didn't",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They said they _____ come to the party.",
+    "correct_answer": "wouldn't",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She asked _____ I was ready.",
+    "correct_answer": "if",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He asked where I _____.",
+    "correct_answer": "was going",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She said she _____ read that before.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She said _____ car was broken.",
+    "correct_answer": "her",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He asked what I _____.",
+    "correct_answer": "was doing",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "My friend told me _____ was moving to Paris.",
+    "correct_answer": "she",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He said he _____ gone home before I arrived.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct reported form of 'I like coffee'?",
+    "correct_answer": "She said she liked coffee",
+    "choices": [
+      "She said she likes coffee",
+      "She said she liked coffee",
+      "She said I liked coffee",
+      "She said she is liking coffee"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "How do you report the question 'Are you coming?' as a yes-no question?",
+    "correct_answer": "He asked if I was coming",
+    "choices": [
+      "He asked if I was coming",
+      "He asked was I coming",
+      "He asked am I coming",
+      "He asked whether I come"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct reported form of 'I don't like it'?",
+    "correct_answer": "She said she didn't like it",
+    "choices": [
+      "She said she doesn't like it",
+      "She said she didn't like it",
+      "She said she don't like it",
+      "She said not like it"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "How do you report the question 'Where are you going?'?",
+    "correct_answer": "She asked where I was going",
+    "choices": [
+      "She asked where I was going",
+      "She asked where was I going",
+      "She asked where I am going",
+      "She asked where going I was"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct reported form of 'I will see you tomorrow'?",
+    "correct_answer": "She said she would see me the next day",
+    "choices": [
+      "She said she would see me tomorrow",
+      "She said she would see me the next day",
+      "She said she will see me tomorrow",
+      "She said she see me tomorrow"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "How do you report 'I have finished'?",
+    "correct_answer": "They said they had finished",
+    "choices": [
+      "They said they have finished",
+      "They said they had finished",
+      "They said they finished",
+      "They said they are finished"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct reported form of 'I won't help'?",
+    "correct_answer": "She said she wouldn't help",
+    "choices": [
+      "She said she wouldn't help",
+      "She said she won't help",
+      "She said she will not help",
+      "She said she doesn't help"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct reported form of 'I went home'?",
+    "correct_answer": "He said he had gone home",
+    "choices": [
+      "He said he goes home",
+      "He said he went home",
+      "He said he had gone home",
+      "He said he is going home"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "How do you report the question 'What have you done?'?",
+    "correct_answer": "He asked what I had done",
+    "choices": [
+      "He asked what I have done",
+      "He asked what had I done",
+      "He asked what I had done",
+      "He asked what I do"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "What is the correct reported form of 'I am working here'?",
+    "correct_answer": "She said she was working here",
+    "choices": [
+      "She said she is working here",
+      "She said she was working here",
+      "She said she work here",
+      "She said I was working here"
+    ]
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ already finished their homework.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ worked at that company for years.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He ___ not eaten anything before the meeting.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which correctly completes: 'By the time we arrived, the movie ___'?",
+    "correct_answer": "had started",
+    "choices": [
+      "had started",
+      "has started",
+      "was starting",
+      "started"
+    ]
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Identify the correct past perfect sentence.",
+    "correct_answer": "When she arrived, he had left.",
+    "choices": [
+      "When she arrived, he leaves.",
+      "When she arrived, he had left.",
+      "When she arrived, he is leaving.",
+      "When she arrived, he is left."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ they seen that film before?",
+    "correct_answer": "Had",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "I ___ finished the project before the deadline.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She ___ gone to the store before noon.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which is the correct negative past perfect form?",
+    "correct_answer": "She hadn't completed the task.",
+    "choices": [
+      "She hadn't completed the task.",
+      "She has not completed the task.",
+      "She didn't completed the task.",
+      "She not had completed the task."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "He had ___ three emails by lunchtime.",
+    "correct_answer": "written",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They ___ never visited that museum before.",
+    "correct_answer": "had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which shows correct word order in past perfect?",
+    "correct_answer": "I had already left when you called.",
+    "choices": [
+      "I had already left when you called.",
+      "I already had left when you called.",
+      "I left had already when you called.",
+      "Already I had left when you called."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "They had ___ the house when it started raining.",
+    "correct_answer": "left",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "She had ___ such beautiful scenery before.",
+    "correct_answer": "seen",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Which correctly uses past perfect to show sequence?",
+    "correct_answer": "I had eaten breakfast before going to work.",
+    "choices": [
+      "I ate breakfast and went to work.",
+      "I had eaten breakfast before going to work.",
+      "I had eaten breakfast when I went to work.",
+      "I would have eaten breakfast before going to work."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "___ you completed your work by then?",
+    "correct_answer": "Had",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Choose the correct past perfect with an irregular verb.",
+    "correct_answer": "She had gone to the store.",
+    "choices": [
+      "She had went to the store.",
+      "She had gone to the store.",
+      "She had go to the store.",
+      "She has gone to the store."
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "By the time we arrived, everyone had ___.",
+    "correct_answer": "left",
+    "choices": null
+  }
+]

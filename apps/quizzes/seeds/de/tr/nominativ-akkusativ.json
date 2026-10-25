@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich sehe den Mann.",
+    "correct_answer": "Ben erkek adamı görüyorum.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Kind kauft einen Apfel.",
+    "correct_answer": "Çocuk bir elma satın alıyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Frau trinkt das Wasser nicht.",
+    "correct_answer": "Kadın suyu içmiyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wen liebst du?",
+    "correct_answer": "Sen kimi seviyorsun?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Junge findet das Buch.",
+    "correct_answer": "Erkek çocuk kitabı buluyor.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ben bir kitap okuyorum.",
+    "correct_answer": "Ich lese ein Buch.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "O erkek adamı tanıyor.",
+    "correct_answer": "Er kennt den Mann.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Kız bir elma yiyor.",
+    "correct_answer": "Das Mädchen isst einen Apfel.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Annem çayı içmiyor.",
+    "correct_answer": "Meine Mutter trinkt keinen Tee.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Evi görüyorsunuz mu?",
+    "correct_answer": "Seht ihr das Haus?",
+    "choices": null
+  }
+]

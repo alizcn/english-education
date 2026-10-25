@@ -1,0 +1,134 @@
+[
+  {
+    "question_type": "fill_blank",
+    "prompt": "L'homme ___ habite ici est mon voisin.",
+    "correct_answer": "qui",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Le livre ___ tu lis est intéressant.",
+    "correct_answer": "que",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "C'est un problème ___ nous parlons depuis longtemps.",
+    "correct_answer": "dont",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "La ville ___ elle habite est petite.",
+    "correct_answer": "où",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: 'La fille ___ tu vois est mon amie.'",
+    "correct_answer": "que",
+    "choices": [
+      "qui",
+      "que",
+      "dont",
+      "où"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Les enfants ___ jouent dehors sont joyeux.",
+    "correct_answer": "qui",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel pronom relatif complète? 'C'est une personne ___ on a besoin.'",
+    "correct_answer": "dont",
+    "choices": [
+      "qui",
+      "que",
+      "dont",
+      "où"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Le café ___ nous travaillons n'est pas cher.",
+    "correct_answer": "où",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Voici l'aide ___ j'ai besoin.",
+    "correct_answer": "dont",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: 'L'arbre ___ est devant la maison est très vieux.'",
+    "correct_answer": "qui",
+    "choices": [
+      "qui",
+      "que",
+      "dont",
+      "où"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "C'est l'endroit ___ nous nous sommes rencontrés.",
+    "correct_answer": "où",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel pronom complète? 'Les amis ___ je ne vois jamais sont gentils.'",
+    "correct_answer": "que",
+    "choices": [
+      "qui",
+      "que",
+      "dont",
+      "où"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "La fille ___ tu aimes habite ici.",
+    "correct_answer": "que",
+    "choices": null
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "C'est un projet ___ nous ne sommes pas fiers.",
+    "correct_answer": "dont",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Complétez: 'La personne ___ vient demain est mon ami.'",
+    "correct_answer": "qui",
+    "choices": [
+      "dont",
+      "qui",
+      "que",
+      "où"
+    ]
+  },
+  {
+    "question_type": "fill_blank",
+    "prompt": "Le jour ___ j'ai échoué était terrible.",
+    "correct_answer": "où",
+    "choices": null
+  },
+  {
+    "question_type": "multiple_choice",
+    "prompt": "Quel pronom complète? 'C'est une qualité ___ elle est très fière.'",
+    "correct_answer": "dont",
+    "choices": [
+      "qui",
+      "dont",
+      "que",
+      "où"
+    ]
+  }
+]

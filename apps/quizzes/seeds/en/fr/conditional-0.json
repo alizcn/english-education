@@ -1,0 +1,86 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you heat water to 100°C, it boils.",
+    "correct_answer": "Si tu chauffes l'eau à 100°C, elle bout.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si tu ne bois pas d'eau, tu as soif.",
+    "correct_answer": "If you don't drink water, you get thirsty.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If she doesn't study, she fails the test.",
+    "correct_answer": "Si elle n'étudie pas, elle échoue l'examen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si vous pratiquez tous les jours, vous progressez.",
+    "correct_answer": "If you practice every day, you improve.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If the sun shines, the snow melts.",
+    "correct_answer": "Si le soleil brille, la neige fond.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si tu ajoutes du sel à l'eau, elle a un goût salé.",
+    "correct_answer": "If you add salt to water, it tastes salty.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If the temperature drops below zero, the roads get dangerous.",
+    "correct_answer": "Si la température descend en dessous de zéro, les routes deviennent dangereuses.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si tu mixes du rouge et du bleu, tu obtiens du violet.",
+    "correct_answer": "If you mix red and blue, you get purple.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you press the doorbell, it rings.",
+    "correct_answer": "Si tu appuies sur la sonnette, elle sonne.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si tu ne dors pas assez, tu es fatigué.",
+    "correct_answer": "If you don't sleep enough, you are tired.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Do you feel hungry if you skip breakfast?",
+    "correct_answer": "As-tu faim si tu sautes le petit-déjeuner?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si elle arrive en retard, elle manque le début de la réunion.",
+    "correct_answer": "If she arrives late, she misses the beginning of the meeting.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "If you don't exercise, your health doesn't improve.",
+    "correct_answer": "Si tu ne fais pas d'exercice, ta santé ne s'améliore pas.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Si les enfants ne mangent pas bien, ils ne grandissent pas correctement.",
+    "correct_answer": "If children don't eat well, they don't grow properly.",
+    "choices": null
+  }
+]

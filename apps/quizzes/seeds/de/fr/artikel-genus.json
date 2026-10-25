@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Mann trinkt einen Kaffee.",
+    "correct_answer": "L'homme boit un café.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "La femme lit un livre.",
+    "correct_answer": "Die Frau liest ein Buch.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Katze schläft nicht.",
+    "correct_answer": "Le chat ne dort pas.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "L'enfant ne joue pas au parc.",
+    "correct_answer": "Das Kind spielt nicht im Park.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Haus ist groß.",
+    "correct_answer": "La maison est grande.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Le chien est brun.",
+    "correct_answer": "Der Hund ist braun.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Mann trinkt keinen Kaffee.",
+    "correct_answer": "L'homme ne boit pas de café.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je vois la porte.",
+    "correct_answer": "Ich sehe die Tür.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Die Lampe leuchtet nicht.",
+    "correct_answer": "La lampe ne brille pas.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Veux-tu einen Apfel?",
+    "correct_answer": "Willst du einen Apfel?",
+    "choices": null
+  }
+]

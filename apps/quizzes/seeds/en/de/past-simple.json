@@ -1,0 +1,98 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I went to the store yesterday.",
+    "correct_answer": "Ich bin gestern ins Geschäft gegangen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She didn't watch the movie.",
+    "correct_answer": "Sie hat sich den Film nicht angesehen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Did you eat breakfast?",
+    "correct_answer": "Hast du Frühstück gegessen?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "He worked in Berlin for three years.",
+    "correct_answer": "Er hat drei Jahre lang in Berlin gearbeitet.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "They played football last weekend.",
+    "correct_answer": "Sie haben letztes Wochenende Fußball gespielt.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "I didn't go to school.",
+    "correct_answer": "Ich bin nicht zur Schule gegangen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Did they find the keys?",
+    "correct_answer": "Haben sie die Schlüssel gefunden?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "She was very happy.",
+    "correct_answer": "Sie war sehr glücklich.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich aß gestern Pizza.",
+    "correct_answer": "I ate pizza yesterday.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Er machte das nicht.",
+    "correct_answer": "He didn't do that.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Hattest du Zeit?",
+    "correct_answer": "Did you have time?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Wir besuchten unsere Großeltern.",
+    "correct_answer": "We visited our grandparents.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Das Wetter war kalt.",
+    "correct_answer": "The weather was cold.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Sie lebte in München für zehn Jahre.",
+    "correct_answer": "She lived in Munich for ten years.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Gingen sie zur Party?",
+    "correct_answer": "Did they go to the party?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ich verstand das Buch nicht.",
+    "correct_answer": "I didn't understand the book.",
+    "choices": null
+  }
+]

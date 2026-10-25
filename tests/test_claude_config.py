@@ -1,9 +1,4 @@
 import unittest
-import sys
-from pathlib import Path
-
-ROOT = Path('/root/apps/english-education')
-sys.path.insert(0, str(ROOT))
 
 import config.settings as settings
 
@@ -26,7 +21,3 @@ class ClaudeConfigTests(unittest.TestCase):
         # uzun JSON yanıtlarını yarıda kestirir.
         self.assertGreaterEqual(settings.CLAUDE_MAX_TOKENS, 8000)
         self.assertGreaterEqual(settings.CLAUDE_CHAT_MAX_TOKENS, 1000)
-
-
-if __name__ == '__main__':
-    unittest.main()

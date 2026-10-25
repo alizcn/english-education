@@ -1,0 +1,74 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Ich lebe in Berlin.",
+    "correct_answer": "Je vis à Berlin.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Das Kind schläft gerade.",
+    "correct_answer": "L'enfant dort maintenant.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Wir verstehen die Frage nicht.",
+    "correct_answer": "Nous ne comprenons pas la question.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Fahrt ihr mit dem Zug?",
+    "correct_answer": "Voyagez-vous en train?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Der Zug fährt um 9 Uhr ab.",
+    "correct_answer": "Le train part à 9 heures.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Trinkst du Kaffee?",
+    "correct_answer": "Bois-tu du café?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Je mange une pomme.",
+    "correct_answer": "Ich esse einen Apfel.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Ils ne vont pas à l'école.",
+    "correct_answer": "Sie gehen nicht zur Schule.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Tu parles allemand?",
+    "correct_answer": "Sprichst du Deutsch?",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Nous jouons au football chaque jour.",
+    "correct_answer": "Wir spielen jeden Tag Fußball.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Elle boit un café.",
+    "correct_answer": "Sie trinkt einen Kaffee.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Vous travaillez ici?",
+    "correct_answer": "Arbeiten Sie hier?",
+    "choices": null
+  }
+]

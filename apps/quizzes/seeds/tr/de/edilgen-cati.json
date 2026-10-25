@@ -1,0 +1,62 @@
+[
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Türkçeyi Almancaya çevirin: Kapı her sabah açılır.",
+    "correct_answer": "Die Tür wird jeden Morgen geöffnet.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Türkçeyi Almancaya çevirin: Mektep saat 3'te kapatılacak.",
+    "correct_answer": "Die Schule wird um 3 Uhr geschlossen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Türkçeyi Almancaya çevirin: Yemek hızlı yenildi.",
+    "correct_answer": "Das Essen wurde schnell gegessen.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Türkçeyi Almancaya çevirin: Bu kitap çok okunmuştur.",
+    "correct_answer": "Dieses Buch ist viel gelesen worden.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_native",
+    "prompt": "Türkçeyi Almancaya çevirin: Kapı açılmıyor.",
+    "correct_answer": "Die Tür wird nicht geöffnet.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Almancayı Türkçeye çevirin: Das Fenster wurde zerbrochen.",
+    "correct_answer": "Pencere kırıldı.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Almancayı Türkçeye çevirin: Der Brief wird morgen geschrieben.",
+    "correct_answer": "Mektup yarın yazılacak.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Almancayı Türkçeye çevirin: Das Haus wird heute nicht gebaut.",
+    "correct_answer": "Ev bugün inşa edilmeyecek.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Almancayı Türkçeye çevirin: Die Spiele wurden heute gespielt.",
+    "correct_answer": "Oyunlar bugün oynanmıştır.",
+    "choices": null
+  },
+  {
+    "question_type": "translate_to_target",
+    "prompt": "Almancayı Türkçeye çevirin: Das Spiel wurde nicht gewonnen.",
+    "correct_answer": "Oyun kazanılmadı.",
+    "choices": null
+  }
+]
