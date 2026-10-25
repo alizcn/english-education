@@ -1,0 +1,45 @@
+# LevelEnAI
+
+> LevelEnAI is a free AI-powered language learning platform for Turkish speakers learning English (and other languages).
+
+## Features
+
+- Grammar topics with detailed explanations (A1–C2)
+- Vocabulary lists organized by CEFR level (6,000+ words)
+- AI-powered interview practice (job-specific question generation)
+- AI conversation chat
+- Personal word bank and quiz engine
+
+## Public Content (no login required)
+
+- /english-grammar/ — English grammar topics
+- /english-vocabulary/ — English vocabulary by CEFR level (A1–C2)
+- /english-interview-questions/ — English interview question categories
+- /german-grammar/ — German grammar topics
+- /french-grammar/ — French grammar topics
+- /turkish-grammar/ — Turkish grammar topics
+- /learn-english/ — English learning landing page
+- /learn-german/ — German learning landing page
+- /learn-french/ — French learning landing page
+- /sitemap/ — HTML sitemap
+- /sitemap.xml — XML sitemap
+
+## Language Support
+
+- Interface languages: Turkish (default), English, German, French
+- Learnable languages: English, German, French, Turkish
+
+## Crawling
+
+AI crawlers are welcome on public content pages. App/personal pages require login and should not be crawled.
+
+Disallow: /chat/ /quiz/ /wordbank/ /interviews/ /words/ /topics/ /accounts/
+
+## Contact
+
+destek@levelenai.com
+
+## License
+
+Vocabulary data: FLELex (CC BY-NC), wordfreq (CC BY-SA 4.0)
+Platform: © 2026 LevelEnAI / Codezzium

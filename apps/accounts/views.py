@@ -1,8 +1,10 @@
 import logging
 
+from django.conf import settings
 from django.contrib import messages
 from django.contrib.auth import login, logout
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.views import LoginView
 from django.shortcuts import redirect, render
 from django.utils.translation import gettext as _
 from django.views.decorators.http import require_http_methods
@@ -11,6 +13,7 @@ from django_ratelimit.exceptions import Ratelimited
 
 from .forms import ProfileForm, SignupForm
 from .models import UserConsent
+from .utils import verify_turnstile
 
 logger = logging.getLogger(__name__)
 
@@ -20,6 +23,19 @@ def _client_ip(request) -> str:
     if xff:
         return xff.split(',')[0].strip()
     return request.META.get('REMOTE_ADDR', '') or ''
+
+
+class TurnstileLoginView(LoginView):
+    """Turnstile doğrulaması eklenmiş giriş view'ı."""
+    template_name = 'accounts/login.html'
+
+    def post(self, request, *args, **kwargs):
+        if getattr(settings, 'TURNSTILE_SECRET_KEY', ''):
+            token = request.POST.get('cf-turnstile-response', '')
+            if not verify_turnstile(token, _client_ip(request)):
+                messages.error(request, _('Güvenlik doğrulaması başarısız. Lütfen tekrar deneyin.'))
+                return redirect('accounts:login')
+        return super().post(request, *args, **kwargs)
 
 
 @ratelimit(key='ip', rate='10/h', method='POST', block=False)
@@ -33,6 +49,10 @@ def signup(request):
 
     if request.method == 'POST':
         form = SignupForm(request.POST)
+        token = request.POST.get('cf-turnstile-response', '')
+        if not verify_turnstile(token, _client_ip(request)):
+            messages.error(request, _('Güvenlik doğrulaması başarısız. Lütfen tekrar deneyin.'))
+            return render(request, 'accounts/signup.html', {'form': form})
         if form.is_valid():
             user = form.save()
             UserConsent.objects.create(

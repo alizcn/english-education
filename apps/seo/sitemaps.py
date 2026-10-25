@@ -50,6 +50,8 @@ class StaticViewSitemap(BaseSitemap):
         'seo:interview_index': 0.9,
         'seo:html_sitemap': 0.3,
         'seo:licenses': 0.2,
+        'seo:privacy_policy': 0.2,
+        'seo:terms_of_service': 0.2,
         'dashboard:install_guide': 0.4,
         'accounts:signup': 0.6,
     }

@@ -40,6 +40,9 @@
     {% if form.kvkk_consent.errors %}
         <small style="color:var(--danger);">{{ form.kvkk_consent.errors|join:" " }}</small>
     {% endif %}
+    {% if seo.turnstile_site_key %}
+    <div class="cf-turnstile" data-sitekey="{{ seo.turnstile_site_key }}" data-theme="auto" style="margin-bottom:0.75rem;"></div>
+    {% endif %}
     <button type="submit" class="btn btn-lg btn-block">{% trans "Hesap oluştur" %}</button>
 </form>
 <p class="text-center mt-2 muted">

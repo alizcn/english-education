@@ -1,0 +1,103 @@
+{% extends 'seo/_public_base.html' %}
+{% load i18n %}
+{% block full_title %}{% trans "Kullanım Koşulları" %} | LevelEnAI{% endblock %}
+{% block meta_description %}{% trans "LevelEnAI kullanım koşulları: hizmet kuralları, kullanıcı yükümlülükleri ve sorumluluk sınırlamaları." %}{% endblock %}
+{% block breadcrumb %}
+<span aria-hidden="true"> › </span>
+<span>{% trans "Kullanım Koşulları" %}</span>
+{% endblock %}
+{% block public_content %}
+<article class="pub-article" style="max-width:720px;">
+    <h1>{% trans "Kullanım Koşulları" %}</h1>
+    <p class="muted" style="margin-bottom:2rem;">{% trans "Son güncelleme: Ekim 2026" %}</p>
+
+    <p>
+        {% blocktrans trimmed %}
+        LevelEnAI'yi kullanarak bu Kullanım Koşulları'nı kabul etmiş sayılırsınız.
+        Koşulları kabul etmiyorsanız lütfen hizmeti kullanmayın.
+        {% endblocktrans %}
+    </p>
+
+    <h2>{% trans "1. Hizmet Tanımı" %}</h2>
+    <p>
+        {% blocktrans trimmed %}
+        LevelEnAI, yapay zeka destekli yabancı dil öğrenim platformudur. Kelime çalışması,
+        gramer içerikleri, AI destekli mülakat pratiği ve sohbet özellikleri sunar.
+        Temel özellikler ücretsizdir.
+        {% endblocktrans %}
+    </p>
+
+    <h2>{% trans "2. Hesap Oluşturma" %}</h2>
+    <ul>
+        <li>{% trans "18 yaşın altındaysanız ebeveyn/vasi onayı gereklidir." %}</li>
+        <li>{% trans "Gerçek ve güncel bilgi sağlamakla yükümlüsünüz." %}</li>
+        <li>{% trans "Hesap güvenliğinizden siz sorumlusunuz." %}</li>
+        <li>{% trans "Bir kişi yalnızca bir hesap oluşturabilir." %}</li>
+    </ul>
+
+    <h2>{% trans "3. Kabul Edilemez Kullanım" %}</h2>
+    <p>{% trans "Aşağıdaki eylemler kesinlikle yasaktır:" %}</p>
+    <ul>
+        <li>{% trans "Hizmetin otomatik araçlarla (bot, scraper) sistematik kullanımı" %}</li>
+        <li>{% trans "Kötüye kullanım, spam veya zararlı içerik üretimi" %}</li>
+        <li>{% trans "Başkalarının kimlik bilgilerini ele geçirmeye çalışmak" %}</li>
+        <li>{% trans "Sistemin güvenliğini test etmek veya aşmaya çalışmak" %}</li>
+        <li>{% trans "Hizmetin ticari olarak yeniden satılması veya kopyalanması" %}</li>
+    </ul>
+
+    <h2>{% trans "4. AI İçerikleri" %}</h2>
+    <p>
+        {% blocktrans trimmed %}
+        Yapay zeka tarafından üretilen mülakat soruları, gramer açıklamaları ve sohbet yanıtları
+        bilgilendirme amaçlıdır. Hatalı veya yanıltıcı içerik üretebilir; kritik kararlarınızda
+        uzman görüşü alınız. LevelEnAI, AI çıktılarının doğruluğunu garanti etmez.
+        {% endblocktrans %}
+    </p>
+
+    <h2>{% trans "5. Fikri Mülkiyet" %}</h2>
+    {% url 'seo:licenses' as licenses_url %}
+    <p>
+        {% blocktrans trimmed with url=licenses_url %}
+        Platform tasarımı, arayüzü ve özgün içerikleri LevelEnAI / Codezzium'a aittir.
+        Kelime listeleri FLELex (CC BY-NC) ve wordfreq (CC BY-SA 4.0) lisansları altındadır
+        — ayrıntılar için <a href="{{ url }}">Kaynaklar</a> sayfasını inceleyiniz.
+        {% endblocktrans %}
+    </p>
+
+    <h2>{% trans "6. Hizmet Kesintileri" %}</h2>
+    <p>
+        {% blocktrans trimmed %}
+        LevelEnAI, bakım, güncelleme veya teknik sorunlar nedeniyle zaman zaman erişilemez hale
+        gelebilir. Hizmet kesintilerinden doğacak kayıplardan sorumluluk kabul edilmez.
+        {% endblocktrans %}
+    </p>
+
+    <h2>{% trans "7. Hesap Sonlandırma" %}</h2>
+    <p>
+        {% blocktrans trimmed %}
+        Bu koşulları ihlal eden hesaplar bildirimde bulunulmaksızın askıya alınabilir veya
+        silinebilir. Hesabınızı dilediğiniz zaman profil ayarlarından "Hesabı Sil" seçeneğiyle
+        siz de silebilirsiniz.
+        {% endblocktrans %}
+    </p>
+
+    <h2>{% trans "8. Sorumluluk Sınırlaması" %}</h2>
+    <p>
+        {% blocktrans trimmed %}
+        LevelEnAI, doğrudan veya dolaylı zararlar için azami yasal sınırlar dahilinde sorumludur.
+        Platform, "olduğu gibi" sunulmaktadır.
+        {% endblocktrans %}
+    </p>
+
+    <h2>{% trans "9. Uygulanacak Hukuk" %}</h2>
+    <p>{% trans "Bu koşullar Türkiye Cumhuriyeti hukukuna tabidir. Anlaşmazlıklar Türk mahkemelerinde çözümlenir." %}</p>
+
+    <h2>{% trans "10. İletişim" %}</h2>
+    <p>
+        {% blocktrans trimmed %}
+        Sorularınız için <a href="mailto:destek@levelenai.com">destek@levelenai.com</a>
+        adresine ulaşabilirsiniz.
+        {% endblocktrans %}
+    </p>
+</article>
+{% endblock %}

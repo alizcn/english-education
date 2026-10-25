@@ -31,6 +31,37 @@ Disallow: /levelenai-admin/
 Disallow: /*?next=
 Disallow: /*?q=
 
-# Yapay zekâ tarayıcıları için ayrı bir kısıt yok; içerik açık kalsın.
+# Yapay zekâ tarayıcıları — halka açık içerik izinli, uygulama içi alanlar kapalı
+User-agent: GPT-Bot
+User-agent: Claude-Web
+User-agent: claudebot
+User-agent: PerplexityBot
+User-agent: CCBot
+User-agent: Applebot-Extended
+User-agent: Google-Extended
+Allow: /$
+{% for prefix in seo.lang_prefixes %}{% if prefix %}Allow: {{ prefix }}/
+{% endif %}{% endfor %}{% for prefix in seo.lang_prefixes %}Allow: {{ prefix }}/english-grammar/
+Allow: {{ prefix }}/english-vocabulary/
+Allow: {{ prefix }}/english-interview-questions/
+Allow: {{ prefix }}/german-grammar/
+Allow: {{ prefix }}/german-vocabulary/
+Allow: {{ prefix }}/french-grammar/
+Allow: {{ prefix }}/french-vocabulary/
+Allow: {{ prefix }}/sitemap/
+Allow: {{ prefix }}/learn-english/
+Allow: {{ prefix }}/learn-german/
+Allow: {{ prefix }}/learn-french/
+Allow: {{ prefix }}/learn-turkish/
+{% endfor %}Allow: /llm.txt
+Allow: /sitemap.xml
+Disallow: /accounts/
+Disallow: /words/
+Disallow: /topics/
+Disallow: /quiz/
+Disallow: /chat/
+Disallow: /wordbank/
+Disallow: /interviews/
+Disallow: /learn/
 
 Sitemap: {{ site_url }}/sitemap.xml

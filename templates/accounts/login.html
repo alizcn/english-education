@@ -18,6 +18,9 @@
         {% trans "Şifre" %}
         <input type="password" name="password" required>
     </label>
+    {% if seo.turnstile_site_key %}
+    <div class="cf-turnstile" data-sitekey="{{ seo.turnstile_site_key }}" data-theme="auto" style="margin-bottom:0.75rem;"></div>
+    {% endif %}
     <button type="submit" class="btn btn-lg btn-block">{% trans "Giriş yap" %}</button>
 </form>
 <p class="text-center mt-2 muted">

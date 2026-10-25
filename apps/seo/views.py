@@ -268,6 +268,29 @@ def robots_txt(request):
     )
 
 
+def llm_txt(request):
+    import os
+    from django.http import Http404, HttpResponse
+    for static_dir in settings.STATICFILES_DIRS:
+        path = os.path.join(str(static_dir), 'llm.txt')
+        if os.path.exists(path):
+            with open(path, encoding='utf-8') as f:
+                return HttpResponse(f.read(), content_type='text/plain; charset=utf-8')
+    raise Http404
+
+
+def privacy_policy(request):
+    return render(request, 'legal/privacy.html', {
+        'target_language': 'en',
+    })
+
+
+def terms_of_service(request):
+    return render(request, 'legal/terms.html', {
+        'target_language': 'en',
+    })
+
+
 # ------------------------------------------------------------------- manifest
 
 def manifest(request):

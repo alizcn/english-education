@@ -1,0 +1,93 @@
+{% extends 'seo/_public_base.html' %}
+{% load i18n %}
+{% block full_title %}{% trans "Gizlilik Politikası" %} | LevelEnAI{% endblock %}
+{% block meta_description %}{% trans "LevelEnAI gizlilik politikası: kişisel verilerinizin nasıl toplandığı, işlendiği ve KVKK kapsamındaki haklarınız." %}{% endblock %}
+{% block breadcrumb %}
+<span aria-hidden="true"> › </span>
+<span>{% trans "Gizlilik Politikası" %}</span>
+{% endblock %}
+{% block public_content %}
+<article class="pub-article" style="max-width:720px;">
+    <h1>{% trans "Gizlilik Politikası" %}</h1>
+    <p class="muted" style="margin-bottom:2rem;">{% trans "Son güncelleme: Ekim 2026" %}</p>
+
+    <p>
+        {% blocktrans trimmed %}
+        LevelEnAI olarak kişisel verilerinizin güvenliğine önem veriyoruz. Bu Gizlilik Politikası,
+        6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve ilgili mevzuat çerçevesinde
+        hangi verilerin toplandığını, nasıl işlendiğini ve haklarınızı açıklar.
+        {% endblocktrans %}
+    </p>
+
+    <h2>{% trans "1. Veri Sorumlusu" %}</h2>
+    <p>
+        {% blocktrans trimmed %}
+        Veri sorumlusu olarak LevelEnAI / Codezzium, hizmetin yürütülmesi amacıyla
+        aşağıda belirtilen kişisel verileri işlemektedir. İletişim:
+        <a href="mailto:destek@levelenai.com">destek@levelenai.com</a>
+        {% endblocktrans %}
+    </p>
+
+    <h2>{% trans "2. Toplanan Veriler" %}</h2>
+    {% include "legal/_kvkk_body.html" %}
+
+    <h2>{% trans "3. Çerez Politikası" %}</h2>
+    <p>
+        {% blocktrans trimmed %}
+        LevelEnAI, aşağıdaki çerez türlerini kullanmaktadır:
+        {% endblocktrans %}
+    </p>
+    <ul>
+        <li><strong>{% trans "Zorunlu çerezler:" %}</strong> {% trans "Oturum yönetimi için gereklidir. Onayınız olmadan çalışır." %}</li>
+        <li><strong>{% trans "Analitik çerezler:" %}</strong> {% trans "Google Analytics (GA4) — yalnızca onayınız durumunda yüklenir. Ziyaretçi davranışını anonim olarak ölçer." %}</li>
+        <li><strong>{% trans "Tercih çerezleri:" %}</strong> {% trans "Tema (açık/koyu) ve dil tercihinizi tarayıcıda saklar." %}</li>
+    </ul>
+    <p>
+        {% blocktrans trimmed %}
+        Tarayıcı ayarlarınızdan çerezleri devre dışı bırakabilirsiniz; ancak bazı özellikler
+        çalışmayabilir.
+        {% endblocktrans %}
+    </p>
+
+    <h2>{% trans "4. Üçüncü Taraf Hizmetler" %}</h2>
+    <ul>
+        <li><strong>Anthropic / Claude API:</strong> {% trans "AI mülakat ve sohbet içerikleri için kullanılır. Yalnızca gerekli içerik paylaşılır." %}</li>
+        <li><strong>Google Analytics 4:</strong> {% trans "Onaylı kullanıcılar için site trafiği ölçümü. Google Gizlilik Politikası geçerlidir." %}</li>
+        <li><strong>Cloudflare:</strong> {% trans "CDN ve güvenlik hizmetleri. Cloudflare Gizlilik Politikası geçerlidir." %}</li>
+    </ul>
+
+    <h2>{% trans "5. Veri Güvenliği" %}</h2>
+    <p>
+        {% blocktrans trimmed %}
+        Verileriniz şifreli bağlantı (HTTPS) üzerinden iletilir ve güvenli sunucularda saklanır.
+        Şifreler tek yönlü şifreleme (hashing) ile korunur; düz metin olarak hiçbir yerde tutulmaz.
+        {% endblocktrans %}
+    </p>
+
+    <h2>{% trans "6. Haklarınız" %}</h2>
+    <p>{% trans "KVKK md. 11 kapsamında:" %}</p>
+    <ul>
+        <li>{% trans "Verilerinizin işlenip işlenmediğini öğrenme" %}</li>
+        <li>{% trans "İşlendiyse bilgi talep etme" %}</li>
+        <li>{% trans "Amacına uygun kullanılıp kullanılmadığını öğrenme" %}</li>
+        <li>{% trans "Eksik/yanlış verilerin düzeltilmesini isteme" %}</li>
+        <li>{% trans "Silinmesini veya yok edilmesini isteme" %}</li>
+        <li>{% trans "İtiraz ve şikayet hakkı" %}</li>
+    </ul>
+    <p>
+        {% blocktrans trimmed %}
+        Talepleriniz için <a href="mailto:destek@levelenai.com">destek@levelenai.com</a>
+        adresine e-posta gönderebilirsiniz. Hesabınızı uygulama içinden
+        "Hesabı Sil" akışıyla da silebilirsiniz.
+        {% endblocktrans %}
+    </p>
+
+    <h2>{% trans "7. Değişiklikler" %}</h2>
+    <p>
+        {% blocktrans trimmed %}
+        Bu politika değiştirildiğinde güncel versiyon bu sayfada yayınlanır. Önemli değişiklikler
+        e-posta ile bildirilir.
+        {% endblocktrans %}
+    </p>
+</article>
+{% endblock %}

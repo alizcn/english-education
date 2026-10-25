@@ -69,6 +69,7 @@ def seo(request):
             'twitter': settings.SEO_TWITTER_HANDLE,
             'google_verification': settings.GOOGLE_SITE_VERIFICATION,
             'ga_id': settings.GA_MEASUREMENT_ID,
+            'turnstile_site_key': getattr(settings, 'TURNSTILE_SITE_KEY', ''),
             # --- dil ekseni ---
             'ui_languages': ui_languages,
             'ui_codes': [item['code'] for item in ui_languages],

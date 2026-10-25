@@ -77,8 +77,12 @@
     {% block json_ld %}{% endblock %}
     {% block extra_head %}{% endblock %}
     {% if seo.ga_id %}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ seo.ga_id }}"></script>
-    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','{{ seo.ga_id }}');</script>
+    <script>
+    (function(){var c=null;try{c=localStorage.getItem('levelenai_cookie_consent');}catch(e){}if(c==='accepted'){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id={{ seo.ga_id }}';document.head.appendChild(s);window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments);};window.gtag('js',new Date());window.gtag('config','{{ seo.ga_id }}');}})();
+    </script>
+    {% endif %}
+    {% if seo.turnstile_site_key %}
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
     {% endif %}
 </head>
 <body class="{% block body_class %}{% endblock %}">
@@ -221,6 +225,9 @@ Kurs değiştirme bağlantısı aynı şeritte, yani değiştirmek tek tık.
     <div class="footer-bottom">
         <small>© 2026 LevelEnAI. {% trans "Tüm hakları saklıdır." %}</small>
         <a href="{% url 'dashboard:install_guide' %}" class="footer-link">📱 {% trans "Uygulamayı Yükle" %}</a>
+        <a href="{% url 'seo:privacy_policy' %}" class="footer-link">{% trans "Gizlilik" %}</a>
+        <a href="{% url 'seo:terms_of_service' %}" class="footer-link">{% trans "Koşullar" %}</a>
+        <a href="mailto:destek@levelenai.com" class="footer-link">destek@levelenai.com</a>
         <div class="codezzium-badge">
             {% trans "Bir" %}
             <img src="{% static 'icons/codezzium-logo.png' %}" alt="Codezzium" width="59" height="18" loading="lazy" decoding="async" style="vertical-align: middle;">
@@ -310,6 +317,49 @@ Kurs değiştirme bağlantısı aynı şeritte, yani değiştirmek tek tık.
 
 </script>
 {% endblock %}
+
+{% comment %}Çerez onay banner'ı — hem uygulama hem auth sayfalarında gösterilmesi için block body dışında{% endcomment %}
+<div id="cookie-banner" hidden
+     style="position:fixed;left:0;right:0;top:0;z-index:9999;background:var(--surface);border-bottom:1px solid var(--border);padding:0.75rem 1rem;display:flex;flex-wrap:wrap;align-items:center;gap:0.5rem 1rem;box-shadow:0 2px 8px rgba(0,0,0,.15);">
+    <span style="flex:1;min-width:200px;font-size:0.875rem;">
+        {% trans "Site deneyimini geliştirmek için analitik çerezler kullanıyoruz." %}
+        <a href="{% url 'seo:privacy_policy' %}" style="white-space:nowrap;">{% trans "Gizlilik Politikası" %}</a>
+    </span>
+    <button id="cookie-accept" class="btn btn-sm">{% trans "Kabul Et" %}</button>
+    <button id="cookie-reject" class="btn btn-sm" style="background:transparent;border:1px solid var(--border);color:var(--text);">{% trans "Reddet" %}</button>
+</div>
+<script>
+(function(){
+    var KEY = 'levelenai_cookie_consent';
+    var banner = document.getElementById('cookie-banner');
+    if (!banner) return;
+    var consent = null;
+    try { consent = localStorage.getItem(KEY); } catch(e) {}
+    if (consent) { banner.remove(); return; }
+    banner.hidden = false;
+    {% if seo.ga_id %}
+    function _loadGA() {
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id={{ seo.ga_id }}';
+        document.head.appendChild(s);
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function(){ dataLayer.push(arguments); };
+        window.gtag('js', new Date());
+        window.gtag('config', '{{ seo.ga_id }}');
+    }
+    {% endif %}
+    document.getElementById('cookie-accept').addEventListener('click', function(){
+        try { localStorage.setItem(KEY, 'accepted'); } catch(e) {}
+        {% if seo.ga_id %}_loadGA();{% endif %}
+        banner.remove();
+    });
+    document.getElementById('cookie-reject').addEventListener('click', function(){
+        try { localStorage.setItem(KEY, 'rejected'); } catch(e) {}
+        banner.remove();
+    });
+})();
+</script>
 
 {% block body_scripts %}{% endblock %}
 <script>

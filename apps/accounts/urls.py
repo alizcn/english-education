@@ -1,5 +1,4 @@
 from django.contrib.auth.views import (
-    LoginView,
     LogoutView,
     PasswordResetCompleteView,
     PasswordResetConfirmView,
@@ -15,7 +14,7 @@ app_name = 'accounts'
 
 _rate_limited_login = ratelimit(
     key='ip', rate='20/h', method='POST', block=False,
-)(LoginView.as_view(template_name='accounts/login.html'))
+)(views.TurnstileLoginView.as_view())
 
 urlpatterns = [
     path('login/', _rate_limited_login, name='login'),

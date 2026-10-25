@@ -128,6 +128,8 @@ SEO_TWITTER_HANDLE = os.getenv('SEO_TWITTER_HANDLE', '')
 # Search Console / Analytics doğrulaması — boşsa etiket hiç basılmaz.
 GOOGLE_SITE_VERIFICATION = os.getenv('GOOGLE_SITE_VERIFICATION', '')
 GA_MEASUREMENT_ID = os.getenv('GA_MEASUREMENT_ID', '')
+TURNSTILE_SITE_KEY = os.getenv('TURNSTILE_SITE_KEY', '')
+TURNSTILE_SECRET_KEY = os.getenv('TURNSTILE_SECRET_KEY', '')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
